@@ -11,7 +11,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 DATA = os.path.join(HERE, "data")
 WEB = os.path.join(HERE, "web")
 
-MENSAJE = ("Hola, buenos días. Me interesa mucho el piso que tenéis publicado ({precio}€). "
+MENSAJE = ("Hola, buenos días. Me interesa el piso. "
            "Soy Paula, 34 años, arquitecta con contrato indefinido y sueldo estable "
            "(unos 2.716 € netos/mes). El piso sería para mí sola; no soy fumadora ni "
            "tengo mascotas. Busco "
