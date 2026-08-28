@@ -14,8 +14,11 @@
   header { position:sticky; top:0; background:#0f1115ee; backdrop-filter:blur(8px); padding:14px 16px; border-bottom:1px solid #262a33; z-index:5; }
   header h1 { margin:0; font-size:19px; }
   header .sub { color:var(--mut); font-size:13px; margin-top:3px; }
+  .filters { display:flex; gap:8px; margin-top:8px; flex-wrap:wrap; }
+  .filters button { background:#20242c; color:var(--tx); border:1px solid #2f3541; border-radius:20px; padding:6px 12px; font-size:12px; cursor:pointer; }
+  .filters button.on { background:var(--acc); color:#03204a; border-color:var(--acc); font-weight:700; }
   .grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(300px,1fr)); gap:14px; padding:16px; max-width:1200px; margin:0 auto; }
-  .card { background:var(--card); border:1px solid #262a33; border-radius:14px; overflow:hidden; display:flex; flex-direction:column; }
+  .card { position:relative; background:var(--card); border:1px solid #262a33; border-radius:14px; overflow:hidden; display:flex; flex-direction:column; }
   .photo { position:relative; display:block; height:180px; background:#20242c; text-decoration:none; }
   .photo img { width:100%; height:100%; object-fit:cover; display:block; }
   .photo .ph { position:absolute; inset:0; display:none; align-items:center; justify-content:center; font-size:46px; opacity:.35; }
@@ -25,1136 +28,1483 @@
   .body h3 { margin:0; font-size:15px; line-height:1.3; }
   .meta { color:var(--mut); font-size:13px; }
   .ag { color:var(--acc); }
-  .actions { display:flex; gap:8px; margin-top:auto; }
+  .actions, .row2 { display:flex; gap:8px; }
   .btn { flex:1; text-align:center; padding:10px; border-radius:9px; border:0; font-size:13px; font-weight:600; cursor:pointer; text-decoration:none; }
   .copy { background:#2a2f3a; color:var(--tx); }
-  .copy.done { background:var(--ok); color:#062616; }
+  .copy.copied { background:var(--ok); color:#062616; }
   .open { background:var(--acc); color:#03204a; }
+  .state { background:#2a2f3a; color:var(--mut); }
+  .descartar { background:#2a2f3a; color:var(--mut); }
+  .nota { width:100%; background:#0f1115; color:var(--tx); border:1px solid #2f3541; border-radius:8px; padding:7px; font-size:12px; resize:vertical; min-height:34px; font-family:inherit; }
+  .like, .hide { position:absolute; top:8px; width:32px; height:32px; border:0; border-radius:50%; background:#0f1115cc; color:#fff; font-size:16px; cursor:pointer; z-index:2; line-height:1; display:flex; align-items:center; justify-content:center; }
+  .like { right:46px; } .hide { right:8px; }
+  .card.liked .like { background:#ff2d55; }
+  .card.done .state { background:var(--ok); color:#062616; }
+  .card.descartado { opacity:.55; }
+  .card.descartado h3 { text-decoration:line-through; }
+  .card.descartado .descartar { background:#7a4a1a; color:#ffd9a8; }
+  .gone-badge { display:none; background:#5a2530; color:#ffb4c0; font-size:11px; font-weight:700; padding:3px 8px; border-radius:6px; width:fit-content; }
+  .card.gone .gone-badge { display:inline-block; }
+  .card.gone { border-color:#5a2530; }
+  .card.gone .photo { opacity:.6; }
   footer { color:var(--mut); text-align:center; padding:24px; font-size:12px; }
   .empty { text-align:center; color:var(--mut); padding:60px 20px; }
-  .card { position:relative; }
-  .like, .hide { position:absolute; top:8px; width:32px; height:32px; border:0; border-radius:50%;
-     background:#0f1115cc; color:#fff; font-size:16px; cursor:pointer; z-index:2; line-height:1;
-     display:flex; align-items:center; justify-content:center; backdrop-filter:blur(3px); }
-  .like { right:46px; }
-  .hide { right:8px; }
-  .like:hover { color:#ff5a7a; }
-  .card.liked .like { background:#ff2d55; color:#fff; }
-  .state { background:#2a2f3a; color:var(--mut); margin-top:2px; }
-  .card.done { opacity:.55; }
-  .card.done .state { background:var(--ok); color:#062616; }
-  .filters { display:flex; gap:8px; margin-top:8px; flex-wrap:wrap; }
-  .filters button { background:#20242c; color:var(--tx); border:1px solid #2f3541; border-radius:20px;
-     padding:6px 12px; font-size:12px; cursor:pointer; }
-  .filters button.on { background:var(--acc); color:#03204a; border-color:var(--acc); font-weight:700; }
 </style>
 </head>
 <body>
 <header>
   <h1>🏠 Pisos en alquiler · Barcelona</h1>
-  <div class="sub">58 pisos · 7 inmobiliarias · ≤1200€ · 1-3 hab · actualizado <b id="upd">recién</b></div>
+  <div class="sub">59 pisos · 7 inmobiliarias · ≤1200€ · 1-3 hab · actualizado <b id="upd">recién</b></div>
   <div class="filters">
     <button id="f-fav">❤️ Solo favoritos</button>
-    <button id="f-hidedone">🙈 Ocultar los que ya hablé</button>
+    <button id="f-done">🙈 Ocultar los que ya hablé</button>
+    <button id="f-desc">🗑️ Ocultar descartados</button>
   </div>
 </header>
 <div class="grid">
     <article class="card" data-url="https://finquesmartell.com/immoble/maragall-pl-2-3-entl-3-barcelona-alquiler-001058-1/">
-      <button class="like" title="Me gusta" data-url="https://finquesmartell.com/immoble/maragall-pl-2-3-entl-3-barcelona-alquiler-001058-1/">♥</button>
-      <button class="hide" title="Quitar de mi lista" data-url="https://finquesmartell.com/immoble/maragall-pl-2-3-entl-3-barcelona-alquiler-001058-1/">✕</button>
+      <button class="like" title="Me gusta">♥</button>
+      <button class="hide" title="Quitar de la vista">✕</button>
       <a class="photo" href="https://finquesmartell.com/immoble/maragall-pl-2-3-entl-3-barcelona-alquiler-001058-1/" target="_blank" rel="noopener"><img loading="lazy" src="https://finquesmartell.com/wp-content/uploads/2026/06/martell-1058-11-2.jpg" alt="" onerror="this.style.display='none';this.parentNode.classList.add('noimg')">
         <span class="ph">🏠</span>
         <span class="price">600€</span>
       </a>
       <div class="body">
+        <span class="gone-badge">⚠️ No disponible en la web</span>
         <h3>Maragall, pl. 2-3 entl 3 BARCELONA-Alquiler-001058/1</h3>
         <div class="meta">3 hab · <span class="ag">Finques Martell</span></div>
         <div class="actions">
-          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de Maragall, pl. 2-3 entl 3 BARCELONA-Alquiler-001058/1 (600€). Soy Paula, 34 años, arquitecta con contrato indefinido y sueldo estable (unos 2.716 € netos/mes). Vivo sola, no fumadora y sin mascotas. Busco alquiler de larga duración; tengo toda la documentación lista y avalista si hiciera falta. ¿Sigue disponible? Me encantaría visitarlo cuando os venga bien. ¡Gracias!">📋 Copiar mensaje</button>
+          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de Maragall, pl. 2-3 entl 3 BARCELONA-Alquiler-001058/1 (600€). Soy Paula, 34 años, arquitecta con contrato indefinido y sueldo estable (unos 2.716 € netos/mes). Vivo sola, no fumadora y sin mascotas. Busco alquiler de larga duración; tengo toda la documentación lista y avalista si hiciera falta. ¿Sigue disponible? Me encantaría visitarlo cuando os venga bien. ¡Gracias! Paula · 633 75 81 50 · paulasalvano258@gmail.com">📋 Copiar mensaje</button>
           <a class="btn open" href="https://finquesmartell.com/immoble/maragall-pl-2-3-entl-3-barcelona-alquiler-001058-1/" target="_blank" rel="noopener">Abrir piso ↗</a>
         </div>
-        <button class="btn state" data-url="https://finquesmartell.com/immoble/maragall-pl-2-3-entl-3-barcelona-alquiler-001058-1/">✅ Ya hablé</button>
+        <div class="row2">
+          <button class="btn state">✅ Ya hablé</button>
+          <button class="btn descartar">🗑️ Descartar</button>
+        </div>
+        <textarea class="nota" placeholder="📝 Tu nota (se guarda sola)..."></textarea>
       </div>
     </article>
 
     <article class="card" data-url="https://www.pisos.com/alquilar/piso-el_raval08001-63384109363_530867/">
-      <button class="like" title="Me gusta" data-url="https://www.pisos.com/alquilar/piso-el_raval08001-63384109363_530867/">♥</button>
-      <button class="hide" title="Quitar de mi lista" data-url="https://www.pisos.com/alquilar/piso-el_raval08001-63384109363_530867/">✕</button>
+      <button class="like" title="Me gusta">♥</button>
+      <button class="hide" title="Quitar de la vista">✕</button>
       <a class="photo" href="https://www.pisos.com/alquilar/piso-el_raval08001-63384109363_530867/" target="_blank" rel="noopener"><img loading="lazy" src="https://fotos.imghs.net/mm-wp/530867/63384109363.530867/530867_63384109363_ae664a64-91b5-48d2-a1dd-666b4394df09.jpg" alt="" onerror="this.style.display='none';this.parentNode.classList.add('noimg')">
         <span class="ph">🏠</span>
         <span class="price">750€</span>
       </a>
       <div class="body">
+        <span class="gone-badge">⚠️ No disponible en la web</span>
         <h3>Piso en Carrer de Pelai</h3>
         <div class="meta">1 hab · <span class="ag">pisos.com</span></div>
         <div class="actions">
-          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de Piso en Carrer de Pelai (750€). Soy Paula, 34 años, arquitecta con contrato indefinido y sueldo estable (unos 2.716 € netos/mes). Vivo sola, no fumadora y sin mascotas. Busco alquiler de larga duración; tengo toda la documentación lista y avalista si hiciera falta. ¿Sigue disponible? Me encantaría visitarlo cuando os venga bien. ¡Gracias!">📋 Copiar mensaje</button>
+          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de Piso en Carrer de Pelai (750€). Soy Paula, 34 años, arquitecta con contrato indefinido y sueldo estable (unos 2.716 € netos/mes). Vivo sola, no fumadora y sin mascotas. Busco alquiler de larga duración; tengo toda la documentación lista y avalista si hiciera falta. ¿Sigue disponible? Me encantaría visitarlo cuando os venga bien. ¡Gracias! Paula · 633 75 81 50 · paulasalvano258@gmail.com">📋 Copiar mensaje</button>
           <a class="btn open" href="https://www.pisos.com/alquilar/piso-el_raval08001-63384109363_530867/" target="_blank" rel="noopener">Abrir piso ↗</a>
         </div>
-        <button class="btn state" data-url="https://www.pisos.com/alquilar/piso-el_raval08001-63384109363_530867/">✅ Ya hablé</button>
+        <div class="row2">
+          <button class="btn state">✅ Ya hablé</button>
+          <button class="btn descartar">🗑️ Descartar</button>
+        </div>
+        <textarea class="nota" placeholder="📝 Tu nota (se guarda sola)..."></textarea>
       </div>
     </article>
 
     <article class="card" data-url="https://www.guinotprunera.com/es/alquiler/ref-31529">
-      <button class="like" title="Me gusta" data-url="https://www.guinotprunera.com/es/alquiler/ref-31529">♥</button>
-      <button class="hide" title="Quitar de mi lista" data-url="https://www.guinotprunera.com/es/alquiler/ref-31529">✕</button>
+      <button class="like" title="Me gusta">♥</button>
+      <button class="hide" title="Quitar de la vista">✕</button>
       <a class="photo" href="https://www.guinotprunera.com/es/alquiler/ref-31529" target="_blank" rel="noopener"><img loading="lazy" src="https://media.mobiliagestion.es/Portals/inmoguinotprunera/Images/31529/27164028.jpg" alt="" onerror="this.style.display='none';this.parentNode.classList.add('noimg')">
         <span class="ph">🏠</span>
         <span class="price">778€</span>
       </a>
       <div class="body">
+        <span class="gone-badge">⚠️ No disponible en la web</span>
         <h3>Sant Andreu de Palomar</h3>
         <div class="meta">· hab n/d · <span class="ag">Guinot Prunera</span></div>
         <div class="actions">
-          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de Sant Andreu de Palomar (778€). Soy Paula, 34 años, arquitecta con contrato indefinido y sueldo estable (unos 2.716 € netos/mes). Vivo sola, no fumadora y sin mascotas. Busco alquiler de larga duración; tengo toda la documentación lista y avalista si hiciera falta. ¿Sigue disponible? Me encantaría visitarlo cuando os venga bien. ¡Gracias!">📋 Copiar mensaje</button>
+          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de Sant Andreu de Palomar (778€). Soy Paula, 34 años, arquitecta con contrato indefinido y sueldo estable (unos 2.716 € netos/mes). Vivo sola, no fumadora y sin mascotas. Busco alquiler de larga duración; tengo toda la documentación lista y avalista si hiciera falta. ¿Sigue disponible? Me encantaría visitarlo cuando os venga bien. ¡Gracias! Paula · 633 75 81 50 · paulasalvano258@gmail.com">📋 Copiar mensaje</button>
           <a class="btn open" href="https://www.guinotprunera.com/es/alquiler/ref-31529" target="_blank" rel="noopener">Abrir piso ↗</a>
         </div>
-        <button class="btn state" data-url="https://www.guinotprunera.com/es/alquiler/ref-31529">✅ Ya hablé</button>
+        <div class="row2">
+          <button class="btn state">✅ Ya hablé</button>
+          <button class="btn descartar">🗑️ Descartar</button>
+        </div>
+        <textarea class="nota" placeholder="📝 Tu nota (se guarda sola)..."></textarea>
       </div>
     </article>
 
     <article class="card" data-url="https://www.guinotprunera.com/es/alquiler/ref-31899">
-      <button class="like" title="Me gusta" data-url="https://www.guinotprunera.com/es/alquiler/ref-31899">♥</button>
-      <button class="hide" title="Quitar de mi lista" data-url="https://www.guinotprunera.com/es/alquiler/ref-31899">✕</button>
+      <button class="like" title="Me gusta">♥</button>
+      <button class="hide" title="Quitar de la vista">✕</button>
       <a class="photo" href="https://www.guinotprunera.com/es/alquiler/ref-31899" target="_blank" rel="noopener"><img loading="lazy" src="https://media.mobiliagestion.es/Portals/inmoguinotprunera/Images/31899/28100223.jpg" alt="" onerror="this.style.display='none';this.parentNode.classList.add('noimg')">
         <span class="ph">🏠</span>
         <span class="price">787€</span>
       </a>
       <div class="body">
+        <span class="gone-badge">⚠️ No disponible en la web</span>
         <h3>L&#x27;Antiga Esquerra de L&#x27;Eixample</h3>
         <div class="meta">· hab n/d · <span class="ag">Guinot Prunera</span></div>
         <div class="actions">
-          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de L&amp;#x27;Antiga Esquerra de L&amp;#x27;Eixample (787€). Soy Paula, 34 años, arquitecta con contrato indefinido y sueldo estable (unos 2.716 € netos/mes). Vivo sola, no fumadora y sin mascotas. Busco alquiler de larga duración; tengo toda la documentación lista y avalista si hiciera falta. ¿Sigue disponible? Me encantaría visitarlo cuando os venga bien. ¡Gracias!">📋 Copiar mensaje</button>
+          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de L&amp;#x27;Antiga Esquerra de L&amp;#x27;Eixample (787€). Soy Paula, 34 años, arquitecta con contrato indefinido y sueldo estable (unos 2.716 € netos/mes). Vivo sola, no fumadora y sin mascotas. Busco alquiler de larga duración; tengo toda la documentación lista y avalista si hiciera falta. ¿Sigue disponible? Me encantaría visitarlo cuando os venga bien. ¡Gracias! Paula · 633 75 81 50 · paulasalvano258@gmail.com">📋 Copiar mensaje</button>
           <a class="btn open" href="https://www.guinotprunera.com/es/alquiler/ref-31899" target="_blank" rel="noopener">Abrir piso ↗</a>
         </div>
-        <button class="btn state" data-url="https://www.guinotprunera.com/es/alquiler/ref-31899">✅ Ya hablé</button>
+        <div class="row2">
+          <button class="btn state">✅ Ya hablé</button>
+          <button class="btn descartar">🗑️ Descartar</button>
+        </div>
+        <textarea class="nota" placeholder="📝 Tu nota (se guarda sola)..."></textarea>
       </div>
     </article>
 
     <article class="card" data-url="https://www.pisos.com/alquilar/piso-eixample_sant_antoni08015-52590344526_500843/">
-      <button class="like" title="Me gusta" data-url="https://www.pisos.com/alquilar/piso-eixample_sant_antoni08015-52590344526_500843/">♥</button>
-      <button class="hide" title="Quitar de mi lista" data-url="https://www.pisos.com/alquilar/piso-eixample_sant_antoni08015-52590344526_500843/">✕</button>
+      <button class="like" title="Me gusta">♥</button>
+      <button class="hide" title="Quitar de la vista">✕</button>
       <a class="photo" href="https://www.pisos.com/alquilar/piso-eixample_sant_antoni08015-52590344526_500843/" target="_blank" rel="noopener"><img loading="lazy" src="https://fotos.imghs.net/mm-wp/500843/52590344526.500843/500843_52590344526_a79dbeca-a0df-47cd-b730-2b428b5661db.jpg" alt="" onerror="this.style.display='none';this.parentNode.classList.add('noimg')">
         <span class="ph">🏠</span>
         <span class="price">790€</span>
       </a>
       <div class="body">
+        <span class="gone-badge">⚠️ No disponible en la web</span>
         <h3>Piso en Carrer de Manso</h3>
         <div class="meta">1 hab · <span class="ag">pisos.com</span></div>
         <div class="actions">
-          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de Piso en Carrer de Manso (790€). Soy Paula, 34 años, arquitecta con contrato indefinido y sueldo estable (unos 2.716 € netos/mes). Vivo sola, no fumadora y sin mascotas. Busco alquiler de larga duración; tengo toda la documentación lista y avalista si hiciera falta. ¿Sigue disponible? Me encantaría visitarlo cuando os venga bien. ¡Gracias!">📋 Copiar mensaje</button>
+          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de Piso en Carrer de Manso (790€). Soy Paula, 34 años, arquitecta con contrato indefinido y sueldo estable (unos 2.716 € netos/mes). Vivo sola, no fumadora y sin mascotas. Busco alquiler de larga duración; tengo toda la documentación lista y avalista si hiciera falta. ¿Sigue disponible? Me encantaría visitarlo cuando os venga bien. ¡Gracias! Paula · 633 75 81 50 · paulasalvano258@gmail.com">📋 Copiar mensaje</button>
           <a class="btn open" href="https://www.pisos.com/alquilar/piso-eixample_sant_antoni08015-52590344526_500843/" target="_blank" rel="noopener">Abrir piso ↗</a>
         </div>
-        <button class="btn state" data-url="https://www.pisos.com/alquilar/piso-eixample_sant_antoni08015-52590344526_500843/">✅ Ya hablé</button>
+        <div class="row2">
+          <button class="btn state">✅ Ya hablé</button>
+          <button class="btn descartar">🗑️ Descartar</button>
+        </div>
+        <textarea class="nota" placeholder="📝 Tu nota (se guarda sola)..."></textarea>
       </div>
     </article>
 
     <article class="card" data-url="https://www.pisos.com/alquilar/piso-el_barri_gotic08002-63431472689_530867/">
-      <button class="like" title="Me gusta" data-url="https://www.pisos.com/alquilar/piso-el_barri_gotic08002-63431472689_530867/">♥</button>
-      <button class="hide" title="Quitar de mi lista" data-url="https://www.pisos.com/alquilar/piso-el_barri_gotic08002-63431472689_530867/">✕</button>
+      <button class="like" title="Me gusta">♥</button>
+      <button class="hide" title="Quitar de la vista">✕</button>
       <a class="photo" href="https://www.pisos.com/alquilar/piso-el_barri_gotic08002-63431472689_530867/" target="_blank" rel="noopener"><img loading="lazy" src="https://fotos.imghs.net/mm-wp/530867/63431472689.530867/530867_63431472689_22ef6d05-bd02-43f2-9b88-784258c6d243.jpg" alt="" onerror="this.style.display='none';this.parentNode.classList.add('noimg')">
         <span class="ph">🏠</span>
         <span class="price">800€</span>
       </a>
       <div class="body">
+        <span class="gone-badge">⚠️ No disponible en la web</span>
         <h3>Piso en Carrer del Pi</h3>
         <div class="meta">1 hab · <span class="ag">pisos.com</span></div>
         <div class="actions">
-          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de Piso en Carrer del Pi (800€). Soy Paula, 34 años, arquitecta con contrato indefinido y sueldo estable (unos 2.716 € netos/mes). Vivo sola, no fumadora y sin mascotas. Busco alquiler de larga duración; tengo toda la documentación lista y avalista si hiciera falta. ¿Sigue disponible? Me encantaría visitarlo cuando os venga bien. ¡Gracias!">📋 Copiar mensaje</button>
+          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de Piso en Carrer del Pi (800€). Soy Paula, 34 años, arquitecta con contrato indefinido y sueldo estable (unos 2.716 € netos/mes). Vivo sola, no fumadora y sin mascotas. Busco alquiler de larga duración; tengo toda la documentación lista y avalista si hiciera falta. ¿Sigue disponible? Me encantaría visitarlo cuando os venga bien. ¡Gracias! Paula · 633 75 81 50 · paulasalvano258@gmail.com">📋 Copiar mensaje</button>
           <a class="btn open" href="https://www.pisos.com/alquilar/piso-el_barri_gotic08002-63431472689_530867/" target="_blank" rel="noopener">Abrir piso ↗</a>
         </div>
-        <button class="btn state" data-url="https://www.pisos.com/alquilar/piso-el_barri_gotic08002-63431472689_530867/">✅ Ya hablé</button>
+        <div class="row2">
+          <button class="btn state">✅ Ya hablé</button>
+          <button class="btn descartar">🗑️ Descartar</button>
+        </div>
+        <textarea class="nota" placeholder="📝 Tu nota (se guarda sola)..."></textarea>
       </div>
     </article>
 
     <article class="card" data-url="https://www.pisos.com/alquilar/piso-sants_montjuic_hostafrancs08014-63420332110_530867/">
-      <button class="like" title="Me gusta" data-url="https://www.pisos.com/alquilar/piso-sants_montjuic_hostafrancs08014-63420332110_530867/">♥</button>
-      <button class="hide" title="Quitar de mi lista" data-url="https://www.pisos.com/alquilar/piso-sants_montjuic_hostafrancs08014-63420332110_530867/">✕</button>
+      <button class="like" title="Me gusta">♥</button>
+      <button class="hide" title="Quitar de la vista">✕</button>
       <a class="photo" href="https://www.pisos.com/alquilar/piso-sants_montjuic_hostafrancs08014-63420332110_530867/" target="_blank" rel="noopener"><img loading="lazy" src="https://fotos.imghs.net/mm-wp/530867/63420332110.530867/530867_63420332110_84494247-3ab8-4f56-8771-bbbcbd77633f.jpg" alt="" onerror="this.style.display='none';this.parentNode.classList.add('noimg')">
         <span class="ph">🏠</span>
         <span class="price">800€</span>
       </a>
       <div class="body">
+        <span class="gone-badge">⚠️ No disponible en la web</span>
         <h3>Piso en Carrer de Mallorca</h3>
         <div class="meta">1 hab · <span class="ag">pisos.com</span></div>
         <div class="actions">
-          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de Piso en Carrer de Mallorca (800€). Soy Paula, 34 años, arquitecta con contrato indefinido y sueldo estable (unos 2.716 € netos/mes). Vivo sola, no fumadora y sin mascotas. Busco alquiler de larga duración; tengo toda la documentación lista y avalista si hiciera falta. ¿Sigue disponible? Me encantaría visitarlo cuando os venga bien. ¡Gracias!">📋 Copiar mensaje</button>
+          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de Piso en Carrer de Mallorca (800€). Soy Paula, 34 años, arquitecta con contrato indefinido y sueldo estable (unos 2.716 € netos/mes). Vivo sola, no fumadora y sin mascotas. Busco alquiler de larga duración; tengo toda la documentación lista y avalista si hiciera falta. ¿Sigue disponible? Me encantaría visitarlo cuando os venga bien. ¡Gracias! Paula · 633 75 81 50 · paulasalvano258@gmail.com">📋 Copiar mensaje</button>
           <a class="btn open" href="https://www.pisos.com/alquilar/piso-sants_montjuic_hostafrancs08014-63420332110_530867/" target="_blank" rel="noopener">Abrir piso ↗</a>
         </div>
-        <button class="btn state" data-url="https://www.pisos.com/alquilar/piso-sants_montjuic_hostafrancs08014-63420332110_530867/">✅ Ya hablé</button>
+        <div class="row2">
+          <button class="btn state">✅ Ya hablé</button>
+          <button class="btn descartar">🗑️ Descartar</button>
+        </div>
+        <textarea class="nota" placeholder="📝 Tu nota (se guarda sola)..."></textarea>
       </div>
     </article>
 
     <article class="card" data-url="https://finquesmartell.com/immoble/arc-de-sant-sever-l-barcelona-alquiler-001999-1/">
-      <button class="like" title="Me gusta" data-url="https://finquesmartell.com/immoble/arc-de-sant-sever-l-barcelona-alquiler-001999-1/">♥</button>
-      <button class="hide" title="Quitar de mi lista" data-url="https://finquesmartell.com/immoble/arc-de-sant-sever-l-barcelona-alquiler-001999-1/">✕</button>
+      <button class="like" title="Me gusta">♥</button>
+      <button class="hide" title="Quitar de la vista">✕</button>
       <a class="photo" href="https://finquesmartell.com/immoble/arc-de-sant-sever-l-barcelona-alquiler-001999-1/" target="_blank" rel="noopener"><img loading="lazy" src="https://finquesmartell.com/wp-content/uploads/2026/08/martell-1999-12.jpg" alt="" onerror="this.style.display='none';this.parentNode.classList.add('noimg')">
         <span class="ph">🏠</span>
         <span class="price">820€</span>
       </a>
       <div class="body">
+        <span class="gone-badge">⚠️ No disponible en la web</span>
         <h3>ARC DE SANT SEVER (L’) BARCELONA-Alquiler-001999/1</h3>
         <div class="meta">2 hab · <span class="ag">Finques Martell</span></div>
         <div class="actions">
-          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de ARC DE SANT SEVER (L’) BARCELONA-Alquiler-001999/1 (820€). Soy Paula, 34 años, arquitecta con contrato indefinido y sueldo estable (unos 2.716 € netos/mes). Vivo sola, no fumadora y sin mascotas. Busco alquiler de larga duración; tengo toda la documentación lista y avalista si hiciera falta. ¿Sigue disponible? Me encantaría visitarlo cuando os venga bien. ¡Gracias!">📋 Copiar mensaje</button>
+          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de ARC DE SANT SEVER (L’) BARCELONA-Alquiler-001999/1 (820€). Soy Paula, 34 años, arquitecta con contrato indefinido y sueldo estable (unos 2.716 € netos/mes). Vivo sola, no fumadora y sin mascotas. Busco alquiler de larga duración; tengo toda la documentación lista y avalista si hiciera falta. ¿Sigue disponible? Me encantaría visitarlo cuando os venga bien. ¡Gracias! Paula · 633 75 81 50 · paulasalvano258@gmail.com">📋 Copiar mensaje</button>
           <a class="btn open" href="https://finquesmartell.com/immoble/arc-de-sant-sever-l-barcelona-alquiler-001999-1/" target="_blank" rel="noopener">Abrir piso ↗</a>
         </div>
-        <button class="btn state" data-url="https://finquesmartell.com/immoble/arc-de-sant-sever-l-barcelona-alquiler-001999-1/">✅ Ya hablé</button>
+        <div class="row2">
+          <button class="btn state">✅ Ya hablé</button>
+          <button class="btn descartar">🗑️ Descartar</button>
+        </div>
+        <textarea class="nota" placeholder="📝 Tu nota (se guarda sola)..."></textarea>
       </div>
     </article>
 
     <article class="card" data-url="https://www.pisos.com/alquilar/estudio-eixample_sant_antoni08011-63382254620_530867/">
-      <button class="like" title="Me gusta" data-url="https://www.pisos.com/alquilar/estudio-eixample_sant_antoni08011-63382254620_530867/">♥</button>
-      <button class="hide" title="Quitar de mi lista" data-url="https://www.pisos.com/alquilar/estudio-eixample_sant_antoni08011-63382254620_530867/">✕</button>
+      <button class="like" title="Me gusta">♥</button>
+      <button class="hide" title="Quitar de la vista">✕</button>
       <a class="photo" href="https://www.pisos.com/alquilar/estudio-eixample_sant_antoni08011-63382254620_530867/" target="_blank" rel="noopener"><img loading="lazy" src="https://fotos.imghs.net/mm-wp/530867/63382254620.530867/530867_63382254620_9c9ce48c-0b49-47ef-8643-0ed44fab3256.jpg" alt="" onerror="this.style.display='none';this.parentNode.classList.add('noimg')">
         <span class="ph">🏠</span>
         <span class="price">820€</span>
       </a>
       <div class="body">
+        <span class="gone-badge">⚠️ No disponible en la web</span>
         <h3>Estudio en Carrer de Casanova</h3>
         <div class="meta">· hab n/d · <span class="ag">pisos.com</span></div>
         <div class="actions">
-          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de Estudio en Carrer de Casanova (820€). Soy Paula, 34 años, arquitecta con contrato indefinido y sueldo estable (unos 2.716 € netos/mes). Vivo sola, no fumadora y sin mascotas. Busco alquiler de larga duración; tengo toda la documentación lista y avalista si hiciera falta. ¿Sigue disponible? Me encantaría visitarlo cuando os venga bien. ¡Gracias!">📋 Copiar mensaje</button>
+          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de Estudio en Carrer de Casanova (820€). Soy Paula, 34 años, arquitecta con contrato indefinido y sueldo estable (unos 2.716 € netos/mes). Vivo sola, no fumadora y sin mascotas. Busco alquiler de larga duración; tengo toda la documentación lista y avalista si hiciera falta. ¿Sigue disponible? Me encantaría visitarlo cuando os venga bien. ¡Gracias! Paula · 633 75 81 50 · paulasalvano258@gmail.com">📋 Copiar mensaje</button>
           <a class="btn open" href="https://www.pisos.com/alquilar/estudio-eixample_sant_antoni08011-63382254620_530867/" target="_blank" rel="noopener">Abrir piso ↗</a>
         </div>
-        <button class="btn state" data-url="https://www.pisos.com/alquilar/estudio-eixample_sant_antoni08011-63382254620_530867/">✅ Ya hablé</button>
+        <div class="row2">
+          <button class="btn state">✅ Ya hablé</button>
+          <button class="btn descartar">🗑️ Descartar</button>
+        </div>
+        <textarea class="nota" placeholder="📝 Tu nota (se guarda sola)..."></textarea>
+      </div>
+    </article>
+
+    <article class="card" data-url="https://www.pisos.com/alquilar/piso-sant_andreu_barrio08030-681514049_500843/">
+      <button class="like" title="Me gusta">♥</button>
+      <button class="hide" title="Quitar de la vista">✕</button>
+      <a class="photo" href="https://www.pisos.com/alquilar/piso-sant_andreu_barrio08030-681514049_500843/" target="_blank" rel="noopener"><img loading="lazy" src="https://fotos.imghs.net/mm-wp/500843/681514049.500843/500843_681514049_13_20240502105735553.jpg" alt="" onerror="this.style.display='none';this.parentNode.classList.add('noimg')">
+        <span class="ph">🏠</span>
+        <span class="price">842€</span>
+      </a>
+      <div class="body">
+        <span class="gone-badge">⚠️ No disponible en la web</span>
+        <h3>Piso en Passeig de Torras i Bages</h3>
+        <div class="meta">1 hab · <span class="ag">pisos.com</span></div>
+        <div class="actions">
+          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de Piso en Passeig de Torras i Bages (842€). Soy Paula, 34 años, arquitecta con contrato indefinido y sueldo estable (unos 2.716 € netos/mes). Vivo sola, no fumadora y sin mascotas. Busco alquiler de larga duración; tengo toda la documentación lista y avalista si hiciera falta. ¿Sigue disponible? Me encantaría visitarlo cuando os venga bien. ¡Gracias! Paula · 633 75 81 50 · paulasalvano258@gmail.com">📋 Copiar mensaje</button>
+          <a class="btn open" href="https://www.pisos.com/alquilar/piso-sant_andreu_barrio08030-681514049_500843/" target="_blank" rel="noopener">Abrir piso ↗</a>
+        </div>
+        <div class="row2">
+          <button class="btn state">✅ Ya hablé</button>
+          <button class="btn descartar">🗑️ Descartar</button>
+        </div>
+        <textarea class="nota" placeholder="📝 Tu nota (se guarda sola)..."></textarea>
       </div>
     </article>
 
     <article class="card" data-url="https://www.finquesfeliu.es/es/node/13324">
-      <button class="like" title="Me gusta" data-url="https://www.finquesfeliu.es/es/node/13324">♥</button>
-      <button class="hide" title="Quitar de mi lista" data-url="https://www.finquesfeliu.es/es/node/13324">✕</button>
+      <button class="like" title="Me gusta">♥</button>
+      <button class="hide" title="Quitar de la vista">✕</button>
       <a class="photo" href="https://www.finquesfeliu.es/es/node/13324" target="_blank" rel="noopener"><img loading="lazy" src="https://www.finquesfeliu.es/sites/default/files/styles/flexslider_full/public/2026-07/4693_1_1784310308.jpg?itok=jsmpBcrr" alt="" onerror="this.style.display='none';this.parentNode.classList.add('noimg')">
         <span class="ph">🏠</span>
         <span class="price">850€</span>
       </a>
       <div class="body">
+        <span class="gone-badge">⚠️ No disponible en la web</span>
         <h3>ENRIC GRANADOS</h3>
         <div class="meta">· hab n/d · <span class="ag">Finques Feliu</span></div>
         <div class="actions">
-          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de ENRIC GRANADOS (850€). Soy Paula, 34 años, arquitecta con contrato indefinido y sueldo estable (unos 2.716 € netos/mes). Vivo sola, no fumadora y sin mascotas. Busco alquiler de larga duración; tengo toda la documentación lista y avalista si hiciera falta. ¿Sigue disponible? Me encantaría visitarlo cuando os venga bien. ¡Gracias!">📋 Copiar mensaje</button>
+          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de ENRIC GRANADOS (850€). Soy Paula, 34 años, arquitecta con contrato indefinido y sueldo estable (unos 2.716 € netos/mes). Vivo sola, no fumadora y sin mascotas. Busco alquiler de larga duración; tengo toda la documentación lista y avalista si hiciera falta. ¿Sigue disponible? Me encantaría visitarlo cuando os venga bien. ¡Gracias! Paula · 633 75 81 50 · paulasalvano258@gmail.com">📋 Copiar mensaje</button>
           <a class="btn open" href="https://www.finquesfeliu.es/es/node/13324" target="_blank" rel="noopener">Abrir piso ↗</a>
         </div>
-        <button class="btn state" data-url="https://www.finquesfeliu.es/es/node/13324">✅ Ya hablé</button>
+        <div class="row2">
+          <button class="btn state">✅ Ya hablé</button>
+          <button class="btn descartar">🗑️ Descartar</button>
+        </div>
+        <textarea class="nota" placeholder="📝 Tu nota (se guarda sola)..."></textarea>
       </div>
     </article>
 
     <article class="card" data-url="https://www.pisos.com/alquilar/estudio-el_barri_gotic08002-66740388412_518209/">
-      <button class="like" title="Me gusta" data-url="https://www.pisos.com/alquilar/estudio-el_barri_gotic08002-66740388412_518209/">♥</button>
-      <button class="hide" title="Quitar de mi lista" data-url="https://www.pisos.com/alquilar/estudio-el_barri_gotic08002-66740388412_518209/">✕</button>
+      <button class="like" title="Me gusta">♥</button>
+      <button class="hide" title="Quitar de la vista">✕</button>
       <a class="photo" href="https://www.pisos.com/alquilar/estudio-el_barri_gotic08002-66740388412_518209/" target="_blank" rel="noopener"><img loading="lazy" src="https://fotos.imghs.net/mm-wp/518209/66740388412.518209/518209_66740388412_1_20260821153247555.jpg" alt="" onerror="this.style.display='none';this.parentNode.classList.add('noimg')">
         <span class="ph">🏠</span>
         <span class="price">850€</span>
       </a>
       <div class="body">
+        <span class="gone-badge">⚠️ No disponible en la web</span>
         <h3>Estudio en Carrer de Perot lo Lladre</h3>
         <div class="meta">1 hab · <span class="ag">pisos.com</span></div>
         <div class="actions">
-          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de Estudio en Carrer de Perot lo Lladre (850€). Soy Paula, 34 años, arquitecta con contrato indefinido y sueldo estable (unos 2.716 € netos/mes). Vivo sola, no fumadora y sin mascotas. Busco alquiler de larga duración; tengo toda la documentación lista y avalista si hiciera falta. ¿Sigue disponible? Me encantaría visitarlo cuando os venga bien. ¡Gracias!">📋 Copiar mensaje</button>
+          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de Estudio en Carrer de Perot lo Lladre (850€). Soy Paula, 34 años, arquitecta con contrato indefinido y sueldo estable (unos 2.716 € netos/mes). Vivo sola, no fumadora y sin mascotas. Busco alquiler de larga duración; tengo toda la documentación lista y avalista si hiciera falta. ¿Sigue disponible? Me encantaría visitarlo cuando os venga bien. ¡Gracias! Paula · 633 75 81 50 · paulasalvano258@gmail.com">📋 Copiar mensaje</button>
           <a class="btn open" href="https://www.pisos.com/alquilar/estudio-el_barri_gotic08002-66740388412_518209/" target="_blank" rel="noopener">Abrir piso ↗</a>
         </div>
-        <button class="btn state" data-url="https://www.pisos.com/alquilar/estudio-el_barri_gotic08002-66740388412_518209/">✅ Ya hablé</button>
+        <div class="row2">
+          <button class="btn state">✅ Ya hablé</button>
+          <button class="btn descartar">🗑️ Descartar</button>
+        </div>
+        <textarea class="nota" placeholder="📝 Tu nota (se guarda sola)..."></textarea>
       </div>
     </article>
 
     <article class="card" data-url="https://www.pisos.com/alquilar/piso-el_congres_els_indians08027-63378468377_530867/">
-      <button class="like" title="Me gusta" data-url="https://www.pisos.com/alquilar/piso-el_congres_els_indians08027-63378468377_530867/">♥</button>
-      <button class="hide" title="Quitar de mi lista" data-url="https://www.pisos.com/alquilar/piso-el_congres_els_indians08027-63378468377_530867/">✕</button>
+      <button class="like" title="Me gusta">♥</button>
+      <button class="hide" title="Quitar de la vista">✕</button>
       <a class="photo" href="https://www.pisos.com/alquilar/piso-el_congres_els_indians08027-63378468377_530867/" target="_blank" rel="noopener"><img loading="lazy" src="https://fotos.imghs.net/mm-wp/530867/63378468377.530867/530867_63378468377_b909d67a-d00e-4a8c-ba9a-57b51b7aac01.jpg" alt="" onerror="this.style.display='none';this.parentNode.classList.add('noimg')">
         <span class="ph">🏠</span>
         <span class="price">850€</span>
       </a>
       <div class="body">
+        <span class="gone-badge">⚠️ No disponible en la web</span>
         <h3>Piso en Carrer de Puerto Príncipe</h3>
         <div class="meta">1 hab · <span class="ag">pisos.com</span></div>
         <div class="actions">
-          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de Piso en Carrer de Puerto Príncipe (850€). Soy Paula, 34 años, arquitecta con contrato indefinido y sueldo estable (unos 2.716 € netos/mes). Vivo sola, no fumadora y sin mascotas. Busco alquiler de larga duración; tengo toda la documentación lista y avalista si hiciera falta. ¿Sigue disponible? Me encantaría visitarlo cuando os venga bien. ¡Gracias!">📋 Copiar mensaje</button>
+          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de Piso en Carrer de Puerto Príncipe (850€). Soy Paula, 34 años, arquitecta con contrato indefinido y sueldo estable (unos 2.716 € netos/mes). Vivo sola, no fumadora y sin mascotas. Busco alquiler de larga duración; tengo toda la documentación lista y avalista si hiciera falta. ¿Sigue disponible? Me encantaría visitarlo cuando os venga bien. ¡Gracias! Paula · 633 75 81 50 · paulasalvano258@gmail.com">📋 Copiar mensaje</button>
           <a class="btn open" href="https://www.pisos.com/alquilar/piso-el_congres_els_indians08027-63378468377_530867/" target="_blank" rel="noopener">Abrir piso ↗</a>
         </div>
-        <button class="btn state" data-url="https://www.pisos.com/alquilar/piso-el_congres_els_indians08027-63378468377_530867/">✅ Ya hablé</button>
+        <div class="row2">
+          <button class="btn state">✅ Ya hablé</button>
+          <button class="btn descartar">🗑️ Descartar</button>
+        </div>
+        <textarea class="nota" placeholder="📝 Tu nota (se guarda sola)..."></textarea>
       </div>
     </article>
 
     <article class="card" data-url="https://www.pisos.com/alquilar/piso-el_poble_sec08004-60051110553_531896/">
-      <button class="like" title="Me gusta" data-url="https://www.pisos.com/alquilar/piso-el_poble_sec08004-60051110553_531896/">♥</button>
-      <button class="hide" title="Quitar de mi lista" data-url="https://www.pisos.com/alquilar/piso-el_poble_sec08004-60051110553_531896/">✕</button>
+      <button class="like" title="Me gusta">♥</button>
+      <button class="hide" title="Quitar de la vista">✕</button>
       <a class="photo" href="https://www.pisos.com/alquilar/piso-el_poble_sec08004-60051110553_531896/" target="_blank" rel="noopener"><img loading="lazy" src="https://fotos.imghs.net/mm-wp/531896/60051110553.531896/531896_60051110553_e809427e-0e08-4060-9100-fc49f623ddb9.jpg" alt="" onerror="this.style.display='none';this.parentNode.classList.add('noimg')">
         <span class="ph">🏠</span>
         <span class="price">850€</span>
       </a>
       <div class="body">
+        <span class="gone-badge">⚠️ No disponible en la web</span>
         <h3>Piso en El Poble-Sec</h3>
         <div class="meta">3 hab · <span class="ag">pisos.com</span></div>
         <div class="actions">
-          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de Piso en El Poble-Sec (850€). Soy Paula, 34 años, arquitecta con contrato indefinido y sueldo estable (unos 2.716 € netos/mes). Vivo sola, no fumadora y sin mascotas. Busco alquiler de larga duración; tengo toda la documentación lista y avalista si hiciera falta. ¿Sigue disponible? Me encantaría visitarlo cuando os venga bien. ¡Gracias!">📋 Copiar mensaje</button>
+          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de Piso en El Poble-Sec (850€). Soy Paula, 34 años, arquitecta con contrato indefinido y sueldo estable (unos 2.716 € netos/mes). Vivo sola, no fumadora y sin mascotas. Busco alquiler de larga duración; tengo toda la documentación lista y avalista si hiciera falta. ¿Sigue disponible? Me encantaría visitarlo cuando os venga bien. ¡Gracias! Paula · 633 75 81 50 · paulasalvano258@gmail.com">📋 Copiar mensaje</button>
           <a class="btn open" href="https://www.pisos.com/alquilar/piso-el_poble_sec08004-60051110553_531896/" target="_blank" rel="noopener">Abrir piso ↗</a>
         </div>
-        <button class="btn state" data-url="https://www.pisos.com/alquilar/piso-el_poble_sec08004-60051110553_531896/">✅ Ya hablé</button>
+        <div class="row2">
+          <button class="btn state">✅ Ya hablé</button>
+          <button class="btn descartar">🗑️ Descartar</button>
+        </div>
+        <textarea class="nota" placeholder="📝 Tu nota (se guarda sola)..."></textarea>
       </div>
     </article>
 
     <article class="card" data-url="https://www.pisos.com/alquilar/estudio-la_maternitat_sant_ramon08028-66756596734_104700/">
-      <button class="like" title="Me gusta" data-url="https://www.pisos.com/alquilar/estudio-la_maternitat_sant_ramon08028-66756596734_104700/">♥</button>
-      <button class="hide" title="Quitar de mi lista" data-url="https://www.pisos.com/alquilar/estudio-la_maternitat_sant_ramon08028-66756596734_104700/">✕</button>
+      <button class="like" title="Me gusta">♥</button>
+      <button class="hide" title="Quitar de la vista">✕</button>
       <a class="photo" href="https://www.pisos.com/alquilar/estudio-la_maternitat_sant_ramon08028-66756596734_104700/" target="_blank" rel="noopener"><img loading="lazy" src="https://fotos.imghs.net/mm-wp/1047/3230323630383139/9a2478d4-b473-4326-8035-caa1ecbee527.jpg" alt="" onerror="this.style.display='none';this.parentNode.classList.add('noimg')">
         <span class="ph">🏠</span>
         <span class="price">850€</span>
       </a>
       <div class="body">
+        <span class="gone-badge">⚠️ No disponible en la web</span>
         <h3>Estudio en La Maternitat-Sant Ramon</h3>
         <div class="meta">· hab n/d · <span class="ag">pisos.com</span></div>
         <div class="actions">
-          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de Estudio en La Maternitat-Sant Ramon (850€). Soy Paula, 34 años, arquitecta con contrato indefinido y sueldo estable (unos 2.716 € netos/mes). Vivo sola, no fumadora y sin mascotas. Busco alquiler de larga duración; tengo toda la documentación lista y avalista si hiciera falta. ¿Sigue disponible? Me encantaría visitarlo cuando os venga bien. ¡Gracias!">📋 Copiar mensaje</button>
+          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de Estudio en La Maternitat-Sant Ramon (850€). Soy Paula, 34 años, arquitecta con contrato indefinido y sueldo estable (unos 2.716 € netos/mes). Vivo sola, no fumadora y sin mascotas. Busco alquiler de larga duración; tengo toda la documentación lista y avalista si hiciera falta. ¿Sigue disponible? Me encantaría visitarlo cuando os venga bien. ¡Gracias! Paula · 633 75 81 50 · paulasalvano258@gmail.com">📋 Copiar mensaje</button>
           <a class="btn open" href="https://www.pisos.com/alquilar/estudio-la_maternitat_sant_ramon08028-66756596734_104700/" target="_blank" rel="noopener">Abrir piso ↗</a>
         </div>
-        <button class="btn state" data-url="https://www.pisos.com/alquilar/estudio-la_maternitat_sant_ramon08028-66756596734_104700/">✅ Ya hablé</button>
+        <div class="row2">
+          <button class="btn state">✅ Ya hablé</button>
+          <button class="btn descartar">🗑️ Descartar</button>
+        </div>
+        <textarea class="nota" placeholder="📝 Tu nota (se guarda sola)..."></textarea>
       </div>
     </article>
 
     <article class="card" data-url="https://www.pisos.com/alquilar/estudio-sants_montjuic-55881201129_104700/">
-      <button class="like" title="Me gusta" data-url="https://www.pisos.com/alquilar/estudio-sants_montjuic-55881201129_104700/">♥</button>
-      <button class="hide" title="Quitar de mi lista" data-url="https://www.pisos.com/alquilar/estudio-sants_montjuic-55881201129_104700/">✕</button>
+      <button class="like" title="Me gusta">♥</button>
+      <button class="hide" title="Quitar de la vista">✕</button>
       <a class="photo" href="https://www.pisos.com/alquilar/estudio-sants_montjuic-55881201129_104700/" target="_blank" rel="noopener"><img loading="lazy" src="https://fotos.imghs.net/mm-wp/1047/938/1047_422938_1_2025072709074612201.jpg" alt="" onerror="this.style.display='none';this.parentNode.classList.add('noimg')">
         <span class="ph">🏠</span>
         <span class="price">850€</span>
       </a>
       <div class="body">
+        <span class="gone-badge">⚠️ No disponible en la web</span>
         <h3>Estudio en Sants-Montjuïc</h3>
         <div class="meta">· hab n/d · <span class="ag">pisos.com</span></div>
         <div class="actions">
-          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de Estudio en Sants-Montjuïc (850€). Soy Paula, 34 años, arquitecta con contrato indefinido y sueldo estable (unos 2.716 € netos/mes). Vivo sola, no fumadora y sin mascotas. Busco alquiler de larga duración; tengo toda la documentación lista y avalista si hiciera falta. ¿Sigue disponible? Me encantaría visitarlo cuando os venga bien. ¡Gracias!">📋 Copiar mensaje</button>
+          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de Estudio en Sants-Montjuïc (850€). Soy Paula, 34 años, arquitecta con contrato indefinido y sueldo estable (unos 2.716 € netos/mes). Vivo sola, no fumadora y sin mascotas. Busco alquiler de larga duración; tengo toda la documentación lista y avalista si hiciera falta. ¿Sigue disponible? Me encantaría visitarlo cuando os venga bien. ¡Gracias! Paula · 633 75 81 50 · paulasalvano258@gmail.com">📋 Copiar mensaje</button>
           <a class="btn open" href="https://www.pisos.com/alquilar/estudio-sants_montjuic-55881201129_104700/" target="_blank" rel="noopener">Abrir piso ↗</a>
         </div>
-        <button class="btn state" data-url="https://www.pisos.com/alquilar/estudio-sants_montjuic-55881201129_104700/">✅ Ya hablé</button>
+        <div class="row2">
+          <button class="btn state">✅ Ya hablé</button>
+          <button class="btn descartar">🗑️ Descartar</button>
+        </div>
+        <textarea class="nota" placeholder="📝 Tu nota (se guarda sola)..."></textarea>
       </div>
     </article>
 
     <article class="card" data-url="https://www.pisos.com/alquilar/piso-barcelona_capital-61709072933_109200/">
-      <button class="like" title="Me gusta" data-url="https://www.pisos.com/alquilar/piso-barcelona_capital-61709072933_109200/">♥</button>
-      <button class="hide" title="Quitar de mi lista" data-url="https://www.pisos.com/alquilar/piso-barcelona_capital-61709072933_109200/">✕</button>
+      <button class="like" title="Me gusta">♥</button>
+      <button class="hide" title="Quitar de la vista">✕</button>
       <a class="photo" href="https://www.pisos.com/alquilar/piso-barcelona_capital-61709072933_109200/" target="_blank" rel="noopener"><img loading="lazy" src="https://fotos.imghs.net/mm-wp/1092/710/1092_EB2-69a230bf4282bed67404d7ea_1_202603240632291235743.jpg" alt="" onerror="this.style.display='none';this.parentNode.classList.add('noimg')">
         <span class="ph">🏠</span>
         <span class="price">850€</span>
       </a>
       <div class="body">
+        <span class="gone-badge">⚠️ No disponible en la web</span>
         <h3>Piso en Barcelona Capital</h3>
         <div class="meta">· hab n/d · <span class="ag">pisos.com</span></div>
         <div class="actions">
-          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de Piso en Barcelona Capital (850€). Soy Paula, 34 años, arquitecta con contrato indefinido y sueldo estable (unos 2.716 € netos/mes). Vivo sola, no fumadora y sin mascotas. Busco alquiler de larga duración; tengo toda la documentación lista y avalista si hiciera falta. ¿Sigue disponible? Me encantaría visitarlo cuando os venga bien. ¡Gracias!">📋 Copiar mensaje</button>
+          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de Piso en Barcelona Capital (850€). Soy Paula, 34 años, arquitecta con contrato indefinido y sueldo estable (unos 2.716 € netos/mes). Vivo sola, no fumadora y sin mascotas. Busco alquiler de larga duración; tengo toda la documentación lista y avalista si hiciera falta. ¿Sigue disponible? Me encantaría visitarlo cuando os venga bien. ¡Gracias! Paula · 633 75 81 50 · paulasalvano258@gmail.com">📋 Copiar mensaje</button>
           <a class="btn open" href="https://www.pisos.com/alquilar/piso-barcelona_capital-61709072933_109200/" target="_blank" rel="noopener">Abrir piso ↗</a>
         </div>
-        <button class="btn state" data-url="https://www.pisos.com/alquilar/piso-barcelona_capital-61709072933_109200/">✅ Ya hablé</button>
+        <div class="row2">
+          <button class="btn state">✅ Ya hablé</button>
+          <button class="btn descartar">🗑️ Descartar</button>
+        </div>
+        <textarea class="nota" placeholder="📝 Tu nota (se guarda sola)..."></textarea>
       </div>
     </article>
 
     <article class="card" data-url="https://www.pisos.com/alquilar/piso-gracia_la_salut08024-66682248054_109200/">
-      <button class="like" title="Me gusta" data-url="https://www.pisos.com/alquilar/piso-gracia_la_salut08024-66682248054_109200/">♥</button>
-      <button class="hide" title="Quitar de mi lista" data-url="https://www.pisos.com/alquilar/piso-gracia_la_salut08024-66682248054_109200/">✕</button>
+      <button class="like" title="Me gusta">♥</button>
+      <button class="hide" title="Quitar de la vista">✕</button>
       <a class="photo" href="https://www.pisos.com/alquilar/piso-gracia_la_salut08024-66682248054_109200/" target="_blank" rel="noopener"><img loading="lazy" src="https://fotos.imghs.net/mm-wp/1092/3230323630383133/97ec88ba-fd4b-4864-be96-8dad5f70a0fd.jpg" alt="" onerror="this.style.display='none';this.parentNode.classList.add('noimg')">
         <span class="ph">🏠</span>
         <span class="price">850€</span>
       </a>
       <div class="body">
+        <span class="gone-badge">⚠️ No disponible en la web</span>
         <h3>Piso en La Salut</h3>
         <div class="meta">· hab n/d · <span class="ag">pisos.com</span></div>
         <div class="actions">
-          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de Piso en La Salut (850€). Soy Paula, 34 años, arquitecta con contrato indefinido y sueldo estable (unos 2.716 € netos/mes). Vivo sola, no fumadora y sin mascotas. Busco alquiler de larga duración; tengo toda la documentación lista y avalista si hiciera falta. ¿Sigue disponible? Me encantaría visitarlo cuando os venga bien. ¡Gracias!">📋 Copiar mensaje</button>
+          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de Piso en La Salut (850€). Soy Paula, 34 años, arquitecta con contrato indefinido y sueldo estable (unos 2.716 € netos/mes). Vivo sola, no fumadora y sin mascotas. Busco alquiler de larga duración; tengo toda la documentación lista y avalista si hiciera falta. ¿Sigue disponible? Me encantaría visitarlo cuando os venga bien. ¡Gracias! Paula · 633 75 81 50 · paulasalvano258@gmail.com">📋 Copiar mensaje</button>
           <a class="btn open" href="https://www.pisos.com/alquilar/piso-gracia_la_salut08024-66682248054_109200/" target="_blank" rel="noopener">Abrir piso ↗</a>
         </div>
-        <button class="btn state" data-url="https://www.pisos.com/alquilar/piso-gracia_la_salut08024-66682248054_109200/">✅ Ya hablé</button>
+        <div class="row2">
+          <button class="btn state">✅ Ya hablé</button>
+          <button class="btn descartar">🗑️ Descartar</button>
+        </div>
+        <textarea class="nota" placeholder="📝 Tu nota (se guarda sola)..."></textarea>
       </div>
     </article>
 
     <article class="card" data-url="https://www.fincasubiergo.com/ca/lloguer/habitatges/barcelona/barcelona/1398">
-      <button class="like" title="Me gusta" data-url="https://www.fincasubiergo.com/ca/lloguer/habitatges/barcelona/barcelona/1398">♥</button>
-      <button class="hide" title="Quitar de mi lista" data-url="https://www.fincasubiergo.com/ca/lloguer/habitatges/barcelona/barcelona/1398">✕</button>
+      <button class="like" title="Me gusta">♥</button>
+      <button class="hide" title="Quitar de la vista">✕</button>
       <a class="photo" href="https://www.fincasubiergo.com/ca/lloguer/habitatges/barcelona/barcelona/1398" target="_blank" rel="noopener"><img loading="lazy" src="https://imagenes.ghestia.cat/images/webs/LIC1403_140518/fotos0/1398/foto_1.jpg" alt="" onerror="this.style.display='none';this.parentNode.classList.add('noimg')">
         <span class="ph">🏠</span>
         <span class="price">855€</span>
       </a>
       <div class="body">
+        <span class="gone-badge">⚠️ No disponible en la web</span>
         <h3>Pis, 53.00 m 2</h3>
         <div class="meta">2 hab · <span class="ag">Fincas Ubiergo</span></div>
         <div class="actions">
-          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de Pis, 53.00 m 2 (855€). Soy Paula, 34 años, arquitecta con contrato indefinido y sueldo estable (unos 2.716 € netos/mes). Vivo sola, no fumadora y sin mascotas. Busco alquiler de larga duración; tengo toda la documentación lista y avalista si hiciera falta. ¿Sigue disponible? Me encantaría visitarlo cuando os venga bien. ¡Gracias!">📋 Copiar mensaje</button>
+          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de Pis, 53.00 m 2 (855€). Soy Paula, 34 años, arquitecta con contrato indefinido y sueldo estable (unos 2.716 € netos/mes). Vivo sola, no fumadora y sin mascotas. Busco alquiler de larga duración; tengo toda la documentación lista y avalista si hiciera falta. ¿Sigue disponible? Me encantaría visitarlo cuando os venga bien. ¡Gracias! Paula · 633 75 81 50 · paulasalvano258@gmail.com">📋 Copiar mensaje</button>
           <a class="btn open" href="https://www.fincasubiergo.com/ca/lloguer/habitatges/barcelona/barcelona/1398" target="_blank" rel="noopener">Abrir piso ↗</a>
         </div>
-        <button class="btn state" data-url="https://www.fincasubiergo.com/ca/lloguer/habitatges/barcelona/barcelona/1398">✅ Ya hablé</button>
+        <div class="row2">
+          <button class="btn state">✅ Ya hablé</button>
+          <button class="btn descartar">🗑️ Descartar</button>
+        </div>
+        <textarea class="nota" placeholder="📝 Tu nota (se guarda sola)..."></textarea>
       </div>
     </article>
 
     <article class="card" data-url="https://inmobiliaria.calvetpremium.com/es/alquiler-pisos-pisos/en-barcelona-barcelona/ref-2556">
-      <button class="like" title="Me gusta" data-url="https://inmobiliaria.calvetpremium.com/es/alquiler-pisos-pisos/en-barcelona-barcelona/ref-2556">♥</button>
-      <button class="hide" title="Quitar de mi lista" data-url="https://inmobiliaria.calvetpremium.com/es/alquiler-pisos-pisos/en-barcelona-barcelona/ref-2556">✕</button>
+      <button class="like" title="Me gusta">♥</button>
+      <button class="hide" title="Quitar de la vista">✕</button>
       <a class="photo" href="https://inmobiliaria.calvetpremium.com/es/alquiler-pisos-pisos/en-barcelona-barcelona/ref-2556" target="_blank" rel="noopener"><img loading="lazy" src="https://media.mobiliagestion.es/Portals/inmocalvet/Images/2556/10333411-large.jpg" alt="" onerror="this.style.display='none';this.parentNode.classList.add('noimg')">
         <span class="ph">🏠</span>
         <span class="price">863€</span>
       </a>
       <div class="body">
+        <span class="gone-badge">⚠️ No disponible en la web</span>
         <h3>Avenida Gaudí - Provença</h3>
         <div class="meta">3 hab · <span class="ag">Calvet</span></div>
         <div class="actions">
-          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de Avenida Gaudí - Provença (863€). Soy Paula, 34 años, arquitecta con contrato indefinido y sueldo estable (unos 2.716 € netos/mes). Vivo sola, no fumadora y sin mascotas. Busco alquiler de larga duración; tengo toda la documentación lista y avalista si hiciera falta. ¿Sigue disponible? Me encantaría visitarlo cuando os venga bien. ¡Gracias!">📋 Copiar mensaje</button>
+          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de Avenida Gaudí - Provença (863€). Soy Paula, 34 años, arquitecta con contrato indefinido y sueldo estable (unos 2.716 € netos/mes). Vivo sola, no fumadora y sin mascotas. Busco alquiler de larga duración; tengo toda la documentación lista y avalista si hiciera falta. ¿Sigue disponible? Me encantaría visitarlo cuando os venga bien. ¡Gracias! Paula · 633 75 81 50 · paulasalvano258@gmail.com">📋 Copiar mensaje</button>
           <a class="btn open" href="https://inmobiliaria.calvetpremium.com/es/alquiler-pisos-pisos/en-barcelona-barcelona/ref-2556" target="_blank" rel="noopener">Abrir piso ↗</a>
         </div>
-        <button class="btn state" data-url="https://inmobiliaria.calvetpremium.com/es/alquiler-pisos-pisos/en-barcelona-barcelona/ref-2556">✅ Ya hablé</button>
+        <div class="row2">
+          <button class="btn state">✅ Ya hablé</button>
+          <button class="btn descartar">🗑️ Descartar</button>
+        </div>
+        <textarea class="nota" placeholder="📝 Tu nota (se guarda sola)..."></textarea>
       </div>
     </article>
 
     <article class="card" data-url="https://www.pisos.com/alquilar/estudio-la_nova_esquerra_de_eixample08015-65885714928_518209/">
-      <button class="like" title="Me gusta" data-url="https://www.pisos.com/alquilar/estudio-la_nova_esquerra_de_eixample08015-65885714928_518209/">♥</button>
-      <button class="hide" title="Quitar de mi lista" data-url="https://www.pisos.com/alquilar/estudio-la_nova_esquerra_de_eixample08015-65885714928_518209/">✕</button>
+      <button class="like" title="Me gusta">♥</button>
+      <button class="hide" title="Quitar de la vista">✕</button>
       <a class="photo" href="https://www.pisos.com/alquilar/estudio-la_nova_esquerra_de_eixample08015-65885714928_518209/" target="_blank" rel="noopener"><img loading="lazy" src="https://fotos.imghs.net/mm-wp/518209/65885714928.518209/518209_65885714928_1_20260717161417516.jpg" alt="" onerror="this.style.display='none';this.parentNode.classList.add('noimg')">
         <span class="ph">🏠</span>
         <span class="price">875€</span>
       </a>
       <div class="body">
+        <span class="gone-badge">⚠️ No disponible en la web</span>
         <h3>Estudio en Carrer d&#x27;Entença</h3>
         <div class="meta">1 hab · <span class="ag">pisos.com</span></div>
         <div class="actions">
-          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de Estudio en Carrer d&amp;#x27;Entença (875€). Soy Paula, 34 años, arquitecta con contrato indefinido y sueldo estable (unos 2.716 € netos/mes). Vivo sola, no fumadora y sin mascotas. Busco alquiler de larga duración; tengo toda la documentación lista y avalista si hiciera falta. ¿Sigue disponible? Me encantaría visitarlo cuando os venga bien. ¡Gracias!">📋 Copiar mensaje</button>
+          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de Estudio en Carrer d&amp;#x27;Entença (875€). Soy Paula, 34 años, arquitecta con contrato indefinido y sueldo estable (unos 2.716 € netos/mes). Vivo sola, no fumadora y sin mascotas. Busco alquiler de larga duración; tengo toda la documentación lista y avalista si hiciera falta. ¿Sigue disponible? Me encantaría visitarlo cuando os venga bien. ¡Gracias! Paula · 633 75 81 50 · paulasalvano258@gmail.com">📋 Copiar mensaje</button>
           <a class="btn open" href="https://www.pisos.com/alquilar/estudio-la_nova_esquerra_de_eixample08015-65885714928_518209/" target="_blank" rel="noopener">Abrir piso ↗</a>
         </div>
-        <button class="btn state" data-url="https://www.pisos.com/alquilar/estudio-la_nova_esquerra_de_eixample08015-65885714928_518209/">✅ Ya hablé</button>
+        <div class="row2">
+          <button class="btn state">✅ Ya hablé</button>
+          <button class="btn descartar">🗑️ Descartar</button>
+        </div>
+        <textarea class="nota" placeholder="📝 Tu nota (se guarda sola)..."></textarea>
       </div>
     </article>
 
     <article class="card" data-url="https://www.fincasubiergo.com/ca/lloguer/habitatges/barcelona/barcelona/1396">
-      <button class="like" title="Me gusta" data-url="https://www.fincasubiergo.com/ca/lloguer/habitatges/barcelona/barcelona/1396">♥</button>
-      <button class="hide" title="Quitar de mi lista" data-url="https://www.fincasubiergo.com/ca/lloguer/habitatges/barcelona/barcelona/1396">✕</button>
+      <button class="like" title="Me gusta">♥</button>
+      <button class="hide" title="Quitar de la vista">✕</button>
       <a class="photo" href="https://www.fincasubiergo.com/ca/lloguer/habitatges/barcelona/barcelona/1396" target="_blank" rel="noopener"><img loading="lazy" src="https://imagenes.ghestia.cat/images/webs/LIC1403_140518/fotos0/1396/foto_1.jpg" alt="" onerror="this.style.display='none';this.parentNode.classList.add('noimg')">
         <span class="ph">🏠</span>
         <span class="price">876€</span>
       </a>
       <div class="body">
+        <span class="gone-badge">⚠️ No disponible en la web</span>
         <h3>Pis, 58.00 m 2</h3>
         <div class="meta">2 hab · <span class="ag">Fincas Ubiergo</span></div>
         <div class="actions">
-          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de Pis, 58.00 m 2 (876€). Soy Paula, 34 años, arquitecta con contrato indefinido y sueldo estable (unos 2.716 € netos/mes). Vivo sola, no fumadora y sin mascotas. Busco alquiler de larga duración; tengo toda la documentación lista y avalista si hiciera falta. ¿Sigue disponible? Me encantaría visitarlo cuando os venga bien. ¡Gracias!">📋 Copiar mensaje</button>
+          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de Pis, 58.00 m 2 (876€). Soy Paula, 34 años, arquitecta con contrato indefinido y sueldo estable (unos 2.716 € netos/mes). Vivo sola, no fumadora y sin mascotas. Busco alquiler de larga duración; tengo toda la documentación lista y avalista si hiciera falta. ¿Sigue disponible? Me encantaría visitarlo cuando os venga bien. ¡Gracias! Paula · 633 75 81 50 · paulasalvano258@gmail.com">📋 Copiar mensaje</button>
           <a class="btn open" href="https://www.fincasubiergo.com/ca/lloguer/habitatges/barcelona/barcelona/1396" target="_blank" rel="noopener">Abrir piso ↗</a>
         </div>
-        <button class="btn state" data-url="https://www.fincasubiergo.com/ca/lloguer/habitatges/barcelona/barcelona/1396">✅ Ya hablé</button>
+        <div class="row2">
+          <button class="btn state">✅ Ya hablé</button>
+          <button class="btn descartar">🗑️ Descartar</button>
+        </div>
+        <textarea class="nota" placeholder="📝 Tu nota (se guarda sola)..."></textarea>
       </div>
     </article>
 
     <article class="card" data-url="https://www.pisos.com/alquilar/estudio-el_poble_sec-66725483372_104700/">
-      <button class="like" title="Me gusta" data-url="https://www.pisos.com/alquilar/estudio-el_poble_sec-66725483372_104700/">♥</button>
-      <button class="hide" title="Quitar de mi lista" data-url="https://www.pisos.com/alquilar/estudio-el_poble_sec-66725483372_104700/">✕</button>
+      <button class="like" title="Me gusta">♥</button>
+      <button class="hide" title="Quitar de la vista">✕</button>
       <a class="photo" href="https://www.pisos.com/alquilar/estudio-el_poble_sec-66725483372_104700/" target="_blank" rel="noopener"><img loading="lazy" src="https://fotos.imghs.net/mm-wp/1047/3230323630383234/461bb1f4-436f-4576-8dbe-b19444f3b035.jpg" alt="" onerror="this.style.display='none';this.parentNode.classList.add('noimg')">
         <span class="ph">🏠</span>
         <span class="price">890€</span>
       </a>
       <div class="body">
+        <span class="gone-badge">⚠️ No disponible en la web</span>
         <h3>Estudio en El Poble-sec</h3>
         <div class="meta">· hab n/d · <span class="ag">pisos.com</span></div>
         <div class="actions">
-          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de Estudio en El Poble-sec (890€). Soy Paula, 34 años, arquitecta con contrato indefinido y sueldo estable (unos 2.716 € netos/mes). Vivo sola, no fumadora y sin mascotas. Busco alquiler de larga duración; tengo toda la documentación lista y avalista si hiciera falta. ¿Sigue disponible? Me encantaría visitarlo cuando os venga bien. ¡Gracias!">📋 Copiar mensaje</button>
+          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de Estudio en El Poble-sec (890€). Soy Paula, 34 años, arquitecta con contrato indefinido y sueldo estable (unos 2.716 € netos/mes). Vivo sola, no fumadora y sin mascotas. Busco alquiler de larga duración; tengo toda la documentación lista y avalista si hiciera falta. ¿Sigue disponible? Me encantaría visitarlo cuando os venga bien. ¡Gracias! Paula · 633 75 81 50 · paulasalvano258@gmail.com">📋 Copiar mensaje</button>
           <a class="btn open" href="https://www.pisos.com/alquilar/estudio-el_poble_sec-66725483372_104700/" target="_blank" rel="noopener">Abrir piso ↗</a>
         </div>
-        <button class="btn state" data-url="https://www.pisos.com/alquilar/estudio-el_poble_sec-66725483372_104700/">✅ Ya hablé</button>
+        <div class="row2">
+          <button class="btn state">✅ Ya hablé</button>
+          <button class="btn descartar">🗑️ Descartar</button>
+        </div>
+        <textarea class="nota" placeholder="📝 Tu nota (se guarda sola)..."></textarea>
       </div>
     </article>
 
     <article class="card" data-url="https://inmobiliaria.calvetpremium.com/es/alquiler-pisos-pisos/en-barcelona-barcelona/ref-4106">
-      <button class="like" title="Me gusta" data-url="https://inmobiliaria.calvetpremium.com/es/alquiler-pisos-pisos/en-barcelona-barcelona/ref-4106">♥</button>
-      <button class="hide" title="Quitar de mi lista" data-url="https://inmobiliaria.calvetpremium.com/es/alquiler-pisos-pisos/en-barcelona-barcelona/ref-4106">✕</button>
+      <button class="like" title="Me gusta">♥</button>
+      <button class="hide" title="Quitar de la vista">✕</button>
       <a class="photo" href="https://inmobiliaria.calvetpremium.com/es/alquiler-pisos-pisos/en-barcelona-barcelona/ref-4106" target="_blank" rel="noopener"><img loading="lazy" src="https://media.mobiliagestion.es/Portals/inmocalvet/Images/4106/28052192-large.jpg" alt="" onerror="this.style.display='none';this.parentNode.classList.add('noimg')">
         <span class="ph">🏠</span>
         <span class="price">900€</span>
       </a>
       <div class="body">
+        <span class="gone-badge">⚠️ No disponible en la web</span>
         <h3>Parlament - Comte Borell</h3>
         <div class="meta">2 hab · <span class="ag">Calvet</span></div>
         <div class="actions">
-          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de Parlament - Comte Borell (900€). Soy Paula, 34 años, arquitecta con contrato indefinido y sueldo estable (unos 2.716 € netos/mes). Vivo sola, no fumadora y sin mascotas. Busco alquiler de larga duración; tengo toda la documentación lista y avalista si hiciera falta. ¿Sigue disponible? Me encantaría visitarlo cuando os venga bien. ¡Gracias!">📋 Copiar mensaje</button>
+          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de Parlament - Comte Borell (900€). Soy Paula, 34 años, arquitecta con contrato indefinido y sueldo estable (unos 2.716 € netos/mes). Vivo sola, no fumadora y sin mascotas. Busco alquiler de larga duración; tengo toda la documentación lista y avalista si hiciera falta. ¿Sigue disponible? Me encantaría visitarlo cuando os venga bien. ¡Gracias! Paula · 633 75 81 50 · paulasalvano258@gmail.com">📋 Copiar mensaje</button>
           <a class="btn open" href="https://inmobiliaria.calvetpremium.com/es/alquiler-pisos-pisos/en-barcelona-barcelona/ref-4106" target="_blank" rel="noopener">Abrir piso ↗</a>
         </div>
-        <button class="btn state" data-url="https://inmobiliaria.calvetpremium.com/es/alquiler-pisos-pisos/en-barcelona-barcelona/ref-4106">✅ Ya hablé</button>
+        <div class="row2">
+          <button class="btn state">✅ Ya hablé</button>
+          <button class="btn descartar">🗑️ Descartar</button>
+        </div>
+        <textarea class="nota" placeholder="📝 Tu nota (se guarda sola)..."></textarea>
       </div>
     </article>
 
     <article class="card" data-url="https://www.pisos.com/alquilar/piso-la_maternitat_sant_ramon-63343839529_530867/">
-      <button class="like" title="Me gusta" data-url="https://www.pisos.com/alquilar/piso-la_maternitat_sant_ramon-63343839529_530867/">♥</button>
-      <button class="hide" title="Quitar de mi lista" data-url="https://www.pisos.com/alquilar/piso-la_maternitat_sant_ramon-63343839529_530867/">✕</button>
+      <button class="like" title="Me gusta">♥</button>
+      <button class="hide" title="Quitar de la vista">✕</button>
       <a class="photo" href="https://www.pisos.com/alquilar/piso-la_maternitat_sant_ramon-63343839529_530867/" target="_blank" rel="noopener"><img loading="lazy" src="https://fotos.imghs.net/mm-wp/530867/63343839529.530867/530867_63343839529_aca93784-5a54-49ca-9a7a-5f37542fe6dd.jpg" alt="" onerror="this.style.display='none';this.parentNode.classList.add('noimg')">
         <span class="ph">🏠</span>
         <span class="price">925€</span>
       </a>
       <div class="body">
+        <span class="gone-badge">⚠️ No disponible en la web</span>
         <h3>Piso en Travessera de les Corts</h3>
         <div class="meta">1 hab · <span class="ag">pisos.com</span></div>
         <div class="actions">
-          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de Piso en Travessera de les Corts (925€). Soy Paula, 34 años, arquitecta con contrato indefinido y sueldo estable (unos 2.716 € netos/mes). Vivo sola, no fumadora y sin mascotas. Busco alquiler de larga duración; tengo toda la documentación lista y avalista si hiciera falta. ¿Sigue disponible? Me encantaría visitarlo cuando os venga bien. ¡Gracias!">📋 Copiar mensaje</button>
+          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de Piso en Travessera de les Corts (925€). Soy Paula, 34 años, arquitecta con contrato indefinido y sueldo estable (unos 2.716 € netos/mes). Vivo sola, no fumadora y sin mascotas. Busco alquiler de larga duración; tengo toda la documentación lista y avalista si hiciera falta. ¿Sigue disponible? Me encantaría visitarlo cuando os venga bien. ¡Gracias! Paula · 633 75 81 50 · paulasalvano258@gmail.com">📋 Copiar mensaje</button>
           <a class="btn open" href="https://www.pisos.com/alquilar/piso-la_maternitat_sant_ramon-63343839529_530867/" target="_blank" rel="noopener">Abrir piso ↗</a>
         </div>
-        <button class="btn state" data-url="https://www.pisos.com/alquilar/piso-la_maternitat_sant_ramon-63343839529_530867/">✅ Ya hablé</button>
+        <div class="row2">
+          <button class="btn state">✅ Ya hablé</button>
+          <button class="btn descartar">🗑️ Descartar</button>
+        </div>
+        <textarea class="nota" placeholder="📝 Tu nota (se guarda sola)..."></textarea>
       </div>
     </article>
 
     <article class="card" data-url="https://www.pisos.com/alquilar/piso-sant_andreu_barrio08030-38372847481_500843/">
-      <button class="like" title="Me gusta" data-url="https://www.pisos.com/alquilar/piso-sant_andreu_barrio08030-38372847481_500843/">♥</button>
-      <button class="hide" title="Quitar de mi lista" data-url="https://www.pisos.com/alquilar/piso-sant_andreu_barrio08030-38372847481_500843/">✕</button>
+      <button class="like" title="Me gusta">♥</button>
+      <button class="hide" title="Quitar de la vista">✕</button>
       <a class="photo" href="https://www.pisos.com/alquilar/piso-sant_andreu_barrio08030-38372847481_500843/" target="_blank" rel="noopener"><img loading="lazy" src="https://fotos.imghs.net/mm-wp/500843/38372847481.500843/500843_38372847481_11_20231003132732027.jpg" alt="" onerror="this.style.display='none';this.parentNode.classList.add('noimg')">
         <span class="ph">🏠</span>
         <span class="price">963€</span>
       </a>
       <div class="body">
+        <span class="gone-badge">⚠️ No disponible en la web</span>
         <h3>Piso en Carrer de la Residència</h3>
         <div class="meta">2 hab · <span class="ag">pisos.com</span></div>
         <div class="actions">
-          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de Piso en Carrer de la Residència (963€). Soy Paula, 34 años, arquitecta con contrato indefinido y sueldo estable (unos 2.716 € netos/mes). Vivo sola, no fumadora y sin mascotas. Busco alquiler de larga duración; tengo toda la documentación lista y avalista si hiciera falta. ¿Sigue disponible? Me encantaría visitarlo cuando os venga bien. ¡Gracias!">📋 Copiar mensaje</button>
+          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de Piso en Carrer de la Residència (963€). Soy Paula, 34 años, arquitecta con contrato indefinido y sueldo estable (unos 2.716 € netos/mes). Vivo sola, no fumadora y sin mascotas. Busco alquiler de larga duración; tengo toda la documentación lista y avalista si hiciera falta. ¿Sigue disponible? Me encantaría visitarlo cuando os venga bien. ¡Gracias! Paula · 633 75 81 50 · paulasalvano258@gmail.com">📋 Copiar mensaje</button>
           <a class="btn open" href="https://www.pisos.com/alquilar/piso-sant_andreu_barrio08030-38372847481_500843/" target="_blank" rel="noopener">Abrir piso ↗</a>
         </div>
-        <button class="btn state" data-url="https://www.pisos.com/alquilar/piso-sant_andreu_barrio08030-38372847481_500843/">✅ Ya hablé</button>
+        <div class="row2">
+          <button class="btn state">✅ Ya hablé</button>
+          <button class="btn descartar">🗑️ Descartar</button>
+        </div>
+        <textarea class="nota" placeholder="📝 Tu nota (se guarda sola)..."></textarea>
       </div>
     </article>
 
     <article class="card" data-url="https://www.pisos.com/alquilar/estudio-la_vila_de_gracia08012-63424964407_530867/">
-      <button class="like" title="Me gusta" data-url="https://www.pisos.com/alquilar/estudio-la_vila_de_gracia08012-63424964407_530867/">♥</button>
-      <button class="hide" title="Quitar de mi lista" data-url="https://www.pisos.com/alquilar/estudio-la_vila_de_gracia08012-63424964407_530867/">✕</button>
+      <button class="like" title="Me gusta">♥</button>
+      <button class="hide" title="Quitar de la vista">✕</button>
       <a class="photo" href="https://www.pisos.com/alquilar/estudio-la_vila_de_gracia08012-63424964407_530867/" target="_blank" rel="noopener"><img loading="lazy" src="https://fotos.imghs.net/mm-wp/530867/63424964407.530867/530867_63424964407_d39df721-627b-45c0-bded-c9fc7e01e2b6.jpg" alt="" onerror="this.style.display='none';this.parentNode.classList.add('noimg')">
         <span class="ph">🏠</span>
         <span class="price">975€</span>
       </a>
       <div class="body">
+        <span class="gone-badge">⚠️ No disponible en la web</span>
         <h3>Estudio en Carrer de Tordera</h3>
         <div class="meta">· hab n/d · <span class="ag">pisos.com</span></div>
         <div class="actions">
-          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de Estudio en Carrer de Tordera (975€). Soy Paula, 34 años, arquitecta con contrato indefinido y sueldo estable (unos 2.716 € netos/mes). Vivo sola, no fumadora y sin mascotas. Busco alquiler de larga duración; tengo toda la documentación lista y avalista si hiciera falta. ¿Sigue disponible? Me encantaría visitarlo cuando os venga bien. ¡Gracias!">📋 Copiar mensaje</button>
+          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de Estudio en Carrer de Tordera (975€). Soy Paula, 34 años, arquitecta con contrato indefinido y sueldo estable (unos 2.716 € netos/mes). Vivo sola, no fumadora y sin mascotas. Busco alquiler de larga duración; tengo toda la documentación lista y avalista si hiciera falta. ¿Sigue disponible? Me encantaría visitarlo cuando os venga bien. ¡Gracias! Paula · 633 75 81 50 · paulasalvano258@gmail.com">📋 Copiar mensaje</button>
           <a class="btn open" href="https://www.pisos.com/alquilar/estudio-la_vila_de_gracia08012-63424964407_530867/" target="_blank" rel="noopener">Abrir piso ↗</a>
         </div>
-        <button class="btn state" data-url="https://www.pisos.com/alquilar/estudio-la_vila_de_gracia08012-63424964407_530867/">✅ Ya hablé</button>
+        <div class="row2">
+          <button class="btn state">✅ Ya hablé</button>
+          <button class="btn descartar">🗑️ Descartar</button>
+        </div>
+        <textarea class="nota" placeholder="📝 Tu nota (se guarda sola)..."></textarea>
       </div>
     </article>
 
     <article class="card" data-url="https://www.pisos.com/alquilar/piso-el_raval-66693944700_104700/">
-      <button class="like" title="Me gusta" data-url="https://www.pisos.com/alquilar/piso-el_raval-66693944700_104700/">♥</button>
-      <button class="hide" title="Quitar de mi lista" data-url="https://www.pisos.com/alquilar/piso-el_raval-66693944700_104700/">✕</button>
+      <button class="like" title="Me gusta">♥</button>
+      <button class="hide" title="Quitar de la vista">✕</button>
       <a class="photo" href="https://www.pisos.com/alquilar/piso-el_raval-66693944700_104700/" target="_blank" rel="noopener"><img loading="lazy" src="https://fotos.imghs.net/mm-wp/1047/3230323630383236/e2258d0a-9bb7-41ed-aaa9-416eaa08bc3e.jpg" alt="" onerror="this.style.display='none';this.parentNode.classList.add('noimg')">
         <span class="ph">🏠</span>
         <span class="price">975€</span>
       </a>
       <div class="body">
+        <span class="gone-badge">⚠️ No disponible en la web</span>
         <h3>Piso en El Raval</h3>
         <div class="meta">1 hab · <span class="ag">pisos.com</span></div>
         <div class="actions">
-          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de Piso en El Raval (975€). Soy Paula, 34 años, arquitecta con contrato indefinido y sueldo estable (unos 2.716 € netos/mes). Vivo sola, no fumadora y sin mascotas. Busco alquiler de larga duración; tengo toda la documentación lista y avalista si hiciera falta. ¿Sigue disponible? Me encantaría visitarlo cuando os venga bien. ¡Gracias!">📋 Copiar mensaje</button>
+          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de Piso en El Raval (975€). Soy Paula, 34 años, arquitecta con contrato indefinido y sueldo estable (unos 2.716 € netos/mes). Vivo sola, no fumadora y sin mascotas. Busco alquiler de larga duración; tengo toda la documentación lista y avalista si hiciera falta. ¿Sigue disponible? Me encantaría visitarlo cuando os venga bien. ¡Gracias! Paula · 633 75 81 50 · paulasalvano258@gmail.com">📋 Copiar mensaje</button>
           <a class="btn open" href="https://www.pisos.com/alquilar/piso-el_raval-66693944700_104700/" target="_blank" rel="noopener">Abrir piso ↗</a>
         </div>
-        <button class="btn state" data-url="https://www.pisos.com/alquilar/piso-el_raval-66693944700_104700/">✅ Ya hablé</button>
+        <div class="row2">
+          <button class="btn state">✅ Ya hablé</button>
+          <button class="btn descartar">🗑️ Descartar</button>
+        </div>
+        <textarea class="nota" placeholder="📝 Tu nota (se guarda sola)..."></textarea>
       </div>
     </article>
 
     <article class="card" data-url="https://www.locabarcelona.com/en/property/nice-1-bedroom-apartment-ideal-for-a-couple/">
-      <button class="like" title="Me gusta" data-url="https://www.locabarcelona.com/en/property/nice-1-bedroom-apartment-ideal-for-a-couple/">♥</button>
-      <button class="hide" title="Quitar de mi lista" data-url="https://www.locabarcelona.com/en/property/nice-1-bedroom-apartment-ideal-for-a-couple/">✕</button>
+      <button class="like" title="Me gusta">♥</button>
+      <button class="hide" title="Quitar de la vista">✕</button>
       <a class="photo" href="https://www.locabarcelona.com/en/property/nice-1-bedroom-apartment-ideal-for-a-couple/" target="_blank" rel="noopener"><img loading="lazy" src="https://www.locabarcelona.com/wp-content/uploads/2021/10/8d9c107f-2f5a-4cf8-b692-4a4cd1e56b0d-23-488x326.jpg" alt="" onerror="this.style.display='none';this.parentNode.classList.add('noimg')">
         <span class="ph">🏠</span>
         <span class="price">985€</span>
       </a>
       <div class="body">
+        <span class="gone-badge">⚠️ No disponible en la web</span>
         <h3>Available now 985€ Nice 1 bedroom apartment ideal for a couple Ciutat vella               </h3>
         <div class="meta">1 hab · <span class="ag">Loca Barcelona</span></div>
         <div class="actions">
-          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de Available now 985€ Nice 1 bedroom apartment ideal for a coup (985€). Soy Paula, 34 años, arquitecta con contrato indefinido y sueldo estable (unos 2.716 € netos/mes). Vivo sola, no fumadora y sin mascotas. Busco alquiler de larga duración; tengo toda la documentación lista y avalista si hiciera falta. ¿Sigue disponible? Me encantaría visitarlo cuando os venga bien. ¡Gracias!">📋 Copiar mensaje</button>
+          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de Available now 985€ Nice 1 bedroom apartment ideal for a coup (985€). Soy Paula, 34 años, arquitecta con contrato indefinido y sueldo estable (unos 2.716 € netos/mes). Vivo sola, no fumadora y sin mascotas. Busco alquiler de larga duración; tengo toda la documentación lista y avalista si hiciera falta. ¿Sigue disponible? Me encantaría visitarlo cuando os venga bien. ¡Gracias! Paula · 633 75 81 50 · paulasalvano258@gmail.com">📋 Copiar mensaje</button>
           <a class="btn open" href="https://www.locabarcelona.com/en/property/nice-1-bedroom-apartment-ideal-for-a-couple/" target="_blank" rel="noopener">Abrir piso ↗</a>
         </div>
-        <button class="btn state" data-url="https://www.locabarcelona.com/en/property/nice-1-bedroom-apartment-ideal-for-a-couple/">✅ Ya hablé</button>
+        <div class="row2">
+          <button class="btn state">✅ Ya hablé</button>
+          <button class="btn descartar">🗑️ Descartar</button>
+        </div>
+        <textarea class="nota" placeholder="📝 Tu nota (se guarda sola)..."></textarea>
       </div>
     </article>
 
     <article class="card" data-url="https://finquesmartell.com/immoble/llobregos-barcelona-alquiler-001525-1/">
-      <button class="like" title="Me gusta" data-url="https://finquesmartell.com/immoble/llobregos-barcelona-alquiler-001525-1/">♥</button>
-      <button class="hide" title="Quitar de mi lista" data-url="https://finquesmartell.com/immoble/llobregos-barcelona-alquiler-001525-1/">✕</button>
+      <button class="like" title="Me gusta">♥</button>
+      <button class="hide" title="Quitar de la vista">✕</button>
       <a class="photo" href="https://finquesmartell.com/immoble/llobregos-barcelona-alquiler-001525-1/" target="_blank" rel="noopener"><img loading="lazy" src="https://finquesmartell.com/wp-content/uploads/2026/08/martell-1525-44.jpg" alt="" onerror="this.style.display='none';this.parentNode.classList.add('noimg')">
         <span class="ph">🏠</span>
         <span class="price">989€</span>
       </a>
       <div class="body">
+        <span class="gone-badge">⚠️ No disponible en la web</span>
         <h3>LLOBREGOS BARCELONA-Alquiler-001525/1</h3>
         <div class="meta">1 hab · <span class="ag">Finques Martell</span></div>
         <div class="actions">
-          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de LLOBREGOS BARCELONA-Alquiler-001525/1 (989€). Soy Paula, 34 años, arquitecta con contrato indefinido y sueldo estable (unos 2.716 € netos/mes). Vivo sola, no fumadora y sin mascotas. Busco alquiler de larga duración; tengo toda la documentación lista y avalista si hiciera falta. ¿Sigue disponible? Me encantaría visitarlo cuando os venga bien. ¡Gracias!">📋 Copiar mensaje</button>
+          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de LLOBREGOS BARCELONA-Alquiler-001525/1 (989€). Soy Paula, 34 años, arquitecta con contrato indefinido y sueldo estable (unos 2.716 € netos/mes). Vivo sola, no fumadora y sin mascotas. Busco alquiler de larga duración; tengo toda la documentación lista y avalista si hiciera falta. ¿Sigue disponible? Me encantaría visitarlo cuando os venga bien. ¡Gracias! Paula · 633 75 81 50 · paulasalvano258@gmail.com">📋 Copiar mensaje</button>
           <a class="btn open" href="https://finquesmartell.com/immoble/llobregos-barcelona-alquiler-001525-1/" target="_blank" rel="noopener">Abrir piso ↗</a>
         </div>
-        <button class="btn state" data-url="https://finquesmartell.com/immoble/llobregos-barcelona-alquiler-001525-1/">✅ Ya hablé</button>
+        <div class="row2">
+          <button class="btn state">✅ Ya hablé</button>
+          <button class="btn descartar">🗑️ Descartar</button>
+        </div>
+        <textarea class="nota" placeholder="📝 Tu nota (se guarda sola)..."></textarea>
       </div>
     </article>
 
     <article class="card" data-url="https://finquesmartell.com/immoble/xifre-barcelona-alquiler-001895-1/">
-      <button class="like" title="Me gusta" data-url="https://finquesmartell.com/immoble/xifre-barcelona-alquiler-001895-1/">♥</button>
-      <button class="hide" title="Quitar de mi lista" data-url="https://finquesmartell.com/immoble/xifre-barcelona-alquiler-001895-1/">✕</button>
+      <button class="like" title="Me gusta">♥</button>
+      <button class="hide" title="Quitar de la vista">✕</button>
       <a class="photo" href="https://finquesmartell.com/immoble/xifre-barcelona-alquiler-001895-1/" target="_blank" rel="noopener"><img loading="lazy" src="https://finquesmartell.com/wp-content/uploads/2026/08/martell-1895-16.jpg" alt="" onerror="this.style.display='none';this.parentNode.classList.add('noimg')">
         <span class="ph">🏠</span>
         <span class="price">990€</span>
       </a>
       <div class="body">
+        <span class="gone-badge">⚠️ No disponible en la web</span>
         <h3>Xifré BARCELONA-Alquiler-001895/1</h3>
         <div class="meta">3 hab · <span class="ag">Finques Martell</span></div>
         <div class="actions">
-          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de Xifré BARCELONA-Alquiler-001895/1 (990€). Soy Paula, 34 años, arquitecta con contrato indefinido y sueldo estable (unos 2.716 € netos/mes). Vivo sola, no fumadora y sin mascotas. Busco alquiler de larga duración; tengo toda la documentación lista y avalista si hiciera falta. ¿Sigue disponible? Me encantaría visitarlo cuando os venga bien. ¡Gracias!">📋 Copiar mensaje</button>
+          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de Xifré BARCELONA-Alquiler-001895/1 (990€). Soy Paula, 34 años, arquitecta con contrato indefinido y sueldo estable (unos 2.716 € netos/mes). Vivo sola, no fumadora y sin mascotas. Busco alquiler de larga duración; tengo toda la documentación lista y avalista si hiciera falta. ¿Sigue disponible? Me encantaría visitarlo cuando os venga bien. ¡Gracias! Paula · 633 75 81 50 · paulasalvano258@gmail.com">📋 Copiar mensaje</button>
           <a class="btn open" href="https://finquesmartell.com/immoble/xifre-barcelona-alquiler-001895-1/" target="_blank" rel="noopener">Abrir piso ↗</a>
         </div>
-        <button class="btn state" data-url="https://finquesmartell.com/immoble/xifre-barcelona-alquiler-001895-1/">✅ Ya hablé</button>
+        <div class="row2">
+          <button class="btn state">✅ Ya hablé</button>
+          <button class="btn descartar">🗑️ Descartar</button>
+        </div>
+        <textarea class="nota" placeholder="📝 Tu nota (se guarda sola)..."></textarea>
       </div>
     </article>
 
     <article class="card" data-url="https://www.pisos.com/alquilar/piso-sant_marti_el_poblenou08005-62598698622_531896/">
-      <button class="like" title="Me gusta" data-url="https://www.pisos.com/alquilar/piso-sant_marti_el_poblenou08005-62598698622_531896/">♥</button>
-      <button class="hide" title="Quitar de mi lista" data-url="https://www.pisos.com/alquilar/piso-sant_marti_el_poblenou08005-62598698622_531896/">✕</button>
+      <button class="like" title="Me gusta">♥</button>
+      <button class="hide" title="Quitar de la vista">✕</button>
       <a class="photo" href="https://www.pisos.com/alquilar/piso-sant_marti_el_poblenou08005-62598698622_531896/" target="_blank" rel="noopener"><img loading="lazy" src="https://fotos.imghs.net/mm-wp/531896/62598698622.531896/531896_62598698622_17fdc477-4520-46f1-8baa-432329857602.jpg" alt="" onerror="this.style.display='none';this.parentNode.classList.add('noimg')">
         <span class="ph">🏠</span>
         <span class="price">990€</span>
       </a>
       <div class="body">
+        <span class="gone-badge">⚠️ No disponible en la web</span>
         <h3>Piso en El Poblenou</h3>
         <div class="meta">3 hab · <span class="ag">pisos.com</span></div>
         <div class="actions">
-          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de Piso en El Poblenou (990€). Soy Paula, 34 años, arquitecta con contrato indefinido y sueldo estable (unos 2.716 € netos/mes). Vivo sola, no fumadora y sin mascotas. Busco alquiler de larga duración; tengo toda la documentación lista y avalista si hiciera falta. ¿Sigue disponible? Me encantaría visitarlo cuando os venga bien. ¡Gracias!">📋 Copiar mensaje</button>
+          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de Piso en El Poblenou (990€). Soy Paula, 34 años, arquitecta con contrato indefinido y sueldo estable (unos 2.716 € netos/mes). Vivo sola, no fumadora y sin mascotas. Busco alquiler de larga duración; tengo toda la documentación lista y avalista si hiciera falta. ¿Sigue disponible? Me encantaría visitarlo cuando os venga bien. ¡Gracias! Paula · 633 75 81 50 · paulasalvano258@gmail.com">📋 Copiar mensaje</button>
           <a class="btn open" href="https://www.pisos.com/alquilar/piso-sant_marti_el_poblenou08005-62598698622_531896/" target="_blank" rel="noopener">Abrir piso ↗</a>
         </div>
-        <button class="btn state" data-url="https://www.pisos.com/alquilar/piso-sant_marti_el_poblenou08005-62598698622_531896/">✅ Ya hablé</button>
+        <div class="row2">
+          <button class="btn state">✅ Ya hablé</button>
+          <button class="btn descartar">🗑️ Descartar</button>
+        </div>
+        <textarea class="nota" placeholder="📝 Tu nota (se guarda sola)..."></textarea>
       </div>
     </article>
 
     <article class="card" data-url="https://www.pisos.com/alquilar/piso-el_barri_gotic08002-65868084159_518209/">
-      <button class="like" title="Me gusta" data-url="https://www.pisos.com/alquilar/piso-el_barri_gotic08002-65868084159_518209/">♥</button>
-      <button class="hide" title="Quitar de mi lista" data-url="https://www.pisos.com/alquilar/piso-el_barri_gotic08002-65868084159_518209/">✕</button>
+      <button class="like" title="Me gusta">♥</button>
+      <button class="hide" title="Quitar de la vista">✕</button>
       <a class="photo" href="https://www.pisos.com/alquilar/piso-el_barri_gotic08002-65868084159_518209/" target="_blank" rel="noopener"><img loading="lazy" src="https://fotos.imghs.net/mm-wp/518209/65868084159.518209/518209_65868084159_1_20260729181822153.jpg" alt="" onerror="this.style.display='none';this.parentNode.classList.add('noimg')">
         <span class="ph">🏠</span>
         <span class="price">995€</span>
       </a>
       <div class="body">
+        <span class="gone-badge">⚠️ No disponible en la web</span>
         <h3>Piso en Carrer dels Boters</h3>
         <div class="meta">1 hab · <span class="ag">pisos.com</span></div>
         <div class="actions">
-          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de Piso en Carrer dels Boters (995€). Soy Paula, 34 años, arquitecta con contrato indefinido y sueldo estable (unos 2.716 € netos/mes). Vivo sola, no fumadora y sin mascotas. Busco alquiler de larga duración; tengo toda la documentación lista y avalista si hiciera falta. ¿Sigue disponible? Me encantaría visitarlo cuando os venga bien. ¡Gracias!">📋 Copiar mensaje</button>
+          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de Piso en Carrer dels Boters (995€). Soy Paula, 34 años, arquitecta con contrato indefinido y sueldo estable (unos 2.716 € netos/mes). Vivo sola, no fumadora y sin mascotas. Busco alquiler de larga duración; tengo toda la documentación lista y avalista si hiciera falta. ¿Sigue disponible? Me encantaría visitarlo cuando os venga bien. ¡Gracias! Paula · 633 75 81 50 · paulasalvano258@gmail.com">📋 Copiar mensaje</button>
           <a class="btn open" href="https://www.pisos.com/alquilar/piso-el_barri_gotic08002-65868084159_518209/" target="_blank" rel="noopener">Abrir piso ↗</a>
         </div>
-        <button class="btn state" data-url="https://www.pisos.com/alquilar/piso-el_barri_gotic08002-65868084159_518209/">✅ Ya hablé</button>
+        <div class="row2">
+          <button class="btn state">✅ Ya hablé</button>
+          <button class="btn descartar">🗑️ Descartar</button>
+        </div>
+        <textarea class="nota" placeholder="📝 Tu nota (se guarda sola)..."></textarea>
       </div>
     </article>
 
     <article class="card" data-url="https://www.pisos.com/alquilar/piso-la_sagrada_familia-65921528974_100500/">
-      <button class="like" title="Me gusta" data-url="https://www.pisos.com/alquilar/piso-la_sagrada_familia-65921528974_100500/">♥</button>
-      <button class="hide" title="Quitar de mi lista" data-url="https://www.pisos.com/alquilar/piso-la_sagrada_familia-65921528974_100500/">✕</button>
+      <button class="like" title="Me gusta">♥</button>
+      <button class="hide" title="Quitar de la vista">✕</button>
       <a class="photo" href="https://www.pisos.com/alquilar/piso-la_sagrada_familia-65921528974_100500/" target="_blank" rel="noopener"><img loading="lazy" src="https://fotos.imghs.net/mm-wp/1005/3230323630373234/7ba79da8-b8a9-4949-83aa-1b2fc41753c8.jpg" alt="" onerror="this.style.display='none';this.parentNode.classList.add('noimg')">
         <span class="ph">🏠</span>
         <span class="price">997€</span>
       </a>
       <div class="body">
+        <span class="gone-badge">⚠️ No disponible en la web</span>
         <h3>Piso en La Sagrada Família</h3>
         <div class="meta">1 hab · <span class="ag">pisos.com</span></div>
         <div class="actions">
-          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de Piso en La Sagrada Família (997€). Soy Paula, 34 años, arquitecta con contrato indefinido y sueldo estable (unos 2.716 € netos/mes). Vivo sola, no fumadora y sin mascotas. Busco alquiler de larga duración; tengo toda la documentación lista y avalista si hiciera falta. ¿Sigue disponible? Me encantaría visitarlo cuando os venga bien. ¡Gracias!">📋 Copiar mensaje</button>
+          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de Piso en La Sagrada Família (997€). Soy Paula, 34 años, arquitecta con contrato indefinido y sueldo estable (unos 2.716 € netos/mes). Vivo sola, no fumadora y sin mascotas. Busco alquiler de larga duración; tengo toda la documentación lista y avalista si hiciera falta. ¿Sigue disponible? Me encantaría visitarlo cuando os venga bien. ¡Gracias! Paula · 633 75 81 50 · paulasalvano258@gmail.com">📋 Copiar mensaje</button>
           <a class="btn open" href="https://www.pisos.com/alquilar/piso-la_sagrada_familia-65921528974_100500/" target="_blank" rel="noopener">Abrir piso ↗</a>
         </div>
-        <button class="btn state" data-url="https://www.pisos.com/alquilar/piso-la_sagrada_familia-65921528974_100500/">✅ Ya hablé</button>
+        <div class="row2">
+          <button class="btn state">✅ Ya hablé</button>
+          <button class="btn descartar">🗑️ Descartar</button>
+        </div>
+        <textarea class="nota" placeholder="📝 Tu nota (se guarda sola)..."></textarea>
       </div>
     </article>
 
     <article class="card" data-url="https://www.pisos.com/alquilar/apartamento-sant_pere_santa_caterina_la_ribera08003-64206819507_530867/">
-      <button class="like" title="Me gusta" data-url="https://www.pisos.com/alquilar/apartamento-sant_pere_santa_caterina_la_ribera08003-64206819507_530867/">♥</button>
-      <button class="hide" title="Quitar de mi lista" data-url="https://www.pisos.com/alquilar/apartamento-sant_pere_santa_caterina_la_ribera08003-64206819507_530867/">✕</button>
+      <button class="like" title="Me gusta">♥</button>
+      <button class="hide" title="Quitar de la vista">✕</button>
       <a class="photo" href="https://www.pisos.com/alquilar/apartamento-sant_pere_santa_caterina_la_ribera08003-64206819507_530867/" target="_blank" rel="noopener"><img loading="lazy" src="https://fotos.imghs.net/mm-wp/530867/64206819507.530867/530867_64206819507_7bab86d1-371e-4c00-aeb0-aae957beb539.jpg" alt="" onerror="this.style.display='none';this.parentNode.classList.add('noimg')">
         <span class="ph">🏠</span>
         <span class="price">1000€</span>
       </a>
       <div class="body">
+        <span class="gone-badge">⚠️ No disponible en la web</span>
         <h3>Apartamento en Carrer del Rec</h3>
         <div class="meta">1 hab · <span class="ag">pisos.com</span></div>
         <div class="actions">
-          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de Apartamento en Carrer del Rec (1000€). Soy Paula, 34 años, arquitecta con contrato indefinido y sueldo estable (unos 2.716 € netos/mes). Vivo sola, no fumadora y sin mascotas. Busco alquiler de larga duración; tengo toda la documentación lista y avalista si hiciera falta. ¿Sigue disponible? Me encantaría visitarlo cuando os venga bien. ¡Gracias!">📋 Copiar mensaje</button>
+          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de Apartamento en Carrer del Rec (1000€). Soy Paula, 34 años, arquitecta con contrato indefinido y sueldo estable (unos 2.716 € netos/mes). Vivo sola, no fumadora y sin mascotas. Busco alquiler de larga duración; tengo toda la documentación lista y avalista si hiciera falta. ¿Sigue disponible? Me encantaría visitarlo cuando os venga bien. ¡Gracias! Paula · 633 75 81 50 · paulasalvano258@gmail.com">📋 Copiar mensaje</button>
           <a class="btn open" href="https://www.pisos.com/alquilar/apartamento-sant_pere_santa_caterina_la_ribera08003-64206819507_530867/" target="_blank" rel="noopener">Abrir piso ↗</a>
         </div>
-        <button class="btn state" data-url="https://www.pisos.com/alquilar/apartamento-sant_pere_santa_caterina_la_ribera08003-64206819507_530867/">✅ Ya hablé</button>
+        <div class="row2">
+          <button class="btn state">✅ Ya hablé</button>
+          <button class="btn descartar">🗑️ Descartar</button>
+        </div>
+        <textarea class="nota" placeholder="📝 Tu nota (se guarda sola)..."></textarea>
       </div>
     </article>
 
     <article class="card" data-url="https://www.guinotprunera.com/es/alquiler/ref-31590">
-      <button class="like" title="Me gusta" data-url="https://www.guinotprunera.com/es/alquiler/ref-31590">♥</button>
-      <button class="hide" title="Quitar de mi lista" data-url="https://www.guinotprunera.com/es/alquiler/ref-31590">✕</button>
+      <button class="like" title="Me gusta">♥</button>
+      <button class="hide" title="Quitar de la vista">✕</button>
       <a class="photo" href="https://www.guinotprunera.com/es/alquiler/ref-31590" target="_blank" rel="noopener"><img loading="lazy" src="https://media.mobiliagestion.es/Portals/inmoguinotprunera/Images/31590/27239705.jpg" alt="" onerror="this.style.display='none';this.parentNode.classList.add('noimg')">
         <span class="ph">🏠</span>
         <span class="price">1001€</span>
       </a>
       <div class="body">
+        <span class="gone-badge">⚠️ No disponible en la web</span>
         <h3>La Nova Esquerra de L&#x27;Eixample</h3>
         <div class="meta">· hab n/d · <span class="ag">Guinot Prunera</span></div>
         <div class="actions">
-          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de La Nova Esquerra de L&amp;#x27;Eixample (1001€). Soy Paula, 34 años, arquitecta con contrato indefinido y sueldo estable (unos 2.716 € netos/mes). Vivo sola, no fumadora y sin mascotas. Busco alquiler de larga duración; tengo toda la documentación lista y avalista si hiciera falta. ¿Sigue disponible? Me encantaría visitarlo cuando os venga bien. ¡Gracias!">📋 Copiar mensaje</button>
+          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de La Nova Esquerra de L&amp;#x27;Eixample (1001€). Soy Paula, 34 años, arquitecta con contrato indefinido y sueldo estable (unos 2.716 € netos/mes). Vivo sola, no fumadora y sin mascotas. Busco alquiler de larga duración; tengo toda la documentación lista y avalista si hiciera falta. ¿Sigue disponible? Me encantaría visitarlo cuando os venga bien. ¡Gracias! Paula · 633 75 81 50 · paulasalvano258@gmail.com">📋 Copiar mensaje</button>
           <a class="btn open" href="https://www.guinotprunera.com/es/alquiler/ref-31590" target="_blank" rel="noopener">Abrir piso ↗</a>
         </div>
-        <button class="btn state" data-url="https://www.guinotprunera.com/es/alquiler/ref-31590">✅ Ya hablé</button>
+        <div class="row2">
+          <button class="btn state">✅ Ya hablé</button>
+          <button class="btn descartar">🗑️ Descartar</button>
+        </div>
+        <textarea class="nota" placeholder="📝 Tu nota (se guarda sola)..."></textarea>
       </div>
     </article>
 
     <article class="card" data-url="https://www.pisos.com/alquilar/piso-sant_andreu_barrio08030-65914432493_501025/">
-      <button class="like" title="Me gusta" data-url="https://www.pisos.com/alquilar/piso-sant_andreu_barrio08030-65914432493_501025/">♥</button>
-      <button class="hide" title="Quitar de mi lista" data-url="https://www.pisos.com/alquilar/piso-sant_andreu_barrio08030-65914432493_501025/">✕</button>
+      <button class="like" title="Me gusta">♥</button>
+      <button class="hide" title="Quitar de la vista">✕</button>
       <a class="photo" href="https://www.pisos.com/alquilar/piso-sant_andreu_barrio08030-65914432493_501025/" target="_blank" rel="noopener"><img loading="lazy" src="https://fotos.imghs.net/mm-wp/501025/65914432493.501025/501025_65914432493_628c7b8d-761f-45b2-9587-bcd357bd316a.jpg" alt="" onerror="this.style.display='none';this.parentNode.classList.add('noimg')">
         <span class="ph">🏠</span>
         <span class="price">1029€</span>
       </a>
       <div class="body">
+        <span class="gone-badge">⚠️ No disponible en la web</span>
         <h3>Piso en Plaça del Mercadal</h3>
         <div class="meta">1 hab · <span class="ag">pisos.com</span></div>
         <div class="actions">
-          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de Piso en Plaça del Mercadal (1029€). Soy Paula, 34 años, arquitecta con contrato indefinido y sueldo estable (unos 2.716 € netos/mes). Vivo sola, no fumadora y sin mascotas. Busco alquiler de larga duración; tengo toda la documentación lista y avalista si hiciera falta. ¿Sigue disponible? Me encantaría visitarlo cuando os venga bien. ¡Gracias!">📋 Copiar mensaje</button>
+          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de Piso en Plaça del Mercadal (1029€). Soy Paula, 34 años, arquitecta con contrato indefinido y sueldo estable (unos 2.716 € netos/mes). Vivo sola, no fumadora y sin mascotas. Busco alquiler de larga duración; tengo toda la documentación lista y avalista si hiciera falta. ¿Sigue disponible? Me encantaría visitarlo cuando os venga bien. ¡Gracias! Paula · 633 75 81 50 · paulasalvano258@gmail.com">📋 Copiar mensaje</button>
           <a class="btn open" href="https://www.pisos.com/alquilar/piso-sant_andreu_barrio08030-65914432493_501025/" target="_blank" rel="noopener">Abrir piso ↗</a>
         </div>
-        <button class="btn state" data-url="https://www.pisos.com/alquilar/piso-sant_andreu_barrio08030-65914432493_501025/">✅ Ya hablé</button>
+        <div class="row2">
+          <button class="btn state">✅ Ya hablé</button>
+          <button class="btn descartar">🗑️ Descartar</button>
+        </div>
+        <textarea class="nota" placeholder="📝 Tu nota (se guarda sola)..."></textarea>
       </div>
     </article>
 
     <article class="card" data-url="https://www.pisos.com/alquilar/estudio-el_barri_gotic08002-66681838944_104700/">
-      <button class="like" title="Me gusta" data-url="https://www.pisos.com/alquilar/estudio-el_barri_gotic08002-66681838944_104700/">♥</button>
-      <button class="hide" title="Quitar de mi lista" data-url="https://www.pisos.com/alquilar/estudio-el_barri_gotic08002-66681838944_104700/">✕</button>
+      <button class="like" title="Me gusta">♥</button>
+      <button class="hide" title="Quitar de la vista">✕</button>
       <a class="photo" href="https://www.pisos.com/alquilar/estudio-el_barri_gotic08002-66681838944_104700/" target="_blank" rel="noopener"><img loading="lazy" src="https://fotos.imghs.net/mm-wp/1047/3230323630383232/31d4f0da-8f63-46aa-8151-65313b10fc72.jpg" alt="" onerror="this.style.display='none';this.parentNode.classList.add('noimg')">
         <span class="ph">🏠</span>
         <span class="price">1050€</span>
       </a>
       <div class="body">
+        <span class="gone-badge">⚠️ No disponible en la web</span>
         <h3>Estudio en El Barri Gòtic</h3>
         <div class="meta">· hab n/d · <span class="ag">pisos.com</span></div>
         <div class="actions">
-          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de Estudio en El Barri Gòtic (1050€). Soy Paula, 34 años, arquitecta con contrato indefinido y sueldo estable (unos 2.716 € netos/mes). Vivo sola, no fumadora y sin mascotas. Busco alquiler de larga duración; tengo toda la documentación lista y avalista si hiciera falta. ¿Sigue disponible? Me encantaría visitarlo cuando os venga bien. ¡Gracias!">📋 Copiar mensaje</button>
+          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de Estudio en El Barri Gòtic (1050€). Soy Paula, 34 años, arquitecta con contrato indefinido y sueldo estable (unos 2.716 € netos/mes). Vivo sola, no fumadora y sin mascotas. Busco alquiler de larga duración; tengo toda la documentación lista y avalista si hiciera falta. ¿Sigue disponible? Me encantaría visitarlo cuando os venga bien. ¡Gracias! Paula · 633 75 81 50 · paulasalvano258@gmail.com">📋 Copiar mensaje</button>
           <a class="btn open" href="https://www.pisos.com/alquilar/estudio-el_barri_gotic08002-66681838944_104700/" target="_blank" rel="noopener">Abrir piso ↗</a>
         </div>
-        <button class="btn state" data-url="https://www.pisos.com/alquilar/estudio-el_barri_gotic08002-66681838944_104700/">✅ Ya hablé</button>
+        <div class="row2">
+          <button class="btn state">✅ Ya hablé</button>
+          <button class="btn descartar">🗑️ Descartar</button>
+        </div>
+        <textarea class="nota" placeholder="📝 Tu nota (se guarda sola)..."></textarea>
       </div>
     </article>
 
     <article class="card" data-url="https://www.pisos.com/alquilar/piso-el_poble_sec08004-65909882241_109200/">
-      <button class="like" title="Me gusta" data-url="https://www.pisos.com/alquilar/piso-el_poble_sec08004-65909882241_109200/">♥</button>
-      <button class="hide" title="Quitar de mi lista" data-url="https://www.pisos.com/alquilar/piso-el_poble_sec08004-65909882241_109200/">✕</button>
+      <button class="like" title="Me gusta">♥</button>
+      <button class="hide" title="Quitar de la vista">✕</button>
       <a class="photo" href="https://www.pisos.com/alquilar/piso-el_poble_sec08004-65909882241_109200/" target="_blank" rel="noopener"><img loading="lazy" src="https://fotos.imghs.net/mm-wp/1092/3230323630373034/52119242-4004-4719-a248-d3f20f29c950.jpg" alt="" onerror="this.style.display='none';this.parentNode.classList.add('noimg')">
         <span class="ph">🏠</span>
         <span class="price">1065€</span>
       </a>
       <div class="body">
+        <span class="gone-badge">⚠️ No disponible en la web</span>
         <h3>Piso en El Poble-sec</h3>
         <div class="meta">· hab n/d · <span class="ag">pisos.com</span></div>
         <div class="actions">
-          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de Piso en El Poble-sec (1065€). Soy Paula, 34 años, arquitecta con contrato indefinido y sueldo estable (unos 2.716 € netos/mes). Vivo sola, no fumadora y sin mascotas. Busco alquiler de larga duración; tengo toda la documentación lista y avalista si hiciera falta. ¿Sigue disponible? Me encantaría visitarlo cuando os venga bien. ¡Gracias!">📋 Copiar mensaje</button>
+          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de Piso en El Poble-sec (1065€). Soy Paula, 34 años, arquitecta con contrato indefinido y sueldo estable (unos 2.716 € netos/mes). Vivo sola, no fumadora y sin mascotas. Busco alquiler de larga duración; tengo toda la documentación lista y avalista si hiciera falta. ¿Sigue disponible? Me encantaría visitarlo cuando os venga bien. ¡Gracias! Paula · 633 75 81 50 · paulasalvano258@gmail.com">📋 Copiar mensaje</button>
           <a class="btn open" href="https://www.pisos.com/alquilar/piso-el_poble_sec08004-65909882241_109200/" target="_blank" rel="noopener">Abrir piso ↗</a>
         </div>
-        <button class="btn state" data-url="https://www.pisos.com/alquilar/piso-el_poble_sec08004-65909882241_109200/">✅ Ya hablé</button>
+        <div class="row2">
+          <button class="btn state">✅ Ya hablé</button>
+          <button class="btn descartar">🗑️ Descartar</button>
+        </div>
+        <textarea class="nota" placeholder="📝 Tu nota (se guarda sola)..."></textarea>
       </div>
     </article>
 
     <article class="card" data-url="https://www.pisos.com/alquilar/casa-el_besos_el_maresme08019-55847835456_109200/">
-      <button class="like" title="Me gusta" data-url="https://www.pisos.com/alquilar/casa-el_besos_el_maresme08019-55847835456_109200/">♥</button>
-      <button class="hide" title="Quitar de mi lista" data-url="https://www.pisos.com/alquilar/casa-el_besos_el_maresme08019-55847835456_109200/">✕</button>
+      <button class="like" title="Me gusta">♥</button>
+      <button class="hide" title="Quitar de la vista">✕</button>
       <a class="photo" href="https://www.pisos.com/alquilar/casa-el_besos_el_maresme08019-55847835456_109200/" target="_blank" rel="noopener"><img loading="lazy" src="https://fotos.imghs.net/mm-wp/1092/110/1092_EB2-67ad4419638c4305231c0110_1_2025071612075901585.jpg" alt="" onerror="this.style.display='none';this.parentNode.classList.add('noimg')">
         <span class="ph">🏠</span>
         <span class="price">1085€</span>
       </a>
       <div class="body">
+        <span class="gone-badge">⚠️ No disponible en la web</span>
         <h3>Casa en El Besòs-El Maresme</h3>
         <div class="meta">· hab n/d · <span class="ag">pisos.com</span></div>
         <div class="actions">
-          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de Casa en El Besòs-El Maresme (1085€). Soy Paula, 34 años, arquitecta con contrato indefinido y sueldo estable (unos 2.716 € netos/mes). Vivo sola, no fumadora y sin mascotas. Busco alquiler de larga duración; tengo toda la documentación lista y avalista si hiciera falta. ¿Sigue disponible? Me encantaría visitarlo cuando os venga bien. ¡Gracias!">📋 Copiar mensaje</button>
+          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de Casa en El Besòs-El Maresme (1085€). Soy Paula, 34 años, arquitecta con contrato indefinido y sueldo estable (unos 2.716 € netos/mes). Vivo sola, no fumadora y sin mascotas. Busco alquiler de larga duración; tengo toda la documentación lista y avalista si hiciera falta. ¿Sigue disponible? Me encantaría visitarlo cuando os venga bien. ¡Gracias! Paula · 633 75 81 50 · paulasalvano258@gmail.com">📋 Copiar mensaje</button>
           <a class="btn open" href="https://www.pisos.com/alquilar/casa-el_besos_el_maresme08019-55847835456_109200/" target="_blank" rel="noopener">Abrir piso ↗</a>
         </div>
-        <button class="btn state" data-url="https://www.pisos.com/alquilar/casa-el_besos_el_maresme08019-55847835456_109200/">✅ Ya hablé</button>
-      </div>
-    </article>
-
-    <article class="card" data-url="https://www.pisos.com/alquilar/loft-eixample_sant_antoni08011-60839468259_101800/">
-      <button class="like" title="Me gusta" data-url="https://www.pisos.com/alquilar/loft-eixample_sant_antoni08011-60839468259_101800/">♥</button>
-      <button class="hide" title="Quitar de mi lista" data-url="https://www.pisos.com/alquilar/loft-eixample_sant_antoni08011-60839468259_101800/">✕</button>
-      <a class="photo" href="https://www.pisos.com/alquilar/loft-eixample_sant_antoni08011-60839468259_101800/" target="_blank" rel="noopener"><img loading="lazy" src="https://fotos.imghs.net/mm-wp/1018/554/1018_107633554_1_2026012116010434724.jpg" alt="" onerror="this.style.display='none';this.parentNode.classList.add('noimg')">
-        <span class="ph">🏠</span>
-        <span class="price">1100€</span>
-      </a>
-      <div class="body">
-        <h3>Loft en Sant Antoni</h3>
-        <div class="meta">· hab n/d · <span class="ag">pisos.com</span></div>
-        <div class="actions">
-          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de Loft en Sant Antoni (1100€). Soy Paula, 34 años, arquitecta con contrato indefinido y sueldo estable (unos 2.716 € netos/mes). Vivo sola, no fumadora y sin mascotas. Busco alquiler de larga duración; tengo toda la documentación lista y avalista si hiciera falta. ¿Sigue disponible? Me encantaría visitarlo cuando os venga bien. ¡Gracias!">📋 Copiar mensaje</button>
-          <a class="btn open" href="https://www.pisos.com/alquilar/loft-eixample_sant_antoni08011-60839468259_101800/" target="_blank" rel="noopener">Abrir piso ↗</a>
+        <div class="row2">
+          <button class="btn state">✅ Ya hablé</button>
+          <button class="btn descartar">🗑️ Descartar</button>
         </div>
-        <button class="btn state" data-url="https://www.pisos.com/alquilar/loft-eixample_sant_antoni08011-60839468259_101800/">✅ Ya hablé</button>
+        <textarea class="nota" placeholder="📝 Tu nota (se guarda sola)..."></textarea>
       </div>
     </article>
 
     <article class="card" data-url="https://www.pisos.com/alquilar/piso-el_raval08001-66668005832_106100/">
-      <button class="like" title="Me gusta" data-url="https://www.pisos.com/alquilar/piso-el_raval08001-66668005832_106100/">♥</button>
-      <button class="hide" title="Quitar de mi lista" data-url="https://www.pisos.com/alquilar/piso-el_raval08001-66668005832_106100/">✕</button>
+      <button class="like" title="Me gusta">♥</button>
+      <button class="hide" title="Quitar de la vista">✕</button>
       <a class="photo" href="https://www.pisos.com/alquilar/piso-el_raval08001-66668005832_106100/" target="_blank" rel="noopener"><img loading="lazy" src="https://fotos.imghs.net/mm-wp/1061/3230323630383233/72b82086-47b7-4bfe-a88c-1026b58106a6.jpg" alt="" onerror="this.style.display='none';this.parentNode.classList.add('noimg')">
         <span class="ph">🏠</span>
         <span class="price">1100€</span>
       </a>
       <div class="body">
+        <span class="gone-badge">⚠️ No disponible en la web</span>
         <h3>Piso en El Raval</h3>
         <div class="meta">1 hab · <span class="ag">pisos.com</span></div>
         <div class="actions">
-          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de Piso en El Raval (1100€). Soy Paula, 34 años, arquitecta con contrato indefinido y sueldo estable (unos 2.716 € netos/mes). Vivo sola, no fumadora y sin mascotas. Busco alquiler de larga duración; tengo toda la documentación lista y avalista si hiciera falta. ¿Sigue disponible? Me encantaría visitarlo cuando os venga bien. ¡Gracias!">📋 Copiar mensaje</button>
+          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de Piso en El Raval (1100€). Soy Paula, 34 años, arquitecta con contrato indefinido y sueldo estable (unos 2.716 € netos/mes). Vivo sola, no fumadora y sin mascotas. Busco alquiler de larga duración; tengo toda la documentación lista y avalista si hiciera falta. ¿Sigue disponible? Me encantaría visitarlo cuando os venga bien. ¡Gracias! Paula · 633 75 81 50 · paulasalvano258@gmail.com">📋 Copiar mensaje</button>
           <a class="btn open" href="https://www.pisos.com/alquilar/piso-el_raval08001-66668005832_106100/" target="_blank" rel="noopener">Abrir piso ↗</a>
         </div>
-        <button class="btn state" data-url="https://www.pisos.com/alquilar/piso-el_raval08001-66668005832_106100/">✅ Ya hablé</button>
+        <div class="row2">
+          <button class="btn state">✅ Ya hablé</button>
+          <button class="btn descartar">🗑️ Descartar</button>
+        </div>
+        <textarea class="nota" placeholder="📝 Tu nota (se guarda sola)..."></textarea>
       </div>
     </article>
 
     <article class="card" data-url="https://www.pisos.com/alquilar/atico-el_raval08001-64249106130_530867/">
-      <button class="like" title="Me gusta" data-url="https://www.pisos.com/alquilar/atico-el_raval08001-64249106130_530867/">♥</button>
-      <button class="hide" title="Quitar de mi lista" data-url="https://www.pisos.com/alquilar/atico-el_raval08001-64249106130_530867/">✕</button>
+      <button class="like" title="Me gusta">♥</button>
+      <button class="hide" title="Quitar de la vista">✕</button>
       <a class="photo" href="https://www.pisos.com/alquilar/atico-el_raval08001-64249106130_530867/" target="_blank" rel="noopener"><img loading="lazy" src="https://fotos.imghs.net/mm-wp/530867/64249106130.530867/530867_64249106130_27762a0e-d0f3-456e-bc57-507d9e9c01a5.jpg" alt="" onerror="this.style.display='none';this.parentNode.classList.add('noimg')">
         <span class="ph">🏠</span>
         <span class="price">1100€</span>
       </a>
       <div class="body">
+        <span class="gone-badge">⚠️ No disponible en la web</span>
         <h3>Ático en Carrer de l&#x27;Hospital</h3>
         <div class="meta">1 hab · <span class="ag">pisos.com</span></div>
         <div class="actions">
-          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de Ático en Carrer de l&amp;#x27;Hospital (1100€). Soy Paula, 34 años, arquitecta con contrato indefinido y sueldo estable (unos 2.716 € netos/mes). Vivo sola, no fumadora y sin mascotas. Busco alquiler de larga duración; tengo toda la documentación lista y avalista si hiciera falta. ¿Sigue disponible? Me encantaría visitarlo cuando os venga bien. ¡Gracias!">📋 Copiar mensaje</button>
+          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de Ático en Carrer de l&amp;#x27;Hospital (1100€). Soy Paula, 34 años, arquitecta con contrato indefinido y sueldo estable (unos 2.716 € netos/mes). Vivo sola, no fumadora y sin mascotas. Busco alquiler de larga duración; tengo toda la documentación lista y avalista si hiciera falta. ¿Sigue disponible? Me encantaría visitarlo cuando os venga bien. ¡Gracias! Paula · 633 75 81 50 · paulasalvano258@gmail.com">📋 Copiar mensaje</button>
           <a class="btn open" href="https://www.pisos.com/alquilar/atico-el_raval08001-64249106130_530867/" target="_blank" rel="noopener">Abrir piso ↗</a>
         </div>
-        <button class="btn state" data-url="https://www.pisos.com/alquilar/atico-el_raval08001-64249106130_530867/">✅ Ya hablé</button>
+        <div class="row2">
+          <button class="btn state">✅ Ya hablé</button>
+          <button class="btn descartar">🗑️ Descartar</button>
+        </div>
+        <textarea class="nota" placeholder="📝 Tu nota (se guarda sola)..."></textarea>
+      </div>
+    </article>
+
+    <article class="card" data-url="https://www.pisos.com/alquilar/loft-eixample_sant_antoni08011-60839468259_101800/">
+      <button class="like" title="Me gusta">♥</button>
+      <button class="hide" title="Quitar de la vista">✕</button>
+      <a class="photo" href="https://www.pisos.com/alquilar/loft-eixample_sant_antoni08011-60839468259_101800/" target="_blank" rel="noopener"><img loading="lazy" src="https://fotos.imghs.net/mm-wp/1018/554/1018_107633554_1_2026012116010434724.jpg" alt="" onerror="this.style.display='none';this.parentNode.classList.add('noimg')">
+        <span class="ph">🏠</span>
+        <span class="price">1100€</span>
+      </a>
+      <div class="body">
+        <span class="gone-badge">⚠️ No disponible en la web</span>
+        <h3>Loft en Sant Antoni</h3>
+        <div class="meta">· hab n/d · <span class="ag">pisos.com</span></div>
+        <div class="actions">
+          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de Loft en Sant Antoni (1100€). Soy Paula, 34 años, arquitecta con contrato indefinido y sueldo estable (unos 2.716 € netos/mes). Vivo sola, no fumadora y sin mascotas. Busco alquiler de larga duración; tengo toda la documentación lista y avalista si hiciera falta. ¿Sigue disponible? Me encantaría visitarlo cuando os venga bien. ¡Gracias! Paula · 633 75 81 50 · paulasalvano258@gmail.com">📋 Copiar mensaje</button>
+          <a class="btn open" href="https://www.pisos.com/alquilar/loft-eixample_sant_antoni08011-60839468259_101800/" target="_blank" rel="noopener">Abrir piso ↗</a>
+        </div>
+        <div class="row2">
+          <button class="btn state">✅ Ya hablé</button>
+          <button class="btn descartar">🗑️ Descartar</button>
+        </div>
+        <textarea class="nota" placeholder="📝 Tu nota (se guarda sola)..."></textarea>
       </div>
     </article>
 
     <article class="card" data-url="https://www.pisos.com/alquilar/piso-sants_montjuic_hostafrancs08014-65868672765_109200/">
-      <button class="like" title="Me gusta" data-url="https://www.pisos.com/alquilar/piso-sants_montjuic_hostafrancs08014-65868672765_109200/">♥</button>
-      <button class="hide" title="Quitar de mi lista" data-url="https://www.pisos.com/alquilar/piso-sants_montjuic_hostafrancs08014-65868672765_109200/">✕</button>
+      <button class="like" title="Me gusta">♥</button>
+      <button class="hide" title="Quitar de la vista">✕</button>
       <a class="photo" href="https://www.pisos.com/alquilar/piso-sants_montjuic_hostafrancs08014-65868672765_109200/" target="_blank" rel="noopener"><img loading="lazy" src="https://fotos.imghs.net/mm-wp/1092/3230323630363131/db7cbb24-c0c4-41ee-8662-0fe06ec4764d.jpg" alt="" onerror="this.style.display='none';this.parentNode.classList.add('noimg')">
         <span class="ph">🏠</span>
         <span class="price">1100€</span>
       </a>
       <div class="body">
+        <span class="gone-badge">⚠️ No disponible en la web</span>
         <h3>Piso en Hostafrancs</h3>
         <div class="meta">· hab n/d · <span class="ag">pisos.com</span></div>
         <div class="actions">
-          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de Piso en Hostafrancs (1100€). Soy Paula, 34 años, arquitecta con contrato indefinido y sueldo estable (unos 2.716 € netos/mes). Vivo sola, no fumadora y sin mascotas. Busco alquiler de larga duración; tengo toda la documentación lista y avalista si hiciera falta. ¿Sigue disponible? Me encantaría visitarlo cuando os venga bien. ¡Gracias!">📋 Copiar mensaje</button>
+          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de Piso en Hostafrancs (1100€). Soy Paula, 34 años, arquitecta con contrato indefinido y sueldo estable (unos 2.716 € netos/mes). Vivo sola, no fumadora y sin mascotas. Busco alquiler de larga duración; tengo toda la documentación lista y avalista si hiciera falta. ¿Sigue disponible? Me encantaría visitarlo cuando os venga bien. ¡Gracias! Paula · 633 75 81 50 · paulasalvano258@gmail.com">📋 Copiar mensaje</button>
           <a class="btn open" href="https://www.pisos.com/alquilar/piso-sants_montjuic_hostafrancs08014-65868672765_109200/" target="_blank" rel="noopener">Abrir piso ↗</a>
         </div>
-        <button class="btn state" data-url="https://www.pisos.com/alquilar/piso-sants_montjuic_hostafrancs08014-65868672765_109200/">✅ Ya hablé</button>
+        <div class="row2">
+          <button class="btn state">✅ Ya hablé</button>
+          <button class="btn descartar">🗑️ Descartar</button>
+        </div>
+        <textarea class="nota" placeholder="📝 Tu nota (se guarda sola)..."></textarea>
       </div>
     </article>
 
     <article class="card" data-url="https://www.pisos.com/alquilar/piso-el_raval08001-65902574462_109800/">
-      <button class="like" title="Me gusta" data-url="https://www.pisos.com/alquilar/piso-el_raval08001-65902574462_109800/">♥</button>
-      <button class="hide" title="Quitar de mi lista" data-url="https://www.pisos.com/alquilar/piso-el_raval08001-65902574462_109800/">✕</button>
+      <button class="like" title="Me gusta">♥</button>
+      <button class="hide" title="Quitar de la vista">✕</button>
       <a class="photo" href="https://www.pisos.com/alquilar/piso-el_raval08001-65902574462_109800/" target="_blank" rel="noopener"><img loading="lazy" src="https://fotos.imghs.net/mm-wp/1098/5814356/1098_1_foto_20260701131016833_65902574462.jpg" alt="" onerror="this.style.display='none';this.parentNode.classList.add('noimg')">
         <span class="ph">🏠</span>
         <span class="price">1100€</span>
       </a>
       <div class="body">
+        <span class="gone-badge">⚠️ No disponible en la web</span>
         <h3>Piso en Carrer del Tigre, 12</h3>
         <div class="meta">1 hab · <span class="ag">pisos.com</span></div>
         <div class="actions">
-          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de Piso en Carrer del Tigre, 12 (1100€). Soy Paula, 34 años, arquitecta con contrato indefinido y sueldo estable (unos 2.716 € netos/mes). Vivo sola, no fumadora y sin mascotas. Busco alquiler de larga duración; tengo toda la documentación lista y avalista si hiciera falta. ¿Sigue disponible? Me encantaría visitarlo cuando os venga bien. ¡Gracias!">📋 Copiar mensaje</button>
+          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de Piso en Carrer del Tigre, 12 (1100€). Soy Paula, 34 años, arquitecta con contrato indefinido y sueldo estable (unos 2.716 € netos/mes). Vivo sola, no fumadora y sin mascotas. Busco alquiler de larga duración; tengo toda la documentación lista y avalista si hiciera falta. ¿Sigue disponible? Me encantaría visitarlo cuando os venga bien. ¡Gracias! Paula · 633 75 81 50 · paulasalvano258@gmail.com">📋 Copiar mensaje</button>
           <a class="btn open" href="https://www.pisos.com/alquilar/piso-el_raval08001-65902574462_109800/" target="_blank" rel="noopener">Abrir piso ↗</a>
         </div>
-        <button class="btn state" data-url="https://www.pisos.com/alquilar/piso-el_raval08001-65902574462_109800/">✅ Ya hablé</button>
+        <div class="row2">
+          <button class="btn state">✅ Ya hablé</button>
+          <button class="btn descartar">🗑️ Descartar</button>
+        </div>
+        <textarea class="nota" placeholder="📝 Tu nota (se guarda sola)..."></textarea>
       </div>
     </article>
 
     <article class="card" data-url="https://www.guinotprunera.com/es/alquiler/ref-31903">
-      <button class="like" title="Me gusta" data-url="https://www.guinotprunera.com/es/alquiler/ref-31903">♥</button>
-      <button class="hide" title="Quitar de mi lista" data-url="https://www.guinotprunera.com/es/alquiler/ref-31903">✕</button>
+      <button class="like" title="Me gusta">♥</button>
+      <button class="hide" title="Quitar de la vista">✕</button>
       <a class="photo" href="https://www.guinotprunera.com/es/alquiler/ref-31903" target="_blank" rel="noopener"><img loading="lazy" src="https://media.mobiliagestion.es/Portals/inmoguinotprunera/Images/31903/28109130.jpg" alt="" onerror="this.style.display='none';this.parentNode.classList.add('noimg')">
         <span class="ph">🏠</span>
         <span class="price">1102€</span>
       </a>
       <div class="body">
+        <span class="gone-badge">⚠️ No disponible en la web</span>
         <h3>Vallcarca i Els Penitents</h3>
         <div class="meta">· hab n/d · <span class="ag">Guinot Prunera</span></div>
         <div class="actions">
-          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de Vallcarca i Els Penitents (1102€). Soy Paula, 34 años, arquitecta con contrato indefinido y sueldo estable (unos 2.716 € netos/mes). Vivo sola, no fumadora y sin mascotas. Busco alquiler de larga duración; tengo toda la documentación lista y avalista si hiciera falta. ¿Sigue disponible? Me encantaría visitarlo cuando os venga bien. ¡Gracias!">📋 Copiar mensaje</button>
+          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de Vallcarca i Els Penitents (1102€). Soy Paula, 34 años, arquitecta con contrato indefinido y sueldo estable (unos 2.716 € netos/mes). Vivo sola, no fumadora y sin mascotas. Busco alquiler de larga duración; tengo toda la documentación lista y avalista si hiciera falta. ¿Sigue disponible? Me encantaría visitarlo cuando os venga bien. ¡Gracias! Paula · 633 75 81 50 · paulasalvano258@gmail.com">📋 Copiar mensaje</button>
           <a class="btn open" href="https://www.guinotprunera.com/es/alquiler/ref-31903" target="_blank" rel="noopener">Abrir piso ↗</a>
         </div>
-        <button class="btn state" data-url="https://www.guinotprunera.com/es/alquiler/ref-31903">✅ Ya hablé</button>
+        <div class="row2">
+          <button class="btn state">✅ Ya hablé</button>
+          <button class="btn descartar">🗑️ Descartar</button>
+        </div>
+        <textarea class="nota" placeholder="📝 Tu nota (se guarda sola)..."></textarea>
       </div>
     </article>
 
     <article class="card" data-url="https://www.pisos.com/alquilar/piso-el_raval08001-66711160572_109200/">
-      <button class="like" title="Me gusta" data-url="https://www.pisos.com/alquilar/piso-el_raval08001-66711160572_109200/">♥</button>
-      <button class="hide" title="Quitar de mi lista" data-url="https://www.pisos.com/alquilar/piso-el_raval08001-66711160572_109200/">✕</button>
+      <button class="like" title="Me gusta">♥</button>
+      <button class="hide" title="Quitar de la vista">✕</button>
       <a class="photo" href="https://www.pisos.com/alquilar/piso-el_raval08001-66711160572_109200/" target="_blank" rel="noopener"><img loading="lazy" src="https://fotos.imghs.net/mm-wp/1092/3230323630373035/055b28a4-4b10-4127-9b79-69c85293a6bd.jpg" alt="" onerror="this.style.display='none';this.parentNode.classList.add('noimg')">
         <span class="ph">🏠</span>
         <span class="price">1150€</span>
       </a>
       <div class="body">
+        <span class="gone-badge">⚠️ No disponible en la web</span>
         <h3>Piso en El Raval</h3>
         <div class="meta">· hab n/d · <span class="ag">pisos.com</span></div>
         <div class="actions">
-          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de Piso en El Raval (1150€). Soy Paula, 34 años, arquitecta con contrato indefinido y sueldo estable (unos 2.716 € netos/mes). Vivo sola, no fumadora y sin mascotas. Busco alquiler de larga duración; tengo toda la documentación lista y avalista si hiciera falta. ¿Sigue disponible? Me encantaría visitarlo cuando os venga bien. ¡Gracias!">📋 Copiar mensaje</button>
+          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de Piso en El Raval (1150€). Soy Paula, 34 años, arquitecta con contrato indefinido y sueldo estable (unos 2.716 € netos/mes). Vivo sola, no fumadora y sin mascotas. Busco alquiler de larga duración; tengo toda la documentación lista y avalista si hiciera falta. ¿Sigue disponible? Me encantaría visitarlo cuando os venga bien. ¡Gracias! Paula · 633 75 81 50 · paulasalvano258@gmail.com">📋 Copiar mensaje</button>
           <a class="btn open" href="https://www.pisos.com/alquilar/piso-el_raval08001-66711160572_109200/" target="_blank" rel="noopener">Abrir piso ↗</a>
         </div>
-        <button class="btn state" data-url="https://www.pisos.com/alquilar/piso-el_raval08001-66711160572_109200/">✅ Ya hablé</button>
+        <div class="row2">
+          <button class="btn state">✅ Ya hablé</button>
+          <button class="btn descartar">🗑️ Descartar</button>
+        </div>
+        <textarea class="nota" placeholder="📝 Tu nota (se guarda sola)..."></textarea>
       </div>
     </article>
 
     <article class="card" data-url="https://www.pisos.com/alquilar/piso-sants_montjuic_hostafrancs08014-66755362941_109200/">
-      <button class="like" title="Me gusta" data-url="https://www.pisos.com/alquilar/piso-sants_montjuic_hostafrancs08014-66755362941_109200/">♥</button>
-      <button class="hide" title="Quitar de mi lista" data-url="https://www.pisos.com/alquilar/piso-sants_montjuic_hostafrancs08014-66755362941_109200/">✕</button>
+      <button class="like" title="Me gusta">♥</button>
+      <button class="hide" title="Quitar de la vista">✕</button>
       <a class="photo" href="https://www.pisos.com/alquilar/piso-sants_montjuic_hostafrancs08014-66755362941_109200/" target="_blank" rel="noopener"><img loading="lazy" src="https://fotos.imghs.net/mm-wp/1092/3230323630383133/ce6c66e6-c626-4973-832c-389e7ae11fcd.jpg" alt="" onerror="this.style.display='none';this.parentNode.classList.add('noimg')">
         <span class="ph">🏠</span>
         <span class="price">1150€</span>
       </a>
       <div class="body">
+        <span class="gone-badge">⚠️ No disponible en la web</span>
         <h3>Piso en Hostafrancs</h3>
         <div class="meta">· hab n/d · <span class="ag">pisos.com</span></div>
         <div class="actions">
-          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de Piso en Hostafrancs (1150€). Soy Paula, 34 años, arquitecta con contrato indefinido y sueldo estable (unos 2.716 € netos/mes). Vivo sola, no fumadora y sin mascotas. Busco alquiler de larga duración; tengo toda la documentación lista y avalista si hiciera falta. ¿Sigue disponible? Me encantaría visitarlo cuando os venga bien. ¡Gracias!">📋 Copiar mensaje</button>
+          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de Piso en Hostafrancs (1150€). Soy Paula, 34 años, arquitecta con contrato indefinido y sueldo estable (unos 2.716 € netos/mes). Vivo sola, no fumadora y sin mascotas. Busco alquiler de larga duración; tengo toda la documentación lista y avalista si hiciera falta. ¿Sigue disponible? Me encantaría visitarlo cuando os venga bien. ¡Gracias! Paula · 633 75 81 50 · paulasalvano258@gmail.com">📋 Copiar mensaje</button>
           <a class="btn open" href="https://www.pisos.com/alquilar/piso-sants_montjuic_hostafrancs08014-66755362941_109200/" target="_blank" rel="noopener">Abrir piso ↗</a>
         </div>
-        <button class="btn state" data-url="https://www.pisos.com/alquilar/piso-sants_montjuic_hostafrancs08014-66755362941_109200/">✅ Ya hablé</button>
+        <div class="row2">
+          <button class="btn state">✅ Ya hablé</button>
+          <button class="btn descartar">🗑️ Descartar</button>
+        </div>
+        <textarea class="nota" placeholder="📝 Tu nota (se guarda sola)..."></textarea>
       </div>
     </article>
 
     <article class="card" data-url="https://www.pisos.com/alquilar/piso-sant_marti_de_provencals08020-66689511337_109200/">
-      <button class="like" title="Me gusta" data-url="https://www.pisos.com/alquilar/piso-sant_marti_de_provencals08020-66689511337_109200/">♥</button>
-      <button class="hide" title="Quitar de mi lista" data-url="https://www.pisos.com/alquilar/piso-sant_marti_de_provencals08020-66689511337_109200/">✕</button>
+      <button class="like" title="Me gusta">♥</button>
+      <button class="hide" title="Quitar de la vista">✕</button>
       <a class="photo" href="https://www.pisos.com/alquilar/piso-sant_marti_de_provencals08020-66689511337_109200/" target="_blank" rel="noopener"><img loading="lazy" src="https://fotos.imghs.net/mm-wp/1092/3230323630383133/f581041f-09de-4edd-a9d1-8e74d0626f22.jpg" alt="" onerror="this.style.display='none';this.parentNode.classList.add('noimg')">
         <span class="ph">🏠</span>
         <span class="price">1150€</span>
       </a>
       <div class="body">
+        <span class="gone-badge">⚠️ No disponible en la web</span>
         <h3>Piso en Sant Martí de Provençals</h3>
         <div class="meta">· hab n/d · <span class="ag">pisos.com</span></div>
         <div class="actions">
-          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de Piso en Sant Martí de Provençals (1150€). Soy Paula, 34 años, arquitecta con contrato indefinido y sueldo estable (unos 2.716 € netos/mes). Vivo sola, no fumadora y sin mascotas. Busco alquiler de larga duración; tengo toda la documentación lista y avalista si hiciera falta. ¿Sigue disponible? Me encantaría visitarlo cuando os venga bien. ¡Gracias!">📋 Copiar mensaje</button>
+          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de Piso en Sant Martí de Provençals (1150€). Soy Paula, 34 años, arquitecta con contrato indefinido y sueldo estable (unos 2.716 € netos/mes). Vivo sola, no fumadora y sin mascotas. Busco alquiler de larga duración; tengo toda la documentación lista y avalista si hiciera falta. ¿Sigue disponible? Me encantaría visitarlo cuando os venga bien. ¡Gracias! Paula · 633 75 81 50 · paulasalvano258@gmail.com">📋 Copiar mensaje</button>
           <a class="btn open" href="https://www.pisos.com/alquilar/piso-sant_marti_de_provencals08020-66689511337_109200/" target="_blank" rel="noopener">Abrir piso ↗</a>
         </div>
-        <button class="btn state" data-url="https://www.pisos.com/alquilar/piso-sant_marti_de_provencals08020-66689511337_109200/">✅ Ya hablé</button>
+        <div class="row2">
+          <button class="btn state">✅ Ya hablé</button>
+          <button class="btn descartar">🗑️ Descartar</button>
+        </div>
+        <textarea class="nota" placeholder="📝 Tu nota (se guarda sola)..."></textarea>
       </div>
     </article>
 
     <article class="card" data-url="https://www.pisos.com/alquilar/piso-el_raval08001-66667375644_109200/">
-      <button class="like" title="Me gusta" data-url="https://www.pisos.com/alquilar/piso-el_raval08001-66667375644_109200/">♥</button>
-      <button class="hide" title="Quitar de mi lista" data-url="https://www.pisos.com/alquilar/piso-el_raval08001-66667375644_109200/">✕</button>
+      <button class="like" title="Me gusta">♥</button>
+      <button class="hide" title="Quitar de la vista">✕</button>
       <a class="photo" href="https://www.pisos.com/alquilar/piso-el_raval08001-66667375644_109200/" target="_blank" rel="noopener"><img loading="lazy" src="https://fotos.imghs.net/mm-wp/1092/3230323630383137/bd4be113-220e-44cb-a5b8-311c368bf5f5.jpg" alt="" onerror="this.style.display='none';this.parentNode.classList.add('noimg')">
         <span class="ph">🏠</span>
         <span class="price">1150€</span>
       </a>
       <div class="body">
+        <span class="gone-badge">⚠️ No disponible en la web</span>
         <h3>Piso en El Raval</h3>
         <div class="meta">· hab n/d · <span class="ag">pisos.com</span></div>
         <div class="actions">
-          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de Piso en El Raval (1150€). Soy Paula, 34 años, arquitecta con contrato indefinido y sueldo estable (unos 2.716 € netos/mes). Vivo sola, no fumadora y sin mascotas. Busco alquiler de larga duración; tengo toda la documentación lista y avalista si hiciera falta. ¿Sigue disponible? Me encantaría visitarlo cuando os venga bien. ¡Gracias!">📋 Copiar mensaje</button>
+          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de Piso en El Raval (1150€). Soy Paula, 34 años, arquitecta con contrato indefinido y sueldo estable (unos 2.716 € netos/mes). Vivo sola, no fumadora y sin mascotas. Busco alquiler de larga duración; tengo toda la documentación lista y avalista si hiciera falta. ¿Sigue disponible? Me encantaría visitarlo cuando os venga bien. ¡Gracias! Paula · 633 75 81 50 · paulasalvano258@gmail.com">📋 Copiar mensaje</button>
           <a class="btn open" href="https://www.pisos.com/alquilar/piso-el_raval08001-66667375644_109200/" target="_blank" rel="noopener">Abrir piso ↗</a>
         </div>
-        <button class="btn state" data-url="https://www.pisos.com/alquilar/piso-el_raval08001-66667375644_109200/">✅ Ya hablé</button>
+        <div class="row2">
+          <button class="btn state">✅ Ya hablé</button>
+          <button class="btn descartar">🗑️ Descartar</button>
+        </div>
+        <textarea class="nota" placeholder="📝 Tu nota (se guarda sola)..."></textarea>
       </div>
     </article>
 
     <article class="card" data-url="https://www.pisos.com/alquilar/piso-sants_montjuic_hostafrancs08014-66680490932_109200/">
-      <button class="like" title="Me gusta" data-url="https://www.pisos.com/alquilar/piso-sants_montjuic_hostafrancs08014-66680490932_109200/">♥</button>
-      <button class="hide" title="Quitar de mi lista" data-url="https://www.pisos.com/alquilar/piso-sants_montjuic_hostafrancs08014-66680490932_109200/">✕</button>
+      <button class="like" title="Me gusta">♥</button>
+      <button class="hide" title="Quitar de la vista">✕</button>
       <a class="photo" href="https://www.pisos.com/alquilar/piso-sants_montjuic_hostafrancs08014-66680490932_109200/" target="_blank" rel="noopener"><img loading="lazy" src="https://fotos.imghs.net/mm-wp/1092/3230323630363131/1a9f70b9-105d-4f35-9f67-516be55c8ac8.jpg" alt="" onerror="this.style.display='none';this.parentNode.classList.add('noimg')">
         <span class="ph">🏠</span>
         <span class="price">1190€</span>
       </a>
       <div class="body">
+        <span class="gone-badge">⚠️ No disponible en la web</span>
         <h3>Piso en Hostafrancs</h3>
         <div class="meta">1 hab · <span class="ag">pisos.com</span></div>
         <div class="actions">
-          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de Piso en Hostafrancs (1190€). Soy Paula, 34 años, arquitecta con contrato indefinido y sueldo estable (unos 2.716 € netos/mes). Vivo sola, no fumadora y sin mascotas. Busco alquiler de larga duración; tengo toda la documentación lista y avalista si hiciera falta. ¿Sigue disponible? Me encantaría visitarlo cuando os venga bien. ¡Gracias!">📋 Copiar mensaje</button>
+          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de Piso en Hostafrancs (1190€). Soy Paula, 34 años, arquitecta con contrato indefinido y sueldo estable (unos 2.716 € netos/mes). Vivo sola, no fumadora y sin mascotas. Busco alquiler de larga duración; tengo toda la documentación lista y avalista si hiciera falta. ¿Sigue disponible? Me encantaría visitarlo cuando os venga bien. ¡Gracias! Paula · 633 75 81 50 · paulasalvano258@gmail.com">📋 Copiar mensaje</button>
           <a class="btn open" href="https://www.pisos.com/alquilar/piso-sants_montjuic_hostafrancs08014-66680490932_109200/" target="_blank" rel="noopener">Abrir piso ↗</a>
         </div>
-        <button class="btn state" data-url="https://www.pisos.com/alquilar/piso-sants_montjuic_hostafrancs08014-66680490932_109200/">✅ Ya hablé</button>
+        <div class="row2">
+          <button class="btn state">✅ Ya hablé</button>
+          <button class="btn descartar">🗑️ Descartar</button>
+        </div>
+        <textarea class="nota" placeholder="📝 Tu nota (se guarda sola)..."></textarea>
       </div>
     </article>
 
     <article class="card" data-url="https://www.pisos.com/alquilar/casa-el_besos_el_maresme08019-55872066427_109200/">
-      <button class="like" title="Me gusta" data-url="https://www.pisos.com/alquilar/casa-el_besos_el_maresme08019-55872066427_109200/">♥</button>
-      <button class="hide" title="Quitar de mi lista" data-url="https://www.pisos.com/alquilar/casa-el_besos_el_maresme08019-55872066427_109200/">✕</button>
+      <button class="like" title="Me gusta">♥</button>
+      <button class="hide" title="Quitar de la vista">✕</button>
       <a class="photo" href="https://www.pisos.com/alquilar/casa-el_besos_el_maresme08019-55872066427_109200/" target="_blank" rel="noopener"><img loading="lazy" src="https://fotos.imghs.net/mm-wp/1092/714/1092_EB2-6721f6a6638c4377017057e4_1_2025071612070311926.jpg" alt="" onerror="this.style.display='none';this.parentNode.classList.add('noimg')">
         <span class="ph">🏠</span>
         <span class="price">1194€</span>
       </a>
       <div class="body">
+        <span class="gone-badge">⚠️ No disponible en la web</span>
         <h3>Casa en El Besòs-El Maresme</h3>
         <div class="meta">· hab n/d · <span class="ag">pisos.com</span></div>
         <div class="actions">
-          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de Casa en El Besòs-El Maresme (1194€). Soy Paula, 34 años, arquitecta con contrato indefinido y sueldo estable (unos 2.716 € netos/mes). Vivo sola, no fumadora y sin mascotas. Busco alquiler de larga duración; tengo toda la documentación lista y avalista si hiciera falta. ¿Sigue disponible? Me encantaría visitarlo cuando os venga bien. ¡Gracias!">📋 Copiar mensaje</button>
+          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de Casa en El Besòs-El Maresme (1194€). Soy Paula, 34 años, arquitecta con contrato indefinido y sueldo estable (unos 2.716 € netos/mes). Vivo sola, no fumadora y sin mascotas. Busco alquiler de larga duración; tengo toda la documentación lista y avalista si hiciera falta. ¿Sigue disponible? Me encantaría visitarlo cuando os venga bien. ¡Gracias! Paula · 633 75 81 50 · paulasalvano258@gmail.com">📋 Copiar mensaje</button>
           <a class="btn open" href="https://www.pisos.com/alquilar/casa-el_besos_el_maresme08019-55872066427_109200/" target="_blank" rel="noopener">Abrir piso ↗</a>
         </div>
-        <button class="btn state" data-url="https://www.pisos.com/alquilar/casa-el_besos_el_maresme08019-55872066427_109200/">✅ Ya hablé</button>
+        <div class="row2">
+          <button class="btn state">✅ Ya hablé</button>
+          <button class="btn descartar">🗑️ Descartar</button>
+        </div>
+        <textarea class="nota" placeholder="📝 Tu nota (se guarda sola)..."></textarea>
       </div>
     </article>
 
     <article class="card" data-url="https://www.pisos.com/alquilar/piso-el_barri_gotic08002-61730480496_109200/">
-      <button class="like" title="Me gusta" data-url="https://www.pisos.com/alquilar/piso-el_barri_gotic08002-61730480496_109200/">♥</button>
-      <button class="hide" title="Quitar de mi lista" data-url="https://www.pisos.com/alquilar/piso-el_barri_gotic08002-61730480496_109200/">✕</button>
+      <button class="like" title="Me gusta">♥</button>
+      <button class="hide" title="Quitar de la vista">✕</button>
       <a class="photo" href="https://www.pisos.com/alquilar/piso-el_barri_gotic08002-61730480496_109200/" target="_blank" rel="noopener"><img loading="lazy" src="https://fotos.imghs.net/mm-wp/1092/400/1092_EB2-699f8d44f954d0cc300584a0_1_202602270631506118120.jpg" alt="" onerror="this.style.display='none';this.parentNode.classList.add('noimg')">
         <span class="ph">🏠</span>
         <span class="price">1195€</span>
       </a>
       <div class="body">
+        <span class="gone-badge">⚠️ No disponible en la web</span>
         <h3>Piso en El Barri Gòtic</h3>
         <div class="meta">· hab n/d · <span class="ag">pisos.com</span></div>
         <div class="actions">
-          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de Piso en El Barri Gòtic (1195€). Soy Paula, 34 años, arquitecta con contrato indefinido y sueldo estable (unos 2.716 € netos/mes). Vivo sola, no fumadora y sin mascotas. Busco alquiler de larga duración; tengo toda la documentación lista y avalista si hiciera falta. ¿Sigue disponible? Me encantaría visitarlo cuando os venga bien. ¡Gracias!">📋 Copiar mensaje</button>
+          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de Piso en El Barri Gòtic (1195€). Soy Paula, 34 años, arquitecta con contrato indefinido y sueldo estable (unos 2.716 € netos/mes). Vivo sola, no fumadora y sin mascotas. Busco alquiler de larga duración; tengo toda la documentación lista y avalista si hiciera falta. ¿Sigue disponible? Me encantaría visitarlo cuando os venga bien. ¡Gracias! Paula · 633 75 81 50 · paulasalvano258@gmail.com">📋 Copiar mensaje</button>
           <a class="btn open" href="https://www.pisos.com/alquilar/piso-el_barri_gotic08002-61730480496_109200/" target="_blank" rel="noopener">Abrir piso ↗</a>
         </div>
-        <button class="btn state" data-url="https://www.pisos.com/alquilar/piso-el_barri_gotic08002-61730480496_109200/">✅ Ya hablé</button>
+        <div class="row2">
+          <button class="btn state">✅ Ya hablé</button>
+          <button class="btn descartar">🗑️ Descartar</button>
+        </div>
+        <textarea class="nota" placeholder="📝 Tu nota (se guarda sola)..."></textarea>
       </div>
     </article>
 
     <article class="card" data-url="https://www.pisos.com/alquilar/piso-barcelona_capital_eixample-66700526761_109200/">
-      <button class="like" title="Me gusta" data-url="https://www.pisos.com/alquilar/piso-barcelona_capital_eixample-66700526761_109200/">♥</button>
-      <button class="hide" title="Quitar de mi lista" data-url="https://www.pisos.com/alquilar/piso-barcelona_capital_eixample-66700526761_109200/">✕</button>
+      <button class="like" title="Me gusta">♥</button>
+      <button class="hide" title="Quitar de la vista">✕</button>
       <a class="photo" href="https://www.pisos.com/alquilar/piso-barcelona_capital_eixample-66700526761_109200/" target="_blank" rel="noopener"><img loading="lazy" src="https://fotos.imghs.net/mm-wp/1092/3230323630383237/ee44c8ef-5eb8-4652-8c7f-d4fb9cdc9264.jpg" alt="" onerror="this.style.display='none';this.parentNode.classList.add('noimg')">
         <span class="ph">🏠</span>
         <span class="price">1200€</span>
       </a>
       <div class="body">
+        <span class="gone-badge">⚠️ No disponible en la web</span>
         <h3>Piso en Eixample</h3>
         <div class="meta">· hab n/d · <span class="ag">pisos.com</span></div>
         <div class="actions">
-          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de Piso en Eixample (1200€). Soy Paula, 34 años, arquitecta con contrato indefinido y sueldo estable (unos 2.716 € netos/mes). Vivo sola, no fumadora y sin mascotas. Busco alquiler de larga duración; tengo toda la documentación lista y avalista si hiciera falta. ¿Sigue disponible? Me encantaría visitarlo cuando os venga bien. ¡Gracias!">📋 Copiar mensaje</button>
+          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de Piso en Eixample (1200€). Soy Paula, 34 años, arquitecta con contrato indefinido y sueldo estable (unos 2.716 € netos/mes). Vivo sola, no fumadora y sin mascotas. Busco alquiler de larga duración; tengo toda la documentación lista y avalista si hiciera falta. ¿Sigue disponible? Me encantaría visitarlo cuando os venga bien. ¡Gracias! Paula · 633 75 81 50 · paulasalvano258@gmail.com">📋 Copiar mensaje</button>
           <a class="btn open" href="https://www.pisos.com/alquilar/piso-barcelona_capital_eixample-66700526761_109200/" target="_blank" rel="noopener">Abrir piso ↗</a>
         </div>
-        <button class="btn state" data-url="https://www.pisos.com/alquilar/piso-barcelona_capital_eixample-66700526761_109200/">✅ Ya hablé</button>
+        <div class="row2">
+          <button class="btn state">✅ Ya hablé</button>
+          <button class="btn descartar">🗑️ Descartar</button>
+        </div>
+        <textarea class="nota" placeholder="📝 Tu nota (se guarda sola)..."></textarea>
       </div>
     </article>
 
     <article class="card" data-url="https://www.pisos.com/alquilar/piso-la_vila_de_gracia08012-64171297594_530867/">
-      <button class="like" title="Me gusta" data-url="https://www.pisos.com/alquilar/piso-la_vila_de_gracia08012-64171297594_530867/">♥</button>
-      <button class="hide" title="Quitar de mi lista" data-url="https://www.pisos.com/alquilar/piso-la_vila_de_gracia08012-64171297594_530867/">✕</button>
+      <button class="like" title="Me gusta">♥</button>
+      <button class="hide" title="Quitar de la vista">✕</button>
       <a class="photo" href="https://www.pisos.com/alquilar/piso-la_vila_de_gracia08012-64171297594_530867/" target="_blank" rel="noopener"><img loading="lazy" src="https://fotos.imghs.net/mm-wp/530867/64171297594.530867/530867_64171297594_018d3a50-9ba3-4194-bf5a-c3e61b7d5196.jpg" alt="" onerror="this.style.display='none';this.parentNode.classList.add('noimg')">
         <span class="ph">🏠</span>
         <span class="price">1200€</span>
       </a>
       <div class="body">
+        <span class="gone-badge">⚠️ No disponible en la web</span>
         <h3>Piso en Carrer de Verdi</h3>
         <div class="meta">1 hab · <span class="ag">pisos.com</span></div>
         <div class="actions">
-          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de Piso en Carrer de Verdi (1200€). Soy Paula, 34 años, arquitecta con contrato indefinido y sueldo estable (unos 2.716 € netos/mes). Vivo sola, no fumadora y sin mascotas. Busco alquiler de larga duración; tengo toda la documentación lista y avalista si hiciera falta. ¿Sigue disponible? Me encantaría visitarlo cuando os venga bien. ¡Gracias!">📋 Copiar mensaje</button>
+          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de Piso en Carrer de Verdi (1200€). Soy Paula, 34 años, arquitecta con contrato indefinido y sueldo estable (unos 2.716 € netos/mes). Vivo sola, no fumadora y sin mascotas. Busco alquiler de larga duración; tengo toda la documentación lista y avalista si hiciera falta. ¿Sigue disponible? Me encantaría visitarlo cuando os venga bien. ¡Gracias! Paula · 633 75 81 50 · paulasalvano258@gmail.com">📋 Copiar mensaje</button>
           <a class="btn open" href="https://www.pisos.com/alquilar/piso-la_vila_de_gracia08012-64171297594_530867/" target="_blank" rel="noopener">Abrir piso ↗</a>
         </div>
-        <button class="btn state" data-url="https://www.pisos.com/alquilar/piso-la_vila_de_gracia08012-64171297594_530867/">✅ Ya hablé</button>
+        <div class="row2">
+          <button class="btn state">✅ Ya hablé</button>
+          <button class="btn descartar">🗑️ Descartar</button>
+        </div>
+        <textarea class="nota" placeholder="📝 Tu nota (se guarda sola)..."></textarea>
       </div>
     </article>
 
     <article class="card" data-url="https://www.pisos.com/alquilar/piso-vallvidrera_el_tibidabo_les_planes08017-65856948099_100600/">
-      <button class="like" title="Me gusta" data-url="https://www.pisos.com/alquilar/piso-vallvidrera_el_tibidabo_les_planes08017-65856948099_100600/">♥</button>
-      <button class="hide" title="Quitar de mi lista" data-url="https://www.pisos.com/alquilar/piso-vallvidrera_el_tibidabo_les_planes08017-65856948099_100600/">✕</button>
+      <button class="like" title="Me gusta">♥</button>
+      <button class="hide" title="Quitar de la vista">✕</button>
       <a class="photo" href="https://www.pisos.com/alquilar/piso-vallvidrera_el_tibidabo_les_planes08017-65856948099_100600/" target="_blank" rel="noopener"><img loading="lazy" src="https://fotos.imghs.net/mm-wp/1006/3230323630373237/9ee9e765-bd74-4357-8839-28812a710b6a.jpg" alt="" onerror="this.style.display='none';this.parentNode.classList.add('noimg')">
         <span class="ph">🏠</span>
         <span class="price">1200€</span>
       </a>
       <div class="body">
+        <span class="gone-badge">⚠️ No disponible en la web</span>
         <h3>Piso en Sarrià-Sant Gervasi</h3>
         <div class="meta">1 hab · <span class="ag">pisos.com</span></div>
         <div class="actions">
-          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de Piso en Sarrià-Sant Gervasi (1200€). Soy Paula, 34 años, arquitecta con contrato indefinido y sueldo estable (unos 2.716 € netos/mes). Vivo sola, no fumadora y sin mascotas. Busco alquiler de larga duración; tengo toda la documentación lista y avalista si hiciera falta. ¿Sigue disponible? Me encantaría visitarlo cuando os venga bien. ¡Gracias!">📋 Copiar mensaje</button>
+          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de Piso en Sarrià-Sant Gervasi (1200€). Soy Paula, 34 años, arquitecta con contrato indefinido y sueldo estable (unos 2.716 € netos/mes). Vivo sola, no fumadora y sin mascotas. Busco alquiler de larga duración; tengo toda la documentación lista y avalista si hiciera falta. ¿Sigue disponible? Me encantaría visitarlo cuando os venga bien. ¡Gracias! Paula · 633 75 81 50 · paulasalvano258@gmail.com">📋 Copiar mensaje</button>
           <a class="btn open" href="https://www.pisos.com/alquilar/piso-vallvidrera_el_tibidabo_les_planes08017-65856948099_100600/" target="_blank" rel="noopener">Abrir piso ↗</a>
         </div>
-        <button class="btn state" data-url="https://www.pisos.com/alquilar/piso-vallvidrera_el_tibidabo_les_planes08017-65856948099_100600/">✅ Ya hablé</button>
+        <div class="row2">
+          <button class="btn state">✅ Ya hablé</button>
+          <button class="btn descartar">🗑️ Descartar</button>
+        </div>
+        <textarea class="nota" placeholder="📝 Tu nota (se guarda sola)..."></textarea>
       </div>
     </article>
 
     <article class="card" data-url="https://www.pisos.com/alquilar/piso-sants_montjuic_hostafrancs08014-66741502392_109200/">
-      <button class="like" title="Me gusta" data-url="https://www.pisos.com/alquilar/piso-sants_montjuic_hostafrancs08014-66741502392_109200/">♥</button>
-      <button class="hide" title="Quitar de mi lista" data-url="https://www.pisos.com/alquilar/piso-sants_montjuic_hostafrancs08014-66741502392_109200/">✕</button>
+      <button class="like" title="Me gusta">♥</button>
+      <button class="hide" title="Quitar de la vista">✕</button>
       <a class="photo" href="https://www.pisos.com/alquilar/piso-sants_montjuic_hostafrancs08014-66741502392_109200/" target="_blank" rel="noopener"><img loading="lazy" src="https://fotos.imghs.net/mm-wp/1092/3230323630363035/0083d38f-c001-46b4-8a39-83dadffcf913.jpg" alt="" onerror="this.style.display='none';this.parentNode.classList.add('noimg')">
         <span class="ph">🏠</span>
         <span class="price">1200€</span>
       </a>
       <div class="body">
+        <span class="gone-badge">⚠️ No disponible en la web</span>
         <h3>Piso en Hostafrancs</h3>
         <div class="meta">· hab n/d · <span class="ag">pisos.com</span></div>
         <div class="actions">
-          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de Piso en Hostafrancs (1200€). Soy Paula, 34 años, arquitecta con contrato indefinido y sueldo estable (unos 2.716 € netos/mes). Vivo sola, no fumadora y sin mascotas. Busco alquiler de larga duración; tengo toda la documentación lista y avalista si hiciera falta. ¿Sigue disponible? Me encantaría visitarlo cuando os venga bien. ¡Gracias!">📋 Copiar mensaje</button>
+          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de Piso en Hostafrancs (1200€). Soy Paula, 34 años, arquitecta con contrato indefinido y sueldo estable (unos 2.716 € netos/mes). Vivo sola, no fumadora y sin mascotas. Busco alquiler de larga duración; tengo toda la documentación lista y avalista si hiciera falta. ¿Sigue disponible? Me encantaría visitarlo cuando os venga bien. ¡Gracias! Paula · 633 75 81 50 · paulasalvano258@gmail.com">📋 Copiar mensaje</button>
           <a class="btn open" href="https://www.pisos.com/alquilar/piso-sants_montjuic_hostafrancs08014-66741502392_109200/" target="_blank" rel="noopener">Abrir piso ↗</a>
         </div>
-        <button class="btn state" data-url="https://www.pisos.com/alquilar/piso-sants_montjuic_hostafrancs08014-66741502392_109200/">✅ Ya hablé</button>
+        <div class="row2">
+          <button class="btn state">✅ Ya hablé</button>
+          <button class="btn descartar">🗑️ Descartar</button>
+        </div>
+        <textarea class="nota" placeholder="📝 Tu nota (se guarda sola)..."></textarea>
       </div>
     </article>
 
     <article class="card" data-url="https://www.pisos.com/alquilar/piso-el_poble_sec08004-66700188403_109200/">
-      <button class="like" title="Me gusta" data-url="https://www.pisos.com/alquilar/piso-el_poble_sec08004-66700188403_109200/">♥</button>
-      <button class="hide" title="Quitar de mi lista" data-url="https://www.pisos.com/alquilar/piso-el_poble_sec08004-66700188403_109200/">✕</button>
+      <button class="like" title="Me gusta">♥</button>
+      <button class="hide" title="Quitar de la vista">✕</button>
       <a class="photo" href="https://www.pisos.com/alquilar/piso-el_poble_sec08004-66700188403_109200/" target="_blank" rel="noopener"><img loading="lazy" src="https://fotos.imghs.net/mm-wp/1092/3230323630353230/f4805aa7-f9c3-458d-b7af-2ec1d0592d4f.jpg" alt="" onerror="this.style.display='none';this.parentNode.classList.add('noimg')">
         <span class="ph">🏠</span>
         <span class="price">1200€</span>
       </a>
       <div class="body">
+        <span class="gone-badge">⚠️ No disponible en la web</span>
         <h3>Piso en El Poble-sec</h3>
         <div class="meta">· hab n/d · <span class="ag">pisos.com</span></div>
         <div class="actions">
-          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de Piso en El Poble-sec (1200€). Soy Paula, 34 años, arquitecta con contrato indefinido y sueldo estable (unos 2.716 € netos/mes). Vivo sola, no fumadora y sin mascotas. Busco alquiler de larga duración; tengo toda la documentación lista y avalista si hiciera falta. ¿Sigue disponible? Me encantaría visitarlo cuando os venga bien. ¡Gracias!">📋 Copiar mensaje</button>
+          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de Piso en El Poble-sec (1200€). Soy Paula, 34 años, arquitecta con contrato indefinido y sueldo estable (unos 2.716 € netos/mes). Vivo sola, no fumadora y sin mascotas. Busco alquiler de larga duración; tengo toda la documentación lista y avalista si hiciera falta. ¿Sigue disponible? Me encantaría visitarlo cuando os venga bien. ¡Gracias! Paula · 633 75 81 50 · paulasalvano258@gmail.com">📋 Copiar mensaje</button>
           <a class="btn open" href="https://www.pisos.com/alquilar/piso-el_poble_sec08004-66700188403_109200/" target="_blank" rel="noopener">Abrir piso ↗</a>
         </div>
-        <button class="btn state" data-url="https://www.pisos.com/alquilar/piso-el_poble_sec08004-66700188403_109200/">✅ Ya hablé</button>
+        <div class="row2">
+          <button class="btn state">✅ Ya hablé</button>
+          <button class="btn descartar">🗑️ Descartar</button>
+        </div>
+        <textarea class="nota" placeholder="📝 Tu nota (se guarda sola)..."></textarea>
       </div>
     </article>
 
     <article class="card" data-url="https://www.pisos.com/alquilar/piso-el_raval08002-66670690568_109200/">
-      <button class="like" title="Me gusta" data-url="https://www.pisos.com/alquilar/piso-el_raval08002-66670690568_109200/">♥</button>
-      <button class="hide" title="Quitar de mi lista" data-url="https://www.pisos.com/alquilar/piso-el_raval08002-66670690568_109200/">✕</button>
+      <button class="like" title="Me gusta">♥</button>
+      <button class="hide" title="Quitar de la vista">✕</button>
       <a class="photo" href="https://www.pisos.com/alquilar/piso-el_raval08002-66670690568_109200/" target="_blank" rel="noopener"><img loading="lazy" src="https://fotos.imghs.net/mm-wp/1092/3230323630383034/a05d387e-1a32-41e7-9fcb-27957806b091.jpg" alt="" onerror="this.style.display='none';this.parentNode.classList.add('noimg')">
         <span class="ph">🏠</span>
         <span class="price">1200€</span>
       </a>
       <div class="body">
+        <span class="gone-badge">⚠️ No disponible en la web</span>
         <h3>Piso en El Raval</h3>
         <div class="meta">· hab n/d · <span class="ag">pisos.com</span></div>
         <div class="actions">
-          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de Piso en El Raval (1200€). Soy Paula, 34 años, arquitecta con contrato indefinido y sueldo estable (unos 2.716 € netos/mes). Vivo sola, no fumadora y sin mascotas. Busco alquiler de larga duración; tengo toda la documentación lista y avalista si hiciera falta. ¿Sigue disponible? Me encantaría visitarlo cuando os venga bien. ¡Gracias!">📋 Copiar mensaje</button>
+          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de Piso en El Raval (1200€). Soy Paula, 34 años, arquitecta con contrato indefinido y sueldo estable (unos 2.716 € netos/mes). Vivo sola, no fumadora y sin mascotas. Busco alquiler de larga duración; tengo toda la documentación lista y avalista si hiciera falta. ¿Sigue disponible? Me encantaría visitarlo cuando os venga bien. ¡Gracias! Paula · 633 75 81 50 · paulasalvano258@gmail.com">📋 Copiar mensaje</button>
           <a class="btn open" href="https://www.pisos.com/alquilar/piso-el_raval08002-66670690568_109200/" target="_blank" rel="noopener">Abrir piso ↗</a>
         </div>
-        <button class="btn state" data-url="https://www.pisos.com/alquilar/piso-el_raval08002-66670690568_109200/">✅ Ya hablé</button>
+        <div class="row2">
+          <button class="btn state">✅ Ya hablé</button>
+          <button class="btn descartar">🗑️ Descartar</button>
+        </div>
+        <textarea class="nota" placeholder="📝 Tu nota (se guarda sola)..."></textarea>
       </div>
     </article></div>
 <footer>Motor propio · revisa +150 inmobiliarias de Barcelona · hecho para Paula</footer>
+<script>const GEN_TS=1787950428*1000;</script>
 <script>
-const GEN_TS=1787949728*1000;
-function relTime(){
-  const m=Math.max(0,Math.round((Date.now()-GEN_TS)/60000));
-  const el=document.getElementById('upd');
-  if(el) el.textContent = m<1 ? 'recién' : ('hace '+m+' min');
-}
-relTime(); setInterval(relTime,30000);
-setTimeout(()=>location.reload(), 240000);   // se refresca sola cada 4 min
+const K = {liked:'pisos_liked', done:'pisos_done', hidden:'pisos_hidden', desc:'pisos_desc'};
+const loadSet = k => new Set(JSON.parse(localStorage.getItem(k) || '[]'));
+const saveSet = (k,s) => localStorage.setItem(k, JSON.stringify([...s]));
+const loadObj = k => JSON.parse(localStorage.getItem(k) || '{}');
+const saveObj = (k,o) => localStorage.setItem(k, JSON.stringify(o));
+let liked=loadSet(K.liked), done=loadSet(K.done), hidden=loadSet(K.hidden), desc=loadSet(K.desc);
+let notes = loadObj('pisos_notes');
+let saved = loadObj('pisos_saved');
+let onlyFav=false, hideDone=false, hideDesc=false;
 
-const KEYS={liked:'pisos_liked',done:'pisos_done',hidden:'pisos_hidden'};
-const load=k=>new Set(JSON.parse(localStorage.getItem(k)||'[]'));
-const save=(k,s)=>localStorage.setItem(k,JSON.stringify([...s]));
-let liked=load(KEYS.liked), done=load(KEYS.done), hidden=load(KEYS.hidden);
-let onlyFav=false, hideDone=false;
+const grid = document.querySelector('.grid');
+
+// 1) Inyectar los que YA no están en la web pero tenés guardados (registro)
+if (grid) {
+  const current = new Set([...document.querySelectorAll('.card')].map(c => c.dataset.url));
+  Object.keys(saved).forEach(url => {
+    if (!current.has(url)) {
+      const tmp = document.createElement('div');
+      tmp.innerHTML = saved[url];
+      const c = tmp.firstElementChild;
+      if (c) { c.classList.add('gone'); grid.appendChild(c); }
+    }
+  });
+}
+
+function snapshot(card){
+  const cl = card.cloneNode(true);
+  cl.classList.remove('gone','liked','done','descartado');
+  const t = cl.querySelector('.nota'); if (t) t.value = '';
+  saved[card.dataset.url] = cl.outerHTML;
+  saveObj('pisos_saved', saved);
+}
 
 function applyCard(card){
-  const u=card.dataset.url;
+  const u = card.dataset.url;
   card.classList.toggle('liked', liked.has(u));
   card.classList.toggle('done', done.has(u));
-  const st=card.querySelector('.state'); if(st) st.textContent = done.has(u)?'✔ Ya hablé':'✅ Ya hablé';
+  card.classList.toggle('descartado', desc.has(u));
+  const st = card.querySelector('.state'); if (st) st.textContent = done.has(u) ? '✔ Ya hablé' : '✅ Ya hablé';
+  const db = card.querySelector('.descartar'); if (db) db.textContent = desc.has(u) ? '♻️ Recuperar' : '🗑️ Descartar';
+  const na = card.querySelector('.nota'); if (na && notes[u] !== undefined && na.value !== notes[u]) na.value = notes[u];
   let show = !hidden.has(u);
-  if(onlyFav && !liked.has(u)) show=false;
-  if(hideDone && done.has(u)) show=false;
-  card.style.display = show?'':'none';
+  if (onlyFav && !liked.has(u)) show = false;
+  if (hideDone && done.has(u)) show = false;
+  if (hideDesc && desc.has(u)) show = false;
+  card.style.display = show ? '' : 'none';
 }
 function applyAll(){ document.querySelectorAll('.card').forEach(applyCard); }
 
-document.querySelectorAll('.like').forEach(b=>b.addEventListener('click',e=>{
-  e.preventDefault(); const u=b.dataset.url;
-  liked.has(u)?liked.delete(u):liked.add(u); save(KEYS.liked,liked);
-  applyCard(b.closest('.card'));
-}));
-document.querySelectorAll('.hide').forEach(b=>b.addEventListener('click',e=>{
-  e.preventDefault(); const u=b.dataset.url; hidden.add(u); save(KEYS.hidden,hidden);
-  b.closest('.card').style.display='none';
-}));
-document.querySelectorAll('.state').forEach(b=>b.addEventListener('click',e=>{
-  e.preventDefault(); const u=b.dataset.url;
-  done.has(u)?done.delete(u):done.add(u); save(KEYS.done,done);
-  applyCard(b.closest('.card'));
-}));
-const ff=document.getElementById('f-fav'), fd=document.getElementById('f-hidedone');
-ff.addEventListener('click',()=>{onlyFav=!onlyFav; ff.classList.toggle('on',onlyFav); applyAll();});
-fd.addEventListener('click',()=>{hideDone=!hideDone; fd.classList.toggle('on',hideDone); applyAll();});
+document.querySelectorAll('.card').forEach(card => {
+  const u = card.dataset.url;
+  const like = card.querySelector('.like');
+  const hide = card.querySelector('.hide');
+  const state = card.querySelector('.state');
+  const dsc = card.querySelector('.descartar');
+  const nota = card.querySelector('.nota');
+  const copy = card.querySelector('.copy');
+  if (like) like.addEventListener('click', e => { e.preventDefault(); liked.has(u)?liked.delete(u):liked.add(u); saveSet(K.liked,liked); snapshot(card); applyCard(card); });
+  if (hide) hide.addEventListener('click', e => { e.preventDefault(); hidden.add(u); saveSet(K.hidden,hidden); applyCard(card); });
+  if (state) state.addEventListener('click', e => { e.preventDefault(); done.has(u)?done.delete(u):done.add(u); saveSet(K.done,done); snapshot(card); applyCard(card); });
+  if (dsc) dsc.addEventListener('click', e => { e.preventDefault(); desc.has(u)?desc.delete(u):desc.add(u); saveSet(K.desc,desc); snapshot(card); applyCard(card); });
+  if (nota) nota.addEventListener('input', () => { notes[u] = nota.value; saveObj('pisos_notes', notes); snapshot(card); });
+  if (copy) copy.addEventListener('click', async () => {
+    try { await navigator.clipboard.writeText(copy.dataset.msg);
+      copy.textContent='✓ Copiado'; copy.classList.add('copied');
+      setTimeout(()=>{ copy.textContent='📋 Copiar mensaje'; copy.classList.remove('copied'); }, 1800);
+    } catch(e) { alert(copy.dataset.msg); }
+  });
+});
 
-document.querySelectorAll('.copy').forEach(b => b.addEventListener('click', async () => {
-  try { await navigator.clipboard.writeText(b.dataset.msg);
-    b.textContent='✓ Copiado'; b.classList.add('done');
-    setTimeout(()=>{b.textContent='📋 Copiar mensaje'; b.classList.remove('done');}, 1800);
-  } catch(e) { alert(b.dataset.msg); }
-}));
+const ff = document.getElementById('f-fav');
+const fd = document.getElementById('f-done');
+const fx = document.getElementById('f-desc');
+if (ff) ff.addEventListener('click', () => { onlyFav=!onlyFav; ff.classList.toggle('on',onlyFav); applyAll(); });
+if (fd) fd.addEventListener('click', () => { hideDone=!hideDone; fd.classList.toggle('on',hideDone); applyAll(); });
+if (fx) fx.addEventListener('click', () => { hideDesc=!hideDesc; fx.classList.toggle('on',hideDesc); applyAll(); });
+
+function relTime(){
+  const m = Math.max(0, Math.round((Date.now() - GEN_TS)/60000));
+  const el = document.getElementById('upd');
+  if (el) el.textContent = m < 1 ? 'recién' : ('hace ' + m + ' min');
+}
+relTime(); setInterval(relTime, 30000);
+setTimeout(() => location.reload(), 240000);
 applyAll();
 </script>
 </body>
