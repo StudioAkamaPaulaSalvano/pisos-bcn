@@ -19,7 +19,7 @@ permissions:
 jobs:
   buscar:
     runs-on: ubuntu-latest
-    timeout-minutes: 32        # si algo se cuelga, se corta solo (no bloquea nada)
+    timeout-minutes: 350       # corre ~5,5 h seguidas (máx GitHub = 6 h)
     steps:
       - uses: actions/checkout@v4
 
@@ -44,7 +44,7 @@ jobs:
           git config user.name "pisos-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config pull.rebase true
-          END=$((SECONDS+1560))      # ~26 min de bucle; se reinicia a los :00 y :30
+          END=$((SECONDS+19800))     # ~5,5 h de bucle continuo (una corrida cubre casi el día)
           while [ $SECONDS -lt $END ]; do
             python app/scrape.py --fast || true
             python app/build_page.py || true
@@ -56,5 +56,5 @@ jobs:
               git pull --rebase -q || true
               git push -q || true
             fi
-            sleep 300
+            sleep 240
           done
