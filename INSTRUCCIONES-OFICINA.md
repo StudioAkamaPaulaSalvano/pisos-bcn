@@ -40,9 +40,10 @@ python -m playwright install chromium
 ```
 python realtime.py
 ```
-- Abrí **http://localhost:8000** en el navegador de esta compu.
-- Desde el **móvil** (misma wifi): mirá la IP local de esta compu (ej. 192.168.1.40)
-  y entrá a **http://192.168.1.40:8000**.
+- Abrí **http://localhost:8000** en el navegador de **esta misma computadora**.
+- 🔒 **Privacidad:** la página se sirve SOLO en localhost (127.0.0.1), es decir
+  **solo en esta computadora**. NO se expone a la red de la oficina ni a internet,
+  y no revela ninguna IP. Nadie más puede verla.
 
 ## Que NO se pare (24/7)
 - **Lo más simple:** dejar la terminal abierta con `python realtime.py` corriendo.
@@ -66,4 +67,4 @@ python realtime.py
 ### Prompt corto para pegarle al Claude de la oficina
 > "Cloná https://github.com/StudioAkamaPaulaSalvano/pisos-bcn y seguí
 > INSTRUCCIONES-OFICINA.md para dejarlo corriendo 24/7 con `python realtime.py`.
-> Confirmame la IP local así lo abro desde el móvil."
+> Se sirve solo en localhost (127.0.0.1), sin exponer nada a la red ni a internet."

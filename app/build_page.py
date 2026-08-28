@@ -11,11 +11,12 @@ DATA = os.path.join(HERE, "data")
 WEB = os.path.join(HERE, "web")
 
 # --- Tu mensaje (edítalo una vez con tus datos; {zona} y {precio} se rellenan solos) ---
-MENSAJE = ("Hola, buenos días. Me interesa mucho el piso de {zona} de {precio}€. "
-           "Soy [NOMBRE], con ingresos estables. Seríamos [Nº] personas, no fumadores "
-           "y sin mascotas. Puedo aportar nóminas/aval y tengo dossier con la "
-           "documentación listo. Puedo ir a verlo hoy o mañana a la hora que os venga "
-           "bien. ¿Sigue disponible? Gracias.")
+MENSAJE = ("Hola, buenos días. Me interesa mucho el piso de {zona} ({precio}€). "
+           "Soy Paula, 34 años, arquitecta con contrato indefinido y sueldo estable "
+           "(unos 2.716 € netos/mes). Vivo sola, no fumadora y sin mascotas. Busco "
+           "alquiler de larga duración; tengo toda la documentación lista y avalista "
+           "si hiciera falta. ¿Sigue disponible? Me encantaría visitarlo cuando os "
+           "venga bien. ¡Gracias!")
 
 
 def esc(s):

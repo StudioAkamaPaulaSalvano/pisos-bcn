@@ -28,9 +28,11 @@ def serve():
     os.makedirs(WEBDIR, exist_ok=True)
     Handler = lambda *a, **k: http.server.SimpleHTTPRequestHandler(*a, directory=WEBDIR, **k)
     socketserver.TCPServer.allow_reuse_address = True
-    httpd = socketserver.TCPServer(("", PORT), Handler)
+    # SOLO localhost: solo esta computadora puede abrirlo. Nadie de la red/oficina
+    # lo ve, no se expone ninguna IP ni nada a internet.
+    httpd = socketserver.TCPServer(("127.0.0.1", PORT), Handler)
     threading.Thread(target=httpd.serve_forever, daemon=True).start()
-    print(f"🌐 Página en:  http://localhost:{PORT}   (desde el móvil: http://IP-DE-ESTA-COMPU:{PORT})")
+    print(f"🌐 Página (privada, solo en esta compu): http://localhost:{PORT}")
 
 
 def run(mod):
