@@ -36,7 +36,9 @@ def card(l):
                 f'onerror="this.style.display=\'none\';this.parentNode.classList.add(\'noimg\')">'
                 if img else "")
     return f"""
-    <article class="card">
+    <article class="card" data-url="{esc(url)}">
+      <button class="like" title="Me gusta" data-url="{esc(url)}">♥</button>
+      <button class="hide" title="Quitar de mi lista" data-url="{esc(url)}">✕</button>
       <a class="photo" href="{esc(url)}" target="_blank" rel="noopener">{img_html}
         <span class="ph">🏠</span>
         <span class="price">{price}€</span>
@@ -48,6 +50,7 @@ def card(l):
           <button class="btn copy" data-msg="{esc(msg)}">📋 Copiar mensaje</button>
           <a class="btn open" href="{esc(url)}" target="_blank" rel="noopener">Abrir piso ↗</a>
         </div>
+        <button class="btn state" data-url="{esc(url)}">✅ Ya hablé</button>
       </div>
     </article>"""
 
@@ -90,22 +93,78 @@ def build():
   .open {{ background:var(--acc); color:#03204a; }}
   footer {{ color:var(--mut); text-align:center; padding:24px; font-size:12px; }}
   .empty {{ text-align:center; color:var(--mut); padding:60px 20px; }}
+  .card {{ position:relative; }}
+  .like, .hide {{ position:absolute; top:8px; width:32px; height:32px; border:0; border-radius:50%;
+     background:#0f1115cc; color:#fff; font-size:16px; cursor:pointer; z-index:2; line-height:1;
+     display:flex; align-items:center; justify-content:center; backdrop-filter:blur(3px); }}
+  .like {{ right:46px; }}
+  .hide {{ right:8px; }}
+  .like:hover {{ color:#ff5a7a; }}
+  .card.liked .like {{ background:#ff2d55; color:#fff; }}
+  .state {{ background:#2a2f3a; color:var(--mut); margin-top:2px; }}
+  .card.done {{ opacity:.55; }}
+  .card.done .state {{ background:var(--ok); color:#062616; }}
+  .filters {{ display:flex; gap:8px; margin-top:8px; flex-wrap:wrap; }}
+  .filters button {{ background:#20242c; color:var(--tx); border:1px solid #2f3541; border-radius:20px;
+     padding:6px 12px; font-size:12px; cursor:pointer; }}
+  .filters button.on {{ background:var(--acc); color:#03204a; border-color:var(--acc); font-weight:700; }}
 </style>
 </head>
 <body>
 <header>
   <h1>🏠 Pisos en alquiler · Barcelona</h1>
   <div class="sub">{n} pisos · {agencies} inmobiliarias · ≤1200€ · 1-3 hab · actualizado {now}</div>
+  <div class="filters">
+    <button id="f-fav">❤️ Solo favoritos</button>
+    <button id="f-hidedone">🙈 Ocultar los que ya hablé</button>
+  </div>
 </header>
 {'<div class="grid">'+cards+'</div>' if n else '<div class="empty">Aún no hay pisos que cumplan tus criterios. El vigilante seguirá revisando.</div>'}
 <footer>Motor propio · revisa +150 inmobiliarias de Barcelona · hecho para Paula</footer>
 <script>
+const KEYS={{liked:'pisos_liked',done:'pisos_done',hidden:'pisos_hidden'}};
+const load=k=>new Set(JSON.parse(localStorage.getItem(k)||'[]'));
+const save=(k,s)=>localStorage.setItem(k,JSON.stringify([...s]));
+let liked=load(KEYS.liked), done=load(KEYS.done), hidden=load(KEYS.hidden);
+let onlyFav=false, hideDone=false;
+
+function applyCard(card){{
+  const u=card.dataset.url;
+  card.classList.toggle('liked', liked.has(u));
+  card.classList.toggle('done', done.has(u));
+  const st=card.querySelector('.state'); if(st) st.textContent = done.has(u)?'✔ Ya hablé':'✅ Ya hablé';
+  let show = !hidden.has(u);
+  if(onlyFav && !liked.has(u)) show=false;
+  if(hideDone && done.has(u)) show=false;
+  card.style.display = show?'':'none';
+}}
+function applyAll(){{ document.querySelectorAll('.card').forEach(applyCard); }}
+
+document.querySelectorAll('.like').forEach(b=>b.addEventListener('click',e=>{{
+  e.preventDefault(); const u=b.dataset.url;
+  liked.has(u)?liked.delete(u):liked.add(u); save(KEYS.liked,liked);
+  applyCard(b.closest('.card'));
+}}));
+document.querySelectorAll('.hide').forEach(b=>b.addEventListener('click',e=>{{
+  e.preventDefault(); const u=b.dataset.url; hidden.add(u); save(KEYS.hidden,hidden);
+  b.closest('.card').style.display='none';
+}}));
+document.querySelectorAll('.state').forEach(b=>b.addEventListener('click',e=>{{
+  e.preventDefault(); const u=b.dataset.url;
+  done.has(u)?done.delete(u):done.add(u); save(KEYS.done,done);
+  applyCard(b.closest('.card'));
+}}));
+const ff=document.getElementById('f-fav'), fd=document.getElementById('f-hidedone');
+ff.addEventListener('click',()=>{{onlyFav=!onlyFav; ff.classList.toggle('on',onlyFav); applyAll();}});
+fd.addEventListener('click',()=>{{hideDone=!hideDone; fd.classList.toggle('on',hideDone); applyAll();}});
+
 document.querySelectorAll('.copy').forEach(b => b.addEventListener('click', async () => {{
   try {{ await navigator.clipboard.writeText(b.dataset.msg);
     b.textContent='✓ Copiado'; b.classList.add('done');
     setTimeout(()=>{{b.textContent='📋 Copiar mensaje'; b.classList.remove('done');}}, 1800);
   }} catch(e) {{ alert(b.dataset.msg); }}
 }}));
+applyAll();
 </script>
 </body>
 </html>"""
