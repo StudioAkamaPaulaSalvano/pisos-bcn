@@ -1,0 +1,52 @@
+name: Buscar pisos Barcelona
+
+# Corre solo cada 30 min (y se puede lanzar a mano). Sin depender de tu Mac.
+on:
+  schedule:
+    - cron: "*/30 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write   # para guardar el estado (listings/seen) y la página
+
+jobs:
+  buscar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Instalar dependencias
+        run: |
+          pip install requests beautifulsoup4 lxml playwright
+          python -m playwright install --with-deps chromium
+
+      - name: Rastrear inmobiliarias + pisos.com
+        run: python app/scrape.py
+
+      - name: Generar la página
+        run: |
+          python app/build_page.py
+          mkdir -p docs
+          cp app/web/index.html docs/index.html
+
+      - name: Avisar por email de lo nuevo
+        env:
+          SMTP_HOST: ${{ secrets.SMTP_HOST }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASS: ${{ secrets.SMTP_PASS }}
+          MAIL_TO: ${{ secrets.MAIL_TO }}
+          SITE_URL: ${{ secrets.SITE_URL }}
+        run: python app/notify.py
+
+      - name: Guardar resultados y página
+        run: |
+          git config user.name "pisos-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "Actualizar pisos ($(date -u '+%Y-%m-%d %H:%M') UTC)" || echo "sin cambios"
+          git push
