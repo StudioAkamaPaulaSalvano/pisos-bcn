@@ -275,6 +275,17 @@
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1150-euros/"
   },
   {
+    "url": "https://www.locabarcelona.com/en/property/nice-1-bedroom-apartment-ideal-for-a-couple/",
+    "price": 985,
+    "rooms": 1,
+    "kind": "piso",
+    "title": "Available now 985€ Nice 1 bedroom apartment ideal for a couple Ciutat vella                       . Carrer de la Neu de ",
+    "img": "https://www.locabarcelona.com/wp-content/uploads/2021/10/8d9c107f-2f5a-4cf8-b692-4a4cd1e56b0d-23-488x326.jpg",
+    "text": "View Property View Property View Property View Property View Property View Property View Property View Property View Property View Property View Property View Property View Propert",
+    "agency": "Loca Barcelona",
+    "rent_url": "https://www.locabarcelona.com/en/property-feature/features/furnished/"
+  },
+  {
     "url": "https://finquesmartell.com/immoble/llobregos-barcelona-alquiler-001525-1/",
     "price": 989,
     "rooms": 1,
@@ -396,6 +407,17 @@
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1150-euros/"
   },
   {
+    "url": "https://www.pisos.com/alquilar/loft-eixample_sant_antoni08011-60839468259_101800/",
+    "price": 1100,
+    "rooms": null,
+    "kind": "piso",
+    "title": "Loft en Sant Antoni",
+    "img": "https://fotos.imghs.net/mm-wp/1018/554/1018_107633554_1_2026012116010434724.jpg",
+    "text": "1 /19 TOP 1.100 € /mes Loft en Sant Antoni Sant Antoni (Distrito Eixample. Barcelona Capital) 29 m² Descubre este encantador estudio en alquiler en el corazón de Barcelona! Situado",
+    "agency": "pisos.com",
+    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1150-euros/"
+  },
+  {
     "url": "https://www.pisos.com/alquilar/piso-el_raval08001-66668005832_106100/",
     "price": 1100,
     "rooms": 1,
@@ -403,17 +425,6 @@
     "title": "Piso en El Raval",
     "img": "https://fotos.imghs.net/mm-wp/1061/3230323630383233/72b82086-47b7-4bfe-a88c-1026b58106a6.jpg",
     "text": "1 /14 Nuevo TOP Oportunidad 1.100 € /mes Piso en El Raval El Raval (Distrito Ciutat Vella. Barcelona Capital) 1 hab. 1 baño 47 m² 1ª planta Piso centrico, listo parar entrar con la",
-    "agency": "pisos.com",
-    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1150-euros/"
-  },
-  {
-    "url": "https://www.pisos.com/alquilar/loft-eixample_sant_antoni08011-60839468259_101800/",
-    "price": 1100,
-    "rooms": null,
-    "kind": "piso",
-    "title": "Loft en Sant Antoni",
-    "img": "https://fotos.imghs.net/mm-wp/1018/554/1018_107633554_1_2026012116010434724.jpg",
-    "text": "1 /19 PREMIUM 1.100 € /mes Loft en Sant Antoni Sant Antoni (Distrito Eixample. Barcelona Capital) 29 m² Descubre este encantador estudio en alquiler en el corazón de barcelona! Sit",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1150-euros/"
   },
