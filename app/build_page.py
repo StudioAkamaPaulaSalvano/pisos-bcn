@@ -4,7 +4,7 @@ Genera la página web (web/index.html) a partir de data/listings.json.
 Tarjetas con foto, precio, zona, botón "copiar mensaje" y link para contactar.
 Es un archivo estático -> sirve tal cual en GitHub Pages y se abre en el móvil.
 """
-import json, os, html, datetime
+import json, os, html, datetime, time
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 DATA = os.path.join(HERE, "data")
@@ -59,6 +59,7 @@ def build():
     path = os.path.join(DATA, "listings.json")
     listings = json.load(open(path, encoding="utf-8")) if os.path.exists(path) else []
     now = datetime.datetime.now().strftime("%d/%m/%Y %H:%M")
+    ts = int(time.time())
     cards = "\n".join(card(l) for l in listings)
     n = len(listings)
     agencies = len({l.get("agency") for l in listings})
@@ -67,6 +68,9 @@ def build():
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
 <title>Pisos BCN · Paula</title>
 <style>
   :root {{ --bg:#0f1115; --card:#181b22; --tx:#e8eaed; --mut:#9aa0aa; --acc:#4f9cff; --ok:#33c481; }}
@@ -113,7 +117,7 @@ def build():
 <body>
 <header>
   <h1>🏠 Pisos en alquiler · Barcelona</h1>
-  <div class="sub">{n} pisos · {agencies} inmobiliarias · ≤1200€ · 1-3 hab · actualizado {now}</div>
+  <div class="sub">{n} pisos · {agencies} inmobiliarias · ≤1200€ · 1-3 hab · actualizado <b id="upd">recién</b></div>
   <div class="filters">
     <button id="f-fav">❤️ Solo favoritos</button>
     <button id="f-hidedone">🙈 Ocultar los que ya hablé</button>
@@ -122,6 +126,15 @@ def build():
 {'<div class="grid">'+cards+'</div>' if n else '<div class="empty">Aún no hay pisos que cumplan tus criterios. El vigilante seguirá revisando.</div>'}
 <footer>Motor propio · revisa +150 inmobiliarias de Barcelona · hecho para Paula</footer>
 <script>
+const GEN_TS={ts}*1000;
+function relTime(){{
+  const m=Math.max(0,Math.round((Date.now()-GEN_TS)/60000));
+  const el=document.getElementById('upd');
+  if(el) el.textContent = m<1 ? 'recién' : ('hace '+m+' min');
+}}
+relTime(); setInterval(relTime,30000);
+setTimeout(()=>location.reload(), 240000);   // se refresca sola cada 4 min
+
 const KEYS={{liked:'pisos_liked',done:'pisos_done',hidden:'pisos_hidden'}};
 const load=k=>new Set(JSON.parse(localStorage.getItem(k)||'[]'));
 const save=(k,s)=>localStorage.setItem(k,JSON.stringify([...s]));
