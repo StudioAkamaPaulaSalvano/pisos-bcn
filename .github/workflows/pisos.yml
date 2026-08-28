@@ -1,13 +1,19 @@
 name: Buscar pisos Barcelona
 
-# Corre solo cada 30 min (y se puede lanzar a mano). Sin depender de tu Mac.
+# Corre casi todo el tiempo: cada 10 min se relanza y, dentro, hace un ciclo
+# cada ~3-4 min. Modo rápido (clásicas + pisos.com), sin el scan lento inútil.
 on:
   schedule:
-    - cron: "*/30 * * * *"
+    - cron: "*/10 * * * *"
   workflow_dispatch:
 
+# evita que se pisen dos ejecuciones a la vez
+concurrency:
+  group: buscar-pisos
+  cancel-in-progress: false
+
 permissions:
-  contents: write   # para guardar el estado (listings/seen) y la página
+  contents: write
 
 jobs:
   buscar:
@@ -24,16 +30,7 @@ jobs:
           pip install requests beautifulsoup4 lxml playwright
           python -m playwright install --with-deps chromium
 
-      - name: Rastrear inmobiliarias + pisos.com
-        run: python app/scrape.py
-
-      - name: Generar la página
-        run: |
-          python app/build_page.py
-          mkdir -p docs
-          cp app/web/index.html docs/index.html
-
-      - name: Avisar por email de lo nuevo
+      - name: Buscar en bucle (~9 min, ciclo cada ~3-4 min)
         env:
           SMTP_HOST: ${{ secrets.SMTP_HOST }}
           SMTP_PORT: ${{ secrets.SMTP_PORT }}
@@ -41,12 +38,21 @@ jobs:
           SMTP_PASS: ${{ secrets.SMTP_PASS }}
           MAIL_TO: ${{ secrets.MAIL_TO }}
           SITE_URL: ${{ secrets.SITE_URL }}
-        run: python app/notify.py
-
-      - name: Guardar resultados y página
         run: |
           git config user.name "pisos-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A
-          git commit -m "Actualizar pisos ($(date -u '+%Y-%m-%d %H:%M') UTC)" || echo "sin cambios"
-          git push
+          git config pull.rebase true
+          END=$((SECONDS+540))       # ~9 minutos de bucle
+          while [ $SECONDS -lt $END ]; do
+            python app/scrape.py --fast || true
+            python app/build_page.py || true
+            mkdir -p docs && cp app/web/index.html docs/index.html
+            python app/notify.py || true
+            git add -A
+            if ! git diff --cached --quiet; then
+              git commit -q -m "Actualizar pisos ($(date -u '+%H:%M') UTC)"
+              git pull --rebase -q || true
+              git push -q || true
+            fi
+            sleep 200
+          done
