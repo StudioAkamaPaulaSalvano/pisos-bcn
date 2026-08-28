@@ -44,6 +44,17 @@
     "rent_url": "https://www.guinotprunera.com/es/alquiler"
   },
   {
+    "url": "https://www.pisos.com/alquilar/piso-eixample_sant_antoni08015-52590344526_500843/",
+    "price": 790,
+    "rooms": 1,
+    "kind": "piso",
+    "title": "Piso en Carrer de Manso",
+    "img": "https://fotos.imghs.net/mm-wp/500843/52590344526.500843/500843_52590344526_a79dbeca-a0df-47cd-b730-2b428b5661db.jpg",
+    "text": "1 /11 Nuevo PREMIUM 790 € /mes Piso en Carrer de Manso Sant Antoni (Distrito Eixample. Barcelona Capital) 1 hab. 1 baño 45 m² 1ª planta Para poder visitar los pisos, antes se debe ",
+    "agency": "pisos.com",
+    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1150-euros/"
+  },
+  {
     "url": "https://www.pisos.com/alquilar/piso-el_barri_gotic08002-63431472689_530867/",
     "price": 800,
     "rooms": 1,
@@ -193,7 +204,7 @@
     "kind": "piso",
     "title": "Pis, 53.00 m 2",
     "img": "https://imagenes.ghestia.cat/images/webs/LIC1403_140518/fotos0/1398/foto_1.jpg",
-    "text": "lloguer Tipus 855€ Pis, 53.00 m 2 2 Dorm. 53.00 m 2 Veure mes Fa 9 hores",
+    "text": "lloguer Tipus 855€ Pis, 53.00 m 2 2 Dorm. 53.00 m 2 Veure mes Fa 12 hores",
     "agency": "Fincas Ubiergo",
     "rent_url": "https://www.fincasubiergo.com/alquiler"
   },
@@ -204,7 +215,7 @@
     "kind": "piso",
     "title": "Pis, 58.00 m 2",
     "img": "https://imagenes.ghestia.cat/images/webs/LIC1403_140518/fotos0/1396/foto_1.jpg",
-    "text": "lloguer Tipus 876€ Pis, 58.00 m 2 2 Dorm. 58.00 m 2 Veure mes Fa 9 hores",
+    "text": "lloguer Tipus 876€ Pis, 58.00 m 2 2 Dorm. 58.00 m 2 Veure mes Fa 12 hores",
     "agency": "Fincas Ubiergo",
     "rent_url": "https://www.fincasubiergo.com/alquiler"
   },
@@ -249,17 +260,6 @@
     "title": "Piso en Carrer de la Residència",
     "img": "https://fotos.imghs.net/mm-wp/500843/38372847481.500843/500843_38372847481_11_20231003132732027.jpg",
     "text": "1 /11 Nuevo PREMIUM 963 € /mes Piso en Carrer de la Residència Sant Andreu (Distrito Sant Andreu. Barcelona Capital) 2 habs. 1 baño 66 m² 3ª planta Para poder visitar el piso antes",
-    "agency": "pisos.com",
-    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1150-euros/"
-  },
-  {
-    "url": "https://www.pisos.com/alquilar/estudio-la_vila_de_gracia08012-63424964407_530867/",
-    "price": 975,
-    "rooms": null,
-    "kind": "piso",
-    "title": "Estudio en Carrer de Tordera",
-    "img": "https://fotos.imghs.net/mm-wp/530867/63424964407.530867/530867_63424964407_d39df721-627b-45c0-bded-c9fc7e01e2b6.jpg",
-    "text": "1 /10 PREMIUM 975 € /mes Estudio en Carrer de Tordera La Vila de Gràcia (Distrito Gràcia. Barcelona Capital) 1 baño 40 m² Ubicado en gràcia, a pocos minutos de passeig de gràcia, y",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1150-euros/"
   },
@@ -425,6 +425,17 @@
     "title": "Piso en El Raval",
     "img": "https://fotos.imghs.net/mm-wp/1061/3230323630383233/72b82086-47b7-4bfe-a88c-1026b58106a6.jpg",
     "text": "1 /14 Nuevo TOP Oportunidad 1.100 € /mes Piso en El Raval El Raval (Distrito Ciutat Vella. Barcelona Capital) 1 hab. 1 baño 47 m² 1ª planta Piso centrico, listo parar entrar con la",
+    "agency": "pisos.com",
+    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1150-euros/"
+  },
+  {
+    "url": "https://www.pisos.com/alquilar/atico-el_raval08001-64249106130_530867/",
+    "price": 1100,
+    "rooms": 1,
+    "kind": "piso",
+    "title": "Ático en Carrer de l'Hospital",
+    "img": "https://fotos.imghs.net/mm-wp/530867/64249106130.530867/530867_64249106130_27762a0e-d0f3-456e-bc57-507d9e9c01a5.jpg",
+    "text": "1 /6 PREMIUM 1.100 € /mes Ático en Carrer de l'Hospital El Raval (Distrito Ciutat Vella. Barcelona Capital) 1 hab. 1 baño 50 m² Ubicado en una finca con carácter en pleno corazón d",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1150-euros/"
   },
