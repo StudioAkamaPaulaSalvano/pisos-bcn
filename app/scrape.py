@@ -46,6 +46,8 @@ PORTALS = ["idealista", "fotocasa", "habitaclia", "enalquiler",
 # (nombre, url_base_filtrada_por_precio, nº de páginas a recorrer)
 PORTAL_SOURCES = [
     ("pisos.com", "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/", 4),
+    # Calvet: su buscador ASP.NET deja una URL fija de resultados de alquiler
+    ("Calvet", "https://inmobiliaria.calvetpremium.com/es/alquiler-pisos-pisos/en-barcelona-barcelona", 1),
 ]
 
 HEADERS = {"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
