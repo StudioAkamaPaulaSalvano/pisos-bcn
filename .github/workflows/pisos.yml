@@ -9,7 +9,7 @@ on:
 # evita que se pisen dos ejecuciones a la vez
 concurrency:
   group: buscar-pisos
-  cancel-in-progress: false
+  cancel-in-progress: true   # una corrida nueva cancela la anterior (evita cuelgues en cola)
 
 permissions:
   contents: write
@@ -17,6 +17,7 @@ permissions:
 jobs:
   buscar:
     runs-on: ubuntu-latest
+    timeout-minutes: 8         # si algo se cuelga, se corta solo (no bloquea nada)
     steps:
       - uses: actions/checkout@v4
 
