@@ -1,15 +1,17 @@
 name: Buscar pisos Barcelona
 
-# Corre cada 5 min. Modo rápido (clásicas + pisos.com + Calvet), sin el scan lento.
+# Bucle continuo: una corrida larga trabaja ~1h haciendo un ciclo cada ~5 min,
+# y se reinicia cada hora. NO depende del cron */5 de GitHub (que es poco fiable).
 on:
   schedule:
-    - cron: "*/5 * * * *"
+    - cron: "0 * * * *"
+    - cron: "30 * * * *"
   workflow_dispatch:
 
-# evita que se pisen dos ejecuciones a la vez
+# solo una corrida a la vez (no cancela la que está trabajando)
 concurrency:
   group: buscar-pisos
-  cancel-in-progress: true   # una corrida nueva cancela la anterior (evita cuelgues en cola)
+  cancel-in-progress: false
 
 permissions:
   contents: write
@@ -17,7 +19,7 @@ permissions:
 jobs:
   buscar:
     runs-on: ubuntu-latest
-    timeout-minutes: 8         # si algo se cuelga, se corta solo (no bloquea nada)
+    timeout-minutes: 32        # si algo se cuelga, se corta solo (no bloquea nada)
     steps:
       - uses: actions/checkout@v4
 
@@ -30,7 +32,7 @@ jobs:
           pip install requests beautifulsoup4 lxml playwright
           python -m playwright install --with-deps chromium
 
-      - name: Buscar (un par de ciclos y cerrar antes de los 5 min)
+      - name: Buscar en bucle (~26 min, ciclo cada ~5 min)
         env:
           SMTP_HOST: ${{ secrets.SMTP_HOST }}
           SMTP_PORT: ${{ secrets.SMTP_PORT }}
@@ -42,7 +44,7 @@ jobs:
           git config user.name "pisos-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config pull.rebase true
-          END=$((SECONDS+150))       # bucle corto; el cron relanza cada 5 min
+          END=$((SECONDS+1560))      # ~26 min de bucle; se reinicia a los :00 y :30
           while [ $SECONDS -lt $END ]; do
             python app/scrape.py --fast || true
             python app/build_page.py || true
@@ -54,5 +56,5 @@ jobs:
               git pull --rebase -q || true
               git push -q || true
             fi
-            sleep 200
+            sleep 300
           done
