@@ -45,7 +45,7 @@ def main():
         html = (f'<h2>🏠 {len(new)} piso(s) nuevo(s) en Barcelona</h2>'
                 f'{"<p><a href=%r>Abrir la página completa</a></p>" % site if site else ""}'
                 f'<table style="border-collapse:collapse;font-family:sans-serif">{rows}</table>'
-                f'<p style="color:#888;font-size:12px">≤1150€ · 1-3 hab · Barcelona ciudad · larga estancia</p>')
+                f'<p style="color:#888;font-size:12px">≤1200€ · 1-3 hab · Barcelona ciudad · larga estancia</p>')
         msg = EmailMessage()
         msg["Subject"] = f"🏠 {len(new)} piso(s) nuevo(s) en Barcelona (≤1150€)"
         msg["From"] = os.environ.get("MAIL_FROM", os.environ["SMTP_USER"])

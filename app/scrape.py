@@ -23,7 +23,7 @@ DATA = os.path.join(HERE, "data")
 LISTA_MD = os.path.join(ROOT, "inmobiliarias.md")
 
 # ---------- Criterios de Paula ----------
-MAX_PRICE = 1150        # tope pedido por Paula (ideal <=1000)
+MAX_PRICE = 1200        # tope pedido por Paula (ideal <=1000)
 MIN_ROOMS = 1           # pisos de 1, 2 o 3 dormitorios
 MAX_ROOMS = 3
 MIN_PRICE = 350         # por debajo suele ser habitación/local/error
@@ -45,7 +45,7 @@ PORTALS = ["idealista", "fotocasa", "habitaclia", "enalquiler",
 # Portales que SÍ podemos leer con navegador real -> fuente extra.
 # (nombre, url_base_filtrada_por_precio, nº de páginas a recorrer)
 PORTAL_SOURCES = [
-    ("pisos.com", "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1150-euros/", 4),
+    ("pisos.com", "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/", 4),
 ]
 
 HEADERS = {"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "

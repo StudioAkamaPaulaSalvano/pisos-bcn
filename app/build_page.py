@@ -95,7 +95,7 @@ def build():
 <body>
 <header>
   <h1>🏠 Pisos en alquiler · Barcelona</h1>
-  <div class="sub">{n} pisos · {agencies} inmobiliarias · ≤1100€ · 2-3 hab · actualizado {now}</div>
+  <div class="sub">{n} pisos · {agencies} inmobiliarias · ≤1200€ · 1-3 hab · actualizado {now}</div>
 </header>
 {'<div class="grid">'+cards+'</div>' if n else '<div class="empty">Aún no hay pisos que cumplan tus criterios. El vigilante seguirá revisando.</div>'}
 <footer>Motor propio · revisa +150 inmobiliarias de Barcelona · hecho para Paula</footer>
