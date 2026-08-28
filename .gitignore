@@ -7,3 +7,6 @@ app/web/
 # datos personales de Paula — NUNCA subir
 carta-presentacion.md
 contactos.md
+
+# respaldos locales de recuperación
+backup/

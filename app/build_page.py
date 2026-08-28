@@ -114,6 +114,21 @@ const saveObj = (k,o) => localStorage.setItem(k, JSON.stringify(o));
 let liked=loadSet(K.liked), done=loadSet(K.done), hidden=loadSet(K.hidden), desc=loadSet(K.desc);
 let notes = loadObj('pisos_notes');
 let saved = loadObj('pisos_saved');
+
+// --- SEED: notas y estados recuperados; se fusionan 1 sola vez por navegador ---
+const SEED = __SEED__;
+if (SEED && !localStorage.getItem('pisos_seeded_v1')) {
+  (SEED.liked||[]).forEach(u=>liked.add(u));
+  (SEED.done||[]).forEach(u=>done.add(u));
+  (SEED.desc||[]).forEach(u=>desc.add(u));
+  (SEED.hidden||[]).forEach(u=>hidden.add(u));
+  for (const k in (SEED.notes||{})) if (SEED.notes[k] && !notes[k]) notes[k]=SEED.notes[k];
+  for (const k in (SEED.saved||{})) if (!saved[k]) saved[k]=SEED.saved[k];
+  saveSet(K.liked,liked); saveSet(K.done,done); saveSet(K.desc,desc); saveSet(K.hidden,hidden);
+  saveObj('pisos_notes',notes); saveObj('pisos_saved',saved);
+  localStorage.setItem('pisos_seeded_v1','1');
+}
+
 let onlyFav=false, hideDone=false, hideDesc=false;
 
 const grid = document.querySelector('.grid');
@@ -203,6 +218,10 @@ def build():
     agencies = len({l.get("agency") for l in listings})
     body = (f'<div class="grid">{cards}</div>' if n else
             '<div class="empty">Aún no hay pisos que cumplan tus criterios. El vigilante seguirá revisando.</div>')
+    # Semilla de notas/estados recuperados (se inyecta en el JS de la página)
+    seed_path = os.path.join(DATA, "seed.json")
+    seed_json = open(seed_path, encoding="utf-8").read().strip() if os.path.exists(seed_path) else "null"
+    script = SCRIPT.replace("__SEED__", seed_json)
     doc = f"""<!doctype html>
 <html lang="es">
 <head>
@@ -227,7 +246,7 @@ def build():
 {body}
 <footer>Motor propio · revisa +150 inmobiliarias de Barcelona · hecho para Paula</footer>
 <script>const GEN_TS={ts}*1000;</script>
-<script>{SCRIPT}</script>
+<script>{script}</script>
 </body>
 </html>"""
     os.makedirs(WEB, exist_ok=True)
