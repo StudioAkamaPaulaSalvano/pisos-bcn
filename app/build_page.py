@@ -11,9 +11,10 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 DATA = os.path.join(HERE, "data")
 WEB = os.path.join(HERE, "web")
 
-MENSAJE = ("Hola, buenos días. Me interesa mucho el piso de {zona} ({precio}€). "
+MENSAJE = ("Hola, buenos días. Me interesa mucho el piso que tenéis publicado ({precio}€). "
            "Soy Paula, 34 años, arquitecta con contrato indefinido y sueldo estable "
-           "(unos 2.716 € netos/mes). Vivo sola, no fumadora y sin mascotas. Busco "
+           "(unos 2.716 € netos/mes). El piso sería para mí sola; no soy fumadora ni "
+           "tengo mascotas. Busco "
            "alquiler de larga duración; tengo toda la documentación lista y avalista "
            "si hiciera falta. ¿Sigue disponible? Me encantaría visitarlo cuando os "
            "venga bien. ¡Gracias! Paula · 633 75 81 50 · paulasalvano258@gmail.com")
