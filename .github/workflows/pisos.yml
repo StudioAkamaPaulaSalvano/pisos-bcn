@@ -1,10 +1,9 @@
 name: Buscar pisos Barcelona
 
-# Corre casi todo el tiempo: cada 10 min se relanza y, dentro, hace un ciclo
-# cada ~3-4 min. Modo rápido (clásicas + pisos.com), sin el scan lento inútil.
+# Corre cada 5 min. Modo rápido (clásicas + pisos.com + Calvet), sin el scan lento.
 on:
   schedule:
-    - cron: "*/10 * * * *"
+    - cron: "*/5 * * * *"
   workflow_dispatch:
 
 # evita que se pisen dos ejecuciones a la vez
@@ -30,7 +29,7 @@ jobs:
           pip install requests beautifulsoup4 lxml playwright
           python -m playwright install --with-deps chromium
 
-      - name: Buscar en bucle (~9 min, ciclo cada ~3-4 min)
+      - name: Buscar (un par de ciclos y cerrar antes de los 5 min)
         env:
           SMTP_HOST: ${{ secrets.SMTP_HOST }}
           SMTP_PORT: ${{ secrets.SMTP_PORT }}
@@ -42,7 +41,7 @@ jobs:
           git config user.name "pisos-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config pull.rebase true
-          END=$((SECONDS+540))       # ~9 minutos de bucle
+          END=$((SECONDS+150))       # bucle corto; el cron relanza cada 5 min
           while [ $SECONDS -lt $END ]; do
             python app/scrape.py --fast || true
             python app/build_page.py || true
