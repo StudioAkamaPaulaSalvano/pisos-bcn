@@ -93,9 +93,8 @@ CSS = """
   .like { right:46px; } .hide { right:8px; }
   .card.liked .like { background:#ff2d55; }
   .card.done .state { background:var(--ok); color:#062616; }
-  .card.descartado { opacity:.55; }
-  .card.descartado h3 { text-decoration:line-through; }
-  .card.descartado .descartar { background:#7a4a1a; color:#ffd9a8; }
+  .card.descartado { opacity:.45; }
+  .card.descartado .descartar { background:#e5484d; color:#fff; }
   .gone-badge { display:none; background:#5a2530; color:#ffb4c0; font-size:11px; font-weight:700; padding:3px 8px; border-radius:6px; width:fit-content; }
   .card.gone .gone-badge { display:inline-block; }
   .card.gone { border-color:#5a2530; }
