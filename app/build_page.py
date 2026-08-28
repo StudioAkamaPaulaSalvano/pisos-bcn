@@ -16,7 +16,7 @@ MENSAJE = ("Hola, buenos días. Me interesa mucho el piso de {zona} ({precio}€
            "(unos 2.716 € netos/mes). Vivo sola, no fumadora y sin mascotas. Busco "
            "alquiler de larga duración; tengo toda la documentación lista y avalista "
            "si hiciera falta. ¿Sigue disponible? Me encantaría visitarlo cuando os "
-           "venga bien. ¡Gracias!")
+           "venga bien. ¡Gracias! Paula · 633 75 81 50 · paulasalvano258@gmail.com")
 
 
 def esc(s):
