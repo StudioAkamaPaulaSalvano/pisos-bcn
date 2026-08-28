@@ -1,0 +1,724 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pisos BCN · Paula</title>
+<style>
+  :root { --bg:#0f1115; --card:#181b22; --tx:#e8eaed; --mut:#9aa0aa; --acc:#4f9cff; --ok:#33c481; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--tx); font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif; }
+  header { position:sticky; top:0; background:#0f1115ee; backdrop-filter:blur(8px); padding:14px 16px; border-bottom:1px solid #262a33; z-index:5; }
+  header h1 { margin:0; font-size:19px; }
+  header .sub { color:var(--mut); font-size:13px; margin-top:3px; }
+  .grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(300px,1fr)); gap:14px; padding:16px; max-width:1200px; margin:0 auto; }
+  .card { background:var(--card); border:1px solid #262a33; border-radius:14px; overflow:hidden; display:flex; flex-direction:column; }
+  .photo { position:relative; display:block; height:180px; background:#20242c; text-decoration:none; }
+  .photo img { width:100%; height:100%; object-fit:cover; display:block; }
+  .photo .ph { position:absolute; inset:0; display:none; align-items:center; justify-content:center; font-size:46px; opacity:.35; }
+  .photo.noimg .ph { display:flex; }
+  .photo .price { position:absolute; left:10px; bottom:10px; background:var(--ok); color:#062616; font-weight:700; padding:5px 10px; border-radius:8px; font-size:16px; }
+  .body { padding:12px; display:flex; flex-direction:column; gap:8px; flex:1; }
+  .body h3 { margin:0; font-size:15px; line-height:1.3; }
+  .meta { color:var(--mut); font-size:13px; }
+  .ag { color:var(--acc); }
+  .actions { display:flex; gap:8px; margin-top:auto; }
+  .btn { flex:1; text-align:center; padding:10px; border-radius:9px; border:0; font-size:13px; font-weight:600; cursor:pointer; text-decoration:none; }
+  .copy { background:#2a2f3a; color:var(--tx); }
+  .copy.done { background:var(--ok); color:#062616; }
+  .open { background:var(--acc); color:#03204a; }
+  footer { color:var(--mut); text-align:center; padding:24px; font-size:12px; }
+  .empty { text-align:center; color:var(--mut); padding:60px 20px; }
+</style>
+</head>
+<body>
+<header>
+  <h1>🏠 Pisos en alquiler · Barcelona</h1>
+  <div class="sub">45 pisos · 5 inmobiliarias · ≤1100€ · 2-3 hab · actualizado 28/08/2026 16:40</div>
+</header>
+<div class="grid">
+    <article class="card">
+      <a class="photo" href="https://finquesmartell.com/immoble/maragall-pl-2-3-entl-3-barcelona-alquiler-001058-1/" target="_blank" rel="noopener"><img loading="lazy" src="https://finquesmartell.com/wp-content/uploads/2026/06/martell-1058-11-2.jpg" alt="" onerror="this.style.display='none';this.parentNode.classList.add('noimg')">
+        <span class="ph">🏠</span>
+        <span class="price">600€</span>
+      </a>
+      <div class="body">
+        <h3>Maragall, pl. 2-3 entl 3 BARCELONA-Alquiler-001058/1</h3>
+        <div class="meta">3 hab · <span class="ag">Finques Martell</span></div>
+        <div class="actions">
+          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de Maragall, pl. 2-3 entl 3 BARCELONA-Alquiler-001058/1 de 600€. Soy [NOMBRE], con ingresos estables. Seríamos [Nº] personas, no fumadores y sin mascotas. Puedo aportar nóminas/aval y tengo dossier con la documentación listo. Puedo ir a verlo hoy o mañana a la hora que os venga bien. ¿Sigue disponible? Gracias.">📋 Copiar mensaje</button>
+          <a class="btn open" href="https://finquesmartell.com/immoble/maragall-pl-2-3-entl-3-barcelona-alquiler-001058-1/" target="_blank" rel="noopener">Abrir piso ↗</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="card">
+      <a class="photo" href="https://www.pisos.com/alquilar/piso-el_raval08001-63384109363_530867/" target="_blank" rel="noopener"><img loading="lazy" src="https://fotos.imghs.net/mm-wp/530867/63384109363.530867/530867_63384109363_ae664a64-91b5-48d2-a1dd-666b4394df09.jpg" alt="" onerror="this.style.display='none';this.parentNode.classList.add('noimg')">
+        <span class="ph">🏠</span>
+        <span class="price">750€</span>
+      </a>
+      <div class="body">
+        <h3>Piso en Carrer de Pelai</h3>
+        <div class="meta">1 hab · <span class="ag">pisos.com</span></div>
+        <div class="actions">
+          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de Piso en Carrer de Pelai de 750€. Soy [NOMBRE], con ingresos estables. Seríamos [Nº] personas, no fumadores y sin mascotas. Puedo aportar nóminas/aval y tengo dossier con la documentación listo. Puedo ir a verlo hoy o mañana a la hora que os venga bien. ¿Sigue disponible? Gracias.">📋 Copiar mensaje</button>
+          <a class="btn open" href="https://www.pisos.com/alquilar/piso-el_raval08001-63384109363_530867/" target="_blank" rel="noopener">Abrir piso ↗</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="card">
+      <a class="photo" href="https://www.guinotprunera.com/es/alquiler/ref-31529" target="_blank" rel="noopener"><img loading="lazy" src="https://media.mobiliagestion.es/Portals/inmoguinotprunera/Images/31529/27164028.jpg" alt="" onerror="this.style.display='none';this.parentNode.classList.add('noimg')">
+        <span class="ph">🏠</span>
+        <span class="price">778€</span>
+      </a>
+      <div class="body">
+        <h3>Sant Andreu de Palomar</h3>
+        <div class="meta">· hab n/d · <span class="ag">Guinot Prunera</span></div>
+        <div class="actions">
+          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de Sant Andreu de Palomar de 778€. Soy [NOMBRE], con ingresos estables. Seríamos [Nº] personas, no fumadores y sin mascotas. Puedo aportar nóminas/aval y tengo dossier con la documentación listo. Puedo ir a verlo hoy o mañana a la hora que os venga bien. ¿Sigue disponible? Gracias.">📋 Copiar mensaje</button>
+          <a class="btn open" href="https://www.guinotprunera.com/es/alquiler/ref-31529" target="_blank" rel="noopener">Abrir piso ↗</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="card">
+      <a class="photo" href="https://www.guinotprunera.com/es/alquiler/ref-31899" target="_blank" rel="noopener"><img loading="lazy" src="https://media.mobiliagestion.es/Portals/inmoguinotprunera/Images/31899/28100223.jpg" alt="" onerror="this.style.display='none';this.parentNode.classList.add('noimg')">
+        <span class="ph">🏠</span>
+        <span class="price">787€</span>
+      </a>
+      <div class="body">
+        <h3>L&#x27;Antiga Esquerra de L&#x27;Eixample</h3>
+        <div class="meta">· hab n/d · <span class="ag">Guinot Prunera</span></div>
+        <div class="actions">
+          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de L&amp;#x27;Antiga Esquerra de L&amp;#x27;Eixample de 787€. Soy [NOMBRE], con ingresos estables. Seríamos [Nº] personas, no fumadores y sin mascotas. Puedo aportar nóminas/aval y tengo dossier con la documentación listo. Puedo ir a verlo hoy o mañana a la hora que os venga bien. ¿Sigue disponible? Gracias.">📋 Copiar mensaje</button>
+          <a class="btn open" href="https://www.guinotprunera.com/es/alquiler/ref-31899" target="_blank" rel="noopener">Abrir piso ↗</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="card">
+      <a class="photo" href="https://www.pisos.com/alquilar/piso-el_barri_gotic08002-63431472689_530867/" target="_blank" rel="noopener"><img loading="lazy" src="https://fotos.imghs.net/mm-wp/530867/63431472689.530867/530867_63431472689_22ef6d05-bd02-43f2-9b88-784258c6d243.jpg" alt="" onerror="this.style.display='none';this.parentNode.classList.add('noimg')">
+        <span class="ph">🏠</span>
+        <span class="price">800€</span>
+      </a>
+      <div class="body">
+        <h3>Piso en Carrer del Pi</h3>
+        <div class="meta">1 hab · <span class="ag">pisos.com</span></div>
+        <div class="actions">
+          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de Piso en Carrer del Pi de 800€. Soy [NOMBRE], con ingresos estables. Seríamos [Nº] personas, no fumadores y sin mascotas. Puedo aportar nóminas/aval y tengo dossier con la documentación listo. Puedo ir a verlo hoy o mañana a la hora que os venga bien. ¿Sigue disponible? Gracias.">📋 Copiar mensaje</button>
+          <a class="btn open" href="https://www.pisos.com/alquilar/piso-el_barri_gotic08002-63431472689_530867/" target="_blank" rel="noopener">Abrir piso ↗</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="card">
+      <a class="photo" href="https://www.pisos.com/alquilar/piso-sants_montjuic_hostafrancs08014-63420332110_530867/" target="_blank" rel="noopener"><img loading="lazy" src="https://fotos.imghs.net/mm-wp/530867/63420332110.530867/530867_63420332110_84494247-3ab8-4f56-8771-bbbcbd77633f.jpg" alt="" onerror="this.style.display='none';this.parentNode.classList.add('noimg')">
+        <span class="ph">🏠</span>
+        <span class="price">800€</span>
+      </a>
+      <div class="body">
+        <h3>Piso en Carrer de Mallorca</h3>
+        <div class="meta">1 hab · <span class="ag">pisos.com</span></div>
+        <div class="actions">
+          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de Piso en Carrer de Mallorca de 800€. Soy [NOMBRE], con ingresos estables. Seríamos [Nº] personas, no fumadores y sin mascotas. Puedo aportar nóminas/aval y tengo dossier con la documentación listo. Puedo ir a verlo hoy o mañana a la hora que os venga bien. ¿Sigue disponible? Gracias.">📋 Copiar mensaje</button>
+          <a class="btn open" href="https://www.pisos.com/alquilar/piso-sants_montjuic_hostafrancs08014-63420332110_530867/" target="_blank" rel="noopener">Abrir piso ↗</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="card">
+      <a class="photo" href="https://finquesmartell.com/immoble/arc-de-sant-sever-l-barcelona-alquiler-001999-1/" target="_blank" rel="noopener"><img loading="lazy" src="https://finquesmartell.com/wp-content/uploads/2026/08/martell-1999-12.jpg" alt="" onerror="this.style.display='none';this.parentNode.classList.add('noimg')">
+        <span class="ph">🏠</span>
+        <span class="price">820€</span>
+      </a>
+      <div class="body">
+        <h3>ARC DE SANT SEVER (L’) BARCELONA-Alquiler-001999/1</h3>
+        <div class="meta">2 hab · <span class="ag">Finques Martell</span></div>
+        <div class="actions">
+          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de ARC DE SANT SEVER (L’) BARCELONA-Alquiler-001999/1 de 820€. Soy [NOMBRE], con ingresos estables. Seríamos [Nº] personas, no fumadores y sin mascotas. Puedo aportar nóminas/aval y tengo dossier con la documentación listo. Puedo ir a verlo hoy o mañana a la hora que os venga bien. ¿Sigue disponible? Gracias.">📋 Copiar mensaje</button>
+          <a class="btn open" href="https://finquesmartell.com/immoble/arc-de-sant-sever-l-barcelona-alquiler-001999-1/" target="_blank" rel="noopener">Abrir piso ↗</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="card">
+      <a class="photo" href="https://www.pisos.com/alquilar/estudio-eixample_sant_antoni08011-63382254620_530867/" target="_blank" rel="noopener"><img loading="lazy" src="https://fotos.imghs.net/mm-wp/530867/63382254620.530867/530867_63382254620_9c9ce48c-0b49-47ef-8643-0ed44fab3256.jpg" alt="" onerror="this.style.display='none';this.parentNode.classList.add('noimg')">
+        <span class="ph">🏠</span>
+        <span class="price">820€</span>
+      </a>
+      <div class="body">
+        <h3>Estudio en Carrer de Casanova</h3>
+        <div class="meta">· hab n/d · <span class="ag">pisos.com</span></div>
+        <div class="actions">
+          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de Estudio en Carrer de Casanova de 820€. Soy [NOMBRE], con ingresos estables. Seríamos [Nº] personas, no fumadores y sin mascotas. Puedo aportar nóminas/aval y tengo dossier con la documentación listo. Puedo ir a verlo hoy o mañana a la hora que os venga bien. ¿Sigue disponible? Gracias.">📋 Copiar mensaje</button>
+          <a class="btn open" href="https://www.pisos.com/alquilar/estudio-eixample_sant_antoni08011-63382254620_530867/" target="_blank" rel="noopener">Abrir piso ↗</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="card">
+      <a class="photo" href="https://www.pisos.com/alquilar/piso-sant_andreu_barrio08030-681514049_500843/" target="_blank" rel="noopener"><img loading="lazy" src="https://fotos.imghs.net/mm-wp/500843/681514049.500843/500843_681514049_13_20240502105735553.jpg" alt="" onerror="this.style.display='none';this.parentNode.classList.add('noimg')">
+        <span class="ph">🏠</span>
+        <span class="price">842€</span>
+      </a>
+      <div class="body">
+        <h3>Piso en Passeig de Torras i Bages</h3>
+        <div class="meta">1 hab · <span class="ag">pisos.com</span></div>
+        <div class="actions">
+          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de Piso en Passeig de Torras i Bages de 842€. Soy [NOMBRE], con ingresos estables. Seríamos [Nº] personas, no fumadores y sin mascotas. Puedo aportar nóminas/aval y tengo dossier con la documentación listo. Puedo ir a verlo hoy o mañana a la hora que os venga bien. ¿Sigue disponible? Gracias.">📋 Copiar mensaje</button>
+          <a class="btn open" href="https://www.pisos.com/alquilar/piso-sant_andreu_barrio08030-681514049_500843/" target="_blank" rel="noopener">Abrir piso ↗</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="card">
+      <a class="photo" href="https://www.finquesfeliu.es/es/node/13324" target="_blank" rel="noopener"><img loading="lazy" src="https://www.finquesfeliu.es/sites/default/files/styles/flexslider_full/public/2026-07/4693_1_1784310308.jpg?itok=jsmpBcrr" alt="" onerror="this.style.display='none';this.parentNode.classList.add('noimg')">
+        <span class="ph">🏠</span>
+        <span class="price">850€</span>
+      </a>
+      <div class="body">
+        <h3>ENRIC GRANADOS</h3>
+        <div class="meta">· hab n/d · <span class="ag">Finques Feliu</span></div>
+        <div class="actions">
+          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de ENRIC GRANADOS de 850€. Soy [NOMBRE], con ingresos estables. Seríamos [Nº] personas, no fumadores y sin mascotas. Puedo aportar nóminas/aval y tengo dossier con la documentación listo. Puedo ir a verlo hoy o mañana a la hora que os venga bien. ¿Sigue disponible? Gracias.">📋 Copiar mensaje</button>
+          <a class="btn open" href="https://www.finquesfeliu.es/es/node/13324" target="_blank" rel="noopener">Abrir piso ↗</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="card">
+      <a class="photo" href="https://www.pisos.com/alquilar/estudio-el_barri_gotic08002-66740388412_518209/" target="_blank" rel="noopener"><img loading="lazy" src="https://fotos.imghs.net/mm-wp/518209/66740388412.518209/518209_66740388412_1_20260821153247555.jpg" alt="" onerror="this.style.display='none';this.parentNode.classList.add('noimg')">
+        <span class="ph">🏠</span>
+        <span class="price">850€</span>
+      </a>
+      <div class="body">
+        <h3>Estudio en Carrer de Perot lo Lladre</h3>
+        <div class="meta">1 hab · <span class="ag">pisos.com</span></div>
+        <div class="actions">
+          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de Estudio en Carrer de Perot lo Lladre de 850€. Soy [NOMBRE], con ingresos estables. Seríamos [Nº] personas, no fumadores y sin mascotas. Puedo aportar nóminas/aval y tengo dossier con la documentación listo. Puedo ir a verlo hoy o mañana a la hora que os venga bien. ¿Sigue disponible? Gracias.">📋 Copiar mensaje</button>
+          <a class="btn open" href="https://www.pisos.com/alquilar/estudio-el_barri_gotic08002-66740388412_518209/" target="_blank" rel="noopener">Abrir piso ↗</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="card">
+      <a class="photo" href="https://www.pisos.com/alquilar/piso-el_congres_els_indians08027-63378468377_530867/" target="_blank" rel="noopener"><img loading="lazy" src="https://fotos.imghs.net/mm-wp/530867/63378468377.530867/530867_63378468377_b909d67a-d00e-4a8c-ba9a-57b51b7aac01.jpg" alt="" onerror="this.style.display='none';this.parentNode.classList.add('noimg')">
+        <span class="ph">🏠</span>
+        <span class="price">850€</span>
+      </a>
+      <div class="body">
+        <h3>Piso en Carrer de Puerto Príncipe</h3>
+        <div class="meta">1 hab · <span class="ag">pisos.com</span></div>
+        <div class="actions">
+          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de Piso en Carrer de Puerto Príncipe de 850€. Soy [NOMBRE], con ingresos estables. Seríamos [Nº] personas, no fumadores y sin mascotas. Puedo aportar nóminas/aval y tengo dossier con la documentación listo. Puedo ir a verlo hoy o mañana a la hora que os venga bien. ¿Sigue disponible? Gracias.">📋 Copiar mensaje</button>
+          <a class="btn open" href="https://www.pisos.com/alquilar/piso-el_congres_els_indians08027-63378468377_530867/" target="_blank" rel="noopener">Abrir piso ↗</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="card">
+      <a class="photo" href="https://www.pisos.com/alquilar/piso-el_poble_sec08004-60051110553_531896/" target="_blank" rel="noopener"><img loading="lazy" src="https://fotos.imghs.net/mm-wp/531896/60051110553.531896/531896_60051110553_e809427e-0e08-4060-9100-fc49f623ddb9.jpg" alt="" onerror="this.style.display='none';this.parentNode.classList.add('noimg')">
+        <span class="ph">🏠</span>
+        <span class="price">850€</span>
+      </a>
+      <div class="body">
+        <h3>Piso en El Poble-Sec</h3>
+        <div class="meta">3 hab · <span class="ag">pisos.com</span></div>
+        <div class="actions">
+          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de Piso en El Poble-Sec de 850€. Soy [NOMBRE], con ingresos estables. Seríamos [Nº] personas, no fumadores y sin mascotas. Puedo aportar nóminas/aval y tengo dossier con la documentación listo. Puedo ir a verlo hoy o mañana a la hora que os venga bien. ¿Sigue disponible? Gracias.">📋 Copiar mensaje</button>
+          <a class="btn open" href="https://www.pisos.com/alquilar/piso-el_poble_sec08004-60051110553_531896/" target="_blank" rel="noopener">Abrir piso ↗</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="card">
+      <a class="photo" href="https://www.pisos.com/alquilar/estudio-la_maternitat_sant_ramon08028-66756596734_104700/" target="_blank" rel="noopener"><img loading="lazy" src="https://fotos.imghs.net/mm-wp/1047/3230323630383139/9a2478d4-b473-4326-8035-caa1ecbee527.jpg" alt="" onerror="this.style.display='none';this.parentNode.classList.add('noimg')">
+        <span class="ph">🏠</span>
+        <span class="price">850€</span>
+      </a>
+      <div class="body">
+        <h3>Estudio en La Maternitat-Sant Ramon</h3>
+        <div class="meta">· hab n/d · <span class="ag">pisos.com</span></div>
+        <div class="actions">
+          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de Estudio en La Maternitat-Sant Ramon de 850€. Soy [NOMBRE], con ingresos estables. Seríamos [Nº] personas, no fumadores y sin mascotas. Puedo aportar nóminas/aval y tengo dossier con la documentación listo. Puedo ir a verlo hoy o mañana a la hora que os venga bien. ¿Sigue disponible? Gracias.">📋 Copiar mensaje</button>
+          <a class="btn open" href="https://www.pisos.com/alquilar/estudio-la_maternitat_sant_ramon08028-66756596734_104700/" target="_blank" rel="noopener">Abrir piso ↗</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="card">
+      <a class="photo" href="https://www.pisos.com/alquilar/estudio-sants_montjuic-55881201129_104700/" target="_blank" rel="noopener"><img loading="lazy" src="https://fotos.imghs.net/mm-wp/1047/938/1047_422938_1_2025072709074612201.jpg" alt="" onerror="this.style.display='none';this.parentNode.classList.add('noimg')">
+        <span class="ph">🏠</span>
+        <span class="price">850€</span>
+      </a>
+      <div class="body">
+        <h3>Estudio en Sants-Montjuïc</h3>
+        <div class="meta">· hab n/d · <span class="ag">pisos.com</span></div>
+        <div class="actions">
+          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de Estudio en Sants-Montjuïc de 850€. Soy [NOMBRE], con ingresos estables. Seríamos [Nº] personas, no fumadores y sin mascotas. Puedo aportar nóminas/aval y tengo dossier con la documentación listo. Puedo ir a verlo hoy o mañana a la hora que os venga bien. ¿Sigue disponible? Gracias.">📋 Copiar mensaje</button>
+          <a class="btn open" href="https://www.pisos.com/alquilar/estudio-sants_montjuic-55881201129_104700/" target="_blank" rel="noopener">Abrir piso ↗</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="card">
+      <a class="photo" href="https://www.pisos.com/alquilar/piso-barcelona_capital-61709072933_109200/" target="_blank" rel="noopener"><img loading="lazy" src="https://fotos.imghs.net/mm-wp/1092/710/1092_EB2-69a230bf4282bed67404d7ea_1_202603240632291235743.jpg" alt="" onerror="this.style.display='none';this.parentNode.classList.add('noimg')">
+        <span class="ph">🏠</span>
+        <span class="price">850€</span>
+      </a>
+      <div class="body">
+        <h3>Piso en Barcelona Capital</h3>
+        <div class="meta">· hab n/d · <span class="ag">pisos.com</span></div>
+        <div class="actions">
+          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de Piso en Barcelona Capital de 850€. Soy [NOMBRE], con ingresos estables. Seríamos [Nº] personas, no fumadores y sin mascotas. Puedo aportar nóminas/aval y tengo dossier con la documentación listo. Puedo ir a verlo hoy o mañana a la hora que os venga bien. ¿Sigue disponible? Gracias.">📋 Copiar mensaje</button>
+          <a class="btn open" href="https://www.pisos.com/alquilar/piso-barcelona_capital-61709072933_109200/" target="_blank" rel="noopener">Abrir piso ↗</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="card">
+      <a class="photo" href="https://www.pisos.com/alquilar/piso-gracia_la_salut08024-66682248054_109200/" target="_blank" rel="noopener"><img loading="lazy" src="https://fotos.imghs.net/mm-wp/1092/3230323630383133/97ec88ba-fd4b-4864-be96-8dad5f70a0fd.jpg" alt="" onerror="this.style.display='none';this.parentNode.classList.add('noimg')">
+        <span class="ph">🏠</span>
+        <span class="price">850€</span>
+      </a>
+      <div class="body">
+        <h3>Piso en La Salut</h3>
+        <div class="meta">· hab n/d · <span class="ag">pisos.com</span></div>
+        <div class="actions">
+          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de Piso en La Salut de 850€. Soy [NOMBRE], con ingresos estables. Seríamos [Nº] personas, no fumadores y sin mascotas. Puedo aportar nóminas/aval y tengo dossier con la documentación listo. Puedo ir a verlo hoy o mañana a la hora que os venga bien. ¿Sigue disponible? Gracias.">📋 Copiar mensaje</button>
+          <a class="btn open" href="https://www.pisos.com/alquilar/piso-gracia_la_salut08024-66682248054_109200/" target="_blank" rel="noopener">Abrir piso ↗</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="card">
+      <a class="photo" href="https://www.fincasubiergo.com/ca/lloguer/habitatges/barcelona/barcelona/1398" target="_blank" rel="noopener"><img loading="lazy" src="https://imagenes.ghestia.cat/images/webs/LIC1403_140518/fotos0/1398/foto_1.jpg" alt="" onerror="this.style.display='none';this.parentNode.classList.add('noimg')">
+        <span class="ph">🏠</span>
+        <span class="price">855€</span>
+      </a>
+      <div class="body">
+        <h3>Pis, 53.00 m 2</h3>
+        <div class="meta">2 hab · <span class="ag">Fincas Ubiergo</span></div>
+        <div class="actions">
+          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de Pis, 53.00 m 2 de 855€. Soy [NOMBRE], con ingresos estables. Seríamos [Nº] personas, no fumadores y sin mascotas. Puedo aportar nóminas/aval y tengo dossier con la documentación listo. Puedo ir a verlo hoy o mañana a la hora que os venga bien. ¿Sigue disponible? Gracias.">📋 Copiar mensaje</button>
+          <a class="btn open" href="https://www.fincasubiergo.com/ca/lloguer/habitatges/barcelona/barcelona/1398" target="_blank" rel="noopener">Abrir piso ↗</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="card">
+      <a class="photo" href="https://www.fincasubiergo.com/ca/lloguer/habitatges/barcelona/barcelona/1396" target="_blank" rel="noopener"><img loading="lazy" src="https://imagenes.ghestia.cat/images/webs/LIC1403_140518/fotos0/1396/foto_1.jpg" alt="" onerror="this.style.display='none';this.parentNode.classList.add('noimg')">
+        <span class="ph">🏠</span>
+        <span class="price">876€</span>
+      </a>
+      <div class="body">
+        <h3>Pis, 58.00 m 2</h3>
+        <div class="meta">2 hab · <span class="ag">Fincas Ubiergo</span></div>
+        <div class="actions">
+          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de Pis, 58.00 m 2 de 876€. Soy [NOMBRE], con ingresos estables. Seríamos [Nº] personas, no fumadores y sin mascotas. Puedo aportar nóminas/aval y tengo dossier con la documentación listo. Puedo ir a verlo hoy o mañana a la hora que os venga bien. ¿Sigue disponible? Gracias.">📋 Copiar mensaje</button>
+          <a class="btn open" href="https://www.fincasubiergo.com/ca/lloguer/habitatges/barcelona/barcelona/1396" target="_blank" rel="noopener">Abrir piso ↗</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="card">
+      <a class="photo" href="https://www.pisos.com/alquilar/piso-el_camp_de_arpa_del_clot08026-66745972610_528397/" target="_blank" rel="noopener"><img loading="lazy" src="https://fotos.imghs.net/mm-wp/528397/66745972610.528397/528397_66745972610_e20cbab5-1227-43b0-8ee3-8344298dd38e.jpg" alt="" onerror="this.style.display='none';this.parentNode.classList.add('noimg')">
+        <span class="ph">🏠</span>
+        <span class="price">877€</span>
+      </a>
+      <div class="body">
+        <h3>Piso en Carrer de Llagostera</h3>
+        <div class="meta">2 hab · <span class="ag">pisos.com</span></div>
+        <div class="actions">
+          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de Piso en Carrer de Llagostera de 877€. Soy [NOMBRE], con ingresos estables. Seríamos [Nº] personas, no fumadores y sin mascotas. Puedo aportar nóminas/aval y tengo dossier con la documentación listo. Puedo ir a verlo hoy o mañana a la hora que os venga bien. ¿Sigue disponible? Gracias.">📋 Copiar mensaje</button>
+          <a class="btn open" href="https://www.pisos.com/alquilar/piso-el_camp_de_arpa_del_clot08026-66745972610_528397/" target="_blank" rel="noopener">Abrir piso ↗</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="card">
+      <a class="photo" href="https://www.pisos.com/alquilar/estudio-el_poble_sec-66725483372_104700/" target="_blank" rel="noopener"><img loading="lazy" src="https://fotos.imghs.net/mm-wp/1047/3230323630383234/461bb1f4-436f-4576-8dbe-b19444f3b035.jpg" alt="" onerror="this.style.display='none';this.parentNode.classList.add('noimg')">
+        <span class="ph">🏠</span>
+        <span class="price">890€</span>
+      </a>
+      <div class="body">
+        <h3>Estudio en El Poble-sec</h3>
+        <div class="meta">· hab n/d · <span class="ag">pisos.com</span></div>
+        <div class="actions">
+          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de Estudio en El Poble-sec de 890€. Soy [NOMBRE], con ingresos estables. Seríamos [Nº] personas, no fumadores y sin mascotas. Puedo aportar nóminas/aval y tengo dossier con la documentación listo. Puedo ir a verlo hoy o mañana a la hora que os venga bien. ¿Sigue disponible? Gracias.">📋 Copiar mensaje</button>
+          <a class="btn open" href="https://www.pisos.com/alquilar/estudio-el_poble_sec-66725483372_104700/" target="_blank" rel="noopener">Abrir piso ↗</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="card">
+      <a class="photo" href="https://www.pisos.com/alquilar/piso-la_maternitat_sant_ramon-63343839529_530867/" target="_blank" rel="noopener"><img loading="lazy" src="https://fotos.imghs.net/mm-wp/530867/63343839529.530867/530867_63343839529_aca93784-5a54-49ca-9a7a-5f37542fe6dd.jpg" alt="" onerror="this.style.display='none';this.parentNode.classList.add('noimg')">
+        <span class="ph">🏠</span>
+        <span class="price">925€</span>
+      </a>
+      <div class="body">
+        <h3>Piso en Travessera de les Corts</h3>
+        <div class="meta">1 hab · <span class="ag">pisos.com</span></div>
+        <div class="actions">
+          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de Piso en Travessera de les Corts de 925€. Soy [NOMBRE], con ingresos estables. Seríamos [Nº] personas, no fumadores y sin mascotas. Puedo aportar nóminas/aval y tengo dossier con la documentación listo. Puedo ir a verlo hoy o mañana a la hora que os venga bien. ¿Sigue disponible? Gracias.">📋 Copiar mensaje</button>
+          <a class="btn open" href="https://www.pisos.com/alquilar/piso-la_maternitat_sant_ramon-63343839529_530867/" target="_blank" rel="noopener">Abrir piso ↗</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="card">
+      <a class="photo" href="https://www.pisos.com/alquilar/piso-sant_andreu_barrio08030-38372847481_500843/" target="_blank" rel="noopener"><img loading="lazy" src="https://fotos.imghs.net/mm-wp/500843/38372847481.500843/500843_38372847481_11_20231003132732027.jpg" alt="" onerror="this.style.display='none';this.parentNode.classList.add('noimg')">
+        <span class="ph">🏠</span>
+        <span class="price">963€</span>
+      </a>
+      <div class="body">
+        <h3>Piso en Carrer de la Residència</h3>
+        <div class="meta">2 hab · <span class="ag">pisos.com</span></div>
+        <div class="actions">
+          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de Piso en Carrer de la Residència de 963€. Soy [NOMBRE], con ingresos estables. Seríamos [Nº] personas, no fumadores y sin mascotas. Puedo aportar nóminas/aval y tengo dossier con la documentación listo. Puedo ir a verlo hoy o mañana a la hora que os venga bien. ¿Sigue disponible? Gracias.">📋 Copiar mensaje</button>
+          <a class="btn open" href="https://www.pisos.com/alquilar/piso-sant_andreu_barrio08030-38372847481_500843/" target="_blank" rel="noopener">Abrir piso ↗</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="card">
+      <a class="photo" href="https://www.pisos.com/alquilar/estudio-la_vila_de_gracia08012-63424964407_530867/" target="_blank" rel="noopener"><img loading="lazy" src="https://fotos.imghs.net/mm-wp/530867/63424964407.530867/530867_63424964407_d39df721-627b-45c0-bded-c9fc7e01e2b6.jpg" alt="" onerror="this.style.display='none';this.parentNode.classList.add('noimg')">
+        <span class="ph">🏠</span>
+        <span class="price">975€</span>
+      </a>
+      <div class="body">
+        <h3>Estudio en Carrer de Tordera</h3>
+        <div class="meta">· hab n/d · <span class="ag">pisos.com</span></div>
+        <div class="actions">
+          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de Estudio en Carrer de Tordera de 975€. Soy [NOMBRE], con ingresos estables. Seríamos [Nº] personas, no fumadores y sin mascotas. Puedo aportar nóminas/aval y tengo dossier con la documentación listo. Puedo ir a verlo hoy o mañana a la hora que os venga bien. ¿Sigue disponible? Gracias.">📋 Copiar mensaje</button>
+          <a class="btn open" href="https://www.pisos.com/alquilar/estudio-la_vila_de_gracia08012-63424964407_530867/" target="_blank" rel="noopener">Abrir piso ↗</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="card">
+      <a class="photo" href="https://www.pisos.com/alquilar/piso-el_raval-66693944700_104700/" target="_blank" rel="noopener"><img loading="lazy" src="https://fotos.imghs.net/mm-wp/1047/3230323630383236/e2258d0a-9bb7-41ed-aaa9-416eaa08bc3e.jpg" alt="" onerror="this.style.display='none';this.parentNode.classList.add('noimg')">
+        <span class="ph">🏠</span>
+        <span class="price">975€</span>
+      </a>
+      <div class="body">
+        <h3>Piso en El Raval</h3>
+        <div class="meta">1 hab · <span class="ag">pisos.com</span></div>
+        <div class="actions">
+          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de Piso en El Raval de 975€. Soy [NOMBRE], con ingresos estables. Seríamos [Nº] personas, no fumadores y sin mascotas. Puedo aportar nóminas/aval y tengo dossier con la documentación listo. Puedo ir a verlo hoy o mañana a la hora que os venga bien. ¿Sigue disponible? Gracias.">📋 Copiar mensaje</button>
+          <a class="btn open" href="https://www.pisos.com/alquilar/piso-el_raval-66693944700_104700/" target="_blank" rel="noopener">Abrir piso ↗</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="card">
+      <a class="photo" href="https://finquesmartell.com/immoble/llobregos-barcelona-alquiler-001525-1/" target="_blank" rel="noopener"><img loading="lazy" src="https://finquesmartell.com/wp-content/uploads/2026/08/martell-1525-44.jpg" alt="" onerror="this.style.display='none';this.parentNode.classList.add('noimg')">
+        <span class="ph">🏠</span>
+        <span class="price">989€</span>
+      </a>
+      <div class="body">
+        <h3>LLOBREGOS BARCELONA-Alquiler-001525/1</h3>
+        <div class="meta">1 hab · <span class="ag">Finques Martell</span></div>
+        <div class="actions">
+          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de LLOBREGOS BARCELONA-Alquiler-001525/1 de 989€. Soy [NOMBRE], con ingresos estables. Seríamos [Nº] personas, no fumadores y sin mascotas. Puedo aportar nóminas/aval y tengo dossier con la documentación listo. Puedo ir a verlo hoy o mañana a la hora que os venga bien. ¿Sigue disponible? Gracias.">📋 Copiar mensaje</button>
+          <a class="btn open" href="https://finquesmartell.com/immoble/llobregos-barcelona-alquiler-001525-1/" target="_blank" rel="noopener">Abrir piso ↗</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="card">
+      <a class="photo" href="https://finquesmartell.com/immoble/xifre-barcelona-alquiler-001895-1/" target="_blank" rel="noopener"><img loading="lazy" src="https://finquesmartell.com/wp-content/uploads/2026/08/martell-1895-16.jpg" alt="" onerror="this.style.display='none';this.parentNode.classList.add('noimg')">
+        <span class="ph">🏠</span>
+        <span class="price">990€</span>
+      </a>
+      <div class="body">
+        <h3>Xifré BARCELONA-Alquiler-001895/1</h3>
+        <div class="meta">3 hab · <span class="ag">Finques Martell</span></div>
+        <div class="actions">
+          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de Xifré BARCELONA-Alquiler-001895/1 de 990€. Soy [NOMBRE], con ingresos estables. Seríamos [Nº] personas, no fumadores y sin mascotas. Puedo aportar nóminas/aval y tengo dossier con la documentación listo. Puedo ir a verlo hoy o mañana a la hora que os venga bien. ¿Sigue disponible? Gracias.">📋 Copiar mensaje</button>
+          <a class="btn open" href="https://finquesmartell.com/immoble/xifre-barcelona-alquiler-001895-1/" target="_blank" rel="noopener">Abrir piso ↗</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="card">
+      <a class="photo" href="https://www.pisos.com/alquilar/piso-sant_marti_el_poblenou08005-62598698622_531896/" target="_blank" rel="noopener"><img loading="lazy" src="https://fotos.imghs.net/mm-wp/531896/62598698622.531896/531896_62598698622_17fdc477-4520-46f1-8baa-432329857602.jpg" alt="" onerror="this.style.display='none';this.parentNode.classList.add('noimg')">
+        <span class="ph">🏠</span>
+        <span class="price">990€</span>
+      </a>
+      <div class="body">
+        <h3>Piso en El Poblenou</h3>
+        <div class="meta">3 hab · <span class="ag">pisos.com</span></div>
+        <div class="actions">
+          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de Piso en El Poblenou de 990€. Soy [NOMBRE], con ingresos estables. Seríamos [Nº] personas, no fumadores y sin mascotas. Puedo aportar nóminas/aval y tengo dossier con la documentación listo. Puedo ir a verlo hoy o mañana a la hora que os venga bien. ¿Sigue disponible? Gracias.">📋 Copiar mensaje</button>
+          <a class="btn open" href="https://www.pisos.com/alquilar/piso-sant_marti_el_poblenou08005-62598698622_531896/" target="_blank" rel="noopener">Abrir piso ↗</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="card">
+      <a class="photo" href="https://www.pisos.com/alquilar/piso-el_barri_gotic08002-65868084159_518209/" target="_blank" rel="noopener"><img loading="lazy" src="https://fotos.imghs.net/mm-wp/518209/65868084159.518209/518209_65868084159_1_20260729181822153.jpg" alt="" onerror="this.style.display='none';this.parentNode.classList.add('noimg')">
+        <span class="ph">🏠</span>
+        <span class="price">995€</span>
+      </a>
+      <div class="body">
+        <h3>Piso en Carrer dels Boters</h3>
+        <div class="meta">1 hab · <span class="ag">pisos.com</span></div>
+        <div class="actions">
+          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de Piso en Carrer dels Boters de 995€. Soy [NOMBRE], con ingresos estables. Seríamos [Nº] personas, no fumadores y sin mascotas. Puedo aportar nóminas/aval y tengo dossier con la documentación listo. Puedo ir a verlo hoy o mañana a la hora que os venga bien. ¿Sigue disponible? Gracias.">📋 Copiar mensaje</button>
+          <a class="btn open" href="https://www.pisos.com/alquilar/piso-el_barri_gotic08002-65868084159_518209/" target="_blank" rel="noopener">Abrir piso ↗</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="card">
+      <a class="photo" href="https://www.pisos.com/alquilar/piso-la_sagrada_familia-65921528974_100500/" target="_blank" rel="noopener"><img loading="lazy" src="https://fotos.imghs.net/mm-wp/1005/3230323630373234/7ba79da8-b8a9-4949-83aa-1b2fc41753c8.jpg" alt="" onerror="this.style.display='none';this.parentNode.classList.add('noimg')">
+        <span class="ph">🏠</span>
+        <span class="price">997€</span>
+      </a>
+      <div class="body">
+        <h3>Piso en La Sagrada Família</h3>
+        <div class="meta">1 hab · <span class="ag">pisos.com</span></div>
+        <div class="actions">
+          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de Piso en La Sagrada Família de 997€. Soy [NOMBRE], con ingresos estables. Seríamos [Nº] personas, no fumadores y sin mascotas. Puedo aportar nóminas/aval y tengo dossier con la documentación listo. Puedo ir a verlo hoy o mañana a la hora que os venga bien. ¿Sigue disponible? Gracias.">📋 Copiar mensaje</button>
+          <a class="btn open" href="https://www.pisos.com/alquilar/piso-la_sagrada_familia-65921528974_100500/" target="_blank" rel="noopener">Abrir piso ↗</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="card">
+      <a class="photo" href="https://www.pisos.com/alquilar/apartamento-sant_pere_santa_caterina_la_ribera08003-64206819507_530867/" target="_blank" rel="noopener"><img loading="lazy" src="https://fotos.imghs.net/mm-wp/530867/64206819507.530867/530867_64206819507_7bab86d1-371e-4c00-aeb0-aae957beb539.jpg" alt="" onerror="this.style.display='none';this.parentNode.classList.add('noimg')">
+        <span class="ph">🏠</span>
+        <span class="price">1000€</span>
+      </a>
+      <div class="body">
+        <h3>Apartamento en Carrer del Rec</h3>
+        <div class="meta">1 hab · <span class="ag">pisos.com</span></div>
+        <div class="actions">
+          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de Apartamento en Carrer del Rec de 1000€. Soy [NOMBRE], con ingresos estables. Seríamos [Nº] personas, no fumadores y sin mascotas. Puedo aportar nóminas/aval y tengo dossier con la documentación listo. Puedo ir a verlo hoy o mañana a la hora que os venga bien. ¿Sigue disponible? Gracias.">📋 Copiar mensaje</button>
+          <a class="btn open" href="https://www.pisos.com/alquilar/apartamento-sant_pere_santa_caterina_la_ribera08003-64206819507_530867/" target="_blank" rel="noopener">Abrir piso ↗</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="card">
+      <a class="photo" href="https://www.guinotprunera.com/es/alquiler/ref-31590" target="_blank" rel="noopener"><img loading="lazy" src="https://media.mobiliagestion.es/Portals/inmoguinotprunera/Images/31590/27239705.jpg" alt="" onerror="this.style.display='none';this.parentNode.classList.add('noimg')">
+        <span class="ph">🏠</span>
+        <span class="price">1001€</span>
+      </a>
+      <div class="body">
+        <h3>La Nova Esquerra de L&#x27;Eixample</h3>
+        <div class="meta">· hab n/d · <span class="ag">Guinot Prunera</span></div>
+        <div class="actions">
+          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de La Nova Esquerra de L&amp;#x27;Eixample de 1001€. Soy [NOMBRE], con ingresos estables. Seríamos [Nº] personas, no fumadores y sin mascotas. Puedo aportar nóminas/aval y tengo dossier con la documentación listo. Puedo ir a verlo hoy o mañana a la hora que os venga bien. ¿Sigue disponible? Gracias.">📋 Copiar mensaje</button>
+          <a class="btn open" href="https://www.guinotprunera.com/es/alquiler/ref-31590" target="_blank" rel="noopener">Abrir piso ↗</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="card">
+      <a class="photo" href="https://www.pisos.com/alquilar/piso-sant_andreu_barrio08030-65914432493_501025/" target="_blank" rel="noopener"><img loading="lazy" src="https://fotos.imghs.net/mm-wp/501025/65914432493.501025/501025_65914432493_628c7b8d-761f-45b2-9587-bcd357bd316a.jpg" alt="" onerror="this.style.display='none';this.parentNode.classList.add('noimg')">
+        <span class="ph">🏠</span>
+        <span class="price">1029€</span>
+      </a>
+      <div class="body">
+        <h3>Piso en Plaça del Mercadal</h3>
+        <div class="meta">1 hab · <span class="ag">pisos.com</span></div>
+        <div class="actions">
+          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de Piso en Plaça del Mercadal de 1029€. Soy [NOMBRE], con ingresos estables. Seríamos [Nº] personas, no fumadores y sin mascotas. Puedo aportar nóminas/aval y tengo dossier con la documentación listo. Puedo ir a verlo hoy o mañana a la hora que os venga bien. ¿Sigue disponible? Gracias.">📋 Copiar mensaje</button>
+          <a class="btn open" href="https://www.pisos.com/alquilar/piso-sant_andreu_barrio08030-65914432493_501025/" target="_blank" rel="noopener">Abrir piso ↗</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="card">
+      <a class="photo" href="https://www.pisos.com/alquilar/estudio-el_barri_gotic08002-66681838944_104700/" target="_blank" rel="noopener"><img loading="lazy" src="https://fotos.imghs.net/mm-wp/1047/3230323630383232/31d4f0da-8f63-46aa-8151-65313b10fc72.jpg" alt="" onerror="this.style.display='none';this.parentNode.classList.add('noimg')">
+        <span class="ph">🏠</span>
+        <span class="price">1050€</span>
+      </a>
+      <div class="body">
+        <h3>Estudio en El Barri Gòtic</h3>
+        <div class="meta">· hab n/d · <span class="ag">pisos.com</span></div>
+        <div class="actions">
+          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de Estudio en El Barri Gòtic de 1050€. Soy [NOMBRE], con ingresos estables. Seríamos [Nº] personas, no fumadores y sin mascotas. Puedo aportar nóminas/aval y tengo dossier con la documentación listo. Puedo ir a verlo hoy o mañana a la hora que os venga bien. ¿Sigue disponible? Gracias.">📋 Copiar mensaje</button>
+          <a class="btn open" href="https://www.pisos.com/alquilar/estudio-el_barri_gotic08002-66681838944_104700/" target="_blank" rel="noopener">Abrir piso ↗</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="card">
+      <a class="photo" href="https://www.pisos.com/alquilar/piso-el_poble_sec08004-65909882241_109200/" target="_blank" rel="noopener"><img loading="lazy" src="https://fotos.imghs.net/mm-wp/1092/3230323630373034/52119242-4004-4719-a248-d3f20f29c950.jpg" alt="" onerror="this.style.display='none';this.parentNode.classList.add('noimg')">
+        <span class="ph">🏠</span>
+        <span class="price">1065€</span>
+      </a>
+      <div class="body">
+        <h3>Piso en El Poble-sec</h3>
+        <div class="meta">· hab n/d · <span class="ag">pisos.com</span></div>
+        <div class="actions">
+          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de Piso en El Poble-sec de 1065€. Soy [NOMBRE], con ingresos estables. Seríamos [Nº] personas, no fumadores y sin mascotas. Puedo aportar nóminas/aval y tengo dossier con la documentación listo. Puedo ir a verlo hoy o mañana a la hora que os venga bien. ¿Sigue disponible? Gracias.">📋 Copiar mensaje</button>
+          <a class="btn open" href="https://www.pisos.com/alquilar/piso-el_poble_sec08004-65909882241_109200/" target="_blank" rel="noopener">Abrir piso ↗</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="card">
+      <a class="photo" href="https://www.pisos.com/alquilar/casa-el_besos_el_maresme08019-55847835456_109200/" target="_blank" rel="noopener"><img loading="lazy" src="https://fotos.imghs.net/mm-wp/1092/110/1092_EB2-67ad4419638c4305231c0110_1_2025071612075901585.jpg" alt="" onerror="this.style.display='none';this.parentNode.classList.add('noimg')">
+        <span class="ph">🏠</span>
+        <span class="price">1085€</span>
+      </a>
+      <div class="body">
+        <h3>Casa en El Besòs-El Maresme</h3>
+        <div class="meta">· hab n/d · <span class="ag">pisos.com</span></div>
+        <div class="actions">
+          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de Casa en El Besòs-El Maresme de 1085€. Soy [NOMBRE], con ingresos estables. Seríamos [Nº] personas, no fumadores y sin mascotas. Puedo aportar nóminas/aval y tengo dossier con la documentación listo. Puedo ir a verlo hoy o mañana a la hora que os venga bien. ¿Sigue disponible? Gracias.">📋 Copiar mensaje</button>
+          <a class="btn open" href="https://www.pisos.com/alquilar/casa-el_besos_el_maresme08019-55847835456_109200/" target="_blank" rel="noopener">Abrir piso ↗</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="card">
+      <a class="photo" href="https://www.pisos.com/alquilar/piso-el_raval08001-66668005832_106100/" target="_blank" rel="noopener"><img loading="lazy" src="https://fotos.imghs.net/mm-wp/1061/3230323630383233/72b82086-47b7-4bfe-a88c-1026b58106a6.jpg" alt="" onerror="this.style.display='none';this.parentNode.classList.add('noimg')">
+        <span class="ph">🏠</span>
+        <span class="price">1100€</span>
+      </a>
+      <div class="body">
+        <h3>Piso en El Raval</h3>
+        <div class="meta">1 hab · <span class="ag">pisos.com</span></div>
+        <div class="actions">
+          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de Piso en El Raval de 1100€. Soy [NOMBRE], con ingresos estables. Seríamos [Nº] personas, no fumadores y sin mascotas. Puedo aportar nóminas/aval y tengo dossier con la documentación listo. Puedo ir a verlo hoy o mañana a la hora que os venga bien. ¿Sigue disponible? Gracias.">📋 Copiar mensaje</button>
+          <a class="btn open" href="https://www.pisos.com/alquilar/piso-el_raval08001-66668005832_106100/" target="_blank" rel="noopener">Abrir piso ↗</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="card">
+      <a class="photo" href="https://www.pisos.com/alquilar/loft-eixample_sant_antoni08011-60839468259_101800/" target="_blank" rel="noopener"><img loading="lazy" src="https://fotos.imghs.net/mm-wp/1018/554/1018_107633554_1_2026012116010434724.jpg" alt="" onerror="this.style.display='none';this.parentNode.classList.add('noimg')">
+        <span class="ph">🏠</span>
+        <span class="price">1100€</span>
+      </a>
+      <div class="body">
+        <h3>Loft en Sant Antoni</h3>
+        <div class="meta">· hab n/d · <span class="ag">pisos.com</span></div>
+        <div class="actions">
+          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de Loft en Sant Antoni de 1100€. Soy [NOMBRE], con ingresos estables. Seríamos [Nº] personas, no fumadores y sin mascotas. Puedo aportar nóminas/aval y tengo dossier con la documentación listo. Puedo ir a verlo hoy o mañana a la hora que os venga bien. ¿Sigue disponible? Gracias.">📋 Copiar mensaje</button>
+          <a class="btn open" href="https://www.pisos.com/alquilar/loft-eixample_sant_antoni08011-60839468259_101800/" target="_blank" rel="noopener">Abrir piso ↗</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="card">
+      <a class="photo" href="https://www.pisos.com/alquilar/piso-sants_montjuic_hostafrancs08014-65868672765_109200/" target="_blank" rel="noopener"><img loading="lazy" src="https://fotos.imghs.net/mm-wp/1092/3230323630363131/db7cbb24-c0c4-41ee-8662-0fe06ec4764d.jpg" alt="" onerror="this.style.display='none';this.parentNode.classList.add('noimg')">
+        <span class="ph">🏠</span>
+        <span class="price">1100€</span>
+      </a>
+      <div class="body">
+        <h3>Piso en Hostafrancs</h3>
+        <div class="meta">· hab n/d · <span class="ag">pisos.com</span></div>
+        <div class="actions">
+          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de Piso en Hostafrancs de 1100€. Soy [NOMBRE], con ingresos estables. Seríamos [Nº] personas, no fumadores y sin mascotas. Puedo aportar nóminas/aval y tengo dossier con la documentación listo. Puedo ir a verlo hoy o mañana a la hora que os venga bien. ¿Sigue disponible? Gracias.">📋 Copiar mensaje</button>
+          <a class="btn open" href="https://www.pisos.com/alquilar/piso-sants_montjuic_hostafrancs08014-65868672765_109200/" target="_blank" rel="noopener">Abrir piso ↗</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="card">
+      <a class="photo" href="https://www.pisos.com/alquilar/piso-el_raval08001-65902574462_109800/" target="_blank" rel="noopener"><img loading="lazy" src="https://fotos.imghs.net/mm-wp/1098/5814356/1098_1_foto_20260701131016833_65902574462.jpg" alt="" onerror="this.style.display='none';this.parentNode.classList.add('noimg')">
+        <span class="ph">🏠</span>
+        <span class="price">1100€</span>
+      </a>
+      <div class="body">
+        <h3>Piso en Carrer del Tigre, 12</h3>
+        <div class="meta">1 hab · <span class="ag">pisos.com</span></div>
+        <div class="actions">
+          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de Piso en Carrer del Tigre, 12 de 1100€. Soy [NOMBRE], con ingresos estables. Seríamos [Nº] personas, no fumadores y sin mascotas. Puedo aportar nóminas/aval y tengo dossier con la documentación listo. Puedo ir a verlo hoy o mañana a la hora que os venga bien. ¿Sigue disponible? Gracias.">📋 Copiar mensaje</button>
+          <a class="btn open" href="https://www.pisos.com/alquilar/piso-el_raval08001-65902574462_109800/" target="_blank" rel="noopener">Abrir piso ↗</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="card">
+      <a class="photo" href="https://www.guinotprunera.com/es/alquiler/ref-31903" target="_blank" rel="noopener"><img loading="lazy" src="https://media.mobiliagestion.es/Portals/inmoguinotprunera/Images/31903/28109130.jpg" alt="" onerror="this.style.display='none';this.parentNode.classList.add('noimg')">
+        <span class="ph">🏠</span>
+        <span class="price">1102€</span>
+      </a>
+      <div class="body">
+        <h3>Vallcarca i Els Penitents</h3>
+        <div class="meta">· hab n/d · <span class="ag">Guinot Prunera</span></div>
+        <div class="actions">
+          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de Vallcarca i Els Penitents de 1102€. Soy [NOMBRE], con ingresos estables. Seríamos [Nº] personas, no fumadores y sin mascotas. Puedo aportar nóminas/aval y tengo dossier con la documentación listo. Puedo ir a verlo hoy o mañana a la hora que os venga bien. ¿Sigue disponible? Gracias.">📋 Copiar mensaje</button>
+          <a class="btn open" href="https://www.guinotprunera.com/es/alquiler/ref-31903" target="_blank" rel="noopener">Abrir piso ↗</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="card">
+      <a class="photo" href="https://www.pisos.com/alquilar/piso-el_raval08001-66711160572_109200/" target="_blank" rel="noopener"><img loading="lazy" src="https://fotos.imghs.net/mm-wp/1092/3230323630373035/055b28a4-4b10-4127-9b79-69c85293a6bd.jpg" alt="" onerror="this.style.display='none';this.parentNode.classList.add('noimg')">
+        <span class="ph">🏠</span>
+        <span class="price">1150€</span>
+      </a>
+      <div class="body">
+        <h3>Piso en El Raval</h3>
+        <div class="meta">· hab n/d · <span class="ag">pisos.com</span></div>
+        <div class="actions">
+          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de Piso en El Raval de 1150€. Soy [NOMBRE], con ingresos estables. Seríamos [Nº] personas, no fumadores y sin mascotas. Puedo aportar nóminas/aval y tengo dossier con la documentación listo. Puedo ir a verlo hoy o mañana a la hora que os venga bien. ¿Sigue disponible? Gracias.">📋 Copiar mensaje</button>
+          <a class="btn open" href="https://www.pisos.com/alquilar/piso-el_raval08001-66711160572_109200/" target="_blank" rel="noopener">Abrir piso ↗</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="card">
+      <a class="photo" href="https://www.pisos.com/alquilar/piso-sants_montjuic_hostafrancs08014-66755362941_109200/" target="_blank" rel="noopener"><img loading="lazy" src="https://fotos.imghs.net/mm-wp/1092/3230323630383133/ce6c66e6-c626-4973-832c-389e7ae11fcd.jpg" alt="" onerror="this.style.display='none';this.parentNode.classList.add('noimg')">
+        <span class="ph">🏠</span>
+        <span class="price">1150€</span>
+      </a>
+      <div class="body">
+        <h3>Piso en Hostafrancs</h3>
+        <div class="meta">· hab n/d · <span class="ag">pisos.com</span></div>
+        <div class="actions">
+          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de Piso en Hostafrancs de 1150€. Soy [NOMBRE], con ingresos estables. Seríamos [Nº] personas, no fumadores y sin mascotas. Puedo aportar nóminas/aval y tengo dossier con la documentación listo. Puedo ir a verlo hoy o mañana a la hora que os venga bien. ¿Sigue disponible? Gracias.">📋 Copiar mensaje</button>
+          <a class="btn open" href="https://www.pisos.com/alquilar/piso-sants_montjuic_hostafrancs08014-66755362941_109200/" target="_blank" rel="noopener">Abrir piso ↗</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="card">
+      <a class="photo" href="https://www.pisos.com/alquilar/piso-sant_marti_de_provencals08020-66689511337_109200/" target="_blank" rel="noopener"><img loading="lazy" src="https://fotos.imghs.net/mm-wp/1092/3230323630383133/f581041f-09de-4edd-a9d1-8e74d0626f22.jpg" alt="" onerror="this.style.display='none';this.parentNode.classList.add('noimg')">
+        <span class="ph">🏠</span>
+        <span class="price">1150€</span>
+      </a>
+      <div class="body">
+        <h3>Piso en Sant Martí de Provençals</h3>
+        <div class="meta">· hab n/d · <span class="ag">pisos.com</span></div>
+        <div class="actions">
+          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de Piso en Sant Martí de Provençals de 1150€. Soy [NOMBRE], con ingresos estables. Seríamos [Nº] personas, no fumadores y sin mascotas. Puedo aportar nóminas/aval y tengo dossier con la documentación listo. Puedo ir a verlo hoy o mañana a la hora que os venga bien. ¿Sigue disponible? Gracias.">📋 Copiar mensaje</button>
+          <a class="btn open" href="https://www.pisos.com/alquilar/piso-sant_marti_de_provencals08020-66689511337_109200/" target="_blank" rel="noopener">Abrir piso ↗</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="card">
+      <a class="photo" href="https://www.pisos.com/alquilar/piso-el_raval08001-66667375644_109200/" target="_blank" rel="noopener"><img loading="lazy" src="https://fotos.imghs.net/mm-wp/1092/3230323630383137/bd4be113-220e-44cb-a5b8-311c368bf5f5.jpg" alt="" onerror="this.style.display='none';this.parentNode.classList.add('noimg')">
+        <span class="ph">🏠</span>
+        <span class="price">1150€</span>
+      </a>
+      <div class="body">
+        <h3>Piso en El Raval</h3>
+        <div class="meta">· hab n/d · <span class="ag">pisos.com</span></div>
+        <div class="actions">
+          <button class="btn copy" data-msg="Hola, buenos días. Me interesa mucho el piso de Piso en El Raval de 1150€. Soy [NOMBRE], con ingresos estables. Seríamos [Nº] personas, no fumadores y sin mascotas. Puedo aportar nóminas/aval y tengo dossier con la documentación listo. Puedo ir a verlo hoy o mañana a la hora que os venga bien. ¿Sigue disponible? Gracias.">📋 Copiar mensaje</button>
+          <a class="btn open" href="https://www.pisos.com/alquilar/piso-el_raval08001-66667375644_109200/" target="_blank" rel="noopener">Abrir piso ↗</a>
+        </div>
+      </div>
+    </article></div>
+<footer>Motor propio · revisa +150 inmobiliarias de Barcelona · hecho para Paula</footer>
+<script>
+document.querySelectorAll('.copy').forEach(b => b.addEventListener('click', async () => {
+  try { await navigator.clipboard.writeText(b.dataset.msg);
+    b.textContent='✓ Copiado'; b.classList.add('done');
+    setTimeout(()=>{b.textContent='📋 Copiar mensaje'; b.classList.remove('done');}, 1800);
+  } catch(e) { alert(b.dataset.msg); }
+}));
+</script>
+</body>
+</html>

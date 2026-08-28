@@ -1,0 +1,7 @@
+.venv/
+.tools/
+__pycache__/
+*.pyc
+app/web/
+.DS_Store
+.github/
