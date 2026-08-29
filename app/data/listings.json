@@ -204,7 +204,7 @@
     "kind": "piso",
     "title": "Pis, 53.00 m 2",
     "img": "https://imagenes.ghestia.cat/images/webs/LIC1403_140518/fotos0/1398/foto_1.jpg",
-    "text": "lloguer Tipus 855€ Pis, 53.00 m 2 2 Dorm. 53.00 m 2 Veure mes Fa 22 hores",
+    "text": "lloguer Tipus 855€ Pis, 53.00 m 2 2 Dorm. 53.00 m 2 Veure mes Fa 23 hores",
     "agency": "Fincas Ubiergo",
     "rent_url": "https://www.fincasubiergo.com/alquiler"
   },
@@ -226,7 +226,7 @@
     "kind": "piso",
     "title": "Pis, 58.00 m 2",
     "img": "https://imagenes.ghestia.cat/images/webs/LIC1403_140518/fotos0/1396/foto_1.jpg",
-    "text": "lloguer Tipus 876€ Pis, 58.00 m 2 2 Dorm. 58.00 m 2 Veure mes Fa 22 hores",
+    "text": "lloguer Tipus 876€ Pis, 58.00 m 2 2 Dorm. 58.00 m 2 Veure mes Fa 23 hores",
     "agency": "Fincas Ubiergo",
     "rent_url": "https://www.fincasubiergo.com/alquiler"
   },
@@ -282,17 +282,6 @@
     "title": "Piso en Carrer de la Residència",
     "img": "https://fotos.imghs.net/mm-wp/500843/38372847481.500843/500843_38372847481_11_20231003132732027.jpg",
     "text": "1 /11 Nuevo PREMIUM 963 € /mes Piso en Carrer de la Residència Sant Andreu (Distrito Sant Andreu. Barcelona Capital) 2 habs. 1 baño 66 m² 3ª planta Para poder visitar el piso antes",
-    "agency": "pisos.com",
-    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
-  },
-  {
-    "url": "https://www.pisos.com/alquilar/estudio-la_vila_de_gracia08012-63424964407_530867/",
-    "price": 975,
-    "rooms": null,
-    "kind": "piso",
-    "title": "Estudio en Carrer de Tordera",
-    "img": "https://fotos.imghs.net/mm-wp/530867/63424964407.530867/530867_63424964407_d39df721-627b-45c0-bded-c9fc7e01e2b6.jpg",
-    "text": "1 /10 PREMIUM 975 € /mes Estudio en Carrer de Tordera La Vila de Gràcia (Distrito Gràcia. Barcelona Capital) 1 baño 40 m² Ubicado en gràcia, a pocos minutos de passeig de gràcia, y",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
@@ -358,7 +347,7 @@
     "kind": "piso",
     "title": "Piso en La Sagrada Família",
     "img": "https://fotos.imghs.net/mm-wp/1005/3230323630373234/7ba79da8-b8a9-4949-83aa-1b2fc41753c8.jpg",
-    "text": "1 /2 PREMIUM 997 € /mes Piso en La Sagrada Família La Sagrada Família (Distrito Eixample. Barcelona Capital) 1 hab. 49 m² Bajo Importante. No se aceptan llamadas. Responder a cuest",
+    "text": "1 /2 TOP Oportunidad 997 € /mes Piso en La Sagrada Família La Sagrada Família (Distrito Eixample. Barcelona Capital) 1 hab. 49 m² Bajo Importante. No se aceptan llamadas. Responder",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
@@ -429,6 +418,17 @@
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
   {
+    "url": "https://www.pisos.com/alquilar/loft-eixample_sant_antoni08011-60839468259_101800/",
+    "price": 1100,
+    "rooms": null,
+    "kind": "piso",
+    "title": "Loft en Sant Antoni",
+    "img": "https://fotos.imghs.net/mm-wp/1018/554/1018_107633554_1_2026012116010434724.jpg",
+    "text": "1 /19 TOP 1.100 € /mes Loft en Sant Antoni Sant Antoni (Distrito Eixample. Barcelona Capital) 29 m² Descubre este encantador estudio en alquiler en el corazón de Barcelona! Situado",
+    "agency": "pisos.com",
+    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
+  },
+  {
     "url": "https://www.pisos.com/alquilar/piso-el_raval08001-66668005832_106100/",
     "price": 1100,
     "rooms": 1,
@@ -440,13 +440,13 @@
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
   {
-    "url": "https://www.pisos.com/alquilar/loft-eixample_sant_antoni08011-60839468259_101800/",
+    "url": "https://www.pisos.com/alquilar/atico-el_raval08001-64249106130_530867/",
     "price": 1100,
-    "rooms": null,
+    "rooms": 1,
     "kind": "piso",
-    "title": "Loft en Sant Antoni",
-    "img": "https://fotos.imghs.net/mm-wp/1018/554/1018_107633554_1_2026012116010434724.jpg",
-    "text": "1 /19 PREMIUM 1.100 € /mes Loft en Sant Antoni Sant Antoni (Distrito Eixample. Barcelona Capital) 29 m² Descubre este encantador estudio en alquiler en el corazón de barcelona! Sit",
+    "title": "Ático en Carrer de l'Hospital",
+    "img": "https://fotos.imghs.net/mm-wp/530867/64249106130.530867/530867_64249106130_27762a0e-d0f3-456e-bc57-507d9e9c01a5.jpg",
+    "text": "1 /6 PREMIUM 1.100 € /mes Ático en Carrer de l'Hospital El Raval (Distrito Ciutat Vella. Barcelona Capital) 1 hab. 1 baño 50 m² Ubicado en una finca con carácter en pleno corazón d",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
@@ -550,17 +550,6 @@
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
   {
-    "url": "https://www.pisos.com/alquilar/piso-la_vila_de_gracia08012-64171297594_530867/",
-    "price": 1200,
-    "rooms": 1,
-    "kind": "piso",
-    "title": "Piso en Carrer de Verdi",
-    "img": "https://fotos.imghs.net/mm-wp/530867/64171297594.530867/530867_64171297594_018d3a50-9ba3-4194-bf5a-c3e61b7d5196.jpg",
-    "text": "1 /6 PREMIUM 1.200 € /mes Piso en Carrer de Verdi La Vila de Gràcia (Distrito Gràcia. Barcelona Capital) 1 hab. 1 baño 55 m² 2ª planta Ubicado en carrer de verdi, en pleno corazón ",
-    "agency": "pisos.com",
-    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
-  },
-  {
     "url": "https://www.pisos.com/alquilar/piso-vallvidrera_el_tibidabo_les_planes08017-65856948099_100600/",
     "price": 1200,
     "rooms": 1,
@@ -601,17 +590,6 @@
     "title": "Piso en El Raval",
     "img": "https://fotos.imghs.net/mm-wp/1092/3230323630383034/a05d387e-1a32-41e7-9fcb-27957806b091.jpg",
     "text": "1 /10 PREMIUM 1.200 € /mes Piso en El Raval El Raval (Distrito Ciutat Vella. Barcelona Capital) 45 m² 🌟 1-bedroom apartment on la rambla – prime location in barcelona! 🌟 Welcome to",
-    "agency": "pisos.com",
-    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
-  },
-  {
-    "url": "https://www.pisos.com/alquilar/piso-barcelona_capital_eixample-66700526761_109200/",
-    "price": 1200,
-    "rooms": null,
-    "kind": "piso",
-    "title": "Piso en Eixample",
-    "img": "https://fotos.imghs.net/mm-wp/1092/3230323630383237/ee44c8ef-5eb8-4652-8c7f-d4fb9cdc9264.jpg",
-    "text": "1 /6 Nuevo PREMIUM 1.200 € /mes Piso en Eixample Eixample (Barcelona Capital) 47 m² El estudio está ubicado en un 6to piso (el edificio cuenta con ascensor) y lo tendrá completamen",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   }
