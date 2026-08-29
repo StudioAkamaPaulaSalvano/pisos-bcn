@@ -110,6 +110,12 @@ RENT_HINTS = ["alquiler", "lloguer", "llogar", "alquileres", "lloguers", "rent"]
 BAD_WORDS = ["oficina", "local", "nave", "parking", "plaza de aparcamiento", "comercial",
              "traster", "trastero", "solar", "despacho", "aparcament", "garaje", "garatge",
              "despatx", "oficines", "locales", "nau industrial", "plaza de garaje"]
+# Palabras de artículos/blog/noticias -> NO son un piso (se colaban con precio suelto)
+NEWS_WORDS = ["ley de vivienda", "ley-vivienda", "nueva ley", "nueva-ley", "deduccion",
+              "deducción", "autonómica", "autonomica", "/blog", "/noticia", "/actualidad",
+              "/consejos", "/guia", "/guía", "claves de", "irpf", "requisitos para",
+              "cómo declarar", "como declarar", "qué es", "diferencia entre", "index-of-post",
+              "impuesto", "fianza del", "reforma de la ley", "boletín", "boletin"]
 # Señal de que SÍ es vivienda (si no aparece ninguna y no hay dormitorios -> fuera)
 RESIDENCIAL = ["piso", "pis ", "pis,", "pis.", "estudio", "estudi", "ático", "àtic", "atic",
                "apartament", "apartamento", "vivienda", "habitatge", "dúplex", "duplex",
@@ -337,6 +343,11 @@ def passes_filters(item):
         return False                 # es venta o página-anzuelo, no un alquiler
     low = (item["title"] + " " + item.get("text", "") + " " + item.get("url", "")).lower()
     if any(b in low for b in BAD_WORDS):
+        return False
+    # artículos de blog/noticias (no son pisos): título-pregunta o slug informativo
+    if item["title"].strip()[:1] in ("¿", "¡", "?"):
+        return False
+    if any(w in low for w in NEWS_WORDS):
         return False
     if any(z in low for z in ZONAS_EXCLUIDAS):
         return False
