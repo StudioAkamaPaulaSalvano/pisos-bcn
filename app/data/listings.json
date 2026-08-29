@@ -275,17 +275,6 @@
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
   {
-    "url": "https://www.pisos.com/alquilar/estudio-la_vila_de_gracia08012-63424964407_530867/",
-    "price": 975,
-    "rooms": null,
-    "kind": "piso",
-    "title": "Estudio en Carrer de Tordera",
-    "img": "https://fotos.imghs.net/mm-wp/530867/63424964407.530867/530867_63424964407_d39df721-627b-45c0-bded-c9fc7e01e2b6.jpg",
-    "text": "1 /10 PREMIUM 975 € /mes Estudio en Carrer de Tordera La Vila de Gràcia (Distrito Gràcia. Barcelona Capital) 1 baño 40 m² Ubicado en gràcia, a pocos minutos de passeig de gràcia, y",
-    "agency": "pisos.com",
-    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
-  },
-  {
     "url": "https://www.pisos.com/alquilar/piso-el_raval-66693944700_104700/",
     "price": 975,
     "rooms": 1,
@@ -429,6 +418,17 @@
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
   {
+    "url": "https://www.pisos.com/alquilar/loft-eixample_sant_antoni08011-60839468259_101800/",
+    "price": 1100,
+    "rooms": null,
+    "kind": "piso",
+    "title": "Loft en Sant Antoni",
+    "img": "https://fotos.imghs.net/mm-wp/1018/554/1018_107633554_1_2026012116010434724.jpg",
+    "text": "1 /19 TOP 1.100 € /mes Loft en Sant Antoni Sant Antoni (Distrito Eixample. Barcelona Capital) 29 m² Descubre este encantador estudio en alquiler en el corazón de Barcelona! Situado",
+    "agency": "pisos.com",
+    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
+  },
+  {
     "url": "https://www.pisos.com/alquilar/piso-el_raval08001-66668005832_106100/",
     "price": 1100,
     "rooms": 1,
@@ -447,17 +447,6 @@
     "title": "Ático en Carrer de l'Hospital",
     "img": "https://fotos.imghs.net/mm-wp/530867/64249106130.530867/530867_64249106130_27762a0e-d0f3-456e-bc57-507d9e9c01a5.jpg",
     "text": "1 /6 PREMIUM 1.100 € /mes Ático en Carrer de l'Hospital El Raval (Distrito Ciutat Vella. Barcelona Capital) 1 hab. 1 baño 50 m² Ubicado en una finca con carácter en pleno corazón d",
-    "agency": "pisos.com",
-    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
-  },
-  {
-    "url": "https://www.pisos.com/alquilar/loft-eixample_sant_antoni08011-60839468259_101800/",
-    "price": 1100,
-    "rooms": null,
-    "kind": "piso",
-    "title": "Loft en Sant Antoni",
-    "img": "https://fotos.imghs.net/mm-wp/1018/554/1018_107633554_1_2026012116010434724.jpg",
-    "text": "1 /19 PREMIUM 1.100 € /mes Loft en Sant Antoni Sant Antoni (Distrito Eixample. Barcelona Capital) 29 m² Descubre este encantador estudio en alquiler en el corazón de barcelona! Sit",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
