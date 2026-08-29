@@ -1,16 +1,14 @@
 name: Buscar pisos Barcelona
 
-# Bucle continuo: una corrida larga trabaja ~1h haciendo un ciclo cada ~5 min,
-# y se reinicia cada hora. NO depende del cron */5 de GitHub (que es poco fiable).
+# Cada llamada hace UNA pasada rápida y termina. La dispara el despertador
+# externo (cron-job.org) cada 5 min. El cron */30 es solo respaldo por si el
+# despertador falla.
 on:
-  schedule:
-    - cron: "0 * * * *"
-    - cron: "30 * * * *"
-    - cron: "0 19 * * *"   # reinicio diario a las 21:00 de Barcelona (19:00 UTC)
   workflow_dispatch:
+  schedule:
+    - cron: "*/30 * * * *"
 
-# una corrida nueva REEMPLAZA a la anterior (si una se cuelga, la de :00/:30
-# la mata y arranca fresca -> la página nunca queda congelada más de ~30 min)
+# una corrida nueva REEMPLAZA a la anterior -> nunca se acumula un proceso colgado
 concurrency:
   group: buscar-pisos
   cancel-in-progress: true
@@ -21,7 +19,7 @@ permissions:
 jobs:
   buscar:
     runs-on: ubuntu-latest
-    timeout-minutes: 350       # corre ~5,5 h seguidas (máx GitHub = 6 h)
+    timeout-minutes: 10        # una pasada corta; nada puede quedar colgado horas
     steps:
       - uses: actions/checkout@v4
 
@@ -29,12 +27,18 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Cachear navegador (arranque rápido)
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/ms-playwright
+          key: playwright-chromium-v1
+
       - name: Instalar dependencias
         run: |
           pip install requests beautifulsoup4 lxml playwright
           python -m playwright install --with-deps chromium
 
-      - name: Buscar en bucle (~26 min, ciclo cada ~5 min)
+      - name: Una pasada (buscar pisos + publicar)
         env:
           SMTP_HOST: ${{ secrets.SMTP_HOST }}
           SMTP_PORT: ${{ secrets.SMTP_PORT }}
@@ -46,17 +50,13 @@ jobs:
           git config user.name "pisos-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config pull.rebase true
-          END=$((SECONDS+19800))     # ~5,5 h de bucle continuo (una corrida cubre casi el día)
-          while [ $SECONDS -lt $END ]; do
-            python app/scrape.py --fast || true
-            python app/build_page.py || true
-            mkdir -p docs && cp app/web/index.html docs/index.html
-            python app/notify.py || true
-            git add -A
-            if ! git diff --cached --quiet; then
-              git commit -q -m "Actualizar pisos ($(date -u '+%H:%M') UTC)"
-              git pull --rebase -q || true
-              git push -q || true
-            fi
-            sleep 240
-          done
+          python app/scrape.py --fast || true
+          python app/build_page.py || true
+          mkdir -p docs && cp app/web/index.html docs/index.html
+          python app/notify.py || true
+          git add -A
+          if ! git diff --cached --quiet; then
+            git commit -q -m "Actualizar pisos ($(date -u '+%H:%M') UTC)"
+            git pull --rebase -q || true
+            git push -q || true
+          fi
