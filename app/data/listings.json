@@ -226,7 +226,7 @@
     "kind": "piso",
     "title": "Pis, 53.00 m 2",
     "img": "https://imagenes.ghestia.cat/images/webs/LIC1403_140518/fotos0/1398/foto_1.jpg",
-    "text": "lloguer Tipus 855€ Pis, 53.00 m 2 2 Dorm. 53.00 m 2 Veure mes Fa 17 hores",
+    "text": "lloguer Tipus 855€ Pis, 53.00 m 2 2 Dorm. 53.00 m 2 Veure mes Fa 18 hores",
     "agency": "Fincas Ubiergo",
     "rent_url": "https://www.fincasubiergo.com/alquiler"
   },
@@ -240,6 +240,17 @@
     "text": "‹ › Ref. 2556 44 m 2 3 1 Avenida Gaudí - Provença Piso en alquiler en Barcelona, con 44 m 2 , 3 habitaciones y 1 baños y Ascensor. 863 €/mes",
     "agency": "Calvet",
     "rent_url": "https://inmobiliaria.calvetpremium.com/es/alquiler-pisos-pisos/en-barcelona-barcelona"
+  },
+  {
+    "url": "https://www.pisos.com/alquilar/estudio-la_nova_esquerra_de_eixample08015-65885714928_518209/",
+    "price": 875,
+    "rooms": 1,
+    "kind": "piso",
+    "title": "Estudio en Carrer d'Entença",
+    "img": "https://fotos.imghs.net/mm-wp/518209/65885714928.518209/518209_65885714928_1_20260717161417516.jpg",
+    "text": "1 /14 PREMIUM 875 € /mes Estudio en Carrer d'Entença La Nova Esquerra de l'Eixample (Distrito Eixample. Barcelona Capital) 1 hab. 1 baño 35 m² Ref: 002605f Estudio en alquiler maxi",
+    "agency": "pisos.com",
+    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
   {
     "url": "https://www.pisos.com/alquilar/piso-el_camp_de_arpa_del_clot08026-66745972610_528397/",
@@ -380,7 +391,7 @@
     "kind": "piso",
     "title": "Piso en La Sagrada Família",
     "img": "https://fotos.imghs.net/mm-wp/1005/3230323630373234/7ba79da8-b8a9-4949-83aa-1b2fc41753c8.jpg",
-    "text": "1 /2 TOP Oportunidad 997 € /mes Piso en La Sagrada Família La Sagrada Família (Distrito Eixample. Barcelona Capital) 1 hab. 49 m² Bajo Importante. No se aceptan llamadas. Responder",
+    "text": "1 /2 PREMIUM 997 € /mes Piso en La Sagrada Família La Sagrada Família (Distrito Eixample. Barcelona Capital) 1 hab. 49 m² Bajo Importante. No se aceptan llamadas. Responder a cuest",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
@@ -468,18 +479,7 @@
     "kind": "piso",
     "title": "Piso en El Raval",
     "img": "https://fotos.imghs.net/mm-wp/1061/3230323630383233/72b82086-47b7-4bfe-a88c-1026b58106a6.jpg",
-    "text": "1 /14 Nuevo TOP Oportunidad 1.100 € /mes Piso en El Raval El Raval (Distrito Ciutat Vella. Barcelona Capital) 1 hab. 1 baño 47 m² 1ª planta Piso centrico, listo parar entrar con la",
-    "agency": "pisos.com",
-    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
-  },
-  {
-    "url": "https://www.pisos.com/alquilar/atico-el_raval08001-64249106130_530867/",
-    "price": 1100,
-    "rooms": 1,
-    "kind": "piso",
-    "title": "Ático en Carrer de l'Hospital",
-    "img": "https://fotos.imghs.net/mm-wp/530867/64249106130.530867/530867_64249106130_27762a0e-d0f3-456e-bc57-507d9e9c01a5.jpg",
-    "text": "1 /6 PREMIUM 1.100 € /mes Ático en Carrer de l'Hospital El Raval (Distrito Ciutat Vella. Barcelona Capital) 1 hab. 1 baño 50 m² Ubicado en una finca con carácter en pleno corazón d",
+    "text": "1 /14 Nuevo PREMIUM 1.100 € /mes Piso en El Raval El Raval (Distrito Ciutat Vella. Barcelona Capital) 1 hab. 1 baño 47 m² 1ª planta Piso centrico, listo parar entrar con las maleta",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
@@ -601,6 +601,17 @@
     "title": "Piso en El Barri Gòtic",
     "img": "https://fotos.imghs.net/mm-wp/1092/400/1092_EB2-699f8d44f954d0cc300584a0_1_202602270631506118120.jpg",
     "text": "1 /10 Nuevo PREMIUM 1.195 € /mes Piso en El Barri Gòtic El Barri Gòtic (Distrito Ciutat Vella. Barcelona Capital) 40 m² Are you searching for a peaceful retreat in the center of ba",
+    "agency": "pisos.com",
+    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
+  },
+  {
+    "url": "https://www.pisos.com/alquilar/piso-la_vila_de_gracia08012-64171297594_530867/",
+    "price": 1200,
+    "rooms": 1,
+    "kind": "piso",
+    "title": "Piso en Carrer de Verdi",
+    "img": "https://fotos.imghs.net/mm-wp/530867/64171297594.530867/530867_64171297594_018d3a50-9ba3-4194-bf5a-c3e61b7d5196.jpg",
+    "text": "1 /6 PREMIUM 1.200 € /mes Piso en Carrer de Verdi La Vila de Gràcia (Distrito Gràcia. Barcelona Capital) 1 hab. 1 baño 55 m² 2ª planta Ubicado en carrer de verdi, en pleno corazón ",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
