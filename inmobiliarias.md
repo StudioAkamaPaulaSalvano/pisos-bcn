@@ -197,6 +197,10 @@
 | Segermar Associats | https://segermar.es/ | Sants-Montjuïc |
 | Finques Miret | https://finquesmiret.com/ | Sants |
 | Finques Oriach | http://www.oriach.cat/ | Barcelona (la pasaste tú) |
+| CasaBlau | https://casablau.net/ | https://casablau.net/alquiler/pisos-en-alquiler (excluye los marcados «reservat») | Barcelona |
+| BarnaPiso | https://barnapiso.com/ | https://barnapiso.com/es/propiedades-disponibles-barcelona/ | Barcelona |
+| Rentmar | https://www.rentmar.es/ | https://www.rentmar.es/?action=epl_search&post_type=rental&instance_id=1&form_tab=2 | Barcelona |
+| Vivalco | https://www.vivalco.com/ | https://www.vivalco.com/properties-for-rent/ | Barcelona |
 
 ---
 

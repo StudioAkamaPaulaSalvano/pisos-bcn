@@ -62,6 +62,11 @@ OVERRIDES = {
     "www.fincasblanco.com": "https://www.fincasblanco.com/es/pisos?accion_nombre=alquilar",
     "www.equinoxuh.com": "https://www.equinoxuh.com/es/alquiler/pisos/cataluna/barcelona",
     "www.finquesmartinez.com": "https://www.finquesmartinez.com/es/alquiler-de-pisos-en-barcelona",
+    "casablau.net": "https://casablau.net/alquiler/pisos-en-alquiler",
+    "barnapiso.com": "https://barnapiso.com/es/propiedades-disponibles-barcelona/",
+    "www.rentmar.es": "https://www.rentmar.es/?action=epl_search&post_type=rental&instance_id=1&form_tab=2",
+    "toysanfinques.com": "https://toysanfinques.com/es/inmuebles/?transaction_type=lloguer&property__type=property",
+    "www.vivalco.com": "https://www.vivalco.com/properties-for-rent/",
 }
 # Rutas típicas donde las inmobiliarias esconden el listado de alquiler
 PATH_GUESSES = ["/alquiler", "/es/alquiler", "/lloguer", "/ca/lloguer", "/inmuebles",
@@ -96,7 +101,9 @@ BCN_HOODS = ["eixample", "gràcia", "gracia", "sants", "poblenou", "poble nou", 
              "camp de l'arpa", "camp de l arpa", "fort pienc", "sagrada família",
              "sagrada familia", "el carmel", "la salut", "vall d'hebron", "montjuïc",
              "hostafrancs", "la bordeta", "sant martí", "sant marti", "diagonal mar",
-             "vila de gràcia", "camp d'en grassot", "la sagrera", "navas", "congrés"]
+             "vila de gràcia", "camp d'en grassot", "la sagrera", "navas", "congrés",
+             "bon pastor", "el bon pastor", "trinitat", "baró de viver", "vallbona",
+             "verdum", "prosperitat", "porta", "turó de la peira", "can baró"]
 # Palabras que indican enlace a la página de alquiler
 RENT_HINTS = ["alquiler", "lloguer", "llogar", "alquileres", "lloguers", "rent"]
 # Palabras que descartan (no es vivienda residencial)
@@ -264,11 +271,21 @@ def extract_listings(page_url, page_html):
                 break
             b = b.parent
             parents.append(b)
-        block = next((pp for pp in parents if pp.find("img") is not None),
-                     parents[min(2, len(parents) - 1)] if parents else a)
+        # ancestro más cercano con imagen Y precio (evita cards donde el enlace
+        # envuelve solo la foto); si no hay, caemos al de imagen y luego al 3º nivel
+        block = next((pp for pp in parents
+                      if pp.find("img") is not None and parse_price(pp.get_text(" ", strip=True))),
+                     next((pp for pp in parents if pp.find("img") is not None),
+                          parents[min(2, len(parents) - 1)] if parents else a))
         text = " ".join(block.get_text(" ", strip=True).split())
         price = parse_price(text)
         if not price:
+            continue
+        # descartar RESERVAT/reservado/alquilado (badge de estado en la card;
+        # a veces va en un atributo lazy de la imagen, así que miramos todo el HTML)
+        bl = text.lower() + " " + str(block).lower()
+        if re.search(r'reservat|reservad[oa]|llogad[ao]|alquilad[oa]', bl) \
+                and "derecho" not in bl and "rights" not in bl:
             continue
         img = get_image(block, page_url)
         rooms_m = ROOMS_RE.search(text)
