@@ -44,6 +44,10 @@
   .card.descartado .descartar { background:#e5484d; color:#fff; }
   .gone-badge { display:none; background:#5a2530; color:#ffb4c0; font-size:11px; font-weight:700; padding:3px 8px; border-radius:6px; width:fit-content; }
   .card.gone .gone-badge { display:inline-block; }
+  .nuevo-badge { display:none; background:#123a24; color:#7ff0a8; font-size:11px; font-weight:700; padding:3px 8px; border-radius:6px; width:fit-content; }
+  .card.nuevo .nuevo-badge { display:inline-block; }
+  .card.nuevo { border-color:#1f6b3f; }
+  .card.descartado .nuevo-badge { display:none; }   /* un descartado no se muestra como "nuevo" */
   .card.gone { border-color:#5a2530; }
   .card.gone .photo { opacity:.6; }
   footer { color:var(--mut); text-align:center; padding:24px; font-size:12px; }
@@ -70,6 +74,7 @@
         <span class="price">425€</span>
       </a>
       <div class="body">
+        <span class="nuevo-badge">✨ Nuevo</span>
         <span class="gone-badge">⚠️ No disponible en la web</span>
         <h3>Propiedad en Les Corts</h3>
         <div class="meta">· hab n/d · <span class="ag">BarnaPiso</span></div>
@@ -93,6 +98,7 @@
         <span class="price">500€</span>
       </a>
       <div class="body">
+        <span class="nuevo-badge">✨ Nuevo</span>
         <span class="gone-badge">⚠️ No disponible en la web</span>
         <h3>Piso en alquiler. Les Corts, Barcelona</h3>
         <div class="meta">· hab n/d · <span class="ag">Finques El Pallars</span></div>
@@ -116,6 +122,7 @@
         <span class="price">600€</span>
       </a>
       <div class="body">
+        <span class="nuevo-badge">✨ Nuevo</span>
         <span class="gone-badge">⚠️ No disponible en la web</span>
         <h3>Maragall, pl. 2-3 entl 3 BARCELONA-Alquiler-001058/1</h3>
         <div class="meta">3 hab · <span class="ag">Finques Martell</span></div>
@@ -139,6 +146,7 @@
         <span class="price">750€</span>
       </a>
       <div class="body">
+        <span class="nuevo-badge">✨ Nuevo</span>
         <span class="gone-badge">⚠️ No disponible en la web</span>
         <h3>Piso en Carrer de Pelai</h3>
         <div class="meta">1 hab · <span class="ag">pisos.com</span></div>
@@ -162,6 +170,7 @@
         <span class="price">778€</span>
       </a>
       <div class="body">
+        <span class="nuevo-badge">✨ Nuevo</span>
         <span class="gone-badge">⚠️ No disponible en la web</span>
         <h3>Sant Andreu de Palomar</h3>
         <div class="meta">· hab n/d · <span class="ag">Guinot Prunera</span></div>
@@ -185,6 +194,7 @@
         <span class="price">787€</span>
       </a>
       <div class="body">
+        <span class="nuevo-badge">✨ Nuevo</span>
         <span class="gone-badge">⚠️ No disponible en la web</span>
         <h3>L&#x27;Antiga Esquerra de L&#x27;Eixample</h3>
         <div class="meta">· hab n/d · <span class="ag">Guinot Prunera</span></div>
@@ -208,6 +218,7 @@
         <span class="price">790€</span>
       </a>
       <div class="body">
+        <span class="nuevo-badge">✨ Nuevo</span>
         <span class="gone-badge">⚠️ No disponible en la web</span>
         <h3>Piso en Carrer de Manso</h3>
         <div class="meta">1 hab · <span class="ag">pisos.com</span></div>
@@ -231,6 +242,7 @@
         <span class="price">800€</span>
       </a>
       <div class="body">
+        <span class="nuevo-badge">✨ Nuevo</span>
         <span class="gone-badge">⚠️ No disponible en la web</span>
         <h3>Piso en Carrer del Pi</h3>
         <div class="meta">1 hab · <span class="ag">pisos.com</span></div>
@@ -254,6 +266,7 @@
         <span class="price">800€</span>
       </a>
       <div class="body">
+        <span class="nuevo-badge">✨ Nuevo</span>
         <span class="gone-badge">⚠️ No disponible en la web</span>
         <h3>Piso en Carrer de Mallorca</h3>
         <div class="meta">1 hab · <span class="ag">pisos.com</span></div>
@@ -277,6 +290,7 @@
         <span class="price">820€</span>
       </a>
       <div class="body">
+        <span class="nuevo-badge">✨ Nuevo</span>
         <span class="gone-badge">⚠️ No disponible en la web</span>
         <h3>ARC DE SANT SEVER (L’) BARCELONA-Alquiler-001999/1</h3>
         <div class="meta">2 hab · <span class="ag">Finques Martell</span></div>
@@ -300,6 +314,7 @@
         <span class="price">820€</span>
       </a>
       <div class="body">
+        <span class="nuevo-badge">✨ Nuevo</span>
         <span class="gone-badge">⚠️ No disponible en la web</span>
         <h3>Estudio en Carrer de Casanova</h3>
         <div class="meta">· hab n/d · <span class="ag">pisos.com</span></div>
@@ -323,6 +338,7 @@
         <span class="price">842€</span>
       </a>
       <div class="body">
+        <span class="nuevo-badge">✨ Nuevo</span>
         <span class="gone-badge">⚠️ No disponible en la web</span>
         <h3>Piso en Passeig de Torras i Bages</h3>
         <div class="meta">1 hab · <span class="ag">pisos.com</span></div>
@@ -346,6 +362,7 @@
         <span class="price">850€</span>
       </a>
       <div class="body">
+        <span class="nuevo-badge">✨ Nuevo</span>
         <span class="gone-badge">⚠️ No disponible en la web</span>
         <h3>ENRIC GRANADOS</h3>
         <div class="meta">· hab n/d · <span class="ag">Finques Feliu</span></div>
@@ -369,6 +386,7 @@
         <span class="price">850€</span>
       </a>
       <div class="body">
+        <span class="nuevo-badge">✨ Nuevo</span>
         <span class="gone-badge">⚠️ No disponible en la web</span>
         <h3>Estudio en Carrer de Perot lo Lladre</h3>
         <div class="meta">1 hab · <span class="ag">pisos.com</span></div>
@@ -392,6 +410,7 @@
         <span class="price">850€</span>
       </a>
       <div class="body">
+        <span class="nuevo-badge">✨ Nuevo</span>
         <span class="gone-badge">⚠️ No disponible en la web</span>
         <h3>Piso en Carrer de Puerto Príncipe</h3>
         <div class="meta">1 hab · <span class="ag">pisos.com</span></div>
@@ -415,6 +434,7 @@
         <span class="price">850€</span>
       </a>
       <div class="body">
+        <span class="nuevo-badge">✨ Nuevo</span>
         <span class="gone-badge">⚠️ No disponible en la web</span>
         <h3>Piso en El Poble-Sec</h3>
         <div class="meta">3 hab · <span class="ag">pisos.com</span></div>
@@ -438,6 +458,7 @@
         <span class="price">850€</span>
       </a>
       <div class="body">
+        <span class="nuevo-badge">✨ Nuevo</span>
         <span class="gone-badge">⚠️ No disponible en la web</span>
         <h3>Estudio en La Maternitat-Sant Ramon</h3>
         <div class="meta">· hab n/d · <span class="ag">pisos.com</span></div>
@@ -461,6 +482,7 @@
         <span class="price">850€</span>
       </a>
       <div class="body">
+        <span class="nuevo-badge">✨ Nuevo</span>
         <span class="gone-badge">⚠️ No disponible en la web</span>
         <h3>Estudio en Sants-Badal</h3>
         <div class="meta">· hab n/d · <span class="ag">pisos.com</span></div>
@@ -484,6 +506,7 @@
         <span class="price">850€</span>
       </a>
       <div class="body">
+        <span class="nuevo-badge">✨ Nuevo</span>
         <span class="gone-badge">⚠️ No disponible en la web</span>
         <h3>Piso en Barcelona Capital</h3>
         <div class="meta">· hab n/d · <span class="ag">pisos.com</span></div>
@@ -507,6 +530,7 @@
         <span class="price">850€</span>
       </a>
       <div class="body">
+        <span class="nuevo-badge">✨ Nuevo</span>
         <span class="gone-badge">⚠️ No disponible en la web</span>
         <h3>Piso en La Salut</h3>
         <div class="meta">· hab n/d · <span class="ag">pisos.com</span></div>
@@ -530,6 +554,7 @@
         <span class="price">855€</span>
       </a>
       <div class="body">
+        <span class="nuevo-badge">✨ Nuevo</span>
         <span class="gone-badge">⚠️ No disponible en la web</span>
         <h3>Pis, 53.00 m 2</h3>
         <div class="meta">2 hab · <span class="ag">Fincas Ubiergo</span></div>
@@ -553,6 +578,7 @@
         <span class="price">863€</span>
       </a>
       <div class="body">
+        <span class="nuevo-badge">✨ Nuevo</span>
         <span class="gone-badge">⚠️ No disponible en la web</span>
         <h3>Avenida Gaudí - Provença</h3>
         <div class="meta">3 hab · <span class="ag">Calvet</span></div>
@@ -576,6 +602,7 @@
         <span class="price">877€</span>
       </a>
       <div class="body">
+        <span class="nuevo-badge">✨ Nuevo</span>
         <span class="gone-badge">⚠️ No disponible en la web</span>
         <h3>Piso en Carrer de Llagostera</h3>
         <div class="meta">2 hab · <span class="ag">pisos.com</span></div>
@@ -599,6 +626,7 @@
         <span class="price">890€</span>
       </a>
       <div class="body">
+        <span class="nuevo-badge">✨ Nuevo</span>
         <span class="gone-badge">⚠️ No disponible en la web</span>
         <h3>Estudio en El Poble-sec</h3>
         <div class="meta">· hab n/d · <span class="ag">pisos.com</span></div>
@@ -622,6 +650,7 @@
         <span class="price">925€</span>
       </a>
       <div class="body">
+        <span class="nuevo-badge">✨ Nuevo</span>
         <span class="gone-badge">⚠️ No disponible en la web</span>
         <h3>Piso en Travessera de les Corts</h3>
         <div class="meta">1 hab · <span class="ag">pisos.com</span></div>
@@ -645,6 +674,7 @@
         <span class="price">950€</span>
       </a>
       <div class="body">
+        <span class="nuevo-badge">✨ Nuevo</span>
         <span class="gone-badge">⚠️ No disponible en la web</span>
         <h3>El bon pastor 235</h3>
         <div class="meta">· hab n/d · <span class="ag">CasaBlau</span></div>
@@ -668,6 +698,7 @@
         <span class="price">963€</span>
       </a>
       <div class="body">
+        <span class="nuevo-badge">✨ Nuevo</span>
         <span class="gone-badge">⚠️ No disponible en la web</span>
         <h3>Piso en Carrer de la Residència</h3>
         <div class="meta">2 hab · <span class="ag">pisos.com</span></div>
@@ -691,6 +722,7 @@
         <span class="price">975€</span>
       </a>
       <div class="body">
+        <span class="nuevo-badge">✨ Nuevo</span>
         <span class="gone-badge">⚠️ No disponible en la web</span>
         <h3>Estudio en Carrer de Tordera</h3>
         <div class="meta">· hab n/d · <span class="ag">pisos.com</span></div>
@@ -714,6 +746,7 @@
         <span class="price">975€</span>
       </a>
       <div class="body">
+        <span class="nuevo-badge">✨ Nuevo</span>
         <span class="gone-badge">⚠️ No disponible en la web</span>
         <h3>Piso en El Raval</h3>
         <div class="meta">1 hab · <span class="ag">pisos.com</span></div>
@@ -737,6 +770,7 @@
         <span class="price">989€</span>
       </a>
       <div class="body">
+        <span class="nuevo-badge">✨ Nuevo</span>
         <span class="gone-badge">⚠️ No disponible en la web</span>
         <h3>LLOBREGOS BARCELONA-Alquiler-001525/1</h3>
         <div class="meta">1 hab · <span class="ag">Finques Martell</span></div>
@@ -760,6 +794,7 @@
         <span class="price">990€</span>
       </a>
       <div class="body">
+        <span class="nuevo-badge">✨ Nuevo</span>
         <span class="gone-badge">⚠️ No disponible en la web</span>
         <h3>Xifré BARCELONA-Alquiler-001895/1</h3>
         <div class="meta">3 hab · <span class="ag">Finques Martell</span></div>
@@ -783,6 +818,7 @@
         <span class="price">990€</span>
       </a>
       <div class="body">
+        <span class="nuevo-badge">✨ Nuevo</span>
         <span class="gone-badge">⚠️ No disponible en la web</span>
         <h3>Piso en El Poblenou</h3>
         <div class="meta">3 hab · <span class="ag">pisos.com</span></div>
@@ -806,6 +842,7 @@
         <span class="price">995€</span>
       </a>
       <div class="body">
+        <span class="nuevo-badge">✨ Nuevo</span>
         <span class="gone-badge">⚠️ No disponible en la web</span>
         <h3>Piso en Carrer dels Boters</h3>
         <div class="meta">1 hab · <span class="ag">pisos.com</span></div>
@@ -829,6 +866,7 @@
         <span class="price">997€</span>
       </a>
       <div class="body">
+        <span class="nuevo-badge">✨ Nuevo</span>
         <span class="gone-badge">⚠️ No disponible en la web</span>
         <h3>Piso en La Sagrada Família</h3>
         <div class="meta">1 hab · <span class="ag">pisos.com</span></div>
@@ -852,6 +890,7 @@
         <span class="price">1000€</span>
       </a>
       <div class="body">
+        <span class="nuevo-badge">✨ Nuevo</span>
         <span class="gone-badge">⚠️ No disponible en la web</span>
         <h3>Propiedad en Sants-Montjuïc</h3>
         <div class="meta">· hab n/d · <span class="ag">BarnaPiso</span></div>
@@ -875,6 +914,7 @@
         <span class="price">1000€</span>
       </a>
       <div class="body">
+        <span class="nuevo-badge">✨ Nuevo</span>
         <span class="gone-badge">⚠️ No disponible en la web</span>
         <h3>Apartamento en Carrer del Rec</h3>
         <div class="meta">1 hab · <span class="ag">pisos.com</span></div>
@@ -898,6 +938,7 @@
         <span class="price">1001€</span>
       </a>
       <div class="body">
+        <span class="nuevo-badge">✨ Nuevo</span>
         <span class="gone-badge">⚠️ No disponible en la web</span>
         <h3>La Nova Esquerra de L&#x27;Eixample</h3>
         <div class="meta">· hab n/d · <span class="ag">Guinot Prunera</span></div>
@@ -921,6 +962,7 @@
         <span class="price">1029€</span>
       </a>
       <div class="body">
+        <span class="nuevo-badge">✨ Nuevo</span>
         <span class="gone-badge">⚠️ No disponible en la web</span>
         <h3>Piso en Plaça del Mercadal</h3>
         <div class="meta">1 hab · <span class="ag">pisos.com</span></div>
@@ -944,6 +986,7 @@
         <span class="price">1050€</span>
       </a>
       <div class="body">
+        <span class="nuevo-badge">✨ Nuevo</span>
         <span class="gone-badge">⚠️ No disponible en la web</span>
         <h3>Estudio en El Barri Gòtic</h3>
         <div class="meta">· hab n/d · <span class="ag">pisos.com</span></div>
@@ -967,6 +1010,7 @@
         <span class="price">1065€</span>
       </a>
       <div class="body">
+        <span class="nuevo-badge">✨ Nuevo</span>
         <span class="gone-badge">⚠️ No disponible en la web</span>
         <h3>Piso en El Poble-sec</h3>
         <div class="meta">· hab n/d · <span class="ag">pisos.com</span></div>
@@ -990,6 +1034,7 @@
         <span class="price">1085€</span>
       </a>
       <div class="body">
+        <span class="nuevo-badge">✨ Nuevo</span>
         <span class="gone-badge">⚠️ No disponible en la web</span>
         <h3>Casa en El Besòs-El Maresme</h3>
         <div class="meta">· hab n/d · <span class="ag">pisos.com</span></div>
@@ -1013,6 +1058,7 @@
         <span class="price">1100€</span>
       </a>
       <div class="body">
+        <span class="nuevo-badge">✨ Nuevo</span>
         <span class="gone-badge">⚠️ No disponible en la web</span>
         <h3>Piso en El Raval</h3>
         <div class="meta">1 hab · <span class="ag">pisos.com</span></div>
@@ -1036,6 +1082,7 @@
         <span class="price">1100€</span>
       </a>
       <div class="body">
+        <span class="nuevo-badge">✨ Nuevo</span>
         <span class="gone-badge">⚠️ No disponible en la web</span>
         <h3>Ático en Carrer de l&#x27;Hospital</h3>
         <div class="meta">1 hab · <span class="ag">pisos.com</span></div>
@@ -1059,6 +1106,7 @@
         <span class="price">1100€</span>
       </a>
       <div class="body">
+        <span class="nuevo-badge">✨ Nuevo</span>
         <span class="gone-badge">⚠️ No disponible en la web</span>
         <h3>Loft en Sant Antoni</h3>
         <div class="meta">· hab n/d · <span class="ag">pisos.com</span></div>
@@ -1082,6 +1130,7 @@
         <span class="price">1100€</span>
       </a>
       <div class="body">
+        <span class="nuevo-badge">✨ Nuevo</span>
         <span class="gone-badge">⚠️ No disponible en la web</span>
         <h3>Piso en Hostafrancs</h3>
         <div class="meta">· hab n/d · <span class="ag">pisos.com</span></div>
@@ -1105,6 +1154,7 @@
         <span class="price">1100€</span>
       </a>
       <div class="body">
+        <span class="nuevo-badge">✨ Nuevo</span>
         <span class="gone-badge">⚠️ No disponible en la web</span>
         <h3>Piso en Carrer del Tigre, 12</h3>
         <div class="meta">1 hab · <span class="ag">pisos.com</span></div>
@@ -1128,6 +1178,7 @@
         <span class="price">1102€</span>
       </a>
       <div class="body">
+        <span class="nuevo-badge">✨ Nuevo</span>
         <span class="gone-badge">⚠️ No disponible en la web</span>
         <h3>Vallcarca i Els Penitents</h3>
         <div class="meta">· hab n/d · <span class="ag">Guinot Prunera</span></div>
@@ -1151,6 +1202,7 @@
         <span class="price">1150€</span>
       </a>
       <div class="body">
+        <span class="nuevo-badge">✨ Nuevo</span>
         <span class="gone-badge">⚠️ No disponible en la web</span>
         <h3>Piso en Hostafrancs</h3>
         <div class="meta">· hab n/d · <span class="ag">pisos.com</span></div>
@@ -1174,6 +1226,7 @@
         <span class="price">1150€</span>
       </a>
       <div class="body">
+        <span class="nuevo-badge">✨ Nuevo</span>
         <span class="gone-badge">⚠️ No disponible en la web</span>
         <h3>Piso en El Raval</h3>
         <div class="meta">· hab n/d · <span class="ag">pisos.com</span></div>
@@ -1197,6 +1250,7 @@
         <span class="price">1150€</span>
       </a>
       <div class="body">
+        <span class="nuevo-badge">✨ Nuevo</span>
         <span class="gone-badge">⚠️ No disponible en la web</span>
         <h3>Piso en Sant Martí de Provençals</h3>
         <div class="meta">· hab n/d · <span class="ag">pisos.com</span></div>
@@ -1220,6 +1274,7 @@
         <span class="price">1152€</span>
       </a>
       <div class="body">
+        <span class="nuevo-badge">✨ Nuevo</span>
         <span class="gone-badge">⚠️ No disponible en la web</span>
         <h3>Sardenya / Forc Pienc</h3>
         <div class="meta">2 hab · <span class="ag">Serviguest</span></div>
@@ -1243,6 +1298,7 @@
         <span class="price">1190€</span>
       </a>
       <div class="body">
+        <span class="nuevo-badge">✨ Nuevo</span>
         <span class="gone-badge">⚠️ No disponible en la web</span>
         <h3>Piso en Hostafrancs</h3>
         <div class="meta">1 hab · <span class="ag">pisos.com</span></div>
@@ -1266,6 +1322,7 @@
         <span class="price">1194€</span>
       </a>
       <div class="body">
+        <span class="nuevo-badge">✨ Nuevo</span>
         <span class="gone-badge">⚠️ No disponible en la web</span>
         <h3>Casa en El Besòs-El Maresme</h3>
         <div class="meta">· hab n/d · <span class="ag">pisos.com</span></div>
@@ -1289,6 +1346,7 @@
         <span class="price">1195€</span>
       </a>
       <div class="body">
+        <span class="nuevo-badge">✨ Nuevo</span>
         <span class="gone-badge">⚠️ No disponible en la web</span>
         <h3>Piso en El Barri Gòtic</h3>
         <div class="meta">· hab n/d · <span class="ag">pisos.com</span></div>
@@ -1312,6 +1370,7 @@
         <span class="price">1200€</span>
       </a>
       <div class="body">
+        <span class="nuevo-badge">✨ Nuevo</span>
         <span class="gone-badge">⚠️ No disponible en la web</span>
         <h3>Piso en Sarrià-Sant Gervasi</h3>
         <div class="meta">1 hab · <span class="ag">pisos.com</span></div>
@@ -1335,6 +1394,7 @@
         <span class="price">1200€</span>
       </a>
       <div class="body">
+        <span class="nuevo-badge">✨ Nuevo</span>
         <span class="gone-badge">⚠️ No disponible en la web</span>
         <h3>Piso en Hostafrancs</h3>
         <div class="meta">· hab n/d · <span class="ag">pisos.com</span></div>
@@ -1358,6 +1418,7 @@
         <span class="price">1200€</span>
       </a>
       <div class="body">
+        <span class="nuevo-badge">✨ Nuevo</span>
         <span class="gone-badge">⚠️ No disponible en la web</span>
         <h3>Piso en El Poble-sec</h3>
         <div class="meta">· hab n/d · <span class="ag">pisos.com</span></div>
@@ -1381,6 +1442,7 @@
         <span class="price">1200€</span>
       </a>
       <div class="body">
+        <span class="nuevo-badge">✨ Nuevo</span>
         <span class="gone-badge">⚠️ No disponible en la web</span>
         <h3>Piso en El Raval</h3>
         <div class="meta">· hab n/d · <span class="ag">pisos.com</span></div>
@@ -1396,7 +1458,7 @@
       </div>
     </article></div>
 <footer>Motor propio · revisa +150 inmobiliarias de Barcelona · hecho para Paula</footer>
-<script>const GEN_TS=1787997882*1000;</script>
+<script>const GEN_TS=1787998352*1000;</script>
 <script>
 const K = {liked:'pisos_liked', done:'pisos_done', hidden:'pisos_hidden', desc:'pisos_desc'};
 const loadSet = k => new Set(JSON.parse(localStorage.getItem(k) || '[]'));
@@ -1461,7 +1523,20 @@ function applyCard(card){
   if (hideGone && card.classList.contains('gone')) show = false;
   card.style.display = show ? '' : 'none';
 }
-function applyAll(){ document.querySelectorAll('.card').forEach(applyCard); }
+function rank(card){
+  const u = card.dataset.url;
+  if (desc.has(u)) return 3;                          // descartados: al final
+  if (card.classList.contains('nuevo')) return 0;     // nuevos: primero
+  if (liked.has(u)) return 1;                          // favoritos: después
+  return 2;                                            // el resto
+}
+function sortGrid(){
+  if (!grid) return;
+  const cards = [...grid.querySelectorAll('.card')];
+  cards.map((c,i)=>[c,i]).sort((a,b)=> (rank(a[0])-rank(b[0])) || (a[1]-b[1]))
+       .forEach(([c]) => grid.appendChild(c));        // reordena manteniendo el orden por precio dentro de cada grupo
+}
+function applyAll(){ document.querySelectorAll('.card').forEach(applyCard); sortGrid(); }
 
 document.querySelectorAll('.card').forEach(card => {
   const u = card.dataset.url;

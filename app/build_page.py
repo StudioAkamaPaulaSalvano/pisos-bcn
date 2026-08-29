@@ -36,8 +36,9 @@ def card(l):
     img_html = (f'<img loading="lazy" src="{esc(img)}" alt="" '
                 f'onerror="this.style.display=\'none\';this.parentNode.classList.add(\'noimg\')">'
                 if img else "")
+    nuevo_cls = " nuevo" if l.get("_new") else ""
     return f"""
-    <article class="card" data-url="{esc(url)}">
+    <article class="card{nuevo_cls}" data-url="{esc(url)}">
       <button class="like" title="Me gusta">♥</button>
       <button class="hide" title="Quitar de la vista">✕</button>
       <a class="photo" href="{esc(url)}" target="_blank" rel="noopener">{img_html}
@@ -45,6 +46,7 @@ def card(l):
         <span class="price">{price}€</span>
       </a>
       <div class="body">
+        <span class="nuevo-badge">✨ Nuevo</span>
         <span class="gone-badge">⚠️ No disponible en la web</span>
         <h3>{esc(title)[:90]}</h3>
         <div class="meta">{rooms_txt} · <span class="ag">{esc(agency)}</span></div>
@@ -98,6 +100,10 @@ CSS = """
   .card.descartado .descartar { background:#e5484d; color:#fff; }
   .gone-badge { display:none; background:#5a2530; color:#ffb4c0; font-size:11px; font-weight:700; padding:3px 8px; border-radius:6px; width:fit-content; }
   .card.gone .gone-badge { display:inline-block; }
+  .nuevo-badge { display:none; background:#123a24; color:#7ff0a8; font-size:11px; font-weight:700; padding:3px 8px; border-radius:6px; width:fit-content; }
+  .card.nuevo .nuevo-badge { display:inline-block; }
+  .card.nuevo { border-color:#1f6b3f; }
+  .card.descartado .nuevo-badge { display:none; }   /* un descartado no se muestra como "nuevo" */
   .card.gone { border-color:#5a2530; }
   .card.gone .photo { opacity:.6; }
   footer { color:var(--mut); text-align:center; padding:24px; font-size:12px; }
@@ -169,7 +175,20 @@ function applyCard(card){
   if (hideGone && card.classList.contains('gone')) show = false;
   card.style.display = show ? '' : 'none';
 }
-function applyAll(){ document.querySelectorAll('.card').forEach(applyCard); }
+function rank(card){
+  const u = card.dataset.url;
+  if (desc.has(u)) return 3;                          // descartados: al final
+  if (card.classList.contains('nuevo')) return 0;     // nuevos: primero
+  if (liked.has(u)) return 1;                          // favoritos: después
+  return 2;                                            // el resto
+}
+function sortGrid(){
+  if (!grid) return;
+  const cards = [...grid.querySelectorAll('.card')];
+  cards.map((c,i)=>[c,i]).sort((a,b)=> (rank(a[0])-rank(b[0])) || (a[1]-b[1]))
+       .forEach(([c]) => grid.appendChild(c));        // reordena manteniendo el orden por precio dentro de cada grupo
+}
+function applyAll(){ document.querySelectorAll('.card').forEach(applyCard); sortGrid(); }
 
 document.querySelectorAll('.card').forEach(card => {
   const u = card.dataset.url;
@@ -216,6 +235,20 @@ def build():
     path = os.path.join(DATA, "listings.json")
     listings = json.load(open(path, encoding="utf-8")) if os.path.exists(path) else []
     ts = int(time.time())
+    # Registro de "primera vez visto" para marcar NUEVOS (ventana de 24 h)
+    NEW_HOURS = 24
+    fs_path = os.path.join(DATA, "first_seen.json")
+    existed = os.path.exists(fs_path)
+    first_seen = json.load(open(fs_path, encoding="utf-8")) if existed else {}
+    urls_now = {l.get("url") for l in listings}
+    # primera vez: los actuales NO son "nuevos" (backdate); solo los futuros lo serán
+    default_ts = ts if existed else ts - NEW_HOURS * 3600 - 1
+    for u in urls_now:
+        first_seen.setdefault(u, default_ts)
+    first_seen = {u: t for u, t in first_seen.items() if u in urls_now}  # podar viejos
+    json.dump(first_seen, open(fs_path, "w"), ensure_ascii=False, indent=2)
+    for l in listings:
+        l["_new"] = (ts - first_seen.get(l.get("url"), ts)) < NEW_HOURS * 3600
     cards = "\n".join(card(l) for l in listings)
     n = len(listings)
     agencies = len({l.get("agency") for l in listings})
