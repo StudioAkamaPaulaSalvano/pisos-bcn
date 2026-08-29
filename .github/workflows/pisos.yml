@@ -9,10 +9,11 @@ on:
     - cron: "0 19 * * *"   # reinicio diario a las 21:00 de Barcelona (19:00 UTC)
   workflow_dispatch:
 
-# solo una corrida a la vez (no cancela la que está trabajando)
+# una corrida nueva REEMPLAZA a la anterior (si una se cuelga, la de :00/:30
+# la mata y arranca fresca -> la página nunca queda congelada más de ~30 min)
 concurrency:
   group: buscar-pisos
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 permissions:
   contents: write

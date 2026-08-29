@@ -129,7 +129,7 @@ if (SEED && !localStorage.getItem('pisos_seeded_v1')) {
   localStorage.setItem('pisos_seeded_v1','1');
 }
 
-let onlyFav=false, hideDone=false, hideDesc=false;
+let onlyFav=false, hideDone=false, hideDesc=false, hideGone=false;
 
 const grid = document.querySelector('.grid');
 
@@ -166,6 +166,7 @@ function applyCard(card){
   if (onlyFav && !liked.has(u)) show = false;
   if (hideDone && done.has(u)) show = false;
   if (hideDesc && desc.has(u)) show = false;
+  if (hideGone && card.classList.contains('gone')) show = false;
   card.style.display = show ? '' : 'none';
 }
 function applyAll(){ document.querySelectorAll('.card').forEach(applyCard); }
@@ -194,9 +195,11 @@ document.querySelectorAll('.card').forEach(card => {
 const ff = document.getElementById('f-fav');
 const fd = document.getElementById('f-done');
 const fx = document.getElementById('f-desc');
+const fg = document.getElementById('f-gone');
 if (ff) ff.addEventListener('click', () => { onlyFav=!onlyFav; ff.classList.toggle('on',onlyFav); applyAll(); });
 if (fd) fd.addEventListener('click', () => { hideDone=!hideDone; fd.classList.toggle('on',hideDone); applyAll(); });
 if (fx) fx.addEventListener('click', () => { hideDesc=!hideDesc; fx.classList.toggle('on',hideDesc); applyAll(); });
+if (fg) fg.addEventListener('click', () => { hideGone=!hideGone; fg.classList.toggle('on',hideGone); applyAll(); });
 
 function relTime(){
   const m = Math.max(0, Math.round((Date.now() - GEN_TS)/60000));
@@ -241,6 +244,7 @@ def build():
     <button id="f-fav">❤️ Solo favoritos</button>
     <button id="f-done">🙈 Ocultar los que ya hablé</button>
     <button id="f-desc">🗑️ Ocultar descartados</button>
+    <button id="f-gone">🌐 Ocultar no disponibles</button>
   </div>
 </header>
 {body}
