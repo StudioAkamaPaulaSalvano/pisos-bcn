@@ -1,0 +1,32 @@
+/Users/paula/pisos-bcn/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Leyendo 128 inmobiliarias (lector rápido)...
+Navegador real: solo portales (modo rápido)...
+
+Webs OK: 130 | con error: 0
+Pisos que cumplen filtros: 60
+  425€  ?h  [BarnaPiso]  Propiedad en Les Corts
+  500€  ?h  [Finques El Pallars]  Piso en alquiler. Les Corts, Barcelona
+  500€  ?h  [Finques El Pallars]  Deducción autonómica por alquiler en Cataluña
+  600€  3h  [Finques Martell]  Maragall, pl. 2-3 entl 3 BARCELONA-Alquiler-001058
+  720€  ?h  [Finques Marbá]  ¿Cómo es la nueva Ley de Vivienda? Claves de la pr
+  750€  1h  [pisos.com]  Piso en Carrer de Pelai
+  778€  ?h  [Guinot Prunera]  Sant Andreu de Palomar
+  787€  ?h  [Guinot Prunera]  L'Antiga Esquerra de L'Eixample
+  790€  1h  [pisos.com]  Piso en Carrer de Manso
+  800€  1h  [pisos.com]  Piso en Carrer del Pi
+  800€  1h  [pisos.com]  Piso en Carrer de Mallorca
+  820€  2h  [Finques Martell]  ARC DE SANT SEVER (L’) BARCELONA-Alquiler-001999/1
+  820€  ?h  [pisos.com]  Estudio en Carrer de Casanova
+  842€  1h  [pisos.com]  Piso en Passeig de Torras i Bages
+  850€  ?h  [Finques Feliu]  ENRIC GRANADOS
+  850€  1h  [pisos.com]  Estudio en Carrer de Perot lo Lladre
+  850€  1h  [pisos.com]  Piso en Carrer de Puerto Príncipe
+  850€  3h  [pisos.com]  Piso en El Poble-Sec
+  850€  ?h  [pisos.com]  Estudio en La Maternitat-Sant Ramon
+  850€  ?h  [pisos.com]  Estudio en Sants-Badal
+  850€  ?h  [pisos.com]  Piso en Barcelona Capital
+  850€  ?h  [pisos.com]  Piso en La Salut
+  855€  2h  [Fincas Ubiergo]  Pis, 53.00 m 2
+  863€  3h  [Calvet]  Avenida Gaudí - Provença
+  877€  2h  [pisos.com]  Piso en Carrer de Llagostera
