@@ -484,17 +484,6 @@
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
   {
-    "url": "https://www.pisos.com/alquilar/atico-el_raval08001-64249106130_530867/",
-    "price": 1100,
-    "rooms": 1,
-    "kind": "piso",
-    "title": "Ático en Carrer de l'Hospital",
-    "img": "https://fotos.imghs.net/mm-wp/530867/64249106130.530867/530867_64249106130_27762a0e-d0f3-456e-bc57-507d9e9c01a5.jpg",
-    "text": "1 /6 PREMIUM 1.100 € /mes Ático en Carrer de l'Hospital El Raval (Distrito Ciutat Vella. Barcelona Capital) 1 hab. 1 baño 50 m² Ubicado en una finca con carácter en pleno corazón d",
-    "agency": "pisos.com",
-    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
-  },
-  {
     "url": "https://www.pisos.com/alquilar/loft-eixample_sant_antoni08011-60839468259_101800/",
     "price": 1100,
     "rooms": null,
@@ -625,6 +614,17 @@
     "text": "alquiler 1.200 €/mes Piso en alquiler en calle Santaló Barcelona · Sant Gervasi - Galvany 65 m 2 2 habs. 1 baño",
     "agency": "Toysan Finques",
     "rent_url": "https://toysanfinques.com/es/inmuebles/?transaction_type=lloguer&property__type=property"
+  },
+  {
+    "url": "https://www.pisos.com/alquilar/piso-la_vila_de_gracia08012-64171297594_530867/",
+    "price": 1200,
+    "rooms": 1,
+    "kind": "piso",
+    "title": "Piso en Carrer de Verdi",
+    "img": "https://fotos.imghs.net/mm-wp/530867/64171297594.530867/530867_64171297594_018d3a50-9ba3-4194-bf5a-c3e61b7d5196.jpg",
+    "text": "1 /6 PREMIUM 1.200 € /mes Piso en Carrer de Verdi La Vila de Gràcia (Distrito Gràcia. Barcelona Capital) 1 hab. 1 baño 55 m² 2ª planta Ubicado en carrer de verdi, en pleno corazón ",
+    "agency": "pisos.com",
+    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
   {
     "url": "https://www.pisos.com/alquilar/piso-vallvidrera_el_tibidabo_les_planes08017-65856948099_100600/",
