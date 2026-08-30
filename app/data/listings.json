@@ -226,7 +226,7 @@
     "kind": "piso",
     "title": "Pis, 53.00 m 2",
     "img": "https://imagenes.ghestia.cat/images/webs/LIC1403_140518/fotos0/1398/foto_1.jpg",
-    "text": "lloguer Tipus 855€ Pis, 53.00 m 2 2 Dorm. 53.00 m 2 Veure mes Fa 31 minuts",
+    "text": "lloguer Tipus 855€ Pis, 53.00 m 2 2 Dorm. 53.00 m 2 Veure mes Fa 51 minuts",
     "agency": "Fincas Ubiergo",
     "rent_url": "https://www.fincasubiergo.com/alquiler"
   },
@@ -240,6 +240,17 @@
     "text": "‹ › Ref. 2556 44 m 2 3 1 Avenida Gaudí - Provença Piso en alquiler en Barcelona, con 44 m 2 , 3 habitaciones y 1 baños y Ascensor. 863 €/mes",
     "agency": "Calvet",
     "rent_url": "https://inmobiliaria.calvetpremium.com/es/alquiler-pisos-pisos/en-barcelona-barcelona"
+  },
+  {
+    "url": "https://www.pisos.com/alquilar/estudio-la_nova_esquerra_de_eixample08015-65885714928_518209/",
+    "price": 875,
+    "rooms": 1,
+    "kind": "piso",
+    "title": "Estudio en Carrer d'Entença",
+    "img": "https://fotos.imghs.net/mm-wp/518209/65885714928.518209/518209_65885714928_1_20260717161417516.jpg",
+    "text": "1 /14 PREMIUM 875 € /mes Estudio en Carrer d'Entença La Nova Esquerra de l'Eixample (Distrito Eixample. Barcelona Capital) 1 hab. 1 baño 35 m² Ref: 002605f Estudio en alquiler maxi",
+    "agency": "pisos.com",
+    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
   {
     "url": "https://www.pisos.com/alquilar/piso-el_camp_de_arpa_del_clot08026-66745972610_528397/",
@@ -473,17 +484,6 @@
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
   {
-    "url": "https://toysanfinques.com/es/inmuebles/piso-en-alquiler-en-calle-de-deu-i-mata/",
-    "price": 1100,
-    "rooms": 1,
-    "kind": "piso",
-    "title": "+ info",
-    "img": "https://toysanfinques.com/wp-content/uploads/2023/12/4.jpg",
-    "text": "alquiler 1.100 €/mes Piso en alquiler en calle Déu i Mata Barcelona · Les Corts 60 m 2 1 hab. 1 baño",
-    "agency": "Toysan Finques",
-    "rent_url": "https://toysanfinques.com/es/inmuebles/?transaction_type=lloguer&property__type=property"
-  },
-  {
     "url": "https://www.pisos.com/alquilar/piso-el_raval08001-66668005832_106100/",
     "price": 1100,
     "rooms": 1,
@@ -614,17 +614,6 @@
     "text": "1 /10 Nuevo PREMIUM 1.195 € /mes Piso en El Barri Gòtic El Barri Gòtic (Distrito Ciutat Vella. Barcelona Capital) 40 m² Are you searching for a peaceful retreat in the center of ba",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
-  },
-  {
-    "url": "https://toysanfinques.com/es/inmuebles/piso-actualizado-en-alquilen-en-la-calle-santalo/",
-    "price": 1200,
-    "rooms": 2,
-    "kind": "piso",
-    "title": "+ info",
-    "img": "https://toysanfinques.com/wp-content/uploads/2023/11/P3210079-scaled.jpg",
-    "text": "alquiler 1.200 €/mes Piso en alquiler en calle Santaló Barcelona · Sant Gervasi - Galvany 65 m 2 2 habs. 1 baño",
-    "agency": "Toysan Finques",
-    "rent_url": "https://toysanfinques.com/es/inmuebles/?transaction_type=lloguer&property__type=property"
   },
   {
     "url": "https://www.pisos.com/alquilar/piso-la_vila_de_gracia08012-64171297594_530867/",
