@@ -22,6 +22,17 @@
     "rent_url": "https://finqueselpallars.com/alquiler"
   },
   {
+    "url": "https://www.pisos.com/alquilar/piso-gracia_la_salut-66687874144_100200/",
+    "price": 580,
+    "rooms": null,
+    "kind": "piso",
+    "title": "Piso en La Salut",
+    "img": "https://fotos.imghs.net/mm-wp/1002/3230323630383331/16e791cc-3067-4c2f-8f27-9829c7cb9b89.jpg",
+    "text": "1 /14 Nuevo PREMIUM 580 € /mes Piso en La Salut La Salut (Distrito Gràcia. Barcelona Capital) 20 m² 4ª planta C/. Verdi: mini apartamento de un ambiente, con cocina abierta y baño,",
+    "agency": "pisos.com",
+    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
+  },
+  {
     "url": "https://finquesmartell.com/immoble/maragall-pl-2-3-entl-3-barcelona-alquiler-001058-1/",
     "price": 600,
     "rooms": 3,
@@ -31,6 +42,17 @@
     "text": "Alquiler Maragall, pl. 2-3 entl 3 BARCELONA-Alquiler-001058/1 58 m 2 3 hab. 1 baños 600€",
     "agency": "Finques Martell",
     "rent_url": "https://finquesmartell.com/inmuebles"
+  },
+  {
+    "url": "https://www.pisos.com/alquilar/piso-el_raval08001-63384109363_530867/",
+    "price": 750,
+    "rooms": 1,
+    "kind": "piso",
+    "title": "Piso en Carrer de Pelai",
+    "img": "https://fotos.imghs.net/mm-wp/530867/63384109363.530867/530867_63384109363_ae664a64-91b5-48d2-a1dd-666b4394df09.jpg",
+    "text": "1 /6 PREMIUM 750 € /mes Piso en Carrer de Pelai El Raval (Distrito Ciutat Vella. Barcelona Capital) 1 hab. 1 baño 42 m² 7ª planta Ubicado en finca con ascensor y situado en la 7ª p",
+    "agency": "pisos.com",
+    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
   {
     "url": "https://www.guinotprunera.com/es/alquiler/ref-31529",
@@ -462,6 +484,17 @@
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
   {
+    "url": "https://www.pisos.com/alquilar/piso-el_camp_de_arpa_del_clot08026-22599980810_501025/",
+    "price": 1092,
+    "rooms": 2,
+    "kind": "piso",
+    "title": "Piso en Passatge del Vintró",
+    "img": "https://fotos.imghs.net/mm-wp/501025/22599980810.501025/501025_22599980810_15_20220315204834084.jpg",
+    "text": "1 /26 TOP 1.092 € /mes Piso en Passatge del Vintró El Camp de l'Arpa del Clot (Distrito Sant Martí. Barcelona Capital) 2 habs. 1 baño 62 m² 3ª planta Informacion importante: para v",
+    "agency": "pisos.com",
+    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
+  },
+  {
     "url": "https://toysanfinques.com/es/inmuebles/piso-en-alquiler-en-calle-de-deu-i-mata/",
     "price": 1100,
     "rooms": 1,
@@ -636,17 +669,6 @@
     "text": "alquiler 1.200 €/mes Piso en alquiler en calle Santaló Barcelona · Sant Gervasi - Galvany 65 m 2 2 habs. 1 baño",
     "agency": "Toysan Finques",
     "rent_url": "https://toysanfinques.com/es/inmuebles/?transaction_type=lloguer&property__type=property"
-  },
-  {
-    "url": "https://www.pisos.com/alquilar/piso-la_vila_de_gracia08012-64171297594_530867/",
-    "price": 1200,
-    "rooms": 1,
-    "kind": "piso",
-    "title": "Piso en Carrer de Verdi",
-    "img": "https://fotos.imghs.net/mm-wp/530867/64171297594.530867/530867_64171297594_018d3a50-9ba3-4194-bf5a-c3e61b7d5196.jpg",
-    "text": "1 /6 PREMIUM 1.200 € /mes Piso en Carrer de Verdi La Vila de Gràcia (Distrito Gràcia. Barcelona Capital) 1 hab. 1 baño 55 m² 2ª planta Ubicado en carrer de verdi, en pleno corazón ",
-    "agency": "pisos.com",
-    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
   {
     "url": "https://www.pisos.com/alquilar/piso-vallvidrera_el_tibidabo_les_planes08017-65856948099_100600/",
