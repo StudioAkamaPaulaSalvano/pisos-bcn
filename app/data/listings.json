@@ -44,28 +44,6 @@
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
   {
-    "url": "https://www.guinotprunera.com/es/alquiler/ref-31529",
-    "price": 778,
-    "rooms": null,
-    "kind": "piso",
-    "title": "Sant Andreu de Palomar",
-    "img": "https://media.mobiliagestion.es/Portals/inmoguinotprunera/Images/31529/27164028.jpg",
-    "text": "20260827 31529 Estudio Sant Andreu de Palomar 778 €/mes 39 0 1 Estudio luminoso y con carácter, situado en el encantador barrio de Sant Andreu, una zona tranquila. El espacio se pr",
-    "agency": "Guinot Prunera",
-    "rent_url": "https://www.guinotprunera.com/es/alquiler"
-  },
-  {
-    "url": "https://www.guinotprunera.com/es/alquiler/ref-31899",
-    "price": 787,
-    "rooms": null,
-    "kind": "piso",
-    "title": "L'Antiga Esquerra de L'Eixample",
-    "img": "https://media.mobiliagestion.es/Portals/inmoguinotprunera/Images/31899/28100223.jpg",
-    "text": "20260826 31899 Estudio L'Antiga Esquerra de L'Eixample 787 €/mes 50 0 0 Sobreático que se distribuye en un espacioso salón comedor exterior muy luminoso con salida a una gran terra",
-    "agency": "Guinot Prunera",
-    "rent_url": "https://www.guinotprunera.com/es/alquiler"
-  },
-  {
     "url": "https://www.pisos.com/alquilar/piso-eixample_sant_antoni08015-52590344526_500843/",
     "price": 790,
     "rooms": 1,
@@ -237,7 +215,7 @@
     "kind": "piso",
     "title": "Pis, 53.00 m 2",
     "img": "https://imagenes.ghestia.cat/images/webs/LIC1403_140518/fotos0/1398/foto_1.jpg",
-    "text": "lloguer Tipus 855€ Pis, 53.00 m 2 2 Dorm. 53.00 m 2 Veure mes Fa 56 minuts",
+    "text": "lloguer Tipus 855€ Pis, 53.00 m 2 2 Dorm. 53.00 m 2 Veure mes Fa 1 hora",
     "agency": "Fincas Ubiergo",
     "rent_url": "https://www.fincasubiergo.com/alquiler"
   },
@@ -440,17 +418,6 @@
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
   {
-    "url": "https://www.guinotprunera.com/es/alquiler/ref-31590",
-    "price": 1001,
-    "rooms": null,
-    "kind": "piso",
-    "title": "La Nova Esquerra de L'Eixample",
-    "img": "https://media.mobiliagestion.es/Portals/inmoguinotprunera/Images/31590/27239705.jpg",
-    "text": "20260821 31590 Piso La Nova Esquerra de L'Eixample 1.001 €/mes 53 1 1 Apartamento exterior a patio de manzana. Salón comedor con cocina integrada, suelos de parquet. Alto y bien or",
-    "agency": "Guinot Prunera",
-    "rent_url": "https://www.guinotprunera.com/es/alquiler"
-  },
-  {
     "url": "https://www.pisos.com/alquilar/piso-sant_andreu_barrio08030-65914432493_501025/",
     "price": 1029,
     "rooms": 1,
@@ -482,6 +449,17 @@
     "text": "1 /10 PREMIUM 1.085 € /mes Casa en El Besòs-El Maresme El Besòs-El Maresme (Distrito Sant Martí. Barcelona Capital) 🎓 student residence in barcelona with pool and gym!! 🏋️‍♂️🏊‍♀️ U",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
+  },
+  {
+    "url": "https://toysanfinques.com/es/inmuebles/piso-en-alquiler-en-calle-de-deu-i-mata/",
+    "price": 1100,
+    "rooms": 1,
+    "kind": "piso",
+    "title": "+ info",
+    "img": "https://toysanfinques.com/wp-content/uploads/2023/12/4.jpg",
+    "text": "alquiler 1.100 €/mes Piso en alquiler en calle Déu i Mata Barcelona · Les Corts 60 m 2 1 hab. 1 baño",
+    "agency": "Toysan Finques",
+    "rent_url": "https://toysanfinques.com/es/inmuebles/?transaction_type=lloguer&property__type=property"
   },
   {
     "url": "https://www.pisos.com/alquilar/piso-el_raval08001-66668005832_106100/",
@@ -526,17 +504,6 @@
     "text": "1 /24 1.100 € /mes Piso en Carrer del Tigre, 12 El Raval (Distrito Ciutat Vella. Barcelona Capital) 1 hab. 1 baño 32 m² 2ª planta Ideal para estudiantes: Apartamento de 1 dormitori",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
-  },
-  {
-    "url": "https://www.guinotprunera.com/es/alquiler/ref-31903",
-    "price": 1102,
-    "rooms": null,
-    "kind": "piso",
-    "title": "Vallcarca i Els Penitents",
-    "img": "https://media.mobiliagestion.es/Portals/inmoguinotprunera/Images/31903/28109130.jpg",
-    "text": "20260827 31903 Piso Vallcarca i Els Penitents 1.102 €/mes 100 3 2 Piso ubicado en Gracia, segundo sin ascensor. Salón comedor exterior a patio interior. Cocina cerrada sin electrod",
-    "agency": "Guinot Prunera",
-    "rent_url": "https://www.guinotprunera.com/es/alquiler"
   },
   {
     "url": "https://www.pisos.com/alquilar/piso-sants_montjuic_hostafrancs08014-66755362941_109200/",
@@ -614,6 +581,17 @@
     "text": "1 /10 Nuevo PREMIUM 1.195 € /mes Piso en El Barri Gòtic El Barri Gòtic (Distrito Ciutat Vella. Barcelona Capital) 40 m² Are you searching for a peaceful retreat in the center of ba",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
+  },
+  {
+    "url": "https://toysanfinques.com/es/inmuebles/piso-actualizado-en-alquilen-en-la-calle-santalo/",
+    "price": 1200,
+    "rooms": 2,
+    "kind": "piso",
+    "title": "+ info",
+    "img": "https://toysanfinques.com/wp-content/uploads/2023/11/P3210079-scaled.jpg",
+    "text": "alquiler 1.200 €/mes Piso en alquiler en calle Santaló Barcelona · Sant Gervasi - Galvany 65 m 2 2 habs. 1 baño",
+    "agency": "Toysan Finques",
+    "rent_url": "https://toysanfinques.com/es/inmuebles/?transaction_type=lloguer&property__type=property"
   },
   {
     "url": "https://www.pisos.com/alquilar/piso-la_vila_de_gracia08012-64171297594_530867/",
