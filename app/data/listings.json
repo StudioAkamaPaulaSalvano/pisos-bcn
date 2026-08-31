@@ -539,17 +539,6 @@
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
   {
-    "url": "https://toysanfinques.com/es/inmuebles/piso-en-alquiler-en-calle-de-deu-i-mata/",
-    "price": 1100,
-    "rooms": 1,
-    "kind": "piso",
-    "title": "+ info",
-    "img": "https://toysanfinques.com/wp-content/uploads/2023/12/4.jpg",
-    "text": "alquiler 1.100 €/mes Piso en alquiler en calle Déu i Mata Barcelona · Les Corts 60 m 2 1 hab. 1 baño",
-    "agency": "Toysan Finques",
-    "rent_url": "https://toysanfinques.com/es/inmuebles/?transaction_type=lloguer&property__type=property"
-  },
-  {
     "url": "https://www.pisos.com/alquilar/atico-el_raval08001-64249106130_530867/",
     "price": 1100,
     "rooms": 1,
@@ -735,17 +724,6 @@
     "text": "1 /10 Nuevo PREMIUM 1.195 € /mes Piso en El Barri Gòtic El Barri Gòtic (Distrito Ciutat Vella. Barcelona Capital) 40 m² Are you searching for a peaceful retreat in the center of ba",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
-  },
-  {
-    "url": "https://toysanfinques.com/es/inmuebles/piso-actualizado-en-alquilen-en-la-calle-santalo/",
-    "price": 1200,
-    "rooms": 2,
-    "kind": "piso",
-    "title": "+ info",
-    "img": "https://toysanfinques.com/wp-content/uploads/2023/11/P3210079-scaled.jpg",
-    "text": "alquiler 1.200 €/mes Piso en alquiler en calle Santaló Barcelona · Sant Gervasi - Galvany 65 m 2 2 habs. 1 baño",
-    "agency": "Toysan Finques",
-    "rent_url": "https://toysanfinques.com/es/inmuebles/?transaction_type=lloguer&property__type=property"
   },
   {
     "url": "https://www.pisos.com/alquilar/piso-vallvidrera_el_tibidabo_les_planes08017-65856948099_100600/",
