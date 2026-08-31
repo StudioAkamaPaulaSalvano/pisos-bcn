@@ -242,6 +242,17 @@
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
   {
+    "url": "https://www.pisos.com/alquilar/piso-barcelona_capital-61709072933_109200/",
+    "price": 850,
+    "rooms": null,
+    "kind": "piso",
+    "title": "Piso en Barcelona Capital",
+    "img": "https://fotos.imghs.net/mm-wp/1092/710/1092_EB2-69a230bf4282bed67404d7ea_1_202603240632291235743.jpg",
+    "text": "1 /10 PREMIUM 850 € /mes Piso en Barcelona Capital Barcelona Capital 15 m² Se alquila estudio para una persona alquiler ideal estudiantes trabajadores erasmus medicos Cerca del met",
+    "agency": "pisos.com",
+    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
+  },
+  {
     "url": "https://www.pisos.com/alquilar/piso-gracia_la_salut08024-66682248054_109200/",
     "price": 850,
     "rooms": null,
@@ -259,7 +270,7 @@
     "kind": "piso",
     "title": "Pis, 53.00 m 2",
     "img": "https://imagenes.ghestia.cat/images/webs/LIC1403_140518/fotos0/1398/foto_1.jpg",
-    "text": "lloguer Tipus 855€ Pis, 53.00 m 2 2 Dorm. 53.00 m 2 Veure mes Fa 6 hores",
+    "text": "lloguer Tipus 855€ Pis, 53.00 m 2 2 Dorm. 53.00 m 2 Veure mes Fa 7 hores",
     "agency": "Fincas Ubiergo",
     "rent_url": "https://www.fincasubiergo.com/alquiler"
   },
@@ -293,6 +304,17 @@
     "title": "Piso en Carrer de Llagostera",
     "img": "https://fotos.imghs.net/mm-wp/528397/66745972610.528397/528397_66745972610_e20cbab5-1227-43b0-8ee3-8344298dd38e.jpg",
     "text": "1 /11 Nuevo PREMIUM 877 € /mes Piso en Carrer de Llagostera El Camp de l'Arpa del Clot (Distrito Sant Martí. Barcelona Capital) 2 habs. 1 baño 57 m² Bajo Se alquile vivienda en pla",
+    "agency": "pisos.com",
+    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
+  },
+  {
+    "url": "https://www.pisos.com/alquilar/estudio-el_poble_sec08004-66725483372_104700/",
+    "price": 890,
+    "rooms": null,
+    "kind": "piso",
+    "title": "Estudio en El Poble-sec",
+    "img": "https://fotos.imghs.net/mm-wp/1047/3230323630383234/461bb1f4-436f-4576-8dbe-b19444f3b035.jpg",
+    "text": "1 /15 Nuevo PREMIUM 890 € /mes Estudio en El Poble-sec El Poble-sec (Distrito Sants-Montjuïc. Barcelona Capital) 1 baño 22 m² Reservas e inquietudes Tipo de alojamiento - alojamien",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
@@ -413,7 +435,7 @@
     "kind": "piso",
     "title": "Piso en Passeig de Torras i Bages",
     "img": "https://fotos.imghs.net/mm-wp/501025/66726994643.501025/501025_66726994643_cfd5ddd8-91b0-43a1-ad67-4ab05d1a343a.jpg",
-    "text": "1 /25 Nuevo PREMIUM 998 € /mes Piso en Passeig de Torras i Bages Sant Andreu (Distrito Sant Andreu. Barcelona Capital) 3 habs. 1 baño 59 m² 6ª planta Informacion importante: para v",
+    "text": "1 /25 TOP 998 € /mes Piso en Passeig de Torras i Bages Sant Andreu (Distrito Sant Andreu. Barcelona Capital) 3 habs. 1 baño 59 m² 6ª planta Informacion importante: para visitar est",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
@@ -484,13 +506,24 @@
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
   {
+    "url": "https://www.pisos.com/alquilar/casa-el_besos_el_maresme08019-55847835456_109200/",
+    "price": 1085,
+    "rooms": null,
+    "kind": "piso",
+    "title": "Casa en El Besòs-El Maresme",
+    "img": "https://fotos.imghs.net/mm-wp/1092/110/1092_EB2-67ad4419638c4305231c0110_1_2025071612075901585.jpg",
+    "text": "1 /10 PREMIUM 1.085 € /mes Casa en El Besòs-El Maresme El Besòs-El Maresme (Distrito Sant Martí. Barcelona Capital) 🎓 student residence in barcelona with pool and gym!! 🏋️‍♂️🏊‍♀️ U",
+    "agency": "pisos.com",
+    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
+  },
+  {
     "url": "https://www.pisos.com/alquilar/piso-el_camp_de_arpa_del_clot08026-22599980810_501025/",
     "price": 1092,
     "rooms": 2,
     "kind": "piso",
     "title": "Piso en Passatge del Vintró",
     "img": "https://fotos.imghs.net/mm-wp/501025/22599980810.501025/501025_22599980810_15_20220315204834084.jpg",
-    "text": "1 /26 Nuevo PREMIUM 1.092 € /mes Piso en Passatge del Vintró El Camp de l'Arpa del Clot (Distrito Sant Martí. Barcelona Capital) 2 habs. 1 baño 62 m² 3ª planta Informacion importan",
+    "text": "1 /26 TOP 1.092 € /mes Piso en Passatge del Vintró El Camp de l'Arpa del Clot (Distrito Sant Martí. Barcelona Capital) 2 habs. 1 baño 62 m² 3ª planta Informacion importante: para v",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
@@ -539,6 +572,17 @@
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
   {
+    "url": "https://www.pisos.com/alquilar/piso-sants_montjuic_hostafrancs08014-65868672765_109200/",
+    "price": 1100,
+    "rooms": null,
+    "kind": "piso",
+    "title": "Piso en Hostafrancs",
+    "img": "https://fotos.imghs.net/mm-wp/1092/3230323630363131/db7cbb24-c0c4-41ee-8662-0fe06ec4764d.jpg",
+    "text": "1 /10 PREMIUM 1.100 € /mes Piso en Hostafrancs Hostafrancs (Distrito Sants-Montjuïc. Barcelona Capital) 25 m² 🏡 private studio in barcelona – ideal for students Enjoy a comfortable",
+    "agency": "pisos.com",
+    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
+  },
+  {
     "url": "https://www.pisos.com/alquilar/piso-el_raval08001-65902574462_109800/",
     "price": 1100,
     "rooms": 1,
@@ -561,6 +605,39 @@
     "rent_url": "https://www.guinotprunera.com/es/alquiler"
   },
   {
+    "url": "https://www.pisos.com/alquilar/piso-sants_montjuic_hostafrancs08014-66755362941_109200/",
+    "price": 1150,
+    "rooms": null,
+    "kind": "piso",
+    "title": "Piso en Hostafrancs",
+    "img": "https://fotos.imghs.net/mm-wp/1092/3230323630383133/ce6c66e6-c626-4973-832c-389e7ae11fcd.jpg",
+    "text": "1 /10 PREMIUM 1.150 € /mes 100 € (-8%) Piso en Hostafrancs Hostafrancs (Distrito Sants-Montjuïc. Barcelona Capital) 50 m² 🏡 private studio in barcelona – ideal for students Enjoy a",
+    "agency": "pisos.com",
+    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
+  },
+  {
+    "url": "https://www.pisos.com/alquilar/piso-el_raval08001-66711160572_109200/",
+    "price": 1150,
+    "rooms": null,
+    "kind": "piso",
+    "title": "Piso en El Raval",
+    "img": "https://fotos.imghs.net/mm-wp/1092/3230323630373035/055b28a4-4b10-4127-9b79-69c85293a6bd.jpg",
+    "text": "1 /10 Nuevo PREMIUM 1.150 € /mes Piso en El Raval El Raval (Distrito Ciutat Vella. Barcelona Capital) 35 m² 🌟 charming 1-bedroom apartment in barcelona city center! 🌟 Welcome to th",
+    "agency": "pisos.com",
+    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
+  },
+  {
+    "url": "https://www.pisos.com/alquilar/piso-sant_marti_de_provencals08020-66689511337_109200/",
+    "price": 1150,
+    "rooms": null,
+    "kind": "piso",
+    "title": "Piso en Sant Martí de Provençals",
+    "img": "https://fotos.imghs.net/mm-wp/1092/3230323630383133/f581041f-09de-4edd-a9d1-8e74d0626f22.jpg",
+    "text": "1 /9 PREMIUM 1.150 € /mes Piso en Sant Martí de Provençals Sant Martí de Provençals (Distrito Sant Martí. Barcelona Capital) 45 m² A private space for business or studies. The apar",
+    "agency": "pisos.com",
+    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
+  },
+  {
     "url": "https://serviguest.com/inmuebles/acogedor-piso-en-forc-pienc/",
     "price": 1152,
     "rooms": 2,
@@ -570,6 +647,50 @@
     "text": "Disponible a partir de 25-08-2028 Sardenya / Forc Pienc 1.152 € / mes Eixample · Barcelona 2 hab · 80 m2",
     "agency": "Serviguest",
     "rent_url": "https://serviguest.com/alquiler-temporal-barcelona-2/"
+  },
+  {
+    "url": "https://www.pisos.com/alquilar/piso-la_maternitat_sant_ramon-66757904644_104700/",
+    "price": 1166,
+    "rooms": null,
+    "kind": "piso",
+    "title": "Piso en La Maternitat-Sant Ramon",
+    "img": "https://fotos.imghs.net/mm-wp/1047/3230323630383331/060f6e89-3d3e-4782-b71e-e474630f136d.jpg",
+    "text": "1 /14 Nuevo PREMIUM 1.166 € /mes Piso en La Maternitat-Sant Ramon La Maternitat-Sant Ramon (Distrito Les Corts. Barcelona Capital) Reservas e inquietudes Tipo de alojamiento - aloj",
+    "agency": "pisos.com",
+    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
+  },
+  {
+    "url": "https://www.pisos.com/alquilar/piso-sants_montjuic_hostafrancs08014-66680490932_109200/",
+    "price": 1190,
+    "rooms": 1,
+    "kind": "piso",
+    "title": "Piso en Hostafrancs",
+    "img": "https://fotos.imghs.net/mm-wp/1092/3230323630363131/1a9f70b9-105d-4f35-9f67-516be55c8ac8.jpg",
+    "text": "1 /10 PREMIUM 1.190 € /mes Piso en Hostafrancs Hostafrancs (Distrito Sants-Montjuïc. Barcelona Capital) 25 m² 🏡 one-of-a-kind apartment in barcelona! Live in this outstanding 1 bed",
+    "agency": "pisos.com",
+    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
+  },
+  {
+    "url": "https://www.pisos.com/alquilar/casa-el_besos_el_maresme08019-55872066427_109200/",
+    "price": 1194,
+    "rooms": null,
+    "kind": "piso",
+    "title": "Casa en El Besòs-El Maresme",
+    "img": "https://fotos.imghs.net/mm-wp/1092/714/1092_EB2-6721f6a6638c4377017057e4_1_2025071612070311926.jpg",
+    "text": "1 /10 PREMIUM 1.194 € /mes Casa en El Besòs-El Maresme El Besòs-El Maresme (Distrito Sant Martí. Barcelona Capital) 🎓 student residence in barcelona with pool and gym!! 🏋️‍♂️🏊‍♀️ U",
+    "agency": "pisos.com",
+    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
+  },
+  {
+    "url": "https://www.pisos.com/alquilar/piso-el_barri_gotic08002-61730480496_109200/",
+    "price": 1195,
+    "rooms": null,
+    "kind": "piso",
+    "title": "Piso en El Barri Gòtic",
+    "img": "https://fotos.imghs.net/mm-wp/1092/400/1092_EB2-699f8d44f954d0cc300584a0_1_202602270631506118120.jpg",
+    "text": "1 /10 Nuevo PREMIUM 1.195 € /mes Piso en El Barri Gòtic El Barri Gòtic (Distrito Ciutat Vella. Barcelona Capital) 40 m² Are you searching for a peaceful retreat in the center of ba",
+    "agency": "pisos.com",
+    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
   {
     "url": "https://toysanfinques.com/es/inmuebles/piso-actualizado-en-alquilen-en-la-calle-santalo/",
@@ -601,6 +722,28 @@
     "title": "Piso en Sarrià-Sant Gervasi",
     "img": "https://fotos.imghs.net/mm-wp/1006/3230323630373237/9ee9e765-bd74-4357-8839-28812a710b6a.jpg",
     "text": "1 /22 PREMIUM 1.200 € /mes Piso en Sarrià-Sant Gervasi Vallvidrera-El Tibidabo-Les Planes (Distrito Sarrià-Sant Gervasi. Barcelona Capital) 1 hab. 1 baño 50 m² Alquiler con contrat",
+    "agency": "pisos.com",
+    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
+  },
+  {
+    "url": "https://www.pisos.com/alquilar/piso-sants_montjuic_hostafrancs08014-66741502392_109200/",
+    "price": 1200,
+    "rooms": null,
+    "kind": "piso",
+    "title": "Piso en Hostafrancs",
+    "img": "https://fotos.imghs.net/mm-wp/1092/3230323630363035/0083d38f-c001-46b4-8a39-83dadffcf913.jpg",
+    "text": "1 /10 PREMIUM 1.200 € /mes Piso en Hostafrancs Hostafrancs (Distrito Sants-Montjuïc. Barcelona Capital) 65 m² 🏡 private studio in barcelona – ideal for students Enjoy a comfortable",
+    "agency": "pisos.com",
+    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
+  },
+  {
+    "url": "https://www.pisos.com/alquilar/piso-el_poble_sec08004-66700188403_109200/",
+    "price": 1200,
+    "rooms": null,
+    "kind": "piso",
+    "title": "Piso en El Poble-sec",
+    "img": "https://fotos.imghs.net/mm-wp/1092/3230323630353230/f4805aa7-f9c3-458d-b7af-2ec1d0592d4f.jpg",
+    "text": "1 /10 Nuevo PREMIUM 1.200 € /mes Piso en El Poble-sec El Poble-sec (Distrito Sants-Montjuïc. Barcelona Capital) 34 m² Seasonal rental for leisure or holiday purposes only – min. 32",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
