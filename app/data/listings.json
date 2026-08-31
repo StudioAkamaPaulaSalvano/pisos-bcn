@@ -33,15 +33,26 @@
     "rent_url": "https://finquesmartell.com/inmuebles"
   },
   {
-    "url": "https://www.pisos.com/alquilar/piso-el_raval08001-63384109363_530867/",
-    "price": 750,
-    "rooms": 1,
+    "url": "https://www.guinotprunera.com/es/alquiler/ref-31529",
+    "price": 778,
+    "rooms": null,
     "kind": "piso",
-    "title": "Piso en Carrer de Pelai",
-    "img": "https://fotos.imghs.net/mm-wp/530867/63384109363.530867/530867_63384109363_ae664a64-91b5-48d2-a1dd-666b4394df09.jpg",
-    "text": "1 /6 PREMIUM 750 € /mes Piso en Carrer de Pelai El Raval (Distrito Ciutat Vella. Barcelona Capital) 1 hab. 1 baño 42 m² 7ª planta Ubicado en finca con ascensor y situado en la 7ª p",
-    "agency": "pisos.com",
-    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
+    "title": "Sant Andreu de Palomar",
+    "img": "https://media.mobiliagestion.es/Portals/inmoguinotprunera/Images/31529/27164028.jpg",
+    "text": "20260827 31529 Estudio Sant Andreu de Palomar 778 €/mes 39 0 1 Estudio luminoso y con carácter, situado en el encantador barrio de Sant Andreu, una zona tranquila. El espacio se pr",
+    "agency": "Guinot Prunera",
+    "rent_url": "https://www.guinotprunera.com/es/alquiler"
+  },
+  {
+    "url": "https://www.guinotprunera.com/es/alquiler/ref-31899",
+    "price": 787,
+    "rooms": null,
+    "kind": "piso",
+    "title": "L'Antiga Esquerra de L'Eixample",
+    "img": "https://media.mobiliagestion.es/Portals/inmoguinotprunera/Images/31899/28100223.jpg",
+    "text": "20260826 31899 Estudio L'Antiga Esquerra de L'Eixample 787 €/mes 50 0 0 Sobreático que se distribuye en un espacioso salón comedor exterior muy luminoso con salida a una gran terra",
+    "agency": "Guinot Prunera",
+    "rent_url": "https://www.guinotprunera.com/es/alquiler"
   },
   {
     "url": "https://www.pisos.com/alquilar/piso-eixample_sant_antoni08015-52590344526_500843/",
@@ -231,17 +242,6 @@
     "rent_url": "https://inmobiliaria.calvetpremium.com/es/alquiler-pisos-pisos/en-barcelona-barcelona"
   },
   {
-    "url": "https://www.pisos.com/alquilar/estudio-la_nova_esquerra_de_eixample08015-65885714928_518209/",
-    "price": 875,
-    "rooms": 1,
-    "kind": "piso",
-    "title": "Estudio en Carrer d'Entença",
-    "img": "https://fotos.imghs.net/mm-wp/518209/65885714928.518209/518209_65885714928_1_20260717161417516.jpg",
-    "text": "1 /14 PREMIUM 875 € /mes Estudio en Carrer d'Entença La Nova Esquerra de l'Eixample (Distrito Eixample. Barcelona Capital) 1 hab. 1 baño 35 m² Ref: 002605f Estudio en alquiler maxi",
-    "agency": "pisos.com",
-    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
-  },
-  {
     "url": "https://www.pisos.com/alquilar/piso-el_camp_de_arpa_del_clot08026-66745972610_528397/",
     "price": 877,
     "rooms": 2,
@@ -418,6 +418,17 @@
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
   {
+    "url": "https://www.guinotprunera.com/es/alquiler/ref-31590",
+    "price": 1001,
+    "rooms": null,
+    "kind": "piso",
+    "title": "La Nova Esquerra de L'Eixample",
+    "img": "https://media.mobiliagestion.es/Portals/inmoguinotprunera/Images/31590/27239705.jpg",
+    "text": "20260821 31590 Piso La Nova Esquerra de L'Eixample 1.001 €/mes 53 1 1 Apartamento exterior a patio de manzana. Salón comedor con cocina integrada, suelos de parquet. Alto y bien or",
+    "agency": "Guinot Prunera",
+    "rent_url": "https://www.guinotprunera.com/es/alquiler"
+  },
+  {
     "url": "https://www.pisos.com/alquilar/piso-sant_andreu_barrio08030-65914432493_501025/",
     "price": 1029,
     "rooms": 1,
@@ -462,6 +473,17 @@
     "rent_url": "https://toysanfinques.com/es/inmuebles/?transaction_type=lloguer&property__type=property"
   },
   {
+    "url": "https://www.pisos.com/alquilar/atico-el_raval08001-64249106130_530867/",
+    "price": 1100,
+    "rooms": 1,
+    "kind": "piso",
+    "title": "Ático en Carrer de l'Hospital",
+    "img": "https://fotos.imghs.net/mm-wp/530867/64249106130.530867/530867_64249106130_27762a0e-d0f3-456e-bc57-507d9e9c01a5.jpg",
+    "text": "1 /6 PREMIUM 1.100 € /mes Ático en Carrer de l'Hospital El Raval (Distrito Ciutat Vella. Barcelona Capital) 1 hab. 1 baño 50 m² Ubicado en una finca con carácter en pleno corazón d",
+    "agency": "pisos.com",
+    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
+  },
+  {
     "url": "https://www.pisos.com/alquilar/piso-el_raval08001-66668005832_106100/",
     "price": 1100,
     "rooms": 1,
@@ -504,6 +526,17 @@
     "text": "1 /24 1.100 € /mes Piso en Carrer del Tigre, 12 El Raval (Distrito Ciutat Vella. Barcelona Capital) 1 hab. 1 baño 32 m² 2ª planta Ideal para estudiantes: Apartamento de 1 dormitori",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
+  },
+  {
+    "url": "https://www.guinotprunera.com/es/alquiler/ref-31903",
+    "price": 1102,
+    "rooms": null,
+    "kind": "piso",
+    "title": "Vallcarca i Els Penitents",
+    "img": "https://media.mobiliagestion.es/Portals/inmoguinotprunera/Images/31903/28109130.jpg",
+    "text": "20260827 31903 Piso Vallcarca i Els Penitents 1.102 €/mes 100 3 2 Piso ubicado en Gracia, segundo sin ascensor. Salón comedor exterior a patio interior. Cocina cerrada sin electrod",
+    "agency": "Guinot Prunera",
+    "rent_url": "https://www.guinotprunera.com/es/alquiler"
   },
   {
     "url": "https://www.pisos.com/alquilar/piso-sants_montjuic_hostafrancs08014-66755362941_109200/",
