@@ -237,7 +237,7 @@
     "kind": "piso",
     "title": "Pis, 53.00 m 2",
     "img": "https://imagenes.ghestia.cat/images/webs/LIC1403_140518/fotos0/1398/foto_1.jpg",
-    "text": "lloguer Tipus 855€ Pis, 53.00 m 2 2 Dorm. 53.00 m 2 Veure mes Fa 1 minut",
+    "text": "lloguer Tipus 855€ Pis, 53.00 m 2 2 Dorm. 53.00 m 2 Veure mes Fa 5 minuts",
     "agency": "Fincas Ubiergo",
     "rent_url": "https://www.fincasubiergo.com/alquiler"
   },
@@ -581,6 +581,17 @@
     "text": "1 /9 PREMIUM 1.150 € /mes Piso en Sant Martí de Provençals Sant Martí de Provençals (Distrito Sant Martí. Barcelona Capital) 45 m² A private space for business or studies. The apar",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
+  },
+  {
+    "url": "https://serviguest.com/inmuebles/acogedor-piso-en-forc-pienc/",
+    "price": 1152,
+    "rooms": 2,
+    "kind": "piso",
+    "title": "Sardenya / Forc Pienc",
+    "img": "https://serviguest.com/wp-content/uploads/2024/08/Sardenya-194-10-1-1024x681.jpg",
+    "text": "Disponible a partir de 25-08-2028 Sardenya / Forc Pienc 1.152 € / mes Eixample · Barcelona 2 hab · 80 m2",
+    "agency": "Serviguest",
+    "rent_url": "https://serviguest.com/alquiler-temporal-barcelona-2/"
   },
   {
     "url": "https://www.pisos.com/alquilar/piso-sants_montjuic_hostafrancs08014-66680490932_109200/",
