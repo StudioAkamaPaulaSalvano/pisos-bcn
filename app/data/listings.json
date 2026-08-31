@@ -253,6 +253,17 @@
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
   {
+    "url": "https://www.fincasubiergo.com/ca/lloguer/habitatges/barcelona/barcelona/1398",
+    "price": 855,
+    "rooms": 2,
+    "kind": "piso",
+    "title": "Pis, 53.00 m 2",
+    "img": "https://imagenes.ghestia.cat/images/webs/LIC1403_140518/fotos0/1398/foto_1.jpg",
+    "text": "lloguer Tipus 855€ Pis, 53.00 m 2 2 Dorm. 53.00 m 2 Veure mes Fa 15 hores",
+    "agency": "Fincas Ubiergo",
+    "rent_url": "https://www.fincasubiergo.com/alquiler"
+  },
+  {
     "url": "https://www.pisos.com/alquilar/estudio-la_nova_esquerra_de_eixample08015-65885714928_518209/",
     "price": 875,
     "rooms": 1,
