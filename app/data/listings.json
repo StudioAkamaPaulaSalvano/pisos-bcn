@@ -33,17 +33,6 @@
     "rent_url": "https://finquesmartell.com/inmuebles"
   },
   {
-    "url": "https://www.pisos.com/alquilar/piso-el_raval08001-63384109363_530867/",
-    "price": 750,
-    "rooms": 1,
-    "kind": "piso",
-    "title": "Piso en Carrer de Pelai",
-    "img": "https://fotos.imghs.net/mm-wp/530867/63384109363.530867/530867_63384109363_ae664a64-91b5-48d2-a1dd-666b4394df09.jpg",
-    "text": "1 /6 PREMIUM 750 € /mes Piso en Carrer de Pelai El Raval (Distrito Ciutat Vella. Barcelona Capital) 1 hab. 1 baño 42 m² 7ª planta Ubicado en finca con ascensor y situado en la 7ª p",
-    "agency": "pisos.com",
-    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
-  },
-  {
     "url": "https://www.guinotprunera.com/es/alquiler/ref-31529",
     "price": 778,
     "rooms": null,
@@ -165,17 +154,6 @@
     "rent_url": "https://www.finquesfeliu.es/es/buscador/inter"
   },
   {
-    "url": "https://www.pisos.com/alquilar/piso-el_carmel08032-66679791693_106100/",
-    "price": 850,
-    "rooms": null,
-    "kind": "piso",
-    "title": "Piso en El Carmel",
-    "img": "https://fotos.imghs.net/mm-wp/1061/3230323630383330/fb2f8049-5189-4745-8c71-ab9e957458d7.jpg",
-    "text": "1 /20 Nuevo PREMIUM 850 € /mes Piso en El Carmel El Carmel (Distrito Horta-Guinardó. Barcelona Capital) 1 baño 45 m² Principal Dolça llar presenta este inmueble en alquiler de temp",
-    "agency": "pisos.com",
-    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
-  },
-  {
     "url": "https://www.pisos.com/alquilar/estudio-el_barri_gotic08002-66740388412_518209/",
     "price": 850,
     "rooms": 1,
@@ -205,6 +183,17 @@
     "title": "Piso en El Poble-Sec",
     "img": "https://fotos.imghs.net/mm-wp/531896/60051110553.531896/531896_60051110553_e809427e-0e08-4060-9100-fc49f623ddb9.jpg",
     "text": "1 /16 PREMIUM 850 € /mes Piso en El Poble-Sec El Poble-sec (Distrito Sants-Montjuïc. Barcelona Capital) 3 habs. 1 baño 47 m² 1ª planta Antes de poder agendar una visita al inmueble",
+    "agency": "pisos.com",
+    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
+  },
+  {
+    "url": "https://www.pisos.com/alquilar/piso-el_carmel08032-66679791693_106100/",
+    "price": 850,
+    "rooms": null,
+    "kind": "piso",
+    "title": "Piso en El Carmel",
+    "img": "https://fotos.imghs.net/mm-wp/1061/3230323630383330/fb2f8049-5189-4745-8c71-ab9e957458d7.jpg",
+    "text": "1 /20 Nuevo PREMIUM 850 € /mes Piso en El Carmel El Carmel (Distrito Horta-Guinardó. Barcelona Capital) 1 baño 45 m² Principal Dolça llar presenta este inmueble en alquiler de temp",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
@@ -746,6 +735,17 @@
     "text": "alquiler 1.200 €/mes Piso en alquiler en calle Santaló Barcelona · Sant Gervasi - Galvany 65 m 2 2 habs. 1 baño",
     "agency": "Toysan Finques",
     "rent_url": "https://toysanfinques.com/es/inmuebles/?transaction_type=lloguer&property__type=property"
+  },
+  {
+    "url": "https://www.pisos.com/alquilar/piso-la_vila_de_gracia08012-64171297594_530867/",
+    "price": 1200,
+    "rooms": 1,
+    "kind": "piso",
+    "title": "Piso en Carrer de Verdi",
+    "img": "https://fotos.imghs.net/mm-wp/530867/64171297594.530867/530867_64171297594_018d3a50-9ba3-4194-bf5a-c3e61b7d5196.jpg",
+    "text": "1 /6 PREMIUM 1.200 € /mes Piso en Carrer de Verdi La Vila de Gràcia (Distrito Gràcia. Barcelona Capital) 1 hab. 1 baño 55 m² 2ª planta Ubicado en carrer de verdi, en pleno corazón ",
+    "agency": "pisos.com",
+    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
   {
     "url": "https://www.pisos.com/alquilar/piso-vallvidrera_el_tibidabo_les_planes08017-65856948099_100600/",
