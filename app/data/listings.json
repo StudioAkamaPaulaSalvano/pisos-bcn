@@ -33,6 +33,17 @@
     "rent_url": "https://finquesmartell.com/inmuebles"
   },
   {
+    "url": "https://www.pisos.com/alquilar/piso-el_raval08001-63384109363_530867/",
+    "price": 750,
+    "rooms": 1,
+    "kind": "piso",
+    "title": "Piso en Carrer de Pelai",
+    "img": "https://fotos.imghs.net/mm-wp/530867/63384109363.530867/530867_63384109363_ae664a64-91b5-48d2-a1dd-666b4394df09.jpg",
+    "text": "1 /6 PREMIUM 750 € /mes Piso en Carrer de Pelai El Raval (Distrito Ciutat Vella. Barcelona Capital) 1 hab. 1 baño 42 m² 7ª planta Ubicado en finca con ascensor y situado en la 7ª p",
+    "agency": "pisos.com",
+    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
+  },
+  {
     "url": "https://www.guinotprunera.com/es/alquiler/ref-31529",
     "price": 778,
     "rooms": null,
@@ -53,28 +64,6 @@
     "text": "20260826 31899 Estudio L'Antiga Esquerra de L'Eixample 787 €/mes 50 0 0 Sobreático que se distribuye en un espacioso salón comedor exterior muy luminoso con salida a una gran terra",
     "agency": "Guinot Prunera",
     "rent_url": "https://www.guinotprunera.com/es/alquiler"
-  },
-  {
-    "url": "https://www.pisos.com/alquilar/piso-eixample_sant_antoni08015-52590344526_500843/",
-    "price": 790,
-    "rooms": 1,
-    "kind": "piso",
-    "title": "Piso en Carrer de Manso",
-    "img": "https://fotos.imghs.net/mm-wp/500843/52590344526.500843/500843_52590344526_a79dbeca-a0df-47cd-b730-2b428b5661db.jpg",
-    "text": "1 /11 Nuevo PREMIUM 790 € /mes Piso en Carrer de Manso Sant Antoni (Distrito Eixample. Barcelona Capital) 1 hab. 1 baño 45 m² 1ª planta Para poder visitar los pisos, antes se debe ",
-    "agency": "pisos.com",
-    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
-  },
-  {
-    "url": "https://www.pisos.com/alquilar/piso-el_barri_gotic08002-63431472689_530867/",
-    "price": 800,
-    "rooms": 1,
-    "kind": "piso",
-    "title": "Piso en Carrer del Pi",
-    "img": "https://fotos.imghs.net/mm-wp/530867/63431472689.530867/530867_63431472689_22ef6d05-bd02-43f2-9b88-784258c6d243.jpg",
-    "text": "1 /6 PREMIUM 800 € /mes Piso en Carrer del Pi El Barri Gòtic (Distrito Ciutat Vella. Barcelona Capital) 1 hab. 1 baño 32 m² 4ª planta Ubicado en la última planta de finca caracterí",
-    "agency": "pisos.com",
-    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
   {
     "url": "https://www.pisos.com/alquilar/piso-sants_montjuic_hostafrancs08014-63420332110_530867/",
