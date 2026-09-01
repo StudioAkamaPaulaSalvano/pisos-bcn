@@ -259,7 +259,7 @@
     "kind": "piso",
     "title": "Pis, 53.00 m 2",
     "img": "https://imagenes.ghestia.cat/images/webs/LIC1403_140518/fotos0/1398/foto_1.jpg",
-    "text": "lloguer Tipus 855€ Pis, 53.00 m 2 2 Dorm. 53.00 m 2 Veure mes Fa 22 hores",
+    "text": "lloguer Tipus 855€ Pis, 53.00 m 2 2 Dorm. 53.00 m 2 Veure mes Fa 23 hores",
     "agency": "Fincas Ubiergo",
     "rent_url": "https://www.fincasubiergo.com/alquiler"
   },
@@ -435,7 +435,7 @@
     "kind": "piso",
     "title": "Piso en Passeig de Torras i Bages",
     "img": "https://fotos.imghs.net/mm-wp/501025/66726994643.501025/501025_66726994643_cfd5ddd8-91b0-43a1-ad67-4ab05d1a343a.jpg",
-    "text": "1 /25 Nuevo DESTACADO 998 € /mes Piso en Passeig de Torras i Bages Sant Andreu (Distrito Sant Andreu. Barcelona Capital) 3 habs. 1 baño 59 m² 6ª planta Informacion importante: para",
+    "text": "1 /25 TOP 998 € /mes Piso en Passeig de Torras i Bages Sant Andreu (Distrito Sant Andreu. Barcelona Capital) 3 habs. 1 baño 59 m² 6ª planta Informacion importante: para visitar est",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
@@ -534,7 +534,7 @@
     "kind": "piso",
     "title": "Piso en Passatge del Vintró",
     "img": "https://fotos.imghs.net/mm-wp/501025/22599980810.501025/501025_22599980810_15_20220315204834084.jpg",
-    "text": "1 /26 Nuevo DESTACADO 1.092 € /mes Piso en Passatge del Vintró El Camp de l'Arpa del Clot (Distrito Sant Martí. Barcelona Capital) 2 habs. 1 baño 62 m² 3ª planta Informacion import",
+    "text": "1 /26 TOP 1.092 € /mes Piso en Passatge del Vintró El Camp de l'Arpa del Clot (Distrito Sant Martí. Barcelona Capital) 2 habs. 1 baño 62 m² 3ª planta Informacion importante: para v",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
@@ -612,6 +612,17 @@
     "title": "Piso en Hostafrancs",
     "img": "https://fotos.imghs.net/mm-wp/1092/3230323630363131/db7cbb24-c0c4-41ee-8662-0fe06ec4764d.jpg",
     "text": "1 /10 PREMIUM 1.100 € /mes Piso en Hostafrancs Hostafrancs (Distrito Sants-Montjuïc. Barcelona Capital) 25 m² 🏡 private studio in barcelona – ideal for students Enjoy a comfortable",
+    "agency": "pisos.com",
+    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
+  },
+  {
+    "url": "https://www.pisos.com/alquilar/piso-sants_montjuic_sants08028-67527029429_109200/",
+    "price": 1100,
+    "rooms": null,
+    "kind": "piso",
+    "title": "Piso en Sants",
+    "img": "https://fotos.imghs.net/mm-wp/1092/3230323630393031/48e0cd94-ef9e-4612-8585-e6f0d0895a13.jpg",
+    "text": "1 /5 Nuevo PREMIUM 1.100 € /mes Piso en Sants Sants (Distrito Sants-Montjuïc. Barcelona Capital) 40 m² Estudio reformado con una zona de estar luminosa. Estarás justo en el centro ",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
@@ -788,17 +799,6 @@
     "title": "Piso en Hostafrancs",
     "img": "https://fotos.imghs.net/mm-wp/1092/3230323630363035/0083d38f-c001-46b4-8a39-83dadffcf913.jpg",
     "text": "1 /10 PREMIUM 1.200 € /mes Piso en Hostafrancs Hostafrancs (Distrito Sants-Montjuïc. Barcelona Capital) 65 m² 🏡 private studio in barcelona – ideal for students Enjoy a comfortable",
-    "agency": "pisos.com",
-    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
-  },
-  {
-    "url": "https://www.pisos.com/alquilar/piso-el_poble_sec08004-66700188403_109200/",
-    "price": 1200,
-    "rooms": null,
-    "kind": "piso",
-    "title": "Piso en El Poble-sec",
-    "img": "https://fotos.imghs.net/mm-wp/1092/3230323630353230/f4805aa7-f9c3-458d-b7af-2ec1d0592d4f.jpg",
-    "text": "1 /10 Nuevo PREMIUM 1.200 € /mes Piso en El Poble-sec El Poble-sec (Distrito Sants-Montjuïc. Barcelona Capital) 34 m² Seasonal rental for leisure or holiday purposes only – min. 32",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
