@@ -23,7 +23,7 @@ DATA = os.path.join(HERE, "data")
 LISTA_MD = os.path.join(ROOT, "inmobiliarias.md")
 
 # ---------- Criterios de Paula ----------
-MAX_PRICE = 1200        # tope pedido por Paula (ideal <=1000)
+MAX_PRICE = 1100        # tope pedido por Paula (ideal <=1000)
 MIN_ROOMS = 1           # pisos de 1, 2 o 3 dormitorios
 MAX_ROOMS = 3
 MIN_PRICE = 350         # por debajo suele ser habitación/local/error
@@ -46,9 +46,19 @@ PORTALS = ["idealista", "fotocasa", "habitaclia", "enalquiler",
 # (nombre, url_base_filtrada_por_precio, nº de páginas a recorrer)
 PORTAL_SOURCES = [
     ("pisos.com", "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/", 4),
-    # Calvet: su buscador ASP.NET deja una URL fija de resultados de alquiler
-    ("Calvet", "https://inmobiliaria.calvetpremium.com/es/alquiler-pisos-pisos/en-barcelona-barcelona", 1),
+    # Calvet NO va aquí: su buscador solo lista "temporada" y oculta la larga
+    # estancia. Se lee aparte, por ficha de ref -> ver scrape_calvet().
 ]
+
+# ---------- Calvet: lectura por ficha de ref ----------
+# Su buscador de alquiler solo muestra pisos de TEMPORADA y oculta los de larga
+# estancia (que sí existen, con ref más alta). Los descubrimos abriendo sus fichas
+# por número de ref alrededor del "techo" conocido, que se auto-ajusta solo: no
+# hace falta saber ningún número, el robot sigue los pisos nuevos aunque cambien.
+CALVET_HOST = "https://inmobiliaria.calvetpremium.com"
+CALVET_DETAIL = CALVET_HOST + "/es/alquiler-pisos-pisos/en-barcelona-barcelona//ref-%d"
+CALVET_CEILING_FILE = os.path.join(DATA, "calvet_ceiling.json")
+CALVET_DEFAULT_CEILING = 4115   # suelo de arranque; sube solo con el tiempo
 
 HEADERS = {"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
            "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120 Safari/537.36",
@@ -551,6 +561,64 @@ def headless_pass(sites, portals=None, concurrency=4):
     return asyncio.run(_headless_async(sites, portals or [], concurrency))
 
 
+def _calvet_ref_info(ref):
+    """Abre la ficha de un ref de Calvet y devuelve el piso si es alquiler de larga
+    estancia en Barcelona. 'blocked' si la web nos frena; None si no existe/no sirve."""
+    try:
+        h = get(CALVET_DETAIL % ref, timeout=15).text
+    except Exception:
+        return None
+    if "Acceso temporalmente bloqueado" in h:
+        return "blocked"
+    if len(h) < 5000 or "TEMPORADA" in h:      # ficha vacía o de temporada -> fuera
+        return None
+    t = re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", h))
+    if re.search(r"venta:\s*[0-9]", t):        # es de venta, no alquiler
+        return None
+    pm = re.search(r"alquiler:\s*([0-9][0-9\.]*)", t)
+    if not pm:
+        return None
+    price = int(pm.group(1).replace(".", ""))
+    tm = re.search(r'og:title"\s*content="([^"]+)"', h)
+    im = re.search(r'og:image"\s*content="([^"]+)"', h)
+    rm = re.search(r"Dormitorios\s*([0-9])", t)
+    return {"url": CALVET_DETAIL % ref, "price": price,
+            "rooms": int(rm.group(1)) if rm else None, "kind": "piso",
+            "title": html.unescape((tm.group(1) if tm else "Piso Calvet").strip())[:120],
+            "img": im.group(1) if im else "", "text": t[:180], "agency": "Calvet"}
+
+
+def scrape_calvet(window_down=45, window_up=15):
+    """Descubre los alquileres de larga estancia de Calvet leyendo fichas por ref
+    alrededor del techo conocido (auto-ajustable). Suave: 1 consulta cada ~0,6 s."""
+    ceiling = CALVET_DEFAULT_CEILING
+    try:
+        ceiling = max(ceiling, int(json.load(open(CALVET_CEILING_FILE)).get("ceiling", 0)))
+    except Exception:
+        pass
+    good, max_seen, blocked = [], ceiling, 0
+    for ref in range(ceiling + window_up, ceiling - window_down, -1):
+        info = _calvet_ref_info(ref)
+        if info == "blocked":
+            blocked += 1
+            if blocked >= 3:               # nos están frenando: cortamos por hoy
+                print("  Calvet nos frenó, corto la pasada", file=sys.stderr)
+                break
+            time.sleep(4); continue
+        if info:
+            max_seen = max(max_seen, ref)
+            if passes_filters(info):
+                good.append(info)
+        time.sleep(0.6)                    # suave, para no bloquear la IP
+    try:
+        json.dump({"ceiling": max_seen}, open(CALVET_CEILING_FILE, "w"))
+    except Exception:
+        pass
+    print(f"  Calvet (por ficha): {len(good)} pisos de larga estancia", file=sys.stderr)
+    return {"name": "Calvet", "base": CALVET_HOST + "/portal-Calvet",
+            "ok": True, "listings": good, "error": None}
+
+
 def load_sites():
     """Lee todas las URLs https de inmobiliarias.md (excluye directorios madre)."""
     txt = open(LISTA_MD, encoding="utf-8").read()
@@ -601,6 +669,11 @@ def main():
                     by_host[urlparse(r["base"]).netloc] = r
         except Exception as e:
             print(f"(navegador real no disponible: {type(e).__name__}: {e})", file=sys.stderr)
+    # Calvet aparte: por ficha de ref (su buscador oculta la larga estancia)
+    try:
+        by_host["calvet-ref"] = scrape_calvet()
+    except Exception as e:
+        print(f"(Calvet por ficha falló: {type(e).__name__}: {e})", file=sys.stderr)
     results = list(by_host.values())
     all_listings = []
     ok = err = 0
