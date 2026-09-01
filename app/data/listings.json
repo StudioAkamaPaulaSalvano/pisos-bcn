@@ -286,17 +286,6 @@
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
   {
-    "url": "https://www.pisos.com/alquilar/piso-el_besos_el_maresme08019-67549597149_109200/",
-    "price": 940,
-    "rooms": 3,
-    "kind": "piso",
-    "title": "Piso en Sant Marti",
-    "img": "https://fotos.imghs.net/mm-wp/1092/3230323630383133/f4ae52ba-c09c-4123-9c41-f8a46b9cce29.jpg",
-    "text": "1 /16 Nuevo PREMIUM 940 € /mes Piso en Sant Marti El Besòs-El Maresme (Distrito Sant Martí. Barcelona Capital) 3 habs. 1 baño 75 m² 1ª planta Piso totalmente reformado de 70 m², 3 ",
-    "agency": "pisos.com",
-    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
-  },
-  {
     "url": "https://casablau.net/alquiler/pisos-en-alquiler/el-bon-pastor-235",
     "price": 950,
     "rooms": null,
@@ -513,6 +502,17 @@
     "title": "Casa en El Besòs-El Maresme",
     "img": "https://fotos.imghs.net/mm-wp/1092/110/1092_EB2-67ad4419638c4305231c0110_1_2025071612075901585.jpg",
     "text": "1 /10 PREMIUM 1.085 € /mes Casa en El Besòs-El Maresme El Besòs-El Maresme (Distrito Sant Martí. Barcelona Capital) 🎓 student residence in barcelona with pool and gym!! 🏋️‍♂️🏊‍♀️ U",
+    "agency": "pisos.com",
+    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
+  },
+  {
+    "url": "https://www.pisos.com/alquilar/piso-sants_badal-67505920909_109200/",
+    "price": 1096,
+    "rooms": 3,
+    "kind": "piso",
+    "title": "Piso en Sants-Montjuic",
+    "img": "https://fotos.imghs.net/mm-wp/1092/3230323630393031/0805a897-970b-492d-a352-6915bf049b9f.jpg",
+    "text": "1 /21 Nuevo PREMIUM 1.096 € /mes Piso en Sants-Montjuic Sants-Badal (Distrito Sants-Montjuïc. Barcelona Capital) 3 habs. 1 baño 65 m² 1ª planta Precioso inmueble de 63 m² ubicado e",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
