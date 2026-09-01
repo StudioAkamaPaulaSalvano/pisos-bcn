@@ -107,6 +107,17 @@
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
   {
+    "url": "https://www.pisos.com/alquilar/piso-sants_montjuic_hostafrancs08014-63420332110_530867/",
+    "price": 800,
+    "rooms": 1,
+    "kind": "piso",
+    "title": "Piso en Carrer de Mallorca",
+    "img": "https://fotos.imghs.net/mm-wp/530867/63420332110.530867/530867_63420332110_84494247-3ab8-4f56-8771-bbbcbd77633f.jpg",
+    "text": "1 /4 PREMIUM 800 € /mes Piso en Carrer de Mallorca Hostafrancs (Distrito Sants-Montjuïc. Barcelona Capital) 1 hab. 1 baño 44 m² 4ª planta Ubicado en finca con ascensor y en la 4ª p",
+    "agency": "pisos.com",
+    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
+  },
+  {
     "url": "https://finquesmartell.com/immoble/arc-de-sant-sever-l-barcelona-alquiler-001999-1/",
     "price": 820,
     "rooms": 2,
@@ -404,17 +415,6 @@
     "rent_url": "https://finquesmartell.com/inmuebles"
   },
   {
-    "url": "https://www.pisos.com/alquilar/piso-sant_marti_el_poblenou08005-62598698622_531896/",
-    "price": 990,
-    "rooms": 3,
-    "kind": "piso",
-    "title": "Piso en El Poblenou",
-    "img": "https://fotos.imghs.net/mm-wp/531896/62598698622.531896/531896_62598698622_17fdc477-4520-46f1-8baa-432329857602.jpg",
-    "text": "1 /12 PREMIUM 990 € /mes Piso en El Poblenou El Poblenou (Distrito Sant Martí. Barcelona Capital) 3 habs. 1 baño 62 m² 1ª planta El piso se encuentra en muy buen estado, listo para",
-    "agency": "pisos.com",
-    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
-  },
-  {
     "url": "https://www.pisos.com/alquilar/piso-el_barri_gotic08002-65868084159_518209/",
     "price": 995,
     "rooms": 1,
@@ -432,7 +432,7 @@
     "kind": "piso",
     "title": "Piso en La Sagrada Família",
     "img": "https://fotos.imghs.net/mm-wp/1005/3230323630373234/7ba79da8-b8a9-4949-83aa-1b2fc41753c8.jpg",
-    "text": "1 /2 TOP Oportunidad 997 € /mes Piso en La Sagrada Família La Sagrada Família (Distrito Eixample. Barcelona Capital) 1 hab. 49 m² Bajo Importante. No se aceptan llamadas. Responder",
+    "text": "1 /2 DESTACADO 997 € /mes Piso en La Sagrada Família La Sagrada Família (Distrito Eixample. Barcelona Capital) 1 hab. 49 m² Bajo Importante. No se aceptan llamadas. Responder a cue",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
