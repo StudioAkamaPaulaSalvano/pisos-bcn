@@ -231,6 +231,17 @@
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
   {
+    "url": "https://www.pisos.com/alquilar/estudio-la_maternitat_sant_ramon08028-66739744627_104700/",
+    "price": 850,
+    "rooms": null,
+    "kind": "piso",
+    "title": "Estudio en La Maternitat-Sant Ramon",
+    "img": "https://fotos.imghs.net/mm-wp/1047/3230323630383139/8cf5e01b-3fb5-49c4-9549-e1b1843d4fdd.jpg",
+    "text": "1 /8 Nuevo PREMIUM 850 € /mes Estudio en La Maternitat-Sant Ramon La Maternitat-Sant Ramon (Distrito Les Corts. Barcelona Capital) 1 baño 20 m² Reservas e inquietudes Tipo de aloja",
+    "agency": "pisos.com",
+    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
+  },
+  {
     "url": "https://www.pisos.com/alquilar/piso-barcelona_capital-61709072933_109200/",
     "price": 850,
     "rooms": null,
@@ -451,17 +462,6 @@
     "rent_url": "https://barnapiso.com/es/propiedades-disponibles-barcelona/"
   },
   {
-    "url": "https://www.pisos.com/alquilar/piso-el_camp_en_grassot_gracia_nova08024-66705357561_109200/",
-    "price": 1000,
-    "rooms": 3,
-    "kind": "piso",
-    "title": "Piso en El Camp d'en Grassot-Gràcia Nova",
-    "img": "https://fotos.imghs.net/mm-wp/1092/3230323630383330/480a074f-12b7-471d-992c-d553863c92cb.jpg",
-    "text": "1 /10 Nuevo PREMIUM 1.000 € /mes Piso en El Camp d'en Grassot-Gràcia Nova El Camp d'en Grassot-Gràcia Nova (Distrito Gràcia. Barcelona Capital) 55 m² Simple apartment for students ",
-    "agency": "pisos.com",
-    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
-  },
-  {
     "url": "https://www.pisos.com/alquilar/apartamento-sant_pere_santa_caterina_la_ribera08003-64206819507_530867/",
     "price": 1000,
     "rooms": 1,
@@ -480,6 +480,17 @@
     "title": "Piso en El Raval",
     "img": "https://fotos.imghs.net/mm-wp/1047/497/1047_464497_1_2025040709045844213.jpg",
     "text": "1 /10 Nuevo PREMIUM 1.000 € /mes Piso en El Raval El Raval (Distrito Ciutat Vella. Barcelona Capital) 2 habs. 1 baño 62 m² Reservas e inquietudes Tipo de alojamiento - alojamiento ",
+    "agency": "pisos.com",
+    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
+  },
+  {
+    "url": "https://www.pisos.com/alquilar/piso-el_camp_en_grassot_gracia_nova08024-66705357561_109200/",
+    "price": 1000,
+    "rooms": 3,
+    "kind": "piso",
+    "title": "Piso en El Camp d'en Grassot-Gràcia Nova",
+    "img": "https://fotos.imghs.net/mm-wp/1092/3230323630383330/480a074f-12b7-471d-992c-d553863c92cb.jpg",
+    "text": "1 /10 Nuevo PREMIUM 1.000 € /mes Piso en El Camp d'en Grassot-Gràcia Nova El Camp d'en Grassot-Gràcia Nova (Distrito Gràcia. Barcelona Capital) 55 m² Simple apartment for students ",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
@@ -550,6 +561,17 @@
     "rent_url": "https://toysanfinques.com/es/inmuebles/?transaction_type=lloguer&property__type=property"
   },
   {
+    "url": "https://www.pisos.com/alquilar/piso-el_raval08001-66668005832_106100/",
+    "price": 1100,
+    "rooms": 1,
+    "kind": "piso",
+    "title": "Piso en El Raval",
+    "img": "https://fotos.imghs.net/mm-wp/1061/3230323630383233/72b82086-47b7-4bfe-a88c-1026b58106a6.jpg",
+    "text": "1 /14 Nuevo DESTACADO 1.100 € /mes Piso en El Raval El Raval (Distrito Ciutat Vella. Barcelona Capital) 1 hab. 1 baño 47 m² 1ª planta Piso centrico, listo parar entrar con las male",
+    "agency": "pisos.com",
+    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
+  },
+  {
     "url": "https://www.pisos.com/alquilar/atico-el_raval08001-64249106130_530867/",
     "price": 1100,
     "rooms": 1,
@@ -568,17 +590,6 @@
     "title": "Piso en El Barri Gòtic",
     "img": "https://fotos.imghs.net/mm-wp/1047/823/1047_94823_1_2026011509011557669.jpg",
     "text": "1 /23 PREMIUM 1.100 € /mes Piso en El Barri Gòtic El Barri Gòtic (Distrito Ciutat Vella. Barcelona Capital) 1 hab. 1 baño 46 m² Reservas e inquietudes Tipo de alojamiento - alojami",
-    "agency": "pisos.com",
-    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
-  },
-  {
-    "url": "https://www.pisos.com/alquilar/piso-el_raval08001-66668005832_106100/",
-    "price": 1100,
-    "rooms": 1,
-    "kind": "piso",
-    "title": "Piso en El Raval",
-    "img": "https://fotos.imghs.net/mm-wp/1061/3230323630383233/72b82086-47b7-4bfe-a88c-1026b58106a6.jpg",
-    "text": "1 /14 Nuevo PREMIUM 1.100 € /mes Piso en El Raval El Raval (Distrito Ciutat Vella. Barcelona Capital) 1 hab. 1 baño 47 m² 1ª planta Piso centrico, listo parar entrar con las maleta",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
