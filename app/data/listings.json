@@ -220,17 +220,6 @@
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
   {
-    "url": "https://www.pisos.com/alquilar/piso-gracia_la_salut08024-66682248054_109200/",
-    "price": 850,
-    "rooms": null,
-    "kind": "piso",
-    "title": "Piso en La Salut",
-    "img": "https://fotos.imghs.net/mm-wp/1092/3230323630383133/97ec88ba-fd4b-4864-be96-8dad5f70a0fd.jpg",
-    "text": "1 /7 PREMIUM 850 € /mes Piso en La Salut La Salut (Distrito Gràcia. Barcelona Capital) 25 m² 🌟 charming studio with stunning views over barcelona! 🌟 Welcome to this cozy and bright",
-    "agency": "pisos.com",
-    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
-  },
-  {
     "url": "https://www.fincasubiergo.com/ca/lloguer/habitatges/barcelona/barcelona/1398",
     "price": 855,
     "rooms": 2,
@@ -462,17 +451,6 @@
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
   {
-    "url": "https://www.pisos.com/alquilar/piso-el_camp_en_grassot_gracia_nova08024-66705357561_109200/",
-    "price": 1000,
-    "rooms": 3,
-    "kind": "piso",
-    "title": "Piso en El Camp d'en Grassot-Gràcia Nova",
-    "img": "https://fotos.imghs.net/mm-wp/1092/3230323630383330/480a074f-12b7-471d-992c-d553863c92cb.jpg",
-    "text": "1 /10 Nuevo PREMIUM 1.000 € /mes Piso en El Camp d'en Grassot-Gràcia Nova El Camp d'en Grassot-Gràcia Nova (Distrito Gràcia. Barcelona Capital) 55 m² Simple apartment for students ",
-    "agency": "pisos.com",
-    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
-  },
-  {
     "url": "https://www.guinotprunera.com/es/alquiler/ref-31590",
     "price": 1001,
     "rooms": null,
@@ -491,17 +469,6 @@
     "title": "Piso en Plaça del Mercadal",
     "img": "https://fotos.imghs.net/mm-wp/501025/65914432493.501025/501025_65914432493_628c7b8d-761f-45b2-9587-bcd357bd316a.jpg",
     "text": "1 /32 TOP Exclusivo 1.029 € /mes Piso en Plaça del Mercadal Sant Andreu (Distrito Sant Andreu. Barcelona Capital) 1 hab. 1 baño 63 m² Bajo Informacion importante: para visitar esta",
-    "agency": "pisos.com",
-    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
-  },
-  {
-    "url": "https://www.pisos.com/alquilar/piso-el_poble_sec08004-65909882241_109200/",
-    "price": 1065,
-    "rooms": null,
-    "kind": "piso",
-    "title": "Piso en El Poble-sec",
-    "img": "https://fotos.imghs.net/mm-wp/1092/3230323630373034/52119242-4004-4719-a248-d3f20f29c950.jpg",
-    "text": "1 /10 PREMIUM 1.065 € /mes Piso en El Poble-sec El Poble-sec (Distrito Sants-Montjuïc. Barcelona Capital) 41 m² Este maravilloso apartamento está idealmente ubicado cerca del parqu",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
@@ -590,28 +557,6 @@
     "title": "Piso en Hostafrancs",
     "img": "https://fotos.imghs.net/mm-wp/1092/3230323630363131/db7cbb24-c0c4-41ee-8662-0fe06ec4764d.jpg",
     "text": "1 /10 PREMIUM 1.100 € /mes Piso en Hostafrancs Hostafrancs (Distrito Sants-Montjuïc. Barcelona Capital) 25 m² 🏡 private studio in barcelona – ideal for students Enjoy a comfortable",
-    "agency": "pisos.com",
-    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
-  },
-  {
-    "url": "https://www.pisos.com/alquilar/piso-sants_montjuic_sants08028-67527029429_109200/",
-    "price": 1100,
-    "rooms": null,
-    "kind": "piso",
-    "title": "Piso en Sants",
-    "img": "https://fotos.imghs.net/mm-wp/1092/3230323630393031/48e0cd94-ef9e-4612-8585-e6f0d0895a13.jpg",
-    "text": "1 /5 Nuevo PREMIUM 1.100 € /mes Piso en Sants Sants (Distrito Sants-Montjuïc. Barcelona Capital) 40 m² Estudio reformado con una zona de estar luminosa. Estarás justo en el centro ",
-    "agency": "pisos.com",
-    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
-  },
-  {
-    "url": "https://www.pisos.com/alquilar/piso-el_raval08001-65902574462_109800/",
-    "price": 1100,
-    "rooms": 1,
-    "kind": "piso",
-    "title": "Piso en Carrer del Tigre, 12",
-    "img": "https://fotos.imghs.net/mm-wp/1098/5814356/1098_1_foto_20260701131016833_65902574462.jpg",
-    "text": "1 /24 1.100 € /mes Piso en Carrer del Tigre, 12 El Raval (Distrito Ciutat Vella. Barcelona Capital) 1 hab. 1 baño 32 m² 2ª planta Ideal para estudiantes: Apartamento de 1 dormitori",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
@@ -777,17 +722,6 @@
     "title": "Piso en Hostafrancs",
     "img": "https://fotos.imghs.net/mm-wp/1092/3230323630363035/0083d38f-c001-46b4-8a39-83dadffcf913.jpg",
     "text": "1 /10 PREMIUM 1.200 € /mes Piso en Hostafrancs Hostafrancs (Distrito Sants-Montjuïc. Barcelona Capital) 65 m² 🏡 private studio in barcelona – ideal for students Enjoy a comfortable",
-    "agency": "pisos.com",
-    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
-  },
-  {
-    "url": "https://www.pisos.com/alquilar/piso-el_raval08002-66670690568_109200/",
-    "price": 1200,
-    "rooms": null,
-    "kind": "piso",
-    "title": "Piso en El Raval",
-    "img": "https://fotos.imghs.net/mm-wp/1092/3230323630383034/a05d387e-1a32-41e7-9fcb-27957806b091.jpg",
-    "text": "1 /10 PREMIUM 1.200 € /mes Piso en El Raval El Raval (Distrito Ciutat Vella. Barcelona Capital) 45 m² 🌟 1-bedroom apartment on la rambla – prime location in barcelona! 🌟 Welcome to",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   }
