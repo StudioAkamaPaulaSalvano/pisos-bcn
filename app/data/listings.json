@@ -33,17 +33,6 @@
     "rent_url": "https://finquesmartell.com/inmuebles"
   },
   {
-    "url": "https://www.pisos.com/alquilar/piso-el_raval08001-63384109363_530867/",
-    "price": 750,
-    "rooms": 1,
-    "kind": "piso",
-    "title": "Piso en Carrer de Pelai",
-    "img": "https://fotos.imghs.net/mm-wp/530867/63384109363.530867/530867_63384109363_ae664a64-91b5-48d2-a1dd-666b4394df09.jpg",
-    "text": "1 /6 PREMIUM 750 € /mes Piso en Carrer de Pelai El Raval (Distrito Ciutat Vella. Barcelona Capital) 1 hab. 1 baño 42 m² 7ª planta Ubicado en finca con ascensor y situado en la 7ª p",
-    "agency": "pisos.com",
-    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
-  },
-  {
     "url": "https://www.guinotprunera.com/es/alquiler/ref-31529",
     "price": 778,
     "rooms": null,
@@ -215,7 +204,7 @@
     "kind": "piso",
     "title": "Estudio en Sants-Montjuïc",
     "img": "https://fotos.imghs.net/mm-wp/1047/938/1047_422938_1_2025072709074612201.jpg",
-    "text": "1 /9 Nuevo PREMIUM 850 € /mes Estudio en Sants-Montjuïc Sants-Montjuïc (Barcelona Capital) 1 baño 20 m² Reservas e inquietudes Tipo de alojamiento - alojamiento entero Términos y c",
+    "text": "1 /9 PREMIUM 850 € /mes Estudio en Sants-Montjuïc Sants-Montjuïc (Barcelona Capital) 1 baño 20 m² Reservas e inquietudes Tipo de alojamiento - alojamiento entero Términos y condici",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
@@ -231,17 +220,6 @@
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
   {
-    "url": "https://www.pisos.com/alquilar/estudio-la_maternitat_sant_ramon08028-66739744627_104700/",
-    "price": 850,
-    "rooms": null,
-    "kind": "piso",
-    "title": "Estudio en La Maternitat-Sant Ramon",
-    "img": "https://fotos.imghs.net/mm-wp/1047/3230323630383139/8cf5e01b-3fb5-49c4-9549-e1b1843d4fdd.jpg",
-    "text": "1 /8 Nuevo PREMIUM 850 € /mes Estudio en La Maternitat-Sant Ramon La Maternitat-Sant Ramon (Distrito Les Corts. Barcelona Capital) 1 baño 20 m² Reservas e inquietudes Tipo de aloja",
-    "agency": "pisos.com",
-    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
-  },
-  {
     "url": "https://www.pisos.com/alquilar/piso-barcelona_capital-61709072933_109200/",
     "price": 850,
     "rooms": null,
@@ -249,6 +227,17 @@
     "title": "Piso en Barcelona Capital",
     "img": "https://fotos.imghs.net/mm-wp/1092/710/1092_EB2-69a230bf4282bed67404d7ea_1_202603240632291235743.jpg",
     "text": "1 /10 PREMIUM 850 € /mes Piso en Barcelona Capital Barcelona Capital 15 m² Se alquila estudio para una persona alquiler ideal estudiantes trabajadores erasmus medicos Cerca del met",
+    "agency": "pisos.com",
+    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
+  },
+  {
+    "url": "https://www.pisos.com/alquilar/estudio-la_maternitat_sant_ramon08028-66694792328_104700/",
+    "price": 850,
+    "rooms": null,
+    "kind": "piso",
+    "title": "Estudio en La Maternitat-Sant Ramon",
+    "img": "https://fotos.imghs.net/mm-wp/1047/3230323630383331/48eabbe6-5830-43a8-820d-389481d30199.jpg",
+    "text": "1 /6 Nuevo PREMIUM 850 € /mes Estudio en La Maternitat-Sant Ramon La Maternitat-Sant Ramon (Distrito Les Corts. Barcelona Capital) 1 baño 23 m² Reservas e inquietudes Tipo de aloja",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
@@ -270,20 +259,9 @@
     "kind": "piso",
     "title": "Pis, 53.00 m 2",
     "img": "https://imagenes.ghestia.cat/images/webs/LIC1403_140518/fotos0/1398/foto_1.jpg",
-    "text": "lloguer Tipus 855€ Pis, 53.00 m 2 2 Dorm. 53.00 m 2 Veure mes Fa 1 hora",
+    "text": "lloguer Tipus 855€ Pis, 53.00 m 2 2 Dorm. 53.00 m 2 Veure mes Fa 2 hores",
     "agency": "Fincas Ubiergo",
     "rent_url": "https://www.fincasubiergo.com/alquiler"
-  },
-  {
-    "url": "https://www.pisos.com/alquilar/estudio-la_nova_esquerra_de_eixample08015-65885714928_518209/",
-    "price": 875,
-    "rooms": 1,
-    "kind": "piso",
-    "title": "Estudio en Carrer d'Entença",
-    "img": "https://fotos.imghs.net/mm-wp/518209/65885714928.518209/518209_65885714928_1_20260717161417516.jpg",
-    "text": "1 /14 PREMIUM 875 € /mes Estudio en Carrer d'Entença La Nova Esquerra de l'Eixample (Distrito Eixample. Barcelona Capital) 1 hab. 1 baño 35 m² Ref: 002605f Estudio en alquiler maxi",
-    "agency": "pisos.com",
-    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
   {
     "url": "https://www.pisos.com/alquilar/piso-el_camp_de_arpa_del_clot08026-66745972610_528397/",
@@ -314,7 +292,7 @@
     "kind": "piso",
     "title": "Pis, 52.00 m 2",
     "img": "https://imagenes.ghestia.cat/images/webs/LIC1403_140518/fotos0/1399/foto_1.jpg",
-    "text": "lloguer Tipus 918€ Pis, 52.00 m 2 2 Dorm. 52.00 m 2 Veure mes Fa 1 hora",
+    "text": "lloguer Tipus 918€ Pis, 52.00 m 2 2 Dorm. 52.00 m 2 Veure mes Fa 2 hores",
     "agency": "Fincas Ubiergo",
     "rent_url": "https://www.fincasubiergo.com/alquiler"
   },
@@ -359,6 +337,17 @@
     "title": "Piso en Carrer de la Residència",
     "img": "https://fotos.imghs.net/mm-wp/500843/38372847481.500843/500843_38372847481_11_20231003132732027.jpg",
     "text": "1 /11 Nuevo PREMIUM 963 € /mes Piso en Carrer de la Residència Sant Andreu (Distrito Sant Andreu. Barcelona Capital) 2 habs. 1 baño 66 m² 3ª planta Para poder visitar el piso antes",
+    "agency": "pisos.com",
+    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
+  },
+  {
+    "url": "https://www.pisos.com/alquilar/estudio-la_vila_de_gracia08012-63424964407_530867/",
+    "price": 975,
+    "rooms": null,
+    "kind": "piso",
+    "title": "Estudio en Carrer de Tordera",
+    "img": "https://fotos.imghs.net/mm-wp/530867/63424964407.530867/530867_63424964407_d39df721-627b-45c0-bded-c9fc7e01e2b6.jpg",
+    "text": "1 /10 PREMIUM 975 € /mes Estudio en Carrer de Tordera La Vila de Gràcia (Distrito Gràcia. Barcelona Capital) 1 baño 40 m² Ubicado en gràcia, a pocos minutos de passeig de gràcia, y",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
@@ -451,17 +440,6 @@
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
   {
-    "url": "https://www.pisos.com/alquilar/piso-sant_andreu_barrio08030-66726994643_501025/",
-    "price": 998,
-    "rooms": 3,
-    "kind": "piso",
-    "title": "Piso en Passeig de Torras i Bages",
-    "img": "https://fotos.imghs.net/mm-wp/501025/66726994643.501025/501025_66726994643_cfd5ddd8-91b0-43a1-ad67-4ab05d1a343a.jpg",
-    "text": "1 /25 TOP 998 € /mes Piso en Passeig de Torras i Bages Sant Andreu (Distrito Sant Andreu. Barcelona Capital) 3 habs. 1 baño 59 m² 6ª planta Informacion importante: para visitar est",
-    "agency": "pisos.com",
-    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
-  },
-  {
     "url": "https://barnapiso.com/es/vivienda/propiedad-en-sants-montjuic/",
     "price": 1000,
     "rooms": null,
@@ -546,17 +524,6 @@
     "title": "Casa en El Besòs-El Maresme",
     "img": "https://fotos.imghs.net/mm-wp/1092/110/1092_EB2-67ad4419638c4305231c0110_1_2025071612075901585.jpg",
     "text": "1 /10 PREMIUM 1.085 € /mes Casa en El Besòs-El Maresme El Besòs-El Maresme (Distrito Sant Martí. Barcelona Capital) 🎓 student residence in barcelona with pool and gym!! 🏋️‍♂️🏊‍♀️ U",
-    "agency": "pisos.com",
-    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
-  },
-  {
-    "url": "https://www.pisos.com/alquilar/piso-el_camp_de_arpa_del_clot08026-22599980810_501025/",
-    "price": 1092,
-    "rooms": 2,
-    "kind": "piso",
-    "title": "Piso en Passatge del Vintró",
-    "img": "https://fotos.imghs.net/mm-wp/501025/22599980810.501025/501025_22599980810_15_20220315204834084.jpg",
-    "text": "1 /26 TOP 1.092 € /mes Piso en Passatge del Vintró El Camp de l'Arpa del Clot (Distrito Sant Martí. Barcelona Capital) 2 habs. 1 baño 62 m² 3ª planta Informacion importante: para v",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
@@ -704,17 +671,6 @@
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
   {
-    "url": "https://www.pisos.com/alquilar/piso-el_raval08001-66667375644_109200/",
-    "price": 1150,
-    "rooms": null,
-    "kind": "piso",
-    "title": "Piso en El Raval",
-    "img": "https://fotos.imghs.net/mm-wp/1092/3230323630383137/bd4be113-220e-44cb-a5b8-311c368bf5f5.jpg",
-    "text": "1 /8 PREMIUM 1.150 € /mes Piso en El Raval El Raval (Distrito Ciutat Vella. Barcelona Capital) 66 m² Direct deal with the owner. Only for privates, it is located 300 meters from th",
-    "agency": "pisos.com",
-    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
-  },
-  {
     "url": "https://serviguest.com/inmuebles/acogedor-piso-en-forc-pienc/",
     "price": 1152,
     "rooms": 2,
@@ -754,7 +710,7 @@
     "kind": "piso",
     "title": "Piso en El Raval",
     "img": "https://fotos.imghs.net/mm-wp/1047/525/1047_605525_1_2025061209062013940.jpg",
-    "text": "1 /15 Nuevo PREMIUM 1.195 € /mes Piso en El Raval El Raval (Distrito Ciutat Vella. Barcelona Capital) 1 hab. 1 baño 50 m² Reservas e inquietudes Tipo de alojamiento - alojamiento e",
+    "text": "1 /15 PREMIUM 1.195 € /mes Piso en El Raval El Raval (Distrito Ciutat Vella. Barcelona Capital) 1 hab. 1 baño 50 m² Reservas e inquietudes Tipo de alojamiento - alojamiento entero ",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
@@ -779,6 +735,17 @@
     "text": "alquiler 1.200 €/mes Piso en alquiler en calle Santaló Barcelona · Sant Gervasi - Galvany 65 m 2 2 habs. 1 baño",
     "agency": "Toysan Finques",
     "rent_url": "https://toysanfinques.com/es/inmuebles/?transaction_type=lloguer&property__type=property"
+  },
+  {
+    "url": "https://www.pisos.com/alquilar/piso-la_vila_de_gracia08012-64171297594_530867/",
+    "price": 1200,
+    "rooms": 1,
+    "kind": "piso",
+    "title": "Piso en Carrer de Verdi",
+    "img": "https://fotos.imghs.net/mm-wp/530867/64171297594.530867/530867_64171297594_018d3a50-9ba3-4194-bf5a-c3e61b7d5196.jpg",
+    "text": "1 /6 PREMIUM 1.200 € /mes Piso en Carrer de Verdi La Vila de Gràcia (Distrito Gràcia. Barcelona Capital) 1 hab. 1 baño 55 m² 2ª planta Ubicado en carrer de verdi, en pleno corazón ",
+    "agency": "pisos.com",
+    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
   {
     "url": "https://www.pisos.com/alquilar/piso-vallvidrera_el_tibidabo_les_planes08017-65856948099_100600/",
