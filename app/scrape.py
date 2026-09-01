@@ -588,33 +588,59 @@ def _calvet_ref_info(ref):
             "img": im.group(1) if im else "", "text": t[:180], "agency": "Calvet"}
 
 
-def scrape_calvet(window_down=45, window_up=15):
-    """Descubre los alquileres de larga estancia de Calvet leyendo fichas por ref
-    alrededor del techo conocido (auto-ajustable). Suave: 1 consulta cada ~0,6 s."""
+CALVET_CACHE_FILE = os.path.join(DATA, "calvet_cache.json")
+CALVET_RESCAN_SECS = 25 * 60      # re-escanear Calvet como mucho cada ~25 min
+
+def _calvet_scan(window_down=30, window_up=10):
+    """Lee las fichas de Calvet alrededor del techo conocido (auto-ajustable) y
+    devuelve (listings, max_ref_visto). En paralelo suave (3 a la vez)."""
     ceiling = CALVET_DEFAULT_CEILING
     try:
         ceiling = max(ceiling, int(json.load(open(CALVET_CEILING_FILE)).get("ceiling", 0)))
     except Exception:
         pass
-    good, max_seen, blocked = [], ceiling, 0
-    for ref in range(ceiling + window_up, ceiling - window_down, -1):
-        info = _calvet_ref_info(ref)
-        if info == "blocked":
-            blocked += 1
-            if blocked >= 3:               # nos están frenando: cortamos por hoy
-                print("  Calvet nos frenó, corto la pasada", file=sys.stderr)
-                break
-            time.sleep(4); continue
-        if info:
-            max_seen = max(max_seen, ref)
-            if passes_filters(info):
-                good.append(info)
-        time.sleep(0.6)                    # suave, para no bloquear la IP
+    refs = list(range(ceiling + window_up, ceiling - window_down, -1))
+    good, max_seen = [], ceiling
+    with ThreadPoolExecutor(max_workers=3) as ex:      # suave, no dispara el anti-robot
+        for ref, info in zip(refs, ex.map(_calvet_ref_info, refs)):
+            if info and info != "blocked":
+                max_seen = max(max_seen, ref)
+                if passes_filters(info):
+                    good.append(info)
     try:
         json.dump({"ceiling": max_seen}, open(CALVET_CEILING_FILE, "w"))
     except Exception:
         pass
-    print(f"  Calvet (por ficha): {len(good)} pisos de larga estancia", file=sys.stderr)
+    return good, max_seen
+
+
+def scrape_calvet():
+    """Devuelve los alquileres de larga estancia de Calvet. Usa caché: solo re-escanea
+    la web cada ~25 min; el resto del tiempo reusa lo último bueno. Así cada pasada
+    del robot es rápida (no se pasa de los 5 min) y no martillamos la web de Calvet."""
+    cache = {}
+    try:
+        cache = json.load(open(CALVET_CACHE_FILE))
+    except Exception:
+        pass
+    fresh = (time.time() - cache.get("ts", 0)) < CALVET_RESCAN_SECS
+    if fresh and cache.get("listings"):
+        good = cache["listings"]
+        print(f"  Calvet (caché): {len(good)} pisos", file=sys.stderr)
+    else:
+        good, _ = _calvet_scan()
+        # si el escaneo vino vacío (p.ej. la web nos frenó) pero teníamos caché
+        # buena, la conservamos para no dejar la página sin Calvet
+        if not good and cache.get("listings"):
+            good = cache["listings"]
+            print("  Calvet: escaneo vacío, mantengo la caché anterior", file=sys.stderr)
+        else:
+            try:
+                json.dump({"ts": time.time(), "listings": good},
+                          open(CALVET_CACHE_FILE, "w"), ensure_ascii=False)
+            except Exception:
+                pass
+        print(f"  Calvet (escaneo): {len(good)} pisos de larga estancia", file=sys.stderr)
     return {"name": "Calvet", "base": CALVET_HOST + "/portal-Calvet",
             "ok": True, "listings": good, "error": None}
 
