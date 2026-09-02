@@ -206,6 +206,17 @@
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
   {
+    "url": "https://www.pisos.com/alquilar/estudio-la_maternitat_sant_ramon08028-67564208836_104700/",
+    "price": 850,
+    "rooms": null,
+    "kind": "piso",
+    "title": "Estudio en La Maternitat-Sant Ramon",
+    "img": "https://fotos.imghs.net/mm-wp/1047/3230323630393032/a94445be-5cf7-4a3b-b532-8685e1a854d3.jpg",
+    "text": "1 /9 Nuevo PREMIUM 850 € /mes Estudio en La Maternitat-Sant Ramon La Maternitat-Sant Ramon (Distrito Les Corts. Barcelona Capital) 1 baño 15 m² Reservas e inquietudes Tipo de aloja",
+    "agency": "pisos.com",
+    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
+  },
+  {
     "url": "https://www.pisos.com/alquilar/estudio-sants_badal-55881201129_104700/",
     "price": 850,
     "rooms": null,
@@ -213,17 +224,6 @@
     "title": "Estudio en Sants-Badal",
     "img": "https://fotos.imghs.net/mm-wp/1047/938/1047_422938_1_2025072709074612201.jpg",
     "text": "1 /9 PREMIUM 850 € /mes Estudio en Sants-Badal Sants-Badal (Distrito Sants-Montjuïc. Barcelona Capital) 1 baño 20 m² Reservas e inquietudes Tipo de alojamiento - alojamiento entero",
-    "agency": "pisos.com",
-    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
-  },
-  {
-    "url": "https://www.pisos.com/alquilar/estudio-la_maternitat_sant_ramon08028-66762838761_104700/",
-    "price": 850,
-    "rooms": null,
-    "kind": "piso",
-    "title": "Estudio en La Maternitat-Sant Ramon",
-    "img": "https://fotos.imghs.net/mm-wp/1047/3230323630383138/f50d5da3-7561-478f-8793-cf00b29832f4.jpg",
-    "text": "1 /8 Nuevo PREMIUM 850 € /mes Estudio en La Maternitat-Sant Ramon La Maternitat-Sant Ramon (Distrito Les Corts. Barcelona Capital) 1 baño 15 m² Reservas e inquietudes Tipo de aloja",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
@@ -333,7 +333,7 @@
     "kind": "piso",
     "title": "Piso en El Raval",
     "img": "https://fotos.imghs.net/mm-wp/1047/3230323630383139/27d0038d-c272-46a2-b8bc-c4c5ace33b24.jpg",
-    "text": "1 /13 Nuevo PREMIUM 950 € /mes Piso en El Raval El Raval (Distrito Ciutat Vella. Barcelona Capital) 2 habs. 1 baño 63 m² Reservas e inquietudes Tipo de alojamiento - alojamiento en",
+    "text": "1 /13 PREMIUM 950 € /mes Piso en El Raval El Raval (Distrito Ciutat Vella. Barcelona Capital) 2 habs. 1 baño 63 m² Reservas e inquietudes Tipo de alojamiento - alojamiento entero T",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
@@ -366,7 +366,7 @@
     "kind": "piso",
     "title": "Piso en El Raval",
     "img": "https://fotos.imghs.net/mm-wp/1047/3230323630383139/ebbd7643-15c5-484b-b000-018cb3bb93cc.jpg",
-    "text": "1 /11 Nuevo PREMIUM 975 € /mes Piso en El Raval El Raval (Distrito Ciutat Vella. Barcelona Capital) 1 hab. 1 baño 43 m² Reservas e inquietudes Tipo de alojamiento - alojamiento ent",
+    "text": "1 /11 PREMIUM 975 € /mes Piso en El Raval El Raval (Distrito Ciutat Vella. Barcelona Capital) 1 hab. 1 baño 43 m² Reservas e inquietudes Tipo de alojamiento - alojamiento entero Té",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
@@ -618,7 +618,7 @@
     "rooms": null,
     "kind": "piso",
     "title": "Estudio en El Fort Pienc",
-    "img": "https://fotos.imghs.net/mm-wp/1047/433/1047_132433_4_2025040309040700683.jpg",
+    "img": "https://fotos.imghs.net/mm-wp/1047/433/1047_132433_2_2025040309040700682.jpg",
     "text": "1 /18 Nuevo PREMIUM 1.100 € /mes Estudio en El Fort Pienc El Fort Pienc (Distrito Eixample. Barcelona Capital) 1 baño 18 m² Reservas e inquietudes Tipo de alojamiento - alojamiento",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
