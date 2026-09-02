@@ -1,5 +1,16 @@
 [
   {
+    "url": "https://barnapiso.com/es/vivienda/propiedad-en-las-cortes-4/",
+    "price": 425,
+    "rooms": null,
+    "kind": "piso",
+    "title": "Propiedad en Les Corts",
+    "img": "https://barnapiso.com/wp-content/uploads/2024/11/1231744428-scaled.jpg",
+    "text": "Propiedad en Les Corts Precio Alquiler: 425 € de San Ramón Nonato m2 construidos habitaciones baños",
+    "agency": "BarnaPiso",
+    "rent_url": "https://barnapiso.com/es/propiedades-disponibles-barcelona/"
+  },
+  {
     "url": "https://finqueselpallars.com/piso-en-alquiler-les-corts-barcelona/",
     "price": 500,
     "rooms": null,
@@ -92,6 +103,17 @@
     "title": "Piso en Carrer del Pi",
     "img": "https://fotos.imghs.net/mm-wp/530867/63431472689.530867/530867_63431472689_22ef6d05-bd02-43f2-9b88-784258c6d243.jpg",
     "text": "1 /6 PREMIUM 800 € /mes Piso en Carrer del Pi El Barri Gòtic (Distrito Ciutat Vella. Barcelona Capital) 1 hab. 1 baño 32 m² 4ª planta Ubicado en la última planta de finca caracterí",
+    "agency": "pisos.com",
+    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
+  },
+  {
+    "url": "https://www.pisos.com/alquilar/piso-sants_montjuic_hostafrancs08014-63420332110_530867/",
+    "price": 800,
+    "rooms": 1,
+    "kind": "piso",
+    "title": "Piso en Carrer de Mallorca",
+    "img": "https://fotos.imghs.net/mm-wp/530867/63420332110.530867/530867_63420332110_84494247-3ab8-4f56-8771-bbbcbd77633f.jpg",
+    "text": "1 /4 PREMIUM 800 € /mes Piso en Carrer de Mallorca Hostafrancs (Distrito Sants-Montjuïc. Barcelona Capital) 1 hab. 1 baño 44 m² 4ª planta Ubicado en finca con ascensor y en la 4ª p",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
@@ -349,17 +371,6 @@
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
   {
-    "url": "https://www.locabarcelona.com/en/property/nice-1-bedroom-apartment-ideal-for-a-couple/",
-    "price": 985,
-    "rooms": 1,
-    "kind": "piso",
-    "title": "Available now 985€ Nice 1 bedroom apartment ideal for a couple Ciutat vella                       . Carrer de la Neu de ",
-    "img": "https://www.locabarcelona.com/wp-content/uploads/2021/10/8d9c107f-2f5a-4cf8-b692-4a4cd1e56b0d-23-488x326.jpg",
-    "text": "View Property View Property View Property View Property View Property View Property View Property View Property View Property View Property View Property View Property View Propert",
-    "agency": "Loca Barcelona",
-    "rent_url": "https://www.locabarcelona.com/en/property-feature/features/furnished/"
-  },
-  {
     "url": "https://www.pisos.com/alquilar/piso-el_raval-66725773316_104700/",
     "price": 988,
     "rooms": 3,
@@ -424,6 +435,17 @@
     "text": "1 /2 TOP Oportunidad 997 € /mes Piso en La Sagrada Família La Sagrada Família (Distrito Eixample. Barcelona Capital) 1 hab. 49 m² Bajo Importante. No se aceptan llamadas. Responder",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
+  },
+  {
+    "url": "https://barnapiso.com/es/vivienda/propiedad-en-sants-montjuic/",
+    "price": 1000,
+    "rooms": null,
+    "kind": "piso",
+    "title": "Propiedad en Sants-Montjuïc",
+    "img": "https://barnapiso.com/wp-content/uploads/2024/11/989391816.jpg",
+    "text": "Propiedad en Sants-Montjuïc Precio Alquiler: 1000 € de Sugranyes m2 construidos habitaciones baños",
+    "agency": "BarnaPiso",
+    "rent_url": "https://barnapiso.com/es/propiedades-disponibles-barcelona/"
   },
   {
     "url": "https://www.pisos.com/alquilar/apartamento-sant_pere_santa_caterina_la_ribera08003-64206819507_530867/",
