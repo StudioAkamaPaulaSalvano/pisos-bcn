@@ -87,17 +87,6 @@
     "rent_url": "https://www.guinotprunera.com/es/alquiler"
   },
   {
-    "url": "https://www.pisos.com/alquilar/piso-el_barri_gotic08002-63431472689_530867/",
-    "price": 800,
-    "rooms": 1,
-    "kind": "piso",
-    "title": "Piso en Carrer del Pi",
-    "img": "https://fotos.imghs.net/mm-wp/530867/63431472689.530867/530867_63431472689_22ef6d05-bd02-43f2-9b88-784258c6d243.jpg",
-    "text": "1 /6 PREMIUM 800 € /mes Piso en Carrer del Pi El Barri Gòtic (Distrito Ciutat Vella. Barcelona Capital) 1 hab. 1 baño 32 m² 4ª planta Ubicado en la última planta de finca caracterí",
-    "agency": "pisos.com",
-    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
-  },
-  {
     "url": "https://www.pisos.com/alquilar/piso-sants_montjuic_hostafrancs08014-63420332110_530867/",
     "price": 800,
     "rooms": 1,
@@ -151,6 +140,17 @@
     "text": "Piso en Alquiler a BARCELONA / La Antiga Esquerra de l'Eixample ENRIC GRANADOS 850 € Finques Feliu del Grupo Housfy, alquila estudio en la C.Enric Granados, en l’Eixample de... 42 ",
     "agency": "Finques Feliu",
     "rent_url": "https://www.finquesfeliu.es/es/buscador/inter"
+  },
+  {
+    "url": "https://www.pisos.com/alquilar/piso-barcelona_capital-61709072933_109200/",
+    "price": 850,
+    "rooms": null,
+    "kind": "piso",
+    "title": "Piso en Barcelona Capital",
+    "img": "https://fotos.imghs.net/mm-wp/1092/710/1092_EB2-69a230bf4282bed67404d7ea_1_202603240632291235743.jpg",
+    "text": "1 /10 DESTACADO 850 € /mes Piso en Barcelona Capital Barcelona Capital 15 m² Se alquila estudio para una persona alquiler ideal estudiantes trabajadores erasmus medicos Cerca del m",
+    "agency": "pisos.com",
+    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
   {
     "url": "https://www.pisos.com/alquilar/estudio-el_barri_gotic08002-66740388412_518209/",
@@ -219,17 +219,6 @@
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
   {
-    "url": "https://www.pisos.com/alquilar/piso-barcelona_capital-61709072933_109200/",
-    "price": 850,
-    "rooms": null,
-    "kind": "piso",
-    "title": "Piso en Barcelona Capital",
-    "img": "https://fotos.imghs.net/mm-wp/1092/710/1092_EB2-69a230bf4282bed67404d7ea_1_202603240632291235743.jpg",
-    "text": "1 /10 PREMIUM 850 € /mes Piso en Barcelona Capital Barcelona Capital 15 m² Se alquila estudio para una persona alquiler ideal estudiantes trabajadores erasmus medicos Cerca del met",
-    "agency": "pisos.com",
-    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
-  },
-  {
     "url": "https://www.pisos.com/alquilar/estudio-la_maternitat_sant_ramon08028-66694792328_104700/",
     "price": 850,
     "rooms": null,
@@ -258,7 +247,7 @@
     "kind": "piso",
     "title": "Pis, 53.00 m 2",
     "img": "https://imagenes.ghestia.cat/images/webs/LIC1403_140518/fotos0/1398/foto_1.jpg",
-    "text": "lloguer Tipus 855€ Pis, 53.00 m 2 2 Dorm. 53.00 m 2 Veure mes Fa 4 hores",
+    "text": "lloguer Tipus 855€ Pis, 53.00 m 2 2 Dorm. 53.00 m 2 Veure mes Fa 5 hores",
     "agency": "Fincas Ubiergo",
     "rent_url": "https://www.fincasubiergo.com/alquiler"
   },
@@ -291,7 +280,7 @@
     "kind": "piso",
     "title": "Pis, 52.00 m 2",
     "img": "https://imagenes.ghestia.cat/images/webs/LIC1403_140518/fotos0/1399/foto_1.jpg",
-    "text": "lloguer Tipus 918€ Pis, 52.00 m 2 2 Dorm. 52.00 m 2 Veure mes Fa 4 hores",
+    "text": "lloguer Tipus 918€ Pis, 52.00 m 2 2 Dorm. 52.00 m 2 Veure mes Fa 5 hores",
     "agency": "Fincas Ubiergo",
     "rent_url": "https://www.fincasubiergo.com/alquiler"
   },
