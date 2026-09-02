@@ -87,6 +87,17 @@
     "rent_url": "https://www.guinotprunera.com/es/alquiler"
   },
   {
+    "url": "https://www.pisos.com/alquilar/piso-el_barri_gotic08002-63431472689_530867/",
+    "price": 800,
+    "rooms": 1,
+    "kind": "piso",
+    "title": "Piso en Carrer del Pi",
+    "img": "https://fotos.imghs.net/mm-wp/530867/63431472689.530867/530867_63431472689_22ef6d05-bd02-43f2-9b88-784258c6d243.jpg",
+    "text": "1 /6 PREMIUM 800 € /mes Piso en Carrer del Pi El Barri Gòtic (Distrito Ciutat Vella. Barcelona Capital) 1 hab. 1 baño 32 m² 4ª planta Ubicado en la última planta de finca caracterí",
+    "agency": "pisos.com",
+    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
+  },
+  {
     "url": "https://www.pisos.com/alquilar/piso-sants_montjuic_hostafrancs08014-63420332110_530867/",
     "price": 800,
     "rooms": 1,
@@ -303,17 +314,6 @@
     "title": "Piso en El Raval",
     "img": "https://fotos.imghs.net/mm-wp/1047/3230323630383139/27d0038d-c272-46a2-b8bc-c4c5ace33b24.jpg",
     "text": "1 /13 PREMIUM 950 € /mes Piso en El Raval El Raval (Distrito Ciutat Vella. Barcelona Capital) 2 habs. 1 baño 63 m² Reservas e inquietudes Tipo de alojamiento - alojamiento entero T",
-    "agency": "pisos.com",
-    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
-  },
-  {
-    "url": "https://www.pisos.com/alquilar/piso-sant_andreu_barrio08030-38372847481_500843/",
-    "price": 957,
-    "rooms": 2,
-    "kind": "piso",
-    "title": "Piso en Carrer de la Residència",
-    "img": "https://fotos.imghs.net/mm-wp/500843/38372847481.500843/500843_38372847481_11_20231003132732027.jpg",
-    "text": "1 /11 Nuevo PREMIUM 957 € /mes Piso en Carrer de la Residència Sant Andreu (Distrito Sant Andreu. Barcelona Capital) 2 habs. 1 baño 66 m² 3ª planta Para poder visitar el piso antes",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
