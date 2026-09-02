@@ -33,16 +33,6 @@
     "rent_url": "https://finquesmartell.com/inmuebles"
   },
   {
-    "url": "https://inmobiliaria.calvetpremium.com/es/alquiler-pisos-pisos/en-barcelona-barcelona//ref-4091",
-    "price": 700,
-    "rooms": null,
-    "kind": "piso",
-    "title": "Coroleu - Sant Andreu | Ref: 4091",
-    "img": "https://media.mobiliagestion.es/Portals/inmocalvet/Images/4091/27806089-large.jpg",
-    "text": " Coroleu - Sant Andreu | Ref: 4091 PDCookieConsent.config({ \"brand\": { \"dev\" : false, \"name\": \"\", \"url\" : \"\" }, \"cookiePolicyLink\": \"\", \"passList\" : [], \"showBadges\" : true, \"style",
-    "agency": "Calvet"
-  },
-  {
     "url": "https://www.pisos.com/alquilar/piso-el_raval08001-63384109363_530867/",
     "price": 750,
     "rooms": 1,
@@ -258,7 +248,7 @@
     "kind": "piso",
     "title": "Pis, 53.00 m 2",
     "img": "https://imagenes.ghestia.cat/images/webs/LIC1403_140518/fotos0/1398/foto_1.jpg",
-    "text": "lloguer Tipus 855€ Pis, 53.00 m 2 2 Dorm. 53.00 m 2 Veure mes Fa 5 hores",
+    "text": "lloguer Tipus 855€ Pis, 53.00 m 2 2 Dorm. 53.00 m 2 Veure mes Fa 6 hores",
     "agency": "Fincas Ubiergo",
     "rent_url": "https://www.fincasubiergo.com/alquiler"
   },
@@ -291,7 +281,7 @@
     "kind": "piso",
     "title": "Pis, 52.00 m 2",
     "img": "https://imagenes.ghestia.cat/images/webs/LIC1403_140518/fotos0/1399/foto_1.jpg",
-    "text": "lloguer Tipus 918€ Pis, 52.00 m 2 2 Dorm. 52.00 m 2 Veure mes Fa 5 hores",
+    "text": "lloguer Tipus 918€ Pis, 52.00 m 2 2 Dorm. 52.00 m 2 Veure mes Fa 6 hores",
     "agency": "Fincas Ubiergo",
     "rent_url": "https://www.fincasubiergo.com/alquiler"
   },
