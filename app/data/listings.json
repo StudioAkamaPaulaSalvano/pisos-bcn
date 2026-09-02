@@ -33,16 +33,6 @@
     "rent_url": "https://finquesmartell.com/inmuebles"
   },
   {
-    "url": "https://inmobiliaria.calvetpremium.com/es/alquiler-pisos-pisos/en-barcelona-barcelona//ref-4113",
-    "price": 665,
-    "rooms": 1,
-    "kind": "piso",
-    "title": "Josep Ricard / Sant Jaume (2h) | Ref: 4113",
-    "img": "https://media.mobiliagestion.es/Portals/inmocalvet/Images/4113/28181652-large.jpg",
-    "text": " Josep Ricard / Sant Jaume (2h) | Ref: 4113 PDCookieConsent.config({ \"brand\": { \"dev\" : false, \"name\": \"\", \"url\" : \"\" }, \"cookiePolicyLink\": \"\", \"passList\" : [], \"showBadges\" : tru",
-    "agency": "Calvet"
-  },
-  {
     "url": "https://inmobiliaria.calvetpremium.com/es/alquiler-pisos-pisos/en-barcelona-barcelona//ref-4091",
     "price": 700,
     "rooms": null,
