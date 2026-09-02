@@ -74,6 +74,28 @@
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
   {
+    "url": "https://www.guinotprunera.com/es/alquiler/ref-31529",
+    "price": 778,
+    "rooms": null,
+    "kind": "piso",
+    "title": "Sant Andreu de Palomar",
+    "img": "https://media.mobiliagestion.es/Portals/inmoguinotprunera/Images/31529/27164028.jpg",
+    "text": "20260827 31529 Estudio Sant Andreu de Palomar 778 €/mes 39 0 1 Estudio luminoso y con carácter, situado en el encantador barrio de Sant Andreu, una zona tranquila. El espacio se pr",
+    "agency": "Guinot Prunera",
+    "rent_url": "https://www.guinotprunera.com/es/alquiler"
+  },
+  {
+    "url": "https://www.guinotprunera.com/es/alquiler/ref-31899",
+    "price": 787,
+    "rooms": null,
+    "kind": "piso",
+    "title": "L'Antiga Esquerra de L'Eixample",
+    "img": "https://media.mobiliagestion.es/Portals/inmoguinotprunera/Images/31899/28100223.jpg",
+    "text": "20260826 31899 Estudio L'Antiga Esquerra de L'Eixample 787 €/mes 50 0 0 Sobreático que se distribuye en un espacioso salón comedor exterior muy luminoso con salida a una gran terra",
+    "agency": "Guinot Prunera",
+    "rent_url": "https://www.guinotprunera.com/es/alquiler"
+  },
+  {
     "url": "https://www.pisos.com/alquilar/piso-el_barri_gotic08002-63431472689_530867/",
     "price": 800,
     "rooms": 1,
@@ -116,6 +138,17 @@
     "text": "1 /4 PREMIUM 820 € /mes Estudio en Carrer de Casanova Sant Antoni (Distrito Eixample. Barcelona Capital) 1 baño 33 m² Ubicado en la calle casanova, en el barrio de l’antiga esquerr",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
+  },
+  {
+    "url": "https://www.guinotprunera.com/es/alquiler/ref-31918",
+    "price": 849,
+    "rooms": null,
+    "kind": "piso",
+    "title": "La Dreta de L'Eixample",
+    "img": "https://media.mobiliagestion.es/Portals/inmoguinotprunera/Images/31918/28137667.jpg",
+    "text": "20260831 31918 Estudio La Dreta de L'Eixample 849 €/mes 58 0 1 Estudio exterior a calle, orientación sur, sol de mañana. Zona abierta para salón comedor y habitación exterior a cal",
+    "agency": "Guinot Prunera",
+    "rent_url": "https://www.guinotprunera.com/es/alquiler"
   },
   {
     "url": "https://www.finquesfeliu.es/es/node/13324",
@@ -459,6 +492,17 @@
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
   {
+    "url": "https://www.guinotprunera.com/es/alquiler/ref-31590",
+    "price": 1001,
+    "rooms": null,
+    "kind": "piso",
+    "title": "La Nova Esquerra de L'Eixample",
+    "img": "https://media.mobiliagestion.es/Portals/inmoguinotprunera/Images/31590/27239705.jpg",
+    "text": "20260821 31590 Piso La Nova Esquerra de L'Eixample 1.001 €/mes 53 1 1 Apartamento exterior a patio de manzana. Salón comedor con cocina integrada, suelos de parquet. Alto y bien or",
+    "agency": "Guinot Prunera",
+    "rent_url": "https://www.guinotprunera.com/es/alquiler"
+  },
+  {
     "url": "https://inmobiliaria.calvetpremium.com/es/alquiler-pisos-pisos/en-barcelona-barcelona//ref-4114",
     "price": 1021,
     "rooms": 3,
@@ -564,6 +608,17 @@
     "title": "Piso en El Barri Gòtic",
     "img": "https://fotos.imghs.net/mm-wp/1047/823/1047_94823_1_2026011509011557669.jpg",
     "text": "1 /23 PREMIUM 1.100 € /mes Piso en El Barri Gòtic El Barri Gòtic (Distrito Ciutat Vella. Barcelona Capital) 1 hab. 1 baño 46 m² Reservas e inquietudes Tipo de alojamiento - alojami",
+    "agency": "pisos.com",
+    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
+  },
+  {
+    "url": "https://www.pisos.com/alquilar/piso-el_raval08001-67564146525_106100/",
+    "price": 1100,
+    "rooms": 1,
+    "kind": "piso",
+    "title": "Piso en El Raval",
+    "img": "https://fotos.imghs.net/mm-wp/1061/3230323630383233/72b82086-47b7-4bfe-a88c-1026b58106a6.jpg",
+    "text": "1 /14 Nuevo PREMIUM 1.100 € /mes Piso en El Raval El Raval (Distrito Ciutat Vella. Barcelona Capital) 1 hab. 1 baño 47 m² 1ª planta Piso centrico, listo parar entrar con las maleta",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
