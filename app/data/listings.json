@@ -74,28 +74,6 @@
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
   {
-    "url": "https://www.guinotprunera.com/es/alquiler/ref-31529",
-    "price": 778,
-    "rooms": null,
-    "kind": "piso",
-    "title": "Sant Andreu de Palomar",
-    "img": "https://media.mobiliagestion.es/Portals/inmoguinotprunera/Images/31529/27164028.jpg",
-    "text": "20260827 31529 Estudio Sant Andreu de Palomar 778 €/mes 39 0 1 Estudio luminoso y con carácter, situado en el encantador barrio de Sant Andreu, una zona tranquila. El espacio se pr",
-    "agency": "Guinot Prunera",
-    "rent_url": "https://www.guinotprunera.com/es/alquiler"
-  },
-  {
-    "url": "https://www.guinotprunera.com/es/alquiler/ref-31899",
-    "price": 787,
-    "rooms": null,
-    "kind": "piso",
-    "title": "L'Antiga Esquerra de L'Eixample",
-    "img": "https://media.mobiliagestion.es/Portals/inmoguinotprunera/Images/31899/28100223.jpg",
-    "text": "20260826 31899 Estudio L'Antiga Esquerra de L'Eixample 787 €/mes 50 0 0 Sobreático que se distribuye en un espacioso salón comedor exterior muy luminoso con salida a una gran terra",
-    "agency": "Guinot Prunera",
-    "rent_url": "https://www.guinotprunera.com/es/alquiler"
-  },
-  {
     "url": "https://www.pisos.com/alquilar/piso-el_barri_gotic08002-63431472689_530867/",
     "price": 800,
     "rooms": 1,
@@ -138,17 +116,6 @@
     "text": "1 /4 PREMIUM 820 € /mes Estudio en Carrer de Casanova Sant Antoni (Distrito Eixample. Barcelona Capital) 1 baño 33 m² Ubicado en la calle casanova, en el barrio de l’antiga esquerr",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
-  },
-  {
-    "url": "https://www.guinotprunera.com/es/alquiler/ref-31918",
-    "price": 849,
-    "rooms": null,
-    "kind": "piso",
-    "title": "La Dreta de L'Eixample",
-    "img": "https://media.mobiliagestion.es/Portals/inmoguinotprunera/Images/31918/28137667.jpg",
-    "text": "20260831 31918 Estudio La Dreta de L'Eixample 849 €/mes 58 0 1 Estudio exterior a calle, orientación sur, sol de mañana. Zona abierta para salón comedor y habitación exterior a cal",
-    "agency": "Guinot Prunera",
-    "rent_url": "https://www.guinotprunera.com/es/alquiler"
   },
   {
     "url": "https://www.finquesfeliu.es/es/node/13324",
@@ -267,7 +234,7 @@
     "kind": "piso",
     "title": "Pis, 53.00 m 2",
     "img": "https://imagenes.ghestia.cat/images/webs/LIC1403_140518/fotos0/1398/foto_1.jpg",
-    "text": "lloguer Tipus 855€ Pis, 53.00 m 2 2 Dorm. 53.00 m 2 Veure mes Fa 56 minuts",
+    "text": "lloguer Tipus 855€ Pis, 53.00 m 2 2 Dorm. 53.00 m 2 Veure mes Fa 1 hora",
     "agency": "Fincas Ubiergo",
     "rent_url": "https://www.fincasubiergo.com/alquiler"
   },
@@ -300,7 +267,7 @@
     "kind": "piso",
     "title": "Pis, 52.00 m 2",
     "img": "https://imagenes.ghestia.cat/images/webs/LIC1403_140518/fotos0/1399/foto_1.jpg",
-    "text": "lloguer Tipus 918€ Pis, 52.00 m 2 2 Dorm. 52.00 m 2 Veure mes Fa 56 minuts",
+    "text": "lloguer Tipus 918€ Pis, 52.00 m 2 2 Dorm. 52.00 m 2 Veure mes Fa 1 hora",
     "agency": "Fincas Ubiergo",
     "rent_url": "https://www.fincasubiergo.com/alquiler"
   },
@@ -490,17 +457,6 @@
     "text": "1 /10 Nuevo PREMIUM 1.000 € /mes Piso en El Camp d'en Grassot-Gràcia Nova El Camp d'en Grassot-Gràcia Nova (Distrito Gràcia. Barcelona Capital) 55 m² Simple apartment for students ",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
-  },
-  {
-    "url": "https://www.guinotprunera.com/es/alquiler/ref-31590",
-    "price": 1001,
-    "rooms": null,
-    "kind": "piso",
-    "title": "La Nova Esquerra de L'Eixample",
-    "img": "https://media.mobiliagestion.es/Portals/inmoguinotprunera/Images/31590/27239705.jpg",
-    "text": "20260821 31590 Piso La Nova Esquerra de L'Eixample 1.001 €/mes 53 1 1 Apartamento exterior a patio de manzana. Salón comedor con cocina integrada, suelos de parquet. Alto y bien or",
-    "agency": "Guinot Prunera",
-    "rent_url": "https://www.guinotprunera.com/es/alquiler"
   },
   {
     "url": "https://inmobiliaria.calvetpremium.com/es/alquiler-pisos-pisos/en-barcelona-barcelona//ref-4114",
