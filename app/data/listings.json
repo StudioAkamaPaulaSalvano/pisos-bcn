@@ -1,5 +1,16 @@
 [
   {
+    "url": "https://masifill.com/property/pisos-la-dreta-de-leixample/",
+    "price": 350,
+    "rooms": null,
+    "kind": "piso",
+    "title": "Pisos la dreta de leixample",
+    "img": "https://masifill.com/wp-content/uploads/propiedad-5868-1-385x258.jpg",
+    "text": "Llogar 1,350€",
+    "agency": "Masifill (Mas i Fill)",
+    "rent_url": "https://masifill.com/property/lloguer-placa-daparcament-a-leixample-dreta-barcelona/"
+  },
+  {
     "url": "https://barnapiso.com/es/vivienda/propiedad-en-las-cortes-4/",
     "price": 425,
     "rooms": null,
@@ -305,6 +316,16 @@
     "text": "1 /8 PREMIUM 925 € /mes Piso en Travessera de les Corts La Maternitat-Sant Ramon (Distrito Les Corts. Barcelona Capital) 1 hab. 1 baño 47 m² 2ª planta Piso en alquiler de 47 m² con",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
+  },
+  {
+    "url": "https://inmobiliaria.calvetpremium.com/es/alquiler-pisos-pisos/en-barcelona-barcelona//ref-4107",
+    "price": 948,
+    "rooms": 3,
+    "kind": "piso",
+    "title": "Ribes - Padilla | Ref: 4107",
+    "img": "https://media.mobiliagestion.es/Portals/inmocalvet/Images/4107/28043868-large.jpg",
+    "text": " Ribes - Padilla | Ref: 4107 PDCookieConsent.config({ \"brand\": { \"dev\" : false, \"name\": \"\", \"url\" : \"\" }, \"cookiePolicyLink\": \"\", \"passList\" : [], \"showBadges\" : true, \"styles\": { ",
+    "agency": "Calvet"
   },
   {
     "url": "https://www.pisos.com/alquilar/piso-el_raval-66747889876_104700/",
