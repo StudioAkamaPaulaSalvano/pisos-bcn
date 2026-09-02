@@ -87,6 +87,17 @@
     "rent_url": "https://www.guinotprunera.com/es/alquiler"
   },
   {
+    "url": "https://www.pisos.com/alquilar/piso-el_carmel-67522468889_109200/",
+    "price": 790,
+    "rooms": 3,
+    "kind": "piso",
+    "title": "Piso en Horta - Guinardo",
+    "img": "https://statics.imghs.net//dist/img/default_nophoto.jpg",
+    "text": "Nuevo PREMIUM 790 € /mes Piso en Horta - Guinardo El Carmel (Distrito Horta-Guinardó. Barcelona Capital) 3 habs. 1 baño 60 m² 1ª planta Piso de 60 m² reformado,3 dormitorios: 2 dob",
+    "agency": "pisos.com",
+    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
+  },
+  {
     "url": "https://www.pisos.com/alquilar/piso-sants_montjuic_hostafrancs08014-63420332110_530867/",
     "price": 800,
     "rooms": 1,
