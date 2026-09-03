@@ -525,16 +525,6 @@
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
   {
-    "url": "https://inmobiliaria.calvetpremium.com/es/alquiler-pisos-pisos/en-barcelona-barcelona//ref-4115",
-    "price": 1039,
-    "rooms": 1,
-    "kind": "piso",
-    "title": "Ronda Sant Pere | Ref: 4115",
-    "img": "https://media.mobiliagestion.es/Portals/inmocalvet/Images/4115/28194122-large.jpg",
-    "text": " Ronda Sant Pere | Ref: 4115 PDCookieConsent.config({ \"brand\": { \"dev\" : false, \"name\": \"\", \"url\" : \"\" }, \"cookiePolicyLink\": \"\", \"passList\" : [], \"showBadges\" : true, \"styles\": { ",
-    "agency": "Calvet"
-  },
-  {
     "url": "https://www.pisos.com/alquilar/piso-el_poble_sec08004-65909882241_109200/",
     "price": 1065,
     "rooms": null,
