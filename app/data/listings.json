@@ -33,6 +33,17 @@
     "rent_url": "https://finqueselpallars.com/alquiler"
   },
   {
+    "url": "https://finquesmartell.com/immoble/maragall-pl-2-3-entl-3-barcelona-alquiler-001058-1/",
+    "price": 600,
+    "rooms": 3,
+    "kind": "piso",
+    "title": "Maragall, pl. 2-3 entl 3 BARCELONA-Alquiler-001058/1",
+    "img": "https://finquesmartell.com/wp-content/uploads/2026/06/martell-1058-11-2.jpg",
+    "text": "Alquiler Maragall, pl. 2-3 entl 3 BARCELONA-Alquiler-001058/1 58 m 2 3 hab. 1 baños 600€",
+    "agency": "Finques Martell",
+    "rent_url": "https://finquesmartell.com/inmuebles"
+  },
+  {
     "url": "https://www.pisos.com/alquilar/estudio-el_camp_de_arpa_del_clot08041-67504526226_109800/",
     "price": 600,
     "rooms": 2,
@@ -107,6 +118,17 @@
     "text": "1 /4 PREMIUM 800 € /mes Piso en Carrer de Mallorca Hostafrancs (Distrito Sants-Montjuïc. Barcelona Capital) 1 hab. 1 baño 44 m² 4ª planta Ubicado en finca con ascensor y en la 4ª p",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
+  },
+  {
+    "url": "https://finquesmartell.com/immoble/arc-de-sant-sever-l-barcelona-alquiler-001999-1/",
+    "price": 820,
+    "rooms": 2,
+    "kind": "piso",
+    "title": "ARC DE SANT SEVER (L’) BARCELONA-Alquiler-001999/1",
+    "img": "https://finquesmartell.com/wp-content/uploads/2026/08/martell-1999-12.jpg",
+    "text": "Alquiler ARC DE SANT SEVER (L’) BARCELONA-Alquiler-001999/1 Camp de l'Arpa 40 m 2 2 hab. 1 baños 820€",
+    "agency": "Finques Martell",
+    "rent_url": "https://finquesmartell.com/inmuebles"
   },
   {
     "url": "https://www.pisos.com/alquilar/estudio-eixample_sant_antoni08011-63382254620_530867/",
@@ -247,7 +269,7 @@
     "kind": "piso",
     "title": "Pis, 53.00 m 2",
     "img": "https://imagenes.ghestia.cat/images/webs/LIC1403_140518/fotos0/1398/foto_1.jpg",
-    "text": "lloguer Tipus 855€ Pis, 53.00 m 2 2 Dorm. 53.00 m 2 Veure mes Fa 8 hores",
+    "text": "lloguer Tipus 855€ Pis, 53.00 m 2 2 Dorm. 53.00 m 2 Veure mes Fa 9 hores",
     "agency": "Fincas Ubiergo",
     "rent_url": "https://www.fincasubiergo.com/alquiler"
   },
@@ -280,7 +302,7 @@
     "kind": "piso",
     "title": "Pis, 52.00 m 2",
     "img": "https://imagenes.ghestia.cat/images/webs/LIC1403_140518/fotos0/1399/foto_1.jpg",
-    "text": "lloguer Tipus 918€ Pis, 52.00 m 2 2 Dorm. 52.00 m 2 Veure mes Fa 8 hores",
+    "text": "lloguer Tipus 918€ Pis, 52.00 m 2 2 Dorm. 52.00 m 2 Veure mes Fa 9 hores",
     "agency": "Fincas Ubiergo",
     "rent_url": "https://www.fincasubiergo.com/alquiler"
   },
@@ -359,6 +381,28 @@
     "text": "1 /20 PREMIUM 988 € /mes Piso en El Raval El Raval (Distrito Ciutat Vella. Barcelona Capital) 3 habs. 1 baño 81 m² Reservas e inquietudes Tipo de alojamiento - alojamiento entero T",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
+  },
+  {
+    "url": "https://finquesmartell.com/immoble/llobregos-barcelona-alquiler-001525-1/",
+    "price": 989,
+    "rooms": 1,
+    "kind": "piso",
+    "title": "LLOBREGOS BARCELONA-Alquiler-001525/1",
+    "img": "https://finquesmartell.com/wp-content/uploads/2026/08/martell-1525-44.jpg",
+    "text": "Alquiler LLOBREGOS BARCELONA-Alquiler-001525/1 El Carmel 60 m 2 1 hab. 1 baños 989€",
+    "agency": "Finques Martell",
+    "rent_url": "https://finquesmartell.com/inmuebles"
+  },
+  {
+    "url": "https://finquesmartell.com/immoble/xifre-barcelona-alquiler-001895-1/",
+    "price": 990,
+    "rooms": 3,
+    "kind": "piso",
+    "title": "Xifré BARCELONA-Alquiler-001895/1",
+    "img": "https://finquesmartell.com/wp-content/uploads/2026/08/martell-1895-16.jpg",
+    "text": "Alquiler Xifré BARCELONA-Alquiler-001895/1 Camp de l'Arpa 60 m 2 3 hab. 1 baños 990€",
+    "agency": "Finques Martell",
+    "rent_url": "https://finquesmartell.com/inmuebles"
   },
   {
     "url": "https://www.pisos.com/alquilar/piso-sant_marti_el_poblenou08005-62598698622_531896/",
