@@ -33,17 +33,6 @@
     "rent_url": "https://finqueselpallars.com/alquiler"
   },
   {
-    "url": "https://finquesmartell.com/immoble/maragall-pl-2-3-entl-3-barcelona-alquiler-001058-1/",
-    "price": 600,
-    "rooms": 3,
-    "kind": "piso",
-    "title": "Maragall, pl. 2-3 entl 3 BARCELONA-Alquiler-001058/1",
-    "img": "https://finquesmartell.com/wp-content/uploads/2026/06/martell-1058-11-2.jpg",
-    "text": "Alquiler Maragall, pl. 2-3 entl 3 BARCELONA-Alquiler-001058/1 58 m 2 3 hab. 1 baños 600€",
-    "agency": "Finques Martell",
-    "rent_url": "https://finquesmartell.com/inmuebles"
-  },
-  {
     "url": "https://www.pisos.com/alquilar/estudio-el_camp_de_arpa_del_clot08041-67504526226_109800/",
     "price": 600,
     "rooms": 2,
@@ -118,17 +107,6 @@
     "text": "1 /4 PREMIUM 800 € /mes Piso en Carrer de Mallorca Hostafrancs (Distrito Sants-Montjuïc. Barcelona Capital) 1 hab. 1 baño 44 m² 4ª planta Ubicado en finca con ascensor y en la 4ª p",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
-  },
-  {
-    "url": "https://finquesmartell.com/immoble/arc-de-sant-sever-l-barcelona-alquiler-001999-1/",
-    "price": 820,
-    "rooms": 2,
-    "kind": "piso",
-    "title": "ARC DE SANT SEVER (L’) BARCELONA-Alquiler-001999/1",
-    "img": "https://finquesmartell.com/wp-content/uploads/2026/08/martell-1999-12.jpg",
-    "text": "Alquiler ARC DE SANT SEVER (L’) BARCELONA-Alquiler-001999/1 Camp de l'Arpa 40 m 2 2 hab. 1 baños 820€",
-    "agency": "Finques Martell",
-    "rent_url": "https://finquesmartell.com/inmuebles"
   },
   {
     "url": "https://www.pisos.com/alquilar/estudio-eixample_sant_antoni08011-63382254620_530867/",
@@ -361,6 +339,17 @@
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
   {
+    "url": "https://www.locabarcelona.com/en/property/nice-1-bedroom-apartment-ideal-for-a-couple/",
+    "price": 985,
+    "rooms": 1,
+    "kind": "piso",
+    "title": "Available now 985€ Nice 1 bedroom apartment ideal for a couple (AVAILABLE ONLY UNTIL JANUARY) Ciutat vella              ",
+    "img": "https://www.locabarcelona.com/wp-content/uploads/2021/10/8d9c107f-2f5a-4cf8-b692-4a4cd1e56b0d-25-488x326.jpg",
+    "text": "View Property View Property View Property View Property View Property View Property View Property View Property View Property View Property View Property View Property View Propert",
+    "agency": "Loca Barcelona",
+    "rent_url": "https://www.locabarcelona.com/en/property-feature/features/furnished/"
+  },
+  {
     "url": "https://www.pisos.com/alquilar/piso-el_raval-66725773316_104700/",
     "price": 988,
     "rooms": 3,
@@ -372,28 +361,6 @@
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
   {
-    "url": "https://finquesmartell.com/immoble/llobregos-barcelona-alquiler-001525-1/",
-    "price": 989,
-    "rooms": 1,
-    "kind": "piso",
-    "title": "LLOBREGOS BARCELONA-Alquiler-001525/1",
-    "img": "https://finquesmartell.com/wp-content/uploads/2026/08/martell-1525-44.jpg",
-    "text": "Alquiler LLOBREGOS BARCELONA-Alquiler-001525/1 El Carmel 60 m 2 1 hab. 1 baños 989€",
-    "agency": "Finques Martell",
-    "rent_url": "https://finquesmartell.com/inmuebles"
-  },
-  {
-    "url": "https://finquesmartell.com/immoble/xifre-barcelona-alquiler-001895-1/",
-    "price": 990,
-    "rooms": 3,
-    "kind": "piso",
-    "title": "Xifré BARCELONA-Alquiler-001895/1",
-    "img": "https://finquesmartell.com/wp-content/uploads/2026/08/martell-1895-16.jpg",
-    "text": "Alquiler Xifré BARCELONA-Alquiler-001895/1 Camp de l'Arpa 60 m 2 3 hab. 1 baños 990€",
-    "agency": "Finques Martell",
-    "rent_url": "https://finquesmartell.com/inmuebles"
-  },
-  {
     "url": "https://www.pisos.com/alquilar/piso-sant_marti_el_poblenou08005-62598698622_531896/",
     "price": 990,
     "rooms": 3,
@@ -401,17 +368,6 @@
     "title": "Piso en El Poblenou",
     "img": "https://fotos.imghs.net/mm-wp/531896/62598698622.531896/531896_62598698622_17fdc477-4520-46f1-8baa-432329857602.jpg",
     "text": "1 /12 PREMIUM 990 € /mes Piso en El Poblenou El Poblenou (Distrito Sant Martí. Barcelona Capital) 3 habs. 1 baño 62 m² 1ª planta El piso se encuentra en muy buen estado, listo para",
-    "agency": "pisos.com",
-    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
-  },
-  {
-    "url": "https://www.pisos.com/alquilar/piso-el_barri_gotic08002-65868084159_518209/",
-    "price": 995,
-    "rooms": 1,
-    "kind": "piso",
-    "title": "Piso en Carrer dels Boters",
-    "img": "https://fotos.imghs.net/mm-wp/518209/65868084159.518209/518209_65868084159_1_20260729181822153.jpg",
-    "text": "1 /23 PREMIUM 995 € /mes Piso en Carrer dels Boters El Barri Gòtic (Distrito Ciutat Vella. Barcelona Capital) 1 hab. 1 baño 30 m² 1ª planta Ref: 001839n Alquiler larga estancia Dis",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
