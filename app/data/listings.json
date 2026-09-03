@@ -175,17 +175,6 @@
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
   {
-    "url": "https://www.pisos.com/alquilar/piso-barcelona_capital-61709072933_109200/",
-    "price": 850,
-    "rooms": null,
-    "kind": "piso",
-    "title": "Piso en Barcelona Capital",
-    "img": "https://fotos.imghs.net/mm-wp/1092/710/1092_EB2-69a230bf4282bed67404d7ea_1_202603240632291235743.jpg",
-    "text": "1 /10 PREMIUM 850 € /mes Piso en Barcelona Capital Barcelona Capital 15 m² Se alquila estudio para una persona alquiler ideal estudiantes trabajadores erasmus medicos Cerca del met",
-    "agency": "pisos.com",
-    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
-  },
-  {
     "url": "https://www.pisos.com/alquilar/estudio-el_barri_gotic08002-66740388412_518209/",
     "price": 850,
     "rooms": 1,
@@ -237,6 +226,17 @@
     "title": "Estudio en Sants-Badal",
     "img": "https://fotos.imghs.net/mm-wp/1047/938/1047_422938_1_2025072709074612201.jpg",
     "text": "1 /9 PREMIUM 850 € /mes Estudio en Sants-Badal Sants-Badal (Distrito Sants-Montjuïc. Barcelona Capital) 1 baño 20 m² Reservas e inquietudes Tipo de alojamiento - alojamiento entero",
+    "agency": "pisos.com",
+    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
+  },
+  {
+    "url": "https://www.pisos.com/alquilar/piso-barcelona_capital-61709072933_109200/",
+    "price": 850,
+    "rooms": null,
+    "kind": "piso",
+    "title": "Piso en Barcelona Capital",
+    "img": "https://fotos.imghs.net/mm-wp/1092/710/1092_EB2-69a230bf4282bed67404d7ea_1_202603240632291235743.jpg",
+    "text": "1 /10 PREMIUM 850 € /mes Piso en Barcelona Capital Barcelona Capital 15 m² Se alquila estudio para una persona alquiler ideal estudiantes trabajadores erasmus medicos Cerca del met",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
