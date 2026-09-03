@@ -568,13 +568,13 @@
     "rent_url": "https://toysanfinques.com/es/inmuebles/?transaction_type=lloguer&property__type=property"
   },
   {
-    "url": "https://www.pisos.com/alquilar/piso-sants_montjuic_sants08028-67527029429_109200/",
+    "url": "https://www.pisos.com/alquilar/estudio-la_vila_de_gracia08012-29235170941_100500/",
     "price": 1100,
     "rooms": null,
     "kind": "piso",
-    "title": "Piso en Sants",
-    "img": "https://fotos.imghs.net/mm-wp/1092/3230323630393031/48e0cd94-ef9e-4612-8585-e6f0d0895a13.jpg",
-    "text": "1 /5 Nuevo PREMIUM 1.100 € /mes Piso en Sants Sants (Distrito Sants-Montjuïc. Barcelona Capital) 40 m² Estudio reformado con una zona de estar luminosa. Estarás justo en el centro ",
+    "title": "Estudio en Carrer de Sant Pere Màrtir",
+    "img": "https://fotos.imghs.net/mm-wp/1005/3230323630383232/dc64bb66-566b-4a14-947a-b56b581c6652.jpg",
+    "text": "1 /23 Nuevo DESTACADO 1.100 € /mes Estudio en Carrer de Sant Pere Màrtir La Vila de Gràcia (Distrito Gràcia. Barcelona Capital) 1 baño 40 m² Precioso loft renovado en pleno barrio ",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
@@ -641,6 +641,17 @@
     "title": "Piso en Hostafrancs",
     "img": "https://fotos.imghs.net/mm-wp/1092/3230323630363131/db7cbb24-c0c4-41ee-8662-0fe06ec4764d.jpg",
     "text": "1 /10 PREMIUM 1.100 € /mes Piso en Hostafrancs Hostafrancs (Distrito Sants-Montjuïc. Barcelona Capital) 25 m² 🏡 private studio in barcelona – ideal for students Enjoy a comfortable",
+    "agency": "pisos.com",
+    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
+  },
+  {
+    "url": "https://www.pisos.com/alquilar/piso-sants_montjuic_sants08028-67527029429_109200/",
+    "price": 1100,
+    "rooms": null,
+    "kind": "piso",
+    "title": "Piso en Sants",
+    "img": "https://fotos.imghs.net/mm-wp/1092/3230323630393031/48e0cd94-ef9e-4612-8585-e6f0d0895a13.jpg",
+    "text": "1 /5 Nuevo PREMIUM 1.100 € /mes Piso en Sants Sants (Distrito Sants-Montjuïc. Barcelona Capital) 40 m² Estudio reformado con una zona de estar luminosa. Estarás justo en el centro ",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
