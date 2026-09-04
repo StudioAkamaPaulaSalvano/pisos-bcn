@@ -285,6 +285,26 @@
     "rent_url": "https://www.fincasubiergo.com/alquiler"
   },
   {
+    "url": "https://inmobiliaria.calvetpremium.com/es/alquiler-pisos-pisos/en-barcelona-barcelona//ref-4122",
+    "price": 865,
+    "rooms": 2,
+    "kind": "piso",
+    "title": "Mateu - Torrent de L'Olla | Ref: 4122",
+    "img": "https://media.mobiliagestion.es/Portals/inmocalvet/Images/4122/28215223-large.jpg",
+    "text": " Mateu - Torrent de L'Olla | Ref: 4122 PDCookieConsent.config({ \"brand\": { \"dev\" : false, \"name\": \"\", \"url\" : \"\" }, \"cookiePolicyLink\": \"\", \"passList\" : [], \"showBadges\" : true, \"s",
+    "agency": "Calvet"
+  },
+  {
+    "url": "https://inmobiliaria.calvetpremium.com/es/alquiler-pisos-pisos/en-barcelona-barcelona//ref-4123",
+    "price": 867,
+    "rooms": 2,
+    "kind": "piso",
+    "title": "GRAN DE GRACIA / LESSEPS | Ref: 4123",
+    "img": "https://media.mobiliagestion.es/Portals/inmocalvet/Images/4123/28229203-large.jpg",
+    "text": " GRAN DE GRACIA / LESSEPS | Ref: 4123 PDCookieConsent.config({ \"brand\": { \"dev\" : false, \"name\": \"\", \"url\" : \"\" }, \"cookiePolicyLink\": \"\", \"passList\" : [], \"showBadges\" : true, \"st",
+    "agency": "Calvet"
+  },
+  {
     "url": "https://www.pisos.com/alquilar/estudio-el_poble_sec08004-67527772384_104700/",
     "price": 890,
     "rooms": null,
