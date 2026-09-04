@@ -11,17 +11,6 @@
     "rent_url": "https://masifill.com/status/llogar/"
   },
   {
-    "url": "https://barnapiso.com/es/vivienda/propiedad-en-las-cortes-4/",
-    "price": 425,
-    "rooms": null,
-    "kind": "piso",
-    "title": "Propiedad en Les Corts",
-    "img": "https://barnapiso.com/wp-content/uploads/2024/11/1231744428-scaled.jpg",
-    "text": "Propiedad en Les Corts Precio Alquiler: 425 € de San Ramón Nonato m2 construidos habitaciones baños",
-    "agency": "BarnaPiso",
-    "rent_url": "https://barnapiso.com/es/propiedades-disponibles-barcelona/"
-  },
-  {
     "url": "https://finqueselpallars.com/piso-en-alquiler-les-corts-barcelona/",
     "price": 500,
     "rooms": null,
@@ -394,17 +383,6 @@
     "rent_url": "https://finquesmartell.com/inmuebles"
   },
   {
-    "url": "https://finquesmartell.com/immoble/xifre-barcelona-alquiler-001895-1/",
-    "price": 990,
-    "rooms": 3,
-    "kind": "piso",
-    "title": "Xifré BARCELONA-Alquiler-001895/1",
-    "img": "https://finquesmartell.com/wp-content/uploads/2026/08/martell-1895-16.jpg",
-    "text": "Alquiler Xifré BARCELONA-Alquiler-001895/1 Camp de l'Arpa 60 m 2 3 hab. 1 baños 990€",
-    "agency": "Finques Martell",
-    "rent_url": "https://finquesmartell.com/inmuebles"
-  },
-  {
     "url": "https://www.pisos.com/alquilar/piso-sant_marti_el_poblenou08005-62598698622_531896/",
     "price": 990,
     "rooms": 3,
@@ -414,17 +392,6 @@
     "text": "1 /12 PREMIUM 990 € /mes Piso en El Poblenou El Poblenou (Distrito Sant Martí. Barcelona Capital) 3 habs. 1 baño 62 m² 1ª planta El piso se encuentra en muy buen estado, listo para",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
-  },
-  {
-    "url": "https://barnapiso.com/es/vivienda/propiedad-en-sants-montjuic/",
-    "price": 1000,
-    "rooms": null,
-    "kind": "piso",
-    "title": "Propiedad en Sants-Montjuïc",
-    "img": "https://barnapiso.com/wp-content/uploads/2024/11/989391816.jpg",
-    "text": "Propiedad en Sants-Montjuïc Precio Alquiler: 1000 € de Sugranyes m2 construidos habitaciones baños",
-    "agency": "BarnaPiso",
-    "rent_url": "https://barnapiso.com/es/propiedades-disponibles-barcelona/"
   },
   {
     "url": "https://www.pisos.com/alquilar/apartamento-sant_pere_santa_caterina_la_ribera08003-64206819507_530867/",
@@ -487,7 +454,7 @@
     "kind": "piso",
     "title": "Piso en Plaça del Mercadal",
     "img": "https://fotos.imghs.net/mm-wp/501025/65914432493.501025/501025_65914432493_628c7b8d-761f-45b2-9587-bcd357bd316a.jpg",
-    "text": "1 /32 PREMIUM 1.029 € /mes Piso en Plaça del Mercadal Sant Andreu (Distrito Sant Andreu. Barcelona Capital) 1 hab. 1 baño 63 m² Bajo Informacion importante: para visitar esta vivie",
+    "text": "1 /32 TOP Exclusivo 1.029 € /mes Piso en Plaça del Mercadal Sant Andreu (Distrito Sant Andreu. Barcelona Capital) 1 hab. 1 baño 63 m² Bajo Informacion importante: para visitar esta",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
