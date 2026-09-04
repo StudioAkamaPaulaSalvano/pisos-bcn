@@ -131,17 +131,6 @@
     "rent_url": "https://finquesmartell.com/inmuebles"
   },
   {
-    "url": "https://www.pisos.com/alquilar/estudio-eixample_sant_antoni08011-63382254620_530867/",
-    "price": 820,
-    "rooms": null,
-    "kind": "piso",
-    "title": "Estudio en Carrer de Casanova",
-    "img": "https://fotos.imghs.net/mm-wp/530867/63382254620.530867/530867_63382254620_9c9ce48c-0b49-47ef-8643-0ed44fab3256.jpg",
-    "text": "1 /4 PREMIUM 820 € /mes Estudio en Carrer de Casanova Sant Antoni (Distrito Eixample. Barcelona Capital) 1 baño 33 m² Ubicado en la calle casanova, en el barrio de l’antiga esquerr",
-    "agency": "pisos.com",
-    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
-  },
-  {
     "url": "https://www.guinotprunera.com/es/alquiler/ref-31961",
     "price": 823,
     "rooms": null,
@@ -162,17 +151,6 @@
     "text": "Piso en Alquiler a BARCELONA / La Antiga Esquerra de l'Eixample ENRIC GRANADOS 850 € Finques Feliu del Grupo Housfy, alquila estudio en la C.Enric Granados, en l’Eixample de... 42 ",
     "agency": "Finques Feliu",
     "rent_url": "https://www.finquesfeliu.es/es/buscador/inter"
-  },
-  {
-    "url": "https://www.pisos.com/alquilar/piso-el_carmel08032-66679791693_106100/",
-    "price": 850,
-    "rooms": null,
-    "kind": "piso",
-    "title": "Piso en El Carmel",
-    "img": "https://fotos.imghs.net/mm-wp/1061/3230323630383330/fb2f8049-5189-4745-8c71-ab9e957458d7.jpg",
-    "text": "1 /20 Nuevo PREMIUM 850 € /mes Piso en El Carmel El Carmel (Distrito Horta-Guinardó. Barcelona Capital) 1 baño 45 m² Principal Dolça llar presenta este inmueble en alquiler de temp",
-    "agency": "pisos.com",
-    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
   {
     "url": "https://www.pisos.com/alquilar/estudio-el_barri_gotic08002-66740388412_518209/",
@@ -204,6 +182,17 @@
     "title": "Piso en El Poble-Sec",
     "img": "https://fotos.imghs.net/mm-wp/531896/60051110553.531896/531896_60051110553_e809427e-0e08-4060-9100-fc49f623ddb9.jpg",
     "text": "1 /16 PREMIUM 850 € /mes Piso en El Poble-Sec El Poble-sec (Distrito Sants-Montjuïc. Barcelona Capital) 3 habs. 1 baño 47 m² 1ª planta Antes de poder agendar una visita al inmueble",
+    "agency": "pisos.com",
+    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
+  },
+  {
+    "url": "https://www.pisos.com/alquilar/piso-el_carmel08032-66679791693_106100/",
+    "price": 850,
+    "rooms": null,
+    "kind": "piso",
+    "title": "Piso en El Carmel",
+    "img": "https://fotos.imghs.net/mm-wp/1061/3230323630383330/fb2f8049-5189-4745-8c71-ab9e957458d7.jpg",
+    "text": "1 /20 Nuevo PREMIUM 850 € /mes Piso en El Carmel El Carmel (Distrito Horta-Guinardó. Barcelona Capital) 1 baño 45 m² Principal Dolça llar presenta este inmueble en alquiler de temp",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
