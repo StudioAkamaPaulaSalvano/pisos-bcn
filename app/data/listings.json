@@ -131,6 +131,17 @@
     "rent_url": "https://finquesmartell.com/inmuebles"
   },
   {
+    "url": "https://www.pisos.com/alquilar/estudio-eixample_sant_antoni08011-63382254620_530867/",
+    "price": 820,
+    "rooms": null,
+    "kind": "piso",
+    "title": "Estudio en Carrer de Casanova",
+    "img": "https://fotos.imghs.net/mm-wp/530867/63382254620.530867/530867_63382254620_9c9ce48c-0b49-47ef-8643-0ed44fab3256.jpg",
+    "text": "1 /4 PREMIUM 820 € /mes Estudio en Carrer de Casanova Sant Antoni (Distrito Eixample. Barcelona Capital) 1 baño 33 m² Ubicado en la calle casanova, en el barrio de l’antiga esquerr",
+    "agency": "pisos.com",
+    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
+  },
+  {
     "url": "https://www.guinotprunera.com/es/alquiler/ref-31961",
     "price": 823,
     "rooms": null,
@@ -219,17 +230,6 @@
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
   {
-    "url": "https://www.pisos.com/alquilar/piso-barcelona_capital-61709072933_109200/",
-    "price": 850,
-    "rooms": null,
-    "kind": "piso",
-    "title": "Piso en Barcelona Capital",
-    "img": "https://fotos.imghs.net/mm-wp/1092/710/1092_EB2-69a230bf4282bed67404d7ea_1_202603240632291235743.jpg",
-    "text": "1 /10 PREMIUM 850 € /mes Piso en Barcelona Capital Barcelona Capital 15 m² Se alquila estudio para una persona alquiler ideal estudiantes trabajadores erasmus medicos Cerca del met",
-    "agency": "pisos.com",
-    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
-  },
-  {
     "url": "https://www.pisos.com/alquilar/estudio-la_maternitat_sant_ramon08028-66694792328_104700/",
     "price": 850,
     "rooms": null,
@@ -241,24 +241,13 @@
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
   {
-    "url": "https://www.pisos.com/alquilar/piso-gracia_la_salut08024-66682248054_109200/",
-    "price": 850,
-    "rooms": null,
-    "kind": "piso",
-    "title": "Piso en La Salut",
-    "img": "https://fotos.imghs.net/mm-wp/1092/3230323630383133/97ec88ba-fd4b-4864-be96-8dad5f70a0fd.jpg",
-    "text": "1 /7 PREMIUM 850 € /mes Piso en La Salut La Salut (Distrito Gràcia. Barcelona Capital) 25 m² 🌟 charming studio with stunning views over barcelona! 🌟 Welcome to this cozy and bright",
-    "agency": "pisos.com",
-    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
-  },
-  {
     "url": "https://www.fincasubiergo.com/ca/lloguer/habitatges/barcelona/barcelona/1398",
     "price": 855,
     "rooms": 2,
     "kind": "piso",
     "title": "Pis, 53.00 m 2",
     "img": "https://imagenes.ghestia.cat/images/webs/LIC1403_140518/fotos0/1398/foto_1.jpg",
-    "text": "lloguer Tipus 855€ Pis, 53.00 m 2 2 Dorm. 53.00 m 2 Veure mes Fa 22 hores",
+    "text": "lloguer Tipus 855€ Pis, 53.00 m 2 2 Dorm. 53.00 m 2 Veure mes Fa 23 hores",
     "agency": "Fincas Ubiergo",
     "rent_url": "https://www.fincasubiergo.com/alquiler"
   },
@@ -274,24 +263,13 @@
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
   {
-    "url": "https://www.pisos.com/alquilar/piso-sant_genis_dels_agudells-67532245972_109200/",
-    "price": 914,
-    "rooms": 3,
-    "kind": "piso",
-    "title": "Piso en Horta - Guinardo",
-    "img": "https://fotos.imghs.net/mm-wp/1092/3230323630393033/c9c947ef-b999-4b26-a287-c3bfc476fa30.jpg",
-    "text": "1 /15 Nuevo PREMIUM 914 € /mes Piso en Horta - Guinardo Sant Genís dels Agudells (Distrito Horta-Guinardó. Barcelona Capital) 3 habs. 1 baño 60 m² 2ª planta Piso de 60m², 3 dormito",
-    "agency": "pisos.com",
-    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
-  },
-  {
     "url": "https://www.fincasubiergo.com/ca/lloguer/habitatges/barcelona/barcelona/1399",
     "price": 918,
     "rooms": 2,
     "kind": "piso",
     "title": "Pis, 52.00 m 2",
     "img": "https://imagenes.ghestia.cat/images/webs/LIC1403_140518/fotos0/1399/foto_1.jpg",
-    "text": "lloguer Tipus 918€ Pis, 52.00 m 2 2 Dorm. 52.00 m 2 Veure mes Fa 22 hores",
+    "text": "lloguer Tipus 918€ Pis, 52.00 m 2 2 Dorm. 52.00 m 2 Veure mes Fa 23 hores",
     "agency": "Fincas Ubiergo",
     "rent_url": "https://www.fincasubiergo.com/alquiler"
   },
@@ -416,17 +394,6 @@
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
   {
-    "url": "https://www.pisos.com/alquilar/piso-el_camp_en_grassot_gracia_nova08024-66705357561_109200/",
-    "price": 1000,
-    "rooms": 3,
-    "kind": "piso",
-    "title": "Piso en El Camp d'en Grassot-Gràcia Nova",
-    "img": "https://fotos.imghs.net/mm-wp/1092/3230323630383330/480a074f-12b7-471d-992c-d553863c92cb.jpg",
-    "text": "1 /10 Nuevo PREMIUM 1.000 € /mes Piso en El Camp d'en Grassot-Gràcia Nova El Camp d'en Grassot-Gràcia Nova (Distrito Gràcia. Barcelona Capital) 55 m² Simple apartment for students ",
-    "agency": "pisos.com",
-    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
-  },
-  {
     "url": "https://www.guinotprunera.com/es/alquiler/ref-31590",
     "price": 1001,
     "rooms": null,
@@ -486,7 +453,7 @@
     "kind": "piso",
     "title": "Piso en El Barri Gòtic",
     "img": "https://fotos.imghs.net/mm-wp/1092/3230323630393033/055e4978-8f67-48df-8b05-acacecc315bc.jpg",
-    "text": "1 /6 Nuevo PREMIUM 1.079 € /mes Piso en El Barri Gòtic El Barri Gòtic (Distrito Ciutat Vella. Barcelona Capital) 50 m² 🏡 independent studio in mezzanine with bathroom and private k",
+    "text": "1 /6 Nuevo DESTACADO 1.079 € /mes Piso en El Barri Gòtic El Barri Gòtic (Distrito Ciutat Vella. Barcelona Capital) 50 m² 🏡 independent studio in mezzanine with bathroom and private",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
