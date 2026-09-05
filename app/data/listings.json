@@ -328,6 +328,28 @@
     "rent_url": "https://www.fincasubiergo.com/alquiler"
   },
   {
+    "url": "https://www.fincasubiergo.com/ca/lloguer/habitatges/barcelona/barcelona/1392",
+    "price": 918,
+    "rooms": 2,
+    "kind": "piso",
+    "title": "1392",
+    "img": "https://imagenes.ghestia.cat/images/webs/LIC1403_140518/fotos0/1399/foto_1.jpg",
+    "text": "Tipus lloguer Pis 918€ 2 Dorm.. 52.00 m 2 Tipus lloguer Pis 838€ 4 Dorm.. 66.00 m 2 Tipus lloguer Pis 983€ 2 Dorm.. 70.00 m 2 Tipus lloguer Altre 90€ Dorm.. 4.00 m 2",
+    "agency": "Fincas Ubiergo",
+    "rent_url": "https://www.fincasubiergo.com/alquiler"
+  },
+  {
+    "url": "https://www.fincasubiergo.com/ca/lloguer/altres-immobles/barcelona/barcelona/1188",
+    "price": 918,
+    "rooms": 2,
+    "kind": "piso",
+    "title": "1188",
+    "img": "https://imagenes.ghestia.cat/images/webs/LIC1403_140518/fotos0/1399/foto_1.jpg",
+    "text": "Tipus lloguer Pis 918€ 2 Dorm.. 52.00 m 2 Tipus lloguer Pis 838€ 4 Dorm.. 66.00 m 2 Tipus lloguer Pis 983€ 2 Dorm.. 70.00 m 2 Tipus lloguer Altre 90€ Dorm.. 4.00 m 2",
+    "agency": "Fincas Ubiergo",
+    "rent_url": "https://www.fincasubiergo.com/alquiler"
+  },
+  {
     "url": "https://www.pisos.com/alquilar/piso-la_maternitat_sant_ramon-63343839529_530867/",
     "price": 925,
     "rooms": 1,
