@@ -154,6 +154,17 @@
     "rent_url": "https://www.guinotprunera.com/es/alquiler"
   },
   {
+    "url": "https://www.pisos.com/alquilar/atico-el_carmel-67541021640_106100/",
+    "price": 840,
+    "rooms": 1,
+    "kind": "piso",
+    "title": "Ático en El Carmel",
+    "img": "https://fotos.imghs.net/mm-wp/1061/3230323630393035/8e7bb552-d4f5-41e6-b23c-d582b801ce60.jpg",
+    "text": "1 /19 Nuevo PREMIUM 840 € /mes Ático en El Carmel El Carmel (Distrito Horta-Guinardó. Barcelona Capital) 1 hab. 1 baño 47 m² No se alquilara ni visitara si n o se reunen las condic",
+    "agency": "pisos.com",
+    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
+  },
+  {
     "url": "https://www.finquesfeliu.es/es/node/13324",
     "price": 850,
     "rooms": null,
@@ -270,7 +281,7 @@
     "kind": "piso",
     "title": "Pis, 53.00 m 2",
     "img": "https://imagenes.ghestia.cat/images/webs/LIC1403_140518/fotos0/1398/foto_1.jpg",
-    "text": "lloguer Tipus 855€ Pis, 53.00 m 2 2 Dorm. 53.00 m 2 Veure mes Fa 1 hora",
+    "text": "lloguer Tipus 855€ Pis, 53.00 m 2 2 Dorm. 53.00 m 2 Veure mes Fa 2 hores",
     "agency": "Fincas Ubiergo",
     "rent_url": "https://www.fincasubiergo.com/alquiler"
   },
@@ -312,7 +323,7 @@
     "kind": "piso",
     "title": "Pis, 52.00 m 2",
     "img": "https://imagenes.ghestia.cat/images/webs/LIC1403_140518/fotos0/1399/foto_1.jpg",
-    "text": "lloguer Tipus 918€ Pis, 52.00 m 2 2 Dorm. 52.00 m 2 Veure mes Fa 1 hora",
+    "text": "lloguer Tipus 918€ Pis, 52.00 m 2 2 Dorm. 52.00 m 2 Veure mes Fa 2 hores",
     "agency": "Fincas Ubiergo",
     "rent_url": "https://www.fincasubiergo.com/alquiler"
   },
@@ -377,20 +388,9 @@
     "kind": "piso",
     "title": "Pis, 70.00 m 2",
     "img": "https://imagenes.ghestia.cat/images/webs/LIC1403_140518/fotos0/1401/foto_1.jpg",
-    "text": "lloguer Tipus 983€ Pis, 70.00 m 2 2 Dorm. 70.00 m 2 Veure mes Fa 1 hora",
+    "text": "lloguer Tipus 983€ Pis, 70.00 m 2 2 Dorm. 70.00 m 2 Veure mes Fa 2 hores",
     "agency": "Fincas Ubiergo",
     "rent_url": "https://www.fincasubiergo.com/alquiler"
-  },
-  {
-    "url": "https://www.pisos.com/alquilar/piso-el_raval-66725773316_104700/",
-    "price": 988,
-    "rooms": 3,
-    "kind": "piso",
-    "title": "Piso en El Raval",
-    "img": "https://fotos.imghs.net/mm-wp/1047/3230323630383230/8d3f3a99-1dba-4bb9-a94a-fb2f0a2f97ec.jpg",
-    "text": "1 /20 PREMIUM 988 € /mes Piso en El Raval El Raval (Distrito Ciutat Vella. Barcelona Capital) 3 habs. 1 baño 81 m² Reservas e inquietudes Tipo de alojamiento - alojamiento entero T",
-    "agency": "pisos.com",
-    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
   {
     "url": "https://finquesmartell.com/immoble/llobregos-barcelona-alquiler-001525-1/",
