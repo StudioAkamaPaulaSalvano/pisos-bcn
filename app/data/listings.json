@@ -209,13 +209,13 @@
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
   {
-    "url": "https://www.pisos.com/alquilar/estudio-sant_pere_santa_caterina_la_ribera-67580624372_104700/",
+    "url": "https://www.pisos.com/alquilar/estudio-sant_pere_santa_caterina_la_ribera-55928940691_104700/",
     "price": 850,
     "rooms": null,
     "kind": "piso",
     "title": "Estudio en Sant Pere-Santa Caterina-La Ribera",
-    "img": "https://fotos.imghs.net/mm-wp/1047/3230323630393034/5e575da5-3fb2-49a4-a5ff-06689a05e2cb.jpg",
-    "text": "1 /18 Nuevo PREMIUM 850 € /mes Estudio en Sant Pere-Santa Caterina-La Ribera Sant Pere-Santa Caterina-La Ribera (Distrito Ciutat Vella. Barcelona Capital) 1 baño 30 m² Reservas e i",
+    "img": "https://fotos.imghs.net/mm-wp/1047/675/1047_37675_1_2025070409075898420.jpg",
+    "text": "1 /22 Nuevo PREMIUM 850 € /mes Estudio en Sant Pere-Santa Caterina-La Ribera Sant Pere-Santa Caterina-La Ribera (Distrito Ciutat Vella. Barcelona Capital) 1 baño 30 m² Reservas e i",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
@@ -356,6 +356,17 @@
     "title": "Estudio en Carrer de Tordera",
     "img": "https://fotos.imghs.net/mm-wp/530867/63424964407.530867/530867_63424964407_d39df721-627b-45c0-bded-c9fc7e01e2b6.jpg",
     "text": "1 /10 PREMIUM 975 € /mes Estudio en Carrer de Tordera La Vila de Gràcia (Distrito Gràcia. Barcelona Capital) 1 baño 40 m² Ubicado en gràcia, a pocos minutos de passeig de gràcia, y",
+    "agency": "pisos.com",
+    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
+  },
+  {
+    "url": "https://www.pisos.com/alquilar/piso-el_raval-66766234231_104700/",
+    "price": 975,
+    "rooms": 1,
+    "kind": "piso",
+    "title": "Piso en El Raval",
+    "img": "https://fotos.imghs.net/mm-wp/1047/3230323630383139/ebbd7643-15c5-484b-b000-018cb3bb93cc.jpg",
+    "text": "1 /11 PREMIUM 975 € /mes Piso en El Raval El Raval (Distrito Ciutat Vella. Barcelona Capital) 1 hab. 1 baño 43 m² Reservas e inquietudes Tipo de alojamiento - alojamiento entero Té",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
@@ -562,7 +573,7 @@
     "rooms": null,
     "kind": "piso",
     "title": "Estudio en El Fort Pienc",
-    "img": "https://fotos.imghs.net/mm-wp/1047/433/1047_132433_4_2025040309040700683.jpg",
+    "img": "https://fotos.imghs.net/mm-wp/1047/433/1047_132433_3_2025040309040700682.jpg",
     "text": "1 /18 Nuevo PREMIUM 1.100 € /mes Estudio en El Fort Pienc El Fort Pienc (Distrito Eixample. Barcelona Capital) 1 baño 18 m² Reservas e inquietudes Tipo de alojamiento - alojamiento",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
