@@ -445,7 +445,7 @@
     "kind": "piso",
     "title": "Piso en Plaça del Mercadal",
     "img": "https://fotos.imghs.net/mm-wp/501025/65914432493.501025/501025_65914432493_628c7b8d-761f-45b2-9587-bcd357bd316a.jpg",
-    "text": "1 /32 TOP 1.029 € /mes Piso en Plaça del Mercadal Sant Andreu (Distrito Sant Andreu. Barcelona Capital) 1 hab. 1 baño 63 m² Bajo Informacion importante: para visitar esta vivienda ",
+    "text": "1 /32 PREMIUM 1.029 € /mes Piso en Plaça del Mercadal Sant Andreu (Distrito Sant Andreu. Barcelona Capital) 1 hab. 1 baño 63 m² Bajo Informacion importante: para visitar esta vivie",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
@@ -468,6 +468,17 @@
     "title": "Piso en El Poble-sec",
     "img": "https://fotos.imghs.net/mm-wp/1092/3230323630373034/52119242-4004-4719-a248-d3f20f29c950.jpg",
     "text": "1 /10 PREMIUM 1.065 € /mes Piso en El Poble-sec El Poble-sec (Distrito Sants-Montjuïc. Barcelona Capital) 41 m² Este maravilloso apartamento está idealmente ubicado cerca del parqu",
+    "agency": "pisos.com",
+    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
+  },
+  {
+    "url": "https://www.pisos.com/alquilar/piso-el_raval-67511766497_100500/",
+    "price": 1078,
+    "rooms": 2,
+    "kind": "piso",
+    "title": "Piso en Carrer de l'Est",
+    "img": "https://fotos.imghs.net/mm-wp/1005/3230323630393037/fa2402c1-5f64-4dd9-ade1-04fa1ed4fe32.jpg",
+    "text": "1 /20 Nuevo PREMIUM 1.078 € /mes Piso en Carrer de l'Est El Raval (Distrito Ciutat Vella. Barcelona Capital) 2 habs. 1 baño 52 m² 1ª planta Este encantador piso de 52 m² se encuent",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
