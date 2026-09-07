@@ -22,6 +22,17 @@
     "rent_url": "https://barnapiso.com/es/propiedades-disponibles-barcelona/"
   },
   {
+    "url": "https://finqueselpallars.com/piso-en-alquiler-les-corts-barcelona/",
+    "price": 500,
+    "rooms": null,
+    "kind": "piso",
+    "title": "Piso en alquiler. Les Corts, Barcelona",
+    "img": "https://finqueselpallars.com/wp-content/uploads/2026/01/regalirpf-500x383.jpg",
+    "text": "El regalo de 500€ que quizás no estas reclamando Galería El regalo de 500€ que quizás no estas reclamando 23/01/2026 Piso en alquiler. Les Corts, Barcelona Galería Piso en alquiler",
+    "agency": "Finques El Pallars",
+    "rent_url": "https://finqueselpallars.com/alquiler"
+  },
+  {
     "url": "https://finquesmartell.com/immoble/maragall-pl-2-3-entl-3-barcelona-alquiler-001058-1/",
     "price": 600,
     "rooms": 3,
@@ -456,7 +467,7 @@
     "kind": "piso",
     "title": "Piso en Plaça del Mercadal",
     "img": "https://fotos.imghs.net/mm-wp/501025/65914432493.501025/501025_65914432493_628c7b8d-761f-45b2-9587-bcd357bd316a.jpg",
-    "text": "1 /32 TOP 1.029 € /mes Piso en Plaça del Mercadal Sant Andreu (Distrito Sant Andreu. Barcelona Capital) 1 hab. 1 baño 63 m² Bajo Informacion importante: para visitar esta vivienda ",
+    "text": "1 /32 PREMIUM 1.029 € /mes Piso en Plaça del Mercadal Sant Andreu (Distrito Sant Andreu. Barcelona Capital) 1 hab. 1 baño 63 m² Bajo Informacion importante: para visitar esta vivie",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
