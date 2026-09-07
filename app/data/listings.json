@@ -329,6 +329,28 @@
     "rent_url": "https://www.fincasubiergo.com/alquiler"
   },
   {
+    "url": "https://www.finquesteixidor.com/ca/alquiler-pisos-barcelona.cfm/ID/82795/CAT/montjuic-rabi-ruben-atico-sin-ascensor.htm",
+    "price": 923,
+    "rooms": 2,
+    "kind": "piso",
+    "title": "Pis LLOGUER ZONA RABI RUBEN ATICO SIN ASCENSOR Vivienda situada en el barrio de Sants/ Montjuic, dispone de 60m2, distri",
+    "img": "https://finquesteixidor.com/IMAGES_9/6c05d0d4-4301-4bfe-80db-8aaf6894f34e.jpg",
+    "text": "FINQUES TEIXIDOR LLOGUER Ordenar por Tipo de Immueble Precio más bajo Precio más alto Más reciente Pis LLOGUER ZONA RABI RUBEN ATICO SIN ASCENSOR Vivienda situada en el barrio de S",
+    "agency": "Finques Teixidor",
+    "rent_url": "https://www.finquesteixidor.com/ca/alquiler-barcelona.cfm"
+  },
+  {
+    "url": "https://www.finquesteixidor.com/ca/alquiler-pisos-barcelona.cfm/ID/53985/CAT/plaza-españa-avda-mistral-923€.htm",
+    "price": 923,
+    "rooms": 2,
+    "kind": "piso",
+    "title": "Pis LLOGUER ZONA AVDA MISTRAL 923€ Vivienda situada a 5 min de plaça de Espanya, dispone de 55m2, 2 habitaciones, una do",
+    "img": "https://finquesteixidor.com/IMAGES_9/7447.jpg",
+    "text": "Pis LLOGUER ZONA AVDA MISTRAL 923€ Vivienda situada a 5 min de plaça de Espanya, dispone de 55m2, 2 habitaciones, una doble y una individual, ambas exteriores con balcón. Salón com",
+    "agency": "Finques Teixidor",
+    "rent_url": "https://www.finquesteixidor.com/ca/alquiler-barcelona.cfm"
+  },
+  {
     "url": "https://www.pisos.com/alquilar/piso-la_maternitat_sant_ramon-63343839529_530867/",
     "price": 925,
     "rooms": 1,
@@ -439,28 +461,6 @@
     "rent_url": "https://www.guinotprunera.com/es/alquiler"
   },
   {
-    "url": "https://www.finquesteixidor.com/ca/alquiler-pisos-barcelona.cfm/ID/82795/CAT/montjuic-rabi-ruben-atico-sin-ascensor.htm",
-    "price": 1013,
-    "rooms": 2,
-    "kind": "piso",
-    "title": "Pis LLOGUER ZONA RABI RUBEN ATICO SIN ASCENSOR Vivienda situada en el barrio de Sants/ Montjuic, dispone de 60m2, distri",
-    "img": "https://finquesteixidor.com/IMAGES_9/6c05d0d4-4301-4bfe-80db-8aaf6894f34e.jpg",
-    "text": "FINQUES TEIXIDOR LLOGUER Ordenar por Tipo de Immueble Precio más bajo Precio más alto Más reciente Pis LLOGUER ZONA RABI RUBEN ATICO SIN ASCENSOR Vivienda situada en el barrio de S",
-    "agency": "Finques Teixidor",
-    "rent_url": "https://www.finquesteixidor.com/ca/alquiler-barcelona.cfm"
-  },
-  {
-    "url": "https://www.finquesteixidor.com/ca/alquiler-pisos-barcelona.cfm/ID/57754/CAT/eixample-esquerre-diputacio-.htm",
-    "price": 1013,
-    "rooms": 2,
-    "kind": "piso",
-    "title": "Pis LLOGUER ZONA DIPUTACIO PISO EN ALQUILER – EIXAMPLE (BARCELONA) Vivienda reformada lista para entrar a vivir, ubicada",
-    "img": "https://finquesteixidor.com/IMAGES_9/6c05d0d4-4301-4bfe-80db-8aaf6894f34e.jpg",
-    "text": "FINQUES TEIXIDOR LLOGUER Ordenar por Tipo de Immueble Precio más bajo Precio más alto Más reciente Pis LLOGUER ZONA RABI RUBEN ATICO SIN ASCENSOR Vivienda situada en el barrio de S",
-    "agency": "Finques Teixidor",
-    "rent_url": "https://www.finquesteixidor.com/ca/alquiler-barcelona.cfm"
-  },
-  {
     "url": "https://www.finquesteixidor.com/ca/alquiler-pisos-barcelona.cfm/ID/68664/CAT/eixample-esquerre-avda-mistral-1013€.htm",
     "price": 1013,
     "rooms": 2,
@@ -478,7 +478,7 @@
     "kind": "piso",
     "title": "Piso en Plaça del Mercadal",
     "img": "https://fotos.imghs.net/mm-wp/501025/65914432493.501025/501025_65914432493_628c7b8d-761f-45b2-9587-bcd357bd316a.jpg",
-    "text": "1 /32 TOP 1.029 € /mes Piso en Plaça del Mercadal Sant Andreu (Distrito Sant Andreu. Barcelona Capital) 1 hab. 1 baño 63 m² Bajo Informacion importante: para visitar esta vivienda ",
+    "text": "1 /32 PREMIUM 1.029 € /mes Piso en Plaça del Mercadal Sant Andreu (Distrito Sant Andreu. Barcelona Capital) 1 hab. 1 baño 63 m² Bajo Informacion importante: para visitar esta vivie",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
