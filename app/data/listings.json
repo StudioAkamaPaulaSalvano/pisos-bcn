@@ -72,7 +72,7 @@
     "kind": "piso",
     "title": "Sant Andreu de Palomar",
     "img": "https://media.mobiliagestion.es/Portals/inmoguinotprunera/Images/31529/27164028.jpg",
-    "text": "20260907 31529 Estudio Sant Andreu de Palomar 778 €/mes 39 0 1 Estudio luminoso y con carácter, situado en el encantador barrio de Sant Andreu, una zona tranquila. El espacio se pr",
+    "text": "20260908 31529 Estudio Sant Andreu de Palomar 778 €/mes 39 0 1 Estudio luminoso y con carácter, situado en el encantador barrio de Sant Andreu, una zona tranquila. El espacio se pr",
     "agency": "Guinot Prunera",
     "rent_url": "https://www.guinotprunera.com/es/alquiler"
   },
@@ -149,7 +149,7 @@
     "kind": "piso",
     "title": "El Congrés i Els Indians",
     "img": "https://media.mobiliagestion.es/Portals/inmoguinotprunera/Images/31961/28217697.jpg",
-    "text": "20260903 31961 Piso El Congrés i Els Indians 823 €/mes 50 1 1 Vivienda con un amplio comedor de 15m² luminoso y con salida a balcón, amplia cocina en buen estado. La finca no dispo",
+    "text": "20260908 31961 Piso El Congrés i Els Indians 823 €/mes 50 1 1 Vivienda con un amplio comedor de 15m² luminoso y con salida a balcón, amplia cocina en buen estado. La finca no dispo",
     "agency": "Guinot Prunera",
     "rent_url": "https://www.guinotprunera.com/es/alquiler"
   },
@@ -281,9 +281,20 @@
     "kind": "piso",
     "title": "Pis, 53.00 m 2",
     "img": "https://imagenes.ghestia.cat/images/webs/LIC1403_140518/fotos0/1398/foto_1.jpg",
-    "text": "lloguer Tipus 855€ Pis, 53.00 m 2 2 Dorm. 53.00 m 2 Veure mes Fa 10 hores",
+    "text": "lloguer Tipus 855€ Pis, 53.00 m 2 2 Dorm. 53.00 m 2 Veure mes Fa 16 hores",
     "agency": "Fincas Ubiergo",
     "rent_url": "https://www.fincasubiergo.com/alquiler"
+  },
+  {
+    "url": "https://www.pisos.com/alquilar/piso-el_turo_de_la_peira_can_peguera08031-67596738435_100500/",
+    "price": 857,
+    "rooms": 3,
+    "kind": "piso",
+    "title": "Piso en La Guineueta",
+    "img": "https://fotos.imghs.net/mm-wp/1005/3230323630393038/aad387aa-cd6a-4079-ba5f-7020ade6c9fa.jpg",
+    "text": "1 /18 Nuevo PREMIUM 857 € /mes Piso en La Guineueta El Turó de la Peira-Can Peguera (Distrito Nou Barris. Barcelona Capital) 3 habs. 1 baño 76 m² 3ª planta Se ofrece magnífico piso",
+    "agency": "pisos.com",
+    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
   {
     "url": "https://inmobiliaria.calvetpremium.com/es/alquiler-pisos-pisos/en-barcelona-barcelona//ref-4123",
@@ -313,7 +324,7 @@
     "kind": "piso",
     "title": "Pis, 52.00 m 2",
     "img": "https://imagenes.ghestia.cat/images/webs/LIC1403_140518/fotos0/1399/foto_1.jpg",
-    "text": "lloguer Tipus 918€ Pis, 52.00 m 2 2 Dorm. 52.00 m 2 Veure mes Fa 10 hores",
+    "text": "lloguer Tipus 918€ Pis, 52.00 m 2 2 Dorm. 52.00 m 2 Veure mes Fa 16 hores",
     "agency": "Fincas Ubiergo",
     "rent_url": "https://www.fincasubiergo.com/alquiler"
   },
@@ -368,7 +379,7 @@
     "kind": "piso",
     "title": "Pis, 70.00 m 2",
     "img": "https://imagenes.ghestia.cat/images/webs/LIC1403_140518/fotos0/1401/foto_1.jpg",
-    "text": "lloguer Tipus 983€ Pis, 70.00 m 2 2 Dorm. 70.00 m 2 Veure mes Fa 10 hores",
+    "text": "lloguer Tipus 983€ Pis, 70.00 m 2 2 Dorm. 70.00 m 2 Veure mes Fa 16 hores",
     "agency": "Fincas Ubiergo",
     "rent_url": "https://www.fincasubiergo.com/alquiler"
   },
@@ -426,6 +437,17 @@
     "text": "1 /13 PREMIUM 1.000 € /mes Apartamento en Carrer del Rec Sant Pere-Santa Caterina-La Ribera (Distrito Ciutat Vella. Barcelona Capital) 1 hab. 1 baño 45 m² 2ª planta Ubicado en el c",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
+  },
+  {
+    "url": "https://www.guinotprunera.com/es/alquiler/ref-31590",
+    "price": 1001,
+    "rooms": null,
+    "kind": "piso",
+    "title": "La Nova Esquerra de L'Eixample",
+    "img": "https://media.mobiliagestion.es/Portals/inmoguinotprunera/Images/31590/27239705.jpg",
+    "text": "20260908 31590 Piso La Nova Esquerra de L'Eixample 1.001 €/mes 53 1 1 Apartamento exterior a patio de manzana. Salón comedor con cocina integrada, suelos de parquet. Alto y bien or",
+    "agency": "Guinot Prunera",
+    "rent_url": "https://www.guinotprunera.com/es/alquiler"
   },
   {
     "url": "https://www.finquesteixidor.com/ca/alquiler-pisos-barcelona.cfm/ID/68664/CAT/eixample-esquerre-avda-mistral-1013€.htm",
