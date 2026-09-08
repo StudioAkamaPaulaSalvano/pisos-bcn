@@ -281,7 +281,7 @@
     "kind": "piso",
     "title": "Pis, 53.00 m 2",
     "img": "https://imagenes.ghestia.cat/images/webs/LIC1403_140518/fotos0/1398/foto_1.jpg",
-    "text": "lloguer Tipus 855€ Pis, 53.00 m 2 2 Dorm. 53.00 m 2 Veure mes Fa 27 minuts",
+    "text": "lloguer Tipus 855€ Pis, 53.00 m 2 2 Dorm. 53.00 m 2 Veure mes Fa 37 minuts",
     "agency": "Fincas Ubiergo",
     "rent_url": "https://www.fincasubiergo.com/alquiler"
   },
@@ -324,7 +324,7 @@
     "kind": "piso",
     "title": "Pis, 52.00 m 2",
     "img": "https://imagenes.ghestia.cat/images/webs/LIC1403_140518/fotos0/1399/foto_1.jpg",
-    "text": "lloguer Tipus 918€ Pis, 52.00 m 2 2 Dorm. 52.00 m 2 Veure mes Fa 27 minuts",
+    "text": "lloguer Tipus 918€ Pis, 52.00 m 2 2 Dorm. 52.00 m 2 Veure mes Fa 37 minuts",
     "agency": "Fincas Ubiergo",
     "rent_url": "https://www.fincasubiergo.com/alquiler"
   },
@@ -390,18 +390,7 @@
     "kind": "piso",
     "title": "Pis, 70.00 m 2",
     "img": "https://imagenes.ghestia.cat/images/webs/LIC1403_140518/fotos0/1401/foto_1.jpg",
-    "text": "lloguer Tipus 983€ Pis, 70.00 m 2 2 Dorm. 70.00 m 2 Veure mes Fa 27 minuts",
-    "agency": "Fincas Ubiergo",
-    "rent_url": "https://www.fincasubiergo.com/alquiler"
-  },
-  {
-    "url": "https://www.fincasubiergo.com/ca/lloguer/altres-immobles/barcelona/barcelona/1188",
-    "price": 983,
-    "rooms": 2,
-    "kind": "piso",
-    "title": "1188",
-    "img": "https://imagenes.ghestia.cat/images/webs/LIC1403_140518/fotos0/1401/foto_1.jpg",
-    "text": "Tipus lloguer Pis 983€ 2 Dorm.. 70.00 m 2 Tipus lloguer Altre 90€ Dorm.. 4.00 m 2 Tipus lloguer Pis 855€ 2 Dorm.. 53.00 m 2 Tipus lloguer Pis 918€ 2 Dorm.. 52.00 m 2",
+    "text": "lloguer Tipus 983€ Pis, 70.00 m 2 2 Dorm. 70.00 m 2 Veure mes Fa 37 minuts",
     "agency": "Fincas Ubiergo",
     "rent_url": "https://www.fincasubiergo.com/alquiler"
   },
