@@ -109,6 +109,17 @@
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
   {
+    "url": "https://www.pisos.com/alquilar/piso-sants_montjuic_hostafrancs08014-63420332110_530867/",
+    "price": 800,
+    "rooms": 1,
+    "kind": "piso",
+    "title": "Piso en Carrer de Mallorca",
+    "img": "https://fotos.imghs.net/mm-wp/530867/63420332110.530867/530867_63420332110_84494247-3ab8-4f56-8771-bbbcbd77633f.jpg",
+    "text": "1 /4 PREMIUM 800 € /mes Piso en Carrer de Mallorca Hostafrancs (Distrito Sants-Montjuïc. Barcelona Capital) 1 hab. 1 baño 44 m² 4ª planta Ubicado en finca con ascensor y en la 4ª p",
+    "agency": "pisos.com",
+    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
+  },
+  {
     "url": "https://www.pisos.com/alquilar/estudio-el_barri_gotic08002-54237192953_104700/",
     "price": 800,
     "rooms": null,
@@ -129,17 +140,6 @@
     "text": "1 /4 PREMIUM 820 € /mes Estudio en Carrer de Casanova Sant Antoni (Distrito Eixample. Barcelona Capital) 1 baño 33 m² Ubicado en la calle casanova, en el barrio de l’antiga esquerr",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
-  },
-  {
-    "url": "https://www.guinotprunera.com/es/alquiler/ref-31961",
-    "price": 823,
-    "rooms": null,
-    "kind": "piso",
-    "title": "El Congrés i Els Indians",
-    "img": "https://media.mobiliagestion.es/Portals/inmoguinotprunera/Images/31961/28217697.jpg",
-    "text": "20260908 31961 Piso El Congrés i Els Indians 823 €/mes 50 1 1 Vivienda con un amplio comedor de 15m² luminoso y con salida a balcón, amplia cocina en buen estado. La finca no dispo",
-    "agency": "Guinot Prunera",
-    "rent_url": "https://www.guinotprunera.com/es/alquiler"
   },
   {
     "url": "https://www.pisos.com/alquilar/atico-el_carmel-67541021640_106100/",
@@ -197,17 +197,6 @@
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
   {
-    "url": "https://www.pisos.com/alquilar/piso-el_poble_sec08004-60051110553_531896/",
-    "price": 850,
-    "rooms": 3,
-    "kind": "piso",
-    "title": "Piso en El Poble-Sec",
-    "img": "https://fotos.imghs.net/mm-wp/531896/60051110553.531896/531896_60051110553_e809427e-0e08-4060-9100-fc49f623ddb9.jpg",
-    "text": "1 /16 PREMIUM 850 € /mes Piso en El Poble-Sec El Poble-sec (Distrito Sants-Montjuïc. Barcelona Capital) 3 habs. 1 baño 47 m² 1ª planta Antes de poder agendar una visita al inmueble",
-    "agency": "pisos.com",
-    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
-  },
-  {
     "url": "https://www.pisos.com/alquilar/estudio-sants_badal-67585980164_104700/",
     "price": 850,
     "rooms": null,
@@ -248,17 +237,6 @@
     "title": "Estudio en La Maternitat-Sant Ramon",
     "img": "https://fotos.imghs.net/mm-wp/1047/3230323630393038/ffa14bba-1647-460e-ac42-a3aa5bad3bb0.jpg",
     "text": "1 /6 Nuevo PREMIUM 850 € /mes Estudio en La Maternitat-Sant Ramon La Maternitat-Sant Ramon (Distrito Les Corts. Barcelona Capital) 1 baño 24 m² Reservas e inquietudes Tipo de aloja",
-    "agency": "pisos.com",
-    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
-  },
-  {
-    "url": "https://www.pisos.com/alquilar/apartamento-sant_gervasi_galvany08021-67557593026_109800/",
-    "price": 850,
-    "rooms": 2,
-    "kind": "piso",
-    "title": "Apartamento en Carrer d'Aribau, 207",
-    "img": "https://fotos.imghs.net/mm-wp/1098/5978368/1098_1_foto_20260914110711961_67557593026.jpg",
-    "text": "1 /18 Nuevo 850 € /mes Apartamento en Carrer d'Aribau, 207 Sant Gervasi-Galvany (Distrito Sarrià-Sant Gervasi. Barcelona Capital) 2 habs. 2 baños 98 m² 1ª planta Precioso piso tota",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
@@ -350,6 +328,17 @@
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
   {
+    "url": "https://www.guinotprunera.com/es/alquiler/ref-31859",
+    "price": 989,
+    "rooms": null,
+    "kind": "piso",
+    "title": "Ref 31859",
+    "img": "https://media.mobiliagestion.es/Portals/inmoguinotprunera/Images/31859/27838904.jpg",
+    "text": "20260915 31859 Piso El Poblenou 989 €/mes 47 2 1 La vivienda en tercera planta sin ascensor. Salón exterior y cocina independiente, práctica y bien distribuida, diseñada para ofrec",
+    "agency": "Guinot Prunera",
+    "rent_url": "https://www.guinotprunera.com/es/alquiler"
+  },
+  {
     "url": "https://barnapiso.com/es/vivienda/propiedad-en-sants-montjuic/",
     "price": 1000,
     "rooms": null,
@@ -400,7 +389,7 @@
     "kind": "piso",
     "title": "La Nova Esquerra de L'Eixample",
     "img": "https://media.mobiliagestion.es/Portals/inmoguinotprunera/Images/31590/27239705.jpg",
-    "text": "20260908 31590 Piso La Nova Esquerra de L'Eixample 1.001 €/mes 53 1 1 Apartamento exterior a patio de manzana. Salón comedor con cocina integrada, suelos de parquet. Alto y bien or",
+    "text": "20260915 31590 Piso La Nova Esquerra de L'Eixample 1.001 €/mes 53 1 1 Apartamento exterior a patio de manzana. Salón comedor con cocina integrada, suelos de parquet. Alto y bien or",
     "agency": "Guinot Prunera",
     "rent_url": "https://www.guinotprunera.com/es/alquiler"
   },
