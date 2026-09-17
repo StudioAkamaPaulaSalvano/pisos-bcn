@@ -1,13 +1,13 @@
 {
-  "sites_read": 112,
+  "sites_read": 107,
   "sites_total": 128,
   "slow": [
     "Fincador",
     "AFB Finques Gràcia",
     "Core Barcelona",
-    "Fincas San Andrés",
-    "ShBarcelona",
     "Loca Barcelona",
-    "Inmobiliaria González Hellín"
+    "ShBarcelona",
+    "Inmobiliaria González Hellín",
+    "Ferrim Habitat"
   ]
 }
