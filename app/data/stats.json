@@ -1,15 +1,12 @@
 {
-  "sites_read": 110,
+  "sites_read": 106,
   "sites_total": 128,
   "slow": [
+    "Finques Martell",
     "Fincador",
-    "Cafur Serveis Immobiliaris",
-    "GUMPER",
     "Core Barcelona",
-    "Fincas San Andrés",
+    "AFI Finques",
     "Loca Barcelona",
-    "ShBarcelona",
-    "Carbonell (Admón. Fincas)",
-    "Inmobiliaria González Hellín"
+    "ShBarcelona"
   ]
 }
