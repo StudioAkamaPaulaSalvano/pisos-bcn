@@ -1,12 +1,16 @@
 {
-  "sites_read": 107,
+  "sites_read": 105,
   "sites_total": 128,
   "slow": [
-    "Orfinca",
+    "Fincador",
     "AFB Finques Gràcia",
     "Core Barcelona",
+    "Fincas San Andrés",
+    "Finques Hosta",
     "Loca Barcelona",
     "ShBarcelona",
-    "Inmobiliaria González Hellín"
+    "Carbonell (Admón. Fincas)",
+    "Fincas Azcoitia",
+    "BarnaPiso"
   ]
 }
