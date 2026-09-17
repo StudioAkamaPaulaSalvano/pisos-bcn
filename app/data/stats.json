@@ -1,20 +1,12 @@
 {
-  "sites_read": 106,
+  "sites_read": 104,
   "sites_total": 128,
   "slow": [
     "Fincador",
     "Cafur Serveis Immobiliaris",
     "AFB Finques Gràcia",
-    "Withfor",
-    "Nitia",
     "Core Barcelona",
-    "Finques Hosta",
-    "Finques TEBÉ",
-    "Ilive Barcelona",
     "AFI Finques",
-    "Loca Barcelona",
-    "ShBarcelona",
-    "Serviguest",
-    "BarnaPiso"
+    "ShBarcelona"
   ]
 }
