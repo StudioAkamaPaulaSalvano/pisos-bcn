@@ -1,11 +1,18 @@
 {
-  "sites_read": 107,
+  "sites_read": 103,
   "sites_total": 128,
   "slow": [
     "Fincador",
+    "Cafur Serveis Immobiliaris",
     "AFB Finques Gràcia",
     "Core Barcelona",
+    "Urbefinques",
     "Loca Barcelona",
-    "ShBarcelona"
+    "ShBarcelona",
+    "Atemporal Barcelona",
+    "VM3 Fincas",
+    "Tu Piso Nou Barris",
+    "aProperties",
+    "Rentmar"
   ]
 }
