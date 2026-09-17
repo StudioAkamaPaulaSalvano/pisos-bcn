@@ -1,14 +1,11 @@
 {
-  "sites_read": 111,
+  "sites_read": 107,
   "sites_total": 128,
   "slow": [
     "Fincador",
-    "Orfinca",
     "AFB Finques Gràcia",
     "Core Barcelona",
-    "Loca Barcelona",
-    "ShBarcelona",
-    "Fincas García",
-    "Finques Gassiot"
+    "Fincas San Andrés",
+    "ShBarcelona"
   ]
 }
