@@ -218,17 +218,6 @@
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
   {
-    "url": "https://masifill.com/property/pis-amb-encant-a-gracia-ideal-per-a-reformar-al-teu-gust-2/",
-    "price": 924,
-    "rooms": null,
-    "kind": "piso",
-    "title": "Pisos – Sarrià",
-    "img": "https://masifill.com/wp-content/uploads/propiedad-5886-18-385x258.jpg",
-    "text": "Llogar 924€ Llogar Pisos – Sarrià Sarrià 08021, Barcelona Habitacions: 2 Bath: 1 : 48 Pisos 18 hores ago 924€ Detalls Habitacions: 2 Bath: 1 : 48 Pisos Detalls 18 hores ago Comprar",
-    "agency": "Masifill (Mas i Fill)",
-    "rent_url": "https://masifill.com/property/lloguer-despatx-en-varies-estancies-a-sarria-barcelona/"
-  },
-  {
     "url": "https://www.pisos.com/alquilar/piso-la_maternitat_sant_ramon-63343839529_530867/",
     "price": 925,
     "rooms": 1,
@@ -346,6 +335,17 @@
     "title": "Piso en El Raval",
     "img": "https://fotos.imghs.net/mm-wp/1047/497/1047_464497_1_2025040709045844213.jpg",
     "text": "1 /10 PREMIUM 1.000 € /mes Piso en El Raval El Raval (Distrito Ciutat Vella. Barcelona Capital) 2 habs. 1 baño 62 m² Reservas e inquietudes Tipo de alojamiento - alojamiento entero",
+    "agency": "pisos.com",
+    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
+  },
+  {
+    "url": "https://www.pisos.com/alquilar/apartamento-el_clot08026-67545122657_109800/",
+    "price": 1000,
+    "rooms": 3,
+    "kind": "piso",
+    "title": "Apartamento en Carrer d'Aragó, 621",
+    "img": "https://fotos.imghs.net/mm-wp/1098/5983791/1098_1_foto_20260916131637804_67545122657.jpg",
+    "text": "1 /22 Nuevo 1.000 € /mes Apartamento en Carrer d'Aragó, 621 El Clot (Distrito Sant Martí. Barcelona Capital) 3 habs. 2 baños 98 m² 1ª planta Apartamento cómodo y reformado, con bal",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
