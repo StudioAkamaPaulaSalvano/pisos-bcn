@@ -1,11 +1,12 @@
 {
-  "sites_read": 106,
+  "sites_read": 107,
   "sites_total": 128,
   "slow": [
     "Fincador",
+    "inmho Barcelona",
     "Core Barcelona",
-    "AFI Finques",
+    "Loca Barcelona",
     "ShBarcelona",
-    "Fincas Padua"
+    "Ferrim Habitat"
   ]
 }
