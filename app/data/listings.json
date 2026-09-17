@@ -1,5 +1,16 @@
 [
   {
+    "url": "https://masifill.com/property/pisos-la-dreta-de-leixample/",
+    "price": 350,
+    "rooms": null,
+    "kind": "piso",
+    "title": "Pisos la dreta de leixample",
+    "img": "https://masifill.com/wp-content/uploads/propiedad-5868-1-385x258.jpg",
+    "text": "Llogar 1,350€",
+    "agency": "Masifill (Mas i Fill)",
+    "rent_url": "https://masifill.com/property/lloguer-despatx-en-varies-estancies-a-sarria-barcelona/"
+  },
+  {
     "url": "https://barnapiso.com/es/vivienda/propiedad-en-las-cortes-4/",
     "price": 425,
     "rooms": null,
@@ -127,6 +138,17 @@
     "title": "Piso en Carrer de Puerto Príncipe",
     "img": "https://fotos.imghs.net/mm-wp/530867/63378468377.530867/530867_63378468377_b909d67a-d00e-4a8c-ba9a-57b51b7aac01.jpg",
     "text": "1 /6 PREMIUM 850 € /mes Piso en Carrer de Puerto Príncipe El Congrés-Els Indians (Distrito Sant Andreu. Barcelona Capital) 1 hab. 1 baño 42 m² 2ª planta Ubicado en la zona de campo",
+    "agency": "pisos.com",
+    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
+  },
+  {
+    "url": "https://www.pisos.com/alquilar/piso-el_poble_sec08004-60051110553_531896/",
+    "price": 850,
+    "rooms": 3,
+    "kind": "piso",
+    "title": "Piso en El Poble-Sec",
+    "img": "https://fotos.imghs.net/mm-wp/531896/60051110553.531896/531896_60051110553_e809427e-0e08-4060-9100-fc49f623ddb9.jpg",
+    "text": "1 /16 PREMIUM 850 € /mes Piso en El Poble-Sec El Poble-sec (Distrito Sants-Montjuïc. Barcelona Capital) 3 habs. 1 baño 47 m² 1ª planta Antes de poder agendar una visita al inmueble",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
@@ -394,17 +416,6 @@
     "rent_url": "https://toysanfinques.com/es/inmuebles/?transaction_type=lloguer&property__type=property"
   },
   {
-    "url": "https://www.pisos.com/alquilar/piso-el_raval08001-67564146525_106100/",
-    "price": 1100,
-    "rooms": 1,
-    "kind": "piso",
-    "title": "Piso en El Raval",
-    "img": "https://fotos.imghs.net/mm-wp/1061/3230323630383233/72b82086-47b7-4bfe-a88c-1026b58106a6.jpg",
-    "text": "1 /14 DESTACADO 1.100 € /mes Piso en El Raval El Raval (Distrito Ciutat Vella. Barcelona Capital) 1 hab. 1 baño 47 m² 1ª planta Piso centrico, listo parar entrar con las maletas, c",
-    "agency": "pisos.com",
-    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
-  },
-  {
     "url": "https://www.pisos.com/alquilar/atico-el_raval08001-64249106130_530867/",
     "price": 1100,
     "rooms": 1,
@@ -427,13 +438,13 @@
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
   {
-    "url": "https://www.pisos.com/alquilar/piso-el_raval08001-66668005832_106100/",
+    "url": "https://www.pisos.com/alquilar/piso-el_raval08001-67564146525_106100/",
     "price": 1100,
     "rooms": 1,
     "kind": "piso",
     "title": "Piso en El Raval",
     "img": "https://fotos.imghs.net/mm-wp/1061/3230323630383233/72b82086-47b7-4bfe-a88c-1026b58106a6.jpg",
-    "text": "1 /14 PREMIUM 1.100 € /mes Piso en El Raval El Raval (Distrito Ciutat Vella. Barcelona Capital) 1 hab. 1 baño 47 m² 1ª planta Piso centrico, listo parar entrar con las maletas, cer",
+    "text": "1 /14 DESTACADO 1.100 € /mes Piso en El Raval El Raval (Distrito Ciutat Vella. Barcelona Capital) 1 hab. 1 baño 47 m² 1ª planta Piso centrico, listo parar entrar con las maletas, c",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
