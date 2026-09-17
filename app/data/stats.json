@@ -1,14 +1,12 @@
 {
-  "sites_read": 105,
+  "sites_read": 112,
   "sites_total": 128,
   "slow": [
     "Fincador",
-    "Grup Solfinc",
-    "Fincas San Andrés",
+    "inmho Barcelona",
     "Core Barcelona",
-    "Finques Hosta",
-    "ShBarcelona",
-    "Inmobiliaria González Hellín",
-    "BarnaPiso"
+    "AFI Finques",
+    "Loca Barcelona",
+    "ShBarcelona"
   ]
 }
