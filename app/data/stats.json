@@ -1,33 +1,12 @@
 {
-  "sites_read": 89,
+  "sites_read": 106,
   "sites_total": 128,
   "slow": [
     "Fincador",
-    "inmho Barcelona",
-    "Finor BCN",
-    "Chester Estate",
-    "Withfor",
     "AFB Finques Gràcia",
-    "Gaudí House",
-    "Nitia",
     "Core Barcelona",
-    "Finor BCN (Les Corts)",
-    "Fincas San Andrés",
-    "Fincas Cumbre",
-    "Finques Hosta",
-    "Finques TEBÉ",
-    "Ilive Barcelona",
-    "Loca Barcelona",
     "ShBarcelona",
-    "Serviguest",
-    "Finques Perramon",
-    "Gala Finques",
-    "Finques Giramon",
-    "Ollé Bertran",
-    "Finques Querol",
-    "Ferrim Habitat",
-    "Tu Piso Nou Barris",
-    "BarnaPiso",
-    "Rentmar"
+    "Loca Barcelona",
+    "Carbonell (Admón. Fincas)"
   ]
 }
