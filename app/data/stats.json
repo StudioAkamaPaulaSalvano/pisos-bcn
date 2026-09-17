@@ -1,11 +1,14 @@
 {
-  "sites_read": 108,
+  "sites_read": 104,
   "sites_total": 128,
   "slow": [
     "Fincador",
-    "Casc Antic BCN",
+    "Selekta Properties",
+    "West Side Barcelona",
     "Core Barcelona",
-    "Loca Barcelona",
-    "ShBarcelona"
+    "ShBarcelona",
+    "DonCasa",
+    "Inmobiliaria Diagonal Mar",
+    "Fincas Azcoitia"
   ]
 }
