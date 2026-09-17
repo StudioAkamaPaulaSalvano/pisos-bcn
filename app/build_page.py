@@ -251,7 +251,18 @@ def build():
         l["_new"] = (ts - first_seen.get(l.get("url"), ts)) < NEW_HOURS * 3600
     cards = "\n".join(card(l) for l in listings)
     n = len(listings)
-    agencies = len({l.get("agency") for l in listings})
+    # Antes se mostraban las inmobiliarias que habían aportado algún piso, así que el
+    # número bailaba entre 7 y 9 y no decía nada. Ahora: cuántas contestaron sobre el
+    # total de la lista, que sí avisa si un día se cae media lista.
+    stats = {}
+    try:
+        stats = json.load(open(os.path.join(DATA, "stats.json"), encoding="utf-8"))
+    except Exception:
+        pass
+    if stats.get("sites_total"):
+        agencies = f"{stats['sites_read']} de {stats['sites_total']}"
+    else:
+        agencies = len({l.get("agency") for l in listings})
     body = (f'<div class="grid">{cards}</div>' if n else
             '<div class="empty">Aún no hay pisos que cumplan tus criterios. El vigilante seguirá revisando.</div>')
     # Semilla de notas/estados recuperados (se inyecta en el JS de la página)

@@ -135,7 +135,15 @@ PRICE_RE = re.compile(r'(\d{1,3}(?:[.\s]\d{3})|\d{3,4})\s*€|€\s*(\d{1,3}(?:[
 ROOMS_RE = re.compile(r'(\d+)\s*(?:hab|habitaci|dorm|quart|bedroom|dormitori)', re.I)
 
 
-def get(url, timeout=20):
+# Tope de tiempo por inmobiliaria. Sin esto, una sola web lenta se come la pasada
+# entera: Core Barcelona tardaba 280 s, ShBarcelona 140 s y Atemporal 116 s, y entre
+# las tres llevaron la pasada de 55 s a casi 5 min. Ahora ninguna puede pasar de
+# SITE_BUDGET: si se acaba el tiempo, se deja esa web y se sigue con las demás.
+SITE_BUDGET = 30        # segundos como mucho por inmobiliaria
+PAGE_TIMEOUT = 12       # segundos como mucho por página
+
+
+def get(url, timeout=PAGE_TIMEOUT):
     r = requests.get(url, headers=HEADERS, timeout=timeout)
     r.raise_for_status()
     return r
@@ -386,15 +394,22 @@ def scrape_site(name, base_url, fetch=None):
     se le pasa un fetch que ejecuta JavaScript (navegador real)."""
     if fetch is None:
         fetch = lambda u: get(u).text
-    out = {"name": name, "base": base_url, "ok": False, "listings": [], "error": None}
+    # "reached" = la web contestó al menos una página. Es lo que cuenta el encabezado
+    # de la página ("X de Y inmobiliarias"): no tener pisos NO es lo mismo que no
+    # contestar, y así se ve de un vistazo si un día se cae media lista.
+    out = {"name": name, "base": base_url, "ok": False, "listings": [],
+           "error": None, "reached": False}
     host = urlparse(base_url).netloc
+    t0 = time.time()
     try:
         # 1) construir lista de páginas candidatas donde puede estar el listado
         candidates = []
         if host in OVERRIDES:
             candidates.append(OVERRIDES[host])
         try:
-            candidates += find_rent_links(base_url, fetch(base_url))
+            home = fetch(base_url)
+            out["reached"] = True
+            candidates += find_rent_links(base_url, home)
         except Exception:
             pass
         candidates += [urljoin(base_url, p) for p in PATH_GUESSES]
@@ -410,8 +425,12 @@ def scrape_site(name, base_url, fetch=None):
         # 2) probar cada candidata, quedarnos con la que da más pisos válidos
         best = {"good": [], "url": base_url, "n_raw": 0}
         for url in cand:
+            if time.time() - t0 > SITE_BUDGET:     # web lenta: la dejamos y seguimos
+                out["error"] = f"lenta: corte a los {SITE_BUDGET}s"
+                break
             try:
                 page_html = fetch(url)
+                out["reached"] = True
             except Exception:
                 continue
             items = extract_listings(url, page_html)
@@ -683,6 +702,12 @@ def main():
         futs = {ex.submit(scrape_site, n, u): n for n, u in sites}
         for f in as_completed(futs):
             results.append(f.result())
+    # cuántas de las webs de la lista contestaron -> va al encabezado de la página
+    sites_read = sum(1 for r in results if r.get("reached"))
+    sites_total = len(sites)
+    slow = [r["name"] for r in results if r.get("error", "") and "lenta" in str(r["error"])]
+    print(f"Webs que contestaron: {sites_read} de {sites_total}"
+          + (f" | cortadas por lentas: {', '.join(slow)}" if slow else ""), file=sys.stderr)
     by_host = {urlparse(r["base"]).netloc: r for r in results}
     # Las webs que quedaron VACÍAS suelen ser de JavaScript -> navegador real
     if do_headless:
@@ -717,6 +742,8 @@ def main():
     os.makedirs(DATA, exist_ok=True)
     json.dump(all_listings, open(os.path.join(DATA, "listings.json"), "w"),
               ensure_ascii=False, indent=2)
+    json.dump({"sites_read": sites_read, "sites_total": sites_total, "slow": slow},
+              open(os.path.join(DATA, "stats.json"), "w"), ensure_ascii=False, indent=2)
     print(f"\nWebs OK: {ok} | con error: {err}", file=sys.stderr)
     print(f"Pisos que cumplen filtros: {len(all_listings)}", file=sys.stderr)
     for l in all_listings[:25]:
