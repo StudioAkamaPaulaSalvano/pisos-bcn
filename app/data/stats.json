@@ -1,14 +1,11 @@
 {
-  "sites_read": 107,
+  "sites_read": 111,
   "sites_total": 128,
   "slow": [
     "Fincador",
-    "ZonaPisos (esp. Ciutat Vella)",
+    "Fincas Blanco",
     "Core Barcelona",
-    "Administrador Fincas A3",
     "Loca Barcelona",
-    "ShBarcelona",
-    "Carbonell (Admón. Fincas)",
-    "Inmobiliaria Diagonal Mar"
+    "ShBarcelona"
   ]
 }
