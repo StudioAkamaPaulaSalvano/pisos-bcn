@@ -1,14 +1,13 @@
 {
-  "sites_read": 104,
+  "sites_read": 112,
   "sites_total": 128,
   "slow": [
     "Fincador",
-    "Selekta Properties",
-    "West Side Barcelona",
+    "Fincas San Andrés",
     "Core Barcelona",
+    "Finques Hosta",
+    "Loca Barcelona",
     "ShBarcelona",
-    "DonCasa",
-    "Inmobiliaria Diagonal Mar",
-    "Fincas Azcoitia"
+    "BarnaPiso"
   ]
 }
