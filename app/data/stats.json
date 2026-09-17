@@ -1,12 +1,10 @@
 {
-  "sites_read": 106,
+  "sites_read": 107,
   "sites_total": 128,
   "slow": [
     "Fincador",
-    "Finques Marbá",
     "Core Barcelona",
     "Loca Barcelona",
-    "ShBarcelona",
-    "Fincas García"
+    "ShBarcelona"
   ]
 }
