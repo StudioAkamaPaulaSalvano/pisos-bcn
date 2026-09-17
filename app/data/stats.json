@@ -1,10 +1,12 @@
 {
-  "sites_read": 107,
+  "sites_read": 111,
   "sites_total": 128,
   "slow": [
     "Fincador",
     "Core Barcelona",
+    "Finques Hosta",
     "Loca Barcelona",
-    "ShBarcelona"
+    "ShBarcelona",
+    "BarnaPiso"
   ]
 }
