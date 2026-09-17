@@ -1,16 +1,10 @@
 {
-  "sites_read": 106,
+  "sites_read": 107,
   "sites_total": 128,
   "slow": [
-    "Grup Solfinc",
     "Fincador",
     "Core Barcelona",
-    "AFI Finques",
-    "Finques Hosta",
     "Loca Barcelona",
-    "ShBarcelona",
-    "Fincas Padua",
-    "Vivalco",
-    "BarnaPiso"
+    "ShBarcelona"
   ]
 }
