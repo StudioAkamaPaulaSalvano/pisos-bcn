@@ -1,15 +1,10 @@
 {
-  "sites_read": 107,
+  "sites_read": 113,
   "sites_total": 128,
   "slow": [
     "Fincador",
-    "Selekta Properties",
-    "Casc Antic BCN",
-    "GUMPER",
     "Core Barcelona",
-    "Finques Hosta",
     "ShBarcelona",
-    "Inmobiliaria González Hellín",
-    "BarnaPiso"
+    "Inmobiliaria González Hellín"
   ]
 }
