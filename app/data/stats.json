@@ -1,13 +1,13 @@
 {
-  "sites_read": 107,
+  "sites_read": 106,
   "sites_total": 128,
   "slow": [
     "Fincador",
     "Core Barcelona",
+    "Fincas San Andrés",
+    "AFI Finques",
     "Loca Barcelona",
     "ShBarcelona",
-    "VM3 Fincas",
-    "Inmobiliaria González Hellín",
-    "Fincas Azcoitia"
+    "Fincas García"
   ]
 }
