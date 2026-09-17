@@ -8,10 +8,14 @@ on:
   schedule:
     - cron: "*/30 * * * *"
 
-# una corrida nueva REEMPLAZA a la anterior -> nunca se acumula un proceso colgado
+# La corrida en curso TERMINA y publica; el disparo siguiente espera su turno.
+# Con cancel-in-progress: true el despertador de 5 min mataba cada pasada antes
+# del git push (desde el 16-09 la pasada tarda mas de 5 min), y la pagina quedo
+# sin actualizarse. El timeout-minutes de abajo es lo que corta una pasada
+# colgada, asi que nada queda corriendo para siempre.
 concurrency:
   group: buscar-pisos
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 permissions:
   contents: write
