@@ -1,14 +1,11 @@
 {
-  "sites_read": 104,
+  "sites_read": 107,
   "sites_total": 128,
   "slow": [
     "Fincador",
-    "Finques Martell",
-    "Orfinca",
     "Core Barcelona",
-    "Fincas San Andrés",
-    "AFI Finques",
-    "Loca Barcelona",
-    "ShBarcelona"
+    "ShBarcelona",
+    "Fincas Padua",
+    "Vivalco"
   ]
 }
