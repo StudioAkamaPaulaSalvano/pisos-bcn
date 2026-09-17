@@ -1,14 +1,12 @@
 {
-  "sites_read": 111,
+  "sites_read": 112,
   "sites_total": 128,
   "slow": [
     "Fincador",
-    "Fincas San Andrés",
     "Core Barcelona",
-    "Loca Barcelona",
+    "Fincas San Andrés",
     "ShBarcelona",
-    "Fincas García",
-    "Carbonell (Admón. Fincas)",
-    "Inmobiliaria González Hellín"
+    "Loca Barcelona",
+    "Carbonell (Admón. Fincas)"
   ]
 }
