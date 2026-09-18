@@ -1,14 +1,12 @@
 {
-  "sites_read": 111,
+  "sites_read": 108,
   "sites_total": 128,
   "slow": [
     "Fincador",
+    "Finques Marbá",
     "Fincas San Andrés",
     "Core Barcelona",
-    "Finques Hosta",
-    "Amat Immobiliaris",
     "Loca Barcelona",
-    "ShBarcelona",
-    "BarnaPiso"
+    "ShBarcelona"
   ]
 }
