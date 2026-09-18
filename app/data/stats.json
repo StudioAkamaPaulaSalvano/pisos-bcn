@@ -1,12 +1,13 @@
 {
-  "sites_read": 108,
+  "sites_read": 107,
   "sites_total": 128,
   "slow": [
     "Fincador",
-    "Finques Marbá",
-    "Fincas San Andrés",
     "Core Barcelona",
     "Loca Barcelona",
-    "ShBarcelona"
+    "ShBarcelona",
+    "Fincas Layes",
+    "Carbonell (Admón. Fincas)",
+    "VM3 Fincas"
   ]
 }
