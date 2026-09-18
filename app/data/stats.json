@@ -1,10 +1,14 @@
 {
-  "sites_read": 113,
+  "sites_read": 109,
   "sites_total": 128,
   "slow": [
     "Fincador",
+    "Withfor",
+    "Nitia",
     "Core Barcelona",
-    "AFI Finques",
-    "ShBarcelona"
+    "Finques TEBÉ",
+    "Ilive Barcelona",
+    "ShBarcelona",
+    "Serviguest"
   ]
 }
