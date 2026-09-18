@@ -1,17 +1,9 @@
 {
-  "sites_read": 110,
+  "sites_read": 108,
   "sites_total": 128,
   "slow": [
     "Fincador",
-    "Cafur Serveis Immobiliaris",
-    "GUMPER",
     "Core Barcelona",
-    "Urbefinques",
-    "AFI Finques",
-    "Loca Barcelona",
-    "ShBarcelona",
-    "Atemporal Barcelona",
-    "VM3 Fincas",
-    "aProperties"
+    "ShBarcelona"
   ]
 }
