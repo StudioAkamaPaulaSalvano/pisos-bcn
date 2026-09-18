@@ -11,17 +11,6 @@
     "rent_url": "https://barnapiso.com/es/propiedades-disponibles-barcelona/"
   },
   {
-    "url": "https://finqueselpallars.com/piso-en-alquiler-les-corts-barcelona/",
-    "price": 500,
-    "rooms": null,
-    "kind": "piso",
-    "title": "Piso en alquiler. Les Corts, Barcelona",
-    "img": "https://finqueselpallars.com/wp-content/uploads/2026/01/regalirpf-500x383.jpg",
-    "text": "El regalo de 500€ que quizás no estas reclamando Galería El regalo de 500€ que quizás no estas reclamando 23/01/2026 Piso en alquiler. Les Corts, Barcelona Galería Piso en alquiler",
-    "agency": "Finques El Pallars",
-    "rent_url": "https://finqueselpallars.com/alquiler"
-  },
-  {
     "url": "https://finquesmartell.com/immoble/maragall-pl-2-3-entl-3-barcelona-alquiler-001058-1/",
     "price": 600,
     "rooms": 3,
@@ -359,6 +348,17 @@
     "text": "1 /10 PREMIUM 1.085 € /mes Casa en El Besòs-El Maresme El Besòs-El Maresme (Distrito Sant Martí. Barcelona Capital) 🎓 student residence in barcelona with pool and gym!! 🏋️‍♂️🏊‍♀️ U",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
+  },
+  {
+    "url": "https://toysanfinques.com/es/inmuebles/piso-en-alquiler-en-calle-de-deu-i-mata/",
+    "price": 1100,
+    "rooms": 1,
+    "kind": "piso",
+    "title": "+ info",
+    "img": "https://toysanfinques.com/wp-content/uploads/2023/12/4.jpg",
+    "text": "alquiler 1.100 €/mes Piso en alquiler en calle Déu i Mata Barcelona · Les Corts 60 m 2 1 hab. 1 baño",
+    "agency": "Toysan Finques",
+    "rent_url": "https://toysanfinques.com/es/inmuebles/?transaction_type=lloguer&property__type=property"
   },
   {
     "url": "https://www.pisos.com/alquilar/piso-el_raval08001-66668005832_106100/",
