@@ -1,13 +1,12 @@
 {
-  "sites_read": 113,
+  "sites_read": 109,
   "sites_total": 128,
   "slow": [
     "Fincador",
-    "Cafur Serveis Immobiliaris",
+    "West Side Barcelona",
     "Core Barcelona",
-    "AFI Finques",
-    "Loca Barcelona",
     "ShBarcelona",
-    "Ferrim Habitat"
+    "DonCasa",
+    "Inmobiliaria Diagonal Mar"
   ]
 }
