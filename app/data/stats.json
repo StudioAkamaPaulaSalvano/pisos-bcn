@@ -1,12 +1,9 @@
 {
-  "sites_read": 107,
+  "sites_read": 108,
   "sites_total": 128,
   "slow": [
     "Fincador",
     "Core Barcelona",
-    "Fincas San Andrés",
-    "ShBarcelona",
-    "Finques Gassiot",
-    "Carbonell (Admón. Fincas)"
+    "ShBarcelona"
   ]
 }
