@@ -1,16 +1,5 @@
 [
   {
-    "url": "https://masifill.com/property/pisos-la-dreta-de-leixample/",
-    "price": 350,
-    "rooms": null,
-    "kind": "piso",
-    "title": "Pisos la dreta de leixample",
-    "img": "https://masifill.com/wp-content/uploads/propiedad-5868-1-385x258.jpg",
-    "text": "Llogar 1,350€",
-    "agency": "Masifill (Mas i Fill)",
-    "rent_url": "https://masifill.com/property/lloguer-local-diafan-a-reformar-al-raval-barcelona/"
-  },
-  {
     "url": "https://barnapiso.com/es/vivienda/propiedad-en-las-cortes-4/",
     "price": 425,
     "rooms": null,
@@ -173,6 +162,61 @@
     "text": "1 /8 PREMIUM 850 € /mes Estudio en La Maternitat-Sant Ramon La Maternitat-Sant Ramon (Distrito Les Corts. Barcelona Capital) 1 baño 15 m² Reservas e inquietudes Tipo de alojamiento",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
+  },
+  {
+    "url": "https://www.guinotprunera.com/es/alquiler/ref-31790",
+    "price": 856,
+    "rooms": null,
+    "kind": "piso",
+    "title": "La Vila de Gràcia",
+    "img": "https://media.mobiliagestion.es/Portals/inmoguinotprunera/Images/31790/27655867.jpg",
+    "text": "20260918 31790 Estudio La Vila de Gràcia 856 €/mes 45 0 1 Loft exterior a calle. Consta de un solo ambiente muy amplio exterior a calle con sol de mediodía y con cocina americana i",
+    "agency": "Guinot Prunera",
+    "rent_url": "https://www.guinotprunera.com/es/alquiler"
+  },
+  {
+    "url": "https://www.guinotprunera.com/es/alquiler/ref-32112",
+    "price": 856,
+    "rooms": 2,
+    "kind": "piso",
+    "title": "Ref 32112",
+    "img": "https://media.mobiliagestion.es/Portals/inmoguinotprunera/Images/31790/27655867.jpg",
+    "text": "20260918 31790 Estudio La Vila de Gràcia 856 €/mes 45 0 1 Loft exterior a calle. Consta de un solo ambiente muy amplio exterior a calle con sol de mediodía y con cocina americana i",
+    "agency": "Guinot Prunera",
+    "rent_url": "https://www.guinotprunera.com/es/alquiler"
+  },
+  {
+    "url": "https://www.guinotprunera.com/es/alquiler/ref-32107",
+    "price": 856,
+    "rooms": 2,
+    "kind": "piso",
+    "title": "Ref 32107",
+    "img": "https://media.mobiliagestion.es/Portals/inmoguinotprunera/Images/31790/27655867.jpg",
+    "text": "20260918 31790 Estudio La Vila de Gràcia 856 €/mes 45 0 1 Loft exterior a calle. Consta de un solo ambiente muy amplio exterior a calle con sol de mediodía y con cocina americana i",
+    "agency": "Guinot Prunera",
+    "rent_url": "https://www.guinotprunera.com/es/alquiler"
+  },
+  {
+    "url": "https://www.guinotprunera.com/es/alquiler/ref-32105",
+    "price": 856,
+    "rooms": 2,
+    "kind": "piso",
+    "title": "Ref 32105",
+    "img": "https://media.mobiliagestion.es/Portals/inmoguinotprunera/Images/31790/27655867.jpg",
+    "text": "20260918 31790 Estudio La Vila de Gràcia 856 €/mes 45 0 1 Loft exterior a calle. Consta de un solo ambiente muy amplio exterior a calle con sol de mediodía y con cocina americana i",
+    "agency": "Guinot Prunera",
+    "rent_url": "https://www.guinotprunera.com/es/alquiler"
+  },
+  {
+    "url": "https://www.guinotprunera.com/es/alquiler/ref-32104",
+    "price": 856,
+    "rooms": 2,
+    "kind": "piso",
+    "title": "Ref 32104",
+    "img": "https://media.mobiliagestion.es/Portals/inmoguinotprunera/Images/31790/27655867.jpg",
+    "text": "20260918 31790 Estudio La Vila de Gràcia 856 €/mes 45 0 1 Loft exterior a calle. Consta de un solo ambiente muy amplio exterior a calle con sol de mediodía y con cocina americana i",
+    "agency": "Guinot Prunera",
+    "rent_url": "https://www.guinotprunera.com/es/alquiler"
   },
   {
     "url": "https://inmobiliaria.calvetpremium.com/es/alquiler-pisos-pisos/en-barcelona-barcelona//ref-4129",
