@@ -1,17 +1,13 @@
 {
-  "sites_read": 104,
+  "sites_read": 112,
   "sites_total": 128,
   "slow": [
     "Fincador",
     "GUMPER",
-    "Fincas San Andrés",
-    "Finques El Pallars",
     "Core Barcelona",
-    "Urbefinques",
+    "Finques El Pallars",
+    "Toysan Finques",
     "Loca Barcelona",
-    "ShBarcelona",
-    "Atemporal Barcelona",
-    "VM3 Fincas",
-    "aProperties"
+    "ShBarcelona"
   ]
 }
