@@ -1,12 +1,19 @@
 {
-  "sites_read": 110,
+  "sites_read": 106,
   "sites_total": 128,
   "slow": [
+    "Finques Martell",
+    "Díaz Associats",
+    "Finques Feliu",
     "Fincador",
-    "GUMPER",
+    "Orfinca",
     "Core Barcelona",
     "Fincas San Andrés",
+    "Finques Hosta",
+    "Forcadell",
     "Loca Barcelona",
-    "ShBarcelona"
+    "ShBarcelona",
+    "VM3 Fincas",
+    "BarnaPiso"
   ]
 }
