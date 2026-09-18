@@ -1,10 +1,12 @@
 {
-  "sites_read": 114,
+  "sites_read": 108,
   "sites_total": 128,
   "slow": [
     "Fincador",
+    "AFI Finques",
     "Core Barcelona",
+    "Loca Barcelona",
     "ShBarcelona",
-    "VM3 Fincas"
+    "Inmobiliaria Diagonal Mar"
   ]
 }
