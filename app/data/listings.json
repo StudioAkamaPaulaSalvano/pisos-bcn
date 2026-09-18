@@ -1,5 +1,16 @@
 [
   {
+    "url": "https://masifill.com/property/pisos-la-dreta-de-leixample/",
+    "price": 350,
+    "rooms": null,
+    "kind": "piso",
+    "title": "Pisos la dreta de leixample",
+    "img": "https://masifill.com/wp-content/uploads/propiedad-5868-1-385x258.jpg",
+    "text": "Llogar 1,350€",
+    "agency": "Masifill (Mas i Fill)",
+    "rent_url": "https://masifill.com/property/lloguer-local-diafan-a-reformar-al-raval-barcelona/"
+  },
+  {
     "url": "https://barnapiso.com/es/vivienda/propiedad-en-las-cortes-4/",
     "price": 425,
     "rooms": null,
@@ -142,17 +153,6 @@
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
   {
-    "url": "https://www.pisos.com/alquilar/piso-el_poble_sec08004-60051110553_531896/",
-    "price": 850,
-    "rooms": 3,
-    "kind": "piso",
-    "title": "Piso en El Poble-Sec",
-    "img": "https://fotos.imghs.net/mm-wp/531896/60051110553.531896/531896_60051110553_e809427e-0e08-4060-9100-fc49f623ddb9.jpg",
-    "text": "1 /16 PREMIUM 850 € /mes Piso en El Poble-Sec El Poble-sec (Distrito Sants-Montjuïc. Barcelona Capital) 3 habs. 1 baño 47 m² 1ª planta Antes de poder agendar una visita al inmueble",
-    "agency": "pisos.com",
-    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
-  },
-  {
     "url": "https://www.pisos.com/alquilar/estudio-sants_montjuic-67585980164_104700/",
     "price": 850,
     "rooms": null,
@@ -284,17 +284,6 @@
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
   {
-    "url": "https://www.pisos.com/alquilar/piso-el_putxet_el_farro08023-67563085893_535138/",
-    "price": 1000,
-    "rooms": 2,
-    "kind": "piso",
-    "title": "Piso en Carrer de Ballester",
-    "img": "https://fotos.imghs.net/mm-wp/535138/67563085893.535138/535138_67563085893_ff8c6869-84cf-48e6-9f57-b11cc75246d6.jpg",
-    "text": "1 /13 Nuevo PREMIUM 1.000 € /mes Piso en Carrer de Ballester El Putxet-El Farró (Distrito Sarrià-Sant Gervasi. Barcelona Capital) 2 habs. 4 baños 65 m² 1ª planta Ubicada en una zon",
-    "agency": "pisos.com",
-    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
-  },
-  {
     "url": "https://www.pisos.com/alquilar/piso-el_raval-53370075459_104700/",
     "price": 1000,
     "rooms": 2,
@@ -401,17 +390,6 @@
     "title": "Ático en Carrer de l'Hospital",
     "img": "https://fotos.imghs.net/mm-wp/530867/64249106130.530867/530867_64249106130_27762a0e-d0f3-456e-bc57-507d9e9c01a5.jpg",
     "text": "1 /6 PREMIUM 1.100 € /mes Ático en Carrer de l'Hospital El Raval (Distrito Ciutat Vella. Barcelona Capital) 1 hab. 1 baño 50 m² Ubicado en una finca con carácter en pleno corazón d",
-    "agency": "pisos.com",
-    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
-  },
-  {
-    "url": "https://www.pisos.com/alquilar/piso-el_raval08001-67503500057_535138/",
-    "price": 1100,
-    "rooms": 2,
-    "kind": "piso",
-    "title": "Piso en Carrer de l'Hospital",
-    "img": "https://fotos.imghs.net/mm-wp/535138/67503500057.535138/535138_67503500057_5ece1198-315a-45f6-b4e4-80674ebb0854.jpg",
-    "text": "1 /22 Nuevo PREMIUM 1.100 € /mes Piso en Carrer de l'Hospital El Raval (Distrito Ciutat Vella. Barcelona Capital) 2 habs. 2 baños 60 m² 1ª planta Se ofrece en alquiler una cuidada ",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
