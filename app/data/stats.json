@@ -1,11 +1,14 @@
 {
-  "sites_read": 108,
+  "sites_read": 105,
   "sites_total": 128,
   "slow": [
     "Fincador",
+    "Fincas San Andrés",
     "Core Barcelona",
-    "Loca Barcelona",
+    "Finques Hosta",
     "ShBarcelona",
-    "Carbonell (Admón. Fincas)"
+    "Fincas Padua",
+    "Fincas Layes",
+    "BarnaPiso"
   ]
 }
