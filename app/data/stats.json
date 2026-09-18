@@ -1,12 +1,15 @@
 {
-  "sites_read": 113,
+  "sites_read": 110,
   "sites_total": 128,
   "slow": [
     "Fincador",
-    "GUMPER",
     "Core Barcelona",
+    "Urbefinques",
     "Loca Barcelona",
     "ShBarcelona",
-    "Fincas Padua"
+    "Atemporal Barcelona",
+    "VM3 Fincas",
+    "Immollar",
+    "aProperties"
   ]
 }
