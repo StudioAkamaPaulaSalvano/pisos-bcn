@@ -8,7 +8,7 @@
     "img": "https://masifill.com/wp-content/uploads/propiedad-5868-1-385x258.jpg",
     "text": "Llogar 1,350€",
     "agency": "Masifill (Mas i Fill)",
-    "rent_url": "https://masifill.com/property/lloguer-despatx-en-varies-estancies-a-sarria-barcelona/"
+    "rent_url": "https://masifill.com/property/lloguer-local-diafan-a-reformar-al-raval-barcelona/"
   },
   {
     "url": "https://barnapiso.com/es/vivienda/propiedad-en-las-cortes-4/",
@@ -196,17 +196,6 @@
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
   {
-    "url": "https://www.pisos.com/alquilar/piso-el_fort_pienc08013-67598949276_109200/",
-    "price": 950,
-    "rooms": null,
-    "kind": "piso",
-    "title": "Piso en El Fort Pienc",
-    "img": "https://fotos.imghs.net/mm-wp/1092/3230323630393136/49ce4af1-c82f-491b-ae1e-ad04f1213594.jpg",
-    "text": "1 /10 Nuevo PREMIUM 950 € /mes Piso en El Fort Pienc El Fort Pienc (Distrito Eixample. Barcelona Capital) 30 m² 🌟 bright 2-bedroom apartment in eixample, barcelona! 🌟 Welcome to th",
-    "agency": "pisos.com",
-    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
-  },
-  {
     "url": "https://www.finquesfeliu.es/es/node/13353",
     "price": 958,
     "rooms": 3,
@@ -291,17 +280,6 @@
     "title": "Piso en Carrer de Ballester",
     "img": "https://fotos.imghs.net/mm-wp/535138/67563085893.535138/535138_67563085893_ff8c6869-84cf-48e6-9f57-b11cc75246d6.jpg",
     "text": "1 /13 Nuevo PREMIUM 1.000 € /mes Piso en Carrer de Ballester El Putxet-El Farró (Distrito Sarrià-Sant Gervasi. Barcelona Capital) 2 habs. 4 baños 65 m² 1ª planta Ubicada en una zon",
-    "agency": "pisos.com",
-    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
-  },
-  {
-    "url": "https://www.pisos.com/alquilar/piso-vilapicina_la_torre_llobeta-67552298696_109200/",
-    "price": 1000,
-    "rooms": 3,
-    "kind": "piso",
-    "title": "Piso en Nou Barris",
-    "img": "https://fotos.imghs.net/mm-wp/1092/3230323630393137/431fe549-77eb-4e89-b5a5-d891196bbff2.jpg",
-    "text": "1 /21 Nuevo PREMIUM 1.000 € /mes Piso en Nou Barris Vilapicina-La Torre Llobeta (Distrito Nou Barris. Barcelona Capital) 3 habs. 1 baño 65 m² 2ª planta Piso de 65m² construidos. Di",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
