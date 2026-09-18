@@ -1,14 +1,14 @@
 [
   {
-    "url": "https://masifill.com/property/pisos-la-dreta-de-leixample/",
-    "price": 350,
+    "url": "https://barnapiso.com/es/vivienda/propiedad-en-las-cortes-4/",
+    "price": 425,
     "rooms": null,
     "kind": "piso",
-    "title": "Pisos la dreta de leixample",
-    "img": "https://masifill.com/wp-content/uploads/propiedad-5868-1-385x258.jpg",
-    "text": "Llogar 1,350€",
-    "agency": "Masifill (Mas i Fill)",
-    "rent_url": "https://masifill.com/property/lloguer-despatx-en-varies-estancies-a-sarria-barcelona/"
+    "title": "Propiedad en Les Corts",
+    "img": "https://barnapiso.com/wp-content/uploads/2024/11/1231744428-scaled.jpg",
+    "text": "Propiedad en Les Corts Precio Alquiler: 425 € de San Ramón Nonato m2 construidos habitaciones baños",
+    "agency": "BarnaPiso",
+    "rent_url": "https://barnapiso.com/es/propiedades-disponibles-barcelona/"
   },
   {
     "url": "https://finqueselpallars.com/piso-en-alquiler-les-corts-barcelona/",
@@ -42,6 +42,17 @@
     "text": "1 /3 Nuevo 700 € /mes Estudio en Rambla del Raval, 1 El Raval (Distrito Ciutat Vella. Barcelona Capital) 1 hab. 1 baño 52 m² Lea atentamente la descripción. Busca un estudio cómodo",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
+  },
+  {
+    "url": "https://www.finquesfeliu.es/es/node/13359",
+    "price": 725,
+    "rooms": 1,
+    "kind": "piso",
+    "title": "725 €",
+    "img": "https://www.finquesfeliu.es/sites/default/files/styles/flexslider_full/public/2026-09/4721_1_1789731453.jpg?itok=hPi6d9ml",
+    "text": "Piso en Alquiler a BARCELONA / Sants CREU COBERTA 725 € Finques Feliu del grupo Housfy alquila piso en Sants-Montjuïc, en Barcelona. La propiedad... 41 m2 | 1 dorm.",
+    "agency": "Finques Feliu",
+    "rent_url": "https://www.finquesfeliu.es/es/buscador/inter"
   },
   {
     "url": "https://www.pisos.com/alquilar/piso-el_raval08001-63384109363_530867/",
@@ -260,6 +271,17 @@
     "text": "20260915 31859 Piso El Poblenou 989 €/mes 47 2 1 La vivienda en tercera planta sin ascensor. Salón exterior y cocina independiente, práctica y bien distribuida, diseñada para ofrec",
     "agency": "Guinot Prunera",
     "rent_url": "https://www.guinotprunera.com/es/alquiler"
+  },
+  {
+    "url": "https://barnapiso.com/es/vivienda/propiedad-en-sants-montjuic/",
+    "price": 1000,
+    "rooms": null,
+    "kind": "piso",
+    "title": "Propiedad en Sants-Montjuïc",
+    "img": "https://barnapiso.com/wp-content/uploads/2024/11/989391816.jpg",
+    "text": "Propiedad en Sants-Montjuïc Precio Alquiler: 1000 € de Sugranyes m2 construidos habitaciones baños",
+    "agency": "BarnaPiso",
+    "rent_url": "https://barnapiso.com/es/propiedades-disponibles-barcelona/"
   },
   {
     "url": "https://www.pisos.com/alquilar/apartamento-sant_pere_santa_caterina_la_ribera08003-64206819507_530867/",
