@@ -1,15 +1,12 @@
 {
-  "sites_read": 105,
+  "sites_read": 112,
   "sites_total": 128,
   "slow": [
     "Fincador",
-    "GUMPER",
-    "AFI Finques",
-    "Fincas San Andrés",
     "Core Barcelona",
-    "Loca Barcelona",
+    "Fincas San Andrés",
     "ShBarcelona",
-    "VM3 Fincas",
-    "Inmobiliaria González Hellín"
+    "Loca Barcelona",
+    "Carbonell (Admón. Fincas)"
   ]
 }
