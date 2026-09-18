@@ -1,17 +1,11 @@
 {
-  "sites_read": 105,
+  "sites_read": 113,
   "sites_total": 128,
   "slow": [
     "Fincador",
-    "Fincas Llúria",
     "GUMPER",
-    "Core Barcelona",
     "Fincas San Andrés",
-    "Urbefinques",
-    "Loca Barcelona",
-    "ShBarcelona",
-    "Atemporal Barcelona",
-    "VM3 Fincas",
-    "aProperties"
+    "Core Barcelona",
+    "ShBarcelona"
   ]
 }
