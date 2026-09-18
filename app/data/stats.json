@@ -1,12 +1,27 @@
 {
-  "sites_read": 107,
+  "sites_read": 98,
   "sites_total": 128,
   "slow": [
     "Fincador",
+    "Finor BCN",
+    "Chester Estate",
     "GUMPER",
+    "Gaudí House",
     "Core Barcelona",
-    "Fincas San Andrés",
+    "Finor BCN (Les Corts)",
+    "Fincas Cumbre",
+    "AFI Finques",
+    "Finques Hosta",
     "ShBarcelona",
-    "VM3 Fincas"
+    "Finques Perramon",
+    "Gala Finques",
+    "Masifill (Mas i Fill)",
+    "Finques Giramon",
+    "Ollé Bertran",
+    "Finques Querol",
+    "Inmobiliaria González Hellín",
+    "Tu Piso Nou Barris",
+    "BarnaPiso",
+    "Rentmar"
   ]
 }
