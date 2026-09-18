@@ -1,12 +1,14 @@
 {
-  "sites_read": 108,
+  "sites_read": 113,
   "sites_total": 128,
   "slow": [
     "Fincador",
     "GUMPER",
     "Core Barcelona",
+    "AFI Finques",
     "Fincas San Andrés",
+    "Loca Barcelona",
     "ShBarcelona",
-    "VM3 Fincas"
+    "Inmobiliaria Diagonal Mar"
   ]
 }
