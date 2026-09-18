@@ -1,12 +1,14 @@
 {
-  "sites_read": 112,
+  "sites_read": 111,
   "sites_total": 128,
   "slow": [
     "Fincador",
-    "AFI Finques",
-    "Core Barcelona",
     "Fincas San Andrés",
+    "Core Barcelona",
+    "Finques Hosta",
+    "Amat Immobiliaris",
+    "Loca Barcelona",
     "ShBarcelona",
-    "Euro-Horta"
+    "BarnaPiso"
   ]
 }
