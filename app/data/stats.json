@@ -1,16 +1,10 @@
 {
-  "sites_read": 106,
+  "sites_read": 112,
   "sites_total": 128,
   "slow": [
     "Fincador",
-    "Fincas San Andrés",
-    "AFI Finques",
     "Core Barcelona",
-    "Finques Hosta",
     "Forcadell",
-    "Loca Barcelona",
-    "ShBarcelona",
-    "Fincas Padua",
-    "BarnaPiso"
+    "ShBarcelona"
   ]
 }
