@@ -1,12 +1,14 @@
 {
-  "sites_read": 112,
+  "sites_read": 106,
   "sites_total": 128,
   "slow": [
     "Fincador",
-    "GUMPER",
-    "AFI Finques",
     "Core Barcelona",
+    "AFI Finques",
+    "Finques Hosta",
+    "Loca Barcelona",
     "ShBarcelona",
-    "Carbonell (Admón. Fincas)"
+    "Fincas García",
+    "BarnaPiso"
   ]
 }
