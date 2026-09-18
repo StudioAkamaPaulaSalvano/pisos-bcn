@@ -1,12 +1,13 @@
 {
-  "sites_read": 107,
+  "sites_read": 110,
   "sites_total": 128,
   "slow": [
     "Fincador",
-    "GUMPER",
     "Core Barcelona",
     "AFI Finques",
-    "Fincas San Andrés",
-    "ShBarcelona"
+    "Forcadell",
+    "ShBarcelona",
+    "Tu Piso Nou Barris",
+    "Rentmar"
   ]
 }
