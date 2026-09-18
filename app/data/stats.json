@@ -1,14 +1,12 @@
 {
-  "sites_read": 111,
+  "sites_read": 107,
   "sites_total": 128,
   "slow": [
     "Fincador",
-    "Orfinca",
+    "GUMPER",
     "Core Barcelona",
-    "Fincas San Andrés",
     "AFI Finques",
-    "ShBarcelona",
-    "VM3 Fincas",
-    "Fincas Azcoitia"
+    "Fincas San Andrés",
+    "ShBarcelona"
   ]
 }
