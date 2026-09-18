@@ -1,13 +1,15 @@
 {
-  "sites_read": 108,
+  "sites_read": 110,
   "sites_total": 128,
   "slow": [
     "Fincador",
+    "Orfinca",
     "GUMPER",
-    "AFI Finques",
     "Core Barcelona",
-    "Loca Barcelona",
+    "Urbefinques",
     "ShBarcelona",
-    "BarnaPiso"
+    "Atemporal Barcelona",
+    "VM3 Fincas",
+    "aProperties"
   ]
 }
