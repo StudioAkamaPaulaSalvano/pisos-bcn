@@ -1,15 +1,21 @@
 {
-  "sites_read": 106,
+  "sites_read": 101,
   "sites_total": 128,
   "slow": [
     "Fincador",
-    "GUMPER",
-    "West Side Barcelona",
-    "Fincas San Andrés",
+    "Finor BCN",
+    "Chester Estate",
+    "Gaudí House",
     "Core Barcelona",
-    "Loca Barcelona",
+    "Finor BCN (Les Corts)",
+    "Fincas Cumbre",
     "ShBarcelona",
-    "DonCasa",
-    "Inmobiliaria Diagonal Mar"
+    "Finques Perramon",
+    "Gala Finques",
+    "Finques Giramon",
+    "Ollé Bertran",
+    "Finques Querol",
+    "Tu Piso Nou Barris",
+    "Rentmar"
   ]
 }
