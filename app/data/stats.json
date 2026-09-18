@@ -1,12 +1,11 @@
 {
-  "sites_read": 109,
+  "sites_read": 107,
   "sites_total": 128,
   "slow": [
     "Fincador",
-    "West Side Barcelona",
+    "GUMPER",
     "Core Barcelona",
-    "ShBarcelona",
-    "DonCasa",
-    "Inmobiliaria Diagonal Mar"
+    "AFI Finques",
+    "ShBarcelona"
   ]
 }
