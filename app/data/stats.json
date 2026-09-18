@@ -1,18 +1,11 @@
 {
-  "sites_read": 106,
+  "sites_read": 112,
   "sites_total": 128,
   "slow": [
     "Fincador",
-    "Withfor",
     "Cafur Serveis Immobiliaris",
-    "Nitia",
+    "Orfinca",
     "Core Barcelona",
-    "Finques Hosta",
-    "Finques TEBÉ",
-    "Ilive Barcelona",
-    "Loca Barcelona",
-    "ShBarcelona",
-    "Serviguest",
-    "BarnaPiso"
+    "ShBarcelona"
   ]
 }
