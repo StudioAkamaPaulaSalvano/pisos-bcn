@@ -1,35 +1,11 @@
 {
-  "sites_read": 90,
+  "sites_read": 107,
   "sites_total": 128,
   "slow": [
-    "BÜNIK home",
     "Fincador",
-    "Fincas Blanco",
-    "Finor BCN",
-    "Chester Estate",
-    "Withfor",
-    "Gaudí House",
-    "Nitia",
-    "Finor BCN (Les Corts)",
-    "Diana Finques",
-    "Core Barcelona",
-    "Fincas Cumbre",
     "Fincas San Andrés",
-    "Finques Hosta",
-    "Finques TEBÉ",
-    "Finques Vives",
-    "Ilive Barcelona",
+    "Core Barcelona",
     "Loca Barcelona",
-    "ShBarcelona",
-    "Serviguest",
-    "Finques Perramon",
-    "Gala Finques",
-    "Finques Giramon",
-    "Ollé Bertran",
-    "Finques Querol",
-    "Tu Piso Nou Barris",
-    "Finques Mixoy",
-    "BarnaPiso",
-    "Rentmar"
+    "ShBarcelona"
   ]
 }
