@@ -1,10 +1,12 @@
 {
-  "sites_read": 109,
+  "sites_read": 108,
   "sites_total": 128,
   "slow": [
     "Fincador",
+    "Orfinca",
     "Core Barcelona",
     "Loca Barcelona",
-    "ShBarcelona"
+    "ShBarcelona",
+    "VM3 Fincas"
   ]
 }
