@@ -1,13 +1,14 @@
 {
-  "sites_read": 112,
+  "sites_read": 107,
   "sites_total": 128,
   "slow": [
-    "Fincador",
+    "AFB Finques Gràcia",
+    "GUMPER",
     "Core Barcelona",
     "Finques Hosta",
     "Loca Barcelona",
     "ShBarcelona",
-    "VM3 Fincas",
+    "Finques Catalonia",
     "BarnaPiso"
   ]
 }
