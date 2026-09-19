@@ -1,11 +1,12 @@
 {
-  "sites_read": 112,
+  "sites_read": 108,
   "sites_total": 128,
   "slow": [
     "Fincador",
+    "Orfinca",
+    "Fincas San Andrés",
     "Core Barcelona",
-    "Fincas Carrera",
-    "ShBarcelona",
-    "Inmobiliaria González Hellín"
+    "Loca Barcelona",
+    "ShBarcelona"
   ]
 }
