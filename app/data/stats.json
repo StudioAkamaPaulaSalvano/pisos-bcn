@@ -1,26 +1,12 @@
 {
-  "sites_read": 109,
+  "sites_read": 113,
   "sites_total": 128,
   "slow": [
-    "Chester Estate",
-    "Withfor",
-    "Urbane International",
-    "Fincas Blanco",
-    "Selekta Properties",
     "Fincador",
-    "Cafur Serveis Immobiliaris",
-    "inmho Barcelona",
-    "Finques Martell",
-    "Finques Marbá",
+    "Orfinca",
     "AFB Finques Gràcia",
-    "Finques Perramon",
-    "Fincas Layes",
-    "Fincas San Andrés",
-    "ShBarcelona",
-    "Gala Finques",
-    "Fincas García",
-    "Atemporal Barcelona",
-    "Finques Gassiot",
-    "Core Barcelona"
+    "GUMPER",
+    "Core Barcelona",
+    "ShBarcelona"
   ]
 }
