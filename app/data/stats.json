@@ -1,12 +1,17 @@
 {
-  "sites_read": 107,
+  "sites_read": 109,
   "sites_total": 128,
   "slow": [
     "Fincador",
-    "AFB Finques Gràcia",
+    "GUMPER",
     "Core Barcelona",
-    "AFI Finques",
+    "Urbefinques",
+    "Finques Hosta",
     "Loca Barcelona",
-    "ShBarcelona"
+    "ShBarcelona",
+    "Atemporal Barcelona",
+    "VM3 Fincas",
+    "aProperties",
+    "BarnaPiso"
   ]
 }
