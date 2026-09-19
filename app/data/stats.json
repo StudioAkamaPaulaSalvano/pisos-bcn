@@ -1,27 +1,10 @@
 {
-  "sites_read": 100,
+  "sites_read": 113,
   "sites_total": 128,
   "slow": [
-    "Finques Martell",
     "Fincador",
-    "Finor BCN",
-    "Chester Estate",
-    "Gaudí House",
-    "Fincas San Andrés",
     "Core Barcelona",
-    "Finor BCN (Les Corts)",
-    "Fincas Cumbre",
-    "Finques Hosta",
-    "Loca Barcelona",
     "ShBarcelona",
-    "Finques Perramon",
-    "Gala Finques",
-    "Finques Giramon",
-    "Ollé Bertran",
-    "Finques Querol",
-    "Inmobiliaria González Hellín",
-    "Tu Piso Nou Barris",
-    "BarnaPiso",
-    "Rentmar"
+    "Inmobiliaria González Hellín"
   ]
 }
