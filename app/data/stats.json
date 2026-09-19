@@ -1,9 +1,12 @@
 {
-  "sites_read": 112,
+  "sites_read": 108,
   "sites_total": 128,
   "slow": [
     "Fincador",
+    "AFB Finques Gràcia",
+    "GUMPER",
     "Core Barcelona",
+    "Loca Barcelona",
     "ShBarcelona"
   ]
 }
