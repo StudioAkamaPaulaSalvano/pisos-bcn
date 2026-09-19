@@ -1,12 +1,14 @@
 {
-  "sites_read": 108,
+  "sites_read": 112,
   "sites_total": 128,
   "slow": [
+    "Finques Martell",
     "Fincador",
     "Orfinca",
     "Core Barcelona",
-    "Loca Barcelona",
+    "Finques Hosta",
     "ShBarcelona",
-    "VM3 Fincas"
+    "VM3 Fincas",
+    "BarnaPiso"
   ]
 }
