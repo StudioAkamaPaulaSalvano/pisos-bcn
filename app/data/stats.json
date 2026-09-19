@@ -1,23 +1,10 @@
 {
-  "sites_read": 111,
+  "sites_read": 113,
   "sites_total": 128,
   "slow": [
-    "Fincas Carrera",
-    "Fincador",
-    "Finques Martínez",
+    "AFB Finques Gràcia",
     "Core Barcelona",
-    "GUMPER",
-    "Nitia",
-    "Finques El Pallars",
-    "Fincas San Andrés",
-    "AFI Finques",
-    "ShBarcelona",
-    "Segermar Associats",
-    "Immollar",
-    "BCN Living",
-    "BarnaPiso",
-    "CasaBlau",
-    "Tu Piso Nou Barris",
-    "Rentmar"
+    "Loca Barcelona",
+    "ShBarcelona"
   ]
 }
