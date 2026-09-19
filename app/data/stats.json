@@ -1,16 +1,10 @@
 {
-  "sites_read": 105,
+  "sites_read": 113,
   "sites_total": 128,
   "slow": [
     "Fincador",
-    "Cafur Serveis Immobiliaris",
-    "Orfinca",
-    "AFB Finques Gràcia",
-    "GUMPER",
-    "Fincas San Andrés",
     "Core Barcelona",
     "Loca Barcelona",
-    "ShBarcelona",
-    "Carbonell (Admón. Fincas)"
+    "ShBarcelona"
   ]
 }
