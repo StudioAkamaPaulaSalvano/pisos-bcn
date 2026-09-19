@@ -1,13 +1,14 @@
 {
-  "sites_read": 106,
+  "sites_read": 105,
   "sites_total": 128,
   "slow": [
     "Fincador",
     "Orfinca",
-    "AFB Finques Gràcia",
     "Core Barcelona",
     "Loca Barcelona",
     "ShBarcelona",
+    "DonCasa",
+    "Inmobiliaria Diagonal Mar",
     "Inmobiliaria González Hellín"
   ]
 }
