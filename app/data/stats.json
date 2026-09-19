@@ -1,9 +1,12 @@
 {
-  "sites_read": 113,
+  "sites_read": 108,
   "sites_total": 128,
   "slow": [
     "Fincador",
+    "AFB Finques Gràcia",
     "Core Barcelona",
-    "ShBarcelona"
+    "Loca Barcelona",
+    "ShBarcelona",
+    "Inmobiliaria González Hellín"
   ]
 }
