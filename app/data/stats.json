@@ -1,25 +1,15 @@
 {
-  "sites_read": 112,
+  "sites_read": 106,
   "sites_total": 128,
   "slow": [
-    "AFB Finques Gràcia",
-    "Fincas Blanco",
-    "Gil Amargós",
-    "Selekta Properties",
-    "inmho Barcelona",
-    "Cafur Serveis Immobiliaris",
-    "Casc Antic BCN",
     "Fincador",
-    "Fincas Gràcia (femgracia)",
-    "Finques Grau",
-    "Bergua Gestió d'Immobles",
-    "Masifill (Mas i Fill)",
-    "Coma-Roig",
-    "Gala Finques",
-    "ShBarcelona",
-    "Fincas García",
-    "Fincas Layes",
+    "AFB Finques Gràcia",
+    "GUMPER",
     "Core Barcelona",
-    "West Side Barcelona"
+    "Finques Hosta",
+    "Loca Barcelona",
+    "ShBarcelona",
+    "Fincas Azcoitia",
+    "BarnaPiso"
   ]
 }
