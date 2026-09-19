@@ -1,12 +1,16 @@
 {
-  "sites_read": 108,
+  "sites_read": 105,
   "sites_total": 128,
   "slow": [
     "Fincador",
-    "AFB Finques Gràcia",
-    "Core Barcelona",
+    "GUMPER",
     "Fincas San Andrés",
+    "Core Barcelona",
+    "Urbefinques",
     "Loca Barcelona",
-    "ShBarcelona"
+    "ShBarcelona",
+    "Atemporal Barcelona",
+    "VM3 Fincas",
+    "aProperties"
   ]
 }
