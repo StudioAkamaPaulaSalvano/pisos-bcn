@@ -1,9 +1,10 @@
 {
-  "sites_read": 108,
+  "sites_read": 104,
   "sites_total": 128,
   "slow": [
     "Fincador",
     "Core Barcelona",
+    "Loca Barcelona",
     "ShBarcelona"
   ]
 }
