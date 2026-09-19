@@ -1,10 +1,14 @@
 {
-  "sites_read": 114,
+  "sites_read": 106,
   "sites_total": 128,
   "slow": [
     "Fincador",
+    "AFB Finques Gràcia",
     "Core Barcelona",
+    "Finques Hosta",
     "AFI Finques",
-    "ShBarcelona"
+    "ShBarcelona",
+    "Carbonell (Admón. Fincas)",
+    "BarnaPiso"
   ]
 }
