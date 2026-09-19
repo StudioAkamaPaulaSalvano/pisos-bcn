@@ -1,13 +1,14 @@
 {
-  "sites_read": 107,
+  "sites_read": 108,
   "sites_total": 128,
   "slow": [
     "Fincador",
-    "GUMPER",
     "Core Barcelona",
-    "Loca Barcelona",
+    "Finques Hosta",
+    "Forcadell",
     "ShBarcelona",
-    "Fincas Azcoitia",
-    "Inmobiliaria González Hellín"
+    "Carbonell (Admón. Fincas)",
+    "Inmobiliaria González Hellín",
+    "BarnaPiso"
   ]
 }
