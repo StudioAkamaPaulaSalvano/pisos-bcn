@@ -1,14 +1,13 @@
 {
-  "sites_read": 111,
+  "sites_read": 112,
   "sites_total": 128,
   "slow": [
     "Fincador",
     "Core Barcelona",
-    "AFI Finques",
     "Finques Hosta",
     "Loca Barcelona",
     "ShBarcelona",
-    "Carbonell (Admón. Fincas)",
+    "VM3 Fincas",
     "BarnaPiso"
   ]
 }
