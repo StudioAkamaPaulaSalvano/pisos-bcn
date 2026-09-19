@@ -1,17 +1,13 @@
 {
-  "sites_read": 110,
+  "sites_read": 112,
   "sites_total": 128,
   "slow": [
     "Fincador",
-    "GUMPER",
-    "West Side Barcelona",
+    "Fincas San Andrés",
     "Core Barcelona",
     "Forcadell",
     "Loca Barcelona",
     "ShBarcelona",
-    "Finques Catalonia",
-    "DonCasa",
-    "Inmobiliaria Diagonal Mar",
     "Inmobiliaria González Hellín"
   ]
 }
