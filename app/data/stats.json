@@ -1,13 +1,10 @@
 {
-  "sites_read": 108,
+  "sites_read": 111,
   "sites_total": 128,
   "slow": [
     "Fincador",
     "AFB Finques Gràcia",
     "Core Barcelona",
-    "Fincas San Andrés",
-    "Loca Barcelona",
-    "ShBarcelona",
-    "Fincas Padua"
+    "ShBarcelona"
   ]
 }
