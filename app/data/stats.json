@@ -1,11 +1,16 @@
 {
-  "sites_read": 109,
+  "sites_read": 105,
   "sites_total": 128,
   "slow": [
     "Fincador",
     "AFB Finques Gràcia",
+    "GUMPER",
     "Core Barcelona",
+    "Urbefinques",
+    "Loca Barcelona",
     "ShBarcelona",
-    "Inmobiliaria González Hellín"
+    "Atemporal Barcelona",
+    "VM3 Fincas",
+    "aProperties"
   ]
 }
