@@ -1,16 +1,12 @@
 {
-  "sites_read": 112,
+  "sites_read": 113,
   "sites_total": 128,
   "slow": [
     "Fincador",
     "AFB Finques Gràcia",
     "GUMPER",
     "Core Barcelona",
-    "Finques Hosta",
-    "Loca Barcelona",
-    "ShBarcelona",
-    "Carbonell (Admón. Fincas)",
-    "Vivalco",
-    "BarnaPiso"
+    "West Side Barcelona",
+    "ShBarcelona"
   ]
 }
