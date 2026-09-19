@@ -1,18 +1,14 @@
 {
-  "sites_read": 105,
+  "sites_read": 108,
   "sites_total": 128,
   "slow": [
     "Fincador",
+    "Cafur Serveis Immobiliaris",
+    "AFB Finques Gràcia",
     "GUMPER",
     "Core Barcelona",
-    "Urbefinques",
-    "Fincas San Andrés",
     "Loca Barcelona",
     "ShBarcelona",
-    "Atemporal Barcelona",
-    "Fincas García",
-    "Inmobiliaria Diagonal Mar",
-    "VM3 Fincas",
-    "aProperties"
+    "Inmobiliaria Diagonal Mar"
   ]
 }
