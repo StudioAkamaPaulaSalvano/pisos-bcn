@@ -1,17 +1,11 @@
 {
-  "sites_read": 105,
+  "sites_read": 108,
   "sites_total": 128,
   "slow": [
     "Fincador",
+    "Orfinca",
     "Core Barcelona",
-    "Fincas San Andrés",
-    "Urbefinques",
-    "Punto Habitat",
-    "Loca Barcelona",
     "ShBarcelona",
-    "Atemporal Barcelona",
-    "VM3 Fincas",
-    "Inmobiliaria González Hellín",
-    "aProperties"
+    "Inmobiliaria González Hellín"
   ]
 }
