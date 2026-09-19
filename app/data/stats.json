@@ -1,13 +1,15 @@
 {
-  "sites_read": 105,
+  "sites_read": 110,
   "sites_total": 128,
   "slow": [
     "Fincador",
     "GUMPER",
     "Core Barcelona",
-    "Finques Hosta",
+    "Urbefinques",
+    "Loca Barcelona",
     "ShBarcelona",
-    "Masifill (Mas i Fill)",
-    "BarnaPiso"
+    "Atemporal Barcelona",
+    "VM3 Fincas",
+    "aProperties"
   ]
 }
