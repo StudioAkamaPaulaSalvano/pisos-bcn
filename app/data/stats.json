@@ -1,11 +1,10 @@
 {
-  "sites_read": 107,
+  "sites_read": 112,
   "sites_total": 128,
   "slow": [
     "Fincador",
+    "AFB Finques Gràcia",
     "Core Barcelona",
-    "Finques Hosta",
-    "ShBarcelona",
-    "BarnaPiso"
+    "ShBarcelona"
   ]
 }
