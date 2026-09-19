@@ -1,17 +1,13 @@
 {
-  "sites_read": 102,
+  "sites_read": 105,
   "sites_total": 128,
   "slow": [
-    "BÜNIK home",
     "Fincador",
-    "Fincas Blanco",
-    "GUMPER",
-    "Diana Finques",
     "Core Barcelona",
-    "Finques Vives",
     "Loca Barcelona",
     "ShBarcelona",
-    "Inmobiliaria González Hellín",
-    "Finques Mixoy"
+    "DonCasa",
+    "Inmobiliaria Diagonal Mar",
+    "Inmobiliaria González Hellín"
   ]
 }
