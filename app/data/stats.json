@@ -1,13 +1,16 @@
 {
-  "sites_read": 111,
+  "sites_read": 105,
   "sites_total": 128,
   "slow": [
     "Fincador",
+    "Finques Marbá",
+    "Orfinca",
     "GUMPER",
     "Fincas San Andrés",
     "Core Barcelona",
     "Loca Barcelona",
     "ShBarcelona",
-    "Inmobiliaria González Hellín"
+    "Inmobiliaria González Hellín",
+    "Fincas Azcoitia"
   ]
 }
