@@ -1,16 +1,13 @@
 {
-  "sites_read": 104,
+  "sites_read": 113,
   "sites_total": 128,
   "slow": [
     "Fincador",
+    "AFB Finques Gràcia",
+    "GUMPER",
     "Core Barcelona",
-    "Finques Hosta",
+    "Fincas San Andrés",
     "Loca Barcelona",
-    "ShBarcelona",
-    "Carbonell (Admón. Fincas)",
-    "Finques Catalonia",
-    "Tu Piso Nou Barris",
-    "BarnaPiso",
-    "Rentmar"
+    "ShBarcelona"
   ]
 }
