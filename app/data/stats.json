@@ -1,19 +1,14 @@
 {
-  "sites_read": 114,
+  "sites_read": 111,
   "sites_total": 128,
   "slow": [
     "Fincador",
     "Core Barcelona",
+    "AFI Finques",
+    "Finques Hosta",
+    "Loca Barcelona",
     "ShBarcelona",
-    "Serviguest",
-    "Finques Perramon",
-    "Gala Finques",
-    "Fincas García",
-    "Finques Giramon",
-    "Ollé Bertran",
-    "Finques Querol",
-    "Tu Piso Nou Barris",
-    "BarnaPiso",
-    "Rentmar"
+    "Carbonell (Admón. Fincas)",
+    "BarnaPiso"
   ]
 }
