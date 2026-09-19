@@ -1,8 +1,13 @@
 {
-  "sites_read": 113,
+  "sites_read": 108,
   "sites_total": 128,
   "slow": [
+    "Fincador",
+    "Orfinca",
+    "AFB Finques Gràcia",
+    "GUMPER",
     "Core Barcelona",
+    "Fincas San Andrés",
     "Loca Barcelona",
     "ShBarcelona"
   ]
