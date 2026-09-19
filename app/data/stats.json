@@ -1,14 +1,13 @@
 {
-  "sites_read": 107,
+  "sites_read": 109,
   "sites_total": 128,
   "slow": [
     "Fincador",
+    "Fincas Blanco",
     "AFB Finques Gràcia",
-    "GUMPER",
-    "Fincas San Andrés",
     "Core Barcelona",
-    "Loca Barcelona",
+    "Fincas Carrera",
     "ShBarcelona",
-    "VM3 Fincas"
+    "Inmobiliaria González Hellín"
   ]
 }
