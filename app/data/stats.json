@@ -1,15 +1,13 @@
 {
-  "sites_read": 108,
+  "sites_read": 106,
   "sites_total": 128,
   "slow": [
     "Fincador",
-    "Urbane International",
     "GUMPER",
     "Core Barcelona",
-    "Urbefinques",
+    "Loca Barcelona",
     "ShBarcelona",
-    "Atemporal Barcelona",
-    "VM3 Fincas",
-    "aProperties"
+    "aProperties",
+    "Ferrim Habitat"
   ]
 }
