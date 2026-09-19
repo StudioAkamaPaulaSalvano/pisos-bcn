@@ -1,13 +1,15 @@
 {
-  "sites_read": 106,
+  "sites_read": 108,
   "sites_total": 128,
   "slow": [
     "Fincador",
     "Urbane International",
+    "GUMPER",
     "Core Barcelona",
+    "Urbefinques",
     "ShBarcelona",
-    "Fincas Padua",
-    "Carbonell (Admón. Fincas)",
+    "Atemporal Barcelona",
+    "VM3 Fincas",
     "aProperties"
   ]
 }
