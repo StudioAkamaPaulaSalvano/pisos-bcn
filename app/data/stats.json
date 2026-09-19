@@ -1,11 +1,12 @@
 {
-  "sites_read": 107,
+  "sites_read": 106,
   "sites_total": 128,
   "slow": [
     "Fincador",
-    "GUMPER",
     "Core Barcelona",
     "ShBarcelona",
+    "Loca Barcelona",
+    "Carbonell (Admón. Fincas)",
     "Inmobiliaria González Hellín"
   ]
 }
