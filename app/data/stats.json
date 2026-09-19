@@ -1,13 +1,14 @@
 {
-  "sites_read": 107,
+  "sites_read": 108,
   "sites_total": 128,
   "slow": [
     "Fincador",
     "Core Barcelona",
-    "Fincas San Andrés",
     "Forcadell",
     "Loca Barcelona",
     "ShBarcelona",
-    "Inmobiliaria González Hellín"
+    "Carbonell (Admón. Fincas)",
+    "Inmobiliaria González Hellín",
+    "Ferrim Habitat"
   ]
 }
