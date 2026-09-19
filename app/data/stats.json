@@ -1,5 +1,5 @@
 {
-  "sites_read": 106,
+  "sites_read": 107,
   "sites_total": 128,
   "slow": [
     "Fincador",
@@ -7,7 +7,6 @@
     "Core Barcelona",
     "Loca Barcelona",
     "ShBarcelona",
-    "aProperties",
-    "Ferrim Habitat"
+    "aProperties"
   ]
 }
