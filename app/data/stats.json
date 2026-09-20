@@ -1,11 +1,17 @@
 {
-  "sites_read": 107,
+  "sites_read": 105,
   "sites_total": 128,
   "slow": [
     "Fincador",
+    "Fincas San Andrés",
     "Core Barcelona",
+    "Urbefinques",
     "Loca Barcelona",
     "ShBarcelona",
-    "Inmobiliaria Diagonal Mar"
+    "Atemporal Barcelona",
+    "Gala Finques",
+    "Inmobiliaria Diagonal Mar",
+    "VM3 Fincas",
+    "aProperties"
   ]
 }
