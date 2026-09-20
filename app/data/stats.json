@@ -1,14 +1,12 @@
 {
-  "sites_read": 110,
+  "sites_read": 107,
   "sites_total": 128,
   "slow": [
     "Fincador",
     "Cafur Serveis Immobiliaris",
     "Core Barcelona",
-    "Finques Hosta",
     "Forcadell",
     "ShBarcelona",
-    "Inmobiliaria González Hellín",
-    "BarnaPiso"
+    "Inmobiliaria González Hellín"
   ]
 }
