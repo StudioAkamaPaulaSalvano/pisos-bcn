@@ -1,12 +1,14 @@
 {
-  "sites_read": 113,
+  "sites_read": 107,
   "sites_total": 128,
   "slow": [
     "Fincador",
+    "Orfinca",
     "Core Barcelona",
-    "Loca Barcelona",
     "Forcadell",
     "ShBarcelona",
-    "Inmobiliaria González Hellín"
+    "Fincas Padua",
+    "Inmobiliaria González Hellín",
+    "Fincas Azcoitia"
   ]
 }
