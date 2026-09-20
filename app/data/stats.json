@@ -1,13 +1,15 @@
 {
-  "sites_read": 113,
+  "sites_read": 108,
   "sites_total": 128,
   "slow": [
     "Fincador",
-    "Fincas San Andrés",
+    "GUMPER",
     "Core Barcelona",
+    "AFI Finques",
+    "Fincas San Andrés",
+    "Loca Barcelona",
     "ShBarcelona",
-    "Gala Finques",
-    "Carbonell (Admón. Fincas)",
-    "Inmobiliaria Diagonal Mar"
+    "Fincas Padua",
+    "Gala Finques"
   ]
 }
