@@ -1,16 +1,12 @@
 {
-  "sites_read": 112,
+  "sites_read": 105,
   "sites_total": 128,
   "slow": [
     "Fincador",
+    "Core Barcelona",
+    "Loca Barcelona",
     "ShBarcelona",
-    "Atemporal Barcelona",
-    "AFI Finques",
-    "Punto Habitat",
-    "Fincas Layes",
-    "Finques Perramon",
     "Gala Finques",
-    "Forcadell",
-    "Core Barcelona"
+    "Finques Gassiot"
   ]
 }

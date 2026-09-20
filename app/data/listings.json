@@ -1,5 +1,27 @@
 [
   {
+    "url": "https://masifill.com/property/pisos-la-dreta-de-leixample/",
+    "price": 350,
+    "rooms": null,
+    "kind": "piso",
+    "title": "Pisos la dreta de leixample",
+    "img": "https://masifill.com/wp-content/uploads/propiedad-5868-1-385x258.jpg",
+    "text": "Llogar 1,350€",
+    "agency": "Masifill (Mas i Fill)",
+    "rent_url": "https://masifill.com/property/lloguer-despatx-en-varies-estancies-a-sarria-barcelona/"
+  },
+  {
+    "url": "https://barnapiso.com/es/vivienda/propiedad-en-las-cortes-4/",
+    "price": 425,
+    "rooms": null,
+    "kind": "piso",
+    "title": "Propiedad en Les Corts",
+    "img": "https://barnapiso.com/wp-content/uploads/2024/11/1231744428-scaled.jpg",
+    "text": "Propiedad en Les Corts Precio Alquiler: 425 € de San Ramón Nonato m2 construidos habitaciones baños",
+    "agency": "BarnaPiso",
+    "rent_url": "https://barnapiso.com/es/propiedades-disponibles-barcelona/"
+  },
+  {
     "url": "https://finqueselpallars.com/piso-en-alquiler-les-corts-barcelona/",
     "price": 500,
     "rooms": null,
@@ -262,6 +284,17 @@
     "rent_url": "https://www.guinotprunera.com/es/alquiler"
   },
   {
+    "url": "https://barnapiso.com/es/vivienda/propiedad-en-sants-montjuic/",
+    "price": 1000,
+    "rooms": null,
+    "kind": "piso",
+    "title": "Propiedad en Sants-Montjuïc",
+    "img": "https://barnapiso.com/wp-content/uploads/2024/11/989391816.jpg",
+    "text": "Propiedad en Sants-Montjuïc Precio Alquiler: 1000 € de Sugranyes m2 construidos habitaciones baños",
+    "agency": "BarnaPiso",
+    "rent_url": "https://barnapiso.com/es/propiedades-disponibles-barcelona/"
+  },
+  {
     "url": "https://www.pisos.com/alquilar/apartamento-sant_pere_santa_caterina_la_ribera08003-64206819507_530867/",
     "price": 1000,
     "rooms": 1,
@@ -401,6 +434,28 @@
     "title": "Piso en El Raval",
     "img": "https://fotos.imghs.net/mm-wp/1092/3230323630393136/f41ea0df-b9b2-4f2f-a5af-ac584894b3cc.jpg",
     "text": "1 /10 Nuevo PREMIUM 1.100 € /mes Piso en El Raval El Raval (Distrito Ciutat Vella. Barcelona Capital) 65 m² 🌟 central 2-bedroom top-floor apartment in barcelona (no elevator) 🌟 Wel",
+    "agency": "pisos.com",
+    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
+  },
+  {
+    "url": "https://www.pisos.com/alquilar/piso-sants_montjuic_sants08028-67527029429_109200/",
+    "price": 1100,
+    "rooms": null,
+    "kind": "piso",
+    "title": "Piso en Sants",
+    "img": "https://fotos.imghs.net/mm-wp/1092/3230323630393031/48e0cd94-ef9e-4612-8585-e6f0d0895a13.jpg",
+    "text": "1 /5 PREMIUM 1.100 € /mes Piso en Sants Sants (Distrito Sants-Montjuïc. Barcelona Capital) 40 m² Estudio reformado con una zona de estar luminosa. Estarás justo en el centro de la ",
+    "agency": "pisos.com",
+    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
+  },
+  {
+    "url": "https://www.pisos.com/alquilar/piso-el_raval08001-65902574462_109800/",
+    "price": 1100,
+    "rooms": 1,
+    "kind": "piso",
+    "title": "Piso en Carrer del Tigre, 12",
+    "img": "https://fotos.imghs.net/mm-wp/1098/5814356/1098_1_foto_20260701131016833_65902574462.jpg",
+    "text": "1 /24 1.100 € /mes Piso en Carrer del Tigre, 12 El Raval (Distrito Ciutat Vella. Barcelona Capital) 1 hab. 1 baño 32 m² 2ª planta Ideal para estudiantes: Apartamento de 1 dormitori",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   }
