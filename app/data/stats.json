@@ -1,11 +1,17 @@
 {
-  "sites_read": 113,
+  "sites_read": 108,
   "sites_total": 128,
   "slow": [
     "Fincador",
-    "GUMPER",
+    "Orfinca",
+    "Withfor",
+    "Nitia",
     "Core Barcelona",
+    "Finques TEBÉ",
+    "Ilive Barcelona",
     "Loca Barcelona",
-    "ShBarcelona"
+    "ShBarcelona",
+    "Serviguest",
+    "InmoGràcia"
   ]
 }
