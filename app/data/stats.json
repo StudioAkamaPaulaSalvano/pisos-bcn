@@ -1,12 +1,16 @@
 {
-  "sites_read": 109,
+  "sites_read": 110,
   "sites_total": 128,
   "slow": [
     "Fincador",
+    "GUMPER",
     "Core Barcelona",
+    "Urbefinques",
     "Loca Barcelona",
     "ShBarcelona",
-    "Carbonell (Admón. Fincas)",
-    "Vivalco"
+    "Atemporal Barcelona",
+    "Gala Finques",
+    "VM3 Fincas",
+    "aProperties"
   ]
 }
