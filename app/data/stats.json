@@ -1,18 +1,13 @@
 {
-  "sites_read": 104,
+  "sites_read": 107,
   "sites_total": 128,
   "slow": [
     "Fincador",
-    "GUMPER",
     "Fincas San Andrés",
     "Core Barcelona",
-    "Urbefinques",
     "Forcadell",
     "Loca Barcelona",
     "ShBarcelona",
-    "Atemporal Barcelona",
-    "VM3 Fincas",
-    "Inmobiliaria González Hellín",
-    "aProperties"
+    "Inmobiliaria González Hellín"
   ]
 }
