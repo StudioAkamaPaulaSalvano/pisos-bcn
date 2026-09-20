@@ -1,12 +1,14 @@
 {
-  "sites_read": 107,
+  "sites_read": 113,
   "sites_total": 128,
   "slow": [
     "Fincador",
     "Selekta Properties",
+    "Fincas San Andrés",
     "Core Barcelona",
     "Loca Barcelona",
     "ShBarcelona",
+    "Fincas Padua",
     "Gala Finques"
   ]
 }
