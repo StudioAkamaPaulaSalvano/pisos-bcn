@@ -1,16 +1,13 @@
 {
-  "sites_read": 107,
+  "sites_read": 108,
   "sites_total": 128,
   "slow": [
     "Fincador",
     "Fincas San Andrés",
     "Core Barcelona",
-    "Finques Hosta",
-    "Loca Barcelona",
     "Forcadell",
+    "Loca Barcelona",
     "ShBarcelona",
-    "Fincas Padua",
-    "Inmobiliaria González Hellín",
-    "BarnaPiso"
+    "Inmobiliaria González Hellín"
   ]
 }
