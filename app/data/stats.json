@@ -1,12 +1,25 @@
 {
-  "sites_read": 110,
+  "sites_read": 98,
   "sites_total": 128,
   "slow": [
     "Fincador",
+    "Finor BCN",
+    "Orfinca",
+    "Chester Estate",
+    "Gaudí House",
+    "Finor BCN (Les Corts)",
     "AFI Finques",
     "Core Barcelona",
-    "Fincas Carrera",
+    "Fincas Cumbre",
     "ShBarcelona",
-    "Inmobiliaria González Hellín"
+    "Finques Perramon",
+    "Gala Finques",
+    "DonCasa",
+    "Finques Giramon",
+    "Inmobiliaria Diagonal Mar",
+    "Ollé Bertran",
+    "Finques Querol",
+    "Tu Piso Nou Barris",
+    "Rentmar"
   ]
 }
