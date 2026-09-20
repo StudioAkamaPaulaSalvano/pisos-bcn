@@ -1,15 +1,12 @@
 {
-  "sites_read": 107,
+  "sites_read": 108,
   "sites_total": 128,
   "slow": [
     "Fincador",
-    "Orfinca",
-    "GUMPER",
     "Fincas San Andrés",
     "Core Barcelona",
-    "Finques Hosta",
     "ShBarcelona",
-    "Inmobiliaria González Hellín",
-    "BarnaPiso"
+    "Fincas García",
+    "Inmobiliaria González Hellín"
   ]
 }
