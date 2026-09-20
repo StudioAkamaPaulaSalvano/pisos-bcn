@@ -1,13 +1,14 @@
 {
-  "sites_read": 113,
+  "sites_read": 107,
   "sites_total": 128,
   "slow": [
     "Fincador",
-    "Orfinca",
-    "Fincas San Andrés",
     "Core Barcelona",
+    "Fincas San Andrés",
     "Loca Barcelona",
     "ShBarcelona",
-    "Inmobiliaria González Hellín"
+    "Gala Finques",
+    "Inmobiliaria González Hellín",
+    "BCN Living"
   ]
 }
