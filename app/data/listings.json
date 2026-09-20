@@ -1,5 +1,16 @@
 [
   {
+    "url": "https://barnapiso.com/es/vivienda/propiedad-en-las-cortes-4/",
+    "price": 425,
+    "rooms": null,
+    "kind": "piso",
+    "title": "Propiedad en Les Corts",
+    "img": "https://barnapiso.com/wp-content/uploads/2024/11/1231744428-scaled.jpg",
+    "text": "Propiedad en Les Corts Precio Alquiler: 425 € de San Ramón Nonato m2 construidos habitaciones baños",
+    "agency": "BarnaPiso",
+    "rent_url": "https://barnapiso.com/es/propiedades-disponibles-barcelona/"
+  },
+  {
     "url": "https://finqueselpallars.com/piso-en-alquiler-les-corts-barcelona/",
     "price": 500,
     "rooms": null,
@@ -251,6 +262,17 @@
     "rent_url": "https://www.guinotprunera.com/es/alquiler"
   },
   {
+    "url": "https://barnapiso.com/es/vivienda/propiedad-en-sants-montjuic/",
+    "price": 1000,
+    "rooms": null,
+    "kind": "piso",
+    "title": "Propiedad en Sants-Montjuïc",
+    "img": "https://barnapiso.com/wp-content/uploads/2024/11/989391816.jpg",
+    "text": "Propiedad en Sants-Montjuïc Precio Alquiler: 1000 € de Sugranyes m2 construidos habitaciones baños",
+    "agency": "BarnaPiso",
+    "rent_url": "https://barnapiso.com/es/propiedades-disponibles-barcelona/"
+  },
+  {
     "url": "https://www.pisos.com/alquilar/apartamento-sant_pere_santa_caterina_la_ribera08003-64206819507_530867/",
     "price": 1000,
     "rooms": 1,
@@ -378,7 +400,7 @@
     "kind": "piso",
     "title": "Estudio en El Fort Pienc",
     "img": "https://fotos.imghs.net/mm-wp/1047/3230323630353037/3ee5d1fc-9df9-4b0e-9c9c-e37dfb44a332.jpg",
-    "text": "1 /18 Nuevo PREMIUM 1.100 € /mes Estudio en El Fort Pienc El Fort Pienc (Distrito Eixample. Barcelona Capital) 1 baño 18 m² Reservas e inquietudes Tipo de alojamiento - alojamiento",
+    "text": "1 /18 PREMIUM 1.100 € /mes Estudio en El Fort Pienc El Fort Pienc (Distrito Eixample. Barcelona Capital) 1 baño 18 m² Reservas e inquietudes Tipo de alojamiento - alojamiento enter",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
