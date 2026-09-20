@@ -1,12 +1,13 @@
 {
-  "sites_read": 107,
+  "sites_read": 113,
   "sites_total": 128,
   "slow": [
     "Fincador",
+    "GUMPER",
     "Core Barcelona",
+    "Loca Barcelona",
     "Forcadell",
     "ShBarcelona",
-    "Fincas García",
     "Inmobiliaria González Hellín"
   ]
 }
