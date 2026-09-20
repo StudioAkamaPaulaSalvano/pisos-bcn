@@ -1,19 +1,12 @@
 {
-  "sites_read": 102,
+  "sites_read": 113,
   "sites_total": 128,
   "slow": [
     "Fincador",
-    "Withfor",
-    "Nitia",
-    "Core Barcelona",
     "Fincas San Andrés",
-    "Finques Hosta",
-    "Finques TEBÉ",
-    "Ilive Barcelona",
+    "Core Barcelona",
+    "Loca Barcelona",
     "ShBarcelona",
-    "Serviguest",
-    "Inmobiliaria González Hellín",
-    "Immollar",
-    "BarnaPiso"
+    "Inmobiliaria González Hellín"
   ]
 }
