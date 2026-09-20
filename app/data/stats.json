@@ -1,13 +1,14 @@
 {
-  "sites_read": 108,
+  "sites_read": 109,
   "sites_total": 128,
   "slow": [
     "Fincador",
     "Selekta Properties",
+    "Fincas San Andrés",
     "Core Barcelona",
-    "Finques Hosta",
-    "AFI Finques",
     "ShBarcelona",
-    "BarnaPiso"
+    "Gala Finques",
+    "Carbonell (Admón. Fincas)",
+    "Vivalco"
   ]
 }
