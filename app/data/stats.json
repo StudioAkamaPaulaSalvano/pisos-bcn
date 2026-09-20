@@ -1,13 +1,15 @@
 {
-  "sites_read": 107,
+  "sites_read": 105,
   "sites_total": 128,
   "slow": [
     "Fincador",
-    "Orfinca",
     "Core Barcelona",
+    "Urbefinques",
     "Loca Barcelona",
     "ShBarcelona",
+    "Atemporal Barcelona",
     "Gala Finques",
-    "Fincas Azcoitia"
+    "VM3 Fincas",
+    "aProperties"
   ]
 }
