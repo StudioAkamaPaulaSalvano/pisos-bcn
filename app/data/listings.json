@@ -1,14 +1,14 @@
 [
   {
-    "url": "https://barnapiso.com/es/vivienda/propiedad-en-las-cortes-4/",
-    "price": 425,
+    "url": "https://masifill.com/property/pisos-la-dreta-de-leixample/",
+    "price": 350,
     "rooms": null,
     "kind": "piso",
-    "title": "Propiedad en Les Corts",
-    "img": "https://barnapiso.com/wp-content/uploads/2024/11/1231744428-scaled.jpg",
-    "text": "Propiedad en Les Corts Precio Alquiler: 425 € de San Ramón Nonato m2 construidos habitaciones baños",
-    "agency": "BarnaPiso",
-    "rent_url": "https://barnapiso.com/es/propiedades-disponibles-barcelona/"
+    "title": "Pisos la dreta de leixample",
+    "img": "https://masifill.com/wp-content/uploads/propiedad-5868-1-385x258.jpg",
+    "text": "Llogar 1,350€",
+    "agency": "Masifill (Mas i Fill)",
+    "rent_url": "https://masifill.com/property/lloguer-local-a-peu-de-carrer-a-leixample-esquerra-barcelona/"
   },
   {
     "url": "https://finqueselpallars.com/piso-en-alquiler-les-corts-barcelona/",
@@ -72,17 +72,6 @@
     "title": "Piso en Carrer del Pi",
     "img": "https://fotos.imghs.net/mm-wp/530867/63431472689.530867/530867_63431472689_22ef6d05-bd02-43f2-9b88-784258c6d243.jpg",
     "text": "1 /6 PREMIUM 800 € /mes Piso en Carrer del Pi El Barri Gòtic (Distrito Ciutat Vella. Barcelona Capital) 1 hab. 1 baño 32 m² 4ª planta Ubicado en la última planta de finca caracterí",
-    "agency": "pisos.com",
-    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
-  },
-  {
-    "url": "https://www.pisos.com/alquilar/estudio-el_barri_gotic08002-54237192953_104700/",
-    "price": 800,
-    "rooms": null,
-    "kind": "piso",
-    "title": "Estudio en El Barri Gòtic",
-    "img": "https://fotos.imghs.net/mm-wp/1047/588/1047_268588_1_2025050909050249800.jpg",
-    "text": "1 /6 PREMIUM 800 € /mes Estudio en El Barri Gòtic El Barri Gòtic (Distrito Ciutat Vella. Barcelona Capital) 1 baño 28 m² Reservas e inquietudes Tipo de alojamiento - alojamiento en",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
@@ -271,17 +260,6 @@
     "text": "20260915 31859 Piso El Poblenou 989 €/mes 47 2 1 La vivienda en tercera planta sin ascensor. Salón exterior y cocina independiente, práctica y bien distribuida, diseñada para ofrec",
     "agency": "Guinot Prunera",
     "rent_url": "https://www.guinotprunera.com/es/alquiler"
-  },
-  {
-    "url": "https://barnapiso.com/es/vivienda/propiedad-en-sants-montjuic/",
-    "price": 1000,
-    "rooms": null,
-    "kind": "piso",
-    "title": "Propiedad en Sants-Montjuïc",
-    "img": "https://barnapiso.com/wp-content/uploads/2024/11/989391816.jpg",
-    "text": "Propiedad en Sants-Montjuïc Precio Alquiler: 1000 € de Sugranyes m2 construidos habitaciones baños",
-    "agency": "BarnaPiso",
-    "rent_url": "https://barnapiso.com/es/propiedades-disponibles-barcelona/"
   },
   {
     "url": "https://www.pisos.com/alquilar/apartamento-sant_pere_santa_caterina_la_ribera08003-64206819507_530867/",
