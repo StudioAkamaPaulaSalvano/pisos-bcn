@@ -1,10 +1,13 @@
 {
-  "sites_read": 112,
+  "sites_read": 108,
   "sites_total": 128,
   "slow": [
     "Fincador",
+    "Fincas San Andrés",
     "Core Barcelona",
-    "Fincas Carrera",
-    "ShBarcelona"
+    "Loca Barcelona",
+    "ShBarcelona",
+    "Carbonell (Admón. Fincas)",
+    "Vivalco"
   ]
 }
