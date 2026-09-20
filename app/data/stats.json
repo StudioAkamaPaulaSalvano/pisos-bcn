@@ -1,11 +1,12 @@
 {
-  "sites_read": 107,
+  "sites_read": 110,
   "sites_total": 128,
   "slow": [
     "Fincador",
-    "Core Barcelona",
     "AFI Finques",
-    "Loca Barcelona",
-    "ShBarcelona"
+    "Core Barcelona",
+    "Fincas Carrera",
+    "ShBarcelona",
+    "Inmobiliaria González Hellín"
   ]
 }
