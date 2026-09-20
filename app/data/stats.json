@@ -1,15 +1,12 @@
 {
-  "sites_read": 105,
+  "sites_read": 107,
   "sites_total": 128,
   "slow": [
     "Fincador",
-    "AFI Finques",
     "Core Barcelona",
-    "Urbefinques",
+    "Finques Hosta",
     "Loca Barcelona",
     "ShBarcelona",
-    "Atemporal Barcelona",
-    "VM3 Fincas",
-    "aProperties"
+    "BarnaPiso"
   ]
 }
