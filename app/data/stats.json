@@ -1,10 +1,15 @@
 {
-  "sites_read": 108,
+  "sites_read": 110,
   "sites_total": 128,
   "slow": [
     "Fincador",
     "Orfinca",
+    "Fincas San Andrés",
     "Core Barcelona",
-    "ShBarcelona"
+    "Urbefinques",
+    "ShBarcelona",
+    "Atemporal Barcelona",
+    "VM3 Fincas",
+    "aProperties"
   ]
 }
