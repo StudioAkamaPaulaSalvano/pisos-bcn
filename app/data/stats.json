@@ -1,12 +1,17 @@
 {
-  "sites_read": 112,
+  "sites_read": 109,
   "sites_total": 128,
   "slow": [
     "Fincador",
-    "Fincas San Andrés",
     "Core Barcelona",
+    "Urbefinques",
+    "Fincas San Andrés",
     "Forcadell",
+    "Loca Barcelona",
     "ShBarcelona",
-    "Inmobiliaria González Hellín"
+    "Atemporal Barcelona",
+    "VM3 Fincas",
+    "Inmobiliaria González Hellín",
+    "aProperties"
   ]
 }
