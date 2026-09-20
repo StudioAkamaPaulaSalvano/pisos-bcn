@@ -1,15 +1,11 @@
 {
-  "sites_read": 110,
+  "sites_read": 113,
   "sites_total": 128,
   "slow": [
     "Fincador",
-    "Finques Catalonia",
     "Core Barcelona",
+    "Loca Barcelona",
     "ShBarcelona",
-    "Gala Finques",
-    "Fincas García",
-    "Fincas Layes",
-    "Masifill (Mas i Fill)",
-    "Fincas Carrera"
+    "Rentmar"
   ]
 }
