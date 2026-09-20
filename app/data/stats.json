@@ -1,16 +1,13 @@
 {
-  "sites_read": 111,
+  "sites_read": 108,
   "sites_total": 128,
   "slow": [
     "Fincador",
     "Cafur Serveis Immobiliaris",
-    "Fincas San Andrés",
     "Core Barcelona",
-    "Finques Hosta",
-    "AFI Finques",
+    "Fincas San Andrés",
     "Forcadell",
     "ShBarcelona",
-    "Inmobiliaria González Hellín",
-    "BarnaPiso"
+    "Inmobiliaria González Hellín"
   ]
 }
