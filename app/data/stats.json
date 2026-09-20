@@ -1,14 +1,12 @@
 {
-  "sites_read": 113,
+  "sites_read": 108,
   "sites_total": 128,
   "slow": [
     "Fincador",
-    "Orfinca",
-    "Fincas San Andrés",
     "Core Barcelona",
     "Loca Barcelona",
     "ShBarcelona",
-    "Fincas García",
-    "Carbonell (Admón. Fincas)"
+    "Inmobiliaria Diagonal Mar",
+    "Vivalco"
   ]
 }
