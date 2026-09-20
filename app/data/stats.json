@@ -1,12 +1,14 @@
 {
-  "sites_read": 113,
+  "sites_read": 108,
   "sites_total": 128,
   "slow": [
     "Fincador",
-    "Cafur Serveis Immobiliaris",
     "Core Barcelona",
+    "Fincas San Andrés",
     "Forcadell",
+    "Loca Barcelona",
     "ShBarcelona",
+    "Carbonell (Admón. Fincas)",
     "Inmobiliaria González Hellín"
   ]
 }
