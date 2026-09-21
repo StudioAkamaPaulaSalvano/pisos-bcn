@@ -1,11 +1,15 @@
 {
-  "sites_read": 108,
+  "sites_read": 106,
   "sites_total": 128,
   "slow": [
     "Fincador",
-    "GUMPER",
+    "Orfinca",
     "Core Barcelona",
+    "Finques Hosta",
+    "Loca Barcelona",
     "ShBarcelona",
-    "Vivalco"
+    "Inmobiliaria Diagonal Mar",
+    "Vivalco",
+    "BarnaPiso"
   ]
 }
