@@ -1,19 +1,14 @@
 {
-  "sites_read": 110,
+  "sites_read": 107,
   "sites_total": 128,
   "slow": [
     "Fincador",
-    "Orfinca",
     "GUMPER",
-    "West Side Barcelona",
     "Core Barcelona",
     "Fincas San Andrés",
     "AFI Finques",
-    "ShBarcelona",
     "Loca Barcelona",
-    "DonCasa",
-    "Carbonell (Admón. Fincas)",
-    "VM3 Fincas",
-    "Inmobiliaria Diagonal Mar"
+    "ShBarcelona",
+    "VM3 Fincas"
   ]
 }
