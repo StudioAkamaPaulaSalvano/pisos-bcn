@@ -1,12 +1,12 @@
 {
-  "sites_read": 114,
+  "sites_read": 112,
   "sites_total": 128,
   "slow": [
     "Fincador",
-    "GUMPER",
     "Core Barcelona",
     "Loca Barcelona",
     "ShBarcelona",
-    "Carbonell (Admón. Fincas)"
+    "Carbonell (Admón. Fincas)",
+    "Fincas Azcoitia"
   ]
 }
