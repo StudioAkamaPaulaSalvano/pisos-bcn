@@ -1,5 +1,16 @@
 [
   {
+    "url": "https://barnapiso.com/es/vivienda/propiedad-en-las-cortes-4/",
+    "price": 425,
+    "rooms": null,
+    "kind": "piso",
+    "title": "Propiedad en Les Corts",
+    "img": "https://barnapiso.com/wp-content/uploads/2024/11/1231744428-scaled.jpg",
+    "text": "Propiedad en Les Corts Precio Alquiler: 425 € de San Ramón Nonato m2 construidos habitaciones baños",
+    "agency": "BarnaPiso",
+    "rent_url": "https://barnapiso.com/es/propiedades-disponibles-barcelona/"
+  },
+  {
     "url": "https://finqueselpallars.com/piso-en-alquiler-les-corts-barcelona/",
     "price": 500,
     "rooms": null,
@@ -251,17 +262,6 @@
     "rent_url": "https://www.finquesfeliu.es/es/buscador/inter"
   },
   {
-    "url": "https://www.bunikhome.com/Alquiler-Piso-Barcelona-Poble-Sec-661",
-    "price": 970,
-    "rooms": 2,
-    "kind": "piso",
-    "title": "Alquiler Piso Barcelona Poble Sec 661",
-    "img": "https://www.inmoserver.com/fotos/1260/wm/661_3519a614d7a2130a35f0bf2feee981e9.png",
-    "text": "Previous Next Novedad Ref: 111-AG Piso (Bajo) en alquiler en Barcelona, Poble Sec Calle Roser Planta baja Dúplex2 hab 2 baños sin amueblar en Poble Sec Contrato - LARGA DURACIÓNPob",
-    "agency": "BÜNIK home",
-    "rent_url": "https://www.bunikhome.com/buscar.php?p=&o=Alquiler"
-  },
-  {
     "url": "https://www.pisos.com/alquilar/estudio-la_vila_de_gracia08012-63424964407_530867/",
     "price": 975,
     "rooms": null,
@@ -304,6 +304,17 @@
     "text": "20260915 31859 Piso El Poblenou 989 €/mes 47 2 1 La vivienda en tercera planta sin ascensor. Salón exterior y cocina independiente, práctica y bien distribuida, diseñada para ofrec",
     "agency": "Guinot Prunera",
     "rent_url": "https://www.guinotprunera.com/es/alquiler"
+  },
+  {
+    "url": "https://barnapiso.com/es/vivienda/propiedad-en-sants-montjuic/",
+    "price": 1000,
+    "rooms": null,
+    "kind": "piso",
+    "title": "Propiedad en Sants-Montjuïc",
+    "img": "https://barnapiso.com/wp-content/uploads/2024/11/989391816.jpg",
+    "text": "Propiedad en Sants-Montjuïc Precio Alquiler: 1000 € de Sugranyes m2 construidos habitaciones baños",
+    "agency": "BarnaPiso",
+    "rent_url": "https://barnapiso.com/es/propiedades-disponibles-barcelona/"
   },
   {
     "url": "https://www.pisos.com/alquilar/apartamento-sant_pere_santa_caterina_la_ribera08003-64206819507_530867/",
