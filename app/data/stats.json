@@ -1,22 +1,17 @@
 {
-  "sites_read": 113,
+  "sites_read": 109,
   "sites_total": 128,
   "slow": [
-    "GUMPER",
+    "BÜNIK home",
     "Fincador",
-    "West Side Barcelona",
-    "ImmoBarceló",
-    "donpiso (Poblenou)",
-    "Finques Chicote",
+    "Fincas Blanco",
+    "GUMPER",
+    "Diana Finques",
     "Core Barcelona",
+    "Fincas San Andrés",
+    "Finques Vives",
     "ShBarcelona",
-    "InmoGràcia",
-    "Market House",
     "Gala Finques",
-    "VM3 Fincas",
-    "Finques Catalonia",
-    "Fincas Azcoitia",
-    "Inmobiliaria Diagonal Mar",
-    "Finques Querol"
+    "Finques Mixoy"
   ]
 }
