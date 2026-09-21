@@ -44,6 +44,17 @@
     "rent_url": "https://www.finquesfeliu.es/es/buscador/inter"
   },
   {
+    "url": "https://www.pisos.com/alquilar/piso-el_raval08001-63384109363_530867/",
+    "price": 750,
+    "rooms": 1,
+    "kind": "piso",
+    "title": "Piso en Carrer de Pelai",
+    "img": "https://fotos.imghs.net/mm-wp/530867/63384109363.530867/530867_63384109363_ae664a64-91b5-48d2-a1dd-666b4394df09.jpg",
+    "text": "1 /6 PREMIUM 750 € /mes Piso en Carrer de Pelai El Raval (Distrito Ciutat Vella. Barcelona Capital) 1 hab. 1 baño 42 m² 7ª planta Ubicado en finca con ascensor y situado en la 7ª p",
+    "agency": "pisos.com",
+    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
+  },
+  {
     "url": "https://inmobiliaria.calvetpremium.com/es/alquiler-pisos-pisos/en-barcelona-barcelona//ref-4127",
     "price": 750,
     "rooms": null,
@@ -52,6 +63,17 @@
     "img": "https://media.mobiliagestion.es/Portals/inmocalvet/Images/4127/28298054-large.jpg",
     "text": " Napols - Consell de Cent | Ref: 4127 PDCookieConsent.config({ \"brand\": { \"dev\" : false, \"name\": \"\", \"url\" : \"\" }, \"cookiePolicyLink\": \"\", \"passList\" : [], \"showBadges\" : true, \"st",
     "agency": "Calvet"
+  },
+  {
+    "url": "https://www.pisos.com/alquilar/piso-el_barri_gotic08002-63431472689_530867/",
+    "price": 800,
+    "rooms": 1,
+    "kind": "piso",
+    "title": "Piso en Carrer del Pi",
+    "img": "https://fotos.imghs.net/mm-wp/530867/63431472689.530867/530867_63431472689_22ef6d05-bd02-43f2-9b88-784258c6d243.jpg",
+    "text": "1 /6 PREMIUM 800 € /mes Piso en Carrer del Pi El Barri Gòtic (Distrito Ciutat Vella. Barcelona Capital) 1 hab. 1 baño 32 m² 4ª planta Ubicado en la última planta de finca caracterí",
+    "agency": "pisos.com",
+    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
   {
     "url": "https://www.pisos.com/alquilar/estudio-el_barri_gotic08002-67511575370_104700/",
@@ -85,6 +107,28 @@
     "text": "Piso en Alquiler a BARCELONA / La Antiga Esquerra de l'Eixample ENRIC GRANADOS 850 € Finques Feliu del Grupo Housfy, alquila estudio en la C.Enric Granados, en l’Eixample de... 42 ",
     "agency": "Finques Feliu",
     "rent_url": "https://www.finquesfeliu.es/es/buscador/inter"
+  },
+  {
+    "url": "https://www.pisos.com/alquilar/piso-la_font_en_fargues08032-67538872857_106100/",
+    "price": 850,
+    "rooms": null,
+    "kind": "piso",
+    "title": "Piso en La Font d'en Fargues",
+    "img": "https://fotos.imghs.net/mm-wp/1061/3230323630383330/fb2f8049-5189-4745-8c71-ab9e957458d7.jpg",
+    "text": "1 /20 Nuevo DESTACADO 850 € /mes Piso en La Font d'en Fargues La Font d'en Fargues (Distrito Horta-Guinardó. Barcelona Capital) 1 baño 45 m² Principal Dolça llar presenta este inmu",
+    "agency": "pisos.com",
+    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
+  },
+  {
+    "url": "https://www.pisos.com/alquilar/piso-el_congres_els_indians08027-63378468377_530867/",
+    "price": 850,
+    "rooms": 1,
+    "kind": "piso",
+    "title": "Piso en Carrer de Puerto Príncipe",
+    "img": "https://fotos.imghs.net/mm-wp/530867/63378468377.530867/530867_63378468377_b909d67a-d00e-4a8c-ba9a-57b51b7aac01.jpg",
+    "text": "1 /6 PREMIUM 850 € /mes Piso en Carrer de Puerto Príncipe El Congrés-Els Indians (Distrito Sant Andreu. Barcelona Capital) 1 hab. 1 baño 42 m² 2ª planta Ubicado en la zona de campo",
+    "agency": "pisos.com",
+    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
   {
     "url": "https://www.pisos.com/alquilar/piso-el_poble_sec08004-60051110553_531896/",
@@ -152,6 +196,17 @@
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
   {
+    "url": "https://www.pisos.com/alquilar/piso-la_maternitat_sant_ramon-63343839529_530867/",
+    "price": 925,
+    "rooms": 1,
+    "kind": "piso",
+    "title": "Piso en Travessera de les Corts",
+    "img": "https://fotos.imghs.net/mm-wp/530867/63343839529.530867/530867_63343839529_aca93784-5a54-49ca-9a7a-5f37542fe6dd.jpg",
+    "text": "1 /8 PREMIUM 925 € /mes Piso en Travessera de les Corts La Maternitat-Sant Ramon (Distrito Les Corts. Barcelona Capital) 1 hab. 1 baño 47 m² 2ª planta Piso en alquiler de 47 m² con",
+    "agency": "pisos.com",
+    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
+  },
+  {
     "url": "https://www.pisos.com/alquilar/piso-el_fort_pienc08013-67527004824_109200/",
     "price": 950,
     "rooms": null,
@@ -174,6 +229,17 @@
     "rent_url": "https://www.finquesfeliu.es/es/buscador/inter"
   },
   {
+    "url": "https://www.pisos.com/alquilar/estudio-la_vila_de_gracia08012-63424964407_530867/",
+    "price": 975,
+    "rooms": null,
+    "kind": "piso",
+    "title": "Estudio en Carrer de Tordera",
+    "img": "https://fotos.imghs.net/mm-wp/530867/63424964407.530867/530867_63424964407_d39df721-627b-45c0-bded-c9fc7e01e2b6.jpg",
+    "text": "1 /10 PREMIUM 975 € /mes Estudio en Carrer de Tordera La Vila de Gràcia (Distrito Gràcia. Barcelona Capital) 1 baño 40 m² Ubicado en gràcia, a pocos minutos de passeig de gràcia, y",
+    "agency": "pisos.com",
+    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
+  },
+  {
     "url": "https://www.pisos.com/alquilar/piso-el_raval-67505597575_104700/",
     "price": 975,
     "rooms": 1,
@@ -181,6 +247,17 @@
     "title": "Piso en El Raval",
     "img": "https://fotos.imghs.net/mm-wp/1047/3230323630393035/5d48271f-d9f4-4778-b65b-9c1044afc573.jpg",
     "text": "1 /13 Nuevo PREMIUM 975 € /mes Piso en El Raval El Raval (Distrito Ciutat Vella. Barcelona Capital) 1 hab. 1 baño 45 m² Reservas e inquietudes Tipo de alojamiento - alojamiento ent",
+    "agency": "pisos.com",
+    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
+  },
+  {
+    "url": "https://www.pisos.com/alquilar/piso-el_parc_la_llacuna_del_poblenou08018-67560404516_531896/",
+    "price": 980,
+    "rooms": 3,
+    "kind": "piso",
+    "title": "Piso en Carrer de Pujades",
+    "img": "https://fotos.imghs.net/mm-wp/531896/67560404516.531896/531896_67560404516_34f34ec3-e48e-4fd8-8336-e8fd391860c4.jpg",
+    "text": "1 /10 Nuevo PREMIUM 980 € /mes Piso en Carrer de Pujades El Parc-La Llacuna del Poblenou (Distrito Sant Martí. Barcelona Capital) 3 habs. 1 baño 62 m² 2ª planta El anunciante. No e",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
@@ -207,6 +284,17 @@
     "rent_url": "https://barnapiso.com/es/propiedades-disponibles-barcelona/"
   },
   {
+    "url": "https://www.pisos.com/alquilar/apartamento-sant_pere_santa_caterina_la_ribera08003-64206819507_530867/",
+    "price": 1000,
+    "rooms": 1,
+    "kind": "piso",
+    "title": "Apartamento en Carrer del Rec",
+    "img": "https://fotos.imghs.net/mm-wp/530867/64206819507.530867/530867_64206819507_7bab86d1-371e-4c00-aeb0-aae957beb539.jpg",
+    "text": "1 /13 PREMIUM 1.000 € /mes Apartamento en Carrer del Rec Sant Pere-Santa Caterina-La Ribera (Distrito Ciutat Vella. Barcelona Capital) 1 hab. 1 baño 45 m² 2ª planta Ubicado en el c",
+    "agency": "pisos.com",
+    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
+  },
+  {
     "url": "https://www.pisos.com/alquilar/piso-el_raval-53370075459_104700/",
     "price": 1000,
     "rooms": 2,
@@ -227,6 +315,17 @@
     "text": "20260915 31590 Piso La Nova Esquerra de L'Eixample 1.001 €/mes 53 1 1 Apartamento exterior a patio de manzana. Salón comedor con cocina integrada, suelos de parquet. Alto y bien or",
     "agency": "Guinot Prunera",
     "rent_url": "https://www.guinotprunera.com/es/alquiler"
+  },
+  {
+    "url": "https://www.pisos.com/alquilar/piso-sant_andreu_barrio08030-65914432493_501025/",
+    "price": 1029,
+    "rooms": 1,
+    "kind": "piso",
+    "title": "Piso en Plaça del Mercadal",
+    "img": "https://fotos.imghs.net/mm-wp/501025/65914432493.501025/501025_65914432493_628c7b8d-761f-45b2-9587-bcd357bd316a.jpg",
+    "text": "1 /32 TOP Exclusivo 1.029 € /mes Piso en Plaça del Mercadal Sant Andreu (Distrito Sant Andreu. Barcelona Capital) 1 hab. 1 baño 63 m² Bajo Informacion importante: para visitar esta",
+    "agency": "pisos.com",
+    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
   {
     "url": "https://www.pisos.com/alquilar/piso-el_poble_sec08004-65909882241_109200/",
@@ -271,6 +370,28 @@
     "text": "alquiler 1.100 €/mes Piso en alquiler en calle Déu i Mata Barcelona · Les Corts 60 m 2 1 hab. 1 baño",
     "agency": "Toysan Finques",
     "rent_url": "https://toysanfinques.com/es/inmuebles/?transaction_type=lloguer&property__type=property"
+  },
+  {
+    "url": "https://www.pisos.com/alquilar/piso-el_raval08001-67564146525_106100/",
+    "price": 1100,
+    "rooms": 1,
+    "kind": "piso",
+    "title": "Piso en El Raval",
+    "img": "https://fotos.imghs.net/mm-wp/1061/3230323630383233/72b82086-47b7-4bfe-a88c-1026b58106a6.jpg",
+    "text": "1 /14 TOP Oportunidad 1.100 € /mes Piso en El Raval El Raval (Distrito Ciutat Vella. Barcelona Capital) 1 hab. 1 baño 47 m² 1ª planta Piso centrico, listo parar entrar con las male",
+    "agency": "pisos.com",
+    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
+  },
+  {
+    "url": "https://www.pisos.com/alquilar/atico-el_raval08001-64249106130_530867/",
+    "price": 1100,
+    "rooms": 1,
+    "kind": "piso",
+    "title": "Ático en Carrer de l'Hospital",
+    "img": "https://fotos.imghs.net/mm-wp/530867/64249106130.530867/530867_64249106130_27762a0e-d0f3-456e-bc57-507d9e9c01a5.jpg",
+    "text": "1 /6 PREMIUM 1.100 € /mes Ático en Carrer de l'Hospital El Raval (Distrito Ciutat Vella. Barcelona Capital) 1 hab. 1 baño 50 m² Ubicado en una finca con carácter en pleno corazón d",
+    "agency": "pisos.com",
+    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
   {
     "url": "https://www.pisos.com/alquilar/piso-el_raval08001-66668005832_106100/",
