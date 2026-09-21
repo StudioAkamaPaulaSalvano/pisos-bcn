@@ -1,12 +1,14 @@
 {
-  "sites_read": 114,
+  "sites_read": 109,
   "sites_total": 128,
   "slow": [
     "Fincador",
-    "inmho Barcelona",
+    "Cafur Serveis Immobiliaris",
+    "Orfinca",
+    "Fincas San Andrés",
     "Core Barcelona",
     "Loca Barcelona",
     "ShBarcelona",
-    "Ferrim Habitat"
+    "Tu Piso Nou Barris"
   ]
 }
