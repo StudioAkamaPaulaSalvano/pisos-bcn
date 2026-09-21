@@ -1,26 +1,13 @@
 {
-  "sites_read": 107,
+  "sites_read": 114,
   "sites_total": 128,
   "slow": [
-    "Urbane International",
-    "Finques Martell",
     "Fincador",
-    "Fincas Blanco",
-    "Selekta Properties",
-    "Cafur Serveis Immobiliaris",
-    "inmho Barcelona",
-    "Finor BCN",
-    "Finques Marbá",
+    "GUMPER",
     "Core Barcelona",
+    "Fincas San Andrés",
+    "Loca Barcelona",
     "ShBarcelona",
-    "Forcadell",
-    "Fincas García",
-    "VM3 Fincas",
-    "Finques Giramon",
-    "Inmobiliaria Diagonal Mar",
-    "Finques Catalonia",
-    "Ollé Bertran",
-    "Carbonell (Admón. Fincas)",
-    "ALL4FLAT"
+    "Fincas García"
   ]
 }
