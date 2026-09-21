@@ -1,15 +1,17 @@
 {
-  "sites_read": 112,
+  "sites_read": 107,
   "sites_total": 128,
   "slow": [
     "Fincador",
-    "GUMPER",
-    "Fincas San Andrés",
+    "Withfor",
+    "Nitia",
     "Core Barcelona",
-    "Loca Barcelona",
+    "Finques TEBÉ",
+    "Ilive Barcelona",
     "ShBarcelona",
-    "Gala Finques",
-    "Fincas García",
-    "Finques Gassiot"
+    "Serviguest",
+    "Finques Gassiot",
+    "Carbonell (Admón. Fincas)",
+    "InmoGràcia"
   ]
 }
