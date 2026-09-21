@@ -1,10 +1,23 @@
 {
-  "sites_read": 107,
+  "sites_read": 112,
   "sites_total": 128,
   "slow": [
+    "Destinocasa",
+    "Immobiliària Sant Martí",
+    "GUMPER",
+    "Selekta Properties",
     "Fincador",
+    "ImmoBarceló",
+    "Cafur Serveis Immobiliaris",
+    "AFB Finques Gràcia",
+    "ShBarcelona",
+    "DonCasa",
+    "Masifill (Mas i Fill)",
+    "Fincas García",
     "Core Barcelona",
-    "AFI Finques",
-    "ShBarcelona"
+    "Fincas Layes",
+    "Gala Finques",
+    "Dolça Llar",
+    "Finques Catalonia"
   ]
 }
