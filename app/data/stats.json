@@ -1,26 +1,17 @@
 {
-  "sites_read": 113,
+  "sites_read": 109,
   "sites_total": 128,
   "slow": [
-    "Kasa Inmobiliaria",
-    "Cafur Serveis Immobiliaris",
     "Fincador",
-    "Selekta Properties",
-    "Casc Antic BCN",
-    "inmho Barcelona",
-    "AFB Finques Gràcia",
-    "Monapart",
-    "Finques Grau",
-    "Fincas Gràcia (femgracia)",
-    "Finques Eixample",
+    "GUMPER",
     "Fincas San Andrés",
     "Core Barcelona",
+    "Finques Hosta",
+    "Loca Barcelona",
     "ShBarcelona",
-    "Gala Finques",
-    "Punto Habitat",
-    "Masifill (Mas i Fill)",
     "DonCasa",
-    "Fincas García",
-    "Fincas Layes"
+    "Inmobiliaria Diagonal Mar",
+    "BCN Living",
+    "BarnaPiso"
   ]
 }
