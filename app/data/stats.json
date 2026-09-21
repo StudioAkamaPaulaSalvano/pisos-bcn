@@ -1,12 +1,11 @@
 {
-  "sites_read": 112,
+  "sites_read": 113,
   "sites_total": 128,
   "slow": [
     "Fincador",
+    "Orfinca",
     "Core Barcelona",
-    "Fincas San Andrés",
-    "ShBarcelona",
-    "Carbonell (Admón. Fincas)",
-    "BCN Living"
+    "AFI Finques",
+    "ShBarcelona"
   ]
 }
