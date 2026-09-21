@@ -1,12 +1,17 @@
 {
-  "sites_read": 113,
+  "sites_read": 104,
   "sites_total": 128,
   "slow": [
     "Fincador",
+    "Orfinca",
+    "Withfor",
+    "Nitia",
     "Core Barcelona",
-    "Fincas San Andrés",
-    "Loca Barcelona",
+    "Finques Hosta",
+    "Finques TEBÉ",
+    "Ilive Barcelona",
+    "Serviguest",
     "ShBarcelona",
-    "Carbonell (Admón. Fincas)"
+    "BarnaPiso"
   ]
 }
