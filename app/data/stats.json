@@ -1,14 +1,13 @@
 {
-  "sites_read": 113,
+  "sites_read": 108,
   "sites_total": 128,
   "slow": [
     "Fincador",
+    "Kasa Inmobiliaria",
     "GUMPER",
     "Core Barcelona",
     "Loca Barcelona",
     "ShBarcelona",
-    "Carbonell (Admón. Fincas)",
-    "VM3 Fincas",
     "Finques Miret"
   ]
 }
