@@ -1,13 +1,15 @@
 {
-  "sites_read": 107,
+  "sites_read": 110,
   "sites_total": 128,
   "slow": [
     "Fincador",
-    "Finques Marbá",
     "GUMPER",
     "Core Barcelona",
+    "Urbefinques",
     "Loca Barcelona",
     "ShBarcelona",
-    "Fincas García"
+    "Atemporal Barcelona",
+    "VM3 Fincas",
+    "aProperties"
   ]
 }
