@@ -1,13 +1,12 @@
 {
-  "sites_read": 113,
+  "sites_read": 109,
   "sites_total": 128,
   "slow": [
     "Fincador",
-    "GUMPER",
+    "inmho Barcelona",
     "Core Barcelona",
     "Loca Barcelona",
     "ShBarcelona",
-    "Fincas Padua",
-    "Fincas Azcoitia"
+    "Ferrim Habitat"
   ]
 }
