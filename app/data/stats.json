@@ -1,16 +1,14 @@
 {
-  "sites_read": 111,
+  "sites_read": 114,
   "sites_total": 128,
   "slow": [
     "Fincador",
+    "Cafur Serveis Immobiliaris",
     "GUMPER",
-    "West Side Barcelona",
     "Fincas San Andrés",
     "Core Barcelona",
     "Loca Barcelona",
     "ShBarcelona",
-    "DonCasa",
-    "Inmobiliaria Diagonal Mar",
     "Tu Piso Nou Barris"
   ]
 }
