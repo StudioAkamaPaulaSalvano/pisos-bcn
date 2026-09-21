@@ -1,16 +1,5 @@
 [
   {
-    "url": "https://masifill.com/property/pisos-la-dreta-de-leixample/",
-    "price": 350,
-    "rooms": null,
-    "kind": "piso",
-    "title": "Pisos la dreta de leixample",
-    "img": "https://masifill.com/wp-content/uploads/propiedad-5868-1-385x258.jpg",
-    "text": "Llogar 1,350€",
-    "agency": "Masifill (Mas i Fill)",
-    "rent_url": "https://masifill.com/property/lloguer-despatx-en-varies-estancies-a-sarria-barcelona/"
-  },
-  {
     "url": "https://barnapiso.com/es/vivienda/propiedad-en-las-cortes-4/",
     "price": 425,
     "rooms": null,
@@ -118,6 +107,50 @@
     "text": "1 /4 PREMIUM 820 € /mes Estudio en Carrer de Casanova Sant Antoni (Distrito Eixample. Barcelona Capital) 1 baño 33 m² Ubicado en la calle casanova, en el barrio de l’antiga esquerr",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
+  },
+  {
+    "url": "https://www.guinotprunera.com/es/alquiler/ref-32112",
+    "price": 824,
+    "rooms": 2,
+    "kind": "piso",
+    "title": "Ref 32112",
+    "img": "https://media.mobiliagestion.es/Portals/inmoguinotprunera/Images/32952/28421728.jpg",
+    "text": "20260921 32952 Estudio La Maternitat i Sant Ramon 824 €/mes 39 0 1 Bonito Loft en alquiler en el barrio de les Corts con sol por la mañana, comedor y habitación en un mismo ambient",
+    "agency": "Guinot Prunera",
+    "rent_url": "https://www.guinotprunera.com/es/alquiler"
+  },
+  {
+    "url": "https://www.guinotprunera.com/es/alquiler/ref-32107",
+    "price": 824,
+    "rooms": 2,
+    "kind": "piso",
+    "title": "Ref 32107",
+    "img": "https://media.mobiliagestion.es/Portals/inmoguinotprunera/Images/32952/28421728.jpg",
+    "text": "20260921 32952 Estudio La Maternitat i Sant Ramon 824 €/mes 39 0 1 Bonito Loft en alquiler en el barrio de les Corts con sol por la mañana, comedor y habitación en un mismo ambient",
+    "agency": "Guinot Prunera",
+    "rent_url": "https://www.guinotprunera.com/es/alquiler"
+  },
+  {
+    "url": "https://www.guinotprunera.com/es/alquiler/ref-32105",
+    "price": 824,
+    "rooms": 2,
+    "kind": "piso",
+    "title": "Ref 32105",
+    "img": "https://media.mobiliagestion.es/Portals/inmoguinotprunera/Images/32952/28421728.jpg",
+    "text": "20260921 32952 Estudio La Maternitat i Sant Ramon 824 €/mes 39 0 1 Bonito Loft en alquiler en el barrio de les Corts con sol por la mañana, comedor y habitación en un mismo ambient",
+    "agency": "Guinot Prunera",
+    "rent_url": "https://www.guinotprunera.com/es/alquiler"
+  },
+  {
+    "url": "https://www.guinotprunera.com/es/alquiler/ref-32104",
+    "price": 824,
+    "rooms": 2,
+    "kind": "piso",
+    "title": "Ref 32104",
+    "img": "https://media.mobiliagestion.es/Portals/inmoguinotprunera/Images/32952/28421728.jpg",
+    "text": "20260921 32952 Estudio La Maternitat i Sant Ramon 824 €/mes 39 0 1 Bonito Loft en alquiler en el barrio de les Corts con sol por la mañana, comedor y habitación en un mismo ambient",
+    "agency": "Guinot Prunera",
+    "rent_url": "https://www.guinotprunera.com/es/alquiler"
   },
   {
     "url": "https://www.finquesfeliu.es/es/node/13324",
