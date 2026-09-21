@@ -1,22 +1,19 @@
 {
-  "sites_read": 109,
+  "sites_read": 110,
   "sites_total": 128,
   "slow": [
     "Fincador",
-    "BÜNIK home",
-    "Fincas Blanco",
+    "Orfinca",
     "GUMPER",
-    "Fincas San Andrés",
-    "Diana Finques",
+    "West Side Barcelona",
     "Core Barcelona",
-    "Toysan Finques",
+    "Fincas San Andrés",
     "AFI Finques",
-    "Finques Vives",
-    "Loca Barcelona",
     "ShBarcelona",
-    "Fincas García",
+    "Loca Barcelona",
+    "DonCasa",
+    "Carbonell (Admón. Fincas)",
     "VM3 Fincas",
-    "Inmobiliaria Diagonal Mar",
-    "Finques Mixoy"
+    "Inmobiliaria Diagonal Mar"
   ]
 }
