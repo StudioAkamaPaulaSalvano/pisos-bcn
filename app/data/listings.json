@@ -1,16 +1,5 @@
 [
   {
-    "url": "https://barnapiso.com/es/vivienda/propiedad-en-las-cortes-4/",
-    "price": 425,
-    "rooms": null,
-    "kind": "piso",
-    "title": "Propiedad en Les Corts",
-    "img": "https://barnapiso.com/wp-content/uploads/2024/11/1231744428-scaled.jpg",
-    "text": "Propiedad en Les Corts Precio Alquiler: 425 € de San Ramón Nonato m2 construidos habitaciones baños",
-    "agency": "BarnaPiso",
-    "rent_url": "https://barnapiso.com/es/propiedades-disponibles-barcelona/"
-  },
-  {
     "url": "https://finqueselpallars.com/piso-en-alquiler-les-corts-barcelona/",
     "price": 500,
     "rooms": null,
@@ -76,17 +65,6 @@
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
   {
-    "url": "https://www.pisos.com/alquilar/piso-sants_montjuic_hostafrancs08014-63420332110_530867/",
-    "price": 800,
-    "rooms": 1,
-    "kind": "piso",
-    "title": "Piso en Carrer de Mallorca",
-    "img": "https://fotos.imghs.net/mm-wp/530867/63420332110.530867/530867_63420332110_84494247-3ab8-4f56-8771-bbbcbd77633f.jpg",
-    "text": "1 /4 PREMIUM 800 € /mes Piso en Carrer de Mallorca Hostafrancs (Distrito Sants-Montjuïc. Barcelona Capital) 1 hab. 1 baño 44 m² 4ª planta Ubicado en finca con ascensor y en la 4ª p",
-    "agency": "pisos.com",
-    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
-  },
-  {
     "url": "https://www.pisos.com/alquilar/estudio-el_barri_gotic08002-67511575370_104700/",
     "price": 800,
     "rooms": null,
@@ -120,6 +98,17 @@
     "rent_url": "https://www.finquesfeliu.es/es/buscador/inter"
   },
   {
+    "url": "https://www.pisos.com/alquilar/piso-la_font_en_fargues08032-67538872857_106100/",
+    "price": 850,
+    "rooms": null,
+    "kind": "piso",
+    "title": "Piso en La Font d'en Fargues",
+    "img": "https://fotos.imghs.net/mm-wp/1061/3230323630383330/fb2f8049-5189-4745-8c71-ab9e957458d7.jpg",
+    "text": "1 /20 Nuevo DESTACADO 850 € /mes Piso en La Font d'en Fargues La Font d'en Fargues (Distrito Horta-Guinardó. Barcelona Capital) 1 baño 45 m² Principal Dolça llar presenta este inmu",
+    "agency": "pisos.com",
+    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
+  },
+  {
     "url": "https://www.pisos.com/alquilar/piso-el_congres_els_indians08027-63378468377_530867/",
     "price": 850,
     "rooms": 1,
@@ -138,17 +127,6 @@
     "title": "Piso en El Poble-Sec",
     "img": "https://fotos.imghs.net/mm-wp/531896/60051110553.531896/531896_60051110553_e809427e-0e08-4060-9100-fc49f623ddb9.jpg",
     "text": "1 /16 PREMIUM 850 € /mes Piso en El Poble-Sec El Poble-sec (Distrito Sants-Montjuïc. Barcelona Capital) 3 habs. 1 baño 47 m² 1ª planta Antes de poder agendar una visita al inmueble",
-    "agency": "pisos.com",
-    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
-  },
-  {
-    "url": "https://www.pisos.com/alquilar/piso-la_font_en_fargues08032-67538872857_106100/",
-    "price": 850,
-    "rooms": null,
-    "kind": "piso",
-    "title": "Piso en La Font d'en Fargues",
-    "img": "https://fotos.imghs.net/mm-wp/1061/3230323630383330/fb2f8049-5189-4745-8c71-ab9e957458d7.jpg",
-    "text": "1 /20 Nuevo PREMIUM 850 € /mes Piso en La Font d'en Fargues La Font d'en Fargues (Distrito Horta-Guinardó. Barcelona Capital) 1 baño 45 m² Principal Dolça llar presenta este inmueb",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
@@ -284,17 +262,6 @@
     "rent_url": "https://www.guinotprunera.com/es/alquiler"
   },
   {
-    "url": "https://barnapiso.com/es/vivienda/propiedad-en-sants-montjuic/",
-    "price": 1000,
-    "rooms": null,
-    "kind": "piso",
-    "title": "Propiedad en Sants-Montjuïc",
-    "img": "https://barnapiso.com/wp-content/uploads/2024/11/989391816.jpg",
-    "text": "Propiedad en Sants-Montjuïc Precio Alquiler: 1000 € de Sugranyes m2 construidos habitaciones baños",
-    "agency": "BarnaPiso",
-    "rent_url": "https://barnapiso.com/es/propiedades-disponibles-barcelona/"
-  },
-  {
     "url": "https://www.pisos.com/alquilar/apartamento-sant_pere_santa_caterina_la_ribera08003-64206819507_530867/",
     "price": 1000,
     "rooms": 1,
@@ -401,6 +368,17 @@
     "title": "Ático en Carrer de l'Hospital",
     "img": "https://fotos.imghs.net/mm-wp/530867/64249106130.530867/530867_64249106130_27762a0e-d0f3-456e-bc57-507d9e9c01a5.jpg",
     "text": "1 /6 PREMIUM 1.100 € /mes Ático en Carrer de l'Hospital El Raval (Distrito Ciutat Vella. Barcelona Capital) 1 hab. 1 baño 50 m² Ubicado en una finca con carácter en pleno corazón d",
+    "agency": "pisos.com",
+    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
+  },
+  {
+    "url": "https://www.pisos.com/alquilar/piso-el_raval08001-66668005832_106100/",
+    "price": 1100,
+    "rooms": 1,
+    "kind": "piso",
+    "title": "Piso en El Raval",
+    "img": "https://fotos.imghs.net/mm-wp/1061/3230323630383233/72b82086-47b7-4bfe-a88c-1026b58106a6.jpg",
+    "text": "1 /14 PREMIUM 1.100 € /mes Piso en El Raval El Raval (Distrito Ciutat Vella. Barcelona Capital) 1 hab. 1 baño 47 m² 1ª planta Piso centrico, listo parar entrar con las maletas, cer",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
