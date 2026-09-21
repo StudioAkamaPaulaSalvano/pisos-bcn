@@ -1,27 +1,18 @@
 {
-  "sites_read": 94,
+  "sites_read": 103,
   "sites_total": 128,
   "slow": [
     "Fincador",
-    "Cafur Serveis Immobiliaris",
-    "Finor BCN",
-    "Chester Estate",
-    "inmho Barcelona",
+    "Withfor",
     "GUMPER",
-    "Gaudí House",
-    "Finor BCN (Les Corts)",
+    "Nitia",
     "Fincas San Andrés",
     "Core Barcelona",
-    "Fincas Cumbre",
-    "Finques Hosta",
+    "Finques TEBÉ",
+    "Ilive Barcelona",
+    "Loca Barcelona",
     "ShBarcelona",
-    "Finques Perramon",
-    "Gala Finques",
-    "Finques Giramon",
-    "Ollé Bertran",
-    "Finques Querol",
-    "Tu Piso Nou Barris",
-    "BarnaPiso",
-    "Rentmar"
+    "Serviguest",
+    "InmoGràcia"
   ]
 }
