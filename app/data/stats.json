@@ -1,11 +1,10 @@
 {
-  "sites_read": 112,
+  "sites_read": 113,
   "sites_total": 128,
   "slow": [
     "Fincador",
-    "AFI Finques",
     "Core Barcelona",
-    "Loca Barcelona",
-    "ShBarcelona"
+    "ShBarcelona",
+    "Carbonell (Admón. Fincas)"
   ]
 }
