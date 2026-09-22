@@ -1,14 +1,16 @@
 {
-  "sites_read": 106,
+  "sites_read": 109,
   "sites_total": 128,
   "slow": [
     "Fincador",
+    "inmho Barcelona",
+    "Orfinca",
     "GUMPER",
-    "West Side Barcelona",
+    "Fincas San Andrés",
     "Core Barcelona",
     "Loca Barcelona",
     "ShBarcelona",
-    "DonCasa",
-    "Inmobiliaria Diagonal Mar"
+    "Tu Piso Nou Barris",
+    "Ferrim Habitat"
   ]
 }
