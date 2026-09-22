@@ -1,14 +1,13 @@
 {
-  "sites_read": 109,
+  "sites_read": 108,
   "sites_total": 128,
   "slow": [
     "Fincador",
     "Cafur Serveis Immobiliaris",
+    "Orfinca",
     "GUMPER",
     "Core Barcelona",
     "Loca Barcelona",
-    "ShBarcelona",
-    "Carbonell (Admón. Fincas)",
-    "VM3 Fincas"
+    "ShBarcelona"
   ]
 }
