@@ -33,6 +33,17 @@
     "rent_url": "https://finquesmartell.com/inmuebles"
   },
   {
+    "url": "https://www.pisos.com/alquilar/estudio-el_raval08001-67592643048_109800/",
+    "price": 700,
+    "rooms": 1,
+    "kind": "piso",
+    "title": "Estudio en Rambla del Raval, 1",
+    "img": "https://fotos.imghs.net/mm-wp/1098/5966599/1098_1_foto_20260912144413406_67592643048.jpeg",
+    "text": "1 /3 Nuevo 700 € /mes Estudio en Rambla del Raval, 1 El Raval (Distrito Ciutat Vella. Barcelona Capital) 1 hab. 1 baño 52 m² Lea atentamente la descripción. Busca un estudio cómodo",
+    "agency": "pisos.com",
+    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
+  },
+  {
     "url": "https://www.finquesfeliu.es/es/node/13359",
     "price": 725,
     "rooms": 1,
@@ -249,17 +260,6 @@
     "text": "1 /15 PREMIUM 890 € /mes Estudio en El Poble-sec El Poble-sec (Distrito Sants-Montjuïc. Barcelona Capital) 1 baño 22 m² Reservas e inquietudes Tipo de alojamiento - alojamiento ent",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
-  },
-  {
-    "url": "https://masifill.com/property/pis-reformat-per-a-entrar-a-viure-gran-via-cantabria/",
-    "price": 924,
-    "rooms": null,
-    "kind": "piso",
-    "title": "Pisos – Sarrià",
-    "img": "https://masifill.com/wp-content/uploads/propiedad-5886-18-385x258.jpg",
-    "text": "Llogar 924€ Llogar Pisos – Sarrià Sarrià 08021, Barcelona Habitacions: 2 Bath: 1 : 48 Pisos 10 hores ago 924€ Detalls Habitacions: 2 Bath: 1 : 48 Pisos Detalls 10 hores ago Comprar",
-    "agency": "Masifill (Mas i Fill)",
-    "rent_url": "https://masifill.com/property/lloguer-despatx-en-varies-estancies-a-sarria-barcelona/"
   },
   {
     "url": "https://www.pisos.com/alquilar/piso-la_maternitat_sant_ramon-63343839529_530867/",
