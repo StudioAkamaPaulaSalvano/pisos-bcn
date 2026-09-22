@@ -1,13 +1,12 @@
 {
-  "sites_read": 113,
+  "sites_read": 114,
   "sites_total": 128,
   "slow": [
     "Fincador",
     "GUMPER",
     "Core Barcelona",
-    "Forcadell",
     "ShBarcelona",
-    "Fincas Padua",
-    "Carbonell (Admón. Fincas)"
+    "Carbonell (Admón. Fincas)",
+    "Tu Piso Nou Barris"
   ]
 }
