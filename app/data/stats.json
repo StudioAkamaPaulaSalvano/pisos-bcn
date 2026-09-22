@@ -1,27 +1,11 @@
 {
-  "sites_read": 112,
+  "sites_read": 108,
   "sites_total": 128,
   "slow": [
-    "donpiso (Poblenou)",
     "Fincador",
-    "Nitia",
-    "Destinocasa",
-    "Finques Chicote",
-    "West Side Barcelona",
-    "GUMPER",
-    "Administrador Fincas A3",
     "Core Barcelona",
-    "AFI Finques",
-    "Fincas San Andrés",
     "ShBarcelona",
     "Gala Finques",
-    "Euro-Horta",
-    "Fincas Pérez y Asociados",
-    "Finques Mixoy",
-    "BCN Living",
-    "Tu Piso Nou Barris",
-    "VM3 Fincas",
-    "Immollar",
-    "Montehu Finques"
+    "VM3 Fincas"
   ]
 }
