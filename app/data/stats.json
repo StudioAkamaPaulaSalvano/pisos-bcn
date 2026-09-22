@@ -1,11 +1,14 @@
 {
-  "sites_read": 108,
+  "sites_read": 107,
   "sites_total": 128,
   "slow": [
     "Finques Martell",
     "Fincador",
-    "Fincas San Andrés",
     "Core Barcelona",
-    "ShBarcelona"
+    "Fincas San Andrés",
+    "ShBarcelona",
+    "Gala Finques",
+    "DonCasa",
+    "Inmobiliaria Diagonal Mar"
   ]
 }
