@@ -1,13 +1,24 @@
 {
-  "sites_read": 108,
+  "sites_read": 112,
   "sites_total": 128,
   "slow": [
-    "Finques Martell",
     "Fincador",
-    "Fincas San Andrés",
-    "Core Barcelona",
-    "Loca Barcelona",
+    "Finques Martell",
+    "AFB Finques Gràcia",
+    "Selekta Properties",
+    "Fincas Blanco",
+    "Cafur Serveis Immobiliaris",
+    "Monapart",
+    "Fincas Gilser",
     "ShBarcelona",
-    "Carbonell (Admón. Fincas)"
+    "Punto Habitat",
+    "Fincas San Andrés",
+    "AFI Finques",
+    "Gala Finques",
+    "Finques Gassiot",
+    "Fincas Layes",
+    "Finques Perramon",
+    "Forcadell",
+    "Core Barcelona"
   ]
 }
