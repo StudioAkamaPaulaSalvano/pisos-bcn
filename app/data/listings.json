@@ -1,5 +1,16 @@
 [
   {
+    "url": "https://masifill.com/property/pisos-la-dreta-de-leixample/",
+    "price": 350,
+    "rooms": null,
+    "kind": "piso",
+    "title": "Pisos la dreta de leixample",
+    "img": "https://masifill.com/wp-content/uploads/propiedad-5868-1-385x258.jpg",
+    "text": "Llogar 1,350€",
+    "agency": "Masifill (Mas i Fill)",
+    "rent_url": "https://masifill.com/property/lloguer-despatx-en-varies-estancies-a-sarria-barcelona/"
+  },
+  {
     "url": "https://barnapiso.com/es/vivienda/propiedad-en-las-cortes-4/",
     "price": 425,
     "rooms": null,
@@ -72,17 +83,6 @@
     "title": "Estudio en Riera d'Escuder, 50",
     "img": "https://fotos.imghs.net/mm-wp/500120/67556333811.500120/500120_67556333811_1_20260909125156984.jpg",
     "text": "1 /14 Nuevo PREMIUM 770 € /mes Estudio en Riera d'Escuder, 50 Sants (Distrito Sants-Montjuïc. Barcelona Capital) 1 hab. 1 baño 45 m² ¡¡Solo para autónomos o empresas!! Se alquila e",
-    "agency": "pisos.com",
-    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
-  },
-  {
-    "url": "https://www.pisos.com/alquilar/piso-el_barri_gotic08002-63431472689_530867/",
-    "price": 800,
-    "rooms": 1,
-    "kind": "piso",
-    "title": "Piso en Carrer del Pi",
-    "img": "https://fotos.imghs.net/mm-wp/530867/63431472689.530867/530867_63431472689_22ef6d05-bd02-43f2-9b88-784258c6d243.jpg",
-    "text": "1 /6 PREMIUM 800 € /mes Piso en Carrer del Pi El Barri Gòtic (Distrito Ciutat Vella. Barcelona Capital) 1 hab. 1 baño 32 m² 4ª planta Ubicado en la última planta de finca caracterí",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
@@ -400,7 +400,7 @@
     "kind": "piso",
     "title": "Piso en El Poble-sec",
     "img": "https://fotos.imghs.net/mm-wp/1092/3230323630373034/52119242-4004-4719-a248-d3f20f29c950.jpg",
-    "text": "1 /10 PREMIUM 1.079 € /mes Piso en El Poble-sec El Poble-sec (Distrito Sants-Montjuïc. Barcelona Capital) 36 m² Este maravilloso apartamento está idealmente ubicado cerca del parqu",
+    "text": "1 /10 TOP Oportunidad 1.079 € /mes Piso en El Poble-sec El Poble-sec (Distrito Sants-Montjuïc. Barcelona Capital) 36 m² Este maravilloso apartamento está idealmente ubicado cerca d",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
