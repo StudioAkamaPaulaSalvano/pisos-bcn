@@ -1,5 +1,16 @@
 [
   {
+    "url": "https://masifill.com/property/pisos-la-dreta-de-leixample/",
+    "price": 350,
+    "rooms": null,
+    "kind": "piso",
+    "title": "Pisos la dreta de leixample",
+    "img": "https://masifill.com/wp-content/uploads/propiedad-5868-1-385x258.jpg",
+    "text": "Llogar 1,350€",
+    "agency": "Masifill (Mas i Fill)",
+    "rent_url": "https://masifill.com/property/lloguer-local-diafan-a-reformar-al-raval-barcelona/"
+  },
+  {
     "url": "https://barnapiso.com/es/vivienda/propiedad-en-las-cortes-4/",
     "price": 425,
     "rooms": null,
@@ -9,17 +20,6 @@
     "text": "Propiedad en Les Corts Precio Alquiler: 425 € de San Ramón Nonato m2 construidos habitaciones baños",
     "agency": "BarnaPiso",
     "rent_url": "https://barnapiso.com/es/propiedades-disponibles-barcelona/"
-  },
-  {
-    "url": "https://finqueselpallars.com/piso-en-alquiler-les-corts-barcelona/",
-    "price": 500,
-    "rooms": null,
-    "kind": "piso",
-    "title": "Piso en alquiler. Les Corts, Barcelona",
-    "img": "https://finqueselpallars.com/wp-content/uploads/2026/01/regalirpf-500x383.jpg",
-    "text": "El regalo de 500€ que quizás no estas reclamando Galería El regalo de 500€ que quizás no estas reclamando 23/01/2026 Piso en alquiler. Les Corts, Barcelona Galería Piso en alquiler",
-    "agency": "Finques El Pallars",
-    "rent_url": "https://finqueselpallars.com/alquiler"
   },
   {
     "url": "https://finquesmartell.com/immoble/maragall-pl-2-3-entl-3-barcelona-alquiler-001058-1/",
