@@ -1,13 +1,11 @@
 {
-  "sites_read": 107,
+  "sites_read": 108,
   "sites_total": 128,
   "slow": [
     "Fincador",
     "Core Barcelona",
-    "Finques Hosta",
+    "AFI Finques",
     "Loca Barcelona",
-    "ShBarcelona",
-    "Fincas García",
-    "BarnaPiso"
+    "ShBarcelona"
   ]
 }
