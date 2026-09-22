@@ -1,17 +1,14 @@
 {
-  "sites_read": 110,
+  "sites_read": 106,
   "sites_total": 128,
   "slow": [
     "Finques Martell",
     "Fincador",
-    "Orfinca",
     "GUMPER",
     "Core Barcelona",
+    "Fincas San Andrés",
     "Loca Barcelona",
     "ShBarcelona",
-    "Gala Finques",
-    "DonCasa",
-    "Carbonell (Admón. Fincas)",
-    "Inmobiliaria Diagonal Mar"
+    "Gala Finques"
   ]
 }
