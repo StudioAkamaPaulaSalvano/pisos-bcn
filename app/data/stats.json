@@ -1,17 +1,30 @@
 {
-  "sites_read": 108,
+  "sites_read": 96,
   "sites_total": 128,
   "slow": [
-    "Fincador",
     "Finques Martell",
-    "Orfinca",
-    "GUMPER",
+    "Fincador",
+    "Finor BCN",
+    "Chester Estate",
+    "Gaudí House",
+    "Fincas San Andrés",
+    "Finor BCN (Les Corts)",
     "Core Barcelona",
-    "AFI Finques",
+    "Fincas Cumbre",
+    "Urbefinques",
+    "Finques Hosta",
     "Loca Barcelona",
     "ShBarcelona",
-    "Fincas Padua",
-    "Inmobiliaria Diagonal Mar",
-    "Vivalco"
+    "Atemporal Barcelona",
+    "Finques Perramon",
+    "Gala Finques",
+    "Finques Giramon",
+    "VM3 Fincas",
+    "Ollé Bertran",
+    "Finques Querol",
+    "Tu Piso Nou Barris",
+    "aProperties",
+    "BarnaPiso",
+    "Rentmar"
   ]
 }
