@@ -1,10 +1,14 @@
 {
-  "sites_read": 113,
+  "sites_read": 105,
   "sites_total": 128,
   "slow": [
     "Fincador",
-    "Orfinca",
+    "GUMPER",
     "Core Barcelona",
-    "ShBarcelona"
+    "Toysan Finques",
+    "Loca Barcelona",
+    "ShBarcelona",
+    "Gala Finques",
+    "aProperties"
   ]
 }
