@@ -1,18 +1,10 @@
 {
-  "sites_read": 109,
+  "sites_read": 108,
   "sites_total": 128,
   "slow": [
-    "Finques Martell",
     "Fincador",
-    "Grup Solfinc",
     "Core Barcelona",
-    "Fincas San Andrés",
     "Loca Barcelona",
-    "ShBarcelona",
-    "Finques Falcón",
-    "Gala Finques",
-    "Fincas Padua",
-    "Coma-Roig",
-    "Vivalco"
+    "ShBarcelona"
   ]
 }
