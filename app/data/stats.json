@@ -1,11 +1,14 @@
 {
-  "sites_read": 108,
+  "sites_read": 113,
   "sites_total": 128,
   "slow": [
     "Fincador",
-    "Fincas San Andrés",
     "Core Barcelona",
+    "Fincas San Andrés",
+    "Loca Barcelona",
     "ShBarcelona",
-    "VM3 Fincas"
+    "Gala Finques",
+    "Carbonell (Admón. Fincas)",
+    "Ferrim Habitat"
   ]
 }
