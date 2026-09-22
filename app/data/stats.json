@@ -1,14 +1,16 @@
 {
-  "sites_read": 109,
+  "sites_read": 108,
   "sites_total": 128,
   "slow": [
+    "Finques Martell",
     "Fincador",
     "Cafur Serveis Immobiliaris",
     "GUMPER",
+    "Fincas San Andrés",
     "Core Barcelona",
     "Loca Barcelona",
     "ShBarcelona",
-    "Fincas Padua",
-    "Gala Finques"
+    "Gala Finques",
+    "Carbonell (Admón. Fincas)"
   ]
 }
