@@ -1,14 +1,12 @@
 {
-  "sites_read": 108,
+  "sites_read": 109,
   "sites_total": 128,
   "slow": [
     "Fincador",
     "Core Barcelona",
-    "Fincas San Andrés",
-    "Loca Barcelona",
     "ShBarcelona",
     "Fincas Padua",
-    "Carbonell (Admón. Fincas)",
-    "Tu Piso Nou Barris"
+    "Tu Piso Nou Barris",
+    "Vivalco"
   ]
 }
