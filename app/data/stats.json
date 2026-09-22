@@ -1,14 +1,12 @@
 {
-  "sites_read": 107,
+  "sites_read": 108,
   "sites_total": 128,
   "slow": [
     "Fincador",
+    "Orfinca",
+    "Cafur Serveis Immobiliaris",
     "Core Barcelona",
-    "Fincas San Andrés",
-    "Forcadell",
     "Loca Barcelona",
-    "ShBarcelona",
-    "Fincas Layes",
-    "Gala Finques"
+    "ShBarcelona"
   ]
 }
