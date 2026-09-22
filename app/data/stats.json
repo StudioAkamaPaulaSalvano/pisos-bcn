@@ -1,12 +1,17 @@
 {
-  "sites_read": 112,
+  "sites_read": 104,
   "sites_total": 128,
   "slow": [
     "Fincador",
-    "Core Barcelona",
     "Fincas San Andrés",
+    "Core Barcelona",
+    "Forcadell",
     "Loca Barcelona",
     "ShBarcelona",
-    "VM3 Fincas"
+    "Gala Finques",
+    "Fincas García",
+    "Finques Catalonia",
+    "Carbonell (Admón. Fincas)",
+    "Inmobiliaria Diagonal Mar"
   ]
 }
