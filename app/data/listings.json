@@ -8,7 +8,7 @@
     "img": "https://masifill.com/wp-content/uploads/propiedad-5868-1-385x258.jpg",
     "text": "Llogar 1,350€",
     "agency": "Masifill (Mas i Fill)",
-    "rent_url": "https://masifill.com/property/lloguer-local-diafan-a-reformar-al-raval-barcelona/"
+    "rent_url": "https://masifill.com/property/lloguer-local-a-peu-de-carrer-a-leixample-esquerra-barcelona/"
   },
   {
     "url": "https://barnapiso.com/es/vivienda/propiedad-en-las-cortes-4/",
@@ -31,6 +31,17 @@
     "text": "El regalo de 500€ que quizás no estas reclamando Galería El regalo de 500€ que quizás no estas reclamando 23/01/2026 Piso en alquiler. Les Corts, Barcelona Galería Piso en alquiler",
     "agency": "Finques El Pallars",
     "rent_url": "https://finqueselpallars.com/alquiler"
+  },
+  {
+    "url": "https://finquesmartell.com/immoble/maragall-pl-2-3-entl-3-barcelona-alquiler-001058-1/",
+    "price": 600,
+    "rooms": 3,
+    "kind": "piso",
+    "title": "Maragall, pl. 2-3 entl 3 BARCELONA-Alquiler-001058/1",
+    "img": "https://finquesmartell.com/wp-content/uploads/2026/06/martell-1058-11-2.jpg",
+    "text": "Alquiler Maragall, pl. 2-3 entl 3 BARCELONA-Alquiler-001058/1 58 m 2 3 hab. 1 baños 600€",
+    "agency": "Finques Martell",
+    "rent_url": "https://finquesmartell.com/inmuebles"
   },
   {
     "url": "https://www.pisos.com/alquilar/estudio-el_raval08001-67592643048_109800/",
