@@ -1,13 +1,14 @@
 {
-  "sites_read": 110,
+  "sites_read": 105,
   "sites_total": 128,
   "slow": [
+    "Finques Martell",
     "Fincador",
     "GUMPER",
     "Core Barcelona",
+    "Loca Barcelona",
     "ShBarcelona",
-    "Fincas Padua",
     "Gala Finques",
-    "Vivalco"
+    "Carbonell (Admón. Fincas)"
   ]
 }
