@@ -1,16 +1,18 @@
 {
-  "sites_read": 108,
+  "sites_read": 114,
   "sites_total": 128,
   "slow": [
     "Fincador",
-    "Selekta Properties",
-    "Orfinca",
-    "GUMPER",
     "Fincas San Andrés",
+    "Urbefinques",
+    "Fincas Cumbre",
+    "GUMPER",
+    "Nitia",
+    "Administrador Fincas A3",
+    "AFI Finques",
+    "Finor BCN (Les Corts)",
+    "Finques El Pallars",
     "Core Barcelona",
-    "Loca Barcelona",
-    "ShBarcelona",
-    "Gala Finques",
-    "Carbonell (Admón. Fincas)"
+    "ShBarcelona"
   ]
 }
