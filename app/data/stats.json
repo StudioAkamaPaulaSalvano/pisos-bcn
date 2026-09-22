@@ -1,15 +1,16 @@
 {
-  "sites_read": 108,
+  "sites_read": 107,
   "sites_total": 128,
   "slow": [
     "Finques Martell",
     "Fincador",
+    "Selekta Properties",
+    "Orfinca",
     "GUMPER",
+    "West Side Barcelona",
     "Core Barcelona",
     "Loca Barcelona",
     "ShBarcelona",
-    "Gala Finques",
-    "Carbonell (Admón. Fincas)",
-    "Tu Piso Nou Barris"
+    "Gala Finques"
   ]
 }
