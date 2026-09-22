@@ -1,11 +1,17 @@
 {
-  "sites_read": 114,
+  "sites_read": 112,
   "sites_total": 128,
   "slow": [
     "Fincador",
     "GUMPER",
     "Core Barcelona",
+    "Fincas San Andrés",
+    "Finques Hosta",
     "Loca Barcelona",
-    "ShBarcelona"
+    "ShBarcelona",
+    "Fincas Padua",
+    "Gala Finques",
+    "Vivalco",
+    "BarnaPiso"
   ]
 }
