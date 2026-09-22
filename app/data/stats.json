@@ -1,18 +1,12 @@
 {
-  "sites_read": 109,
+  "sites_read": 113,
   "sites_total": 128,
   "slow": [
     "Fincador",
-    "Grup Solfinc",
     "GUMPER",
-    "Fincas San Andrés",
     "Core Barcelona",
     "Loca Barcelona",
     "ShBarcelona",
-    "Gala Finques",
-    "Finques Falcón",
-    "Fincas Padua",
-    "Coma-Roig",
-    "Vivalco"
+    "Gala Finques"
   ]
 }
