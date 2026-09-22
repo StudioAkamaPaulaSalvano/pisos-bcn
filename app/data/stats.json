@@ -1,10 +1,16 @@
 {
-  "sites_read": 109,
+  "sites_read": 105,
   "sites_total": 128,
   "slow": [
+    "Finques Martell",
     "Fincador",
     "Core Barcelona",
+    "Urbefinques",
     "Loca Barcelona",
-    "ShBarcelona"
+    "ShBarcelona",
+    "Atemporal Barcelona",
+    "Gala Finques",
+    "VM3 Fincas",
+    "aProperties"
   ]
 }
