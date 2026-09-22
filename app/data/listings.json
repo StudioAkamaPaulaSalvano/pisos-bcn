@@ -44,6 +44,17 @@
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
   {
+    "url": "https://www.finquesmarba.com/ca/nova-llei-habitatge-espana/",
+    "price": 720,
+    "rooms": null,
+    "kind": "piso",
+    "title": "Llista de propietats",
+    "img": "https://www.finquesmarba.com/wp-content/uploads/2026/02/10544133_8-1-600x400.jpg",
+    "text": "Llista de propietats Les Tres Torres, Barcelona € 720 41.3962748 2.12730042 https://www.finquesmarba.com/wp-content/uploads/2026/02/10544133_8-1-150x100.jpg https://www.finquesmarb",
+    "agency": "Finques Marbá",
+    "rent_url": "https://www.finquesmarba.com/ca/lloguer"
+  },
+  {
     "url": "https://www.finquesfeliu.es/es/node/13359",
     "price": 725,
     "rooms": 1,
