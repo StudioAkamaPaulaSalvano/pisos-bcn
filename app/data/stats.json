@@ -1,13 +1,14 @@
 {
-  "sites_read": 106,
+  "sites_read": 114,
   "sites_total": 128,
   "slow": [
     "Fincador",
     "GUMPER",
     "Core Barcelona",
+    "Fincas San Andrés",
     "Loca Barcelona",
     "ShBarcelona",
-    "Gala Finques",
-    "Inmobiliaria Diagonal Mar"
+    "Fincas Padua",
+    "Tu Piso Nou Barris"
   ]
 }
