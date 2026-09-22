@@ -1,16 +1,12 @@
 {
-  "sites_read": 108,
+  "sites_read": 109,
   "sites_total": 128,
   "slow": [
     "Fincador",
-    "Fincas Ubiergo",
-    "GUMPER",
     "Core Barcelona",
-    "Fincas San Andrés",
     "Loca Barcelona",
     "ShBarcelona",
-    "Gala Finques",
-    "Carbonell (Admón. Fincas)",
-    "Ferrim Habitat"
+    "VM3 Fincas",
+    "Tu Piso Nou Barris"
   ]
 }
