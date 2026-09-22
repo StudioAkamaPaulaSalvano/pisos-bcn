@@ -1,12 +1,22 @@
 {
-  "sites_read": 109,
+  "sites_read": 113,
   "sites_total": 128,
   "slow": [
     "Fincador",
+    "GUMPER",
+    "Nitia",
     "Core Barcelona",
-    "Loca Barcelona",
+    "Fincas San Andrés",
+    "Fincas Carrera",
+    "Finques Martínez",
+    "AFI Finques",
+    "Finques El Pallars",
+    "Probesa",
+    "Inmobiliaria Diagonal Mar",
     "ShBarcelona",
     "VM3 Fincas",
-    "Tu Piso Nou Barris"
+    "Skyflats",
+    "BCN Living",
+    "Ferrim Habitat"
   ]
 }
