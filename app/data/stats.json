@@ -1,12 +1,17 @@
 {
-  "sites_read": 109,
+  "sites_read": 108,
   "sites_total": 128,
   "slow": [
-    "Finques Martell",
     "Fincador",
+    "Finques Martell",
+    "Orfinca",
+    "GUMPER",
     "Core Barcelona",
+    "AFI Finques",
+    "Loca Barcelona",
     "ShBarcelona",
-    "Gala Finques",
+    "Fincas Padua",
+    "Inmobiliaria Diagonal Mar",
     "Vivalco"
   ]
 }
