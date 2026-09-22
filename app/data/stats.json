@@ -1,15 +1,12 @@
 {
-  "sites_read": 106,
+  "sites_read": 114,
   "sites_total": 128,
   "slow": [
     "Fincador",
-    "Orfinca",
-    "West Side Barcelona",
     "Core Barcelona",
+    "Toysan Finques",
     "Loca Barcelona",
     "ShBarcelona",
-    "Gala Finques",
-    "DonCasa",
-    "Inmobiliaria Diagonal Mar"
+    "Gala Finques"
   ]
 }
