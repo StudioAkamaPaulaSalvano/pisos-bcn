@@ -317,17 +317,6 @@
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
   {
-    "url": "https://www.guinotprunera.com/es/alquiler/ref-31859",
-    "price": 989,
-    "rooms": null,
-    "kind": "piso",
-    "title": "Ref 31859",
-    "img": "https://media.mobiliagestion.es/Portals/inmoguinotprunera/Images/31859/27838904.jpg",
-    "text": "20260915 31859 Piso El Poblenou 989 €/mes 47 2 1 La vivienda en tercera planta sin ascensor. Salón exterior y cocina independiente, práctica y bien distribuida, diseñada para ofrec",
-    "agency": "Guinot Prunera",
-    "rent_url": "https://www.guinotprunera.com/es/alquiler"
-  },
-  {
     "url": "https://serviguest.com/inmuebles/doctor-santpoc-sant-andreu/",
     "price": 1000,
     "rooms": 2,
@@ -370,17 +359,6 @@
     "text": "1 /10 PREMIUM 1.000 € /mes Piso en El Raval El Raval (Distrito Ciutat Vella. Barcelona Capital) 2 habs. 1 baño 62 m² Reservas e inquietudes Tipo de alojamiento - alojamiento entero",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
-  },
-  {
-    "url": "https://www.guinotprunera.com/es/alquiler/ref-31590",
-    "price": 1001,
-    "rooms": null,
-    "kind": "piso",
-    "title": "La Nova Esquerra de L'Eixample",
-    "img": "https://media.mobiliagestion.es/Portals/inmoguinotprunera/Images/31590/27239705.jpg",
-    "text": "20260915 31590 Piso La Nova Esquerra de L'Eixample 1.001 €/mes 53 1 1 Apartamento exterior a patio de manzana. Salón comedor con cocina integrada, suelos de parquet. Alto y bien or",
-    "agency": "Guinot Prunera",
-    "rent_url": "https://www.guinotprunera.com/es/alquiler"
   },
   {
     "url": "https://www.pisos.com/alquilar/piso-sant_andreu_barrio08030-65914432493_501025/",
@@ -447,61 +425,6 @@
     "text": "1 /22 DESTACADO 1.092 € /mes Piso en Passatge del Vintró El Camp de l'Arpa del Clot (Distrito Sant Martí. Barcelona Capital) 2 habs. 1 baño 62 m² 3ª planta Informacion importante: ",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
-  },
-  {
-    "url": "https://www.guinotprunera.com/es/alquiler/ref-32109",
-    "price": 1100,
-    "rooms": null,
-    "kind": "piso",
-    "title": "La Vila de Gràcia",
-    "img": "https://media.mobiliagestion.es/Portals/inmoguinotprunera/Images/32109/28341705.jpg",
-    "text": "20260922 32109 Piso La Vila de Gràcia 1.100 €/mes 42 1 1 Piso ubicado en Gràcia, entresuelo con ascensor. Cocina cerrada con nevera, horno y microondas. Salón comedor exterior a ca",
-    "agency": "Guinot Prunera",
-    "rent_url": "https://www.guinotprunera.com/es/alquiler"
-  },
-  {
-    "url": "https://www.guinotprunera.com/es/alquiler/ref-32112",
-    "price": 1100,
-    "rooms": 2,
-    "kind": "piso",
-    "title": "Ref 32112",
-    "img": "https://media.mobiliagestion.es/Portals/inmoguinotprunera/Images/32109/28341705.jpg",
-    "text": "20260922 32109 Piso La Vila de Gràcia 1.100 €/mes 42 1 1 Piso ubicado en Gràcia, entresuelo con ascensor. Cocina cerrada con nevera, horno y microondas. Salón comedor exterior a ca",
-    "agency": "Guinot Prunera",
-    "rent_url": "https://www.guinotprunera.com/es/alquiler"
-  },
-  {
-    "url": "https://www.guinotprunera.com/es/alquiler/ref-32107",
-    "price": 1100,
-    "rooms": 2,
-    "kind": "piso",
-    "title": "Ref 32107",
-    "img": "https://media.mobiliagestion.es/Portals/inmoguinotprunera/Images/32109/28341705.jpg",
-    "text": "20260922 32109 Piso La Vila de Gràcia 1.100 €/mes 42 1 1 Piso ubicado en Gràcia, entresuelo con ascensor. Cocina cerrada con nevera, horno y microondas. Salón comedor exterior a ca",
-    "agency": "Guinot Prunera",
-    "rent_url": "https://www.guinotprunera.com/es/alquiler"
-  },
-  {
-    "url": "https://www.guinotprunera.com/es/alquiler/ref-32105",
-    "price": 1100,
-    "rooms": 2,
-    "kind": "piso",
-    "title": "Ref 32105",
-    "img": "https://media.mobiliagestion.es/Portals/inmoguinotprunera/Images/32109/28341705.jpg",
-    "text": "20260922 32109 Piso La Vila de Gràcia 1.100 €/mes 42 1 1 Piso ubicado en Gràcia, entresuelo con ascensor. Cocina cerrada con nevera, horno y microondas. Salón comedor exterior a ca",
-    "agency": "Guinot Prunera",
-    "rent_url": "https://www.guinotprunera.com/es/alquiler"
-  },
-  {
-    "url": "https://www.guinotprunera.com/es/alquiler/ref-32104",
-    "price": 1100,
-    "rooms": 2,
-    "kind": "piso",
-    "title": "Ref 32104",
-    "img": "https://media.mobiliagestion.es/Portals/inmoguinotprunera/Images/32109/28341705.jpg",
-    "text": "20260922 32109 Piso La Vila de Gràcia 1.100 €/mes 42 1 1 Piso ubicado en Gràcia, entresuelo con ascensor. Cocina cerrada con nevera, horno y microondas. Salón comedor exterior a ca",
-    "agency": "Guinot Prunera",
-    "rent_url": "https://www.guinotprunera.com/es/alquiler"
   },
   {
     "url": "https://toysanfinques.com/es/inmuebles/piso-en-alquiler-en-calle-de-deu-i-mata/",
