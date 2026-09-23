@@ -1,15 +1,16 @@
 {
-  "sites_read": 114,
+  "sites_read": 110,
   "sites_total": 128,
   "slow": [
+    "Finques Martell",
     "Fincador",
-    "Orfinca",
+    "Selekta Properties",
     "GUMPER",
-    "Core Barcelona",
     "Fincas San Andrés",
-    "Forcadell",
+    "Core Barcelona",
     "Loca Barcelona",
     "ShBarcelona",
-    "Gala Finques"
+    "Gala Finques",
+    "Carbonell (Admón. Fincas)"
   ]
 }
