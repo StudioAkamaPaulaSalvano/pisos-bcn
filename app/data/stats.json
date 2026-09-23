@@ -1,11 +1,17 @@
 {
-  "sites_read": 114,
+  "sites_read": 109,
   "sites_total": 128,
   "slow": [
     "Fincador",
+    "Selekta Properties",
+    "Orfinca",
+    "GUMPER",
     "Core Barcelona",
+    "Fincas San Andrés",
+    "Forcadell",
     "Loca Barcelona",
     "ShBarcelona",
-    "Gala Finques"
+    "Gala Finques",
+    "Carbonell (Admón. Fincas)"
   ]
 }
