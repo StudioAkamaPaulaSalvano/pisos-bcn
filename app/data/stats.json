@@ -1,17 +1,10 @@
 {
-  "sites_read": 109,
+  "sites_read": 114,
   "sites_total": 128,
   "slow": [
     "Fincador",
-    "Grup Solfinc",
-    "Fincas San Andrés",
     "Core Barcelona",
-    "Loca Barcelona",
     "ShBarcelona",
-    "Finques Falcón",
-    "Fincas Padua",
-    "Coma-Roig",
-    "Carbonell (Admón. Fincas)",
-    "Vivalco"
+    "Carbonell (Admón. Fincas)"
   ]
 }
