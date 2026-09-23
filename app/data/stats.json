@@ -1,15 +1,18 @@
 {
-  "sites_read": 114,
+  "sites_read": 102,
   "sites_total": 128,
   "slow": [
-    "Finques Martell",
     "Fincador",
-    "GUMPER",
-    "Core Barcelona",
+    "Withfor",
+    "Nitia",
     "Fincas San Andrés",
+    "Core Barcelona",
+    "Finques Hosta",
+    "Finques TEBÉ",
+    "Ilive Barcelona",
     "Loca Barcelona",
     "ShBarcelona",
-    "Gala Finques",
-    "VM3 Fincas"
+    "Serviguest",
+    "BarnaPiso"
   ]
 }
