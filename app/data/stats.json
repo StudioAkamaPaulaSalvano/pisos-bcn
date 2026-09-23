@@ -1,5 +1,5 @@
 {
-  "sites_read": 108,
+  "sites_read": 109,
   "sites_total": 128,
   "slow": [
     "Fincador",
@@ -7,6 +7,8 @@
     "Core Barcelona",
     "Loca Barcelona",
     "ShBarcelona",
-    "Fincas Azcoitia"
+    "Fincas Padua",
+    "Immollar",
+    "Vivalco"
   ]
 }
