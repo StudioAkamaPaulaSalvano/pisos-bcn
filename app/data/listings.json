@@ -1,5 +1,16 @@
 [
   {
+    "url": "https://masifill.com/property/pisos-la-dreta-de-leixample/",
+    "price": 350,
+    "rooms": null,
+    "kind": "piso",
+    "title": "Pisos la dreta de leixample",
+    "img": "https://masifill.com/wp-content/uploads/propiedad-5868-1-385x258.jpg",
+    "text": "Llogar 1,350€",
+    "agency": "Masifill (Mas i Fill)",
+    "rent_url": "https://masifill.com/property/lloguer-local-diafan-a-reformar-al-raval-barcelona/"
+  },
+  {
     "url": "https://barnapiso.com/es/vivienda/propiedad-en-las-cortes-4/",
     "price": 425,
     "rooms": null,
@@ -53,17 +64,6 @@
     "text": "Piso en Alquiler a BARCELONA / Sants CREU COBERTA 725 € Finques Feliu del grupo Housfy alquila piso en Sants-Montjuïc, en Barcelona. La propiedad... 41 m2 | 1 dorm.",
     "agency": "Finques Feliu",
     "rent_url": "https://www.finquesfeliu.es/es/buscador/inter"
-  },
-  {
-    "url": "https://www.pisos.com/alquilar/piso-el_raval08001-63384109363_530867/",
-    "price": 750,
-    "rooms": 1,
-    "kind": "piso",
-    "title": "Piso en Carrer de Pelai",
-    "img": "https://fotos.imghs.net/mm-wp/530867/63384109363.530867/530867_63384109363_ae664a64-91b5-48d2-a1dd-666b4394df09.jpg",
-    "text": "1 /6 PREMIUM 750 € /mes Piso en Carrer de Pelai El Raval (Distrito Ciutat Vella. Barcelona Capital) 1 hab. 1 baño 42 m² 7ª planta Ubicado en finca con ascensor y situado en la 7ª p",
-    "agency": "pisos.com",
-    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
   {
     "url": "https://inmobiliaria.calvetpremium.com/es/alquiler-pisos-pisos/en-barcelona-barcelona//ref-4127",
@@ -175,6 +175,17 @@
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
   {
+    "url": "https://www.pisos.com/alquilar/estudio-la_maternitat_sant_ramon08028-67512600578_104700/",
+    "price": 850,
+    "rooms": null,
+    "kind": "piso",
+    "title": "Estudio en La Maternitat-Sant Ramon",
+    "img": "https://fotos.imghs.net/mm-wp/1047/3230323630383138/8b73d6d7-6307-4a56-81e6-abc2f8b4d7d5.jpg",
+    "text": "1 /6 Nuevo PREMIUM 850 € /mes Estudio en La Maternitat-Sant Ramon La Maternitat-Sant Ramon (Distrito Les Corts. Barcelona Capital) 1 baño 15 m² Reservas e inquietudes Tipo de aloja",
+    "agency": "pisos.com",
+    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
+  },
+  {
     "url": "https://inmobiliaria.calvetpremium.com/es/alquiler-pisos-pisos/en-barcelona-barcelona//ref-4129",
     "price": 869,
     "rooms": 1,
@@ -192,50 +203,6 @@
     "title": "Estudio en El Poble-sec",
     "img": "https://fotos.imghs.net/mm-wp/1047/3230323630383234/461bb1f4-436f-4576-8dbe-b19444f3b035.jpg",
     "text": "1 /15 PREMIUM 890 € /mes Estudio en El Poble-sec El Poble-sec (Distrito Sants-Montjuïc. Barcelona Capital) 1 baño 22 m² Reservas e inquietudes Tipo de alojamiento - alojamiento ent",
-    "agency": "pisos.com",
-    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
-  },
-  {
-    "url": "https://www.pisos.com/alquilar/piso-sants_montjuic_hostafrancs08014-67563780499_535498/",
-    "price": 900,
-    "rooms": 2,
-    "kind": "piso",
-    "title": "Piso en Carrer del Rector Triadó",
-    "img": "https://fotos.imghs.net/mm-wp/535498/67563780499.535498/535498_67563780499_2973fae0-d2e6-45fc-afed-2400cb5540ad.jpg",
-    "text": "1 /14 Nuevo PREMIUM 900 € /mes Piso en Carrer del Rector Triadó Hostafrancs (Distrito Sants-Montjuïc. Barcelona Capital) 2 habs. 2 baños 84 m² 4ª planta La vivienda dispone de 2 do",
-    "agency": "pisos.com",
-    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
-  },
-  {
-    "url": "https://www.pisos.com/alquilar/piso-sants_montjuic_sants08014-67592542060_535498/",
-    "price": 900,
-    "rooms": 1,
-    "kind": "piso",
-    "title": "Piso en Carrer d'Alcolea",
-    "img": "https://fotos.imghs.net/mm-wp/535498/67592542060.535498/535498_67592542060_d2999be4-fcb8-42b2-a670-0ed66c71e66e.jpg",
-    "text": "1 /8 Nuevo PREMIUM 900 € /mes Piso en Carrer d'Alcolea Sants (Distrito Sants-Montjuïc. Barcelona Capital) 1 hab. 1 baño 57 m² 3ª planta Este acogedor piso, ubicado en la tercera pl",
-    "agency": "pisos.com",
-    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
-  },
-  {
-    "url": "https://www.pisos.com/alquilar/piso-el_congres_els_indians08027-67536605814_535498/",
-    "price": 900,
-    "rooms": 1,
-    "kind": "piso",
-    "title": "Piso en Carrer de Garcilaso",
-    "img": "https://fotos.imghs.net/mm-wp/535498/67536605814.535498/535498_67536605814_e135c9ae-d086-4d63-a344-0c2642bc6cb9.jpg",
-    "text": "1 /9 Nuevo PREMIUM 900 € /mes Piso en Carrer de Garcilaso El Congrés-Els Indians (Distrito Sant Andreu. Barcelona Capital) 1 hab. 1 baño 62 m² 4ª planta El apartamento dispone de: ",
-    "agency": "pisos.com",
-    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
-  },
-  {
-    "url": "https://www.pisos.com/alquilar/piso-la_vila_de_gracia08024-67548209242_535498/",
-    "price": 900,
-    "rooms": 1,
-    "kind": "piso",
-    "title": "Piso en Travessera de Dalt",
-    "img": "https://fotos.imghs.net/mm-wp/535498/67548209242.535498/535498_67548209242_84f90e21-4438-4c8f-9dbf-7e93918ee5c2.jpg",
-    "text": "1 /5 Nuevo PREMIUM 900 € /mes Piso en Travessera de Dalt La Vila de Gràcia (Distrito Gràcia. Barcelona Capital) 1 hab. 1 baño 63 m² 3ª planta La vivienda dispone de 1 dormitorio y ",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
@@ -346,39 +313,6 @@
     "title": "Apartamento en Carrer del Rec",
     "img": "https://fotos.imghs.net/mm-wp/530867/64206819507.530867/530867_64206819507_7bab86d1-371e-4c00-aeb0-aae957beb539.jpg",
     "text": "1 /13 PREMIUM 1.000 € /mes Apartamento en Carrer del Rec Sant Pere-Santa Caterina-La Ribera (Distrito Ciutat Vella. Barcelona Capital) 1 hab. 1 baño 45 m² 2ª planta Ubicado en el c",
-    "agency": "pisos.com",
-    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
-  },
-  {
-    "url": "https://www.pisos.com/alquilar/piso-les_corts_barrio08029-67572550730_535498/",
-    "price": 1000,
-    "rooms": 1,
-    "kind": "piso",
-    "title": "Piso en Carrer del Marquès de Sentmenat",
-    "img": "https://fotos.imghs.net/mm-wp/535498/67572550730.535498/535498_67572550730_391adaf5-7f98-4b70-aab5-a84a2272de45.jpg",
-    "text": "1 /9 Nuevo PREMIUM 1.000 € /mes Piso en Carrer del Marquès de Sentmenat Les Corts (Distrito Les Corts. Barcelona Capital) 1 hab. 1 baño 57 m² 4ª planta Cómodo apartamento de 57 m² ",
-    "agency": "pisos.com",
-    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
-  },
-  {
-    "url": "https://www.pisos.com/alquilar/piso-nou_barris_porta08016-67537642710_535498/",
-    "price": 1000,
-    "rooms": 2,
-    "kind": "piso",
-    "title": "Piso en Carrer d'Alella",
-    "img": "https://fotos.imghs.net/mm-wp/535498/67537642710.535498/535498_67537642710_09a15b3d-d6a2-4378-a066-ea4e5c398c9b.jpg",
-    "text": "1 /8 Nuevo PREMIUM 1.000 € /mes Piso en Carrer d'Alella Porta (Distrito Nou Barris. Barcelona Capital) 2 habs. 2 baños 80 m² 3ª planta Descripción de la zona (nou barris – barcelon",
-    "agency": "pisos.com",
-    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
-  },
-  {
-    "url": "https://www.pisos.com/alquilar/piso-sants_montjuic_sants08028-67586722507_535498/",
-    "price": 1000,
-    "rooms": 2,
-    "kind": "piso",
-    "title": "Piso en Carrer de Tirso de Molina",
-    "img": "https://fotos.imghs.net/mm-wp/535498/67586722507.535498/535498_67586722507_342fa77c-fc50-4400-8d7d-f57251182355.jpg",
-    "text": "1 /5 Nuevo PREMIUM 1.000 € /mes Piso en Carrer de Tirso de Molina Sants (Distrito Sants-Montjuïc. Barcelona Capital) 2 habs. 1 baño 73 m² 3ª planta Sants estació - principal estaci",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
