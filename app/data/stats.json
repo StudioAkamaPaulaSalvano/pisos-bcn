@@ -1,5 +1,5 @@
 {
-  "sites_read": 114,
+  "sites_read": 109,
   "sites_total": 128,
   "slow": [
     "Fincador",
@@ -7,6 +7,9 @@
     "Core Barcelona",
     "Fincas San Andrés",
     "Loca Barcelona",
-    "ShBarcelona"
+    "ShBarcelona",
+    "Gala Finques",
+    "Finques Catalonia",
+    "Ferrim Habitat"
   ]
 }
