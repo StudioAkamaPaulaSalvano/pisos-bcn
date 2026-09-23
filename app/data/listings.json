@@ -131,17 +131,6 @@
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
   {
-    "url": "https://www.pisos.com/alquilar/piso-el_congres_els_indians08027-63378468377_530867/",
-    "price": 850,
-    "rooms": 1,
-    "kind": "piso",
-    "title": "Piso en Carrer de Puerto Príncipe",
-    "img": "https://fotos.imghs.net/mm-wp/530867/63378468377.530867/530867_63378468377_b909d67a-d00e-4a8c-ba9a-57b51b7aac01.jpg",
-    "text": "1 /6 PREMIUM 850 € /mes Piso en Carrer de Puerto Príncipe El Congrés-Els Indians (Distrito Sant Andreu. Barcelona Capital) 1 hab. 1 baño 42 m² 2ª planta Ubicado en la zona de campo",
-    "agency": "pisos.com",
-    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
-  },
-  {
     "url": "https://www.pisos.com/alquilar/piso-el_poble_sec08004-60051110553_531896/",
     "price": 850,
     "rooms": 3,
@@ -227,6 +216,17 @@
     "text": "Piso en Alquiler a BARCELONA / La Salut SOSTRES 958 € Finques Feliu del Grupo Housfy, alquila vivienda en calle Sostres, en Barcelona. La propiedad... 74 m2 | 3 dorm.",
     "agency": "Finques Feliu",
     "rent_url": "https://www.finquesfeliu.es/es/buscador/inter"
+  },
+  {
+    "url": "https://www.pisos.com/alquilar/estudio-la_vila_de_gracia08012-63424964407_530867/",
+    "price": 975,
+    "rooms": null,
+    "kind": "piso",
+    "title": "Estudio en Carrer de Tordera",
+    "img": "https://fotos.imghs.net/mm-wp/530867/63424964407.530867/530867_63424964407_d39df721-627b-45c0-bded-c9fc7e01e2b6.jpg",
+    "text": "1 /10 PREMIUM 975 € /mes Estudio en Carrer de Tordera La Vila de Gràcia (Distrito Gràcia. Barcelona Capital) 1 baño 40 m² Ubicado en gràcia, a pocos minutos de passeig de gràcia, y",
+    "agency": "pisos.com",
+    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
   {
     "url": "https://www.pisos.com/alquilar/piso-el_raval-67505597575_104700/",
@@ -445,17 +445,6 @@
     "title": "Ático en Carrer de l'Hospital",
     "img": "https://fotos.imghs.net/mm-wp/530867/64249106130.530867/530867_64249106130_27762a0e-d0f3-456e-bc57-507d9e9c01a5.jpg",
     "text": "1 /6 PREMIUM 1.100 € /mes Ático en Carrer de l'Hospital El Raval (Distrito Ciutat Vella. Barcelona Capital) 1 hab. 1 baño 50 m² Ubicado en una finca con carácter en pleno corazón d",
-    "agency": "pisos.com",
-    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
-  },
-  {
-    "url": "https://www.pisos.com/alquilar/estudio-el_fort_pienc-67502619991_104700/",
-    "price": 1100,
-    "rooms": null,
-    "kind": "piso",
-    "title": "Estudio en El Fort Pienc",
-    "img": "https://fotos.imghs.net/mm-wp/1047/3230323630353037/3ee5d1fc-9df9-4b0e-9c9c-e37dfb44a332.jpg",
-    "text": "1 /18 PREMIUM 1.100 € /mes Estudio en El Fort Pienc El Fort Pienc (Distrito Eixample. Barcelona Capital) 1 baño 18 m² Reservas e inquietudes Tipo de alojamiento - alojamiento enter",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
