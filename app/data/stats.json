@@ -1,14 +1,16 @@
 {
-  "sites_read": 106,
+  "sites_read": 107,
   "sites_total": 128,
   "slow": [
     "Fincador",
+    "Cafur Serveis Immobiliaris",
     "GUMPER",
     "Core Barcelona",
+    "Finques Hosta",
     "Loca Barcelona",
     "ShBarcelona",
+    "Fincas Padua",
     "Gala Finques",
-    "DonCasa",
-    "Inmobiliaria Diagonal Mar"
+    "BarnaPiso"
   ]
 }
