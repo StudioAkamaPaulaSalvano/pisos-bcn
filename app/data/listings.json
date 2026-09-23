@@ -1,16 +1,5 @@
 [
   {
-    "url": "https://masifill.com/property/pisos-la-dreta-de-leixample/",
-    "price": 350,
-    "rooms": null,
-    "kind": "piso",
-    "title": "Pisos la dreta de leixample",
-    "img": "https://masifill.com/wp-content/uploads/propiedad-5868-1-385x258.jpg",
-    "text": "Llogar 1,350€",
-    "agency": "Masifill (Mas i Fill)",
-    "rent_url": "https://masifill.com/property/lloguer-despatx-en-varies-estancies-a-sarria-barcelona/"
-  },
-  {
     "url": "https://barnapiso.com/es/vivienda/propiedad-en-las-cortes-4/",
     "price": 425,
     "rooms": null,
@@ -85,17 +74,6 @@
     "img": "https://media.mobiliagestion.es/Portals/inmocalvet/Images/4127/28298054-large.jpg",
     "text": " Napols - Consell de Cent | Ref: 4127 PDCookieConsent.config({ \"brand\": { \"dev\" : false, \"name\": \"\", \"url\" : \"\" }, \"cookiePolicyLink\": \"\", \"passList\" : [], \"showBadges\" : true, \"st",
     "agency": "Calvet"
-  },
-  {
-    "url": "https://www.pisos.com/alquilar/piso-el_barri_gotic08002-63431472689_530867/",
-    "price": 800,
-    "rooms": 1,
-    "kind": "piso",
-    "title": "Piso en Carrer del Pi",
-    "img": "https://fotos.imghs.net/mm-wp/530867/63431472689.530867/530867_63431472689_22ef6d05-bd02-43f2-9b88-784258c6d243.jpg",
-    "text": "1 /6 PREMIUM 800 € /mes Piso en Carrer del Pi El Barri Gòtic (Distrito Ciutat Vella. Barcelona Capital) 1 hab. 1 baño 32 m² 4ª planta Ubicado en la última planta de finca caracterí",
-    "agency": "pisos.com",
-    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
   {
     "url": "https://www.pisos.com/alquilar/estudio-el_barri_gotic08002-67511575370_104700/",
