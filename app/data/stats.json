@@ -1,11 +1,14 @@
 {
-  "sites_read": 111,
+  "sites_read": 109,
   "sites_total": 128,
   "slow": [
     "Fincador",
-    "Orfinca",
+    "GUMPER",
+    "Fincas San Andrés",
     "Core Barcelona",
     "Loca Barcelona",
-    "ShBarcelona"
+    "ShBarcelona",
+    "Gala Finques",
+    "Carbonell (Admón. Fincas)"
   ]
 }
