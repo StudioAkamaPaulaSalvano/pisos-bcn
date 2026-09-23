@@ -1,33 +1,13 @@
 {
-  "sites_read": 86,
+  "sites_read": 106,
   "sites_total": 128,
   "slow": [
     "Fincador",
-    "Finor BCN",
-    "Orfinca",
-    "Chester Estate",
-    "Withfor",
-    "Gaudí House",
-    "Nitia",
-    "Finor BCN (Les Corts)",
+    "West Side Barcelona",
+    "Fincas San Andrés",
     "Core Barcelona",
-    "Fincas Cumbre",
-    "Finques Hosta",
-    "Finques TEBÉ",
-    "Ilive Barcelona",
-    "Loca Barcelona",
     "ShBarcelona",
-    "Serviguest",
-    "Fincas Padua",
-    "Finques Perramon",
-    "Gala Finques",
     "DonCasa",
-    "Finques Giramon",
-    "Inmobiliaria Diagonal Mar",
-    "Ollé Bertran",
-    "Finques Querol",
-    "Tu Piso Nou Barris",
-    "BarnaPiso",
-    "Rentmar"
+    "Inmobiliaria Diagonal Mar"
   ]
 }
