@@ -1,16 +1,5 @@
 [
   {
-    "url": "https://masifill.com/property/pisos-la-dreta-de-leixample/",
-    "price": 350,
-    "rooms": null,
-    "kind": "piso",
-    "title": "Pisos la dreta de leixample",
-    "img": "https://masifill.com/wp-content/uploads/propiedad-5868-1-385x258.jpg",
-    "text": "Llogar 1,350€",
-    "agency": "Masifill (Mas i Fill)",
-    "rent_url": "https://masifill.com/property/lloguer-local-diafan-a-reformar-al-raval-barcelona/"
-  },
-  {
     "url": "https://barnapiso.com/es/vivienda/propiedad-en-las-cortes-4/",
     "price": 425,
     "rooms": null,
@@ -76,6 +65,28 @@
     "agency": "Calvet"
   },
   {
+    "url": "https://www.pisos.com/alquilar/piso-el_barri_gotic08002-63431472689_530867/",
+    "price": 800,
+    "rooms": 1,
+    "kind": "piso",
+    "title": "Piso en Carrer del Pi",
+    "img": "https://fotos.imghs.net/mm-wp/530867/63431472689.530867/530867_63431472689_22ef6d05-bd02-43f2-9b88-784258c6d243.jpg",
+    "text": "1 /6 PREMIUM 800 € /mes Piso en Carrer del Pi El Barri Gòtic (Distrito Ciutat Vella. Barcelona Capital) 1 hab. 1 baño 32 m² 4ª planta Ubicado en la última planta de finca caracterí",
+    "agency": "pisos.com",
+    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
+  },
+  {
+    "url": "https://www.pisos.com/alquilar/piso-sants_montjuic_hostafrancs08014-63420332110_530867/",
+    "price": 800,
+    "rooms": 1,
+    "kind": "piso",
+    "title": "Piso en Carrer de Mallorca",
+    "img": "https://fotos.imghs.net/mm-wp/530867/63420332110.530867/530867_63420332110_84494247-3ab8-4f56-8771-bbbcbd77633f.jpg",
+    "text": "1 /4 PREMIUM 800 € /mes Piso en Carrer de Mallorca Hostafrancs (Distrito Sants-Montjuïc. Barcelona Capital) 1 hab. 1 baño 44 m² 4ª planta Ubicado en finca con ascensor y en la 4ª p",
+    "agency": "pisos.com",
+    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
+  },
+  {
     "url": "https://www.pisos.com/alquilar/estudio-el_barri_gotic08002-67511575370_104700/",
     "price": 800,
     "rooms": null,
@@ -116,17 +127,6 @@
     "title": "Piso en Carrer de Puerto Príncipe",
     "img": "https://fotos.imghs.net/mm-wp/530867/63378468377.530867/530867_63378468377_b909d67a-d00e-4a8c-ba9a-57b51b7aac01.jpg",
     "text": "1 /6 PREMIUM 850 € /mes Piso en Carrer de Puerto Príncipe El Congrés-Els Indians (Distrito Sant Andreu. Barcelona Capital) 1 hab. 1 baño 42 m² 2ª planta Ubicado en la zona de campo",
-    "agency": "pisos.com",
-    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
-  },
-  {
-    "url": "https://www.pisos.com/alquilar/piso-el_poble_sec08004-60051110553_531896/",
-    "price": 850,
-    "rooms": 3,
-    "kind": "piso",
-    "title": "Piso en El Poble-Sec",
-    "img": "https://fotos.imghs.net/mm-wp/531896/60051110553.531896/531896_60051110553_e809427e-0e08-4060-9100-fc49f623ddb9.jpg",
-    "text": "1 /16 PREMIUM 850 € /mes Piso en El Poble-Sec El Poble-sec (Distrito Sants-Montjuïc. Barcelona Capital) 3 habs. 1 baño 47 m² 1ª planta Antes de poder agendar una visita al inmueble",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
@@ -334,7 +334,7 @@
     "kind": "piso",
     "title": "Piso en Carrer de Castellbell",
     "img": "https://fotos.imghs.net/mm-wp/501025/67504065267.501025/501025_67504065267_2d479dc6-0ed0-4c26-a346-5a8074d60eb8.jpg",
-    "text": "1 /26 TOP 1.019 € /mes Piso en Carrer de Castellbell Sant Andreu (Distrito Sant Andreu. Barcelona Capital) 3 habs. 1 baño 58 m² Entresuelo Informacion importante: para visitar esta",
+    "text": "1 /26 Nuevo PREMIUM 1.019 € /mes Piso en Carrer de Castellbell Sant Andreu (Distrito Sant Andreu. Barcelona Capital) 3 habs. 1 baño 58 m² Entresuelo Informacion importante: para vi",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
@@ -356,7 +356,7 @@
     "kind": "piso",
     "title": "Piso en El Poble-sec",
     "img": "https://fotos.imghs.net/mm-wp/1092/3230323630373034/52119242-4004-4719-a248-d3f20f29c950.jpg",
-    "text": "1 /10 TOP Oportunidad 1.079 € /mes Piso en El Poble-sec El Poble-sec (Distrito Sants-Montjuïc. Barcelona Capital) 36 m² Este maravilloso apartamento está idealmente ubicado cerca d",
+    "text": "1 /10 PREMIUM 1.079 € /mes Piso en El Poble-sec El Poble-sec (Distrito Sants-Montjuïc. Barcelona Capital) 36 m² Este maravilloso apartamento está idealmente ubicado cerca del parqu",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
@@ -399,7 +399,7 @@
     "kind": "piso",
     "title": "Piso en Passatge del Vintró",
     "img": "https://fotos.imghs.net/mm-wp/501025/22599980810.501025/501025_22599980810_15_20220315204834084.jpg",
-    "text": "1 /22 TOP 1.092 € /mes Piso en Passatge del Vintró El Camp de l'Arpa del Clot (Distrito Sant Martí. Barcelona Capital) 2 habs. 1 baño 62 m² 3ª planta Informacion importante: para v",
+    "text": "1 /22 PREMIUM 1.092 € /mes Piso en Passatge del Vintró El Camp de l'Arpa del Clot (Distrito Sant Martí. Barcelona Capital) 2 habs. 1 baño 62 m² 3ª planta Informacion importante: pa",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
@@ -424,28 +424,6 @@
     "text": "alquiler 1.100 €/mes Piso en alquiler en calle Déu i Mata Barcelona · Les Corts 60 m 2 1 hab. 1 baño",
     "agency": "Toysan Finques",
     "rent_url": "https://toysanfinques.com/es/inmuebles/?transaction_type=lloguer&property__type=property"
-  },
-  {
-    "url": "https://www.pisos.com/alquilar/piso-sants_montjuic_hostafrancs08014-65868672765_109200/",
-    "price": 1100,
-    "rooms": null,
-    "kind": "piso",
-    "title": "Piso en Hostafrancs",
-    "img": "https://fotos.imghs.net/mm-wp/1092/3230323630363131/db7cbb24-c0c4-41ee-8662-0fe06ec4764d.jpg",
-    "text": "1 /10 TOP Oportunidad 1.100 € /mes Piso en Hostafrancs Hostafrancs (Distrito Sants-Montjuïc. Barcelona Capital) 25 m² 🏡 one-of-a-kind studio in barcelona! Live in this outstanding ",
-    "agency": "pisos.com",
-    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
-  },
-  {
-    "url": "https://www.pisos.com/alquilar/piso-el_raval08001-66668005832_106100/",
-    "price": 1100,
-    "rooms": 1,
-    "kind": "piso",
-    "title": "Piso en El Raval",
-    "img": "https://fotos.imghs.net/mm-wp/1061/3230323630383233/72b82086-47b7-4bfe-a88c-1026b58106a6.jpg",
-    "text": "1 /14 DESTACADO 1.100 € /mes Piso en El Raval El Raval (Distrito Ciutat Vella. Barcelona Capital) 1 hab. 1 baño 47 m² 1ª planta Piso centrico, listo parar entrar con las maletas, c",
-    "agency": "pisos.com",
-    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
   {
     "url": "https://www.pisos.com/alquilar/atico-el_raval08001-64249106130_530867/",
@@ -477,6 +455,17 @@
     "title": "Estudio en El Fort Pienc",
     "img": "https://fotos.imghs.net/mm-wp/1047/3230323630353037/3ee5d1fc-9df9-4b0e-9c9c-e37dfb44a332.jpg",
     "text": "1 /18 PREMIUM 1.100 € /mes Estudio en El Fort Pienc El Fort Pienc (Distrito Eixample. Barcelona Capital) 1 baño 18 m² Reservas e inquietudes Tipo de alojamiento - alojamiento enter",
+    "agency": "pisos.com",
+    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
+  },
+  {
+    "url": "https://www.pisos.com/alquilar/piso-sants_montjuic_hostafrancs08014-65868672765_109200/",
+    "price": 1100,
+    "rooms": null,
+    "kind": "piso",
+    "title": "Piso en Hostafrancs",
+    "img": "https://fotos.imghs.net/mm-wp/1092/3230323630363131/db7cbb24-c0c4-41ee-8662-0fe06ec4764d.jpg",
+    "text": "1 /10 PREMIUM 1.100 € /mes Piso en Hostafrancs Hostafrancs (Distrito Sants-Montjuïc. Barcelona Capital) 25 m² 🏡 one-of-a-kind studio in barcelona! Live in this outstanding studio, ",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
