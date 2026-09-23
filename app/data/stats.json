@@ -1,12 +1,14 @@
 {
-  "sites_read": 108,
+  "sites_read": 110,
   "sites_total": 128,
   "slow": [
     "Fincador",
     "Core Barcelona",
-    "Finques El Pallars",
+    "Fincas San Andrés",
+    "Finques Hosta",
     "Loca Barcelona",
     "ShBarcelona",
-    "Fincas Padua"
+    "Gala Finques",
+    "BarnaPiso"
   ]
 }
