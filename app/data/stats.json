@@ -1,10 +1,17 @@
 {
-  "sites_read": 109,
+  "sites_read": 111,
   "sites_total": 128,
   "slow": [
     "Fincador",
-    "Fincas San Andrés",
+    "Orfinca",
+    "West Side Barcelona",
     "Core Barcelona",
-    "ShBarcelona"
+    "Fincas San Andrés",
+    "Loca Barcelona",
+    "ShBarcelona",
+    "Gala Finques",
+    "DonCasa",
+    "Carbonell (Admón. Fincas)",
+    "Inmobiliaria Diagonal Mar"
   ]
 }
