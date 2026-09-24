@@ -1,13 +1,16 @@
 {
-  "sites_read": 111,
+  "sites_read": 106,
   "sites_total": 128,
   "slow": [
+    "Finques Martell",
     "Fincador",
-    "GUMPER",
-    "Fincas San Andrés",
     "Core Barcelona",
+    "Urbefinques",
     "Loca Barcelona",
     "ShBarcelona",
-    "Gala Finques"
+    "Atemporal Barcelona",
+    "Gala Finques",
+    "VM3 Fincas",
+    "aProperties"
   ]
 }
