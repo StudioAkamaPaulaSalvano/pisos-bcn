@@ -1,9 +1,14 @@
 {
-  "sites_read": 113,
+  "sites_read": 108,
   "sites_total": 128,
   "slow": [
     "Fincador",
+    "Finques Marbá",
+    "GUMPER",
     "Core Barcelona",
-    "ShBarcelona"
+    "Loca Barcelona",
+    "ShBarcelona",
+    "Gala Finques",
+    "VM3 Fincas"
   ]
 }
