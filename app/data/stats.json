@@ -1,13 +1,12 @@
 {
-  "sites_read": 110,
+  "sites_read": 106,
   "sites_total": 128,
   "slow": [
     "Fincador",
     "GUMPER",
     "Core Barcelona",
     "Forcadell",
-    "ShBarcelona",
-    "DonCasa",
-    "Inmobiliaria Diagonal Mar"
+    "Loca Barcelona",
+    "ShBarcelona"
   ]
 }
