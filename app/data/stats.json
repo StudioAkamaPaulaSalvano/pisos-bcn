@@ -1,13 +1,15 @@
 {
-  "sites_read": 107,
+  "sites_read": 105,
   "sites_total": 128,
   "slow": [
     "Fincador",
-    "Fincas San Andrés",
     "Core Barcelona",
+    "Fincas San Andrés",
+    "Finques El Pallars",
     "Forcadell",
-    "Loca Barcelona",
     "ShBarcelona",
-    "Gala Finques"
+    "Gala Finques",
+    "Loca Barcelona",
+    "VM3 Fincas"
   ]
 }
