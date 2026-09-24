@@ -1,10 +1,13 @@
 {
-  "sites_read": 109,
+  "sites_read": 114,
   "sites_total": 128,
   "slow": [
     "Fincador",
-    "Core Barcelona",
+    "inmho Barcelona",
     "Fincas San Andrés",
-    "ShBarcelona"
+    "Core Barcelona",
+    "Loca Barcelona",
+    "ShBarcelona",
+    "Ferrim Habitat"
   ]
 }
