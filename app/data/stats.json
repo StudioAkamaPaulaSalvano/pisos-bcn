@@ -1,14 +1,19 @@
 {
-  "sites_read": 112,
+  "sites_read": 106,
   "sites_total": 128,
   "slow": [
     "Fincador",
-    "Casc Antic BCN",
-    "GUMPER",
+    "Orfinca",
+    "Withfor",
+    "Nitia",
     "Core Barcelona",
     "Finques Hosta",
+    "Finques TEBÉ",
+    "Ilive Barcelona",
     "Loca Barcelona",
     "ShBarcelona",
+    "Serviguest",
+    "Finques Catalonia",
     "BarnaPiso"
   ]
 }
