@@ -1,12 +1,13 @@
 {
-  "sites_read": 114,
+  "sites_read": 108,
   "sites_total": 128,
   "slow": [
     "Fincador",
-    "Orfinca",
     "Fincas San Andrés",
     "Core Barcelona",
+    "Forcadell",
+    "Loca Barcelona",
     "ShBarcelona",
-    "Vivalco"
+    "Gala Finques"
   ]
 }
