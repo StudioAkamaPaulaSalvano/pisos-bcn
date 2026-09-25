@@ -1,14 +1,11 @@
 {
-  "sites_read": 111,
+  "sites_read": 109,
   "sites_total": 128,
   "slow": [
     "Fincador",
-    "Fincas San Andrés",
-    "Core Barcelona",
     "GUMPER",
-    "Finques TEBÉ",
-    "ShBarcelona",
-    "DonCasa",
-    "Inmobiliaria Diagonal Mar"
+    "Core Barcelona",
+    "Fincas San Andrés",
+    "ShBarcelona"
   ]
 }
