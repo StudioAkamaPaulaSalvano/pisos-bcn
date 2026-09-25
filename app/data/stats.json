@@ -1,14 +1,12 @@
 {
-  "sites_read": 110,
+  "sites_read": 112,
   "sites_total": 128,
   "slow": [
     "Fincador",
-    "Core Barcelona",
+    "Vivendex",
     "Fincas San Andrés",
-    "Finques Hosta",
+    "Core Barcelona",
     "Amat Immobiliaris",
-    "Loca Barcelona",
-    "ShBarcelona",
-    "BarnaPiso"
+    "ShBarcelona"
   ]
 }
