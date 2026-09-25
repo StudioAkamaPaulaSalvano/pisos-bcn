@@ -1,13 +1,11 @@
 {
-  "sites_read": 110,
+  "sites_read": 114,
   "sites_total": 128,
   "slow": [
     "Fincador",
     "GUMPER",
     "Core Barcelona",
-    "Fincas San Andrés",
-    "Tecnocasa (red)",
-    "ShBarcelona",
-    "Carbonell (Admón. Fincas)"
+    "Loca Barcelona",
+    "ShBarcelona"
   ]
 }
