@@ -1,13 +1,11 @@
 {
-  "sites_read": 110,
+  "sites_read": 108,
   "sites_total": 128,
   "slow": [
     "Fincador",
     "Core Barcelona",
-    "Tecnocasa (red)",
     "Loca Barcelona",
     "ShBarcelona",
-    "Fincas Padua",
-    "Carbonell (Admón. Fincas)"
+    "Fincas Azcoitia"
   ]
 }
