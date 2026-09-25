@@ -1,11 +1,9 @@
 {
-  "sites_read": 114,
+  "sites_read": 109,
   "sites_total": 128,
   "slow": [
     "Fincador",
-    "Cafur Serveis Immobiliaris",
     "Core Barcelona",
-    "ShBarcelona",
-    "Carbonell (Admón. Fincas)"
+    "ShBarcelona"
   ]
 }
