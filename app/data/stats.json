@@ -1,17 +1,12 @@
 {
-  "sites_read": 110,
+  "sites_read": 107,
   "sites_total": 128,
   "slow": [
     "Fincador",
     "GUMPER",
+    "Immobiliària Sant Martí",
     "Core Barcelona",
-    "Fincas San Andrés",
-    "Urbefinques",
     "Amat Immobiliaris",
-    "Loca Barcelona",
-    "ShBarcelona",
-    "Atemporal Barcelona",
-    "VM3 Fincas",
-    "aProperties"
+    "ShBarcelona"
   ]
 }
