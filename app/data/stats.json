@@ -1,11 +1,15 @@
 {
-  "sites_read": 109,
+  "sites_read": 103,
   "sites_total": 128,
   "slow": [
     "Fincador",
+    "Cafur Serveis Immobiliaris",
     "Core Barcelona",
     "Fincas San Andrés",
+    "Finques Hosta",
     "Loca Barcelona",
-    "ShBarcelona"
+    "ShBarcelona",
+    "Vivalco",
+    "BarnaPiso"
   ]
 }
