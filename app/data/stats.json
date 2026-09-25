@@ -1,11 +1,11 @@
 {
-  "sites_read": 113,
+  "sites_read": 107,
   "sites_total": 128,
   "slow": [
     "Fincador",
+    "GUMPER",
     "Core Barcelona",
     "Amat Immobiliaris",
-    "Loca Barcelona",
     "ShBarcelona"
   ]
 }
