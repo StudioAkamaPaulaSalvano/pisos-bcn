@@ -1,15 +1,12 @@
 {
-  "sites_read": 106,
+  "sites_read": 107,
   "sites_total": 128,
   "slow": [
     "Fincador",
-    "GUMPER",
     "Core Barcelona",
     "Fincas San Andrés",
     "Amat Immobiliaris",
-    "Loca Barcelona",
     "ShBarcelona",
-    "DonCasa",
-    "Inmobiliaria Diagonal Mar"
+    "Fincas Azcoitia"
   ]
 }
