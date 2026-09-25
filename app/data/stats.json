@@ -1,13 +1,12 @@
 {
-  "sites_read": 108,
+  "sites_read": 113,
   "sites_total": 128,
   "slow": [
     "Fincador",
-    "Destinocasa",
+    "GUMPER",
     "Core Barcelona",
-    "Toysan Finques",
     "Amat Immobiliaris",
-    "ShBarcelona",
-    "Carbonell (Admón. Fincas)"
+    "Loca Barcelona",
+    "ShBarcelona"
   ]
 }
