@@ -1,15 +1,12 @@
 {
-  "sites_read": 106,
+  "sites_read": 112,
   "sites_total": 128,
   "slow": [
-    "Finques Martell",
-    "Fincador",
     "Selekta Properties",
+    "Fincador",
     "GUMPER",
     "Core Barcelona",
-    "Forcadell",
     "Loca Barcelona",
-    "ShBarcelona",
-    "Fincas Azcoitia"
+    "ShBarcelona"
   ]
 }
