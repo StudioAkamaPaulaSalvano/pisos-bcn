@@ -1,16 +1,5 @@
 [
   {
-    "url": "https://masifill.com/property/pisos-la-dreta-de-leixample/",
-    "price": 350,
-    "rooms": null,
-    "kind": "piso",
-    "title": "Pisos la dreta de leixample",
-    "img": "https://masifill.com/wp-content/uploads/propiedad-5868-1-385x258.jpg",
-    "text": "Llogar 1,350€",
-    "agency": "Masifill (Mas i Fill)",
-    "rent_url": "https://masifill.com/property/lloguer-despatx-en-varies-estancies-a-sarria-barcelona/"
-  },
-  {
     "url": "https://barnapiso.com/es/vivienda/propiedad-en-las-cortes-4/",
     "price": 425,
     "rooms": null,
@@ -205,6 +194,17 @@
     "text": "1 /10 Nuevo DESTACADO 909 € /mes Piso en El Carmel El Carmel (Distrito Horta-Guinardó. Barcelona Capital) 36 m² Seasonal rental exclusively for temporary residential use Furnished ",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
+  },
+  {
+    "url": "https://masifill.com/property/pis-amb-encant-a-gracia-ideal-per-a-reformar-al-teu-gust-2/",
+    "price": 924,
+    "rooms": null,
+    "kind": "piso",
+    "title": "Pisos – Sarrià",
+    "img": "https://masifill.com/wp-content/uploads/propiedad-5886-18-385x258.jpg",
+    "text": "Llogar 924€ Llogar Pisos – Sarrià Sarrià 08021, Barcelona Habitacions: 2 Bath: 1 : 48 Pisos 13 hores ago 924€ Detalls Habitacions: 2 Bath: 1 : 48 Pisos Detalls 13 hores ago Comprar",
+    "agency": "Masifill (Mas i Fill)",
+    "rent_url": "https://masifill.com/property/lloguer-local-a-peu-de-carrer-a-leixample-esquerra-barcelona/"
   },
   {
     "url": "https://www.pisos.com/alquilar/piso-la_maternitat_sant_ramon-63343839529_530867/",
