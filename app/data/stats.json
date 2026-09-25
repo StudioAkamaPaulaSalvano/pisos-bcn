@@ -1,10 +1,13 @@
 {
-  "sites_read": 112,
+  "sites_read": 108,
   "sites_total": 128,
   "slow": [
     "Fincador",
+    "GUMPER",
+    "Fincas San Andrés",
     "Core Barcelona",
     "Amat Immobiliaris",
-    "ShBarcelona"
+    "ShBarcelona",
+    "Fincas Azcoitia"
   ]
 }
