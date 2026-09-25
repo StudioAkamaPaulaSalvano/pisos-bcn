@@ -1,11 +1,20 @@
 {
-  "sites_read": 113,
+  "sites_read": 99,
   "sites_total": 128,
   "slow": [
     "Fincador",
+    "Orfinca",
+    "Withfor",
+    "Nitia",
     "Core Barcelona",
+    "Finques Hosta",
+    "Finques TEBÉ",
+    "Ilive Barcelona",
     "Amat Immobiliaris",
-    "Loca Barcelona",
-    "ShBarcelona"
+    "ShBarcelona",
+    "Serviguest",
+    "Finques Catalonia",
+    "Segermar Associats",
+    "BarnaPiso"
   ]
 }
