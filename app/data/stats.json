@@ -1,14 +1,16 @@
 {
-  "sites_read": 107,
+  "sites_read": 112,
   "sites_total": 128,
   "slow": [
     "Fincador",
+    "Finques Marbá",
+    "Destinocasa",
     "GUMPER",
     "Fincas San Andrés",
     "Core Barcelona",
+    "Forcadell",
     "Amat Immobiliaris",
-    "Loca Barcelona",
     "ShBarcelona",
-    "Fincas Azcoitia"
+    "VM3 Fincas"
   ]
 }
