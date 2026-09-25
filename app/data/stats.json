@@ -1,13 +1,16 @@
 {
-  "sites_read": 113,
+  "sites_read": 106,
   "sites_total": 128,
   "slow": [
     "Fincador",
-    "Casc Antic BCN",
+    "inmho Barcelona",
     "GUMPER",
     "Core Barcelona",
+    "Finques Hosta",
     "Amat Immobiliaris",
-    "Loca Barcelona",
-    "ShBarcelona"
+    "ShBarcelona",
+    "Carbonell (Admón. Fincas)",
+    "Ferrim Habitat",
+    "BarnaPiso"
   ]
 }
