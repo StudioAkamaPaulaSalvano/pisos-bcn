@@ -1,13 +1,12 @@
 {
-  "sites_read": 106,
+  "sites_read": 108,
   "sites_total": 128,
   "slow": [
     "Fincador",
+    "GUMPER",
     "Core Barcelona",
-    "Finques Hosta",
     "Amat Immobiliaris",
-    "ShBarcelona",
-    "Carbonell (Admón. Fincas)",
-    "BarnaPiso"
+    "Loca Barcelona",
+    "ShBarcelona"
   ]
 }
