@@ -1,5 +1,16 @@
 [
   {
+    "url": "https://masifill.com/property/pisos-la-dreta-de-leixample/",
+    "price": 350,
+    "rooms": null,
+    "kind": "piso",
+    "title": "Pisos la dreta de leixample",
+    "img": "https://masifill.com/wp-content/uploads/propiedad-5868-1-385x258.jpg",
+    "text": "Llogar 1,350€",
+    "agency": "Masifill (Mas i Fill)",
+    "rent_url": "https://masifill.com/property/lloguer-local-diafan-a-reformar-al-raval-barcelona/"
+  },
+  {
     "url": "https://barnapiso.com/es/vivienda/propiedad-en-las-cortes-4/",
     "price": 425,
     "rooms": null,
@@ -131,6 +142,17 @@
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
   {
+    "url": "https://www.pisos.com/alquilar/estudio-la_maternitat_sant_ramon08028-67552033328_104700/",
+    "price": 850,
+    "rooms": null,
+    "kind": "piso",
+    "title": "Estudio en La Maternitat-Sant Ramon",
+    "img": "https://fotos.imghs.net/mm-wp/1047/3230323630383138/8b73d6d7-6307-4a56-81e6-abc2f8b4d7d5.jpg",
+    "text": "1 /6 Nuevo PREMIUM 850 € /mes Estudio en La Maternitat-Sant Ramon La Maternitat-Sant Ramon (Distrito Les Corts. Barcelona Capital) 1 baño 15 m² Reservas e inquietudes Tipo de aloja",
+    "agency": "pisos.com",
+    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
+  },
+  {
     "url": "https://www.pisos.com/alquilar/piso-barcelona_capital-67571210520_109200/",
     "price": 850,
     "rooms": null,
@@ -150,17 +172,6 @@
     "img": "https://media.mobiliagestion.es/Portals/inmocalvet/Images/4129/28328142-large.jpg",
     "text": " Pere Serafí - Montseny | Ref: 4129 PDCookieConsent.config({ \"brand\": { \"dev\" : false, \"name\": \"\", \"url\" : \"\" }, \"cookiePolicyLink\": \"\", \"passList\" : [], \"showBadges\" : true, \"styl",
     "agency": "Calvet"
-  },
-  {
-    "url": "https://www.pisos.com/alquilar/estudio-el_poble_sec08004-67527772384_104700/",
-    "price": 890,
-    "rooms": null,
-    "kind": "piso",
-    "title": "Estudio en El Poble-sec",
-    "img": "https://fotos.imghs.net/mm-wp/1047/3230323630383234/461bb1f4-436f-4576-8dbe-b19444f3b035.jpg",
-    "text": "1 /15 PREMIUM 890 € /mes Estudio en El Poble-sec El Poble-sec (Distrito Sants-Montjuïc. Barcelona Capital) 1 baño 22 m² Reservas e inquietudes Tipo de alojamiento - alojamiento ent",
-    "agency": "pisos.com",
-    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
   {
     "url": "https://www.pisos.com/alquilar/piso-el_carmel08032-67521176973_109200/",
@@ -323,7 +334,7 @@
     "kind": "piso",
     "title": "Piso en Carrer de Castellbell",
     "img": "https://fotos.imghs.net/mm-wp/501025/67504065267.501025/501025_67504065267_2d479dc6-0ed0-4c26-a346-5a8074d60eb8.jpg",
-    "text": "1 /26 TOP 1.019 € /mes Piso en Carrer de Castellbell Sant Andreu (Distrito Sant Andreu. Barcelona Capital) 3 habs. 1 baño 58 m² Entresuelo Informacion importante: para visitar esta",
+    "text": "1 /26 Nuevo PREMIUM 1.019 € /mes Piso en Carrer de Castellbell Sant Andreu (Distrito Sant Andreu. Barcelona Capital) 3 habs. 1 baño 58 m² Entresuelo Informacion importante: para vi",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
@@ -378,7 +389,7 @@
     "kind": "piso",
     "title": "Piso en Passatge del Vintró",
     "img": "https://fotos.imghs.net/mm-wp/501025/22599980810.501025/501025_22599980810_15_20220315204834084.jpg",
-    "text": "1 /22 TOP 1.092 € /mes Piso en Passatge del Vintró El Camp de l'Arpa del Clot (Distrito Sant Martí. Barcelona Capital) 2 habs. 1 baño 62 m² 3ª planta Informacion importante: para v",
+    "text": "1 /22 PREMIUM 1.092 € /mes Piso en Passatge del Vintró El Camp de l'Arpa del Clot (Distrito Sant Martí. Barcelona Capital) 2 habs. 1 baño 62 m² 3ª planta Informacion importante: pa",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },

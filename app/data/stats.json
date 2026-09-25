@@ -1,13 +1,15 @@
 {
-  "sites_read": 112,
+  "sites_read": 108,
   "sites_total": 128,
   "slow": [
     "Fincador",
+    "GUMPER",
     "Core Barcelona",
+    "Fincas San Andrés",
     "Amat Immobiliaris",
     "Loca Barcelona",
     "ShBarcelona",
     "Fincas García",
-    "Carbonell (Admón. Fincas)"
+    "VM3 Fincas"
   ]
 }
