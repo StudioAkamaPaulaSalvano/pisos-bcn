@@ -1,14 +1,15 @@
 {
-  "sites_read": 106,
+  "sites_read": 110,
   "sites_total": 128,
   "slow": [
     "Fincador",
-    "inmho Barcelona",
     "Selekta Properties",
     "GUMPER",
-    "Fincas San Andrés",
     "Core Barcelona",
+    "Urbefinques",
     "ShBarcelona",
-    "Ferrim Habitat"
+    "Atemporal Barcelona",
+    "VM3 Fincas",
+    "aProperties"
   ]
 }
