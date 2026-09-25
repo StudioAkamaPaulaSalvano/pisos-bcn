@@ -1,16 +1,11 @@
 {
-  "sites_read": 106,
+  "sites_read": 108,
   "sites_total": 128,
   "slow": [
     "Fincador",
-    "GUMPER",
     "Core Barcelona",
-    "Urbefinques",
     "Amat Immobiliaris",
-    "Loca Barcelona",
     "ShBarcelona",
-    "Atemporal Barcelona",
-    "VM3 Fincas",
-    "aProperties"
+    "Gala Finques"
   ]
 }
