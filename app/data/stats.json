@@ -1,12 +1,17 @@
 {
-  "sites_read": 108,
+  "sites_read": 102,
   "sites_total": 128,
   "slow": [
     "Fincador",
-    "Fincas San Andrés",
+    "Withfor",
     "Core Barcelona",
+    "Nitia",
+    "Finques Hosta",
+    "Finques TEBÉ",
+    "Ilive Barcelona",
     "Amat Immobiliaris",
-    "Loca Barcelona",
-    "ShBarcelona"
+    "ShBarcelona",
+    "Serviguest",
+    "BarnaPiso"
   ]
 }
