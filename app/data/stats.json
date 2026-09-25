@@ -1,17 +1,13 @@
 {
-  "sites_read": 112,
+  "sites_read": 109,
   "sites_total": 128,
   "slow": [
     "Fincador",
-    "Orfinca",
-    "GUMPER",
-    "Core Barcelona",
     "Fincas San Andrés",
-    "Finques Hosta",
-    "Loca Barcelona",
+    "Core Barcelona",
+    "Punto Habitat",
+    "Tecnocasa (red)",
     "ShBarcelona",
-    "Carbonell (Admón. Fincas)",
-    "Ferrim Habitat",
-    "BarnaPiso"
+    "Fincas García"
   ]
 }
