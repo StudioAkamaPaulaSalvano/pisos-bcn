@@ -1,12 +1,14 @@
 {
-  "sites_read": 108,
+  "sites_read": 107,
   "sites_total": 128,
   "slow": [
     "Fincador",
-    "GUMPER",
+    "inmho Barcelona",
+    "Orfinca",
+    "Immobiliària Sant Martí",
     "Core Barcelona",
+    "Fincas San Andrés",
     "Amat Immobiliaris",
-    "Loca Barcelona",
     "ShBarcelona"
   ]
 }
