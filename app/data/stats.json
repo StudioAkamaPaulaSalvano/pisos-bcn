@@ -1,13 +1,12 @@
 {
-  "sites_read": 113,
+  "sites_read": 109,
   "sites_total": 128,
   "slow": [
     "Fincador",
-    "Orfinca",
     "Core Barcelona",
-    "Forcadell",
-    "Loca Barcelona",
     "ShBarcelona",
-    "Fincas García"
+    "Fincas García",
+    "Carbonell (Admón. Fincas)",
+    "Vivalco"
   ]
 }
