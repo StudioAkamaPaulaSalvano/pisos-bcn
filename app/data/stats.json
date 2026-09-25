@@ -1,10 +1,15 @@
 {
-  "sites_read": 109,
+  "sites_read": 105,
   "sites_total": 128,
   "slow": [
     "Fincador",
-    "GUMPER",
+    "Fincas San Andrés",
     "Core Barcelona",
-    "ShBarcelona"
+    "Finques Hosta",
+    "ShBarcelona",
+    "DonCasa",
+    "Inmobiliaria Diagonal Mar",
+    "Fincas Azcoitia",
+    "BarnaPiso"
   ]
 }
