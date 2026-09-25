@@ -1,13 +1,11 @@
 {
-  "sites_read": 107,
+  "sites_read": 108,
   "sites_total": 128,
   "slow": [
     "Fincador",
     "Selekta Properties",
     "GUMPER",
     "Core Barcelona",
-    "Tecnocasa (red)",
-    "Loca Barcelona",
     "ShBarcelona"
   ]
 }
