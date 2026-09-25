@@ -1,15 +1,13 @@
 {
-  "sites_read": 107,
+  "sites_read": 108,
   "sites_total": 128,
   "slow": [
     "Fincador",
-    "GUMPER",
-    "Immobiliària Sant Martí",
+    "Destinocasa",
     "Core Barcelona",
+    "Toysan Finques",
     "Amat Immobiliaris",
     "ShBarcelona",
-    "Fincas Padua",
-    "Carbonell (Admón. Fincas)",
-    "Vivalco"
+    "Carbonell (Admón. Fincas)"
   ]
 }
