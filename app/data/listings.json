@@ -11,6 +11,17 @@
     "rent_url": "https://barnapiso.com/es/propiedades-disponibles-barcelona/"
   },
   {
+    "url": "https://finqueselpallars.com/piso-en-alquiler-les-corts-barcelona/",
+    "price": 500,
+    "rooms": null,
+    "kind": "piso",
+    "title": "Piso en alquiler. Les Corts, Barcelona",
+    "img": "https://finqueselpallars.com/wp-content/uploads/2026/01/regalirpf-500x383.jpg",
+    "text": "El regalo de 500€ que quizás no estas reclamando Galería El regalo de 500€ que quizás no estas reclamando 23/01/2026 Piso en alquiler. Les Corts, Barcelona Galería Piso en alquiler",
+    "agency": "Finques El Pallars",
+    "rent_url": "https://finqueselpallars.com/alquiler"
+  },
+  {
     "url": "https://finquesmartell.com/immoble/maragall-pl-2-3-entl-3-barcelona-alquiler-001058-1/",
     "price": 600,
     "rooms": 3,
@@ -173,17 +184,6 @@
     "text": "1 /10 Nuevo DESTACADO 909 € /mes Piso en El Carmel El Carmel (Distrito Horta-Guinardó. Barcelona Capital) 36 m² Seasonal rental exclusively for temporary residential use Furnished ",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
-  },
-  {
-    "url": "https://masifill.com/property/aparcamientos-eixample-dreta-4/",
-    "price": 924,
-    "rooms": null,
-    "kind": "piso",
-    "title": "Pisos – Sarrià",
-    "img": "https://masifill.com/wp-content/uploads/propiedad-5886-18-385x258.jpg",
-    "text": "Llogar 924€ Llogar Pisos – Sarrià Sarrià 08021, Barcelona Habitacions: 2 Bath: 1 : 48 Pisos 24 hores ago 924€ Detalls Habitacions: 2 Bath: 1 : 48 Pisos Detalls 24 hores ago Comprar",
-    "agency": "Masifill (Mas i Fill)",
-    "rent_url": "https://masifill.com/property/lloguer-despatx-en-varies-estancies-a-sarria-barcelona/"
   },
   {
     "url": "https://www.pisos.com/alquilar/piso-la_maternitat_sant_ramon-63343839529_530867/",

@@ -1,14 +1,15 @@
 {
-  "sites_read": 108,
+  "sites_read": 113,
   "sites_total": 128,
   "slow": [
     "Fincador",
+    "Selekta Properties",
     "GUMPER",
-    "Finques El Pallars",
+    "Fincas San Andrés",
     "Core Barcelona",
-    "Loca Barcelona",
     "ShBarcelona",
     "Fincas García",
-    "Gala Finques"
+    "Carbonell (Admón. Fincas)",
+    "Fincas Azcoitia"
   ]
 }
