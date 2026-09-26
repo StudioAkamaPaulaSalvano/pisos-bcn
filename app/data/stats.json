@@ -1,12 +1,15 @@
 {
-  "sites_read": 113,
+  "sites_read": 106,
   "sites_total": 128,
   "slow": [
     "Fincador",
+    "Casc Antic BCN",
     "Core Barcelona",
-    "Finques TEBÉ",
-    "Tecnocasa (red)",
+    "Finques Hosta",
+    "Loca Barcelona",
     "ShBarcelona",
-    "Fincas García"
+    "Gala Finques",
+    "InmoGràcia",
+    "BarnaPiso"
   ]
 }
