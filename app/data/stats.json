@@ -1,9 +1,13 @@
 {
-  "sites_read": 109,
+  "sites_read": 108,
   "sites_total": 128,
   "slow": [
     "Fincador",
+    "Finques El Pallars",
     "Core Barcelona",
-    "ShBarcelona"
+    "Loca Barcelona",
+    "ShBarcelona",
+    "Fincas García",
+    "Fincas Azcoitia"
   ]
 }
