@@ -1,10 +1,13 @@
 {
-  "sites_read": 114,
+  "sites_read": 108,
   "sites_total": 128,
   "slow": [
     "Fincador",
-    "Core Barcelona",
     "Fincas San Andrés",
-    "ShBarcelona"
+    "Core Barcelona",
+    "Loca Barcelona",
+    "ShBarcelona",
+    "Gala Finques",
+    "InmoGràcia"
   ]
 }
