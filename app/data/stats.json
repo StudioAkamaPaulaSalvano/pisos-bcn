@@ -1,10 +1,15 @@
 {
-  "sites_read": 114,
+  "sites_read": 106,
   "sites_total": 128,
   "slow": [
     "Fincador",
     "Core Barcelona",
+    "Urbefinques",
+    "Loca Barcelona",
     "ShBarcelona",
-    "Vivalco"
+    "Atemporal Barcelona",
+    "Gala Finques",
+    "VM3 Fincas",
+    "aProperties"
   ]
 }
