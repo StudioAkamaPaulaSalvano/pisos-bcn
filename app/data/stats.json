@@ -1,15 +1,12 @@
 {
-  "sites_read": 105,
+  "sites_read": 114,
   "sites_total": 128,
   "slow": [
     "Fincador",
-    "GUMPER",
     "Core Barcelona",
     "Loca Barcelona",
     "ShBarcelona",
-    "Gala Finques",
     "Fincas García",
-    "DonCasa",
-    "Inmobiliaria Diagonal Mar"
+    "Gala Finques"
   ]
 }
