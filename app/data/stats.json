@@ -1,13 +1,15 @@
 {
-  "sites_read": 109,
+  "sites_read": 107,
   "sites_total": 128,
   "slow": [
     "Fincador",
-    "GUMPER",
+    "Administrador Fincas A3",
     "Fincas San Andrés",
+    "Finques El Pallars",
     "Core Barcelona",
+    "Finques Hosta",
     "Loca Barcelona",
     "ShBarcelona",
-    "Gala Finques"
+    "BarnaPiso"
   ]
 }
