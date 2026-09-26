@@ -1,12 +1,14 @@
 {
-  "sites_read": 107,
+  "sites_read": 114,
   "sites_total": 128,
   "slow": [
     "Fincador",
     "Core Barcelona",
     "Fincas San Andrés",
-    "Finques Hosta",
+    "Loca Barcelona",
+    "Tecnocasa (red)",
     "ShBarcelona",
-    "BarnaPiso"
+    "Gala Finques",
+    "Ferrim Habitat"
   ]
 }
