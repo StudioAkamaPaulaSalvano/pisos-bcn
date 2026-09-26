@@ -1,17 +1,14 @@
 {
-  "sites_read": 108,
+  "sites_read": 109,
   "sites_total": 128,
   "slow": [
     "Fincador",
-    "Grup Solfinc",
     "GUMPER",
     "Fincas San Andrés",
     "Core Barcelona",
-    "Tecnocasa (red)",
+    "Loca Barcelona",
     "ShBarcelona",
-    "Finques Falcón",
-    "Fincas Padua",
-    "Coma-Roig",
-    "Vivalco"
+    "Gala Finques",
+    "Fincas García"
   ]
 }
