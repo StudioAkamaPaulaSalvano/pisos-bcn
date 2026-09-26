@@ -1,13 +1,12 @@
 {
-  "sites_read": 108,
+  "sites_read": 107,
   "sites_total": 128,
   "slow": [
     "Fincador",
-    "Core Barcelona",
     "Fincas San Andrés",
-    "Toysan Finques",
-    "Tecnocasa (red)",
+    "Core Barcelona",
     "Loca Barcelona",
+    "Tecnocasa (red)",
     "ShBarcelona"
   ]
 }
