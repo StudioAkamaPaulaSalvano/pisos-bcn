@@ -1,11 +1,10 @@
 {
-  "sites_read": 107,
+  "sites_read": 108,
   "sites_total": 128,
   "slow": [
     "Fincador",
-    "GUMPER",
+    "Selekta Properties",
     "Core Barcelona",
-    "ShBarcelona",
-    "Fincas García"
+    "ShBarcelona"
   ]
 }
