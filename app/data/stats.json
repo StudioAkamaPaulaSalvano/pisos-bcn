@@ -1,11 +1,13 @@
 {
-  "sites_read": 108,
+  "sites_read": 103,
   "sites_total": 128,
   "slow": [
     "Fincador",
-    "Urbane International",
     "GUMPER",
     "Core Barcelona",
-    "ShBarcelona"
+    "Finques Hosta",
+    "Loca Barcelona",
+    "ShBarcelona",
+    "BarnaPiso"
   ]
 }
