@@ -1,9 +1,12 @@
 {
-  "sites_read": 114,
+  "sites_read": 108,
   "sites_total": 128,
   "slow": [
+    "Finques Martell",
     "Fincador",
+    "Fincas San Andrés",
     "Core Barcelona",
-    "ShBarcelona"
+    "ShBarcelona",
+    "Carbonell (Admón. Fincas)"
   ]
 }
