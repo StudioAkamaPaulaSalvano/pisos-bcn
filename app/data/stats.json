@@ -1,14 +1,12 @@
 {
-  "sites_read": 112,
+  "sites_read": 108,
   "sites_total": 128,
   "slow": [
     "Fincador",
-    "Urbane International",
-    "GUMPER",
-    "Core Barcelona",
     "Fincas San Andrés",
-    "ShBarcelona",
-    "Atemporal Barcelona",
-    "aProperties"
+    "Core Barcelona",
+    "Tecnocasa (red)",
+    "Loca Barcelona",
+    "ShBarcelona"
   ]
 }
