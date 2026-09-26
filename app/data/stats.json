@@ -1,18 +1,10 @@
 {
-  "sites_read": 105,
+  "sites_read": 109,
   "sites_total": 128,
   "slow": [
-    "BÜNIK home",
     "Fincador",
-    "Fincas Blanco",
-    "Diana Finques",
-    "Fincas San Andrés",
     "Core Barcelona",
-    "Finques Vives",
-    "Loca Barcelona",
     "ShBarcelona",
-    "Gala Finques",
-    "Fincas García",
-    "Finques Mixoy"
+    "Gala Finques"
   ]
 }
