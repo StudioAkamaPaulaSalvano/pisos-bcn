@@ -1,10 +1,12 @@
 {
-  "sites_read": 108,
+  "sites_read": 114,
   "sites_total": 128,
   "slow": [
     "Fincador",
-    "Selekta Properties",
+    "Orfinca",
+    "Fincas San Andrés",
     "Core Barcelona",
+    "Loca Barcelona",
     "ShBarcelona"
   ]
 }
