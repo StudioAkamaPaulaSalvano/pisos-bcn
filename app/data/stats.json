@@ -1,12 +1,8 @@
 {
-  "sites_read": 107,
+  "sites_read": 109,
   "sites_total": 128,
   "slow": [
     "Core Barcelona",
-    "Finques Hosta",
-    "Loca Barcelona",
-    "ShBarcelona",
-    "Gala Finques",
-    "BarnaPiso"
+    "ShBarcelona"
   ]
 }
