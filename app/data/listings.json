@@ -1,5 +1,16 @@
 [
   {
+    "url": "https://masifill.com/property/pisos-la-dreta-de-leixample/",
+    "price": 350,
+    "rooms": null,
+    "kind": "piso",
+    "title": "Pisos la dreta de leixample",
+    "img": "https://masifill.com/wp-content/uploads/propiedad-5868-1-385x258.jpg",
+    "text": "Llogar 1,350€",
+    "agency": "Masifill (Mas i Fill)",
+    "rent_url": "https://masifill.com/property/lloguer-despatx-en-varies-estancies-a-sarria-barcelona/"
+  },
+  {
     "url": "https://barnapiso.com/es/vivienda/propiedad-en-las-cortes-4/",
     "price": 425,
     "rooms": null,
@@ -126,18 +137,7 @@
     "kind": "piso",
     "title": "Estudio en Sants-Badal",
     "img": "https://fotos.imghs.net/mm-wp/1047/3230323630393132/96a9f88e-147d-456f-8652-c8640878c10a.jpg",
-    "text": "1 /8 Nuevo PREMIUM 850 € /mes Estudio en Sants-Badal Sants-Badal (Distrito Sants-Montjuïc. Barcelona Capital) 1 baño 20 m² Reservas e inquietudes Tipo de alojamiento - alojamiento ",
-    "agency": "pisos.com",
-    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
-  },
-  {
-    "url": "https://www.pisos.com/alquilar/estudio-la_maternitat_sant_ramon08028-67552033328_104700/",
-    "price": 850,
-    "rooms": null,
-    "kind": "piso",
-    "title": "Estudio en La Maternitat-Sant Ramon",
-    "img": "https://fotos.imghs.net/mm-wp/1047/3230323630383138/8b73d6d7-6307-4a56-81e6-abc2f8b4d7d5.jpg",
-    "text": "1 /6 Nuevo PREMIUM 850 € /mes Estudio en La Maternitat-Sant Ramon La Maternitat-Sant Ramon (Distrito Les Corts. Barcelona Capital) 1 baño 15 m² Reservas e inquietudes Tipo de aloja",
+    "text": "1 /8 PREMIUM 850 € /mes Estudio en Sants-Badal Sants-Badal (Distrito Sants-Montjuïc. Barcelona Capital) 1 baño 20 m² Reservas e inquietudes Tipo de alojamiento - alojamiento entero",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
@@ -435,6 +435,17 @@
     "title": "Piso en El Raval",
     "img": "https://fotos.imghs.net/mm-wp/1092/3230323630393136/f41ea0df-b9b2-4f2f-a5af-ac584894b3cc.jpg",
     "text": "1 /10 Nuevo PREMIUM 1.100 € /mes Piso en El Raval El Raval (Distrito Ciutat Vella. Barcelona Capital) 65 m² 🌟 central 2-bedroom top-floor apartment in barcelona (no elevator) 🌟 Wel",
+    "agency": "pisos.com",
+    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
+  },
+  {
+    "url": "https://www.pisos.com/alquilar/piso-sants_montjuic_sants08028-67527029429_109200/",
+    "price": 1100,
+    "rooms": null,
+    "kind": "piso",
+    "title": "Piso en Sants",
+    "img": "https://fotos.imghs.net/mm-wp/1092/3230323630393031/48e0cd94-ef9e-4612-8585-e6f0d0895a13.jpg",
+    "text": "1 /5 PREMIUM 1.100 € /mes Piso en Sants Sants (Distrito Sants-Montjuïc. Barcelona Capital) 40 m² Estudio reformado con una zona de estar luminosa. Estarás justo en el centro de la ",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
