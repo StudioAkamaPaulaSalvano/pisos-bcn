@@ -1,13 +1,13 @@
 {
-  "sites_read": 114,
+  "sites_read": 108,
   "sites_total": 128,
   "slow": [
-    "Finques Bou",
     "Fincador",
-    "Fincas San Andrés",
     "Core Barcelona",
+    "Loca Barcelona",
     "ShBarcelona",
     "Gala Finques",
-    "Fincas García"
+    "Fincas García",
+    "VM3 Fincas"
   ]
 }
