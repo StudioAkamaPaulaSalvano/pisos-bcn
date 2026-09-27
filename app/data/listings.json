@@ -296,6 +296,17 @@
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
   {
+    "url": "https://www.pisos.com/alquilar/piso-la_vila_de_gracia08012-67541944254_100500/",
+    "price": 1050,
+    "rooms": 1,
+    "kind": "piso",
+    "title": "Piso en Vila de Gràcia",
+    "img": "https://fotos.imghs.net/mm-wp/1005/3230323630353137/8fca873e-46e9-490f-9cf2-64746bb5aa72.jpg",
+    "text": "1 /7 Nuevo PREMIUM 1.050 € /mes Piso en Vila de Gràcia La Vila de Gràcia (Distrito Gràcia. Barcelona Capital) 1 hab. 1 baño 45 m² 1ª planta Acogedor apartamento de 1 dormitorio con",
+    "agency": "pisos.com",
+    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
+  },
+  {
     "url": "https://www.pisos.com/alquilar/piso-el_poble_sec08004-65909882241_109200/",
     "price": 1079,
     "rooms": null,
