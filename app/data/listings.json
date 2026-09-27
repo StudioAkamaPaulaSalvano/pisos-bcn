@@ -1,16 +1,5 @@
 [
   {
-    "url": "https://masifill.com/property/pisos-la-dreta-de-leixample/",
-    "price": 350,
-    "rooms": null,
-    "kind": "piso",
-    "title": "Pisos la dreta de leixample",
-    "img": "https://masifill.com/wp-content/uploads/propiedad-5868-1-385x258.jpg",
-    "text": "Llogar 1,350€",
-    "agency": "Masifill (Mas i Fill)",
-    "rent_url": "https://masifill.com/property/lloguer-local-a-peu-de-carrer-a-leixample-esquerra-barcelona/"
-  },
-  {
     "url": "https://barnapiso.com/es/vivienda/propiedad-en-las-cortes-4/",
     "price": 425,
     "rooms": null,
@@ -131,6 +120,17 @@
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
   {
+    "url": "https://www.pisos.com/alquilar/piso-el_poble_sec08004-60051110553_531896/",
+    "price": 850,
+    "rooms": 3,
+    "kind": "piso",
+    "title": "Piso en El Poble-Sec",
+    "img": "https://fotos.imghs.net/mm-wp/531896/60051110553.531896/531896_60051110553_e809427e-0e08-4060-9100-fc49f623ddb9.jpg",
+    "text": "1 /16 PREMIUM 850 € /mes Piso en El Poble-Sec El Poble-sec (Distrito Sants-Montjuïc. Barcelona Capital) 3 habs. 1 baño 47 m² 1ª planta Antes de poder agendar una visita al inmueble",
+    "agency": "pisos.com",
+    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
+  },
+  {
     "url": "https://www.pisos.com/alquilar/estudio-la_maternitat_sant_ramon08028-53355782706_104700/",
     "price": 850,
     "rooms": null,
@@ -215,17 +215,6 @@
     "title": "Piso en El Raval",
     "img": "https://fotos.imghs.net/mm-wp/1047/3230323630393035/5d48271f-d9f4-4778-b65b-9c1044afc573.jpg",
     "text": "1 /13 Nuevo PREMIUM 975 € /mes Piso en El Raval El Raval (Distrito Ciutat Vella. Barcelona Capital) 1 hab. 1 baño 45 m² Reservas e inquietudes Tipo de alojamiento - alojamiento ent",
-    "agency": "pisos.com",
-    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
-  },
-  {
-    "url": "https://www.pisos.com/alquilar/piso-el_parc_la_llacuna_del_poblenou08018-67560404516_531896/",
-    "price": 980,
-    "rooms": 3,
-    "kind": "piso",
-    "title": "Piso en Carrer de Pujades",
-    "img": "https://fotos.imghs.net/mm-wp/531896/67560404516.531896/531896_67560404516_34f34ec3-e48e-4fd8-8336-e8fd391860c4.jpg",
-    "text": "1 /10 PREMIUM 980 € /mes Piso en Carrer de Pujades El Parc-La Llacuna del Poblenou (Distrito Sant Martí. Barcelona Capital) 3 habs. 1 baño 62 m² 2ª planta El anunciante. No es una ",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
@@ -324,7 +313,7 @@
     "kind": "piso",
     "title": "Piso en El Poble-sec",
     "img": "https://fotos.imghs.net/mm-wp/1092/3230323630373034/52119242-4004-4719-a248-d3f20f29c950.jpg",
-    "text": "1 /10 PREMIUM 1.079 € /mes Piso en El Poble-sec El Poble-sec (Distrito Sants-Montjuïc. Barcelona Capital) 36 m² Este maravilloso apartamento está idealmente ubicado cerca del parqu",
+    "text": "1 /10 TOP Oportunidad 1.079 € /mes Piso en El Poble-sec El Poble-sec (Distrito Sants-Montjuïc. Barcelona Capital) 36 m² Este maravilloso apartamento está idealmente ubicado cerca d",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
