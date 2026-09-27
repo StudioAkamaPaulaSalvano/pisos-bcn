@@ -1,13 +1,10 @@
 {
-  "sites_read": 106,
+  "sites_read": 113,
   "sites_total": 128,
   "slow": [
     "Fincador",
-    "Orfinca",
-    "West Side Barcelona",
     "Core Barcelona",
     "ShBarcelona",
-    "DonCasa",
-    "Inmobiliaria Diagonal Mar"
+    "InmoGràcia"
   ]
 }
