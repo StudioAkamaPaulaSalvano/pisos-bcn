@@ -1,13 +1,10 @@
 {
-  "sites_read": 110,
+  "sites_read": 113,
   "sites_total": 128,
   "slow": [
     "Fincador",
-    "GUMPER",
-    "Fincas San Andrés",
     "Core Barcelona",
-    "ShBarcelona",
-    "Fincas Padua",
-    "Carbonell (Admón. Fincas)"
+    "Fincas San Andrés",
+    "ShBarcelona"
   ]
 }
