@@ -1,12 +1,12 @@
 {
-  "sites_read": 113,
+  "sites_read": 109,
   "sites_total": 128,
   "slow": [
     "Fincador",
-    "Core Barcelona",
     "Fincas San Andrés",
-    "Loca Barcelona",
+    "Core Barcelona",
     "ShBarcelona",
-    "Fincas Azcoitia"
+    "Fincas García",
+    "Carbonell (Admón. Fincas)"
   ]
 }
