@@ -1,14 +1,15 @@
 {
-  "sites_read": 109,
+  "sites_read": 104,
   "sites_total": 128,
   "slow": [
     "Fincador",
     "GUMPER",
-    "Fincas San Andrés",
+    "West Side Barcelona",
     "Core Barcelona",
-    "Loca Barcelona",
     "ShBarcelona",
     "Fincas García",
-    "Finques Catalonia"
+    "DonCasa",
+    "Carbonell (Admón. Fincas)",
+    "Inmobiliaria Diagonal Mar"
   ]
 }
