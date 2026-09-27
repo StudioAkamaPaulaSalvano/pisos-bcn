@@ -1,11 +1,12 @@
 {
-  "sites_read": 114,
+  "sites_read": 109,
   "sites_total": 128,
   "slow": [
     "Fincador",
-    "Core Barcelona",
+    "Orfinca",
+    "GUMPER",
     "Fincas San Andrés",
-    "ShBarcelona",
-    "Loca Barcelona"
+    "Core Barcelona",
+    "ShBarcelona"
   ]
 }
