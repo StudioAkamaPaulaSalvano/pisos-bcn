@@ -1,14 +1,13 @@
 {
-  "sites_read": 104,
+  "sites_read": 114,
   "sites_total": 128,
   "slow": [
-    "Finques Martell",
     "Fincador",
-    "Core Barcelona",
+    "Orfinca",
+    "GUMPER",
     "Fincas San Andrés",
-    "Finques Hosta",
+    "Core Barcelona",
     "Loca Barcelona",
-    "ShBarcelona",
-    "BarnaPiso"
+    "ShBarcelona"
   ]
 }
