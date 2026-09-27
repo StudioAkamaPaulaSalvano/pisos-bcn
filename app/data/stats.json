@@ -1,10 +1,18 @@
 {
-  "sites_read": 108,
+  "sites_read": 106,
   "sites_total": 128,
   "slow": [
     "Fincador",
+    "Grup Solfinc",
     "Core Barcelona",
+    "Finques Hosta",
+    "Loca Barcelona",
     "ShBarcelona",
-    "Fincas García"
+    "Finques Falcón",
+    "Fincas Padua",
+    "Coma-Roig",
+    "Fincas García",
+    "BarnaPiso",
+    "Vivalco"
   ]
 }
