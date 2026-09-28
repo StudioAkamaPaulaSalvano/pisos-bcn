@@ -8,7 +8,7 @@
     "img": "https://masifill.com/wp-content/uploads/propiedad-5868-1-385x258.jpg",
     "text": "Llogar 1,350€",
     "agency": "Masifill (Mas i Fill)",
-    "rent_url": "https://masifill.com/property/lloguer-local-a-peu-de-carrer-a-leixample-esquerra-barcelona/"
+    "rent_url": "https://masifill.com/property/lloguer-despatx-en-varies-estancies-a-sarria-barcelona/"
   },
   {
     "url": "https://barnapiso.com/es/vivienda/propiedad-en-las-cortes-4/",
@@ -42,17 +42,6 @@
     "text": "Alquiler Maragall, pl. 2-3 entl 3 BARCELONA-Alquiler-001058/1 58 m 2 3 hab. 1 baños 600€",
     "agency": "Finques Martell",
     "rent_url": "https://finquesmartell.com/inmuebles"
-  },
-  {
-    "url": "https://www.finquesmarba.com/ca/nova-llei-habitatge-espana/",
-    "price": 720,
-    "rooms": null,
-    "kind": "piso",
-    "title": "Llista de propietats",
-    "img": "https://www.finquesmarba.com/wp-content/uploads/2026/02/10544133_8-1-600x400.jpg",
-    "text": "Llista de propietats Les Tres Torres, Barcelona € 720 41.3962748 2.12730042 https://www.finquesmarba.com/wp-content/uploads/2026/02/10544133_8-1-150x100.jpg https://www.finquesmarb",
-    "agency": "Finques Marbá",
-    "rent_url": "https://www.finquesmarba.com/ca/lloguer"
   },
   {
     "url": "https://www.pisos.com/alquilar/piso-el_raval08001-63384109363_530867/",
@@ -302,7 +291,7 @@
     "kind": "piso",
     "title": "Estudio en Carrer de Copèrnic",
     "img": "https://fotos.imghs.net/mm-wp/1005/3230323630393237/3b225273-2956-4675-8423-cbaadf066093.jpg",
-    "text": "1 /9 Nuevo DESTACADO 1.060 € /mes Estudio en Carrer de Copèrnic Sant Gervasi-Galvany (Distrito Sarrià-Sant Gervasi. Barcelona Capital) 1 hab. 1 baño 41 m² Estudio moderno, funciona",
+    "text": "1 /9 TOP 1.060 € /mes Estudio en Carrer de Copèrnic Sant Gervasi-Galvany (Distrito Sarrià-Sant Gervasi. Barcelona Capital) 1 hab. 1 baño 41 m² Estudio moderno, funcional y con terr",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
