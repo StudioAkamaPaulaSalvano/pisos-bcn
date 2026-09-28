@@ -1,12 +1,14 @@
 {
-  "sites_read": 110,
+  "sites_read": 107,
   "sites_total": 128,
   "slow": [
     "Fincador",
-    "Fincas San Andrés",
     "Core Barcelona",
+    "Urbefinques",
+    "Loca Barcelona",
     "ShBarcelona",
-    "Fincas Padua",
-    "Vivalco"
+    "Atemporal Barcelona",
+    "VM3 Fincas",
+    "aProperties"
   ]
 }
