@@ -1,11 +1,14 @@
 {
-  "sites_read": 109,
+  "sites_read": 115,
   "sites_total": 128,
   "slow": [
     "Fincador",
-    "GUMPER",
+    "Fincas Blanco",
+    "Selekta Properties",
+    "Cafur Serveis Immobiliaris",
     "Fincas San Andrés",
     "Core Barcelona",
-    "ShBarcelona"
+    "ShBarcelona",
+    "Fincas García"
   ]
 }
