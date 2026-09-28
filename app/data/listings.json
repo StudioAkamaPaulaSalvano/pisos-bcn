@@ -65,17 +65,6 @@
     "agency": "Calvet"
   },
   {
-    "url": "https://www.pisos.com/alquilar/piso-el_barri_gotic08002-63431472689_530867/",
-    "price": 800,
-    "rooms": 1,
-    "kind": "piso",
-    "title": "Piso en Carrer del Pi",
-    "img": "https://fotos.imghs.net/mm-wp/530867/63431472689.530867/530867_63431472689_22ef6d05-bd02-43f2-9b88-784258c6d243.jpg",
-    "text": "1 /6 PREMIUM 800 € /mes Piso en Carrer del Pi El Barri Gòtic (Distrito Ciutat Vella. Barcelona Capital) 1 hab. 1 baño 32 m² 4ª planta Ubicado en la última planta de finca caracterí",
-    "agency": "pisos.com",
-    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
-  },
-  {
     "url": "https://www.pisos.com/alquilar/estudio-eixample_sant_antoni08011-63382254620_530867/",
     "price": 820,
     "rooms": null,
@@ -302,7 +291,7 @@
     "kind": "piso",
     "title": "Piso en Plaça del Mercadal",
     "img": "https://fotos.imghs.net/mm-wp/501025/65914432493.501025/501025_65914432493_628c7b8d-761f-45b2-9587-bcd357bd316a.jpg",
-    "text": "1 /32 PREMIUM 1.029 € /mes Piso en Plaça del Mercadal Sant Andreu (Distrito Sant Andreu. Barcelona Capital) 1 hab. 1 baño 63 m² Bajo Informacion importante: para visitar esta vivie",
+    "text": "1 /32 TOP Exclusivo 1.029 € /mes Piso en Plaça del Mercadal Sant Andreu (Distrito Sant Andreu. Barcelona Capital) 1 hab. 1 baño 63 m² Bajo Informacion importante: para visitar esta",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
@@ -313,7 +302,18 @@
     "kind": "piso",
     "title": "Piso en Vila de Gràcia",
     "img": "https://fotos.imghs.net/mm-wp/1005/3230323630353137/8fca873e-46e9-490f-9cf2-64746bb5aa72.jpg",
-    "text": "1 /8 Nuevo PREMIUM 1.050 € /mes Piso en Vila de Gràcia La Vila de Gràcia (Distrito Gràcia. Barcelona Capital) 1 hab. 1 baño 45 m² 1ª planta Acogedor apartamento de 1 dormitorio con",
+    "text": "1 /8 Nuevo DESTACADO 1.050 € /mes Piso en Vila de Gràcia La Vila de Gràcia (Distrito Gràcia. Barcelona Capital) 1 hab. 1 baño 45 m² 1ª planta Acogedor apartamento de 1 dormitorio c",
+    "agency": "pisos.com",
+    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
+  },
+  {
+    "url": "https://www.pisos.com/alquilar/piso-la_vila_de_gracia08012-67541944254_100500/",
+    "price": 1050,
+    "rooms": 1,
+    "kind": "piso",
+    "title": "Piso en Vila de Gràcia",
+    "img": "https://fotos.imghs.net/mm-wp/1005/3230323630353137/8fca873e-46e9-490f-9cf2-64746bb5aa72.jpg",
+    "text": "1 /7 Nuevo PREMIUM 1.050 € /mes Piso en Vila de Gràcia La Vila de Gràcia (Distrito Gràcia. Barcelona Capital) 1 hab. 1 baño 45 m² 1ª planta Acogedor apartamento de 1 dormitorio con",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
@@ -324,7 +324,7 @@
     "kind": "piso",
     "title": "Estudio en Carrer de Copèrnic",
     "img": "https://fotos.imghs.net/mm-wp/1005/3230323630393237/3b225273-2956-4675-8423-cbaadf066093.jpg",
-    "text": "1 /9 TOP 1.060 € /mes Estudio en Carrer de Copèrnic Sant Gervasi-Galvany (Distrito Sarrià-Sant Gervasi. Barcelona Capital) 1 hab. 1 baño 41 m² Estudio moderno, funcional y con terr",
+    "text": "1 /9 Nuevo PREMIUM 1.060 € /mes Estudio en Carrer de Copèrnic Sant Gervasi-Galvany (Distrito Sarrià-Sant Gervasi. Barcelona Capital) 1 hab. 1 baño 41 m² Estudio moderno, funcional ",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
