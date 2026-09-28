@@ -75,6 +75,17 @@
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
   {
+    "url": "https://www.pisos.com/alquilar/piso-sants_montjuic_hostafrancs08014-63420332110_530867/",
+    "price": 800,
+    "rooms": 1,
+    "kind": "piso",
+    "title": "Piso en Carrer de Mallorca",
+    "img": "https://fotos.imghs.net/mm-wp/530867/63420332110.530867/530867_63420332110_84494247-3ab8-4f56-8771-bbbcbd77633f.jpg",
+    "text": "1 /4 PREMIUM 800 € /mes Piso en Carrer de Mallorca Hostafrancs (Distrito Sants-Montjuïc. Barcelona Capital) 1 hab. 1 baño 44 m² 4ª planta Ubicado en finca con ascensor y en la 4ª p",
+    "agency": "pisos.com",
+    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
+  },
+  {
     "url": "https://www.pisos.com/alquilar/estudio-eixample_sant_antoni08011-63382254620_530867/",
     "price": 820,
     "rooms": null,
@@ -104,17 +115,6 @@
     "title": "Piso en Carrer de Puerto Príncipe",
     "img": "https://fotos.imghs.net/mm-wp/530867/63378468377.530867/530867_63378468377_b909d67a-d00e-4a8c-ba9a-57b51b7aac01.jpg",
     "text": "1 /6 PREMIUM 850 € /mes Piso en Carrer de Puerto Príncipe El Congrés-Els Indians (Distrito Sant Andreu. Barcelona Capital) 1 hab. 1 baño 42 m² 2ª planta Ubicado en la zona de campo",
-    "agency": "pisos.com",
-    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
-  },
-  {
-    "url": "https://www.pisos.com/alquilar/piso-el_poble_sec08004-60051110553_531896/",
-    "price": 850,
-    "rooms": 3,
-    "kind": "piso",
-    "title": "Piso en El Poble-Sec",
-    "img": "https://fotos.imghs.net/mm-wp/531896/60051110553.531896/531896_60051110553_e809427e-0e08-4060-9100-fc49f623ddb9.jpg",
-    "text": "1 /16 PREMIUM 850 € /mes Piso en El Poble-Sec El Poble-sec (Distrito Sants-Montjuïc. Barcelona Capital) 3 habs. 1 baño 47 m² 1ª planta Antes de poder agendar una visita al inmueble",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
@@ -280,17 +280,6 @@
     "title": "Piso en Carrer de Felip II",
     "img": "https://fotos.imghs.net/mm-wp/1167/16702173725.116700/1167_16702173725_29_20210824175512585.jpg",
     "text": "1 /24 Nuevo PREMIUM 1.040 € /mes Piso en Carrer de Felip II El Congrés-Els Indians (Distrito Sant Andreu. Barcelona Capital) 1 hab. 1 baño 50 m² Entresuelo Vivienda de alquiler ref",
-    "agency": "pisos.com",
-    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
-  },
-  {
-    "url": "https://www.pisos.com/alquilar/piso-la_vila_de_gracia08012-67576639374_100500/",
-    "price": 1050,
-    "rooms": 1,
-    "kind": "piso",
-    "title": "Piso en Vila de Gràcia",
-    "img": "https://fotos.imghs.net/mm-wp/1005/3230323630353137/8fca873e-46e9-490f-9cf2-64746bb5aa72.jpg",
-    "text": "1 /8 Nuevo DESTACADO 1.050 € /mes Piso en Vila de Gràcia La Vila de Gràcia (Distrito Gràcia. Barcelona Capital) 1 hab. 1 baño 45 m² 1ª planta Acogedor apartamento de 1 dormitorio c",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
