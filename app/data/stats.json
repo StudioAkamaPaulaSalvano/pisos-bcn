@@ -1,12 +1,14 @@
 {
-  "sites_read": 109,
+  "sites_read": 115,
   "sites_total": 128,
   "slow": [
     "Fincador",
-    "GUMPER",
+    "AFB Finques Gràcia",
     "Core Barcelona",
+    "GUMPER",
+    "Fincas Layes",
     "ShBarcelona",
-    "Loca Barcelona",
-    "Ferrim Habitat"
+    "VM3 Fincas",
+    "Masifill (Mas i Fill)"
   ]
 }
