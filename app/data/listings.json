@@ -109,17 +109,6 @@
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
   {
-    "url": "https://www.pisos.com/alquilar/piso-el_poble_sec08004-60051110553_531896/",
-    "price": 850,
-    "rooms": 3,
-    "kind": "piso",
-    "title": "Piso en El Poble-Sec",
-    "img": "https://fotos.imghs.net/mm-wp/531896/60051110553.531896/531896_60051110553_e809427e-0e08-4060-9100-fc49f623ddb9.jpg",
-    "text": "1 /16 PREMIUM 850 € /mes Piso en El Poble-Sec El Poble-sec (Distrito Sants-Montjuïc. Barcelona Capital) 3 habs. 1 baño 47 m² 1ª planta Antes de poder agendar una visita al inmueble",
-    "agency": "pisos.com",
-    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
-  },
-  {
     "url": "https://www.pisos.com/alquilar/estudio-la_maternitat_sant_ramon08028-53355782706_104700/",
     "price": 850,
     "rooms": null,
@@ -281,17 +270,6 @@
     "title": "Piso en Vila de Gràcia",
     "img": "https://fotos.imghs.net/mm-wp/1005/3230323630353137/8fca873e-46e9-490f-9cf2-64746bb5aa72.jpg",
     "text": "1 /8 Nuevo DESTACADO 1.050 € /mes Piso en Vila de Gràcia La Vila de Gràcia (Distrito Gràcia. Barcelona Capital) 1 hab. 1 baño 45 m² 1ª planta Acogedor apartamento de 1 dormitorio c",
-    "agency": "pisos.com",
-    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
-  },
-  {
-    "url": "https://www.pisos.com/alquilar/estudio-sant_gervasi_galvany-67524708863_100500/",
-    "price": 1060,
-    "rooms": 1,
-    "kind": "piso",
-    "title": "Estudio en Carrer de Copèrnic",
-    "img": "https://fotos.imghs.net/mm-wp/1005/3230323630393237/3b225273-2956-4675-8423-cbaadf066093.jpg",
-    "text": "1 /9 Nuevo DESTACADO 1.060 € /mes Estudio en Carrer de Copèrnic Sant Gervasi-Galvany (Distrito Sarrià-Sant Gervasi. Barcelona Capital) 1 hab. 1 baño 41 m² Estudio moderno, funciona",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
