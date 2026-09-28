@@ -1,11 +1,26 @@
 {
-  "sites_read": 109,
+  "sites_read": 114,
   "sites_total": 128,
   "slow": [
+    "Casc Antic BCN",
     "Fincador",
-    "Fincas San Andrés",
+    "Fincas Blanco",
+    "Finques Marbá",
+    "Selekta Properties",
+    "inmho Barcelona",
+    "Cafur Serveis Immobiliaris",
+    "ZonaPisos (esp. Ciutat Vella)",
+    "ShBarcelona",
     "Core Barcelona",
-    "Loca Barcelona",
-    "ShBarcelona"
+    "Gala Finques",
+    "Fincas García",
+    "Finques Catalonia",
+    "Tu Piso Nou Barris",
+    "CasaBlau",
+    "Immollar",
+    "BarnaPiso",
+    "Rentmar",
+    "Segermar Associats",
+    "Finques Mixoy"
   ]
 }
