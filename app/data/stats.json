@@ -1,14 +1,14 @@
 {
-  "sites_read": 115,
+  "sites_read": 109,
   "sites_total": 128,
   "slow": [
     "Fincador",
-    "Fincas Blanco",
-    "Selekta Properties",
-    "Cafur Serveis Immobiliaris",
-    "Fincas San Andrés",
+    "GUMPER",
     "Core Barcelona",
+    "Loca Barcelona",
     "ShBarcelona",
-    "Fincas García"
+    "Fincas García",
+    "Carbonell (Admón. Fincas)",
+    "VM3 Fincas"
   ]
 }
