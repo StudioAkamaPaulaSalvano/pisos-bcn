@@ -1,14 +1,20 @@
 {
-  "sites_read": 108,
+  "sites_read": 106,
   "sites_total": 128,
   "slow": [
     "Fincador",
-    "Core Barcelona",
-    "AFI Finques",
+    "Withfor",
+    "Nitia",
     "Fincas San Andrés",
+    "Core Barcelona",
+    "Finques Hosta",
+    "Finques TEBÉ",
+    "Ilive Barcelona",
     "Loca Barcelona",
     "ShBarcelona",
-    "Carbonell (Admón. Fincas)",
-    "Fincas Azcoitia"
+    "Serviguest",
+    "Segermar Associats",
+    "BarnaPiso",
+    "Vivalco"
   ]
 }
