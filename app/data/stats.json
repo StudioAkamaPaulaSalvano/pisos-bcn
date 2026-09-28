@@ -1,11 +1,14 @@
 {
-  "sites_read": 110,
+  "sites_read": 108,
   "sites_total": 128,
   "slow": [
+    "Selekta Properties",
     "Fincador",
     "GUMPER",
     "Core Barcelona",
     "Loca Barcelona",
-    "ShBarcelona"
+    "ShBarcelona",
+    "Fincas Padua",
+    "Fincas Azcoitia"
   ]
 }
