@@ -1,11 +1,15 @@
 {
-  "sites_read": 114,
+  "sites_read": 115,
   "sites_total": 128,
   "slow": [
     "Fincador",
-    "Core Barcelona",
+    "Serviguest",
+    "Tecnocasa (red)",
+    "BCN Finques / Fincas Tomàs",
     "Fincas San Andrés",
-    "Loca Barcelona",
-    "ShBarcelona"
+    "Punto Habitat",
+    "Forcadell",
+    "ShBarcelona",
+    "Core Barcelona"
   ]
 }
