@@ -1,12 +1,15 @@
 {
-  "sites_read": 114,
+  "sites_read": 115,
   "sites_total": 128,
   "slow": [
     "Fincador",
-    "Casc Antic BCN",
-    "Fincas San Andrés",
+    "Finques Marbá",
+    "Selekta Properties",
     "Core Barcelona",
+    "Fincas San Andrés",
+    "Gala Finques",
     "ShBarcelona",
-    "Vivalco"
+    "Masifill (Mas i Fill)",
+    "VM3 Fincas"
   ]
 }
