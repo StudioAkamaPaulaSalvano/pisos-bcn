@@ -1,12 +1,13 @@
 {
-  "sites_read": 114,
+  "sites_read": 111,
   "sites_total": 128,
   "slow": [
     "Fincador",
-    "Fincas San Andrés",
     "Core Barcelona",
     "Loca Barcelona",
     "ShBarcelona",
-    "Fincas Padua"
+    "DonCasa",
+    "Carbonell (Admón. Fincas)",
+    "Inmobiliaria Diagonal Mar"
   ]
 }
