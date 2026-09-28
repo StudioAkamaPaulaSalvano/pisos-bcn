@@ -1,13 +1,10 @@
 {
-  "sites_read": 115,
+  "sites_read": 106,
   "sites_total": 128,
   "slow": [
     "Fincador",
-    "Fincas San Andrés",
+    "Orfinca",
     "Core Barcelona",
-    "Forcadell",
-    "ShBarcelona",
-    "VM3 Fincas",
-    "Tu Piso Nou Barris"
+    "ShBarcelona"
   ]
 }
