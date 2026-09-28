@@ -33,17 +33,6 @@
     "rent_url": "https://finquesmartell.com/inmuebles"
   },
   {
-    "url": "https://www.finquesfeliu.es/es/node/13359",
-    "price": 725,
-    "rooms": 1,
-    "kind": "piso",
-    "title": "725 €",
-    "img": "https://www.finquesfeliu.es/sites/default/files/styles/flexslider_full/public/2026-09/4721_1_1789731453.jpg?itok=hPi6d9ml",
-    "text": "Piso en Alquiler a BARCELONA / Sants CREU COBERTA 725 € Finques Feliu del grupo Housfy alquila piso en Sants-Montjuïc, en Barcelona. La propiedad... 41 m2 | 1 dorm.",
-    "agency": "Finques Feliu",
-    "rent_url": "https://www.finquesfeliu.es/es/buscador/inter"
-  },
-  {
     "url": "https://www.pisos.com/alquilar/piso-el_raval08001-63384109363_530867/",
     "price": 750,
     "rooms": 1,
@@ -63,17 +52,6 @@
     "img": "https://media.mobiliagestion.es/Portals/inmocalvet/Images/4127/28298054-large.jpg",
     "text": " Napols - Consell de Cent | Ref: 4127 PDCookieConsent.config({ \"brand\": { \"dev\" : false, \"name\": \"\", \"url\" : \"\" }, \"cookiePolicyLink\": \"\", \"passList\" : [], \"showBadges\" : true, \"st",
     "agency": "Calvet"
-  },
-  {
-    "url": "https://www.pisos.com/alquilar/piso-el_barri_gotic08002-63431472689_530867/",
-    "price": 800,
-    "rooms": 1,
-    "kind": "piso",
-    "title": "Piso en Carrer del Pi",
-    "img": "https://fotos.imghs.net/mm-wp/530867/63431472689.530867/530867_63431472689_22ef6d05-bd02-43f2-9b88-784258c6d243.jpg",
-    "text": "1 /6 PREMIUM 800 € /mes Piso en Carrer del Pi El Barri Gòtic (Distrito Ciutat Vella. Barcelona Capital) 1 hab. 1 baño 32 m² 4ª planta Ubicado en la última planta de finca caracterí",
-    "agency": "pisos.com",
-    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
   {
     "url": "https://www.pisos.com/alquilar/piso-sants_montjuic_hostafrancs08014-63420332110_530867/",
@@ -219,17 +197,6 @@
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
   {
-    "url": "https://www.pisos.com/alquilar/piso-el_parc_la_llacuna_del_poblenou08018-67560404516_531896/",
-    "price": 980,
-    "rooms": 3,
-    "kind": "piso",
-    "title": "Piso en Carrer de Pujades",
-    "img": "https://fotos.imghs.net/mm-wp/531896/67560404516.531896/531896_67560404516_34f34ec3-e48e-4fd8-8336-e8fd391860c4.jpg",
-    "text": "1 /10 PREMIUM 980 € /mes Piso en Carrer de Pujades El Parc-La Llacuna del Poblenou (Distrito Sant Martí. Barcelona Capital) 3 habs. 1 baño 62 m² 2ª planta El anunciante. No es una ",
-    "agency": "pisos.com",
-    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
-  },
-  {
     "url": "https://www.guinotprunera.com/es/alquiler/ref-31859",
     "price": 989,
     "rooms": null,
@@ -335,7 +302,7 @@
     "kind": "piso",
     "title": "Estudio en Carrer de Copèrnic",
     "img": "https://fotos.imghs.net/mm-wp/1005/3230323630393237/3b225273-2956-4675-8423-cbaadf066093.jpg",
-    "text": "1 /9 Nuevo DESTACADO 1.060 € /mes Estudio en Carrer de Copèrnic Sant Gervasi-Galvany (Distrito Sarrià-Sant Gervasi. Barcelona Capital) 1 hab. 1 baño 41 m² Estudio moderno, funciona",
+    "text": "1 /9 TOP 1.060 € /mes Estudio en Carrer de Copèrnic Sant Gervasi-Galvany (Distrito Sarrià-Sant Gervasi. Barcelona Capital) 1 hab. 1 baño 41 m² Estudio moderno, funcional y con terr",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
