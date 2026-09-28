@@ -65,17 +65,6 @@
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
   {
-    "url": "https://www.pisos.com/alquilar/piso-sants_montjuic_hostafrancs08014-63420332110_530867/",
-    "price": 800,
-    "rooms": 1,
-    "kind": "piso",
-    "title": "Piso en Carrer de Mallorca",
-    "img": "https://fotos.imghs.net/mm-wp/530867/63420332110.530867/530867_63420332110_84494247-3ab8-4f56-8771-bbbcbd77633f.jpg",
-    "text": "1 /4 PREMIUM 800 € /mes Piso en Carrer de Mallorca Hostafrancs (Distrito Sants-Montjuïc. Barcelona Capital) 1 hab. 1 baño 44 m² 4ª planta Ubicado en finca con ascensor y en la 4ª p",
-    "agency": "pisos.com",
-    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
-  },
-  {
     "url": "https://www.pisos.com/alquilar/estudio-eixample_sant_antoni08011-63382254620_530867/",
     "price": 820,
     "rooms": null,
@@ -173,17 +162,6 @@
     "text": "1 /8 PREMIUM 925 € /mes Piso en Travessera de les Corts La Maternitat-Sant Ramon (Distrito Les Corts. Barcelona Capital) 1 hab. 1 baño 47 m² 2ª planta Piso en alquiler de 47 m² con",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
-  },
-  {
-    "url": "https://www.finquesfeliu.es/es/node/13353",
-    "price": 958,
-    "rooms": 3,
-    "kind": "piso",
-    "title": "958 €",
-    "img": "https://www.finquesfeliu.es/sites/default/files/styles/flexslider_full/public/2026-09/4723_1_1789411036.jpg?itok=t5r9pxn5",
-    "text": "Piso en Alquiler a BARCELONA / La Salut SOSTRES 958 € Finques Feliu del Grupo Housfy, alquila vivienda en calle Sostres, en Barcelona. La propiedad... 74 m2 | 3 dorm.",
-    "agency": "Finques Feliu",
-    "rent_url": "https://www.finquesfeliu.es/es/buscador/inter"
   },
   {
     "url": "https://www.pisos.com/alquilar/estudio-la_vila_de_gracia08012-63424964407_530867/",
