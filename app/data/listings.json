@@ -1,16 +1,5 @@
 [
   {
-    "url": "https://masifill.com/property/pisos-la-dreta-de-leixample/",
-    "price": 350,
-    "rooms": null,
-    "kind": "piso",
-    "title": "Pisos la dreta de leixample",
-    "img": "https://masifill.com/wp-content/uploads/propiedad-5868-1-385x258.jpg",
-    "text": "Llogar 1,350€",
-    "agency": "Masifill (Mas i Fill)",
-    "rent_url": "https://masifill.com/property/lloguer-local-diafan-a-reformar-al-raval-barcelona/"
-  },
-  {
     "url": "https://barnapiso.com/es/vivienda/propiedad-en-las-cortes-4/",
     "price": 425,
     "rooms": null,
@@ -208,6 +197,17 @@
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
   {
+    "url": "https://www.guinotprunera.com/es/alquiler/ref-31859",
+    "price": 989,
+    "rooms": null,
+    "kind": "piso",
+    "title": "Ref 31859",
+    "img": "https://media.mobiliagestion.es/Portals/inmoguinotprunera/Images/31859/27838904.jpg",
+    "text": "20260915 31859 Piso El Poblenou 989 €/mes 47 2 1 La vivienda en tercera planta sin ascensor. Salón exterior y cocina independiente, práctica y bien distribuida, diseñada para ofrec",
+    "agency": "Guinot Prunera",
+    "rent_url": "https://www.guinotprunera.com/es/alquiler"
+  },
+  {
     "url": "https://serviguest.com/inmuebles/doctor-santpoc-sant-andreu/",
     "price": 1000,
     "rooms": 2,
@@ -252,6 +252,17 @@
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
   {
+    "url": "https://www.guinotprunera.com/es/alquiler/ref-31590",
+    "price": 1001,
+    "rooms": null,
+    "kind": "piso",
+    "title": "La Nova Esquerra de L'Eixample",
+    "img": "https://media.mobiliagestion.es/Portals/inmoguinotprunera/Images/31590/27239705.jpg",
+    "text": "20260915 31590 Piso La Nova Esquerra de L'Eixample 1.001 €/mes 53 1 1 Apartamento exterior a patio de manzana. Salón comedor con cocina integrada, suelos de parquet. Alto y bien or",
+    "agency": "Guinot Prunera",
+    "rent_url": "https://www.guinotprunera.com/es/alquiler"
+  },
+  {
     "url": "https://www.pisos.com/alquilar/piso-la_vila_de_gracia08012-67576639374_100500/",
     "price": 1050,
     "rooms": 1,
@@ -269,7 +280,7 @@
     "kind": "piso",
     "title": "Estudio en Carrer de Copèrnic",
     "img": "https://fotos.imghs.net/mm-wp/1005/3230323630393237/3b225273-2956-4675-8423-cbaadf066093.jpg",
-    "text": "1 /9 TOP 1.060 € /mes Estudio en Carrer de Copèrnic Sant Gervasi-Galvany (Distrito Sarrià-Sant Gervasi. Barcelona Capital) 1 hab. 1 baño 41 m² Estudio moderno, funcional y con terr",
+    "text": "1 /9 Nuevo DESTACADO 1.060 € /mes Estudio en Carrer de Copèrnic Sant Gervasi-Galvany (Distrito Sarrià-Sant Gervasi. Barcelona Capital) 1 hab. 1 baño 41 m² Estudio moderno, funciona",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
@@ -305,6 +316,17 @@
     "text": "1 /10 PREMIUM 1.085 € /mes Casa en El Besòs-El Maresme El Besòs-El Maresme (Distrito Sant Martí. Barcelona Capital) 🎓 student residence in barcelona with pool and gym!! 🏋️‍♂️🏊‍♀️ U",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
+  },
+  {
+    "url": "https://www.guinotprunera.com/es/alquiler/ref-32109",
+    "price": 1100,
+    "rooms": null,
+    "kind": "piso",
+    "title": "La Vila de Gràcia",
+    "img": "https://media.mobiliagestion.es/Portals/inmoguinotprunera/Images/32109/28341705.jpg",
+    "text": "20260922 32109 Piso La Vila de Gràcia 1.100 €/mes 42 1 1 Piso ubicado en Gràcia, entresuelo con ascensor. Cocina cerrada con nevera, horno y microondas. Salón comedor exterior a ca",
+    "agency": "Guinot Prunera",
+    "rent_url": "https://www.guinotprunera.com/es/alquiler"
   },
   {
     "url": "https://toysanfinques.com/es/inmuebles/piso-en-alquiler-en-calle-de-deu-i-mata/",
