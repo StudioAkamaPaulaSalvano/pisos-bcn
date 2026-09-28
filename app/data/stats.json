@@ -1,11 +1,12 @@
 {
-  "sites_read": 109,
+  "sites_read": 114,
   "sites_total": 128,
   "slow": [
     "Fincador",
+    "Casc Antic BCN",
     "Fincas San Andrés",
     "Core Barcelona",
-    "Loca Barcelona",
-    "ShBarcelona"
+    "ShBarcelona",
+    "Vivalco"
   ]
 }

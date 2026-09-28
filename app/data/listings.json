@@ -22,6 +22,17 @@
     "rent_url": "https://finqueselpallars.com/alquiler"
   },
   {
+    "url": "https://finquesmartell.com/immoble/maragall-pl-2-3-entl-3-barcelona-alquiler-001058-1/",
+    "price": 600,
+    "rooms": 3,
+    "kind": "piso",
+    "title": "Maragall, pl. 2-3 entl 3 BARCELONA-Alquiler-001058/1",
+    "img": "https://finquesmartell.com/wp-content/uploads/2026/06/martell-1058-11-2.jpg",
+    "text": "Alquiler Maragall, pl. 2-3 entl 3 BARCELONA-Alquiler-001058/1 58 m 2 3 hab. 1 baños 600€",
+    "agency": "Finques Martell",
+    "rent_url": "https://finquesmartell.com/inmuebles"
+  },
+  {
     "url": "https://www.pisos.com/alquilar/piso-el_raval08001-63384109363_530867/",
     "price": 750,
     "rooms": 1,
@@ -162,6 +173,17 @@
     "text": "1 /8 PREMIUM 925 € /mes Piso en Travessera de les Corts La Maternitat-Sant Ramon (Distrito Les Corts. Barcelona Capital) 1 hab. 1 baño 47 m² 2ª planta Piso en alquiler de 47 m² con",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
+  },
+  {
+    "url": "https://casablau.net/alquiler/pisos-en-alquiler/el-bon-pastor-235",
+    "price": 950,
+    "rooms": null,
+    "kind": "piso",
+    "title": "El bon pastor 235",
+    "img": "https://casablau.net/images/osproperty/properties/235/medium/235_whatsapp_image_2025-08-22_at_13.22.23_4.jpeg",
+    "text": "En alquiler Estudio 950 € Destacados",
+    "agency": "CasaBlau",
+    "rent_url": "https://casablau.net/alquiler/pisos-en-alquiler"
   },
   {
     "url": "https://www.pisos.com/alquilar/estudio-la_vila_de_gracia08012-63424964407_530867/",
