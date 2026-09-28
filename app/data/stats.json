@@ -1,26 +1,11 @@
 {
-  "sites_read": 101,
+  "sites_read": 108,
   "sites_total": 128,
   "slow": [
     "Fincador",
-    "Gil Amargós",
-    "Finor BCN",
-    "Orfinca",
     "Cafur Serveis Immobiliaris",
-    "Chester Estate",
-    "Gaudí House",
-    "Finor BCN (Les Corts)",
     "Core Barcelona",
-    "Fincas Cumbre",
-    "Fincas San Andrés",
-    "Loca Barcelona",
     "ShBarcelona",
-    "Finques Perramon",
-    "Gala Finques",
-    "Finques Giramon",
-    "Ollé Bertran",
-    "Finques Querol",
-    "Tu Piso Nou Barris",
-    "Rentmar"
+    "Carbonell (Admón. Fincas)"
   ]
 }
