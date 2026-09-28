@@ -1,12 +1,13 @@
 {
-  "sites_read": 115,
+  "sites_read": 114,
   "sites_total": 128,
   "slow": [
     "Fincador",
-    "Selekta Properties",
     "Core Barcelona",
-    "Fincas Layes",
+    "Fincas San Andrés",
+    "Toysan Finques",
+    "Loca Barcelona",
     "ShBarcelona",
-    "InmoGràcia"
+    "VM3 Fincas"
   ]
 }
