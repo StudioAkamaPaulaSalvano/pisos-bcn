@@ -1,11 +1,15 @@
 {
-  "sites_read": 114,
+  "sites_read": 113,
   "sites_total": 128,
   "slow": [
     "Fincador",
     "Cafur Serveis Immobiliaris",
+    "Fincas San Andrés",
     "Core Barcelona",
-    "Loca Barcelona",
-    "ShBarcelona"
+    "Finques Catalonia",
+    "ShBarcelona",
+    "VM3 Fincas",
+    "Finques Querol",
+    "Masifill (Mas i Fill)"
   ]
 }
