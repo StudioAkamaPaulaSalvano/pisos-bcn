@@ -1,12 +1,14 @@
 {
-  "sites_read": 109,
+  "sites_read": 111,
   "sites_total": 128,
   "slow": [
+    "Finques Martell",
     "Fincador",
     "Fincas San Andrés",
     "Core Barcelona",
+    "Forcadell",
+    "Fincas Layes",
     "ShBarcelona",
-    "Loca Barcelona",
-    "Carbonell (Admón. Fincas)"
+    "Gala Finques"
   ]
 }
