@@ -1,13 +1,14 @@
 {
-  "sites_read": 115,
+  "sites_read": 107,
   "sites_total": 128,
   "slow": [
-    "Cafur Serveis Immobiliaris",
-    "Selekta Properties",
-    "AFB Finques Gràcia",
     "Fincador",
+    "Orfinca",
+    "GUMPER",
     "Core Barcelona",
+    "Finques Hosta",
+    "Loca Barcelona",
     "ShBarcelona",
-    "VM3 Fincas"
+    "BarnaPiso"
   ]
 }
