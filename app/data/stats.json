@@ -1,11 +1,10 @@
 {
-  "sites_read": 111,
+  "sites_read": 110,
   "sites_total": 128,
   "slow": [
     "Fincador",
-    "Orfinca",
-    "Core Barcelona",
     "Fincas San Andrés",
+    "Core Barcelona",
     "Finques Hosta",
     "ShBarcelona",
     "Fincas García",
