@@ -1,11 +1,10 @@
 {
-  "sites_read": 112,
+  "sites_read": 109,
   "sites_total": 128,
   "slow": [
     "Fincador",
-    "Fincas Blanco",
     "Core Barcelona",
-    "ShBarcelona",
-    "Masifill (Mas i Fill)"
+    "Loca Barcelona",
+    "ShBarcelona"
   ]
 }
