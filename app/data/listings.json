@@ -1,5 +1,16 @@
 [
   {
+    "url": "https://masifill.com/property/pisos-la-dreta-de-leixample/",
+    "price": 350,
+    "rooms": null,
+    "kind": "piso",
+    "title": "Pisos la dreta de leixample",
+    "img": "https://masifill.com/wp-content/uploads/propiedad-5868-1-385x258.jpg",
+    "text": "Llogar 1,350€",
+    "agency": "Masifill (Mas i Fill)",
+    "rent_url": "https://masifill.com/property/lloguer-local-a-peu-de-carrer-a-leixample-esquerra-barcelona/"
+  },
+  {
     "url": "https://barnapiso.com/es/vivienda/propiedad-en-las-cortes-4/",
     "price": 425,
     "rooms": null,
@@ -51,6 +62,16 @@
     "title": "Napols - Consell de Cent | Ref: 4127",
     "img": "https://media.mobiliagestion.es/Portals/inmocalvet/Images/4127/28298054-large.jpg",
     "text": " Napols - Consell de Cent | Ref: 4127 PDCookieConsent.config({ \"brand\": { \"dev\" : false, \"name\": \"\", \"url\" : \"\" }, \"cookiePolicyLink\": \"\", \"passList\" : [], \"showBadges\" : true, \"st",
+    "agency": "Calvet"
+  },
+  {
+    "url": "https://inmobiliaria.calvetpremium.com/es/alquiler-pisos-pisos/en-barcelona-barcelona//ref-4138",
+    "price": 793,
+    "rooms": null,
+    "kind": "piso",
+    "title": "ANNA MARIA MARTINEZ - RONDA GUINARDO | Ref: 4138",
+    "img": "https://media.mobiliagestion.es/Portals/inmocalvet/Images/4138/28519802-large.jpg",
+    "text": " ANNA MARIA MARTINEZ - RONDA GUINARDO | Ref: 4138 PDCookieConsent.config({ \"brand\": { \"dev\" : false, \"name\": \"\", \"url\" : \"\" }, \"cookiePolicyLink\": \"\", \"passList\" : [], \"showBadges\"",
     "agency": "Calvet"
   },
   {
