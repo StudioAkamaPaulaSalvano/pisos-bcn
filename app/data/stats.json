@@ -1,13 +1,13 @@
 {
-  "sites_read": 114,
+  "sites_read": 111,
   "sites_total": 128,
   "slow": [
     "Fincador",
-    "inmho Barcelona",
     "Core Barcelona",
-    "Loca Barcelona",
+    "Urbefinques",
     "ShBarcelona",
-    "Forcadell",
-    "VM3 Fincas"
+    "Atemporal Barcelona",
+    "VM3 Fincas",
+    "aProperties"
   ]
 }
