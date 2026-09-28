@@ -1,12 +1,10 @@
 {
-  "sites_read": 110,
+  "sites_read": 114,
   "sites_total": 128,
   "slow": [
     "Fincador",
     "GUMPER",
     "Core Barcelona",
-    "Fincas San Andrés",
-    "ShBarcelona",
-    "VM3 Fincas"
+    "ShBarcelona"
   ]
 }
