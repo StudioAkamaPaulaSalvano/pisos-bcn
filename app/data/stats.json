@@ -1,13 +1,14 @@
 {
-  "sites_read": 112,
+  "sites_read": 107,
   "sites_total": 128,
   "slow": [
     "Fincador",
+    "Fincas San Andrés",
     "Core Barcelona",
-    "Forcadell",
     "Amat Immobiliaris",
+    "Forcadell",
+    "Loca Barcelona",
     "ShBarcelona",
-    "Gala Finques",
-    "Market House"
+    "Fincas García"
   ]
 }
