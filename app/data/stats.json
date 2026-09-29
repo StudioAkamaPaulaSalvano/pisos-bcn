@@ -1,12 +1,12 @@
 {
-  "sites_read": 108,
+  "sites_read": 109,
   "sites_total": 128,
   "slow": [
     "Fincador",
+    "Orfinca",
+    "GUMPER",
+    "Fincas San Andrés",
     "Core Barcelona",
-    "Loca Barcelona",
-    "ShBarcelona",
-    "DonCasa",
-    "Inmobiliaria Diagonal Mar"
+    "ShBarcelona"
   ]
 }
