@@ -1,11 +1,14 @@
 {
-  "sites_read": 114,
+  "sites_read": 108,
   "sites_total": 128,
   "slow": [
     "Fincador",
+    "GUMPER",
+    "AFI Finques",
     "Core Barcelona",
-    "Forcadell",
     "Loca Barcelona",
-    "ShBarcelona"
+    "Forcadell",
+    "ShBarcelona",
+    "Finques Catalonia"
   ]
 }
