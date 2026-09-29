@@ -1,17 +1,14 @@
 {
-  "sites_read": 105,
+  "sites_read": 108,
   "sites_total": 128,
   "slow": [
     "Fincador",
-    "GUMPER",
     "Fincas San Andrés",
     "Core Barcelona",
-    "Amat Immobiliaris",
     "Forcadell",
+    "Amat Immobiliaris",
     "Loca Barcelona",
     "ShBarcelona",
-    "Carbonell (Admón. Fincas)",
-    "DonCasa",
-    "Inmobiliaria Diagonal Mar"
+    "Fincas Padua"
   ]
 }
