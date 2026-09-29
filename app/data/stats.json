@@ -1,11 +1,12 @@
 {
-  "sites_read": 110,
+  "sites_read": 114,
   "sites_total": 128,
   "slow": [
-    "Fincas Almendros",
     "Fincador",
+    "Fincas San Andrés",
     "Core Barcelona",
     "Forcadell",
+    "Loca Barcelona",
     "ShBarcelona"
   ]
 }
