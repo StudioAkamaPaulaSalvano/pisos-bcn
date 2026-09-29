@@ -65,6 +65,16 @@
     "rent_url": "https://www.guinotprunera.com/es/alquiler"
   },
   {
+    "url": "https://inmobiliaria.calvetpremium.com/es/alquiler-pisos-pisos/en-barcelona-barcelona//ref-4138",
+    "price": 793,
+    "rooms": null,
+    "kind": "piso",
+    "title": "ANNA MARIA MARTINEZ - RONDA GUINARDO | Ref: 4138",
+    "img": "https://media.mobiliagestion.es/Portals/inmocalvet/Images/4138/28519802-large.jpg",
+    "text": " ANNA MARIA MARTINEZ - RONDA GUINARDO | Ref: 4138 PDCookieConsent.config({ \"brand\": { \"dev\" : false, \"name\": \"\", \"url\" : \"\" }, \"cookiePolicyLink\": \"\", \"passList\" : [], \"showBadges\"",
+    "agency": "Calvet"
+  },
+  {
     "url": "https://www.pisos.com/alquilar/piso-sants_montjuic_hostafrancs08014-63420332110_530867/",
     "price": 800,
     "rooms": 1,
@@ -162,6 +172,17 @@
     "text": "1 /15 PREMIUM 890 € /mes Estudio en El Poble-sec El Poble-sec (Distrito Sants-Montjuïc. Barcelona Capital) 1 baño 22 m² Reservas e inquietudes Tipo de alojamiento - alojamiento ent",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
+  },
+  {
+    "url": "https://www.guinotprunera.com/es/alquiler/ref-33046",
+    "price": 912,
+    "rooms": null,
+    "kind": "piso",
+    "title": "La Vila de Gràcia",
+    "img": "https://media.mobiliagestion.es/Portals/inmoguinotprunera/Images/33046/28537959.jpg",
+    "text": "20260929 33046 Piso La Vila de Gràcia 912 €/mes 55 1 1 Totalmente amueblado y equipado para instalarse de inmediato. Salón-comedor muy luminoso con una cocina americana integrada t",
+    "agency": "Guinot Prunera",
+    "rent_url": "https://www.guinotprunera.com/es/alquiler"
   },
   {
     "url": "https://www.pisos.com/alquilar/piso-la_maternitat_sant_ramon-63343839529_530867/",
