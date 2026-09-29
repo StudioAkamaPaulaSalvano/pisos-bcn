@@ -1,11 +1,12 @@
 {
-  "sites_read": 107,
+  "sites_read": 109,
   "sites_total": 128,
   "slow": [
     "Fincador",
+    "Fincas Gilser",
     "Core Barcelona",
+    "ShBarcelona",
     "Forcadell",
-    "Loca Barcelona",
-    "ShBarcelona"
+    "Carbonell (Admón. Fincas)"
   ]
 }
