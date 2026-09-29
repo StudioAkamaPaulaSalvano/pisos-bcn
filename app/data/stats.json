@@ -1,15 +1,11 @@
 {
-  "sites_read": 107,
+  "sites_read": 110,
   "sites_total": 128,
   "slow": [
+    "Fincas Almendros",
     "Fincador",
     "Core Barcelona",
-    "Urbefinques",
     "Forcadell",
-    "Loca Barcelona",
-    "ShBarcelona",
-    "Atemporal Barcelona",
-    "VM3 Fincas",
-    "aProperties"
+    "ShBarcelona"
   ]
 }
