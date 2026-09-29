@@ -1,12 +1,13 @@
 {
-  "sites_read": 110,
+  "sites_read": 114,
   "sites_total": 128,
   "slow": [
-    "Díaz Associats",
     "Fincador",
+    "Orfinca",
     "Core Barcelona",
+    "Fincas San Andrés",
     "Forcadell",
-    "Loca Barcelona",
-    "ShBarcelona"
+    "ShBarcelona",
+    "Carbonell (Admón. Fincas)"
   ]
 }
