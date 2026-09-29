@@ -1,12 +1,15 @@
 {
-  "sites_read": 105,
+  "sites_read": 114,
   "sites_total": 128,
   "slow": [
     "Fincador",
+    "Orfinca",
     "Fincas San Andrés",
     "Core Barcelona",
-    "ShBarcelona",
     "Loca Barcelona",
-    "VM3 Fincas"
+    "ShBarcelona",
+    "Fincas Padua",
+    "Carbonell (Admón. Fincas)",
+    "Vivalco"
   ]
 }
