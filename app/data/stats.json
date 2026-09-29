@@ -1,18 +1,15 @@
 {
-  "sites_read": 108,
+  "sites_read": 109,
   "sites_total": 128,
   "slow": [
     "Fincador",
     "Selekta Properties",
     "GUMPER",
-    "Finques El Pallars",
     "Core Barcelona",
+    "Finques El Pallars",
     "Fincas San Andrés",
-    "Finques Hosta",
     "Forcadell",
-    "ShBarcelona",
-    "Fincas Padua",
-    "Vivalco",
-    "BarnaPiso"
+    "Loca Barcelona",
+    "ShBarcelona"
   ]
 }
