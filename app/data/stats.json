@@ -1,16 +1,15 @@
 {
-  "sites_read": 114,
+  "sites_read": 107,
   "sites_total": 128,
   "slow": [
     "Fincador",
-    "inmho Barcelona",
-    "Orfinca",
-    "Fincas Gilser",
-    "Fincas San Andrés",
     "Core Barcelona",
+    "Urbefinques",
     "Forcadell",
     "Loca Barcelona",
     "ShBarcelona",
-    "Ferrim Habitat"
+    "Atemporal Barcelona",
+    "VM3 Fincas",
+    "aProperties"
   ]
 }
