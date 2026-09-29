@@ -1,15 +1,12 @@
 {
-  "sites_read": 106,
+  "sites_read": 113,
   "sites_total": 128,
   "slow": [
     "Fincador",
+    "GUMPER",
     "Core Barcelona",
-    "Fincas San Andrés",
-    "Forcadell",
     "Amat Immobiliaris",
     "Loca Barcelona",
-    "ShBarcelona",
-    "Fincas García",
-    "Carbonell (Admón. Fincas)"
+    "ShBarcelona"
   ]
 }
