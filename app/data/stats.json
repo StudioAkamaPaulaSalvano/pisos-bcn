@@ -1,16 +1,10 @@
 {
-  "sites_read": 110,
+  "sites_read": 108,
   "sites_total": 128,
   "slow": [
     "Fincador",
-    "Orfinca",
     "Core Barcelona",
-    "Fincas San Andrés",
-    "Finques Hosta",
     "Amat Immobiliaris",
-    "ShBarcelona",
-    "Fincas García",
-    "Fincas Azcoitia",
-    "BarnaPiso"
+    "ShBarcelona"
   ]
 }
