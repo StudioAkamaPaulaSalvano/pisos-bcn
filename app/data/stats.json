@@ -1,15 +1,10 @@
 {
-  "sites_read": 107,
+  "sites_read": 109,
   "sites_total": 128,
   "slow": [
     "Fincador",
-    "Core Barcelona",
     "Fincas San Andrés",
-    "Finques Hosta",
-    "Loca Barcelona",
-    "ShBarcelona",
-    "Fincas García",
-    "VM3 Fincas",
-    "BarnaPiso"
+    "Core Barcelona",
+    "ShBarcelona"
   ]
 }
