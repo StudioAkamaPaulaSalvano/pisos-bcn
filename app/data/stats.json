@@ -1,13 +1,16 @@
 {
-  "sites_read": 107,
+  "sites_read": 106,
   "sites_total": 128,
   "slow": [
     "Finques Martell",
     "Fincador",
     "GUMPER",
     "Core Barcelona",
+    "Fincas San Andrés",
+    "Finques Hosta",
     "Amat Immobiliaris",
     "Loca Barcelona",
-    "ShBarcelona"
+    "ShBarcelona",
+    "BarnaPiso"
   ]
 }
