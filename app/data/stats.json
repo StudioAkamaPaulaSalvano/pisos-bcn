@@ -1,11 +1,12 @@
 {
-  "sites_read": 110,
+  "sites_read": 107,
   "sites_total": 128,
   "slow": [
+    "Finques Martell",
     "Fincador",
     "GUMPER",
     "Forcadell",
-    "Loca Barcelona",
-    "ShBarcelona"
+    "ShBarcelona",
+    "Fincas Azcoitia"
   ]
 }
