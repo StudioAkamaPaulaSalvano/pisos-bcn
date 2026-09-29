@@ -1,16 +1,12 @@
 {
-  "sites_read": 107,
+  "sites_read": 110,
   "sites_total": 128,
   "slow": [
-    "Cleries Administració",
     "Fincador",
-    "Fincas Blanco",
+    "Orfinca",
     "GUMPER",
     "Fincas San Andrés",
-    "Finques Hosta",
     "Forcadell",
-    "Loca Barcelona",
-    "ShBarcelona",
-    "BarnaPiso"
+    "ShBarcelona"
   ]
 }
