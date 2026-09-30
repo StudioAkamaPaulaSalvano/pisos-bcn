@@ -1,20 +1,23 @@
 {
-  "sites_read": 105,
+  "sites_read": 107,
   "sites_total": 128,
   "slow": [
     "Fincas Almendros",
     "Fincador",
+    "Orfinca",
     "GUMPER",
     "Nitia",
     "Urbefinques",
-    "Fincas San Andrés",
+    "AFI Finques",
     "Finques TEBÉ",
+    "Finques March",
     "Ilive Barcelona",
     "Loca Barcelona",
-    "Serviguest",
     "Atemporal Barcelona",
     "ShBarcelona",
+    "Serviguest",
     "Bergua Gestió d'Immobles",
-    "InmoGràcia"
+    "InmoGràcia",
+    "Probesa"
   ]
 }
