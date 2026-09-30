@@ -15,11 +15,11 @@
     "price": 750,
     "rooms": 1,
     "kind": "piso",
-    "title": "Piso en Carrer de Pelai",
-    "img": "https://fotos.imghs.net/mm-wp/530867/63384109363.530867/530867_63384109363_ae664a64-91b5-48d2-a1dd-666b4394df09.jpg",
-    "text": "1 /6 PREMIUM 750 € /mes Piso en Carrer de Pelai El Raval (Distrito Ciutat Vella. Barcelona Capital) 1 hab. 1 baño 42 m² 7ª planta Ubicado en finca con ascensor y situado en la 7ª p",
-    "agency": "pisos.com",
-    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
+    "title": "Maragall, pl. 2-3 entl 3 BARCELONA-Alquiler-001058/1",
+    "img": "https://finquesmartell.com/wp-content/uploads/2026/06/martell-1058-11-2.jpg",
+    "text": "Alquiler Maragall, pl. 2-3 entl 3 BARCELONA-Alquiler-001058/1 58 m 2 3 hab. 1 baños 600€",
+    "agency": "Finques Martell",
+    "rent_url": "https://finquesmartell.com/inmuebles"
   },
   {
     "url": "https://inmobiliaria.calvetpremium.com/es/alquiler-pisos-pisos/en-barcelona-barcelona//ref-4127",
@@ -32,15 +32,14 @@
     "agency": "Calvet"
   },
   {
-    "url": "https://www.guinotprunera.com/es/alquiler/ref-33044",
-    "price": 789,
-    "rooms": null,
+    "url": "https://inmobiliaria.calvetpremium.com/es/alquiler-pisos-pisos/en-barcelona-barcelona//ref-4145",
+    "price": 760,
+    "rooms": 1,
     "kind": "piso",
-    "title": "Sant Gervasi-Galvany",
-    "img": "https://media.mobiliagestion.es/Portals/inmoguinotprunera/Images/33044/28536115.jpg",
-    "text": "20260929 33044 Piso Sant Gervasi-Galvany 789 €/mes 33 1 1 Totalmente amueblado y equipado para instalarse de inmediato. Sus espacios modernos y funcionales hacen que sea un piso mu",
-    "agency": "Guinot Prunera",
-    "rent_url": "https://www.guinotprunera.com/es/alquiler"
+    "title": "Ptge. Virreina (Mercado Boqueria) | Ref: 4145",
+    "img": "https://media.mobiliagestion.es/Portals/inmocalvet/Images/4145/28555943-large.jpg",
+    "text": " Ptge. Virreina (Mercado Boqueria) | Ref: 4145 PDCookieConsent.config({ \"brand\": { \"dev\" : false, \"name\": \"\", \"url\" : \"\" }, \"cookiePolicyLink\": \"\", \"passList\" : [], \"showBadges\" : ",
+    "agency": "Calvet"
   },
   {
     "url": "https://inmobiliaria.calvetpremium.com/es/alquiler-pisos-pisos/en-barcelona-barcelona//ref-4138",
@@ -71,17 +70,6 @@
     "title": "Estudio en Carrer de Casanova",
     "img": "https://fotos.imghs.net/mm-wp/530867/63382254620.530867/530867_63382254620_9c9ce48c-0b49-47ef-8643-0ed44fab3256.jpg",
     "text": "1 /4 PREMIUM 820 € /mes Estudio en Carrer de Casanova Sant Antoni (Distrito Eixample. Barcelona Capital) 1 baño 33 m² Ubicado en la calle casanova, en el barrio de l’antiga esquerr",
-    "agency": "pisos.com",
-    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
-  },
-  {
-    "url": "https://www.pisos.com/alquilar/piso-barcelona_capital-67535430093_106500/",
-    "price": 840,
-    "rooms": 1,
-    "kind": "piso",
-    "title": "Piso en Barcelona Capital",
-    "img": "https://fotos.imghs.net/mm-wp/1065/3230323630393235/e15a1f9a-1bc5-4958-b067-7ff5ed9a819f.jpg",
-    "text": "1 /8 Nuevo PREMIUM 840 € /mes Piso en Barcelona Capital Barcelona Capital 1 hab. 1 baño 45 m² Bajo C/dante alighieri. Amplio piso con ascensor, de 1 habitación. Salón-comedor, coci",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
@@ -141,17 +129,6 @@
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
   {
-    "url": "https://www.guinotprunera.com/es/alquiler/ref-33046",
-    "price": 912,
-    "rooms": null,
-    "kind": "piso",
-    "title": "La Vila de Gràcia",
-    "img": "https://media.mobiliagestion.es/Portals/inmoguinotprunera/Images/33046/28537959.jpg",
-    "text": "20260929 33046 Piso La Vila de Gràcia 912 €/mes 55 1 1 Totalmente amueblado y equipado para instalarse de inmediato. Salón-comedor muy luminoso con una cocina americana integrada t",
-    "agency": "Guinot Prunera",
-    "rent_url": "https://www.guinotprunera.com/es/alquiler"
-  },
-  {
     "url": "https://www.pisos.com/alquilar/piso-la_maternitat_sant_ramon-63343839529_530867/",
     "price": 925,
     "rooms": 1,
@@ -161,17 +138,6 @@
     "text": "1 /8 PREMIUM 925 € /mes Piso en Travessera de les Corts La Maternitat-Sant Ramon (Distrito Les Corts. Barcelona Capital) 1 hab. 1 baño 47 m² 2ª planta Piso en alquiler de 47 m² con",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
-  },
-  {
-    "url": "https://www.guinotprunera.com/es/alquiler/ref-33048",
-    "price": 975,
-    "rooms": null,
-    "kind": "piso",
-    "title": "Ref 33048",
-    "img": "https://media.mobiliagestion.es/Portals/inmoguinotprunera/Images/33048/28539093.jpg",
-    "text": "20260929 33048 Piso El Gòtic 975 €/mes 38 1 1 Piso con mucho encanto que consta de un salón-comedor muy acogedor con una cocina americana integrada totalmente equipada. Totalmente ",
-    "agency": "Guinot Prunera",
-    "rent_url": "https://www.guinotprunera.com/es/alquiler"
   },
   {
     "url": "https://www.pisos.com/alquilar/estudio-la_vila_de_gracia08012-63424964407_530867/",
@@ -194,17 +160,6 @@
     "text": "1 /10 PREMIUM 980 € /mes Piso en Carrer de Pujades El Parc-La Llacuna del Poblenou (Distrito Sant Martí. Barcelona Capital) 3 habs. 1 baño 62 m² 2ª planta El anunciante. No es una ",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
-  },
-  {
-    "url": "https://www.guinotprunera.com/es/alquiler/ref-31859",
-    "price": 989,
-    "rooms": null,
-    "kind": "piso",
-    "title": "Ref 31859",
-    "img": "https://media.mobiliagestion.es/Portals/inmoguinotprunera/Images/31859/27838904.jpg",
-    "text": "20260915 31859 Piso El Poblenou 989 €/mes 47 2 1 La vivienda en tercera planta sin ascensor. Salón exterior y cocina independiente, práctica y bien distribuida, diseñada para ofrec",
-    "agency": "Guinot Prunera",
-    "rent_url": "https://www.guinotprunera.com/es/alquiler"
   },
   {
     "url": "https://www.pisos.com/alquilar/piso-sant_andreu_barrio08030-66726994643_501025/",
@@ -284,15 +239,15 @@
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
   {
-    "url": "https://www.guinotprunera.com/es/alquiler/ref-32109",
-    "price": 1100,
-    "rooms": null,
+    "url": "https://www.pisos.com/alquilar/piso-antiga_esquerra_de_eixample-67590597346_104700/",
+    "price": 1097,
+    "rooms": 1,
     "kind": "piso",
-    "title": "La Vila de Gràcia",
-    "img": "https://media.mobiliagestion.es/Portals/inmoguinotprunera/Images/32109/28341705.jpg",
-    "text": "20260922 32109 Piso La Vila de Gràcia 1.100 €/mes 42 1 1 Piso ubicado en Gràcia, entresuelo con ascensor. Cocina cerrada con nevera, horno y microondas. Salón comedor exterior a ca",
-    "agency": "Guinot Prunera",
-    "rent_url": "https://www.guinotprunera.com/es/alquiler"
+    "title": "Piso en L'Antiga Esquerra de l'Eixample",
+    "img": "https://fotos.imghs.net/mm-wp/1047/3230323630393330/a34eb581-138e-4789-a2ea-7af42e35caac.jpg",
+    "text": "1 /19 Nuevo PREMIUM 1.097 € /mes Piso en L'Antiga Esquerra de l'Eixample L'Antiga Esquerra de l'Eixample (Distrito Eixample. Barcelona Capital) 1 hab. 1 baño 44 m² Reservas e inqui",
+    "agency": "pisos.com",
+    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
   {
     "url": "https://toysanfinques.com/es/inmuebles/piso-en-alquiler-en-calle-de-deu-i-mata/",
