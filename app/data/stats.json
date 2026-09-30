@@ -1,14 +1,10 @@
 {
-  "sites_read": 105,
+  "sites_read": 113,
   "sites_total": 128,
   "slow": [
     "Fincador",
     "GUMPER",
-    "Finques Hosta",
     "Forcadell",
-    "Loca Barcelona",
-    "ShBarcelona",
-    "Segermar Associats",
-    "BarnaPiso"
+    "ShBarcelona"
   ]
 }
