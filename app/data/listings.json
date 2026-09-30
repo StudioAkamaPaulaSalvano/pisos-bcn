@@ -44,17 +44,6 @@
     "rent_url": "https://finquesmartell.com/inmuebles"
   },
   {
-    "url": "https://www.finquesmarba.com/ca/nova-llei-habitatge-espana/",
-    "price": 720,
-    "rooms": null,
-    "kind": "piso",
-    "title": "Llista de propietats",
-    "img": "https://www.finquesmarba.com/wp-content/uploads/2026/02/10544133_8-1-600x400.jpg",
-    "text": "Llista de propietats Les Tres Torres, Barcelona € 720 41.3962748 2.12730042 https://www.finquesmarba.com/wp-content/uploads/2026/02/10544133_8-1-150x100.jpg https://www.finquesmarb",
-    "agency": "Finques Marbá",
-    "rent_url": "https://www.finquesmarba.com/ca/lloguer"
-  },
-  {
     "url": "https://www.pisos.com/alquilar/piso-el_raval08001-63384109363_530867/",
     "price": 750,
     "rooms": 1,
@@ -268,7 +257,7 @@
     "kind": "piso",
     "title": "Piso en Passeig de Torras i Bages",
     "img": "https://fotos.imghs.net/mm-wp/501025/66726994643.501025/501025_66726994643_cfd5ddd8-91b0-43a1-ad67-4ab05d1a343a.jpg",
-    "text": "1 /26 TOP 998 € /mes Piso en Passeig de Torras i Bages Sant Andreu (Distrito Sant Andreu. Barcelona Capital) 3 habs. 1 baño 59 m² 6ª planta Informacion importante: para visitar est",
+    "text": "1 /26 PREMIUM 998 € /mes Piso en Passeig de Torras i Bages Sant Andreu (Distrito Sant Andreu. Barcelona Capital) 3 habs. 1 baño 59 m² 6ª planta Informacion importante: para visitar",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
