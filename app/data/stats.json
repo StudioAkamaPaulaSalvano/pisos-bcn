@@ -1,15 +1,12 @@
 {
-  "sites_read": 114,
+  "sites_read": 113,
   "sites_total": 128,
   "slow": [
     "Fincador",
-    "inmho Barcelona",
-    "Orfinca",
     "GUMPER",
     "Fincas San Andrés",
     "Forcadell",
     "Loca Barcelona",
-    "ShBarcelona",
-    "Vivalco"
+    "ShBarcelona"
   ]
 }
