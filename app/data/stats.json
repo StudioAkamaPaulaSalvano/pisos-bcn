@@ -1,18 +1,13 @@
 {
-  "sites_read": 104,
+  "sites_read": 112,
   "sites_total": 128,
   "slow": [
     "Fincador",
     "GUMPER",
-    "Urbefinques",
     "Fincas San Andrés",
-    "Finques Hosta",
+    "AFI Finques",
     "Forcadell",
     "ShBarcelona",
-    "Atemporal Barcelona",
-    "Loca Barcelona",
-    "VM3 Fincas",
-    "aProperties",
-    "BarnaPiso"
+    "Loca Barcelona"
   ]
 }
