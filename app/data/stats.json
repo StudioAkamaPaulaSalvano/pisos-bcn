@@ -1,11 +1,25 @@
 {
-  "sites_read": 110,
+  "sites_read": 101,
   "sites_total": 128,
   "slow": [
+    "Fincas Almendros",
     "Fincador",
-    "Cafur Serveis Immobiliaris",
+    "Urbane International",
+    "Casc Antic BCN",
     "GUMPER",
+    "Nitia",
     "Fincas San Andrés",
-    "ShBarcelona"
+    "AFI Finques",
+    "Urbefinques",
+    "Finques TEBÉ",
+    "Finques March",
+    "Ilive Barcelona",
+    "Loca Barcelona",
+    "Serviguest",
+    "ShBarcelona",
+    "Atemporal Barcelona",
+    "Bergua Gestió d'Immobles",
+    "InmoGràcia",
+    "Probesa"
   ]
 }
