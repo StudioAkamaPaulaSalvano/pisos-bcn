@@ -1,24 +1,13 @@
 {
-  "sites_read": 104,
+  "sites_read": 110,
   "sites_total": 128,
   "slow": [
-    "Finques Bou",
-    "Fincas Almendros",
     "Fincador",
+    "Selekta Properties",
+    "Orfinca",
     "GUMPER",
-    "Nitia",
-    "Urbefinques",
-    "AFI Finques",
-    "Finques TEBÉ",
-    "Finques March",
-    "Ilive Barcelona",
+    "Fincas San Andrés",
     "Loca Barcelona",
-    "Atemporal Barcelona",
-    "ShBarcelona",
-    "Serviguest",
-    "Bergua Gestió d'Immobles",
-    "VM3 Fincas",
-    "InmoGràcia",
-    "Probesa"
+    "ShBarcelona"
   ]
 }
