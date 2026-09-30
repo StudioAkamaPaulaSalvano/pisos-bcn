@@ -1,15 +1,10 @@
 {
-  "sites_read": 109,
+  "sites_read": 113,
   "sites_total": 128,
   "slow": [
     "Fincador",
-    "Vivendex",
-    "Orfinca",
     "GUMPER",
-    "Fincas San Andrés",
     "Forcadell",
-    "ShBarcelona",
-    "Masifill (Mas i Fill)",
-    "Fincas Azcoitia"
+    "ShBarcelona"
   ]
 }
