@@ -1,15 +1,24 @@
 {
-  "sites_read": 113,
+  "sites_read": 104,
   "sites_total": 128,
   "slow": [
+    "Finques Bou",
+    "Fincas Almendros",
     "Fincador",
-    "Cafur Serveis Immobiliaris",
     "GUMPER",
+    "Nitia",
+    "Urbefinques",
     "AFI Finques",
-    "Finques Hosta",
+    "Finques TEBÉ",
+    "Finques March",
+    "Ilive Barcelona",
     "Loca Barcelona",
+    "Atemporal Barcelona",
     "ShBarcelona",
+    "Serviguest",
+    "Bergua Gestió d'Immobles",
     "VM3 Fincas",
-    "BarnaPiso"
+    "InmoGràcia",
+    "Probesa"
   ]
 }
