@@ -1,21 +1,10 @@
 {
-  "sites_read": 108,
+  "sites_read": 110,
   "sites_total": 128,
   "slow": [
-    "Fincas Almendros",
     "Fincador",
     "GUMPER",
-    "Nitia",
-    "Fincas San Andrés",
-    "Finques El Pallars",
-    "Finques TEBÉ",
-    "Finques March",
-    "Ilive Barcelona",
-    "Loca Barcelona",
     "ShBarcelona",
-    "Serviguest",
-    "Atemporal Barcelona",
-    "InmoGràcia",
-    "Probesa"
+    "Fincas Padua"
   ]
 }
