@@ -1,13 +1,16 @@
 {
-  "sites_read": 112,
+  "sites_read": 105,
   "sites_total": 128,
   "slow": [
     "Fincador",
+    "inmho Barcelona",
     "GUMPER",
-    "Fincas San Andrés",
-    "AFI Finques",
+    "West Side Barcelona",
     "Forcadell",
     "ShBarcelona",
-    "Loca Barcelona"
+    "Loca Barcelona",
+    "Fincas Padua",
+    "DonCasa",
+    "Inmobiliaria Diagonal Mar"
   ]
 }
