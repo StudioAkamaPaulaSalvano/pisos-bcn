@@ -1,22 +1,10 @@
 {
-  "sites_read": 111,
+  "sites_read": 110,
   "sites_total": 128,
   "slow": [
-    "Fincas Almendros",
-    "Selekta Properties",
     "Fincador",
     "GUMPER",
-    "Nitia",
-    "Urbefinques",
-    "Finques TEBÉ",
-    "Ilive Barcelona",
-    "Loca Barcelona",
-    "Serviguest",
-    "ShBarcelona",
-    "Atemporal Barcelona",
-    "Carbonell (Admón. Fincas)",
-    "InmoGràcia",
-    "Probesa",
-    "aProperties"
+    "Fincas San Andrés",
+    "ShBarcelona"
   ]
 }
