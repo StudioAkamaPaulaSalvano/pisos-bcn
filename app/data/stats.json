@@ -1,13 +1,15 @@
 {
-  "sites_read": 109,
+  "sites_read": 108,
   "sites_total": 128,
   "slow": [
     "Fincador",
     "GUMPER",
-    "AFI Finques",
     "Fincas San Andrés",
     "Forcadell",
+    "Loca Barcelona",
     "ShBarcelona",
-    "Loca Barcelona"
+    "Carbonell (Admón. Fincas)",
+    "Finques Catalonia",
+    "VM3 Fincas"
   ]
 }
