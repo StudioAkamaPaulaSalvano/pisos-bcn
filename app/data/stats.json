@@ -1,15 +1,13 @@
 {
-  "sites_read": 108,
+  "sites_read": 113,
   "sites_total": 128,
   "slow": [
     "Fincador",
     "GUMPER",
-    "AFI Finques",
     "Forcadell",
     "Loca Barcelona",
     "ShBarcelona",
     "Fincas García",
-    "Carbonell (Admón. Fincas)",
-    "Fincas Azcoitia"
+    "Carbonell (Admón. Fincas)"
   ]
 }
