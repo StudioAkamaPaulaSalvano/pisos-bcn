@@ -1,12 +1,10 @@
 {
-  "sites_read": 110,
+  "sites_read": 115,
   "sites_total": 128,
   "slow": [
     "Fincador",
-    "inmho Barcelona",
     "GUMPER",
-    "AFI Finques",
-    "ShBarcelona",
-    "Ferrim Habitat"
+    "Fincas San Andrés",
+    "ShBarcelona"
   ]
 }
