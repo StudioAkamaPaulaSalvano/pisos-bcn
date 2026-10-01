@@ -1,15 +1,13 @@
 {
-  "sites_read": 107,
+  "sites_read": 109,
   "sites_total": 128,
   "slow": [
     "Fincador",
     "inmho Barcelona",
     "GUMPER",
     "Fincas San Andrés",
-    "Forcadell",
     "ShBarcelona",
-    "Fincas García",
-    "Carbonell (Admón. Fincas)",
-    "VM3 Fincas"
+    "Fincas Padua",
+    "Fincas García"
   ]
 }
