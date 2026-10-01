@@ -1,11 +1,12 @@
 {
-  "sites_read": 110,
+  "sites_read": 115,
   "sites_total": 128,
   "slow": [
+    "Finques Bou",
     "Fincador",
     "GUMPER",
-    "Fincas San Andrés",
-    "ShBarcelona",
-    "Carbonell (Admón. Fincas)"
+    "AFI Finques",
+    "Loca Barcelona",
+    "ShBarcelona"
   ]
 }
