@@ -1,15 +1,12 @@
 {
-  "sites_read": 111,
+  "sites_read": 114,
   "sites_total": 128,
   "slow": [
-    "Finques Martell",
     "Fincador",
+    "Orfinca",
     "GUMPER",
-    "Fincas San Andrés",
-    "Forcadell",
     "Loca Barcelona",
     "ShBarcelona",
-    "VM3 Fincas",
-    "InmoGràcia"
+    "VM3 Fincas"
   ]
 }
