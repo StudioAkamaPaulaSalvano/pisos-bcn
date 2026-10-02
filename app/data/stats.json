@@ -1,13 +1,14 @@
 {
-  "sites_read": 110,
+  "sites_read": 109,
   "sites_total": 128,
   "slow": [
+    "Fincas Almendros",
     "Fincador",
+    "Orfinca",
+    "inmho Barcelona",
     "GUMPER",
-    "Forcadell",
+    "Fincas San Andrés",
     "Loca Barcelona",
-    "ShBarcelona",
-    "Fincas Padua",
-    "Carbonell (Admón. Fincas)"
+    "ShBarcelona"
   ]
 }
