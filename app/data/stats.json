@@ -1,12 +1,16 @@
 {
-  "sites_read": 114,
+  "sites_read": 111,
   "sites_total": 128,
   "slow": [
     "Fincador",
+    "Orfinca",
     "GUMPER",
     "Loca Barcelona",
     "ShBarcelona",
+    "DonCasa",
+    "Carbonell (Admón. Fincas)",
+    "Inmobiliaria Diagonal Mar",
     "VM3 Fincas",
-    "Vivalco"
+    "InmoGràcia"
   ]
 }
