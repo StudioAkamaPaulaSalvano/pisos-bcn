@@ -121,6 +121,17 @@
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
   {
+    "url": "https://www.pisos.com/alquilar/piso-la_dreta_de_eixample08007-68369497489_535494/",
+    "price": 890,
+    "rooms": 1,
+    "kind": "piso",
+    "title": "Piso en Carrer del Consell de Cent",
+    "img": "https://fotos.imghs.net/mm-wp/535494/68369497489.535494/535494_68369497489_0e754329-00de-4a59-9746-8b188e3f0d14.jpg",
+    "text": "1 /8 Nuevo PREMIUM 890 € /mes Piso en Carrer del Consell de Cent La Dreta de l'Eixample (Distrito Eixample. Barcelona Capital) 1 hab. 1 baño 53 m² 2ª planta Luminoso y acogedor apa",
+    "agency": "pisos.com",
+    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
+  },
+  {
     "url": "https://www.pisos.com/alquilar/estudio-el_poble_sec08004-67527772384_104700/",
     "price": 890,
     "rooms": null,
