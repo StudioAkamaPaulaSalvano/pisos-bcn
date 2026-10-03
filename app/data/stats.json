@@ -1,12 +1,16 @@
 {
-  "sites_read": 109,
+  "sites_read": 106,
   "sites_total": 128,
   "slow": [
     "Fincador",
     "Cafur Serveis Immobiliaris",
     "GUMPER",
     "Fincas San Andrés",
+    "Urbefinques",
     "Loca Barcelona",
-    "ShBarcelona"
+    "ShBarcelona",
+    "Atemporal Barcelona",
+    "VM3 Fincas",
+    "aProperties"
   ]
 }
