@@ -1,13 +1,12 @@
 {
-  "sites_read": 108,
+  "sites_read": 109,
   "sites_total": 128,
   "slow": [
     "Fincador",
     "GUMPER",
-    "Finques El Pallars",
     "Fincas San Andrés",
-    "Loca Barcelona",
     "ShBarcelona",
-    "Fincas García"
+    "Fincas García",
+    "Carbonell (Admón. Fincas)"
   ]
 }
