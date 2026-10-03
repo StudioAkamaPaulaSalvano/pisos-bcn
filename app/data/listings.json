@@ -22,6 +22,17 @@
     "rent_url": "https://finqueselpallars.com/alquiler"
   },
   {
+    "url": "https://finquesmartell.com/immoble/maragall-pl-2-3-entl-3-barcelona-alquiler-001058-1/",
+    "price": 600,
+    "rooms": 3,
+    "kind": "piso",
+    "title": "Maragall, pl. 2-3 entl 3 BARCELONA-Alquiler-001058/1",
+    "img": "https://finquesmartell.com/wp-content/uploads/2026/06/martell-1058-11-2.jpg",
+    "text": "Alquiler Maragall, pl. 2-3 entl 3 BARCELONA-Alquiler-001058/1 58 m 2 3 hab. 1 baños 600€",
+    "agency": "Finques Martell",
+    "rent_url": "https://finquesmartell.com/inmuebles"
+  },
+  {
     "url": "https://www.pisos.com/alquilar/piso-el_raval08001-63384109363_530867/",
     "price": 750,
     "rooms": 1,
@@ -225,7 +236,7 @@
     "kind": "piso",
     "title": "Piso en Passeig de Torras i Bages",
     "img": "https://fotos.imghs.net/mm-wp/501025/66726994643.501025/501025_66726994643_cfd5ddd8-91b0-43a1-ad67-4ab05d1a343a.jpg",
-    "text": "1 /26 TOP 998 € /mes Piso en Passeig de Torras i Bages Sant Andreu (Distrito Sant Andreu. Barcelona Capital) 3 habs. 1 baño 59 m² 6ª planta Informacion importante: para visitar est",
+    "text": "1 /26 PREMIUM 998 € /mes Piso en Passeig de Torras i Bages Sant Andreu (Distrito Sant Andreu. Barcelona Capital) 3 habs. 1 baño 59 m² 6ª planta Informacion importante: para visitar",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
