@@ -1,12 +1,16 @@
 {
-  "sites_read": 109,
+  "sites_read": 104,
   "sites_total": 128,
   "slow": [
     "Fincador",
+    "Orfinca",
     "GUMPER",
+    "Finques Hosta",
+    "Loca Barcelona",
     "ShBarcelona",
-    "Fincas Padua",
+    "DonCasa",
     "Carbonell (Admón. Fincas)",
-    "Vivalco"
+    "Inmobiliaria Diagonal Mar",
+    "BarnaPiso"
   ]
 }
