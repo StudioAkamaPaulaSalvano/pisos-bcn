@@ -1,14 +1,12 @@
 {
-  "sites_read": 107,
+  "sites_read": 108,
   "sites_total": 128,
   "slow": [
+    "Finques Martell",
     "Fincador",
-    "Selekta Properties",
-    "Finques Grau",
     "GUMPER",
     "Fincas San Andrés",
     "ShBarcelona",
-    "Fincas Padua",
     "Fincas García"
   ]
 }
