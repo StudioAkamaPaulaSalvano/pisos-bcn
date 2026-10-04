@@ -1,13 +1,14 @@
 {
-  "sites_read": 113,
+  "sites_read": 107,
   "sites_total": 128,
   "slow": [
     "Fincador",
+    "Selekta Properties",
+    "Finques Grau",
     "GUMPER",
-    "Loca Barcelona",
+    "Fincas San Andrés",
     "ShBarcelona",
-    "Fincas García",
-    "Carbonell (Admón. Fincas)",
-    "InmoGràcia"
+    "Fincas Padua",
+    "Fincas García"
   ]
 }
