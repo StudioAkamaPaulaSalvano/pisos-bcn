@@ -1,13 +1,33 @@
 {
-  "sites_read": 109,
+  "sites_read": 92,
   "sites_total": 128,
   "slow": [
     "Fincador",
-    "Casc Antic BCN",
+    "Finor BCN",
     "Cafur Serveis Immobiliaris",
-    "GUMPER",
+    "Chester Estate",
+    "Withfor",
+    "West Side Barcelona",
+    "Gaudí House",
+    "Nitia",
+    "Finor BCN (Les Corts)",
     "Fincas San Andrés",
+    "Fincas Cumbre",
+    "Finques Hosta",
+    "Finques TEBÉ",
+    "Ilive Barcelona",
+    "Loca Barcelona",
     "ShBarcelona",
-    "Vivalco"
+    "Serviguest",
+    "Gala Finques",
+    "Finques Perramon",
+    "DonCasa",
+    "Finques Giramon",
+    "Inmobiliaria Diagonal Mar",
+    "Ollé Bertran",
+    "Finques Querol",
+    "Tu Piso Nou Barris",
+    "BarnaPiso",
+    "Rentmar"
   ]
 }
