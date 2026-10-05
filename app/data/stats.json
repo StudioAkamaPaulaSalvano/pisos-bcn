@@ -1,14 +1,18 @@
 {
-  "sites_read": 108,
+  "sites_read": 111,
   "sites_total": 128,
   "slow": [
+    "Finques Martell",
     "Fincador",
     "Selekta Properties",
     "GUMPER",
+    "Fincas San Andrés",
     "AFI Finques",
     "Loca Barcelona",
     "ShBarcelona",
+    "Fincas García",
     "Finques Catalonia",
-    "Finques Giramon"
+    "Finques Giramon",
+    "VM3 Fincas"
   ]
 }
