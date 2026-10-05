@@ -1,11 +1,10 @@
 {
-  "sites_read": 105,
+  "sites_read": 114,
   "sites_total": 128,
   "slow": [
     "Fincador",
     "GUMPER",
     "Loca Barcelona",
-    "ShBarcelona",
-    "Masifill (Mas i Fill)"
+    "ShBarcelona"
   ]
 }
