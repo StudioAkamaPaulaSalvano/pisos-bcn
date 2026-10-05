@@ -284,6 +284,17 @@
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
   {
+    "url": "https://www.guinotprunera.com/es/alquiler/ref-31859",
+    "price": 989,
+    "rooms": null,
+    "kind": "piso",
+    "title": "Ref 31859",
+    "img": "https://media.mobiliagestion.es/Portals/inmoguinotprunera/Images/31859/27838904.jpg",
+    "text": "20261005 31859 Piso El Poblenou 989 €/mes 47 2 1 La vivienda en tercera planta sin ascensor. Salón exterior y cocina independiente, práctica y bien distribuida, diseñada para ofrec",
+    "agency": "Guinot Prunera",
+    "rent_url": "https://www.guinotprunera.com/es/alquiler"
+  },
+  {
     "url": "https://www.pisos.com/alquilar/piso-sant_andreu_barrio08030-66726994643_501025/",
     "price": 998,
     "rooms": 3,
