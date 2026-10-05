@@ -1,18 +1,13 @@
 {
-  "sites_read": 110,
+  "sites_read": 113,
   "sites_total": 128,
   "slow": [
     "Fincador",
-    "Grup Solfinc",
     "Selekta Properties",
     "GUMPER",
-    "AFI Finques",
     "Fincas San Andrés",
     "Loca Barcelona",
     "ShBarcelona",
-    "Finques Falcón",
-    "Coma-Roig",
-    "Finques Catalonia",
-    "Carbonell (Admón. Fincas)"
+    "Finques Catalonia"
   ]
 }
