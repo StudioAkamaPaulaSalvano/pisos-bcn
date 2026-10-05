@@ -426,6 +426,17 @@
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
   {
+    "url": "https://www.guinotprunera.com/es/alquiler/ref-32109",
+    "price": 1100,
+    "rooms": null,
+    "kind": "piso",
+    "title": "La Vila de Gràcia",
+    "img": "https://media.mobiliagestion.es/Portals/inmoguinotprunera/Images/32109/28341705.jpg",
+    "text": "20261005 32109 Piso La Vila de Gràcia 1.100 €/mes 42 1 1 Piso ubicado en Gràcia, entresuelo con ascensor. Cocina cerrada con nevera, horno y microondas. Salón comedor exterior a ca",
+    "agency": "Guinot Prunera",
+    "rent_url": "https://www.guinotprunera.com/es/alquiler"
+  },
+  {
     "url": "https://toysanfinques.com/es/inmuebles/piso-en-alquiler-en-calle-de-deu-i-mata/",
     "price": 1100,
     "rooms": 1,
