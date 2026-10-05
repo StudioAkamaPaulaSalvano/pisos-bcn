@@ -1,10 +1,15 @@
 {
-  "sites_read": 109,
+  "sites_read": 110,
   "sites_total": 128,
   "slow": [
     "Fincador",
+    "inmho Barcelona",
     "GUMPER",
+    "Urbefinques",
+    "Loca Barcelona",
     "ShBarcelona",
-    "Fincas García"
+    "Atemporal Barcelona",
+    "VM3 Fincas",
+    "aProperties"
   ]
 }
