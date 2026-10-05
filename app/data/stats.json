@@ -1,13 +1,17 @@
 {
-  "sites_read": 109,
+  "sites_read": 111,
   "sites_total": 128,
   "slow": [
+    "Withfor",
+    "Vivendex",
+    "Casc Antic BCN",
     "Fincador",
+    "Cafur Serveis Immobiliaris",
+    "Selekta Properties",
+    "inmho Barcelona",
+    "Fincas Blanco",
+    "ZonaPisos (esp. Ciutat Vella)",
     "GUMPER",
-    "Fincas San Andrés",
-    "Loca Barcelona",
-    "ShBarcelona",
-    "Fincas García",
-    "Finques Catalonia"
+    "ShBarcelona"
   ]
 }
