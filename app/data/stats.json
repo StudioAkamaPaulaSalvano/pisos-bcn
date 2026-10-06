@@ -1,14 +1,16 @@
 {
-  "sites_read": 109,
+  "sites_read": 105,
   "sites_total": 128,
   "slow": [
-    "Fincas Almendros",
     "Fincador",
     "GUMPER",
     "Fincas San Andrés",
+    "Urbefinques",
+    "Finques El Pallars",
     "Loca Barcelona",
     "ShBarcelona",
-    "Carbonell (Admón. Fincas)",
-    "Ferrim Habitat"
+    "Atemporal Barcelona",
+    "VM3 Fincas",
+    "aProperties"
   ]
 }
