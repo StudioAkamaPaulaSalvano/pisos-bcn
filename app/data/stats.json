@@ -1,16 +1,13 @@
 {
-  "sites_read": 111,
+  "sites_read": 108,
   "sites_total": 128,
   "slow": [
-    "Fincas Almendros",
     "Fincador",
-    "Orfinca",
     "GUMPER",
     "Fincas San Andrés",
-    "Finques Hosta",
     "Loca Barcelona",
     "ShBarcelona",
-    "Finques Catalonia",
-    "BarnaPiso"
+    "Carbonell (Admón. Fincas)",
+    "VM3 Fincas"
   ]
 }
