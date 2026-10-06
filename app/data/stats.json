@@ -1,13 +1,10 @@
 {
-  "sites_read": 105,
+  "sites_read": 108,
   "sites_total": 128,
   "slow": [
     "Fincador",
-    "Selekta Properties",
     "GUMPER",
-    "Fincas San Andrés",
-    "ShBarcelona",
-    "Carbonell (Admón. Fincas)",
-    "Fincas Azcoitia"
+    "Loca Barcelona",
+    "ShBarcelona"
   ]
 }
