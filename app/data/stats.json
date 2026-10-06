@@ -1,14 +1,12 @@
 {
-  "sites_read": 111,
+  "sites_read": 108,
   "sites_total": 128,
   "slow": [
     "Fincador",
+    "Orfinca",
     "GUMPER",
-    "Urbefinques",
-    "Loca Barcelona",
     "ShBarcelona",
-    "Atemporal Barcelona",
-    "VM3 Fincas",
-    "aProperties"
+    "Carbonell (Admón. Fincas)",
+    "VM3 Fincas"
   ]
 }
