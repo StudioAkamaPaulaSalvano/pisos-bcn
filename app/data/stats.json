@@ -1,13 +1,14 @@
 {
-  "sites_read": 108,
+  "sites_read": 109,
   "sites_total": 128,
   "slow": [
+    "Fincas Almendros",
     "Fincador",
-    "Orfinca",
     "GUMPER",
-    "Toysan Finques",
     "Fincas San Andrés",
     "Loca Barcelona",
-    "ShBarcelona"
+    "ShBarcelona",
+    "Carbonell (Admón. Fincas)",
+    "Ferrim Habitat"
   ]
 }
