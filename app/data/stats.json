@@ -1,12 +1,9 @@
 {
-  "sites_read": 109,
+  "sites_read": 115,
   "sites_total": 128,
   "slow": [
     "Fincador",
     "GUMPER",
-    "Fincas San Andrés",
-    "Toysan Finques",
-    "ShBarcelona",
-    "Carbonell (Admón. Fincas)"
+    "ShBarcelona"
   ]
 }
