@@ -1,18 +1,15 @@
 {
-  "sites_read": 102,
+  "sites_read": 106,
   "sites_total": 128,
   "slow": [
     "Fincador",
-    "Withfor",
-    "Nitia",
+    "GUMPER",
     "Fincas San Andrés",
-    "Finques Hosta",
-    "Finques TEBÉ",
-    "Ilive Barcelona",
+    "Urbefinques",
     "Loca Barcelona",
     "ShBarcelona",
-    "Serviguest",
-    "Fincas García",
-    "BarnaPiso"
+    "Atemporal Barcelona",
+    "VM3 Fincas",
+    "aProperties"
   ]
 }
