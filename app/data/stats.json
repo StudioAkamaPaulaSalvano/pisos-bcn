@@ -1,15 +1,13 @@
 {
-  "sites_read": 109,
+  "sites_read": 108,
   "sites_total": 128,
   "slow": [
+    "Finques Martell",
     "Fincador",
-    "Fincas Blanco",
     "GUMPER",
+    "Finques TEBÉ",
     "Fincas San Andrés",
-    "AFI Finques",
-    "Loca Barcelona",
-    "ShBarcelona",
-    "ALL4FLAT",
-    "InmoGràcia"
+    "Atemporal Barcelona",
+    "ShBarcelona"
   ]
 }
