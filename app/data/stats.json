@@ -1,11 +1,12 @@
 {
-  "sites_read": 113,
+  "sites_read": 106,
   "sites_total": 128,
   "slow": [
     "Fincador",
-    "Vivendex",
+    "Cafur Serveis Immobiliaris",
     "GUMPER",
-    "Loca Barcelona",
-    "ShBarcelona"
+    "ShBarcelona",
+    "DonCasa",
+    "Inmobiliaria Diagonal Mar"
   ]
 }
