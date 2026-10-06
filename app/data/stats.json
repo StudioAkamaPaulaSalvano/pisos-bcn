@@ -1,13 +1,12 @@
 {
-  "sites_read": 107,
+  "sites_read": 108,
   "sites_total": 128,
   "slow": [
+    "Finques Martell",
     "Fincador",
-    "inmho Barcelona",
     "GUMPER",
     "Loca Barcelona",
     "ShBarcelona",
-    "Inmobiliaria Diagonal Mar",
     "VM3 Fincas"
   ]
 }
