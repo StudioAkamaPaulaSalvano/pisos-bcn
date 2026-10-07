@@ -44,17 +44,6 @@
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
   {
-    "url": "https://www.guinotprunera.com/es/alquiler/ref-33044",
-    "price": 789,
-    "rooms": null,
-    "kind": "piso",
-    "title": "Sant Gervasi-Galvany",
-    "img": "https://media.mobiliagestion.es/Portals/inmoguinotprunera/Images/33044/28536115.jpg",
-    "text": "20261005 33044 Piso Sant Gervasi-Galvany 789 €/mes 33 1 1 Totalmente amueblado y equipado para instalarse de inmediato. Sus espacios modernos y funcionales hacen que sea un piso mu",
-    "agency": "Guinot Prunera",
-    "rent_url": "https://www.guinotprunera.com/es/alquiler"
-  },
-  {
     "url": "https://www.pisos.com/alquilar/piso-sant_andreu_barrio08030-455282422_501025/",
     "price": 800,
     "rooms": 1,
@@ -263,17 +252,6 @@
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
   {
-    "url": "https://www.pisos.com/alquilar/piso-el_parc_la_llacuna_del_poblenou08018-67560404516_531896/",
-    "price": 980,
-    "rooms": 3,
-    "kind": "piso",
-    "title": "Piso en Carrer de Pujades",
-    "img": "https://fotos.imghs.net/mm-wp/531896/67560404516.531896/531896_67560404516_34f34ec3-e48e-4fd8-8336-e8fd391860c4.jpg",
-    "text": "1 /10 PREMIUM 980 € /mes Piso en Carrer de Pujades El Parc-La Llacuna del Poblenou (Distrito Sant Martí. Barcelona Capital) 3 habs. 1 baño 62 m² 2ª planta El anunciante. No es una ",
-    "agency": "pisos.com",
-    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
-  },
-  {
     "url": "https://www.pisos.com/alquilar/piso-el_raval-68381081057_104700/",
     "price": 988,
     "rooms": 3,
@@ -294,6 +272,17 @@
     "text": "20261005 31859 Piso El Poblenou 989 €/mes 47 2 1 La vivienda en tercera planta sin ascensor. Salón exterior y cocina independiente, práctica y bien distribuida, diseñada para ofrec",
     "agency": "Guinot Prunera",
     "rent_url": "https://www.guinotprunera.com/es/alquiler"
+  },
+  {
+    "url": "https://www.pisos.com/alquilar/piso-sant_andreu_barrio08030-66726994643_501025/",
+    "price": 998,
+    "rooms": 3,
+    "kind": "piso",
+    "title": "Piso en Passeig de Torras i Bages",
+    "img": "https://fotos.imghs.net/mm-wp/501025/66726994643.501025/501025_66726994643_cfd5ddd8-91b0-43a1-ad67-4ab05d1a343a.jpg",
+    "text": "1 /26 TOP Exclusivo 998 € /mes Piso en Passeig de Torras i Bages Sant Andreu (Distrito Sant Andreu. Barcelona Capital) 3 habs. 1 baño 59 m² 6ª planta Informacion importante: para v",
+    "agency": "pisos.com",
+    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
   {
     "url": "https://serviguest.com/inmuebles/doctor-santpoc-sant-andreu/",
