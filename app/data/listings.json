@@ -154,6 +154,16 @@
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
   {
+    "url": "https://inmobiliaria.calvetpremium.com/es/alquiler-pisos-pisos/en-barcelona-barcelona//ref-4152",
+    "price": 893,
+    "rooms": 2,
+    "kind": "piso",
+    "title": "Calle Cartagena | Ref: 4152",
+    "img": "https://media.mobiliagestion.es/Portals/inmocalvet/Images/4152/28586997-large.jpg",
+    "text": " Calle Cartagena | Ref: 4152 PDCookieConsent.config({ \"brand\": { \"dev\" : false, \"name\": \"\", \"url\" : \"\" }, \"cookiePolicyLink\": \"\", \"passList\" : [], \"showBadges\" : true, \"styles\": { ",
+    "agency": "Calvet"
+  },
+  {
     "url": "https://www.pisos.com/alquilar/estudio-sant_pere_santa_caterina_la_ribera08003-68431932202_104700/",
     "price": 900,
     "rooms": null,
