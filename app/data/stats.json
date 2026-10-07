@@ -1,12 +1,12 @@
 {
-  "sites_read": 110,
+  "sites_read": 107,
   "sites_total": 128,
   "slow": [
     "Fincador",
-    "Selekta Properties",
     "Cafur Serveis Immobiliaris",
-    "Orfinca",
     "GUMPER",
-    "ShBarcelona"
+    "Loca Barcelona",
+    "ShBarcelona",
+    "InmoGràcia"
   ]
 }
