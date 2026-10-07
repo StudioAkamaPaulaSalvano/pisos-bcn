@@ -1,10 +1,15 @@
 {
-  "sites_read": 114,
+  "sites_read": 106,
   "sites_total": 128,
   "slow": [
     "Fincador",
+    "Cafur Serveis Immobiliaris",
     "GUMPER",
+    "West Side Barcelona",
     "Loca Barcelona",
-    "ShBarcelona"
+    "ShBarcelona",
+    "DonCasa",
+    "Carbonell (Admón. Fincas)",
+    "Inmobiliaria Diagonal Mar"
   ]
 }
