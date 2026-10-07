@@ -1,12 +1,17 @@
 {
-  "sites_read": 107,
+  "sites_read": 101,
   "sites_total": 128,
   "slow": [
-    "Fincador",
     "Cafur Serveis Immobiliaris",
-    "GUMPER",
-    "Loca Barcelona",
+    "Fincador",
+    "Withfor",
+    "Nitia",
+    "Fincas San Andrés",
+    "Finques Hosta",
+    "Finques TEBÉ",
+    "Ilive Barcelona",
     "ShBarcelona",
-    "VM3 Fincas"
+    "Serviguest",
+    "BarnaPiso"
   ]
 }
