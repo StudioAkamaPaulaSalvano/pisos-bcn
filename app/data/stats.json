@@ -1,24 +1,17 @@
 {
-  "sites_read": 96,
+  "sites_read": 105,
   "sites_total": 128,
   "slow": [
+    "Finques Bou",
     "Fincador",
-    "Finor BCN",
-    "Chester Estate",
     "GUMPER",
-    "Gaudí House",
-    "Finor BCN (Les Corts)",
-    "Fincas Cumbre",
+    "Finques Hosta",
     "Loca Barcelona",
     "ShBarcelona",
-    "Finques Perramon",
     "Gala Finques",
-    "Finques Giramon",
-    "Carbonell (Admón. Fincas)",
+    "Fincas García",
     "VM3 Fincas",
-    "Ollé Bertran",
-    "Finques Querol",
-    "Tu Piso Nou Barris",
-    "Euro-Horta"
+    "Euro-Horta",
+    "BarnaPiso"
   ]
 }
