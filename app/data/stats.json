@@ -1,17 +1,13 @@
 {
-  "sites_read": 105,
+  "sites_read": 107,
   "sites_total": 128,
   "slow": [
-    "Finques Bou",
     "Fincador",
     "GUMPER",
-    "Finques Hosta",
     "Loca Barcelona",
     "ShBarcelona",
-    "Gala Finques",
     "Fincas García",
     "VM3 Fincas",
-    "Euro-Horta",
-    "BarnaPiso"
+    "Euro-Horta"
   ]
 }
