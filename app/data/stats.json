@@ -1,12 +1,15 @@
 {
-  "sites_read": 107,
+  "sites_read": 105,
   "sites_total": 128,
   "slow": [
     "Fincador",
     "GUMPER",
+    "Urbefinques",
     "Loca Barcelona",
     "ShBarcelona",
+    "Atemporal Barcelona",
     "VM3 Fincas",
+    "aProperties",
     "Euro-Horta"
   ]
 }
