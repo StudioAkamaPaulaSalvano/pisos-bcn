@@ -1,5 +1,16 @@
 [
   {
+    "url": "https://barnapiso.com/es/vivienda/propiedad-en-las-cortes-4/",
+    "price": 425,
+    "rooms": null,
+    "kind": "piso",
+    "title": "Propiedad en Les Corts",
+    "img": "https://barnapiso.com/wp-content/uploads/2024/11/1231744428-scaled.jpg",
+    "text": "Propiedad en Les Corts Precio Alquiler: 425 € de San Ramón Nonato m2 construidos habitaciones baños",
+    "agency": "BarnaPiso",
+    "rent_url": "https://barnapiso.com/es/propiedades-disponibles-barcelona/"
+  },
+  {
     "url": "https://finqueselpallars.com/piso-en-alquiler-les-corts-barcelona/",
     "price": 500,
     "rooms": null,
@@ -22,13 +33,24 @@
     "rent_url": "https://finquesmartell.com/inmuebles"
   },
   {
+    "url": "https://www.pisos.com/alquilar/piso-el_raval08001-63384109363_530867/",
+    "price": 750,
+    "rooms": 1,
+    "kind": "piso",
+    "title": "Piso en Carrer de Pelai",
+    "img": "https://fotos.imghs.net/mm-wp/530867/63384109363.530867/530867_63384109363_ae664a64-91b5-48d2-a1dd-666b4394df09.jpg",
+    "text": "1 /6 PREMIUM 750 € /mes Piso en Carrer de Pelai El Raval (Distrito Ciutat Vella. Barcelona Capital) 1 hab. 1 baño 42 m² 7ª planta Ubicado en finca con ascensor y situado en la 7ª p",
+    "agency": "pisos.com",
+    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
+  },
+  {
     "url": "https://www.pisos.com/alquilar/piso-sant_andreu_barrio08030-455282422_501025/",
     "price": 800,
     "rooms": 1,
     "kind": "piso",
     "title": "Piso en Carrer de Castellbell",
     "img": "https://fotos.imghs.net/mm-wp/501025/455282422.501025/501025_455282422_18c43837-5132-45ea-a416-b4f4470eba19.jpg",
-    "text": "1 /24 TOP Exclusivo 800 € /mes Piso en Carrer de Castellbell Sant Andreu (Distrito Sant Andreu. Barcelona Capital) 1 hab. 1 baño 55 m² 2ª planta C/ castellbell Informacion importan",
+    "text": "1 /24 Nuevo TOP Exclusivo 800 € /mes Piso en Carrer de Castellbell Sant Andreu (Distrito Sant Andreu. Barcelona Capital) 1 hab. 1 baño 55 m² 2ª planta C/ castellbell Informacion im",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
@@ -148,7 +170,7 @@
     "kind": "piso",
     "title": "Piso en Passatge d'Isabel Ribó",
     "img": "https://fotos.imghs.net/mm-wp/501025/550364848.501025/501025_550364848_6b3a75df-e935-4f2c-b8bc-26516383732a.jpg",
-    "text": "1 /14 TOP 910 € /mes Piso en Passatge d'Isabel Ribó Sant Andreu (Distrito Sant Andreu. Barcelona Capital) 1 hab. 1 baño 62 m² Bajo Disponible 31/12/2026 informacion importante: par",
+    "text": "1 /14 Nuevo PREMIUM 910 € /mes Piso en Passatge d'Isabel Ribó Sant Andreu (Distrito Sant Andreu. Barcelona Capital) 1 hab. 1 baño 62 m² Bajo Disponible 31/12/2026 informacion impor",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
@@ -159,7 +181,7 @@
     "kind": "piso",
     "title": "Piso en Carrer del Segre",
     "img": "https://fotos.imghs.net/mm-wp/501025/806818472.501025/501025_806818472_2c5fb80f-14ec-492e-8614-1e141fea98cf.jpg",
-    "text": "1 /21 TOP Exclusivo 912 € /mes Piso en Carrer del Segre Sant Andreu (Distrito Sant Andreu. Barcelona Capital) 2 habs. 1 baño 68 m² 5ª planta Piso de 68 metros construidos, 60 metro",
+    "text": "1 /21 Nuevo TOP Exclusivo 912 € /mes Piso en Carrer del Segre Sant Andreu (Distrito Sant Andreu. Barcelona Capital) 2 habs. 1 baño 68 m² 5ª planta Piso de 68 metros construidos, 60",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
@@ -186,28 +208,6 @@
     "rent_url": "https://www.locabarcelona.com/en/property-feature/features/furnished/"
   },
   {
-    "url": "https://www.pisos.com/alquilar/estudio-la_vila_de_gracia08012-63424964407_530867/",
-    "price": 975,
-    "rooms": null,
-    "kind": "piso",
-    "title": "Estudio en Carrer de Tordera",
-    "img": "https://fotos.imghs.net/mm-wp/530867/63424964407.530867/530867_63424964407_d39df721-627b-45c0-bded-c9fc7e01e2b6.jpg",
-    "text": "1 /10 PREMIUM 975 € /mes Estudio en Carrer de Tordera La Vila de Gràcia (Distrito Gràcia. Barcelona Capital) 1 baño 40 m² Ubicado en gràcia, a pocos minutos de passeig de gràcia, y",
-    "agency": "pisos.com",
-    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
-  },
-  {
-    "url": "https://www.pisos.com/alquilar/piso-el_raval-67500940430_104700/",
-    "price": 975,
-    "rooms": 1,
-    "kind": "piso",
-    "title": "Piso en El Raval",
-    "img": "https://fotos.imghs.net/mm-wp/1047/3230323630393035/5d48271f-d9f4-4778-b65b-9c1044afc573.jpg",
-    "text": "1 /13 PREMIUM 975 € /mes Piso en El Raval El Raval (Distrito Ciutat Vella. Barcelona Capital) 1 hab. 1 baño 45 m² Reservas e inquietudes Tipo de alojamiento - alojamiento entero Té",
-    "agency": "pisos.com",
-    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
-  },
-  {
     "url": "https://www.pisos.com/alquilar/piso-el_parc_la_llacuna_del_poblenou08018-67560404516_531896/",
     "price": 980,
     "rooms": 3,
@@ -230,6 +230,28 @@
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
   {
+    "url": "https://serviguest.com/inmuebles/doctor-santpoc-sant-andreu/",
+    "price": 1000,
+    "rooms": 2,
+    "kind": "piso",
+    "title": "Doctor Santpoç / Sant Andreu",
+    "img": "https://serviguest.com/wp-content/uploads/2024/10/Santponc-40-logo-Servigest-1-1024x683.jpg",
+    "text": "Disponible a partir de 30-09-2026 Doctor Santpoç / Sant Andreu 1000€ € / mes Sant Andreu · Barcelona 2 hab · 50 m2",
+    "agency": "Serviguest",
+    "rent_url": "https://serviguest.com/alquiler-de-pisos-para-empresas/madrid/"
+  },
+  {
+    "url": "https://barnapiso.com/es/vivienda/propiedad-en-sants-montjuic/",
+    "price": 1000,
+    "rooms": null,
+    "kind": "piso",
+    "title": "Propiedad en Sants-Montjuïc",
+    "img": "https://barnapiso.com/wp-content/uploads/2024/11/989391816.jpg",
+    "text": "Propiedad en Sants-Montjuïc Precio Alquiler: 1000 € de Sugranyes m2 construidos habitaciones baños",
+    "agency": "BarnaPiso",
+    "rent_url": "https://barnapiso.com/es/propiedades-disponibles-barcelona/"
+  },
+  {
     "url": "https://www.pisos.com/alquilar/apartamento-sant_pere_santa_caterina_la_ribera08003-64206819507_530867/",
     "price": 1000,
     "rooms": 1,
@@ -241,6 +263,17 @@
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
   {
+    "url": "https://www.pisos.com/alquilar/piso-la_dreta_de_eixample08037-68379679303_535495/",
+    "price": 1000,
+    "rooms": 1,
+    "kind": "piso",
+    "title": "Piso en Carrer de Mallorca",
+    "img": "https://fotos.imghs.net/mm-wp/535495/68379679303.535495/535495_68379679303_b1db5ae8-8dc6-433d-8569-04de6d477d7f.jpg",
+    "text": "1 /22 Nuevo PREMIUM 1.000 € /mes Piso en Carrer de Mallorca La Dreta de l'Eixample (Distrito Eixample. Barcelona Capital) 1 hab. 1 baño 73 m² 1ª planta Este acogedor apartamento de",
+    "agency": "pisos.com",
+    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
+  },
+  {
     "url": "https://www.pisos.com/alquilar/piso-el_raval-68396161514_104700/",
     "price": 1000,
     "rooms": 2,
@@ -248,6 +281,17 @@
     "title": "Piso en El Raval",
     "img": "https://fotos.imghs.net/mm-wp/1047/3230323631303032/192ba465-a8af-403e-a996-7793570ce5e0.jpg",
     "text": "1 /10 Nuevo PREMIUM 1.000 € /mes Piso en El Raval El Raval (Distrito Ciutat Vella. Barcelona Capital) 2 habs. 1 baño 62 m² Reservas e inquietudes Tipo de alojamiento - alojamiento ",
+    "agency": "pisos.com",
+    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
+  },
+  {
+    "url": "https://www.pisos.com/alquilar/piso-el_raval-54229758046_104700/",
+    "price": 1000,
+    "rooms": 2,
+    "kind": "piso",
+    "title": "Piso en El Raval",
+    "img": "https://fotos.imghs.net/mm-wp/1047/912/1047_65912_1_2025050609050581192.jpg",
+    "text": "1 /13 PREMIUM 1.000 € /mes Piso en El Raval El Raval (Distrito Ciutat Vella. Barcelona Capital) 2 habs. 1 baño 45 m² Reservas e inquietudes Tipo de alojamiento - alojamiento entero",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
