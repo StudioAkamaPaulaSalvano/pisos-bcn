@@ -50,7 +50,7 @@
     "kind": "piso",
     "title": "Piso en Carrer de Castellbell",
     "img": "https://fotos.imghs.net/mm-wp/501025/455282422.501025/501025_455282422_18c43837-5132-45ea-a416-b4f4470eba19.jpg",
-    "text": "1 /24 TOP Exclusivo 800 € /mes Piso en Carrer de Castellbell Sant Andreu (Distrito Sant Andreu. Barcelona Capital) 1 hab. 1 baño 55 m² 2ª planta C/ castellbell Informacion importan",
+    "text": "1 /24 Nuevo TOP Exclusivo 800 € /mes Piso en Carrer de Castellbell Sant Andreu (Distrito Sant Andreu. Barcelona Capital) 1 hab. 1 baño 55 m² 2ª planta C/ castellbell Informacion im",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
@@ -84,6 +84,17 @@
     "title": "Estudio en Carrer de Casanova",
     "img": "https://fotos.imghs.net/mm-wp/530867/63382254620.530867/530867_63382254620_9c9ce48c-0b49-47ef-8643-0ed44fab3256.jpg",
     "text": "1 /4 PREMIUM 820 € /mes Estudio en Carrer de Casanova Sant Antoni (Distrito Eixample. Barcelona Capital) 1 baño 33 m² Ubicado en la calle casanova, en el barrio de l’antiga esquerr",
+    "agency": "pisos.com",
+    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
+  },
+  {
+    "url": "https://www.pisos.com/alquilar/piso-el_congres_els_indians08027-63378468377_530867/",
+    "price": 850,
+    "rooms": 1,
+    "kind": "piso",
+    "title": "Piso en Carrer de Puerto Príncipe",
+    "img": "https://fotos.imghs.net/mm-wp/530867/63378468377.530867/530867_63378468377_b909d67a-d00e-4a8c-ba9a-57b51b7aac01.jpg",
+    "text": "1 /6 PREMIUM 850 € /mes Piso en Carrer de Puerto Príncipe El Congrés-Els Indians (Distrito Sant Andreu. Barcelona Capital) 1 hab. 1 baño 42 m² 2ª planta Ubicado en la zona de campo",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
@@ -159,7 +170,7 @@
     "kind": "piso",
     "title": "Piso en Passatge d'Isabel Ribó",
     "img": "https://fotos.imghs.net/mm-wp/501025/550364848.501025/501025_550364848_6b3a75df-e935-4f2c-b8bc-26516383732a.jpg",
-    "text": "1 /14 TOP 910 € /mes Piso en Passatge d'Isabel Ribó Sant Andreu (Distrito Sant Andreu. Barcelona Capital) 1 hab. 1 baño 62 m² Bajo Disponible 31/12/2026 informacion importante: par",
+    "text": "1 /14 Nuevo PREMIUM 910 € /mes Piso en Passatge d'Isabel Ribó Sant Andreu (Distrito Sant Andreu. Barcelona Capital) 1 hab. 1 baño 62 m² Bajo Disponible 31/12/2026 informacion impor",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
@@ -170,7 +181,7 @@
     "kind": "piso",
     "title": "Piso en Carrer del Segre",
     "img": "https://fotos.imghs.net/mm-wp/501025/806818472.501025/501025_806818472_2c5fb80f-14ec-492e-8614-1e141fea98cf.jpg",
-    "text": "1 /21 TOP Exclusivo 912 € /mes Piso en Carrer del Segre Sant Andreu (Distrito Sant Andreu. Barcelona Capital) 2 habs. 1 baño 68 m² 5ª planta Piso de 68 metros construidos, 60 metro",
+    "text": "1 /21 Nuevo TOP Exclusivo 912 € /mes Piso en Carrer del Segre Sant Andreu (Distrito Sant Andreu. Barcelona Capital) 2 habs. 1 baño 68 m² 5ª planta Piso de 68 metros construidos, 60",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
@@ -195,17 +206,6 @@
     "text": "View Property View Property View Property View Property View Property View Property View Property View Property View Property View Property View Property View Property View Propert",
     "agency": "Loca Barcelona",
     "rent_url": "https://www.locabarcelona.com/en/property-feature/features/furnished/"
-  },
-  {
-    "url": "https://www.pisos.com/alquilar/estudio-la_vila_de_gracia08012-63424964407_530867/",
-    "price": 975,
-    "rooms": null,
-    "kind": "piso",
-    "title": "Estudio en Carrer de Tordera",
-    "img": "https://fotos.imghs.net/mm-wp/530867/63424964407.530867/530867_63424964407_d39df721-627b-45c0-bded-c9fc7e01e2b6.jpg",
-    "text": "1 /10 PREMIUM 975 € /mes Estudio en Carrer de Tordera La Vila de Gràcia (Distrito Gràcia. Barcelona Capital) 1 baño 40 m² Ubicado en gràcia, a pocos minutos de passeig de gràcia, y",
-    "agency": "pisos.com",
-    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
   {
     "url": "https://www.pisos.com/alquilar/piso-el_raval-67500940430_104700/",
@@ -285,13 +285,13 @@
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
   {
-    "url": "https://www.pisos.com/alquilar/piso-el_raval-68396161514_104700/",
+    "url": "https://www.pisos.com/alquilar/piso-el_raval-54229758046_104700/",
     "price": 1000,
     "rooms": 2,
     "kind": "piso",
     "title": "Piso en El Raval",
-    "img": "https://fotos.imghs.net/mm-wp/1047/3230323631303032/192ba465-a8af-403e-a996-7793570ce5e0.jpg",
-    "text": "1 /10 Nuevo PREMIUM 1.000 € /mes Piso en El Raval El Raval (Distrito Ciutat Vella. Barcelona Capital) 2 habs. 1 baño 62 m² Reservas e inquietudes Tipo de alojamiento - alojamiento ",
+    "img": "https://fotos.imghs.net/mm-wp/1047/912/1047_65912_1_2025050609050581192.jpg",
+    "text": "1 /13 PREMIUM 1.000 € /mes Piso en El Raval El Raval (Distrito Ciutat Vella. Barcelona Capital) 2 habs. 1 baño 45 m² Reservas e inquietudes Tipo de alojamiento - alojamiento entero",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
@@ -411,6 +411,17 @@
     "title": "Piso en Passatge de Sant Benet",
     "img": "https://fotos.imghs.net/mm-wp/535495/68404887271.535495/535495_68404887271_006e691c-bc91-4ba0-bc12-99f7f430918a.jpg",
     "text": "1 /23 Nuevo PREMIUM 1.100 € /mes Piso en Passatge de Sant Benet Sant Pere-Santa Caterina-La Ribera (Distrito Ciutat Vella. Barcelona Capital) 1 hab. 1 baño 78 m² Bajo Este acogedor",
+    "agency": "pisos.com",
+    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
+  },
+  {
+    "url": "https://www.pisos.com/alquilar/atico-el_raval08001-64249106130_530867/",
+    "price": 1100,
+    "rooms": 1,
+    "kind": "piso",
+    "title": "Ático en Carrer de l'Hospital",
+    "img": "https://fotos.imghs.net/mm-wp/530867/64249106130.530867/530867_64249106130_27762a0e-d0f3-456e-bc57-507d9e9c01a5.jpg",
+    "text": "1 /6 PREMIUM 1.100 € /mes Ático en Carrer de l'Hospital El Raval (Distrito Ciutat Vella. Barcelona Capital) 1 hab. 1 baño 50 m² Ubicado en una finca con carácter en pleno corazón d",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
