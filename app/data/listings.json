@@ -66,13 +66,13 @@
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
   {
-    "url": "https://www.pisos.com/alquilar/piso-sants_montjuic_hostafrancs08014-63420332110_530867/",
-    "price": 800,
-    "rooms": 1,
+    "url": "https://www.pisos.com/alquilar/estudio-eixample_sant_antoni08011-63382254620_530867/",
+    "price": 820,
+    "rooms": null,
     "kind": "piso",
-    "title": "Piso en Carrer de Mallorca",
-    "img": "https://fotos.imghs.net/mm-wp/530867/63420332110.530867/530867_63420332110_84494247-3ab8-4f56-8771-bbbcbd77633f.jpg",
-    "text": "1 /4 PREMIUM 800 € /mes Piso en Carrer de Mallorca Hostafrancs (Distrito Sants-Montjuïc. Barcelona Capital) 1 hab. 1 baño 44 m² 4ª planta Ubicado en finca con ascensor y en la 4ª p",
+    "title": "Estudio en Carrer de Casanova",
+    "img": "https://fotos.imghs.net/mm-wp/530867/63382254620.530867/530867_63382254620_9c9ce48c-0b49-47ef-8643-0ed44fab3256.jpg",
+    "text": "1 /4 PREMIUM 820 € /mes Estudio en Carrer de Casanova Sant Antoni (Distrito Eixample. Barcelona Capital) 1 baño 33 m² Ubicado en la calle casanova, en el barrio de l’antiga esquerr",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
@@ -214,7 +214,7 @@
     "kind": "piso",
     "title": "Piso en Carrer de Pujades",
     "img": "https://fotos.imghs.net/mm-wp/531896/67560404516.531896/531896_67560404516_34f34ec3-e48e-4fd8-8336-e8fd391860c4.jpg",
-    "text": "1 /10 PREMIUM 980 € /mes Piso en Carrer de Pujades El Parc-La Llacuna del Poblenou (Distrito Sant Martí. Barcelona Capital) 3 habs. 1 baño 62 m² 2ª planta El anunciante. No es una ",
+    "text": "1 /10 PREMIUM 980 € /mes Piso en Carrer de Pujades El Parc-La Llacuna del Poblenou (Distrito Sant Martí. Barcelona Capital) 3 habs. 1 baño 62 m² 2ª planta El piso se encuentra en m",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
@@ -323,17 +323,6 @@
     "title": "Estudio en El Barri Gòtic",
     "img": "https://fotos.imghs.net/mm-wp/1047/750/1047_404750_1_2025032013032024167.jpg",
     "text": "1 /16 Nuevo PREMIUM 1.050 € /mes Estudio en El Barri Gòtic El Barri Gòtic (Distrito Ciutat Vella. Barcelona Capital) 1 baño 27 m² Reservas e inquietudes Tipo de alojamiento - aloja",
-    "agency": "pisos.com",
-    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
-  },
-  {
-    "url": "https://www.pisos.com/alquilar/estudio-el_barri_gotic08002-58350438323_104700/",
-    "price": 1050,
-    "rooms": null,
-    "kind": "piso",
-    "title": "Estudio en El Barri Gòtic",
-    "img": "https://fotos.imghs.net/mm-wp/1047/384/1047_421384_8_2025100409103326660.jpg",
-    "text": "1 /15 Nuevo PREMIUM 1.050 € /mes Estudio en El Barri Gòtic El Barri Gòtic (Distrito Ciutat Vella. Barcelona Capital) 1 baño 29 m² Reservas e inquietudes Tipo de alojamiento - aloja",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
@@ -455,6 +444,17 @@
     "title": "Piso en El Raval",
     "img": "https://fotos.imghs.net/mm-wp/1092/3230323631303036/958f2653-f6ee-4bdf-903c-4d539cc9840b.jpg",
     "text": "1 /10 PREMIUM 1.100 € /mes Piso en El Raval El Raval (Distrito Ciutat Vella. Barcelona Capital) 65 m² 🌟 central 2-bedroom top-floor apartment in barcelona (no elevator) 🌟 Welcome t",
+    "agency": "pisos.com",
+    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
+  },
+  {
+    "url": "https://www.pisos.com/alquilar/piso-el_raval08001-68430716066_109200/",
+    "price": 1100,
+    "rooms": null,
+    "kind": "piso",
+    "title": "Piso en El Raval",
+    "img": "https://fotos.imghs.net/mm-wp/1092/3230323631303036/2ee946e5-f073-4cd6-9e1c-acd25c9160de.jpg",
+    "text": "1 /10 Nuevo PREMIUM 1.100 € /mes Piso en El Raval El Raval (Distrito Ciutat Vella. Barcelona Capital) 37 m² Ideal for students: 1-bedroom apartment Rental conditions: rent: (1.100€",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
