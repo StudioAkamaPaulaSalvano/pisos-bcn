@@ -1,13 +1,12 @@
 {
-  "sites_read": 107,
+  "sites_read": 108,
   "sites_total": 128,
   "slow": [
     "Fincador",
-    "Fincas Gilser",
     "GUMPER",
+    "Fincas San Andrés",
     "Loca Barcelona",
     "ShBarcelona",
-    "VM3 Fincas",
-    "Ferrim Habitat"
+    "VM3 Fincas"
   ]
 }
