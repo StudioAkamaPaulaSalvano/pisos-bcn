@@ -88,17 +88,6 @@
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
   {
-    "url": "https://www.pisos.com/alquilar/piso-el_congres_els_indians08027-63378468377_530867/",
-    "price": 850,
-    "rooms": 1,
-    "kind": "piso",
-    "title": "Piso en Carrer de Puerto Príncipe",
-    "img": "https://fotos.imghs.net/mm-wp/530867/63378468377.530867/530867_63378468377_b909d67a-d00e-4a8c-ba9a-57b51b7aac01.jpg",
-    "text": "1 /6 PREMIUM 850 € /mes Piso en Carrer de Puerto Príncipe El Congrés-Els Indians (Distrito Sant Andreu. Barcelona Capital) 1 hab. 1 baño 42 m² 2ª planta Ubicado en la zona de campo",
-    "agency": "pisos.com",
-    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
-  },
-  {
     "url": "https://www.pisos.com/alquilar/estudio-la_maternitat_sant_ramon08028-53355782706_104700/",
     "price": 850,
     "rooms": null,
@@ -206,6 +195,17 @@
     "text": "View Property View Property View Property View Property View Property View Property View Property View Property View Property View Property View Property View Property View Propert",
     "agency": "Loca Barcelona",
     "rent_url": "https://www.locabarcelona.com/en/property-feature/features/furnished/"
+  },
+  {
+    "url": "https://www.pisos.com/alquilar/estudio-la_vila_de_gracia08012-63424964407_530867/",
+    "price": 975,
+    "rooms": null,
+    "kind": "piso",
+    "title": "Estudio en Carrer de Tordera",
+    "img": "https://fotos.imghs.net/mm-wp/530867/63424964407.530867/530867_63424964407_d39df721-627b-45c0-bded-c9fc7e01e2b6.jpg",
+    "text": "1 /10 PREMIUM 975 € /mes Estudio en Carrer de Tordera La Vila de Gràcia (Distrito Gràcia. Barcelona Capital) 1 baño 40 m² Ubicado en gràcia, a pocos minutos de passeig de gràcia, y",
+    "agency": "pisos.com",
+    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
   {
     "url": "https://www.pisos.com/alquilar/piso-el_raval-67500940430_104700/",
@@ -345,17 +345,6 @@
     "title": "Estudio en El Barri Gòtic",
     "img": "https://fotos.imghs.net/mm-wp/1047/750/1047_404750_1_2025032013032024167.jpg",
     "text": "1 /16 Nuevo PREMIUM 1.050 € /mes Estudio en El Barri Gòtic El Barri Gòtic (Distrito Ciutat Vella. Barcelona Capital) 1 baño 27 m² Reservas e inquietudes Tipo de alojamiento - aloja",
-    "agency": "pisos.com",
-    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
-  },
-  {
-    "url": "https://www.pisos.com/alquilar/piso-el_barri_gotic08002-67586923420_109200/",
-    "price": 1079,
-    "rooms": null,
-    "kind": "piso",
-    "title": "Piso en El Barri Gòtic",
-    "img": "https://fotos.imghs.net/mm-wp/1092/3230323631303036/82b1e66a-8425-4819-bcc4-135f7f128dc6.jpg",
-    "text": "1 /6 PREMIUM 1.079 € /mes Piso en El Barri Gòtic El Barri Gòtic (Distrito Ciutat Vella. Barcelona Capital) 50 m² 🏡 independent studio in mezzanine with bathroom and private kitchen",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
