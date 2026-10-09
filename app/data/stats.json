@@ -1,11 +1,12 @@
 {
-  "sites_read": 110,
+  "sites_read": 108,
   "sites_total": 128,
   "slow": [
     "Fincador",
+    "Cafur Serveis Immobiliaris",
+    "Orfinca",
     "GUMPER",
-    "ShBarcelona",
-    "Fincas García",
-    "Carbonell (Admón. Fincas)"
+    "Fincas San Andrés",
+    "ShBarcelona"
   ]
 }
