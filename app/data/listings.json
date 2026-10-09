@@ -22,17 +22,6 @@
     "rent_url": "https://finqueselpallars.com/alquiler"
   },
   {
-    "url": "https://finquesmartell.com/immoble/maragall-pl-2-3-entl-3-barcelona-alquiler-001058-1/",
-    "price": 600,
-    "rooms": 3,
-    "kind": "piso",
-    "title": "Maragall, pl. 2-3 entl 3 BARCELONA-Alquiler-001058/1",
-    "img": "https://finquesmartell.com/wp-content/uploads/2026/06/martell-1058-11-2.jpg",
-    "text": "Alquiler Maragall, pl. 2-3 entl 3 BARCELONA-Alquiler-001058/1 58 m 2 3 hab. 1 baños 600€",
-    "agency": "Finques Martell",
-    "rent_url": "https://finquesmartell.com/inmuebles"
-  },
-  {
     "url": "https://www.pisos.com/alquilar/piso-el_raval08001-63384109363_530867/",
     "price": 750,
     "rooms": 1,
@@ -349,17 +338,6 @@
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
   {
-    "url": "https://www.locabarcelona.com/en/property/incredible-1-bedroom-attic-with-wonderful-terrace-for-rent/",
-    "price": 1095,
-    "rooms": 1,
-    "kind": "piso",
-    "title": "Available now 1.095€ Incredible 1 bedroom attic with wonderful terrace for rent Clot                       . C de la Ind",
-    "img": "https://www.locabarcelona.com/wp-content/uploads/2022/09/531cbb75-58ca-4d9d-8e5b-63aeb1f4c7d2-17-488x326.jpg",
-    "text": "View Property View Property View Property View Property View Property View Property View Property View Property View Property View Property View Property View Property View Propert",
-    "agency": "Loca Barcelona",
-    "rent_url": "https://www.locabarcelona.com/en/property-feature/features/furnished/"
-  },
-  {
     "url": "https://www.pisos.com/alquilar/piso-antiga_esquerra_de_eixample-68432323132_104700/",
     "price": 1097,
     "rooms": 1,
@@ -369,6 +347,17 @@
     "text": "1 /13 Nuevo PREMIUM 1.097 € /mes Piso en L'Antiga Esquerra de l'Eixample L'Antiga Esquerra de l'Eixample (Distrito Eixample. Barcelona Capital) 1 hab. 1 baño 44 m² Reservas e inqui",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
+  },
+  {
+    "url": "https://toysanfinques.com/es/inmuebles/piso-en-alquiler-en-calle-de-deu-i-mata/",
+    "price": 1100,
+    "rooms": 1,
+    "kind": "piso",
+    "title": "+ info",
+    "img": "https://toysanfinques.com/wp-content/uploads/2023/12/4.jpg",
+    "text": "alquiler 1.100 €/mes Piso en alquiler en calle Déu i Mata Barcelona · Les Corts 60 m 2 1 hab. 1 baño",
+    "agency": "Toysan Finques",
+    "rent_url": "https://toysanfinques.com/es/inmuebles/?transaction_type=lloguer&property__type=property"
   },
   {
     "url": "https://www.pisos.com/alquilar/piso-la_dreta_de_eixample08009-68430123189_535495/",
