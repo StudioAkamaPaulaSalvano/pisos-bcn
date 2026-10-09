@@ -1,25 +1,11 @@
 {
-  "sites_read": 99,
+  "sites_read": 109,
   "sites_total": 128,
   "slow": [
+    "Cafur Serveis Immobiliaris",
     "Fincador",
-    "Finor BCN",
-    "Selekta Properties",
-    "Chester Estate",
     "GUMPER",
-    "Gaudí House",
-    "Finor BCN (Les Corts)",
-    "Fincas Cumbre",
     "Fincas San Andrés",
-    "Loca Barcelona",
-    "ShBarcelona",
-    "Finques Perramon",
-    "Gala Finques",
-    "Finques Giramon",
-    "Ollé Bertran",
-    "Finques Querol",
-    "Fincas Azcoitia",
-    "Tu Piso Nou Barris",
-    "Rentmar"
+    "ShBarcelona"
   ]
 }
