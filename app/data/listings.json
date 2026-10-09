@@ -22,6 +22,17 @@
     "rent_url": "https://finqueselpallars.com/alquiler"
   },
   {
+    "url": "https://finquesmartell.com/immoble/maragall-pl-2-3-entl-3-barcelona-alquiler-001058-1/",
+    "price": 600,
+    "rooms": 3,
+    "kind": "piso",
+    "title": "Maragall, pl. 2-3 entl 3 BARCELONA-Alquiler-001058/1",
+    "img": "https://finquesmartell.com/wp-content/uploads/2026/06/martell-1058-11-2.jpg",
+    "text": "Alquiler Maragall, pl. 2-3 entl 3 BARCELONA-Alquiler-001058/1 58 m 2 3 hab. 1 baños 600€",
+    "agency": "Finques Martell",
+    "rent_url": "https://finquesmartell.com/inmuebles"
+  },
+  {
     "url": "https://www.pisos.com/alquilar/piso-el_raval08001-63384109363_530867/",
     "price": 750,
     "rooms": 1,
@@ -336,6 +347,17 @@
     "text": "1 /10 PREMIUM 1.085 € /mes Casa en El Besòs-El Maresme El Besòs-El Maresme (Distrito Sant Martí. Barcelona Capital) 🎓 student residence in barcelona with pool and gym!! 🏋️‍♂️🏊‍♀️ U",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
+  },
+  {
+    "url": "https://www.locabarcelona.com/en/property/incredible-1-bedroom-attic-with-wonderful-terrace-for-rent/",
+    "price": 1095,
+    "rooms": 1,
+    "kind": "piso",
+    "title": "Available now 1.095€ Incredible 1 bedroom attic with wonderful terrace for rent Clot                       . C de la Ind",
+    "img": "https://www.locabarcelona.com/wp-content/uploads/2022/09/531cbb75-58ca-4d9d-8e5b-63aeb1f4c7d2-17-488x326.jpg",
+    "text": "View Property View Property View Property View Property View Property View Property View Property View Property View Property View Property View Property View Property View Propert",
+    "agency": "Loca Barcelona",
+    "rent_url": "https://www.locabarcelona.com/en/property-feature/features/furnished/"
   },
   {
     "url": "https://www.pisos.com/alquilar/piso-antiga_esquerra_de_eixample-68432323132_104700/",
