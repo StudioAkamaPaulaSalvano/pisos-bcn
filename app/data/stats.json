@@ -1,15 +1,13 @@
 {
-  "sites_read": 103,
+  "sites_read": 108,
   "sites_total": 128,
   "slow": [
     "Fincador",
+    "Orfinca",
     "Cafur Serveis Immobiliaris",
-    "Selekta Properties",
     "GUMPER",
-    "West Side Barcelona",
-    "ShBarcelona",
-    "DonCasa",
-    "Inmobiliaria Diagonal Mar",
-    "Fincas Azcoitia"
+    "Fincas San Andrés",
+    "Loca Barcelona",
+    "ShBarcelona"
   ]
 }
