@@ -1,13 +1,9 @@
 {
-  "sites_read": 108,
+  "sites_read": 109,
   "sites_total": 128,
   "slow": [
     "Fincador",
-    "inmho Barcelona",
-    "GUMPER",
     "Loca Barcelona",
-    "ShBarcelona",
-    "Carbonell (Admón. Fincas)",
-    "Immollar"
+    "ShBarcelona"
   ]
 }
