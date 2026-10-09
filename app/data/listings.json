@@ -186,17 +186,6 @@
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
   {
-    "url": "https://www.locabarcelona.com/en/property/ad-2-double-bedrooms-apartment-for-rent/",
-    "price": 964,
-    "rooms": 1,
-    "kind": "piso",
-    "title": "Available now 964€ Furnished partment for rent Poble Sec                       . Carrer de Ricart - Metro Poble Sec Prop",
-    "img": "https://www.locabarcelona.com/wp-content/uploads/2018/02/6df486e6-67db-4641-a997-aed668e14f96-3-488x326.jpg",
-    "text": "View Property View Property View Property View Property View Property View Property View Property View Property View Property View Property View Property View Property View Propert",
-    "agency": "Loca Barcelona",
-    "rent_url": "https://www.locabarcelona.com/en/property-feature/features/furnished/"
-  },
-  {
     "url": "https://www.pisos.com/alquilar/estudio-la_vila_de_gracia08012-63424964407_530867/",
     "price": 975,
     "rooms": null,
@@ -285,17 +274,6 @@
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
   {
-    "url": "https://www.pisos.com/alquilar/piso-el_raval-54229758046_104700/",
-    "price": 1000,
-    "rooms": 2,
-    "kind": "piso",
-    "title": "Piso en El Raval",
-    "img": "https://fotos.imghs.net/mm-wp/1047/912/1047_65912_1_2025050609050581192.jpg",
-    "text": "1 /13 PREMIUM 1.000 € /mes Piso en El Raval El Raval (Distrito Ciutat Vella. Barcelona Capital) 2 habs. 1 baño 45 m² Reservas e inquietudes Tipo de alojamiento - alojamiento entero",
-    "agency": "pisos.com",
-    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
-  },
-  {
     "url": "https://inmobiliaria.calvetpremium.com/es/alquiler-pisos-pisos/en-barcelona-barcelona//ref-4156",
     "price": 1000,
     "rooms": 2,
@@ -371,24 +349,13 @@
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
   {
-    "url": "https://www.locabarcelona.com/en/property/incredible-1-bedroom-attic-with-wonderful-terrace-for-rent/",
-    "price": 1095,
-    "rooms": 1,
-    "kind": "piso",
-    "title": "Available now 1.095€ Incredible 1 bedroom attic with wonderful terrace for rent Clot                       . C de la Ind",
-    "img": "https://www.locabarcelona.com/wp-content/uploads/2022/09/531cbb75-58ca-4d9d-8e5b-63aeb1f4c7d2-17-488x326.jpg",
-    "text": "View Property View Property View Property View Property View Property View Property View Property View Property View Property View Property View Property View Property View Propert",
-    "agency": "Loca Barcelona",
-    "rent_url": "https://www.locabarcelona.com/en/property-feature/features/furnished/"
-  },
-  {
-    "url": "https://www.pisos.com/alquilar/piso-antiga_esquerra_de_eixample-68432323132_104700/",
+    "url": "https://www.pisos.com/alquilar/piso-barcelona_capital_eixample-68432323132_104700/",
     "price": 1097,
     "rooms": 1,
     "kind": "piso",
-    "title": "Piso en L'Antiga Esquerra de l'Eixample",
+    "title": "Piso en Eixample",
     "img": "https://fotos.imghs.net/mm-wp/1047/3230323630393330/a34eb581-138e-4789-a2ea-7af42e35caac.jpg",
-    "text": "1 /13 Nuevo PREMIUM 1.097 € /mes Piso en L'Antiga Esquerra de l'Eixample L'Antiga Esquerra de l'Eixample (Distrito Eixample. Barcelona Capital) 1 hab. 1 baño 44 m² Reservas e inqui",
+    "text": "1 /13 Nuevo PREMIUM 1.097 € /mes Piso en Eixample Eixample (Barcelona Capital) 1 hab. 1 baño 44 m² Reservas e inquietudes Tipo de alojamiento - alojamiento entero Términos y condic",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
