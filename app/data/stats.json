@@ -1,14 +1,12 @@
 {
-  "sites_read": 108,
+  "sites_read": 110,
   "sites_total": 128,
   "slow": [
-    "Finques Bou",
     "Fincador",
+    "Orfinca",
     "GUMPER",
     "Fincas San Andrés",
-    "Loca Barcelona",
     "ShBarcelona",
-    "Fincas García",
-    "Carbonell (Admón. Fincas)"
+    "Fincas García"
   ]
 }
