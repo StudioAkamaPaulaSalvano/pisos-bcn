@@ -99,17 +99,6 @@
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
   {
-    "url": "https://www.pisos.com/alquilar/piso-el_congres_els_indians08027-63378468377_530867/",
-    "price": 850,
-    "rooms": 1,
-    "kind": "piso",
-    "title": "Piso en Carrer de Puerto Príncipe",
-    "img": "https://fotos.imghs.net/mm-wp/530867/63378468377.530867/530867_63378468377_b909d67a-d00e-4a8c-ba9a-57b51b7aac01.jpg",
-    "text": "1 /6 PREMIUM 850 € /mes Piso en Carrer de Puerto Príncipe El Congrés-Els Indians (Distrito Sant Andreu. Barcelona Capital) 1 hab. 1 baño 42 m² 2ª planta Ubicado en la zona de campo",
-    "agency": "pisos.com",
-    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
-  },
-  {
     "url": "https://www.pisos.com/alquilar/estudio-la_maternitat_sant_ramon08028-53355782706_104700/",
     "price": 850,
     "rooms": null,
@@ -285,6 +274,17 @@
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
   {
+    "url": "https://www.pisos.com/alquilar/piso-la_dreta_de_eixample08037-68379679303_535495/",
+    "price": 1000,
+    "rooms": 1,
+    "kind": "piso",
+    "title": "Piso en Carrer de Mallorca",
+    "img": "https://fotos.imghs.net/mm-wp/535495/68379679303.535495/535495_68379679303_b1db5ae8-8dc6-433d-8569-04de6d477d7f.jpg",
+    "text": "1 /22 Nuevo PREMIUM 1.000 € /mes Piso en Carrer de Mallorca La Dreta de l'Eixample (Distrito Eixample. Barcelona Capital) 1 hab. 1 baño 73 m² 1ª planta Este acogedor apartamento de",
+    "agency": "pisos.com",
+    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
+  },
+  {
     "url": "https://www.pisos.com/alquilar/piso-el_raval-68396161514_104700/",
     "price": 1000,
     "rooms": 2,
@@ -349,17 +349,6 @@
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
   {
-    "url": "https://www.pisos.com/alquilar/piso-el_barri_gotic08002-67586923420_109200/",
-    "price": 1079,
-    "rooms": null,
-    "kind": "piso",
-    "title": "Piso en El Barri Gòtic",
-    "img": "https://fotos.imghs.net/mm-wp/1092/3230323631303036/82b1e66a-8425-4819-bcc4-135f7f128dc6.jpg",
-    "text": "1 /6 PREMIUM 1.079 € /mes Piso en El Barri Gòtic El Barri Gòtic (Distrito Ciutat Vella. Barcelona Capital) 50 m² 🏡 independent studio in mezzanine with bathroom and private kitchen",
-    "agency": "pisos.com",
-    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
-  },
-  {
     "url": "https://www.pisos.com/alquilar/casa-el_besos_el_maresme08019-55847835456_109200/",
     "price": 1085,
     "rooms": null,
@@ -393,24 +382,24 @@
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
   {
-    "url": "https://toysanfinques.com/es/inmuebles/piso-en-alquiler-en-calle-de-deu-i-mata/",
+    "url": "https://www.pisos.com/alquilar/piso-la_dreta_de_eixample08009-68430123189_535495/",
     "price": 1100,
-    "rooms": 1,
+    "rooms": 3,
     "kind": "piso",
-    "title": "+ info",
-    "img": "https://toysanfinques.com/wp-content/uploads/2023/12/4.jpg",
-    "text": "alquiler 1.100 €/mes Piso en alquiler en calle Déu i Mata Barcelona · Les Corts 60 m 2 1 hab. 1 baño",
-    "agency": "Toysan Finques",
-    "rent_url": "https://toysanfinques.com/es/inmuebles/?transaction_type=lloguer&property__type=property"
+    "title": "Piso en Passeig Sant Joan",
+    "img": "https://fotos.imghs.net/mm-wp/535495/68430123189.535495/535495_68430123189_5864d3ab-bb0c-4282-98ef-435d99bf80fa.jpg",
+    "text": "1 /22 Nuevo PREMIUM 1.100 € /mes Piso en Passeig Sant Joan La Dreta de l'Eixample (Distrito Eixample. Barcelona Capital) 3 habs. 1 baño 90 m² 1ª planta Este piso en alquiler situad",
+    "agency": "pisos.com",
+    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
   {
-    "url": "https://www.pisos.com/alquilar/atico-el_raval08001-64249106130_530867/",
+    "url": "https://www.pisos.com/alquilar/piso-sant_pere_santa_caterina_la_ribera08003-68404887271_535495/",
     "price": 1100,
     "rooms": 1,
     "kind": "piso",
-    "title": "Ático en Carrer de l'Hospital",
-    "img": "https://fotos.imghs.net/mm-wp/530867/64249106130.530867/530867_64249106130_27762a0e-d0f3-456e-bc57-507d9e9c01a5.jpg",
-    "text": "1 /6 PREMIUM 1.100 € /mes Ático en Carrer de l'Hospital El Raval (Distrito Ciutat Vella. Barcelona Capital) 1 hab. 1 baño 50 m² Ubicado en una finca con carácter en pleno corazón d",
+    "title": "Piso en Passatge de Sant Benet",
+    "img": "https://fotos.imghs.net/mm-wp/535495/68404887271.535495/535495_68404887271_006e691c-bc91-4ba0-bc12-99f7f430918a.jpg",
+    "text": "1 /23 Nuevo PREMIUM 1.100 € /mes Piso en Passatge de Sant Benet Sant Pere-Santa Caterina-La Ribera (Distrito Ciutat Vella. Barcelona Capital) 1 hab. 1 baño 78 m² Bajo Este acogedor",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
