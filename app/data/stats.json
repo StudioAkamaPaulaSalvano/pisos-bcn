@@ -1,10 +1,12 @@
 {
-  "sites_read": 116,
+  "sites_read": 109,
   "sites_total": 128,
   "slow": [
     "Fincador",
+    "Orfinca",
     "GUMPER",
     "Loca Barcelona",
-    "ShBarcelona"
+    "ShBarcelona",
+    "Carbonell (Admón. Fincas)"
   ]
 }
