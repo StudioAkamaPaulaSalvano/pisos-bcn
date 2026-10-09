@@ -1,5 +1,5 @@
 {
-  "sites_read": 107,
+  "sites_read": 105,
   "sites_total": 128,
   "slow": [
     "Fincador",
@@ -7,6 +7,9 @@
     "Fincas San Andrés",
     "Loca Barcelona",
     "ShBarcelona",
+    "DonCasa",
+    "Carbonell (Admón. Fincas)",
+    "Inmobiliaria Diagonal Mar",
     "VM3 Fincas",
     "Euro-Horta"
   ]
