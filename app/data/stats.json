@@ -1,11 +1,14 @@
 {
-  "sites_read": 110,
+  "sites_read": 108,
   "sites_total": 128,
   "slow": [
     "Fincador",
     "GUMPER",
     "Fincas San Andrés",
+    "Finques Hosta",
     "Loca Barcelona",
-    "ShBarcelona"
+    "ShBarcelona",
+    "Carbonell (Admón. Fincas)",
+    "BarnaPiso"
   ]
 }
