@@ -1,14 +1,16 @@
 {
-  "sites_read": 113,
+  "sites_read": 112,
   "sites_total": 128,
   "slow": [
+    "BÜNIK home",
     "Fincador",
+    "Fincas Blanco",
     "GUMPER",
-    "West Side Barcelona",
+    "Diana Finques",
     "Fincas San Andrés",
+    "Finques Vives",
     "Loca Barcelona",
     "ShBarcelona",
-    "DonCasa",
-    "Inmobiliaria Diagonal Mar"
+    "Finques Mixoy"
   ]
 }
