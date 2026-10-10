@@ -1,11 +1,12 @@
 {
-  "sites_read": 115,
+  "sites_read": 111,
   "sites_total": 128,
   "slow": [
+    "Finques Martell",
     "Fincador",
     "GUMPER",
-    "donpiso (Poblenou)",
     "Fincas San Andrés",
-    "ShBarcelona"
+    "ShBarcelona",
+    "Immollar"
   ]
 }
