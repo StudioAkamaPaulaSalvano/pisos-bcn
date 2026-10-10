@@ -1,16 +1,5 @@
 [
   {
-    "url": "https://barnapiso.com/es/vivienda/propiedad-en-las-cortes-4/",
-    "price": 425,
-    "rooms": null,
-    "kind": "piso",
-    "title": "Propiedad en Les Corts",
-    "img": "https://barnapiso.com/wp-content/uploads/2024/11/1231744428-scaled.jpg",
-    "text": "Propiedad en Les Corts Precio Alquiler: 425 € de San Ramón Nonato m2 construidos habitaciones baños",
-    "agency": "BarnaPiso",
-    "rent_url": "https://barnapiso.com/es/propiedades-disponibles-barcelona/"
-  },
-  {
     "url": "https://finqueselpallars.com/piso-en-alquiler-les-corts-barcelona/",
     "price": 500,
     "rooms": null,
@@ -50,7 +39,18 @@
     "kind": "piso",
     "title": "Piso en Carrer de Castellbell",
     "img": "https://fotos.imghs.net/mm-wp/501025/455282422.501025/501025_455282422_18c43837-5132-45ea-a416-b4f4470eba19.jpg",
-    "text": "1 /24 TOP Exclusivo 800 € /mes Piso en Carrer de Castellbell Sant Andreu (Distrito Sant Andreu. Barcelona Capital) 1 hab. 1 baño 55 m² 2ª planta C/ castellbell Informacion importan",
+    "text": "1 /24 Nuevo TOP Exclusivo 800 € /mes Piso en Carrer de Castellbell Sant Andreu (Distrito Sant Andreu. Barcelona Capital) 1 hab. 1 baño 55 m² 2ª planta C/ castellbell Informacion im",
+    "agency": "pisos.com",
+    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
+  },
+  {
+    "url": "https://www.pisos.com/alquilar/estudio-el_camp_en_grassot_gracia_nova08025-68407959673_995161/",
+    "price": 800,
+    "rooms": 1,
+    "kind": "piso",
+    "title": "Estudio en Carrer d'En Grassot",
+    "img": "https://fotos.imghs.net/mm-wp/995161/68407959673.995161/995161_68407959673_89705dfd-6585-4675-b3fd-f5e43ded9152.jpg",
+    "text": "1 /9 Nuevo PREMIUM 800 € /mes Estudio en Carrer d'En Grassot El Camp d'en Grassot-Gràcia Nova (Distrito Gràcia. Barcelona Capital) 1 hab. 1 baño 30 m² Ubicación privilegiada en el ",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
@@ -137,18 +137,7 @@
     "kind": "piso",
     "title": "Piso en Passatge d'Isabel Ribó",
     "img": "https://fotos.imghs.net/mm-wp/501025/550364848.501025/501025_550364848_6b3a75df-e935-4f2c-b8bc-26516383732a.jpg",
-    "text": "1 /14 TOP Exclusivo 910 € /mes Piso en Passatge d'Isabel Ribó Sant Andreu (Distrito Sant Andreu. Barcelona Capital) 1 hab. 1 baño 62 m² Bajo Disponible 31/12/2026 informacion impor",
-    "agency": "pisos.com",
-    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
-  },
-  {
-    "url": "https://www.pisos.com/alquilar/piso-sant_andreu_barrio08030-806818472_501025/",
-    "price": 912,
-    "rooms": 2,
-    "kind": "piso",
-    "title": "Piso en Carrer del Segre",
-    "img": "https://fotos.imghs.net/mm-wp/501025/806818472.501025/501025_806818472_2c5fb80f-14ec-492e-8614-1e141fea98cf.jpg",
-    "text": "1 /21 TOP 912 € /mes Piso en Carrer del Segre Sant Andreu (Distrito Sant Andreu. Barcelona Capital) 2 habs. 1 baño 68 m² 5ª planta Piso de 68 metros construidos, 60 metros útiles c",
+    "text": "1 /14 Nuevo TOP Exclusivo 910 € /mes Piso en Passatge d'Isabel Ribó Sant Andreu (Distrito Sant Andreu. Barcelona Capital) 1 hab. 1 baño 62 m² Bajo Disponible 31/12/2026 informacion",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
@@ -228,17 +217,6 @@
     "text": "Disponible a partir de 30-09-2026 Doctor Santpoç / Sant Andreu 1000€ € / mes Sant Andreu · Barcelona 2 hab · 50 m2",
     "agency": "Serviguest",
     "rent_url": "https://serviguest.com/alquiler-de-pisos-para-empresas/madrid/"
-  },
-  {
-    "url": "https://barnapiso.com/es/vivienda/propiedad-en-sants-montjuic/",
-    "price": 1000,
-    "rooms": null,
-    "kind": "piso",
-    "title": "Propiedad en Sants-Montjuïc",
-    "img": "https://barnapiso.com/wp-content/uploads/2024/11/989391816.jpg",
-    "text": "Propiedad en Sants-Montjuïc Precio Alquiler: 1000 € de Sugranyes m2 construidos habitaciones baños",
-    "agency": "BarnaPiso",
-    "rent_url": "https://barnapiso.com/es/propiedades-disponibles-barcelona/"
   },
   {
     "url": "https://www.pisos.com/alquilar/apartamento-sant_pere_santa_caterina_la_ribera08003-64206819507_530867/",
