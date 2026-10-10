@@ -1,11 +1,11 @@
 {
-  "sites_read": 116,
+  "sites_read": 115,
   "sites_total": 128,
   "slow": [
     "Fincador",
     "GUMPER",
+    "donpiso (Poblenou)",
     "Fincas San Andrés",
-    "ShBarcelona",
-    "Carbonell (Admón. Fincas)"
+    "ShBarcelona"
   ]
 }
