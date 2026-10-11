@@ -1,27 +1,11 @@
 {
-  "sites_read": 115,
+  "sites_read": 111,
   "sites_total": 128,
   "slow": [
-    "Cafur Serveis Immobiliaris",
-    "Fincas Gràcia (femgracia)",
-    "Casc Antic BCN",
     "Fincador",
-    "AFB Finques Gràcia",
-    "inmho Barcelona",
-    "Selekta Properties",
-    "Withfor",
     "GUMPER",
-    "Finques El Pallars",
-    "Fincas San Andrés",
-    "InmoGràcia",
-    "Inmobiliaria González Hellín",
+    "Loca Barcelona",
     "ShBarcelona",
-    "Gala Finques",
-    "Fincas Azcoitia",
-    "VM3 Fincas",
-    "Finques Querol",
-    "Finques Catalonia",
-    "Market House",
-    "Inmobiliaria Diagonal Mar"
+    "Gala Finques"
   ]
 }
