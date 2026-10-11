@@ -327,6 +327,28 @@
     "rent_url": "https://www.locabarcelona.com/en/property-feature/features/furnished/"
   },
   {
+    "url": "https://www.pisos.com/alquilar/piso-el_barri_gotic08002-67586923420_109200/",
+    "price": 1079,
+    "rooms": null,
+    "kind": "piso",
+    "title": "Piso en El Barri Gòtic",
+    "img": "https://fotos.imghs.net/mm-wp/1092/3230323631303036/82b1e66a-8425-4819-bcc4-135f7f128dc6.jpg",
+    "text": "1 /6 PREMIUM 1.079 € /mes Piso en El Barri Gòtic El Barri Gòtic (Distrito Ciutat Vella. Barcelona Capital) 50 m² 🏡 independent studio in mezzanine with bathroom and private kitchen",
+    "agency": "pisos.com",
+    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
+  },
+  {
+    "url": "https://www.pisos.com/alquilar/casa-el_besos_el_maresme08019-55847835456_109200/",
+    "price": 1085,
+    "rooms": null,
+    "kind": "piso",
+    "title": "Casa en El Besòs-El Maresme",
+    "img": "https://fotos.imghs.net/mm-wp/1092/3230323631303036/dbeb8ed4-be0b-4ecb-a2fa-e144c3874896.jpg",
+    "text": "1 /10 PREMIUM 1.085 € /mes Casa en El Besòs-El Maresme El Besòs-El Maresme (Distrito Sant Martí. Barcelona Capital) 🎓 student residence in barcelona with pool and gym!! 🏋️‍♂️🏊‍♀️ U",
+    "agency": "pisos.com",
+    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
+  },
+  {
     "url": "https://www.pisos.com/alquilar/piso-antiga_esquerra_de_eixample-68432323132_104700/",
     "price": 1097,
     "rooms": 1,
@@ -411,6 +433,28 @@
     "title": "Piso en El Raval",
     "img": "https://fotos.imghs.net/mm-wp/1092/3230323631303036/c0080e53-6002-4b52-a19f-020bf37015c8.jpg",
     "text": "1 /10 Nuevo PREMIUM 1.100 € /mes Piso en El Raval El Raval (Distrito Ciutat Vella. Barcelona Capital) 37 m² Ideal para estudiantes: Apartamento de 1 dormitorio totalmente equipado ",
+    "agency": "pisos.com",
+    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
+  },
+  {
+    "url": "https://www.pisos.com/alquilar/piso-sants_montjuic_sants08028-67527029429_109200/",
+    "price": 1100,
+    "rooms": null,
+    "kind": "piso",
+    "title": "Piso en Sants",
+    "img": "https://fotos.imghs.net/mm-wp/1092/3230323631303036/fd3b3b3e-65e7-4a5c-aae8-557b7dc93615.jpg",
+    "text": "1 /5 PREMIUM 1.100 € /mes Piso en Sants Sants (Distrito Sants-Montjuïc. Barcelona Capital) 40 m² Estudio reformado con una zona de estar luminosa. Estarás justo en el centro de la ",
+    "agency": "pisos.com",
+    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
+  },
+  {
+    "url": "https://www.pisos.com/alquilar/piso-el_raval08001-65902574462_109800/",
+    "price": 1100,
+    "rooms": 1,
+    "kind": "piso",
+    "title": "Piso en Carrer del Tigre, 12",
+    "img": "https://fotos.imghs.net/mm-wp/1098/5814356/1098_1_foto_20260701131016833_65902574462.jpg",
+    "text": "1 /24 1.100 € /mes Piso en Carrer del Tigre, 12 El Raval (Distrito Ciutat Vella. Barcelona Capital) 1 hab. 1 baño 32 m² 2ª planta Ideal para estudiantes: Apartamento de 1 dormitori",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   }
