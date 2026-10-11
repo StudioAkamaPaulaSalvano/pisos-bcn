@@ -1,27 +1,11 @@
 {
-  "sites_read": 114,
+  "sites_read": 116,
   "sites_total": 128,
   "slow": [
-    "AFB Finques Gràcia",
-    "Immobiliària Sant Martí",
-    "Core Barcelona",
     "Fincador",
-    "Finor BCN",
-    "Orfinca",
-    "Chester Estate",
     "GUMPER",
-    "Destinocasa",
-    "Finques Chicote",
-    "Gaudí House",
-    "ImmoBarceló",
-    "donpiso (Poblenou)",
-    "ShBarcelona",
     "Fincas San Andrés",
-    "Fincas García",
-    "VM3 Fincas",
-    "Finques Catalonia",
-    "Inmobiliaria Diagonal Mar",
-    "Carbonell (Admón. Fincas)",
-    "Gabinet Gorriz-Arias"
+    "ShBarcelona",
+    "Fincas García"
   ]
 }
