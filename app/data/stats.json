@@ -1,17 +1,14 @@
 {
-  "sites_read": 108,
+  "sites_read": 110,
   "sites_total": 128,
   "slow": [
     "Fincador",
+    "Vivendex",
     "AFB Finques Gràcia",
     "GUMPER",
-    "Urbefinques",
     "Fincas San Andrés",
     "Loca Barcelona",
     "ShBarcelona",
-    "Atemporal Barcelona",
-    "Gala Finques",
-    "VM3 Fincas",
-    "aProperties"
+    "Gala Finques"
   ]
 }
