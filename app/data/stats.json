@@ -1,12 +1,14 @@
 {
-  "sites_read": 109,
+  "sites_read": 115,
   "sites_total": 128,
   "slow": [
+    "Guinot Prunera",
     "Fincador",
-    "Orfinca",
     "AFB Finques Gràcia",
     "GUMPER",
     "Fincas San Andrés",
-    "ShBarcelona"
+    "Loca Barcelona",
+    "ShBarcelona",
+    "Gala Finques"
   ]
 }
