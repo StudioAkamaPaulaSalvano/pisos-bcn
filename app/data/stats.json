@@ -1,13 +1,14 @@
 {
-  "sites_read": 111,
+  "sites_read": 113,
   "sites_total": 128,
   "slow": [
     "Fincador",
-    "AFB Finques Gràcia",
-    "GUMPER",
+    "Orfinca",
     "Fincas San Andrés",
+    "Finques Hosta",
     "Loca Barcelona",
     "ShBarcelona",
-    "Gala Finques"
+    "Fincas García",
+    "BarnaPiso"
   ]
 }
