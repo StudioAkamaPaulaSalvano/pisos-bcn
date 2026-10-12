@@ -77,17 +77,6 @@
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
   {
-    "url": "https://www.pisos.com/alquilar/piso-la_prosperitat-68412190334_109200/",
-    "price": 810,
-    "rooms": 3,
-    "kind": "piso",
-    "title": "Piso en Nou Barris",
-    "img": "https://fotos.imghs.net/mm-wp/1092/3230323631303132/71762835-03eb-4b84-8d5f-303d2bc4c659.jpg",
-    "text": "1 /17 Nuevo PREMIUM 810 € /mes Piso en Nou Barris La Prosperitat (Distrito Nou Barris. Barcelona Capital) 3 habs. 1 baño 54 m² 3ª planta Piso de 54m² construidos. Dispone de 3 habi",
-    "agency": "pisos.com",
-    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
-  },
-  {
     "url": "https://www.pisos.com/alquilar/estudio-eixample_sant_antoni08011-63382254620_530867/",
     "price": 820,
     "rooms": null,
@@ -186,6 +175,17 @@
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
   {
+    "url": "https://www.pisos.com/alquilar/piso-el_fort_pienc08013-68385192828_109800/",
+    "price": 950,
+    "rooms": 2,
+    "kind": "piso",
+    "title": "Piso en Carrer de Sicília, 230",
+    "img": "https://fotos.imghs.net/mm-wp/1098/6018851/1098_0_foto_20261001193847629_68385192828.png",
+    "text": "1 /6 Nuevo 950 € /mes Piso en Carrer de Sicília, 230 El Fort Pienc (Distrito Eixample. Barcelona Capital) 2 habs. 1 baño 57 m² 2ª planta Descubre este hermoso apartamento, diseñado",
+    "agency": "pisos.com",
+    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
+  },
+  {
     "url": "https://www.locabarcelona.com/en/property/ad-2-double-bedrooms-apartment-for-rent/",
     "price": 964,
     "rooms": 1,
@@ -259,17 +259,6 @@
     "title": "Apartamento en Carrer del Rec",
     "img": "https://fotos.imghs.net/mm-wp/530867/64206819507.530867/530867_64206819507_7bab86d1-371e-4c00-aeb0-aae957beb539.jpg",
     "text": "1 /13 PREMIUM 1.000 € /mes Apartamento en Carrer del Rec Sant Pere-Santa Caterina-La Ribera (Distrito Ciutat Vella. Barcelona Capital) 1 hab. 1 baño 45 m² 2ª planta Ubicado en el c",
-    "agency": "pisos.com",
-    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
-  },
-  {
-    "url": "https://www.pisos.com/alquilar/piso-el_raval-54229758046_104700/",
-    "price": 1000,
-    "rooms": 2,
-    "kind": "piso",
-    "title": "Piso en El Raval",
-    "img": "https://fotos.imghs.net/mm-wp/1047/912/1047_65912_1_2025050609050581192.jpg",
-    "text": "1 /13 PREMIUM 1.000 € /mes Piso en El Raval El Raval (Distrito Ciutat Vella. Barcelona Capital) 2 habs. 1 baño 45 m² Reservas e inquietudes Tipo de alojamiento - alojamiento entero",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
