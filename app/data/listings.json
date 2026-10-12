@@ -143,6 +143,16 @@
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
   {
+    "url": "https://inmobiliaria.calvetpremium.com/es/alquiler-pisos-pisos/en-barcelona-barcelona//ref-4152",
+    "price": 893,
+    "rooms": 2,
+    "kind": "piso",
+    "title": "Calle Cartagena | Ref: 4152",
+    "img": "https://media.mobiliagestion.es/Portals/inmocalvet/Images/4152/28586997-large.jpg",
+    "text": " Calle Cartagena | Ref: 4152 PDCookieConsent.config({ \"brand\": { \"dev\" : false, \"name\": \"\", \"url\" : \"\" }, \"cookiePolicyLink\": \"\", \"passList\" : [], \"showBadges\" : true, \"styles\": { ",
+    "agency": "Calvet"
+  },
+  {
     "url": "https://www.pisos.com/alquilar/piso-sant_andreu_barrio08030-550364848_501025/",
     "price": 910,
     "rooms": 1,
@@ -260,6 +270,16 @@
     "title": "VIA AUGUSTA / PL. MOLINA | Ref: 4156",
     "img": "https://media.mobiliagestion.es/Portals/inmocalvet/Images/4156/28659848-large.jpg",
     "text": " VIA AUGUSTA / PL. MOLINA | Ref: 4156 PDCookieConsent.config({ \"brand\": { \"dev\" : false, \"name\": \"\", \"url\" : \"\" }, \"cookiePolicyLink\": \"\", \"passList\" : [], \"showBadges\" : true, \"st",
+    "agency": "Calvet"
+  },
+  {
+    "url": "https://inmobiliaria.calvetpremium.com/es/alquiler-pisos-pisos/en-barcelona-barcelona//ref-4143",
+    "price": 1000,
+    "rooms": 1,
+    "kind": "piso",
+    "title": "Petritxol - Plaça del Pi | Ref: 4143",
+    "img": "https://media.mobiliagestion.es/Portals/inmocalvet/Images/4143/28555170-large.jpg",
+    "text": " Petritxol - Plaça del Pi | Ref: 4143 PDCookieConsent.config({ \"brand\": { \"dev\" : false, \"name\": \"\", \"url\" : \"\" }, \"cookiePolicyLink\": \"\", \"passList\" : [], \"showBadges\" : true, \"st",
     "agency": "Calvet"
   },
   {
