@@ -1,17 +1,12 @@
 {
-  "sites_read": 108,
+  "sites_read": 116,
   "sites_total": 128,
   "slow": [
     "Fincador",
     "AFB Finques Gràcia",
     "GUMPER",
-    "West Side Barcelona",
     "Fincas San Andrés",
-    "Loca Barcelona",
     "ShBarcelona",
-    "Gala Finques",
-    "DonCasa",
-    "Carbonell (Admón. Fincas)",
-    "Inmobiliaria Diagonal Mar"
+    "Gala Finques"
   ]
 }
