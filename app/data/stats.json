@@ -1,15 +1,13 @@
 {
-  "sites_read": 117,
+  "sites_read": 108,
   "sites_total": 128,
   "slow": [
     "Fincador",
+    "Orfinca",
     "GUMPER",
+    "Finques Hosta",
+    "Loca Barcelona",
     "ShBarcelona",
-    "Rentmar",
-    "Immollar",
-    "Segermar Associats",
-    "CasaBlau",
-    "Tu Piso Nou Barris",
     "BarnaPiso"
   ]
 }
