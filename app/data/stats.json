@@ -1,10 +1,11 @@
 {
-  "sites_read": 114,
+  "sites_read": 113,
   "sites_total": 128,
   "slow": [
+    "Fincas Blanco",
     "Fincador",
     "GUMPER",
-    "Loca Barcelona",
+    "Fincas San Andrés",
     "ShBarcelona",
     "VM3 Fincas"
   ]
