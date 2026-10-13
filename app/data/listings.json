@@ -33,6 +33,17 @@
     "rent_url": "https://finquesmartell.com/inmuebles"
   },
   {
+    "url": "https://www.pisos.com/alquilar/piso-la_marina_del_port_parc_de_montjuic08038-68393979487_109200/",
+    "price": 700,
+    "rooms": null,
+    "kind": "piso",
+    "title": "Piso en La Marina del Port-Parc de Montjuïc",
+    "img": "https://fotos.imghs.net/mm-wp/1092/3230323631303133/b6c5c5cf-5dac-440c-89ff-3cccf6563853.jpg",
+    "text": "1 /10 Nuevo PREMIUM 700 € /mes Piso en La Marina del Port-Parc de Montjuïc La Marina del Port-Parc de Montjuïc (Distrito Sants-Montjuïc. Barcelona Capital) 90 m² Your private barce",
+    "agency": "pisos.com",
+    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
+  },
+  {
     "url": "https://www.pisos.com/alquilar/piso-sant_andreu_barrio08030-455282422_501025/",
     "price": 800,
     "rooms": 1,
@@ -316,6 +327,17 @@
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
   {
+    "url": "https://www.pisos.com/alquilar/piso-el_besos_el_maresme08019-68408660268_109200/",
+    "price": 1050,
+    "rooms": null,
+    "kind": "piso",
+    "title": "Piso en El Besòs-El Maresme",
+    "img": "https://fotos.imghs.net/mm-wp/1092/3230323631303130/621e63eb-fa69-4c3b-aeb3-12d61437d4dd.jpg",
+    "text": "1 /5 Nuevo PREMIUM 1.050 € /mes Piso en El Besòs-El Maresme El Besòs-El Maresme (Distrito Sant Martí. Barcelona Capital) 25 m² Studio for rent – 25 m² – 1 bathroom Temporary rental",
+    "agency": "pisos.com",
+    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
+  },
+  {
     "url": "https://www.locabarcelona.com/en/property/beautiful-3-bedroom-apartment-for-rent-2/",
     "price": 1057,
     "rooms": 3,
@@ -389,17 +411,6 @@
     "title": "Estudio en El Fort Pienc",
     "img": "https://fotos.imghs.net/mm-wp/1047/3230323630353037/3ee5d1fc-9df9-4b0e-9c9c-e37dfb44a332.jpg",
     "text": "1 /18 PREMIUM 1.100 € /mes Estudio en El Fort Pienc El Fort Pienc (Distrito Eixample. Barcelona Capital) 1 baño 18 m² Reservas e inquietudes Tipo de alojamiento - alojamiento enter",
-    "agency": "pisos.com",
-    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
-  },
-  {
-    "url": "https://www.pisos.com/alquilar/piso-sants_montjuic_hostafrancs08014-68378677671_109200/",
-    "price": 1100,
-    "rooms": null,
-    "kind": "piso",
-    "title": "Piso en Hostafrancs",
-    "img": "https://fotos.imghs.net/mm-wp/1092/3230323631303036/50ac72d2-6f89-40fa-b03d-530e5e010032.jpg",
-    "text": "1 /10 Nuevo PREMIUM 1.100 € /mes Piso en Hostafrancs Hostafrancs (Distrito Sants-Montjuïc. Barcelona Capital) 25 m² 🏡 one-of-a-kind studio in barcelona! Live in this outstanding st",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
