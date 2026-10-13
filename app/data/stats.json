@@ -1,12 +1,15 @@
 {
-  "sites_read": 108,
+  "sites_read": 110,
   "sites_total": 128,
   "slow": [
     "Fincador",
+    "Vivendex",
+    "Casc Antic BCN",
     "GUMPER",
     "Fincas San Andrés",
-    "Forcadell",
+    "Loca Barcelona",
     "ShBarcelona",
+    "Fincas García",
     "Finques Giramon"
   ]
 }
