@@ -1,14 +1,16 @@
 {
-  "sites_read": 114,
+  "sites_read": 108,
   "sites_total": 128,
   "slow": [
     "Fincador",
-    "Urbane International",
-    "Casc Antic BCN",
+    "Cafur Serveis Immobiliaris",
     "GUMPER",
-    "West Side Barcelona",
+    "Fincas San Andrés",
+    "Urbefinques",
     "Loca Barcelona",
     "ShBarcelona",
-    "Inmobiliaria González Hellín"
+    "Atemporal Barcelona",
+    "VM3 Fincas",
+    "aProperties"
   ]
 }
