@@ -1,17 +1,10 @@
 {
-  "sites_read": 106,
+  "sites_read": 110,
   "sites_total": 128,
   "slow": [
-    "BÜNIK home",
     "Fincador",
-    "Fincas Blanco",
-    "Selekta Properties",
     "GUMPER",
-    "Diana Finques",
-    "Finques Vives",
     "Loca Barcelona",
-    "ShBarcelona",
-    "VM3 Fincas",
-    "Finques Mixoy"
+    "ShBarcelona"
   ]
 }
