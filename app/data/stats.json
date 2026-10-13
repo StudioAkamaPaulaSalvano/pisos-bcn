@@ -1,12 +1,15 @@
 {
-  "sites_read": 110,
+  "sites_read": 108,
   "sites_total": 128,
   "slow": [
     "Fincador",
     "Selekta Properties",
+    "Orfinca",
     "GUMPER",
     "Fincas San Andrés",
+    "Finques El Pallars",
     "Loca Barcelona",
-    "ShBarcelona"
+    "ShBarcelona",
+    "VM3 Fincas"
   ]
 }
