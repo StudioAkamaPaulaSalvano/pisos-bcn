@@ -1,10 +1,18 @@
 {
-  "sites_read": 110,
+  "sites_read": 104,
   "sites_total": 128,
   "slow": [
     "Fincador",
+    "Withfor",
     "GUMPER",
+    "Nitia",
+    "Finques Hosta",
+    "Finques TEBÉ",
+    "Ilive Barcelona",
     "Loca Barcelona",
-    "ShBarcelona"
+    "Serviguest",
+    "ShBarcelona",
+    "Fincas García",
+    "BarnaPiso"
   ]
 }
