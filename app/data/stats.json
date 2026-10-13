@@ -1,16 +1,15 @@
 {
-  "sites_read": 108,
+  "sites_read": 109,
   "sites_total": 128,
   "slow": [
+    "Vivendex",
     "Fincador",
-    "Cafur Serveis Immobiliaris",
+    "Urbane International",
+    "Casc Antic BCN",
     "GUMPER",
-    "Fincas San Andrés",
-    "Urbefinques",
+    "Toysan Finques",
     "Loca Barcelona",
     "ShBarcelona",
-    "Atemporal Barcelona",
-    "VM3 Fincas",
-    "aProperties"
+    "Market House"
   ]
 }
