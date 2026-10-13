@@ -1,13 +1,15 @@
 {
-  "sites_read": 111,
+  "sites_read": 113,
   "sites_total": 128,
   "slow": [
+    "Finques Bou",
     "Fincador",
-    "Urbane International",
-    "Casc Antic BCN",
     "GUMPER",
+    "West Side Barcelona",
+    "Fincas San Andrés",
+    "Loca Barcelona",
     "ShBarcelona",
-    "Carbonell (Admón. Fincas)",
-    "Inmobiliaria González Hellín"
+    "DonCasa",
+    "Inmobiliaria Diagonal Mar"
   ]
 }
