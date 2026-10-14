@@ -1,12 +1,10 @@
 {
-  "sites_read": 110,
+  "sites_read": 106,
   "sites_total": 128,
   "slow": [
     "Fincador",
-    "GUMPER",
-    "Fincas San Andrés",
+    "Cleries Administració",
     "Loca Barcelona",
-    "ShBarcelona",
-    "Finques Catalonia"
+    "ShBarcelona"
   ]
 }
