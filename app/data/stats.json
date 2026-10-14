@@ -1,9 +1,10 @@
 {
-  "sites_read": 110,
+  "sites_read": 107,
   "sites_total": 128,
   "slow": [
-    "Fincas Almendros",
     "Fincador",
+    "GUMPER",
+    "Dux Grupo Inmobiliario",
     "Loca Barcelona",
     "ShBarcelona"
   ]
