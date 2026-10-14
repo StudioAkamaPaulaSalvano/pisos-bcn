@@ -1,16 +1,13 @@
 {
-  "sites_read": 108,
+  "sites_read": 110,
   "sites_total": 128,
   "slow": [
     "Fincador",
+    "Selekta Properties",
+    "AFB Finques Gràcia",
     "GUMPER",
-    "Dux Grupo Inmobiliario",
-    "Urbefinques",
-    "Fincas San Andrés",
     "Loca Barcelona",
     "ShBarcelona",
-    "Atemporal Barcelona",
-    "VM3 Fincas",
-    "aProperties"
+    "Carbonell (Admón. Fincas)"
   ]
 }
