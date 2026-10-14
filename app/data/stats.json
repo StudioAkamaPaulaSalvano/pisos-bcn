@@ -1,11 +1,10 @@
 {
-  "sites_read": 107,
+  "sites_read": 115,
   "sites_total": 128,
   "slow": [
     "Fincador",
-    "GUMPER",
-    "Dux Grupo Inmobiliario",
-    "Loca Barcelona",
-    "ShBarcelona"
+    "ShBarcelona",
+    "Fincas García",
+    "Carbonell (Admón. Fincas)"
   ]
 }
