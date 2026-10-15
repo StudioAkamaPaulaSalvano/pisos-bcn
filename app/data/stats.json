@@ -1,10 +1,12 @@
 {
-  "sites_read": 108,
+  "sites_read": 105,
   "sites_total": 128,
   "slow": [
     "Fincador",
+    "AFB Finques Gràcia",
     "GUMPER",
-    "Loca Barcelona",
-    "ShBarcelona"
+    "Fincas San Andrés",
+    "ShBarcelona",
+    "Loca Barcelona"
   ]
 }
