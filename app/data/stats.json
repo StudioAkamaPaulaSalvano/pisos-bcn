@@ -1,12 +1,14 @@
 {
-  "sites_read": 111,
+  "sites_read": 108,
   "sites_total": 128,
   "slow": [
-    "Finques Bou",
     "Fincador",
+    "Orfinca",
     "AFB Finques Gràcia",
-    "Loca Barcelona",
+    "GUMPER",
     "ShBarcelona",
-    "Finques Giramon"
+    "Finques Giramon",
+    "DonCasa",
+    "Inmobiliaria Diagonal Mar"
   ]
 }
