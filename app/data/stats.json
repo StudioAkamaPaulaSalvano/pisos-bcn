@@ -1,12 +1,16 @@
 {
-  "sites_read": 109,
+  "sites_read": 111,
   "sites_total": 128,
   "slow": [
     "Fincador",
+    "Cafur Serveis Immobiliaris",
+    "Orfinca",
     "AFB Finques Gràcia",
+    "Fincas San Andrés",
     "Loca Barcelona",
     "ShBarcelona",
-    "Finques Giramon",
-    "Carbonell (Admón. Fincas)"
+    "Fincas Layes",
+    "VM3 Fincas",
+    "Ferrim Habitat"
   ]
 }
