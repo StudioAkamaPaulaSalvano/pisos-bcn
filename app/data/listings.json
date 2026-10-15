@@ -121,6 +121,17 @@
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
   {
+    "url": "https://www.pisos.com/alquilar/estudio-sants_montjuic-67578023277_104700/",
+    "price": 900,
+    "rooms": null,
+    "kind": "piso",
+    "title": "Estudio en Sants-Montjuïc",
+    "img": "https://fotos.imghs.net/mm-wp/1047/3230323630393034/b914a7c6-4afd-477c-8065-e615801d914f.jpg",
+    "text": "1 /14 PREMIUM 900 € /mes Estudio en Sants-Montjuïc Sants-Montjuïc (Barcelona Capital) 1 baño 25 m² Reservas e inquietudes Tipo de alojamiento - alojamiento entero Términos y condic",
+    "agency": "pisos.com",
+    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
+  },
+  {
     "url": "https://www.pisos.com/alquilar/piso-la_maternitat_sant_ramon-63343839529_530867/",
     "price": 925,
     "rooms": 1,
