@@ -1,16 +1,5 @@
 [
   {
-    "url": "https://barnapiso.com/es/vivienda/propiedad-en-las-cortes-4/",
-    "price": 425,
-    "rooms": null,
-    "kind": "piso",
-    "title": "Propiedad en Les Corts",
-    "img": "https://barnapiso.com/wp-content/uploads/2024/11/1231744428-scaled.jpg",
-    "text": "Propiedad en Les Corts Precio Alquiler: 425 € de San Ramón Nonato m2 construidos habitaciones baños",
-    "agency": "BarnaPiso",
-    "rent_url": "https://barnapiso.com/es/propiedades-disponibles-barcelona/"
-  },
-  {
     "url": "https://www.pisos.com/alquilar/piso-la_marina_del_port_parc_de_montjuic08038-68393979487_109200/",
     "price": 700,
     "rooms": null,
@@ -20,17 +9,6 @@
     "text": "1 /10 Nuevo PREMIUM 700 € /mes Piso en La Marina del Port-Parc de Montjuïc La Marina del Port-Parc de Montjuïc (Distrito Sants-Montjuïc. Barcelona Capital) 90 m² Your private barce",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
-  },
-  {
-    "url": "https://www.finquesmarba.com/ca/nova-llei-habitatge-espana/",
-    "price": 720,
-    "rooms": null,
-    "kind": "piso",
-    "title": "Llista de propietats",
-    "img": "https://www.finquesmarba.com/wp-content/uploads/2026/02/10544133_8-1-600x400.jpg",
-    "text": "Llista de propietats Les Tres Torres, Barcelona € 720 41.3962748 2.12730042 https://www.finquesmarba.com/wp-content/uploads/2026/02/10544133_8-1-150x100.jpg https://www.finquesmarb",
-    "agency": "Finques Marbá",
-    "rent_url": "https://www.finquesmarba.com/ca/lloguer"
   },
   {
     "url": "https://www.pisos.com/alquilar/piso-el_poble_sec08004-68337059758_109200/",
@@ -141,17 +119,6 @@
     "text": "Disponible a partir de 30-09-2026 Doctor Santpoç / Sant Andreu 1000€ € / mes Sant Andreu · Barcelona 2 hab · 50 m2",
     "agency": "Serviguest",
     "rent_url": "https://serviguest.com/alquiler-de-pisos-para-empresas/madrid/"
-  },
-  {
-    "url": "https://barnapiso.com/es/vivienda/propiedad-en-sants-montjuic/",
-    "price": 1000,
-    "rooms": null,
-    "kind": "piso",
-    "title": "Propiedad en Sants-Montjuïc",
-    "img": "https://barnapiso.com/wp-content/uploads/2024/11/989391816.jpg",
-    "text": "Propiedad en Sants-Montjuïc Precio Alquiler: 1000 € de Sugranyes m2 construidos habitaciones baños",
-    "agency": "BarnaPiso",
-    "rent_url": "https://barnapiso.com/es/propiedades-disponibles-barcelona/"
   },
   {
     "url": "https://inmobiliaria.calvetpremium.com/es/alquiler-pisos-pisos/en-barcelona-barcelona//ref-4143",
