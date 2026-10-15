@@ -1,12 +1,14 @@
 {
-  "sites_read": 109,
+  "sites_read": 107,
   "sites_total": 128,
   "slow": [
-    "Finques Bou",
     "Fincador",
+    "inmho Barcelona",
     "AFB Finques Gràcia",
     "Fincas San Andrés",
+    "Fincas Layes",
     "Loca Barcelona",
-    "ShBarcelona"
+    "ShBarcelona",
+    "Ferrim Habitat"
   ]
 }
