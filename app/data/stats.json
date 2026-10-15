@@ -1,13 +1,10 @@
 {
-  "sites_read": 110,
+  "sites_read": 114,
   "sites_total": 128,
   "slow": [
     "Fincador",
-    "Fincas San Andrés",
-    "AFI Finques",
-    "ShBarcelona",
     "Loca Barcelona",
-    "Finques Giramon",
-    "Carbonell (Admón. Fincas)"
+    "ShBarcelona",
+    "Finques Giramon"
   ]
 }
