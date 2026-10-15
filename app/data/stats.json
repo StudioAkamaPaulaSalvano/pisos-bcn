@@ -1,14 +1,17 @@
 {
-  "sites_read": 109,
+  "sites_read": 107,
   "sites_total": 128,
   "slow": [
     "Fincador",
-    "inmho Barcelona",
     "AFB Finques Gràcia",
+    "GUMPER",
+    "Urbefinques",
     "Fincas San Andrés",
     "Loca Barcelona",
     "ShBarcelona",
-    "Fincas Layes",
-    "Ferrim Habitat"
+    "Atemporal Barcelona",
+    "VM3 Fincas",
+    "Finques Giramon",
+    "aProperties"
   ]
 }
