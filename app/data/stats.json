@@ -1,12 +1,13 @@
 {
-  "sites_read": 111,
+  "sites_read": 110,
   "sites_total": 128,
   "slow": [
     "Fincador",
     "AFB Finques Gràcia",
     "Fincas San Andrés",
+    "Finques El Pallars",
     "Loca Barcelona",
     "ShBarcelona",
-    "Carbonell (Admón. Fincas)"
+    "Fincas García"
   ]
 }
