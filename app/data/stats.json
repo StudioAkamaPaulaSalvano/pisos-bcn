@@ -1,16 +1,10 @@
 {
-  "sites_read": 113,
+  "sites_read": 108,
   "sites_total": 128,
   "slow": [
     "Fincador",
-    "inmho Barcelona",
     "Orfinca",
-    "AFB Finques Gràcia",
-    "GUMPER",
-    "Fincas Gilser",
-    "Fincas San Andrés",
     "Loca Barcelona",
-    "ShBarcelona",
-    "Ferrim Habitat"
+    "ShBarcelona"
   ]
 }
