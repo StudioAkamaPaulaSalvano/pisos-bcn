@@ -1,21 +1,12 @@
 {
-  "sites_read": 99,
+  "sites_read": 112,
   "sites_total": 128,
   "slow": [
     "Fincador",
+    "Orfinca",
     "AFB Finques Gràcia",
-    "GUMPER",
-    "Finor BCN (Les Corts)",
-    "Fincas Cumbre",
     "Fincas San Andrés",
-    "Loca Barcelona",
     "ShBarcelona",
-    "Finques Perramon",
-    "Gala Finques",
-    "Finques Giramon",
-    "Ollé Bertran",
-    "Finques Querol",
-    "Tu Piso Nou Barris",
-    "Rentmar"
+    "Loca Barcelona"
   ]
 }
