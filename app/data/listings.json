@@ -33,6 +33,17 @@
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
   {
+    "url": "https://www.finquesmarba.com/ca/nova-llei-habitatge-espana/",
+    "price": 720,
+    "rooms": null,
+    "kind": "piso",
+    "title": "Llista de propietats",
+    "img": "https://www.finquesmarba.com/wp-content/uploads/2026/02/10544133_8-1-600x400.jpg",
+    "text": "Llista de propietats Les Tres Torres, Barcelona € 720 41.3962748 2.12730042 https://www.finquesmarba.com/wp-content/uploads/2026/02/10544133_8-1-150x100.jpg https://www.finquesmarb",
+    "agency": "Finques Marbá",
+    "rent_url": "https://www.finquesmarba.com/ca/lloguer"
+  },
+  {
     "url": "https://www.pisos.com/alquilar/piso-el_poble_sec08004-68337059758_109200/",
     "price": 825,
     "rooms": null,
@@ -108,6 +119,17 @@
     "text": "Piso en Alquiler a BARCELONA / ROGER 934 € Finques Feliu del grupo Housfy alquila piso en Sants-Montjuïc, en Barcelona. La propiedad... 64 m2 | 3 dorm.",
     "agency": "Finques Feliu",
     "rent_url": "https://www.finquesfeliu.es/es/buscador/inter"
+  },
+  {
+    "url": "https://www.locabarcelona.com/en/property/ad-2-double-bedrooms-apartment-for-rent/",
+    "price": 964,
+    "rooms": 1,
+    "kind": "piso",
+    "title": "Available now 964€ Furnished partment for rent Poble Sec                       . Carrer de Ricart - Metro Poble Sec Prop",
+    "img": "https://www.locabarcelona.com/wp-content/uploads/2018/02/6df486e6-67db-4641-a997-aed668e14f96-3-488x326.jpg",
+    "text": "View Property View Property View Property View Property View Property View Property View Property View Property View Property View Property View Property View Property View Propert",
+    "agency": "Loca Barcelona",
+    "rent_url": "https://www.locabarcelona.com/en/property-feature/features/furnished/"
   },
   {
     "url": "https://www.pisos.com/alquilar/piso-el_parc_la_llacuna_del_poblenou08018-67560404516_531896/",
