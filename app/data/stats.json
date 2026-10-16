@@ -1,12 +1,13 @@
 {
-  "sites_read": 110,
+  "sites_read": 112,
   "sites_total": 128,
   "slow": [
     "Fincador",
-    "Díaz Associats",
-    "Selekta Properties",
+    "AFB Finques Gràcia",
+    "GUMPER",
     "Loca Barcelona",
     "ShBarcelona",
-    "Fincas Azcoitia"
+    "DonCasa",
+    "Inmobiliaria Diagonal Mar"
   ]
 }
