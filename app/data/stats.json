@@ -1,14 +1,12 @@
 {
-  "sites_read": 107,
+  "sites_read": 108,
   "sites_total": 128,
   "slow": [
-    "Finques Martell",
     "Fincador",
+    "AFB Finques Gràcia",
     "GUMPER",
     "Fincas San Andrés",
-    "ShBarcelona",
     "Loca Barcelona",
-    "DonCasa",
-    "Inmobiliaria Diagonal Mar"
+    "ShBarcelona"
   ]
 }
