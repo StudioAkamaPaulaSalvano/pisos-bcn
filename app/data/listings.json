@@ -1,14 +1,14 @@
 [
   {
-    "url": "https://barnapiso.com/es/vivienda/propiedad-en-las-cortes-4/",
-    "price": 425,
-    "rooms": null,
+    "url": "https://www.pisos.com/alquilar/apartamento-la_dreta_de_eixample08037-68347029359_109800/",
+    "price": 680,
+    "rooms": 1,
     "kind": "piso",
-    "title": "Propiedad en Les Corts",
-    "img": "https://barnapiso.com/wp-content/uploads/2024/11/1231744428-scaled.jpg",
-    "text": "Propiedad en Les Corts Precio Alquiler: 425 € de San Ramón Nonato m2 construidos habitaciones baños",
-    "agency": "BarnaPiso",
-    "rent_url": "https://barnapiso.com/es/propiedades-disponibles-barcelona/"
+    "title": "Apartamento en Carrer de Mallorca, 319",
+    "img": "https://fotos.imghs.net/mm-wp/1098/6049387/1098_0_foto_20261015182428878_68347029359.jpg",
+    "text": "1 /1 Nuevo 680 € /mes Apartamento en Carrer de Mallorca, 319 La Dreta de l'Eixample (Distrito Eixample. Barcelona Capital) 1 hab. 1 baño 3ª planta Este piso de 46 m² construidos y ",
+    "agency": "pisos.com",
+    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
   {
     "url": "https://www.pisos.com/alquilar/piso-la_marina_del_port_parc_de_montjuic08038-68393979487_109200/",
@@ -130,17 +130,6 @@
     "text": "Disponible a partir de 30-09-2026 Doctor Santpoç / Sant Andreu 1000€ € / mes Sant Andreu · Barcelona 2 hab · 50 m2",
     "agency": "Serviguest",
     "rent_url": "https://serviguest.com/alquiler-de-pisos-para-empresas/madrid/"
-  },
-  {
-    "url": "https://barnapiso.com/es/vivienda/propiedad-en-sants-montjuic/",
-    "price": 1000,
-    "rooms": null,
-    "kind": "piso",
-    "title": "Propiedad en Sants-Montjuïc",
-    "img": "https://barnapiso.com/wp-content/uploads/2024/11/989391816.jpg",
-    "text": "Propiedad en Sants-Montjuïc Precio Alquiler: 1000 € de Sugranyes m2 construidos habitaciones baños",
-    "agency": "BarnaPiso",
-    "rent_url": "https://barnapiso.com/es/propiedades-disponibles-barcelona/"
   },
   {
     "url": "https://www.pisos.com/alquilar/piso-el_raval-53370075459_104700/",
