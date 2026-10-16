@@ -1,10 +1,20 @@
 {
-  "sites_read": 109,
+  "sites_read": 106,
   "sites_total": 128,
   "slow": [
     "Fincador",
     "AFB Finques Gràcia",
+    "Finques Grau",
+    "GUMPER",
+    "Fincas San Andrés",
+    "AFI Finques",
+    "Finques El Pallars",
     "Loca Barcelona",
-    "ShBarcelona"
+    "ShBarcelona",
+    "Finques Catalonia",
+    "Carbonell (Admón. Fincas)",
+    "DonCasa",
+    "Inmobiliaria Diagonal Mar",
+    "VM3 Fincas"
   ]
 }
