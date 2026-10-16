@@ -1,16 +1,5 @@
 [
   {
-    "url": "https://barnapiso.com/es/vivienda/propiedad-en-las-cortes-4/",
-    "price": 425,
-    "rooms": null,
-    "kind": "piso",
-    "title": "Propiedad en Les Corts",
-    "img": "https://barnapiso.com/wp-content/uploads/2024/11/1231744428-scaled.jpg",
-    "text": "Propiedad en Les Corts Precio Alquiler: 425 € de San Ramón Nonato m2 construidos habitaciones baños",
-    "agency": "BarnaPiso",
-    "rent_url": "https://barnapiso.com/es/propiedades-disponibles-barcelona/"
-  },
-  {
     "url": "https://www.pisos.com/alquilar/piso-la_marina_del_port_parc_de_montjuic08038-68393979487_109200/",
     "price": 700,
     "rooms": null,
@@ -51,17 +40,6 @@
     "title": "Estudio en La Maternitat-Sant Ramon",
     "img": "https://fotos.imghs.net/mm-wp/1047/3230323630383138/8b73d6d7-6307-4a56-81e6-abc2f8b4d7d5.jpg",
     "text": "1 /6 PREMIUM 850 € /mes Estudio en La Maternitat-Sant Ramon La Maternitat-Sant Ramon (Distrito Les Corts. Barcelona Capital) 1 baño 15 m² Reservas e inquietudes Tipo de alojamiento",
-    "agency": "pisos.com",
-    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
-  },
-  {
-    "url": "https://www.pisos.com/alquilar/piso-el_camp_en_grassot_gracia_nova08037-68364834923_109800/",
-    "price": 850,
-    "rooms": 2,
-    "kind": "piso",
-    "title": "Piso en Carrer de Sant Antoni Maria Claret, 1",
-    "img": "https://statics.imghs.net//dist/img/default_nophoto.jpg",
-    "text": "Nuevo 850 € /mes Piso en Carrer de Sant Antoni Maria Claret, 1 El Camp d'en Grassot-Gràcia Nova (Distrito Gràcia. Barcelona Capital) 2 habs. 1 baño 80 m² 4ª planta Piso en buen est",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
@@ -141,17 +119,6 @@
     "text": "Disponible a partir de 30-09-2026 Doctor Santpoç / Sant Andreu 1000€ € / mes Sant Andreu · Barcelona 2 hab · 50 m2",
     "agency": "Serviguest",
     "rent_url": "https://serviguest.com/alquiler-de-pisos-para-empresas/madrid/"
-  },
-  {
-    "url": "https://barnapiso.com/es/vivienda/propiedad-en-sants-montjuic/",
-    "price": 1000,
-    "rooms": null,
-    "kind": "piso",
-    "title": "Propiedad en Sants-Montjuïc",
-    "img": "https://barnapiso.com/wp-content/uploads/2024/11/989391816.jpg",
-    "text": "Propiedad en Sants-Montjuïc Precio Alquiler: 1000 € de Sugranyes m2 construidos habitaciones baños",
-    "agency": "BarnaPiso",
-    "rent_url": "https://barnapiso.com/es/propiedades-disponibles-barcelona/"
   },
   {
     "url": "https://inmobiliaria.calvetpremium.com/es/alquiler-pisos-pisos/en-barcelona-barcelona//ref-4143",
