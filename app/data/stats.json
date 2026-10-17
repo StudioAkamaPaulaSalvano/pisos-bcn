@@ -1,14 +1,16 @@
 {
-  "sites_read": 113,
+  "sites_read": 105,
   "sites_total": 128,
   "slow": [
     "Fincador",
     "Selekta Properties",
-    "Orfinca",
     "Fincas San Andrés",
+    "Urbefinques",
     "Loca Barcelona",
     "ShBarcelona",
+    "Atemporal Barcelona",
     "Fincas García",
-    "Fincas Azcoitia"
+    "VM3 Fincas",
+    "aProperties"
   ]
 }
