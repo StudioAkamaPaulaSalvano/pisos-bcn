@@ -1,5 +1,16 @@
 [
   {
+    "url": "https://barnapiso.com/es/vivienda/propiedad-en-las-cortes-4/",
+    "price": 425,
+    "rooms": null,
+    "kind": "piso",
+    "title": "Propiedad en Les Corts",
+    "img": "https://barnapiso.com/wp-content/uploads/2024/11/1231744428-scaled.jpg",
+    "text": "Propiedad en Les Corts Precio Alquiler: 425 € de San Ramón Nonato m2 construidos habitaciones baños",
+    "agency": "BarnaPiso",
+    "rent_url": "https://barnapiso.com/es/propiedades-disponibles-barcelona/"
+  },
+  {
     "url": "https://www.pisos.com/alquilar/apartamento-la_dreta_de_eixample08037-68347029359_109800/",
     "price": 680,
     "rooms": 1,
@@ -108,6 +119,28 @@
     "text": "1 /10 PREMIUM 980 € /mes Piso en Carrer de Pujades El Parc-La Llacuna del Poblenou (Distrito Sant Martí. Barcelona Capital) 3 habs. 1 baño 62 m² 2ª planta El piso se encuentra en m",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
+  },
+  {
+    "url": "https://serviguest.com/inmuebles/doctor-santpoc-sant-andreu/",
+    "price": 1000,
+    "rooms": 2,
+    "kind": "piso",
+    "title": "Doctor Santpoç / Sant Andreu",
+    "img": "https://serviguest.com/wp-content/uploads/2024/10/Santponc-40-logo-Servigest-1-1024x683.jpg",
+    "text": "Disponible a partir de 30-09-2026 Doctor Santpoç / Sant Andreu 1000€ € / mes Sant Andreu · Barcelona 2 hab · 50 m2",
+    "agency": "Serviguest",
+    "rent_url": "https://serviguest.com/alquiler-de-pisos-para-empresas/madrid/"
+  },
+  {
+    "url": "https://barnapiso.com/es/vivienda/propiedad-en-sants-montjuic/",
+    "price": 1000,
+    "rooms": null,
+    "kind": "piso",
+    "title": "Propiedad en Sants-Montjuïc",
+    "img": "https://barnapiso.com/wp-content/uploads/2024/11/989391816.jpg",
+    "text": "Propiedad en Sants-Montjuïc Precio Alquiler: 1000 € de Sugranyes m2 construidos habitaciones baños",
+    "agency": "BarnaPiso",
+    "rent_url": "https://barnapiso.com/es/propiedades-disponibles-barcelona/"
   },
   {
     "url": "https://www.pisos.com/alquilar/piso-el_besos_el_maresme08019-68349307254_104700/",
