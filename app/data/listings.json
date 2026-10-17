@@ -33,17 +33,6 @@
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
   {
-    "url": "https://www.pisos.com/alquilar/piso-el_poble_sec08004-68337059758_109200/",
-    "price": 825,
-    "rooms": null,
-    "kind": "piso",
-    "title": "Piso en El Poble-sec",
-    "img": "https://fotos.imghs.net/mm-wp/1092/3230323631303039/14615f40-9f3b-48d6-8318-be1fc42baefb.jpg",
-    "text": "1 /10 Nuevo PREMIUM 825 € /mes Piso en El Poble-sec El Poble-sec (Distrito Sants-Montjuïc. Barcelona Capital) 30 m² A small apartment / studio renovated but where the original deta",
-    "agency": "pisos.com",
-    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
-  },
-  {
     "url": "https://www.pisos.com/alquilar/piso-barcelona_capital-68423894662_106500/",
     "price": 840,
     "rooms": 1,
@@ -165,6 +154,17 @@
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
   {
+    "url": "https://www.pisos.com/alquilar/piso-el_besos_el_maresme08019-68408660268_109200/",
+    "price": 1000,
+    "rooms": null,
+    "kind": "piso",
+    "title": "Piso en El Besòs-El Maresme",
+    "img": "https://fotos.imghs.net/mm-wp/1092/3230323631303130/621e63eb-fa69-4c3b-aeb3-12d61437d4dd.jpg",
+    "text": "1 /5 Nuevo PREMIUM 1.000 € /mes 150 € (-13%) Piso en El Besòs-El Maresme El Besòs-El Maresme (Distrito Sant Martí. Barcelona Capital) 25 m² Studio for rent – 25 m² – 1 bathroom Tem",
+    "agency": "pisos.com",
+    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
+  },
+  {
     "url": "https://inmobiliaria.calvetpremium.com/es/alquiler-pisos-pisos/en-barcelona-barcelona//ref-4143",
     "price": 1000,
     "rooms": 1,
@@ -173,17 +173,6 @@
     "img": "https://media.mobiliagestion.es/Portals/inmocalvet/Images/4143/28555170-large.jpg",
     "text": " Petritxol - Plaça del Pi | Ref: 4143 PDCookieConsent.config({ \"brand\": { \"dev\" : false, \"name\": \"\", \"url\" : \"\" }, \"cookiePolicyLink\": \"\", \"passList\" : [], \"showBadges\" : true, \"st",
     "agency": "Calvet"
-  },
-  {
-    "url": "https://www.pisos.com/alquilar/piso-nou_barris_canyelles-68365527637_109200/",
-    "price": 1026,
-    "rooms": 3,
-    "kind": "piso",
-    "title": "Piso en Nou Barris",
-    "img": "https://fotos.imghs.net/mm-wp/1092/3230323631303136/feed1e47-42d0-44d2-96ef-d0bbddcaadc5.jpg",
-    "text": "1 /1 Nuevo PREMIUM 1.026 € /mes Piso en Nou Barris Canyelles (Distrito Nou Barris. Barcelona Capital) 3 habs. 1 baño 80 m² 8ª planta Inmueble de 80m². Cocina de gas natural. Semi-a",
-    "agency": "pisos.com",
-    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
   {
     "url": "https://www.pisos.com/alquilar/estudio-el_barri_gotic08002-52567268344_104700/",
@@ -204,17 +193,6 @@
     "title": "Piso en El Raval",
     "img": "https://fotos.imghs.net/mm-wp/1092/3230323631303134/4ca6c63b-fba6-4193-92c8-a4c8096ca4d4.jpg",
     "text": "1 /10 Nuevo PREMIUM 1.050 € /mes Piso en El Raval El Raval (Distrito Ciutat Vella. Barcelona Capital) 27 m² ✨🏡 modern apartment in barcelona! This is a studio loft with a kitchen a",
-    "agency": "pisos.com",
-    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
-  },
-  {
-    "url": "https://www.pisos.com/alquilar/piso-el_besos_el_maresme08019-68408660268_109200/",
-    "price": 1050,
-    "rooms": null,
-    "kind": "piso",
-    "title": "Piso en El Besòs-El Maresme",
-    "img": "https://fotos.imghs.net/mm-wp/1092/3230323631303130/621e63eb-fa69-4c3b-aeb3-12d61437d4dd.jpg",
-    "text": "1 /5 Nuevo PREMIUM 1.050 € /mes 100 € (-9%) Piso en El Besòs-El Maresme El Besòs-El Maresme (Distrito Sant Martí. Barcelona Capital) 25 m² Studio for rent – 25 m² – 1 bathroom Temp",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
