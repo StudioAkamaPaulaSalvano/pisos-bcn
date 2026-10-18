@@ -1,9 +1,17 @@
 {
-  "sites_read": 107,
+  "sites_read": 103,
   "sites_total": 128,
   "slow": [
+    "BÜNIK home",
+    "Fincas Blanco",
+    "GUMPER",
+    "Diana Finques",
+    "Finques Vives",
+    "Loca Barcelona",
     "Tecnocasa (red)",
     "ShBarcelona",
-    "VM3 Fincas"
+    "Fincas Layes",
+    "VM3 Fincas",
+    "Finques Mixoy"
   ]
 }
