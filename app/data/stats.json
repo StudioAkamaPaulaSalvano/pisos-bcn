@@ -1,12 +1,11 @@
 {
-  "sites_read": 107,
+  "sites_read": 106,
   "sites_total": 128,
   "slow": [
-    "Loca Barcelona",
+    "GUMPER",
     "Tecnocasa (red)",
+    "Loca Barcelona",
     "ShBarcelona",
-    "Fincas Layes",
-    "Carbonell (Admón. Fincas)",
     "VM3 Fincas"
   ]
 }
