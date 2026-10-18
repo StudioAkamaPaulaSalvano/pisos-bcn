@@ -1,12 +1,10 @@
 {
-  "sites_read": 107,
+  "sites_read": 112,
   "sites_total": 128,
   "slow": [
-    "inmho Barcelona",
-    "GUMPER",
-    "Loca Barcelona",
     "Tecnocasa (red)",
+    "Loca Barcelona",
     "ShBarcelona",
-    "Ferrim Habitat"
+    "VM3 Fincas"
   ]
 }
