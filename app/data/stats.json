@@ -1,10 +1,12 @@
 {
-  "sites_read": 112,
+  "sites_read": 107,
   "sites_total": 128,
   "slow": [
+    "Orfinca",
+    "GUMPER",
     "Tecnocasa (red)",
     "Loca Barcelona",
     "ShBarcelona",
-    "VM3 Fincas"
+    "Carbonell (Admón. Fincas)"
   ]
 }
