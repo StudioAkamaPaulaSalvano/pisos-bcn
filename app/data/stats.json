@@ -1,11 +1,10 @@
 {
-  "sites_read": 106,
+  "sites_read": 107,
   "sites_total": 128,
   "slow": [
     "Tecnocasa (red)",
     "Loca Barcelona",
     "ShBarcelona",
-    "VM3 Fincas",
-    "Fincas Azcoitia"
+    "VM3 Fincas"
   ]
 }
