@@ -1,11 +1,14 @@
 {
-  "sites_read": 108,
+  "sites_read": 109,
   "sites_total": 128,
   "slow": [
     "Fincador",
-    "Selekta Properties",
+    "inmho Barcelona",
     "GUMPER",
-    "Tecnocasa (red)",
-    "ShBarcelona"
+    "Fincas San Andrés",
+    "Loca Barcelona",
+    "ShBarcelona",
+    "Fincas Layes",
+    "Ferrim Habitat"
   ]
 }
