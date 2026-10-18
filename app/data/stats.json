@@ -1,14 +1,12 @@
 {
-  "sites_read": 104,
+  "sites_read": 109,
   "sites_total": 128,
   "slow": [
+    "Finques Bou",
     "Fincador",
-    "GUMPER",
     "Tecnocasa (red)",
+    "Loca Barcelona",
     "ShBarcelona",
-    "DonCasa",
-    "VM3 Fincas",
-    "Inmobiliaria Diagonal Mar",
-    "Fincas Azcoitia"
+    "VM3 Fincas"
   ]
 }
