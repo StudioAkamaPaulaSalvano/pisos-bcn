@@ -1,11 +1,13 @@
 {
-  "sites_read": 108,
+  "sites_read": 106,
   "sites_total": 128,
   "slow": [
     "GUMPER",
     "Loca Barcelona",
     "Tecnocasa (red)",
     "ShBarcelona",
-    "VM3 Fincas"
+    "Fincas Layes",
+    "VM3 Fincas",
+    "Ferrim Habitat"
   ]
 }
