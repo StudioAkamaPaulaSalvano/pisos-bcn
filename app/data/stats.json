@@ -1,9 +1,12 @@
 {
-  "sites_read": 112,
+  "sites_read": 106,
   "sites_total": 128,
   "slow": [
-    "Loca Barcelona",
+    "GUMPER",
     "Tecnocasa (red)",
-    "ShBarcelona"
+    "Loca Barcelona",
+    "ShBarcelona",
+    "Fincas García",
+    "VM3 Fincas"
   ]
 }
