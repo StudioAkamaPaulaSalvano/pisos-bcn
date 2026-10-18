@@ -1,7 +1,9 @@
 {
-  "sites_read": 108,
+  "sites_read": 112,
   "sites_total": 128,
   "slow": [
+    "Orfinca",
+    "GUMPER",
     "Tecnocasa (red)",
     "Loca Barcelona",
     "ShBarcelona"
