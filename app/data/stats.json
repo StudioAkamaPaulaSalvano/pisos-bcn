@@ -1,14 +1,13 @@
 {
-  "sites_read": 107,
+  "sites_read": 105,
   "sites_total": 128,
   "slow": [
-    "AFB Finques Gràcia",
-    "GUMPER",
-    "Loca Barcelona",
+    "Urbefinques",
     "Tecnocasa (red)",
+    "Loca Barcelona",
     "ShBarcelona",
-    "Carbonell (Admón. Fincas)",
+    "Atemporal Barcelona",
     "VM3 Fincas",
-    "Fincas Azcoitia"
+    "aProperties"
   ]
 }
