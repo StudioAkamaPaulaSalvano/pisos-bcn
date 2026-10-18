@@ -1,11 +1,8 @@
 {
-  "sites_read": 107,
+  "sites_read": 112,
   "sites_total": 128,
   "slow": [
-    "Loca Barcelona",
     "Tecnocasa (red)",
-    "Fincas Layes",
-    "ShBarcelona",
-    "Ferrim Habitat"
+    "ShBarcelona"
   ]
 }
