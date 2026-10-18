@@ -1,16 +1,15 @@
 {
-  "sites_read": 104,
+  "sites_read": 107,
   "sites_total": 128,
   "slow": [
-    "BÜNIK home",
-    "Fincas Blanco",
+    "Orfinca",
     "GUMPER",
-    "Diana Finques",
-    "Finques Vives",
-    "Tecnocasa (red)",
     "Loca Barcelona",
+    "Tecnocasa (red)",
     "ShBarcelona",
+    "Fincas Layes",
     "VM3 Fincas",
-    "Finques Mixoy"
+    "Ferrim Habitat",
+    "Tu Piso Nou Barris"
   ]
 }
