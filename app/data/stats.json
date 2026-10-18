@@ -1,12 +1,10 @@
 {
-  "sites_read": 105,
+  "sites_read": 113,
   "sites_total": 128,
   "slow": [
-    "Finques Hosta",
-    "Loca Barcelona",
     "Tecnocasa (red)",
+    "Loca Barcelona",
     "ShBarcelona",
-    "Fincas García",
-    "BarnaPiso"
+    "Fincas García"
   ]
 }
