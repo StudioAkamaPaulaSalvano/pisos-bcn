@@ -1,10 +1,15 @@
 {
-  "sites_read": 107,
+  "sites_read": 109,
   "sites_total": 128,
   "slow": [
+    "Finques Bou",
+    "Orfinca",
+    "GUMPER",
+    "Finques Hosta",
     "Tecnocasa (red)",
     "Loca Barcelona",
     "ShBarcelona",
-    "VM3 Fincas"
+    "VM3 Fincas",
+    "BarnaPiso"
   ]
 }
