@@ -1,15 +1,16 @@
 {
-  "sites_read": 106,
+  "sites_read": 111,
   "sites_total": 128,
   "slow": [
     "Fincador",
-    "Orfinca",
-    "Fincas San Andrés",
-    "Eurofincas",
-    "Finques Hosta",
+    "Finques Marbá",
+    "Urbefinques",
     "Loca Barcelona",
+    "Tecnocasa (red)",
     "ShBarcelona",
-    "Skyflats",
-    "BarnaPiso"
+    "Atemporal Barcelona",
+    "Carbonell (Admón. Fincas)",
+    "VM3 Fincas",
+    "aProperties"
   ]
 }
