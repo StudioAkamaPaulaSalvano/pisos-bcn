@@ -1,11 +1,12 @@
 {
-  "sites_read": 104,
+  "sites_read": 107,
   "sites_total": 128,
   "slow": [
+    "Cafur Serveis Immobiliaris",
     "GUMPER",
+    "Loca Barcelona",
     "Tecnocasa (red)",
     "ShBarcelona",
-    "VM3 Fincas",
-    "Immollar"
+    "VM3 Fincas"
   ]
 }
