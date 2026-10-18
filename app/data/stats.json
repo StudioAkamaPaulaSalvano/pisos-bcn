@@ -1,12 +1,9 @@
 {
-  "sites_read": 105,
+  "sites_read": 115,
   "sites_total": 128,
   "slow": [
-    "Loca Barcelona",
     "Tecnocasa (red)",
     "ShBarcelona",
-    "Fincas García",
-    "DonCasa",
-    "Inmobiliaria Diagonal Mar"
+    "Fincas García"
   ]
 }
