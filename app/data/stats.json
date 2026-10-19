@@ -1,13 +1,17 @@
 {
-  "sites_read": 108,
+  "sites_read": 104,
   "sites_total": 128,
   "slow": [
+    "BÜNIK home",
     "Fincador",
+    "Fincas Blanco",
     "Cafur Serveis Immobiliaris",
     "GUMPER",
-    "Fincas San Andrés",
+    "Diana Finques",
+    "Finques Vives",
     "Loca Barcelona",
     "ShBarcelona",
-    "Tu Piso Nou Barris"
+    "Tu Piso Nou Barris",
+    "Finques Mixoy"
   ]
 }
