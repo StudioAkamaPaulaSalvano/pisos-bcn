@@ -1,18 +1,12 @@
 {
-  "sites_read": 106,
+  "sites_read": 108,
   "sites_total": 128,
   "slow": [
     "Fincador",
-    "inmho Barcelona",
     "Cafur Serveis Immobiliaris",
-    "GUMPER",
-    "Fincas San Andrés",
-    "Finques Hosta",
-    "Loca Barcelona",
-    "ShBarcelona",
     "Fincas Layes",
-    "Ferrim Habitat",
-    "Tu Piso Nou Barris",
-    "BarnaPiso"
+    "ShBarcelona",
+    "Finques Catalonia",
+    "Tu Piso Nou Barris"
   ]
 }
