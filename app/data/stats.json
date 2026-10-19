@@ -1,15 +1,14 @@
 {
-  "sites_read": 114,
+  "sites_read": 108,
   "sites_total": 128,
   "slow": [
     "Fincador",
+    "Vivendex",
     "Cafur Serveis Immobiliaris",
     "GUMPER",
     "Fincas San Andrés",
-    "AFI Finques",
     "Loca Barcelona",
-    "ShBarcelona",
     "Fincas Layes",
-    "Tu Piso Nou Barris"
+    "ShBarcelona"
   ]
 }
