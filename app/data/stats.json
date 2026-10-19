@@ -1,12 +1,17 @@
 {
-  "sites_read": 109,
+  "sites_read": 105,
   "sites_total": 128,
   "slow": [
     "Fincador",
+    "Cafur Serveis Immobiliaris",
+    "GUMPER",
     "Fincas San Andrés",
+    "Urbefinques",
     "Loca Barcelona",
     "ShBarcelona",
-    "Finques Catalonia",
-    "VM3 Fincas"
+    "Atemporal Barcelona",
+    "VM3 Fincas",
+    "aProperties",
+    "Tu Piso Nou Barris"
   ]
 }
