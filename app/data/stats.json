@@ -1,12 +1,14 @@
 {
-  "sites_read": 114,
+  "sites_read": 111,
   "sites_total": 128,
   "slow": [
-    "Guinot Prunera",
     "Fincador",
+    "Orfinca",
+    "AFI Finques",
+    "Fincas San Andrés",
     "Loca Barcelona",
     "ShBarcelona",
-    "Fincas García",
+    "Fincas Layes",
     "Tu Piso Nou Barris"
   ]
 }
