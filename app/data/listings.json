@@ -33,6 +33,17 @@
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
   {
+    "url": "https://www.pisos.com/alquilar/piso-el_poble_sec08004-68422039491_109200/",
+    "price": 825,
+    "rooms": null,
+    "kind": "piso",
+    "title": "Piso en El Poble-sec",
+    "img": "https://fotos.imghs.net/mm-wp/1092/3230323631303039/944458d0-f9bd-47eb-b30f-a7676a3c194f.jpg",
+    "text": "1 /10 Nuevo PREMIUM 825 € /mes Piso en El Poble-sec El Poble-sec (Distrito Sants-Montjuïc. Barcelona Capital) 30 m² A small apartment / studio renovated but where the original deta",
+    "agency": "pisos.com",
+    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
+  },
+  {
     "url": "https://www.pisos.com/alquilar/estudio-la_maternitat_sant_ramon08028-67512600578_104700/",
     "price": 850,
     "rooms": null,
@@ -138,7 +149,7 @@
     "kind": "piso",
     "title": "Piso en Carrer de Pere IV, 542",
     "img": "https://fotos.imghs.net/mm-wp/1047/3230323631303137/927b37c9-ac53-44e2-b70a-eed13e75ada7.jpg",
-    "text": "1 /6 Nuevo PREMIUM 1.000 € /mes 50 € (-5%) Piso en Carrer de Pere IV, 542 El Besòs-El Maresme (Distrito Sant Martí. Barcelona Capital) 1 hab. 1 baño 25 m² 2ª planta Alquiler tempor",
+    "text": "1 /6 Nuevo DESTACADO 1.000 € /mes 50 € (-5%) Piso en Carrer de Pere IV, 542 El Besòs-El Maresme (Distrito Sant Martí. Barcelona Capital) 1 hab. 1 baño 25 m² 2ª planta Alquiler temp",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
@@ -193,6 +204,17 @@
     "title": "Estudio en El Barri Gòtic",
     "img": "https://fotos.imghs.net/mm-wp/1047/750/1047_404750_1_2025032013032024167.jpg",
     "text": "1 /16 PREMIUM 1.050 € /mes Estudio en El Barri Gòtic El Barri Gòtic (Distrito Ciutat Vella. Barcelona Capital) 1 baño 27 m² Reservas e inquietudes Tipo de alojamiento - alojamiento",
+    "agency": "pisos.com",
+    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
+  },
+  {
+    "url": "https://www.pisos.com/alquilar/piso-el_raval08001-68349457489_109200/",
+    "price": 1050,
+    "rooms": null,
+    "kind": "piso",
+    "title": "Piso en El Raval",
+    "img": "https://fotos.imghs.net/mm-wp/1092/3230323631303139/11bfb0ea-3b97-451d-838b-fadf81acf932.jpg",
+    "text": "1 /10 Nuevo PREMIUM 1.050 € /mes Piso en El Raval El Raval (Distrito Ciutat Vella. Barcelona Capital) 27 m² ✨🏡 modern apartment in barcelona! Studio-style loft with separate, fully",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
