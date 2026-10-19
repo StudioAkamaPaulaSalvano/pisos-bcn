@@ -1,14 +1,15 @@
 {
-  "sites_read": 111,
+  "sites_read": 107,
   "sites_total": 128,
   "slow": [
     "Fincador",
-    "Orfinca",
-    "AFI Finques",
+    "GUMPER",
     "Fincas San Andrés",
+    "AFI Finques",
     "Loca Barcelona",
     "ShBarcelona",
     "Fincas Layes",
+    "Carbonell (Admón. Fincas)",
     "Tu Piso Nou Barris"
   ]
 }
