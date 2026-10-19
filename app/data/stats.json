@@ -1,10 +1,12 @@
 {
-  "sites_read": 109,
+  "sites_read": 108,
   "sites_total": 128,
   "slow": [
     "Fincador",
     "Fincas San Andrés",
+    "Loca Barcelona",
     "ShBarcelona",
-    "Fincas Layes"
+    "VM3 Fincas",
+    "Tu Piso Nou Barris"
   ]
 }
