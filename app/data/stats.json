@@ -1,19 +1,11 @@
 {
-  "sites_read": 105,
+  "sites_read": 109,
   "sites_total": 128,
   "slow": [
-    "Fincas Almendros",
     "Fincador",
     "Cafur Serveis Immobiliaris",
     "Fincas San Andrés",
-    "Urbefinques",
     "Loca Barcelona",
-    "ShBarcelona",
-    "Atemporal Barcelona",
-    "DonCasa",
-    "Carbonell (Admón. Fincas)",
-    "Inmobiliaria Diagonal Mar",
-    "VM3 Fincas",
-    "aProperties"
+    "ShBarcelona"
   ]
 }
