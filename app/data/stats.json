@@ -1,13 +1,12 @@
 {
-  "sites_read": 109,
+  "sites_read": 112,
   "sites_total": 128,
   "slow": [
     "Fincador",
-    "GUMPER",
     "Fincas San Andrés",
     "Loca Barcelona",
-    "Fincas Layes",
     "ShBarcelona",
-    "VM3 Fincas"
+    "Fincas Azcoitia",
+    "Tu Piso Nou Barris"
   ]
 }
