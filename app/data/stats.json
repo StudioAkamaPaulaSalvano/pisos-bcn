@@ -1,14 +1,12 @@
 {
-  "sites_read": 106,
+  "sites_read": 115,
   "sites_total": 128,
   "slow": [
     "Fincador",
+    "Selekta Properties",
     "Cafur Serveis Immobiliaris",
-    "GUMPER",
+    "AFI Finques",
     "Loca Barcelona",
-    "Fincas Layes",
-    "ShBarcelona",
-    "Carbonell (Admón. Fincas)",
-    "Tu Piso Nou Barris"
+    "ShBarcelona"
   ]
 }
