@@ -1,11 +1,16 @@
 {
-  "sites_read": 108,
+  "sites_read": 105,
   "sites_total": 128,
   "slow": [
     "Fincador",
+    "GUMPER",
     "Fincas San Andrés",
     "Loca Barcelona",
     "ShBarcelona",
+    "DonCasa",
+    "Carbonell (Admón. Fincas)",
+    "Inmobiliaria Diagonal Mar",
+    "Fincas Azcoitia",
     "Tu Piso Nou Barris"
   ]
 }
