@@ -1,11 +1,15 @@
 {
-  "sites_read": 109,
+  "sites_read": 108,
   "sites_total": 128,
   "slow": [
+    "Fincas Almendros",
     "Fincador",
-    "AFI Finques",
+    "GUMPER",
     "Fincas San Andrés",
+    "AFI Finques",
     "Loca Barcelona",
-    "ShBarcelona"
+    "ShBarcelona",
+    "Finques Catalonia",
+    "VM3 Fincas"
   ]
 }
