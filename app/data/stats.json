@@ -1,14 +1,11 @@
 {
-  "sites_read": 110,
+  "sites_read": 109,
   "sites_total": 128,
   "slow": [
-    "Grup Solfinc",
     "Fincador",
-    "Fincas San Andrés",
     "AFI Finques",
+    "Fincas San Andrés",
     "Loca Barcelona",
-    "ShBarcelona",
-    "Finques Falcón",
-    "Coma-Roig"
+    "ShBarcelona"
   ]
 }
