@@ -1,13 +1,13 @@
 {
-  "sites_read": 107,
+  "sites_read": 109,
   "sites_total": 128,
   "slow": [
     "Fincador",
+    "GUMPER",
     "Fincas San Andrés",
-    "AFI Finques",
     "Loca Barcelona",
     "ShBarcelona",
-    "Finques Catalonia",
-    "Tu Piso Nou Barris"
+    "Fincas García",
+    "Fincas Layes"
   ]
 }
