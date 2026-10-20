@@ -1,11 +1,12 @@
 {
-  "sites_read": 110,
+  "sites_read": 112,
   "sites_total": 128,
   "slow": [
     "Fincador",
-    "Casc Antic BCN",
     "GUMPER",
+    "Fincas San Andrés",
     "Loca Barcelona",
-    "ShBarcelona"
+    "ShBarcelona",
+    "Fincas García"
   ]
 }
