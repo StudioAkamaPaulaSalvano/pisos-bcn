@@ -55,6 +55,17 @@
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
   {
+    "url": "https://www.pisos.com/alquilar/piso-el_raval-68380910418_109200/",
+    "price": 882,
+    "rooms": 2,
+    "kind": "piso",
+    "title": "Piso en Ciutat Vella",
+    "img": "https://fotos.imghs.net/mm-wp/1092/3230323631303230/55f6b886-9722-46e0-b1c0-7a3287e1ee03.jpg",
+    "text": "1 /17 Nuevo PREMIUM 882 € /mes Piso en Ciutat Vella El Raval (Distrito Ciutat Vella. Barcelona Capital) 2 habs. 1 baño 70 m² Bajo Vivienda reformada tipo dúplex con entrada directa",
+    "agency": "pisos.com",
+    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
+  },
+  {
     "url": "https://www.pisos.com/alquilar/estudio-el_poble_sec08004-67527772384_104700/",
     "price": 890,
     "rooms": null,
