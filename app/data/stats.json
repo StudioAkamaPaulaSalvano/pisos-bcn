@@ -1,13 +1,14 @@
 {
-  "sites_read": 110,
+  "sites_read": 115,
   "sites_total": 128,
   "slow": [
     "Fincador",
     "GUMPER",
+    "AFI Finques",
     "Fincas San Andrés",
+    "Toysan Finques",
     "Loca Barcelona",
     "ShBarcelona",
-    "Gala Finques",
-    "Fincas García"
+    "Gala Finques"
   ]
 }
