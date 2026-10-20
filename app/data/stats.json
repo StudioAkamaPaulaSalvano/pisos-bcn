@@ -1,13 +1,12 @@
 {
-  "sites_read": 113,
+  "sites_read": 110,
   "sites_total": 128,
   "slow": [
     "Fincador",
     "GUMPER",
+    "Fincas San Andrés",
     "Loca Barcelona",
     "ShBarcelona",
-    "Gala Finques",
-    "DonCasa",
-    "Inmobiliaria Diagonal Mar"
+    "Gala Finques"
   ]
 }
