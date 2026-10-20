@@ -22,17 +22,6 @@
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
   {
-    "url": "https://www.pisos.com/alquilar/piso-la_marina_del_port_parc_de_montjuic08038-68393979487_109200/",
-    "price": 700,
-    "rooms": null,
-    "kind": "piso",
-    "title": "Piso en La Marina del Port-Parc de Montjuïc",
-    "img": "https://fotos.imghs.net/mm-wp/1092/3230323631303133/b6c5c5cf-5dac-440c-89ff-3cccf6563853.jpg",
-    "text": "1 /10 Nuevo DESTACADO 700 € /mes Piso en La Marina del Port-Parc de Montjuïc La Marina del Port-Parc de Montjuïc (Distrito Sants-Montjuïc. Barcelona Capital) 90 m² Your private bar",
-    "agency": "pisos.com",
-    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
-  },
-  {
     "url": "https://www.pisos.com/alquilar/piso-el_poble_sec08004-68422039491_109200/",
     "price": 825,
     "rooms": null,
@@ -72,7 +61,7 @@
     "kind": "piso",
     "title": "Piso en Carrer del Segre",
     "img": "https://fotos.imghs.net/mm-wp/501025/806818472.501025/501025_806818472_2c5fb80f-14ec-492e-8614-1e141fea98cf.jpg",
-    "text": "1 /21 Nuevo PREMIUM 877 € /mes Piso en Carrer del Segre Sant Andreu (Distrito Sant Andreu. Barcelona Capital) 2 habs. 1 baño 68 m² 5ª planta Piso de 68 metros construidos, 60 metro",
+    "text": "1 /21 TOP 877 € /mes Piso en Carrer del Segre Sant Andreu (Distrito Sant Andreu. Barcelona Capital) 2 habs. 1 baño 68 m² 5ª planta Piso de 68 metros construidos, 60 metros útiles c",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
@@ -143,6 +132,17 @@
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
   {
+    "url": "https://www.pisos.com/alquilar/piso-el_besos_el_maresme08019-68408660268_109200/",
+    "price": 980,
+    "rooms": null,
+    "kind": "piso",
+    "title": "Piso en El Besòs-El Maresme",
+    "img": "https://fotos.imghs.net/mm-wp/1092/3230323631303130/621e63eb-fa69-4c3b-aeb3-12d61437d4dd.jpg",
+    "text": "1 /6 Nuevo PREMIUM 980 € /mes 70 € (-7%) Piso en El Besòs-El Maresme El Besòs-El Maresme (Distrito Sant Martí. Barcelona Capital) 25 m² Studio for rent – 25 m² – 1 bathroom Tempora",
+    "agency": "pisos.com",
+    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
+  },
+  {
     "url": "https://serviguest.com/inmuebles/doctor-santpoc-sant-andreu/",
     "price": 1000,
     "rooms": 2,
@@ -183,17 +183,6 @@
     "title": "Piso en El Raval",
     "img": "https://fotos.imghs.net/mm-wp/1047/497/1047_464497_1_2025040709045844213.jpg",
     "text": "1 /10 PREMIUM 1.000 € /mes Piso en El Raval El Raval (Distrito Ciutat Vella. Barcelona Capital) 2 habs. 1 baño 62 m² Reservas e inquietudes Tipo de alojamiento - alojamiento entero",
-    "agency": "pisos.com",
-    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
-  },
-  {
-    "url": "https://www.pisos.com/alquilar/piso-el_besos_el_maresme08019-68408660268_109200/",
-    "price": 1000,
-    "rooms": null,
-    "kind": "piso",
-    "title": "Piso en El Besòs-El Maresme",
-    "img": "https://fotos.imghs.net/mm-wp/1092/3230323631303130/621e63eb-fa69-4c3b-aeb3-12d61437d4dd.jpg",
-    "text": "1 /5 Nuevo PREMIUM 1.000 € /mes 50 € (-5%) Piso en El Besòs-El Maresme El Besòs-El Maresme (Distrito Sant Martí. Barcelona Capital) 25 m² Studio for rent – 25 m² – 1 bathroom Tempo",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
