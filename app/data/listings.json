@@ -1,5 +1,16 @@
 [
   {
+    "url": "https://barnapiso.com/es/vivienda/propiedad-en-las-cortes-4/",
+    "price": 425,
+    "rooms": null,
+    "kind": "piso",
+    "title": "Propiedad en Les Corts",
+    "img": "https://barnapiso.com/wp-content/uploads/2024/11/1231744428-scaled.jpg",
+    "text": "Propiedad en Les Corts Precio Alquiler: 425 € de San Ramón Nonato m2 construidos habitaciones baños",
+    "agency": "BarnaPiso",
+    "rent_url": "https://barnapiso.com/es/propiedades-disponibles-barcelona/"
+  },
+  {
     "url": "https://www.pisos.com/alquilar/apartamento-la_dreta_de_eixample08037-68347029359_109800/",
     "price": 680,
     "rooms": 1,
@@ -61,7 +72,7 @@
     "kind": "piso",
     "title": "Piso en Carrer del Segre",
     "img": "https://fotos.imghs.net/mm-wp/501025/806818472.501025/501025_806818472_2c5fb80f-14ec-492e-8614-1e141fea98cf.jpg",
-    "text": "1 /21 Nuevo PREMIUM 877 € /mes Piso en Carrer del Segre Sant Andreu (Distrito Sant Andreu. Barcelona Capital) 2 habs. 1 baño 68 m² 5ª planta Piso de 68 metros construidos, 60 metro",
+    "text": "1 /21 TOP 877 € /mes Piso en Carrer del Segre Sant Andreu (Distrito Sant Andreu. Barcelona Capital) 2 habs. 1 baño 68 m² 5ª planta Piso de 68 metros construidos, 60 metros útiles c",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
@@ -143,13 +154,24 @@
     "rent_url": "https://serviguest.com/alquiler-de-pisos-para-empresas/madrid/"
   },
   {
+    "url": "https://barnapiso.com/es/vivienda/propiedad-en-sants-montjuic/",
+    "price": 1000,
+    "rooms": null,
+    "kind": "piso",
+    "title": "Propiedad en Sants-Montjuïc",
+    "img": "https://barnapiso.com/wp-content/uploads/2024/11/989391816.jpg",
+    "text": "Propiedad en Sants-Montjuïc Precio Alquiler: 1000 € de Sugranyes m2 construidos habitaciones baños",
+    "agency": "BarnaPiso",
+    "rent_url": "https://barnapiso.com/es/propiedades-disponibles-barcelona/"
+  },
+  {
     "url": "https://www.pisos.com/alquilar/piso-el_besos_el_maresme08019-68349307254_104700/",
     "price": 1000,
     "rooms": 1,
     "kind": "piso",
     "title": "Piso en Carrer de Pere IV, 542",
     "img": "https://fotos.imghs.net/mm-wp/1047/3230323631303137/927b37c9-ac53-44e2-b70a-eed13e75ada7.jpg",
-    "text": "1 /6 Nuevo DESTACADO 1.000 € /mes 50 € (-5%) Piso en Carrer de Pere IV, 542 El Besòs-El Maresme (Distrito Sant Martí. Barcelona Capital) 1 hab. 1 baño 25 m² 2ª planta Alquiler temp",
+    "text": "1 /6 Nuevo PREMIUM 1.000 € /mes 50 € (-5%) Piso en Carrer de Pere IV, 542 El Besòs-El Maresme (Distrito Sant Martí. Barcelona Capital) 1 hab. 1 baño 25 m² 2ª planta Alquiler tempor",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
@@ -192,7 +214,7 @@
     "kind": "piso",
     "title": "Piso en El Raval",
     "img": "https://fotos.imghs.net/mm-wp/1092/3230323631303134/4ca6c63b-fba6-4193-92c8-a4c8096ca4d4.jpg",
-    "text": "1 /10 Nuevo DESTACADO 1.050 € /mes Piso en El Raval El Raval (Distrito Ciutat Vella. Barcelona Capital) 27 m² ✨🏡 modern apartment in barcelona! This is a studio loft with a kitchen",
+    "text": "1 /10 Nuevo PREMIUM 1.050 € /mes Piso en El Raval El Raval (Distrito Ciutat Vella. Barcelona Capital) 27 m² ✨🏡 modern apartment in barcelona! This is a studio loft with a kitchen a",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
