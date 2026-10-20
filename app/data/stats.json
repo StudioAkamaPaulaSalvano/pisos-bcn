@@ -1,14 +1,18 @@
 {
-  "sites_read": 113,
+  "sites_read": 109,
   "sites_total": 128,
   "slow": [
+    "BÜNIK home",
     "Fincador",
-    "Vivendex",
+    "Fincas Blanco",
     "GUMPER",
+    "Diana Finques",
+    "Finques Vives",
     "Loca Barcelona",
-    "ShBarcelona",
     "Gala Finques",
-    "Fincas Azcoitia",
-    "Rentmar"
+    "ShBarcelona",
+    "Fincas García",
+    "VM3 Fincas",
+    "Finques Mixoy"
   ]
 }
