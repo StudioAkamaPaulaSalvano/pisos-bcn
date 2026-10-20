@@ -1,10 +1,13 @@
 {
-  "sites_read": 110,
+  "sites_read": 107,
   "sites_total": 128,
   "slow": [
+    "Finques Bou",
+    "Fincas Almendros",
     "Fincador",
     "GUMPER",
     "Loca Barcelona",
-    "ShBarcelona"
+    "ShBarcelona",
+    "Gala Finques"
   ]
 }
