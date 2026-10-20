@@ -1,11 +1,14 @@
 {
-  "sites_read": 110,
+  "sites_read": 109,
   "sites_total": 128,
   "slow": [
+    "Finques Bou",
     "Fincador",
+    "Cleries Administració",
     "Cafur Serveis Immobiliaris",
     "GUMPER",
-    "ShBarcelona",
-    "Carbonell (Admón. Fincas)"
+    "Fincas San Andrés",
+    "Loca Barcelona",
+    "ShBarcelona"
   ]
 }
