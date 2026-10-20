@@ -1,17 +1,14 @@
 {
-  "sites_read": 105,
+  "sites_read": 115,
   "sites_total": 128,
   "slow": [
+    "Fincas Almendros",
     "Fincador",
     "GUMPER",
-    "Fincas San Andrés",
-    "Urbefinques",
     "Loca Barcelona",
     "ShBarcelona",
-    "Atemporal Barcelona",
-    "DonCasa",
-    "Inmobiliaria Diagonal Mar",
-    "VM3 Fincas",
-    "aProperties"
+    "Gala Finques",
+    "Finques Catalonia",
+    "VM3 Fincas"
   ]
 }
