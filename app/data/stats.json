@@ -1,15 +1,12 @@
 {
-  "sites_read": 114,
+  "sites_read": 110,
   "sites_total": 128,
   "slow": [
     "Fincador",
-    "GUMPER",
     "Fincas San Andrés",
-    "Toysan Finques",
-    "Tecnocasa (red)",
     "Loca Barcelona",
     "ShBarcelona",
-    "Gala Finques",
-    "Fincas García"
+    "Fincas García",
+    "Vivalco"
   ]
 }
