@@ -143,6 +143,17 @@
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
   {
+    "url": "https://www.pisos.com/alquilar/piso-el_raval-68394079240_104700/",
+    "price": 988,
+    "rooms": 3,
+    "kind": "piso",
+    "title": "Piso en El Raval",
+    "img": "https://fotos.imghs.net/mm-wp/1047/3230323630383230/fc01f1fb-4cc7-404c-9a4e-8bd58e83e47a.jpg",
+    "text": "1 /20 Nuevo PREMIUM 988 € /mes Piso en El Raval El Raval (Distrito Ciutat Vella. Barcelona Capital) 3 habs. 1 baño 80 m² Reservas e inquietudes Tipo de alojamiento - alojamiento en",
+    "agency": "pisos.com",
+    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
+  },
+  {
     "url": "https://serviguest.com/inmuebles/doctor-santpoc-sant-andreu/",
     "price": 1000,
     "rooms": 2,
@@ -197,6 +208,17 @@
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
   {
+    "url": "https://www.pisos.com/alquilar/estudio-el_barri_gotic08002-53340414005_104700/",
+    "price": 1050,
+    "rooms": null,
+    "kind": "piso",
+    "title": "Estudio en El Barri Gòtic",
+    "img": "https://fotos.imghs.net/mm-wp/1047/428/1047_449428_1_2025040409043483981.jpg",
+    "text": "1 /15 PREMIUM 1.050 € /mes Estudio en El Barri Gòtic El Barri Gòtic (Distrito Ciutat Vella. Barcelona Capital) 1 baño 27 m² Reservas e inquietudes Tipo de alojamiento - alojamiento",
+    "agency": "pisos.com",
+    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
+  },
+  {
     "url": "https://www.pisos.com/alquilar/piso-el_raval08001-68360329553_109200/",
     "price": 1050,
     "rooms": null,
@@ -237,6 +259,17 @@
     "title": "Casa en El Besòs-El Maresme",
     "img": "https://fotos.imghs.net/mm-wp/1092/3230323631303036/dbeb8ed4-be0b-4ecb-a2fa-e144c3874896.jpg",
     "text": "1 /10 PREMIUM 1.085 € /mes Casa en El Besòs-El Maresme El Besòs-El Maresme (Distrito Sant Martí. Barcelona Capital) 🎓 student residence in barcelona with pool and gym!! 🏋️‍♂️🏊‍♀️ U",
+    "agency": "pisos.com",
+    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
+  },
+  {
+    "url": "https://www.pisos.com/alquilar/piso-montcada_centre_la_ribera-65863744466_100500/",
+    "price": 1090,
+    "rooms": 3,
+    "kind": "piso",
+    "title": "Piso en Carrer del Duc de Tetuan",
+    "img": "https://fotos.imghs.net/mm-wp/1005/3230323630373135/5c451cb7-b1f8-4b52-b7e2-35f99ccd726a.jpg",
+    "text": "1 /32 PREMIUM Está en la misma provincia 1.090 € /mes Piso en Carrer del Duc de Tetuan Montcada Centre-La Ribera (Montcada i Reixac) 3 habs. 2 baños 80 m² 2ª planta Este luminoso p",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
