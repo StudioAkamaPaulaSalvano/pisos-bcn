@@ -1,11 +1,14 @@
 {
-  "sites_read": 110,
+  "sites_read": 108,
   "sites_total": 128,
   "slow": [
     "Fincador",
+    "Orfinca",
+    "AFB Finques Gràcia",
     "Fincas San Andrés",
     "Toysan Finques",
     "Loca Barcelona",
-    "ShBarcelona"
+    "ShBarcelona",
+    "Finques Catalonia"
   ]
 }
