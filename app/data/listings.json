@@ -28,7 +28,7 @@
     "kind": "piso",
     "title": "Piso en Carrer de Castellbell",
     "img": "https://fotos.imghs.net/mm-wp/501025/455282422.501025/501025_455282422_18c43837-5132-45ea-a416-b4f4470eba19.jpg",
-    "text": "1 /24 Nuevo PREMIUM 753 € /mes Piso en Carrer de Castellbell Sant Andreu (Distrito Sant Andreu. Barcelona Capital) 1 hab. 1 baño 55 m² 2ª planta C/ castellbell Informacion importan",
+    "text": "1 /24 TOP 753 € /mes Piso en Carrer de Castellbell Sant Andreu (Distrito Sant Andreu. Barcelona Capital) 1 hab. 1 baño 55 m² 2ª planta C/ castellbell Informacion importante: para v",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
@@ -208,6 +208,17 @@
     "rent_url": "https://www.guinotprunera.com/es/alquiler"
   },
   {
+    "url": "https://www.pisos.com/alquilar/estudio-el_barri_gotic08002-58350438323_104700/",
+    "price": 1050,
+    "rooms": null,
+    "kind": "piso",
+    "title": "Estudio en El Barri Gòtic",
+    "img": "https://fotos.imghs.net/mm-wp/1047/384/1047_421384_2_2025100409103326657.jpg",
+    "text": "1 /15 PREMIUM 1.050 € /mes Estudio en El Barri Gòtic El Barri Gòtic (Distrito Ciutat Vella. Barcelona Capital) 1 baño 29 m² Reservas e inquietudes Tipo de alojamiento - alojamiento",
+    "agency": "pisos.com",
+    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
+  },
+  {
     "url": "https://www.pisos.com/alquilar/estudio-el_barri_gotic08002-53340414005_104700/",
     "price": 1050,
     "rooms": null,
@@ -239,17 +250,6 @@
     "text": "20261020 33037 Piso Sarrià 1.053 €/mes 57 1 1 Piso ubicado en Major de Sarria. Salón comedor exterior a balcón con orientación este. Cocina americana, equipada con electrodoméstico",
     "agency": "Guinot Prunera",
     "rent_url": "https://www.guinotprunera.com/es/alquiler"
-  },
-  {
-    "url": "https://www.pisos.com/alquilar/piso-la_teixonera-68376381409_100500/",
-    "price": 1059,
-    "rooms": 3,
-    "kind": "piso",
-    "title": "Piso en Horta",
-    "img": "https://fotos.imghs.net/mm-wp/1005/3230323631303231/fe1367da-f6c4-4eb7-99ce-b53f1c5bdfb0.jpg",
-    "text": "1 /55 Nuevo PREMIUM 1.059 € /mes Piso en Horta La Teixonera (Distrito Horta-Guinardó. Barcelona Capital) 3 habs. 1 baño 70 m² 3ª planta Mare de déu dels angels - fastenrath - santa",
-    "agency": "pisos.com",
-    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
   {
     "url": "https://www.guinotprunera.com/es/alquiler/ref-32109",
