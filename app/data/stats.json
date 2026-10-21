@@ -1,13 +1,11 @@
 {
-  "sites_read": 114,
+  "sites_read": 115,
   "sites_total": 128,
   "slow": [
     "Fincador",
     "Cafur Serveis Immobiliaris",
-    "Selekta Properties",
-    "GUMPER",
-    "Loca Barcelona",
-    "ShBarcelona",
-    "Carbonell (Admón. Fincas)"
+    "AFB Finques Gràcia",
+    "West Side Barcelona",
+    "ShBarcelona"
   ]
 }
