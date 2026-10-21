@@ -1,12 +1,14 @@
 {
-  "sites_read": 109,
+  "sites_read": 112,
   "sites_total": 128,
   "slow": [
     "Fincador",
-    "Punto Habitat",
+    "GUMPER",
     "Toysan Finques",
-    "ShBarcelona",
+    "Punto Habitat",
     "Loca Barcelona",
-    "VM3 Fincas"
+    "ShBarcelona",
+    "DonCasa",
+    "Inmobiliaria Diagonal Mar"
   ]
 }
