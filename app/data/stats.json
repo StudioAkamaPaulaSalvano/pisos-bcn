@@ -1,16 +1,14 @@
 {
-  "sites_read": 111,
+  "sites_read": 107,
   "sites_total": 128,
   "slow": [
     "Fincador",
     "Selekta Properties",
-    "inmho Barcelona",
     "GUMPER",
     "Fincas San Andrés",
-    "Loca Barcelona",
     "ShBarcelona",
+    "Fincas Layes",
     "DonCasa",
-    "Inmobiliaria Diagonal Mar",
-    "Fincas Azcoitia"
+    "Inmobiliaria Diagonal Mar"
   ]
 }
