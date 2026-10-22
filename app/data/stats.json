@@ -1,12 +1,14 @@
 {
-  "sites_read": 108,
+  "sites_read": 114,
   "sites_total": 128,
   "slow": [
     "Fincador",
     "Selekta Properties",
+    "AFB Finques Gràcia",
     "GUMPER",
-    "AFI Finques",
-    "Loca Barcelona",
-    "ShBarcelona"
+    "Finques TEBÉ",
+    "ShBarcelona",
+    "Fincas Layes",
+    "VM3 Fincas"
   ]
 }
