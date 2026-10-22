@@ -1,14 +1,25 @@
 {
-  "sites_read": 104,
+  "sites_read": 99,
   "sites_total": 128,
   "slow": [
+    "BÜNIK home",
     "Fincador",
+    "Fincas Blanco",
     "Selekta Properties",
+    "Kasa Inmobiliaria",
+    "AFB Finques Gràcia",
+    "ImmoBarceló",
     "GUMPER",
+    "Diana Finques",
+    "Finques Vives",
+    "Punto Habitat",
+    "Loca Barcelona",
     "BCN Finques / Fincas Tomàs",
     "ShBarcelona",
+    "Fincas Layes",
     "Fincas Finurba",
-    "DonCasa",
-    "Inmobiliaria Diagonal Mar"
+    "BCN Living",
+    "Finques Mixoy",
+    "Finques Miret"
   ]
 }
