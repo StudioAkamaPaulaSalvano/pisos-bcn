@@ -1,14 +1,16 @@
 {
-  "sites_read": 107,
+  "sites_read": 106,
   "sites_total": 128,
   "slow": [
+    "Finques Bou",
     "Fincador",
     "Selekta Properties",
+    "Orfinca",
     "GUMPER",
     "Fincas San Andrés",
-    "Finques TEBÉ",
     "BCN Finques / Fincas Tomàs",
     "ShBarcelona",
+    "Loca Barcelona",
     "Fincas Finurba"
   ]
 }
