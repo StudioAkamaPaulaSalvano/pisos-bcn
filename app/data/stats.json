@@ -1,16 +1,16 @@
 {
-  "sites_read": 105,
+  "sites_read": 111,
   "sites_total": 128,
   "slow": [
     "Fincador",
-    "Cafur Serveis Immobiliaris",
     "Selekta Properties",
     "AFB Finques Gràcia",
     "GUMPER",
-    "Fincas San Andrés",
     "Loca Barcelona",
-    "ShBarcelona",
     "BCN Finques / Fincas Tomàs",
-    "Fincas Finurba"
+    "ShBarcelona",
+    "Fincas Finurba",
+    "Finques Catalonia",
+    "VM3 Fincas"
   ]
 }
