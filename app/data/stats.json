@@ -1,12 +1,15 @@
 {
-  "sites_read": 110,
+  "sites_read": 109,
   "sites_total": 128,
   "slow": [
+    "Finques Martell",
     "Fincador",
     "Selekta Properties",
+    "Finques Marbá",
     "AFB Finques Gràcia",
+    "GUMPER",
     "Fincas San Andrés",
-    "ShBarcelona",
-    "Carbonell (Admón. Fincas)"
+    "Loca Barcelona",
+    "ShBarcelona"
   ]
 }
