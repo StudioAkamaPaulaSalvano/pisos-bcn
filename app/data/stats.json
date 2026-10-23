@@ -1,15 +1,20 @@
 {
-  "sites_read": 106,
+  "sites_read": 107,
   "sites_total": 128,
   "slow": [
+    "Grup Solfinc",
     "Fincador",
     "Selekta Properties",
+    "AFB Finques Gràcia",
     "GUMPER",
     "Fincas San Andrés",
     "Loca Barcelona",
     "BCN Finques / Fincas Tomàs",
     "ShBarcelona",
+    "Finques Falcón",
+    "Fincas Padua",
     "Fincas Finurba",
-    "Fincas Azcoitia"
+    "Coma-Roig",
+    "Vivalco"
   ]
 }
