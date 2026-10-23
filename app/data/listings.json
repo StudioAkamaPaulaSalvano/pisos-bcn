@@ -121,6 +121,16 @@
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
   {
+    "url": "https://inmobiliaria.calvetpremium.com/es/alquiler-pisos-pisos/en-barcelona-barcelona//ref-4167",
+    "price": 919,
+    "rooms": 3,
+    "kind": "piso",
+    "title": "Comte Vilardaga | Ref: 4167",
+    "img": "https://media.mobiliagestion.es/Portals/inmocalvet/Images/4167/28895493-large.jpg",
+    "text": " Comte Vilardaga | Ref: 4167 PDCookieConsent.config({ \"brand\": { \"dev\" : false, \"name\": \"\", \"url\" : \"\" }, \"cookiePolicyLink\": \"\", \"passList\" : [], \"showBadges\" : true, \"styles\": { ",
+    "agency": "Calvet"
+  },
+  {
     "url": "https://www.pisos.com/alquilar/piso-sant_andreu_barrio08030-65914432493_501025/",
     "price": 927,
     "rooms": 2,
@@ -229,16 +239,6 @@
     "text": "Propiedad en Sants-Montjuïc Precio Alquiler: 1000 € de Sugranyes m2 construidos habitaciones baños",
     "agency": "BarnaPiso",
     "rent_url": "https://barnapiso.com/es/propiedades-disponibles-barcelona/"
-  },
-  {
-    "url": "https://inmobiliaria.calvetpremium.com/es/alquiler-pisos-pisos/en-barcelona-barcelona//ref-4143",
-    "price": 1000,
-    "rooms": 1,
-    "kind": "piso",
-    "title": "Petritxol - Plaça del Pi | Ref: 4143",
-    "img": "https://media.mobiliagestion.es/Portals/inmocalvet/Images/4143/28555170-large.jpg",
-    "text": " Petritxol - Plaça del Pi | Ref: 4143 PDCookieConsent.config({ \"brand\": { \"dev\" : false, \"name\": \"\", \"url\" : \"\" }, \"cookiePolicyLink\": \"\", \"passList\" : [], \"showBadges\" : true, \"st",
-    "agency": "Calvet"
   },
   {
     "url": "https://www.pisos.com/alquilar/piso-el_raval08001-68421953326_109200/",
