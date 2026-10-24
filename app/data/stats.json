@@ -1,13 +1,15 @@
 {
-  "sites_read": 108,
+  "sites_read": 111,
   "sites_total": 128,
   "slow": [
+    "Cleries Administració",
     "Fincador",
+    "Fincas Blanco",
     "GUMPER",
+    "Fincas San Andrés",
     "ShBarcelona",
-    "Gala Finques",
     "Finques Gassiot",
-    "Carbonell (Admón. Fincas)",
+    "Gala Finques",
     "VM3 Fincas",
     "Euro-Horta"
   ]
