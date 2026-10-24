@@ -1,15 +1,19 @@
 {
-  "sites_read": 113,
+  "sites_read": 108,
   "sites_total": 128,
   "slow": [
+    "Cleries Administració",
+    "Finques Bou",
     "Fincador",
+    "Orfinca",
     "GUMPER",
     "Fincas San Andrés",
-    "Urbefinques",
-    "Loca Barcelona",
+    "Finques Hosta",
     "ShBarcelona",
-    "Atemporal Barcelona",
+    "Finques Gassiot",
+    "Carbonell (Admón. Fincas)",
     "VM3 Fincas",
-    "aProperties"
+    "Euro-Horta",
+    "BarnaPiso"
   ]
 }
