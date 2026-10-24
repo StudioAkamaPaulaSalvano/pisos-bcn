@@ -1,10 +1,13 @@
 {
-  "sites_read": 111,
+  "sites_read": 110,
   "sites_total": 128,
   "slow": [
     "Fincador",
-    "Fincas San Andrés",
+    "Fincas Blanco",
+    "GUMPER",
     "Loca Barcelona",
-    "ShBarcelona"
+    "ShBarcelona",
+    "VM3 Fincas",
+    "Euro-Horta"
   ]
 }
