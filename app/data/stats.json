@@ -1,15 +1,16 @@
 {
-  "sites_read": 107,
+  "sites_read": 111,
   "sites_total": 128,
   "slow": [
-    "BÜNIK home",
-    "Fincador",
     "Fincas Blanco",
+    "Fincador",
     "GUMPER",
-    "Diana Finques",
     "Fincas San Andrés",
-    "Finques Vives",
     "ShBarcelona",
-    "Finques Mixoy"
+    "Finques Gassiot",
+    "Carbonell (Admón. Fincas)",
+    "Finques Catalonia",
+    "VM3 Fincas",
+    "Euro-Horta"
   ]
 }
