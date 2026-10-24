@@ -1,8 +1,14 @@
 {
-  "sites_read": 111,
+  "sites_read": 116,
   "sites_total": 128,
   "slow": [
+    "Cleries Administració",
     "Fincador",
-    "ShBarcelona"
+    "GUMPER",
+    "Loca Barcelona",
+    "ShBarcelona",
+    "Finques Gassiot",
+    "VM3 Fincas",
+    "Euro-Horta"
   ]
 }
