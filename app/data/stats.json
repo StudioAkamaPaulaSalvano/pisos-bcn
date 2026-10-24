@@ -1,16 +1,10 @@
 {
-  "sites_read": 111,
+  "sites_read": 110,
   "sites_total": 128,
   "slow": [
-    "Fincas Blanco",
     "Fincador",
-    "GUMPER",
-    "Fincas San Andrés",
-    "ShBarcelona",
-    "Finques Gassiot",
-    "Carbonell (Admón. Fincas)",
-    "Finques Catalonia",
-    "VM3 Fincas",
-    "Euro-Horta"
+    "Orfinca",
+    "Loca Barcelona",
+    "ShBarcelona"
   ]
 }
