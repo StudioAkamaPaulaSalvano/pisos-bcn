@@ -1,11 +1,17 @@
 {
-  "sites_read": 110,
+  "sites_read": 105,
   "sites_total": 128,
   "slow": [
+    "Cleries Administració",
     "Fincador",
+    "Fincas Blanco",
     "GUMPER",
     "Loca Barcelona",
     "ShBarcelona",
-    "Fincas García"
+    "Finques Gassiot",
+    "DonCasa",
+    "Inmobiliaria Diagonal Mar",
+    "VM3 Fincas",
+    "Euro-Horta"
   ]
 }
