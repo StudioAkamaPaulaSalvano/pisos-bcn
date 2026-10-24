@@ -1,14 +1,17 @@
 {
-  "sites_read": 110,
+  "sites_read": 114,
   "sites_total": 128,
   "slow": [
     "Finques Martell",
+    "Cleries Administració",
     "Fincador",
     "GUMPER",
+    "Fincas San Andrés",
+    "Finques Hosta",
     "ShBarcelona",
     "Finques Gassiot",
-    "Carbonell (Admón. Fincas)",
     "VM3 Fincas",
-    "Euro-Horta"
+    "Euro-Horta",
+    "BarnaPiso"
   ]
 }
