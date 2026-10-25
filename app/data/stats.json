@@ -1,11 +1,13 @@
 {
-  "sites_read": 116,
+  "sites_read": 115,
   "sites_total": 128,
   "slow": [
+    "Finques Bou",
     "Fincador",
-    "Cafur Serveis Immobiliaris",
     "GUMPER",
     "Loca Barcelona",
-    "ShBarcelona"
+    "ShBarcelona",
+    "Carbonell (Admón. Fincas)",
+    "InmoGràcia"
   ]
 }
