@@ -1,16 +1,8 @@
 {
-  "sites_read": 111,
+  "sites_read": 116,
   "sites_total": 128,
   "slow": [
     "Fincador",
-    "Fincas Blanco",
-    "Cafur Serveis Immobiliaris",
-    "AFB Finques Gràcia",
-    "GUMPER",
-    "Fincas San Andrés",
-    "Punto Habitat",
-    "Loca Barcelona",
-    "ShBarcelona",
-    "Tu Piso Nou Barris"
+    "ShBarcelona"
   ]
 }
