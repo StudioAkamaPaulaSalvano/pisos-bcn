@@ -1,14 +1,12 @@
 {
-  "sites_read": 116,
+  "sites_read": 110,
   "sites_total": 128,
   "slow": [
+    "Finques Martell",
     "Fincador",
     "GUMPER",
     "Fincas San Andrés",
-    "Fincas Ollé",
-    "Loca Barcelona",
     "ShBarcelona",
-    "Carbonell (Admón. Fincas)",
-    "VM3 Fincas"
+    "Carbonell (Admón. Fincas)"
   ]
 }
