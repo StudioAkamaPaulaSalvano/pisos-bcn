@@ -1,12 +1,13 @@
 {
-  "sites_read": 110,
+  "sites_read": 107,
   "sites_total": 128,
   "slow": [
-    "Fincador",
     "Finques Martell",
+    "Fincador",
+    "Finor BCN",
+    "Chester Estate",
+    "Gaudí House",
     "GUMPER",
-    "Fincas San Andrés",
-    "Loca Barcelona",
     "ShBarcelona"
   ]
 }
