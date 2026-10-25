@@ -55,7 +55,7 @@
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
   {
-    "url": "https://www.pisos.com/alquilar/estudio-el_poble_sec08004-67527772384_104700/",
+    "url": "https://www.pisos.com/alquilar/estudio-el_poble_sec-67527772384_104700/",
     "price": 890,
     "rooms": null,
     "kind": "piso",
@@ -109,13 +109,13 @@
     "rent_url": "https://www.locabarcelona.com/en/property-feature/features/furnished/"
   },
   {
-    "url": "https://www.pisos.com/alquilar/estudio-sants_badal-68432079809_104700/",
+    "url": "https://www.pisos.com/alquilar/estudio-sants_montjuic-68432079809_104700/",
     "price": 950,
     "rooms": null,
     "kind": "piso",
-    "title": "Estudio en Sants-Badal",
-    "img": "https://fotos.imghs.net/mm-wp/1047/3230323630393034/b914a7c6-4afd-477c-8065-e615801d914f.jpg",
-    "text": "1 /13 Nuevo PREMIUM 950 € /mes Estudio en Sants-Badal Sants-Badal (Distrito Sants-Montjuïc. Barcelona Capital) 1 baño 25 m² Reservas e inquietudes Tipo de alojamiento - alojamiento",
+    "title": "Estudio en Sants-Montjuïc",
+    "img": "https://fotos.imghs.net/mm-wp/1047/3230323631303135/3364ee50-a63b-49f7-aac6-720f768b8d41.jpg",
+    "text": "1 /13 Nuevo PREMIUM 950 € /mes Estudio en Sants-Montjuïc Sants-Montjuïc (Barcelona Capital) 1 baño 25 m² Reservas e inquietudes Tipo de alojamiento - alojamiento entero Términos y ",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
