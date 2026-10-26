@@ -1,11 +1,13 @@
 {
-  "sites_read": 111,
+  "sites_read": 112,
   "sites_total": 128,
   "slow": [
     "Fincador",
+    "Casc Antic BCN",
     "GUMPER",
     "Loca Barcelona",
     "ShBarcelona",
-    "Fincas Azcoitia"
+    "DonCasa",
+    "Carbonell (Admón. Fincas)"
   ]
 }
