@@ -1,15 +1,11 @@
 {
-  "sites_read": 114,
+  "sites_read": 111,
   "sites_total": 128,
   "slow": [
-    "Vivendex",
     "Fincador",
     "GUMPER",
     "Fincas San Andrés",
-    "Toysan Finques",
-    "AFI Finques",
     "Loca Barcelona",
-    "ShBarcelona",
-    "Carbonell (Admón. Fincas)"
+    "ShBarcelona"
   ]
 }
