@@ -22,6 +22,17 @@
     "rent_url": "https://finqueselpallars.com/alquiler"
   },
   {
+    "url": "https://www.pisos.com/alquilar/piso-la_maternitat_sant_ramon08028-68394487076_106100/",
+    "price": 800,
+    "rooms": null,
+    "kind": "piso",
+    "title": "Piso en La Maternitat-Sant Ramon",
+    "img": "https://fotos.imghs.net/mm-wp/1061/3230323631303235/ef8efa22-d897-4c94-8641-8b03c9faa293.jpg",
+    "text": "1 /46 Nuevo PREMIUM 800 € /mes Piso en La Maternitat-Sant Ramon La Maternitat-Sant Ramon (Distrito Les Corts. Barcelona Capital) 1 baño 29 m² Principal Estudio en planta baja con p",
+    "agency": "pisos.com",
+    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
+  },
+  {
     "url": "https://www.pisos.com/alquilar/estudio-la_maternitat_sant_ramon08028-53355782706_104700/",
     "price": 850,
     "rooms": null,
@@ -195,17 +206,6 @@
     "text": "Propiedad en Sants-Montjuïc Precio Alquiler: 1000 € de Sugranyes m2 construidos habitaciones baños",
     "agency": "BarnaPiso",
     "rent_url": "https://barnapiso.com/es/propiedades-disponibles-barcelona/"
-  },
-  {
-    "url": "https://www.pisos.com/alquilar/piso-el_poble_sec08004-68345691805_106100/",
-    "price": 1000,
-    "rooms": 2,
-    "kind": "piso",
-    "title": "Piso en calle calle Luis Pasteur, 3",
-    "img": "https://fotos.imghs.net/mm-wp/1061/3230323631303235/efdfe4e7-fe07-4548-b5b3-193af0f0ab03.jpg",
-    "text": "1 /35 PREMIUM 1.000 € /mes Piso en calle calle Luis Pasteur, 3 El Poble-sec (Distrito Sants-Montjuïc. Barcelona Capital) 2 habs. 2 baños 110 m² 8ª planta Prox. A la upct - luis pas",
-    "agency": "pisos.com",
-    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
   {
     "url": "https://www.pisos.com/alquilar/piso-el_raval08001-68421953326_109200/",
