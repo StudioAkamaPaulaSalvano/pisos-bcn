@@ -22,17 +22,6 @@
     "rent_url": "https://finqueselpallars.com/alquiler"
   },
   {
-    "url": "https://www.pisos.com/alquilar/piso-sant_andreu_barrio08030-455282422_501025/",
-    "price": 753,
-    "rooms": 1,
-    "kind": "piso",
-    "title": "Piso en Carrer de Castellbell",
-    "img": "https://fotos.imghs.net/mm-wp/501025/455282422.501025/501025_455282422_18c43837-5132-45ea-a416-b4f4470eba19.jpg",
-    "text": "1 /24 TOP 753 € /mes Piso en Carrer de Castellbell Sant Andreu (Distrito Sant Andreu. Barcelona Capital) 1 hab. 1 baño 55 m² 2ª planta C/ castellbell Informacion importante: para v",
-    "agency": "pisos.com",
-    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
-  },
-  {
     "url": "https://www.pisos.com/alquilar/estudio-la_maternitat_sant_ramon08028-53355782706_104700/",
     "price": 850,
     "rooms": null,
@@ -104,7 +93,7 @@
     "kind": "piso",
     "title": "Piso en Plaça del Mercadal",
     "img": "https://fotos.imghs.net/mm-wp/501025/65914432493.501025/501025_65914432493_628c7b8d-761f-45b2-9587-bcd357bd316a.jpg",
-    "text": "1 /32 TOP Exclusivo 927 € /mes 102 € (-10%) Piso en Plaça del Mercadal Sant Andreu (Distrito Sant Andreu. Barcelona Capital) 2 habs. 1 baño 63 m² Bajo Informacion importante: para ",
+    "text": "1 /32 Nuevo TOP Exclusivo 927 € /mes 102 € (-10%) Piso en Plaça del Mercadal Sant Andreu (Distrito Sant Andreu. Barcelona Capital) 2 habs. 1 baño 63 m² Bajo Informacion importante:",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
@@ -237,6 +226,17 @@
     "title": "Casa en El Besòs-El Maresme",
     "img": "https://fotos.imghs.net/mm-wp/1092/3230323631303036/dbeb8ed4-be0b-4ecb-a2fa-e144c3874896.jpg",
     "text": "1 /10 PREMIUM 1.085 € /mes Casa en El Besòs-El Maresme El Besòs-El Maresme (Distrito Sant Martí. Barcelona Capital) 🎓 student residence in barcelona with pool and gym!! 🏋️‍♂️🏊‍♀️ U",
+    "agency": "pisos.com",
+    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
+  },
+  {
+    "url": "https://www.pisos.com/alquilar/piso-antiga_esquerra_de_eixample-67590597346_104700/",
+    "price": 1097,
+    "rooms": 1,
+    "kind": "piso",
+    "title": "Piso en L'Antiga Esquerra de l'Eixample",
+    "img": "https://fotos.imghs.net/mm-wp/1047/3230323630393330/a34eb581-138e-4789-a2ea-7af42e35caac.jpg",
+    "text": "1 /13 PREMIUM 1.097 € /mes Piso en L'Antiga Esquerra de l'Eixample L'Antiga Esquerra de l'Eixample (Distrito Eixample. Barcelona Capital) 1 hab. 1 baño 44 m² Reservas e inquietudes",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
