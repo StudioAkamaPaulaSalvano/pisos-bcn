@@ -1,9 +1,13 @@
 {
-  "sites_read": 116,
+  "sites_read": 114,
   "sites_total": 128,
   "slow": [
+    "Fincador",
     "GUMPER",
     "Loca Barcelona",
-    "ShBarcelona"
+    "ShBarcelona",
+    "DonCasa",
+    "Carbonell (Admón. Fincas)",
+    "Inmobiliaria Diagonal Mar"
   ]
 }
