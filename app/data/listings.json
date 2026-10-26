@@ -22,26 +22,15 @@
     "rent_url": "https://finqueselpallars.com/alquiler"
   },
   {
-    "url": "https://www.guinotprunera.com/ca/lloguer/ref-31961",
+    "url": "https://www.guinotprunera.com/es/alquiler/ref-31961",
     "price": 753,
     "rooms": null,
     "kind": "piso",
     "title": "El Congrés i Els Indians",
     "img": "https://media.mobiliagestion.es/Portals/inmoguinotprunera/Images/31961/28217697.jpg",
-    "text": "20261026 31961 Pis El Congrés i Els Indians 753 €/mes 50 1 1 L´habitatge té un ampli menjador de 15m² lluminós i amb sortida a balcó, àmplia cuina en bon estat. La finca no disposa",
+    "text": "20261026 31961 Piso El Congrés i Els Indians 753 €/mes 50 1 1 Vivienda con un amplio comedor de 15m² luminoso y con salida a balcón, amplia cocina en buen estado. La finca no dispo",
     "agency": "Guinot Prunera",
-    "rent_url": "https://www.guinotprunera.com/ca/lloguer"
-  },
-  {
-    "url": "https://www.guinotprunera.com/ca/lloguer/ref-33070",
-    "price": 753,
-    "rooms": 2,
-    "kind": "piso",
-    "title": "Ref 33070",
-    "img": "https://media.mobiliagestion.es/Portals/inmoguinotprunera/Images/31961/28217697.jpg",
-    "text": "20261026 31961 Pis El Congrés i Els Indians 753 €/mes 50 1 1 L´habitatge té un ampli menjador de 15m² lluminós i amb sortida a balcó, àmplia cuina en bon estat. La finca no disposa",
-    "agency": "Guinot Prunera",
-    "rent_url": "https://www.guinotprunera.com/ca/lloguer"
+    "rent_url": "https://www.guinotprunera.com/es/alquiler"
   },
   {
     "url": "https://www.pisos.com/alquilar/estudio-la_maternitat_sant_ramon08028-53355782706_104700/",
@@ -115,7 +104,7 @@
     "kind": "piso",
     "title": "Piso en Plaça del Mercadal",
     "img": "https://fotos.imghs.net/mm-wp/501025/65914432493.501025/501025_65914432493_628c7b8d-761f-45b2-9587-bcd357bd316a.jpg",
-    "text": "1 /32 TOP Exclusivo 927 € /mes 102 € (-10%) Piso en Plaça del Mercadal Sant Andreu (Distrito Sant Andreu. Barcelona Capital) 2 habs. 1 baño 63 m² Bajo Informacion importante: para ",
+    "text": "1 /32 Nuevo TOP Exclusivo 927 € /mes 102 € (-10%) Piso en Plaça del Mercadal Sant Andreu (Distrito Sant Andreu. Barcelona Capital) 2 habs. 1 baño 63 m² Bajo Informacion importante:",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
