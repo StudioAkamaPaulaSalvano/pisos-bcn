@@ -44,6 +44,17 @@
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
   {
+    "url": "https://www.pisos.com/alquilar/piso-sant_andreu_barrio08030-550364848_501025/",
+    "price": 875,
+    "rooms": 1,
+    "kind": "piso",
+    "title": "Piso en Passatge d'Isabel Ribó",
+    "img": "https://fotos.imghs.net/mm-wp/501025/550364848.501025/501025_550364848_6b3a75df-e935-4f2c-b8bc-26516383732a.jpg",
+    "text": "1 /14 Nuevo PREMIUM 875 € /mes Piso en Passatge d'Isabel Ribó Sant Andreu (Distrito Sant Andreu. Barcelona Capital) 1 hab. 1 baño 62 m² Bajo Disponible 31/12/2026 Informacion impor",
+    "agency": "pisos.com",
+    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
+  },
+  {
     "url": "https://www.pisos.com/alquilar/piso-el_poble_sec08004-60051110553_531896/",
     "price": 875,
     "rooms": 3,
@@ -118,6 +129,17 @@
     "text": "View Property View Property View Property View Property View Property View Property View Property View Property View Property View Property View Property View Property x Interested",
     "agency": "Loca Barcelona",
     "rent_url": "https://www.locabarcelona.com/en/property-feature/features/furnished/"
+  },
+  {
+    "url": "https://www.pisos.com/alquilar/estudio-sants_montjuic-68432079809_104700/",
+    "price": 950,
+    "rooms": null,
+    "kind": "piso",
+    "title": "Estudio en Sants-Montjuïc",
+    "img": "https://fotos.imghs.net/mm-wp/1047/3230323631303135/3364ee50-a63b-49f7-aac6-720f768b8d41.jpg",
+    "text": "1 /13 Nuevo PREMIUM 950 € /mes Estudio en Sants-Montjuïc Sants-Montjuïc (Barcelona Capital) 1 baño 25 m² Reservas e inquietudes Tipo de alojamiento - alojamiento entero Términos y ",
+    "agency": "pisos.com",
+    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
   {
     "url": "https://www.pisos.com/alquilar/piso-sants_montjuic_la_bordeta08014-68424205485_109200/",
