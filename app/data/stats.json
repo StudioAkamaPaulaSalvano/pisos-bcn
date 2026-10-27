@@ -1,16 +1,13 @@
 {
-  "sites_read": 111,
+  "sites_read": 113,
   "sites_total": 128,
   "slow": [
     "Cleries Administració",
     "Fincador",
+    "Orfinca",
     "GUMPER",
-    "Urbefinques",
     "Loca Barcelona",
     "ShBarcelona",
-    "Atemporal Barcelona",
-    "Fincas García",
-    "VM3 Fincas",
-    "aProperties"
+    "Fincas García"
   ]
 }
