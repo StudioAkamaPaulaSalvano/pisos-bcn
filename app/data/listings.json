@@ -28,7 +28,7 @@
     "kind": "piso",
     "title": "Piso en Passatge d'Isabel Ribó",
     "img": "https://fotos.imghs.net/mm-wp/501025/550364848.501025/501025_550364848_6b3a75df-e935-4f2c-b8bc-26516383732a.jpg",
-    "text": "1 /14 Nuevo PREMIUM 875 € /mes Piso en Passatge d'Isabel Ribó Sant Andreu (Distrito Sant Andreu. Barcelona Capital) 1 hab. 1 baño 62 m² Bajo Disponible 31/12/2026 Informacion impor",
+    "text": "1 /14 TOP 875 € /mes Piso en Passatge d'Isabel Ribó Sant Andreu (Distrito Sant Andreu. Barcelona Capital) 1 hab. 1 baño 62 m² Bajo Disponible 31/12/2026 Informacion importante: par",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
@@ -72,7 +72,7 @@
     "kind": "piso",
     "title": "Piso en Plaça del Mercadal",
     "img": "https://fotos.imghs.net/mm-wp/501025/65914432493.501025/501025_65914432493_628c7b8d-761f-45b2-9587-bcd357bd316a.jpg",
-    "text": "1 /32 Nuevo TOP Exclusivo 927 € /mes 102 € (-10%) Piso en Plaça del Mercadal Sant Andreu (Distrito Sant Andreu. Barcelona Capital) 2 habs. 1 baño 63 m² Bajo Informacion importante:",
+    "text": "1 /32 TOP Exclusivo 927 € /mes 102 € (-10%) Piso en Plaça del Mercadal Sant Andreu (Distrito Sant Andreu. Barcelona Capital) 2 habs. 1 baño 63 m² Bajo Informacion importante: para ",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
@@ -184,6 +184,28 @@
     "text": "1 /24 PREMIUM 1.040 € /mes Piso en Carrer de Felip II El Congrés-Els Indians (Distrito Sant Andreu. Barcelona Capital) 1 hab. 1 baño 50 m² Entresuelo Vivienda de alquiler reformada",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
+  },
+  {
+    "url": "https://www.guinotprunera.com/ca/lloguer/ref-33117",
+    "price": 1044,
+    "rooms": null,
+    "kind": "piso",
+    "title": "Ref 33117",
+    "img": "https://media.mobiliagestion.es/Portals/inmoguinotprunera/Images/33117/28639846.jpg",
+    "text": "20261027 33117 Àtic El Gòtic 1.044 €/mes 70 2 2 Pis situat a Ciutat Vella, àtic sense ascensor. Cuina tancada amb electrodomèstics. Saló ampli i lluminós. Pis en perfectes condicio",
+    "agency": "Guinot Prunera",
+    "rent_url": "https://www.guinotprunera.com/ca/lloguer"
+  },
+  {
+    "url": "https://www.guinotprunera.com/ca/lloguer/ref-33070",
+    "price": 1044,
+    "rooms": 2,
+    "kind": "piso",
+    "title": "Ref 33070",
+    "img": "https://media.mobiliagestion.es/Portals/inmoguinotprunera/Images/33117/28639846.jpg",
+    "text": "20261027 33117 Àtic El Gòtic 1.044 €/mes 70 2 2 Pis situat a Ciutat Vella, àtic sense ascensor. Cuina tancada amb electrodomèstics. Saló ampli i lluminós. Pis en perfectes condicio",
+    "agency": "Guinot Prunera",
+    "rent_url": "https://www.guinotprunera.com/ca/lloguer"
   },
   {
     "url": "https://www.pisos.com/alquilar/piso-el_raval08001-68421953326_109200/",
