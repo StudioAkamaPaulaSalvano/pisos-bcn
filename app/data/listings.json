@@ -186,26 +186,15 @@
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
   {
-    "url": "https://www.guinotprunera.com/ca/lloguer/ref-33117",
+    "url": "https://www.guinotprunera.com/es/alquiler/ref-33117",
     "price": 1044,
     "rooms": null,
     "kind": "piso",
     "title": "Ref 33117",
     "img": "https://media.mobiliagestion.es/Portals/inmoguinotprunera/Images/33117/28639846.jpg",
-    "text": "20261027 33117 Àtic El Gòtic 1.044 €/mes 70 2 2 Pis situat a Ciutat Vella, àtic sense ascensor. Cuina tancada amb electrodomèstics. Saló ampli i lluminós. Pis en perfectes condicio",
+    "text": "20261027 33117 Ático El Gòtic 1.044 €/mes 70 2 2 Piso ubicado en Ciutat Vella, ático sin ascensor. Cocina cerrada con electrodomésticos. Salón amplio y luminoso. Piso en perfectas ",
     "agency": "Guinot Prunera",
-    "rent_url": "https://www.guinotprunera.com/ca/lloguer"
-  },
-  {
-    "url": "https://www.guinotprunera.com/ca/lloguer/ref-33070",
-    "price": 1044,
-    "rooms": 2,
-    "kind": "piso",
-    "title": "Ref 33070",
-    "img": "https://media.mobiliagestion.es/Portals/inmoguinotprunera/Images/33117/28639846.jpg",
-    "text": "20261027 33117 Àtic El Gòtic 1.044 €/mes 70 2 2 Pis situat a Ciutat Vella, àtic sense ascensor. Cuina tancada amb electrodomèstics. Saló ampli i lluminós. Pis en perfectes condicio",
-    "agency": "Guinot Prunera",
-    "rent_url": "https://www.guinotprunera.com/ca/lloguer"
+    "rent_url": "https://www.guinotprunera.com/es/alquiler"
   },
   {
     "url": "https://www.pisos.com/alquilar/piso-el_raval08001-68421953326_109200/",
