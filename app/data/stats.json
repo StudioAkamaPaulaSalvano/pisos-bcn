@@ -1,13 +1,16 @@
 {
-  "sites_read": 114,
+  "sites_read": 110,
   "sites_total": 128,
   "slow": [
     "Cleries Administració",
     "Fincador",
+    "Grup Solfinc",
     "GUMPER",
     "Loca Barcelona",
     "ShBarcelona",
-    "VM3 Fincas",
-    "InmoGràcia"
+    "Finques Falcón",
+    "Fincas Padua",
+    "Coma-Roig",
+    "Vivalco"
   ]
 }
