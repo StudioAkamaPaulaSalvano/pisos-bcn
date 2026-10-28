@@ -1,13 +1,16 @@
 {
-  "sites_read": 113,
+  "sites_read": 109,
   "sites_total": 128,
   "slow": [
     "Cleries Administració",
+    "Finques Martell",
     "Fincador",
     "GUMPER",
-    "Loca Barcelona",
     "ShBarcelona",
+    "DonCasa",
+    "Inmobiliaria Diagonal Mar",
+    "VM3 Fincas",
     "InmoGràcia",
-    "VM3 Fincas"
+    "Fincas Azcoitia"
   ]
 }
