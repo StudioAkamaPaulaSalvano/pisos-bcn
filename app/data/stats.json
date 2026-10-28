@@ -1,13 +1,11 @@
 {
-  "sites_read": 112,
+  "sites_read": 114,
   "sites_total": 128,
   "slow": [
     "Cleries Administració",
     "Fincador",
-    "Finques Marbá",
-    "Casc Antic BCN",
-    "GUMPER",
     "Loca Barcelona",
-    "ShBarcelona"
+    "ShBarcelona",
+    "Gabinet Gorriz-Arias"
   ]
 }
