@@ -1,20 +1,14 @@
 {
-  "sites_read": 106,
+  "sites_read": 115,
   "sites_total": 128,
   "slow": [
-    "Fincador",
+    "Fincas Almendros",
     "Cleries Administració",
-    "Orfinca",
-    "Withfor",
-    "Nitia",
-    "Finques Hosta",
-    "Finques TEBÉ",
-    "Ilive Barcelona",
-    "Amat Immobiliaris",
+    "Fincador",
+    "Cafur Serveis Immobiliaris",
+    "GUMPER",
+    "Fincas San Andrés",
     "Loca Barcelona",
-    "ShBarcelona",
-    "Serviguest",
-    "Segermar Associats",
-    "BarnaPiso"
+    "ShBarcelona"
   ]
 }
