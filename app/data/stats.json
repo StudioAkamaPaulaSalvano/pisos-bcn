@@ -1,12 +1,17 @@
 {
-  "sites_read": 114,
+  "sites_read": 110,
   "sites_total": 128,
   "slow": [
     "Cleries Administració",
     "Fincador",
     "GUMPER",
-    "Fincas San Andrés",
+    "Finques Hosta",
     "Loca Barcelona",
-    "ShBarcelona"
+    "ShBarcelona",
+    "DonCasa",
+    "Inmobiliaria Diagonal Mar",
+    "InmoGràcia",
+    "VM3 Fincas",
+    "BarnaPiso"
   ]
 }
