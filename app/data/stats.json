@@ -1,12 +1,13 @@
 {
-  "sites_read": 115,
+  "sites_read": 114,
   "sites_total": 128,
   "slow": [
     "Fincas Almendros",
-    "Cleries Administració",
     "Fincador",
+    "Cleries Administració",
     "GUMPER",
-    "Loca Barcelona",
-    "ShBarcelona"
+    "Fincas San Andrés",
+    "ShBarcelona",
+    "Carbonell (Admón. Fincas)"
   ]
 }
