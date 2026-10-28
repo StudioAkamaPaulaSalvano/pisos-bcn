@@ -1,13 +1,14 @@
 {
-  "sites_read": 112,
+  "sites_read": 114,
   "sites_total": 128,
   "slow": [
     "Cleries Administració",
     "Fincador",
+    "Urbane International",
+    "Casc Antic BCN",
     "GUMPER",
     "Fincas San Andrés",
     "Loca Barcelona",
-    "ShBarcelona",
-    "Carbonell (Admón. Fincas)"
+    "ShBarcelona"
   ]
 }
