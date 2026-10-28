@@ -1,12 +1,12 @@
 {
-  "sites_read": 115,
+  "sites_read": 114,
   "sites_total": 128,
   "slow": [
-    "Cleries Administració",
     "Fincador",
+    "Cleries Administració",
+    "Orfinca",
     "GUMPER",
-    "Fincas San Andrés",
-    "ShBarcelona",
-    "VM3 Fincas"
+    "Loca Barcelona",
+    "ShBarcelona"
   ]
 }
