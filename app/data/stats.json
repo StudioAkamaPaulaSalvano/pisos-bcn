@@ -1,14 +1,16 @@
 {
-  "sites_read": 114,
+  "sites_read": 113,
   "sites_total": 128,
   "slow": [
     "Cleries Administració",
     "Fincador",
+    "Urbane International",
+    "Casc Antic BCN",
     "GUMPER",
     "Fincas San Andrés",
     "Loca Barcelona",
     "ShBarcelona",
-    "VM3 Fincas",
-    "InmoGràcia"
+    "Inmobiliaria González Hellín",
+    "VM3 Fincas"
   ]
 }
