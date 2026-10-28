@@ -1,15 +1,14 @@
 {
-  "sites_read": 112,
+  "sites_read": 114,
   "sites_total": 128,
   "slow": [
-    "Fincas Almendros",
     "Cleries Administració",
+    "Fincas Almendros",
     "Fincador",
+    "AFB Finques Gràcia",
     "GUMPER",
     "Loca Barcelona",
     "ShBarcelona",
-    "DonCasa",
-    "Carbonell (Admón. Fincas)",
-    "Inmobiliaria Diagonal Mar"
+    "InmoGràcia"
   ]
 }
