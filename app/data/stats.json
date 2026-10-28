@@ -1,13 +1,16 @@
 {
-  "sites_read": 115,
+  "sites_read": 112,
   "sites_total": 128,
   "slow": [
+    "Fincas Almendros",
     "Cleries Administració",
     "Fincador",
+    "inmho Barcelona",
+    "Orfinca",
     "GUMPER",
-    "Fincas San Andrés",
     "Loca Barcelona",
     "ShBarcelona",
-    "Fincas García"
+    "Fincas Layes",
+    "Ferrim Habitat"
   ]
 }
