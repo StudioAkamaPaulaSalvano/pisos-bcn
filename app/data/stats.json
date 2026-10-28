@@ -1,16 +1,20 @@
 {
-  "sites_read": 113,
+  "sites_read": 106,
   "sites_total": 128,
   "slow": [
-    "Fincas Almendros",
-    "Cleries Administració",
     "Fincador",
-    "Cafur Serveis Immobiliaris",
-    "GUMPER",
-    "Fincas San Andrés",
+    "Cleries Administració",
+    "Orfinca",
+    "Withfor",
+    "Nitia",
+    "Finques Hosta",
+    "Finques TEBÉ",
+    "Ilive Barcelona",
+    "Amat Immobiliaris",
     "Loca Barcelona",
     "ShBarcelona",
-    "DonCasa",
-    "Inmobiliaria Diagonal Mar"
+    "Serviguest",
+    "Segermar Associats",
+    "BarnaPiso"
   ]
 }
