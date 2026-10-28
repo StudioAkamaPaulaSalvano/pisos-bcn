@@ -1,14 +1,17 @@
 {
-  "sites_read": 114,
+  "sites_read": 110,
   "sites_total": 128,
   "slow": [
+    "Fincas Almendros",
     "Cleries Administració",
     "Fincador",
     "Cafur Serveis Immobiliaris",
+    "inmho Barcelona",
     "GUMPER",
     "Loca Barcelona",
     "Fincas Layes",
     "ShBarcelona",
-    "VM3 Fincas"
+    "VM3 Fincas",
+    "InmoGràcia"
   ]
 }
