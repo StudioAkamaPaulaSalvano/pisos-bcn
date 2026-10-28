@@ -1,15 +1,12 @@
 {
-  "sites_read": 114,
+  "sites_read": 115,
   "sites_total": 128,
   "slow": [
     "Fincas Almendros",
     "Cleries Administració",
     "Fincador",
     "GUMPER",
-    "AFI Finques",
     "Loca Barcelona",
-    "ShBarcelona",
-    "Fincas García",
-    "VM3 Fincas"
+    "ShBarcelona"
   ]
 }
