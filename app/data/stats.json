@@ -1,15 +1,12 @@
 {
-  "sites_read": 113,
+  "sites_read": 115,
   "sites_total": 128,
   "slow": [
+    "Fincas Almendros",
     "Cleries Administració",
     "Fincador",
     "GUMPER",
-    "Fincas San Andrés",
     "Loca Barcelona",
-    "ShBarcelona",
-    "Fincas García",
-    "DonCasa",
-    "Inmobiliaria Diagonal Mar"
+    "ShBarcelona"
   ]
 }
