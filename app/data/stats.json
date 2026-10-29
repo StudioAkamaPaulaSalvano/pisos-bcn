@@ -1,14 +1,11 @@
 {
-  "sites_read": 113,
+  "sites_read": 115,
   "sites_total": 128,
   "slow": [
     "Cleries Administració",
-    "Grup Solfinc",
     "Fincador",
+    "GUMPER",
     "Fincas San Andrés",
-    "Finques Hosta",
-    "Loca Barcelona",
-    "ShBarcelona",
-    "BarnaPiso"
+    "ShBarcelona"
   ]
 }
