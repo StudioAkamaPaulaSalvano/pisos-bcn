@@ -1,11 +1,15 @@
 {
-  "sites_read": 116,
+  "sites_read": 114,
   "sites_total": 128,
   "slow": [
     "Fincador",
     "GUMPER",
     "Fincas San Andrés",
+    "Finor BCN (Les Corts)",
+    "Fincas Cumbre",
     "Loca Barcelona",
-    "ShBarcelona"
+    "ShBarcelona",
+    "Finques Perramon",
+    "Gala Finques"
   ]
 }
