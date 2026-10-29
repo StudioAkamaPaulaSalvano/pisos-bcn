@@ -1,12 +1,16 @@
 {
-  "sites_read": 115,
+  "sites_read": 112,
   "sites_total": 128,
   "slow": [
     "Cleries Administració",
     "Fincador",
     "GUMPER",
+    "Fincas San Andrés",
+    "Urbefinques",
     "Loca Barcelona",
     "ShBarcelona",
-    "VM3 Fincas"
+    "Atemporal Barcelona",
+    "VM3 Fincas",
+    "aProperties"
   ]
 }
