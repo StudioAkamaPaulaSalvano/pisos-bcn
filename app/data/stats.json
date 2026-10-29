@@ -1,24 +1,15 @@
 {
-  "sites_read": 103,
+  "sites_read": 109,
   "sites_total": 128,
   "slow": [
     "Cleries Administració",
     "Fincador",
-    "Finor BCN",
-    "Chester Estate",
-    "GUMPER",
-    "Gaudí House",
-    "Fincas San Andrés",
-    "Finor BCN (Les Corts)",
-    "Fincas Cumbre",
-    "Loca Barcelona",
-    "ShBarcelona",
-    "Finques Perramon",
-    "Gala Finques",
-    "Finques Giramon",
-    "Ollé Bertran",
-    "Finques Querol",
-    "Tu Piso Nou Barris",
-    "Rentmar"
+    "inmho Barcelona",
+    "Nitia",
+    "Administrador Fincas A3",
+    "Diana Finques",
+    "Finques Vives",
+    "Fincas Layes",
+    "ShBarcelona"
   ]
 }
