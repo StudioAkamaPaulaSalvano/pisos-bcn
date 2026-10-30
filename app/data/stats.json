@@ -1,12 +1,13 @@
 {
-  "sites_read": 111,
+  "sites_read": 112,
   "sites_total": 128,
   "slow": [
     "Fincador",
+    "inmho Barcelona",
     "GUMPER",
     "Loca Barcelona",
+    "Fincas Layes",
     "ShBarcelona",
-    "Carbonell (Admón. Fincas)",
-    "Fincas Azcoitia"
+    "Ferrim Habitat"
   ]
 }
