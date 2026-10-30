@@ -1,16 +1,5 @@
 [
   {
-    "url": "https://barnapiso.com/es/vivienda/propiedad-en-las-cortes-4/",
-    "price": 425,
-    "rooms": null,
-    "kind": "piso",
-    "title": "Propiedad en Les Corts",
-    "img": "https://barnapiso.com/wp-content/uploads/2024/11/1231744428-scaled.jpg",
-    "text": "Propiedad en Les Corts Precio Alquiler: 425 € de San Ramón Nonato m2 construidos habitaciones baños",
-    "agency": "BarnaPiso",
-    "rent_url": "https://barnapiso.com/es/propiedades-disponibles-barcelona/"
-  },
-  {
     "url": "https://inmobiliaria.calvetpremium.com/es/alquiler-pisos-pisos/en-barcelona-barcelona//ref-4172",
     "price": 459,
     "rooms": null,
@@ -163,6 +152,17 @@
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
   {
+    "url": "https://www.locabarcelona.com/en/property/shortterm-rental-property-turo-de-la-peira-ta33mon413/",
+    "price": 998,
+    "rooms": 2,
+    "kind": "piso",
+    "title": "Available now 998€ Charming property in El Turó de la Peira, Barcelona Nou Barris                       . Carrer del Mon",
+    "img": "https://www.locabarcelona.com/wp-content/uploads/2022/11/b74a1e23-d916-4ff0-8acb-828f8ca13aff-1-488x326.jpg",
+    "text": "View Property View Property View Property View Property View Property View Property View Property View Property View Property View Property View Property View Property x Interested",
+    "agency": "Loca Barcelona",
+    "rent_url": "https://www.locabarcelona.com/en/property-feature/features/furnished/"
+  },
+  {
     "url": "https://serviguest.com/inmuebles/doctor-santpoc-sant-andreu/",
     "price": 1000,
     "rooms": 2,
@@ -172,17 +172,6 @@
     "text": "Disponible a partir de 15-01-2028 Doctor Santpoç / Sant Andreu 1000€ € / mes Sant Andreu · Barcelona 2 hab · 50 m2",
     "agency": "Serviguest",
     "rent_url": "https://serviguest.com/alquiler-de-pisos-para-empresas/madrid/"
-  },
-  {
-    "url": "https://barnapiso.com/es/vivienda/propiedad-en-sants-montjuic/",
-    "price": 1000,
-    "rooms": null,
-    "kind": "piso",
-    "title": "Propiedad en Sants-Montjuïc",
-    "img": "https://barnapiso.com/wp-content/uploads/2024/11/989391816.jpg",
-    "text": "Propiedad en Sants-Montjuïc Precio Alquiler: 1000 € de Sugranyes m2 construidos habitaciones baños",
-    "agency": "BarnaPiso",
-    "rent_url": "https://barnapiso.com/es/propiedades-disponibles-barcelona/"
   },
   {
     "url": "https://www.pisos.com/alquilar/piso-sant_pere_santa_caterina_la_ribera08003-68432064852_109200/",
