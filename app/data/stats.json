@@ -1,12 +1,18 @@
 {
-  "sites_read": 111,
+  "sites_read": 108,
   "sites_total": 128,
   "slow": [
+    "Finques Martell",
     "Fincador",
-    "Orfinca",
     "GUMPER",
+    "Fincas San Andrés",
+    "Urbefinques",
     "Loca Barcelona",
     "ShBarcelona",
-    "Gala Finques"
+    "Atemporal Barcelona",
+    "Fincas García",
+    "Carbonell (Admón. Fincas)",
+    "VM3 Fincas",
+    "aProperties"
   ]
 }
