@@ -1,14 +1,11 @@
 {
-  "sites_read": 112,
+  "sites_read": 108,
   "sites_total": 128,
   "slow": [
     "Fincador",
-    "Grup Solfinc",
     "GUMPER",
+    "Loca Barcelona",
     "ShBarcelona",
-    "Finques Falcón",
-    "Fincas Padua",
-    "Coma-Roig",
-    "Vivalco"
+    "Fincas García"
   ]
 }
