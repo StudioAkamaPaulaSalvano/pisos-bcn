@@ -1,13 +1,14 @@
 {
-  "sites_read": 110,
+  "sites_read": 117,
   "sites_total": 128,
   "slow": [
     "Fincador",
+    "inmho Barcelona",
     "GUMPER",
     "Loca Barcelona",
+    "Fincas Layes",
     "ShBarcelona",
-    "Fincas García",
-    "VM3 Fincas",
-    "Inmobiliaria Diagonal Mar"
+    "Carbonell (Admón. Fincas)",
+    "Ferrim Habitat"
   ]
 }
