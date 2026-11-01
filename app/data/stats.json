@@ -1,13 +1,15 @@
 {
-  "sites_read": 110,
+  "sites_read": 114,
   "sites_total": 128,
   "slow": [
-    "BÜNIK home",
     "Fincador",
     "GUMPER",
+    "Fincas San Andrés",
+    "Urbefinques",
     "Loca Barcelona",
     "ShBarcelona",
-    "Fincas García",
-    "Finques Mixoy"
+    "Atemporal Barcelona",
+    "VM3 Fincas",
+    "aProperties"
   ]
 }
