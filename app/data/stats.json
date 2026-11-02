@@ -1,12 +1,11 @@
 {
-  "sites_read": 112,
+  "sites_read": 111,
   "sites_total": 128,
   "slow": [
+    "Finques Martell",
     "Fincador",
+    "Orfinca",
     "GUMPER",
-    "ShBarcelona",
-    "Loca Barcelona",
-    "Fincas García",
-    "Carbonell (Admón. Fincas)"
+    "ShBarcelona"
   ]
 }
