@@ -120,6 +120,17 @@
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
   {
+    "url": "https://www.pisos.com/alquilar/piso-el_fort_pienc08013-69229312083_109800/",
+    "price": 900,
+    "rooms": 2,
+    "kind": "piso",
+    "title": "Piso en Carrer de Sicília, 230",
+    "img": "https://fotos.imghs.net/mm-wp/1098/6086802/1098_1_foto_20261102173650191_69229312083.png",
+    "text": "1 /7 Nuevo 900 € /mes Piso en Carrer de Sicília, 230 El Fort Pienc (Distrito Eixample. Barcelona Capital) 2 habs. 1 baño 55 m² 2ª planta Elegante y cómodo Este apartamento moderno ",
+    "agency": "pisos.com",
+    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
+  },
+  {
     "url": "https://www.pisos.com/alquilar/piso-sants_montjuic_sants08028-68379791586_109200/",
     "price": 950,
     "rooms": null,
