@@ -1,11 +1,26 @@
 {
-  "sites_read": 110,
+  "sites_read": 98,
   "sites_total": 128,
   "slow": [
     "Fincador",
-    "Amat Immobiliaris",
+    "Finor BCN",
+    "Chester Estate",
+    "GUMPER",
+    "Gaudí House",
+    "Finor BCN (Les Corts)",
+    "Fincas Cumbre",
+    "Urbefinques",
     "Loca Barcelona",
-    "DonCasa",
-    "Inmobiliaria Diagonal Mar"
+    "Atemporal Barcelona",
+    "Finques Perramon",
+    "Gala Finques",
+    "Carbonell (Admón. Fincas)",
+    "Finques Giramon",
+    "VM3 Fincas",
+    "Ollé Bertran",
+    "Finques Querol",
+    "Tu Piso Nou Barris",
+    "aProperties",
+    "Rentmar"
   ]
 }
