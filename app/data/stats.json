@@ -1,11 +1,9 @@
 {
-  "sites_read": 110,
+  "sites_read": 113,
   "sites_total": 128,
   "slow": [
+    "Finques Martell",
     "Fincador",
-    "Amat Immobiliaris",
-    "Loca Barcelona",
-    "DonCasa",
-    "Inmobiliaria Diagonal Mar"
+    "GUMPER"
   ]
 }
