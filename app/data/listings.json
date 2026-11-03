@@ -163,6 +163,16 @@
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
   {
+    "url": "https://inmobiliaria.calvetpremium.com/es/alquiler-pisos-pisos/en-barcelona-barcelona//ref-4178",
+    "price": 960,
+    "rooms": 3,
+    "kind": "piso",
+    "title": "Ático en C/ Padilla 3 habitaciones | Ref: 4178",
+    "img": "https://media.mobiliagestion.es/Portals/inmocalvet/Images/4178/29180050-large.jpg",
+    "text": " Ático en C/ Padilla 3 habitaciones | Ref: 4178 PDCookieConsent.config({ \"brand\": { \"dev\" : false, \"name\": \"\", \"url\" : \"\" }, \"cookiePolicyLink\": \"\", \"passList\" : [], \"showBadges\" :",
+    "agency": "Calvet"
+  },
+  {
     "url": "https://www.pisos.com/alquilar/piso-el_parc_la_llacuna_del_poblenou08018-67560404516_531896/",
     "price": 980,
     "rooms": 3,
