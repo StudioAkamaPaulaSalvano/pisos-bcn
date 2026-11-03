@@ -1,13 +1,13 @@
 {
-  "sites_read": 112,
+  "sites_read": 111,
   "sites_total": 128,
   "slow": [
+    "Finques Teixidor",
     "Fincador",
     "Fincas Llúria",
     "GUMPER",
-    "Fincas San Andrés",
-    "Forcadell",
     "Loca Barcelona",
-    "VM3 Fincas"
+    "VM3 Fincas",
+    "Inmobiliaria Diagonal Mar"
   ]
 }
