@@ -1,13 +1,15 @@
 {
-  "sites_read": 112,
+  "sites_read": 110,
   "sites_total": 128,
   "slow": [
-    "Gil Amargós",
-    "Vivendex",
     "Fincador",
     "GUMPER",
     "Fincas San Andrés",
+    "Urbefinques",
+    "Atemporal Barcelona",
     "Loca Barcelona",
-    "Carbonell (Admón. Fincas)"
+    "Carbonell (Admón. Fincas)",
+    "VM3 Fincas",
+    "aProperties"
   ]
 }
