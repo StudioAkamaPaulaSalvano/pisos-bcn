@@ -1,9 +1,12 @@
 {
-  "sites_read": 113,
+  "sites_read": 112,
   "sites_total": 128,
   "slow": [
     "Fincador",
     "GUMPER",
-    "Loca Barcelona"
+    "Loca Barcelona",
+    "Gala Finques",
+    "Carbonell (Admón. Fincas)",
+    "Finques Querol"
   ]
 }
