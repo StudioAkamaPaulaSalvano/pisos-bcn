@@ -1,11 +1,12 @@
 {
-  "sites_read": 112,
+  "sites_read": 113,
   "sites_total": 128,
   "slow": [
     "Fincador",
     "GUMPER",
+    "Finques El Pallars",
     "Fincas San Andrés",
-    "Tecnocasa (red)",
-    "Loca Barcelona"
+    "Loca Barcelona",
+    "Tecnocasa (red)"
   ]
 }
