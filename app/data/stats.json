@@ -1,11 +1,11 @@
 {
-  "sites_read": 111,
+  "sites_read": 112,
   "sites_total": 128,
   "slow": [
-    "Fincas Almendros",
     "GUMPER",
-    "Tecnocasa (red)",
     "Loca Barcelona",
-    "Fincas García"
+    "Tecnocasa (red)",
+    "Fincas García",
+    "VM3 Fincas"
   ]
 }
