@@ -1,24 +1,10 @@
 {
-  "sites_read": 98,
+  "sites_read": 112,
   "sites_total": 128,
   "slow": [
-    "Finor BCN",
-    "Chester Estate",
     "GUMPER",
-    "Gaudí House",
-    "Finor BCN (Les Corts)",
-    "Fincas Cumbre",
-    "Loca Barcelona",
     "Tecnocasa (red)",
-    "Finques Perramon",
-    "Fincas García",
-    "Gala Finques",
-    "Finques Giramon",
-    "Carbonell (Admón. Fincas)",
-    "VM3 Fincas",
-    "Ollé Bertran",
-    "Finques Querol",
-    "Tu Piso Nou Barris",
-    "Rentmar"
+    "Loca Barcelona",
+    "VM3 Fincas"
   ]
 }
