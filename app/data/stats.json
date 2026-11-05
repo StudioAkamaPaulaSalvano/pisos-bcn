@@ -1,13 +1,12 @@
 {
-  "sites_read": 109,
+  "sites_read": 111,
   "sites_total": 128,
   "slow": [
     "Fincador",
+    "Fincas Gràcia (femgracia)",
     "GUMPER",
     "Fincas San Andrés",
     "Loca Barcelona",
-    "Fincas Layes",
-    "Carbonell (Admón. Fincas)",
-    "BCN Living"
+    "VM3 Fincas"
   ]
 }
