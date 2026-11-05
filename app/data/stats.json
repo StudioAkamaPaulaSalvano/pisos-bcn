@@ -1,13 +1,12 @@
 {
-  "sites_read": 110,
+  "sites_read": 111,
   "sites_total": 128,
   "slow": [
     "AFB Finques Gràcia",
     "GUMPER",
-    "Finques Vives",
-    "Loca Barcelona",
     "Tecnocasa (red)",
-    "Masifill (Mas i Fill)",
+    "Loca Barcelona",
+    "Fincas García",
     "VM3 Fincas"
   ]
 }
