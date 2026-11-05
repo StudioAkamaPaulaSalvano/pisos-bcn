@@ -1,11 +1,10 @@
 {
-  "sites_read": 109,
+  "sites_read": 116,
   "sites_total": 128,
   "slow": [
-    "Selekta Properties",
     "GUMPER",
-    "Loca Barcelona",
     "Tecnocasa (red)",
+    "Loca Barcelona",
     "VM3 Fincas"
   ]
 }
