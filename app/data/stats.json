@@ -1,14 +1,22 @@
 {
-  "sites_read": 112,
+  "sites_read": 105,
   "sites_total": 128,
   "slow": [
     "Fincador",
-    "Grup Solfinc",
+    "Finor BCN",
+    "Chester Estate",
     "GUMPER",
+    "Gaudí House",
+    "Finor BCN (Les Corts)",
     "Fincas San Andrés",
+    "Fincas Cumbre",
     "Loca Barcelona",
-    "Finques Falcón",
-    "Coma-Roig",
-    "Carbonell (Admón. Fincas)"
+    "Finques Perramon",
+    "Gala Finques",
+    "Finques Giramon",
+    "Ollé Bertran",
+    "Finques Querol",
+    "Tu Piso Nou Barris",
+    "Rentmar"
   ]
 }
