@@ -1,12 +1,14 @@
 {
-  "sites_read": 110,
+  "sites_read": 109,
   "sites_total": 128,
   "slow": [
+    "Finques Bou",
     "Fincador",
+    "inmho Barcelona",
+    "Orfinca",
     "GUMPER",
     "Fincas San Andrés",
     "Loca Barcelona",
-    "Fincas Layes",
-    "Carbonell (Admón. Fincas)"
+    "Fincas Layes"
   ]
 }
