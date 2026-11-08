@@ -1,14 +1,10 @@
 {
-  "sites_read": 111,
+  "sites_read": 112,
   "sites_total": 128,
   "slow": [
     "Fincador",
-    "Orfinca",
-    "Casc Antic BCN",
     "GUMPER",
     "Fincas San Andrés",
-    "Finques TEBÉ",
-    "Loca Barcelona",
-    "VM3 Fincas"
+    "Loca Barcelona"
   ]
 }
