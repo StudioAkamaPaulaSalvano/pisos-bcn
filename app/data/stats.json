@@ -1,11 +1,13 @@
 {
-  "sites_read": 112,
+  "sites_read": 110,
   "sites_total": 128,
   "slow": [
     "Fincador",
     "GUMPER",
     "Fincas San Andrés",
-    "Punto Habitat",
-    "Loca Barcelona"
+    "Loca Barcelona",
+    "DonCasa",
+    "Inmobiliaria Diagonal Mar",
+    "VM3 Fincas"
   ]
 }
