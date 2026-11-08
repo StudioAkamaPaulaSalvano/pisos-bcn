@@ -1,5 +1,16 @@
 [
   {
+    "url": "https://barnapiso.com/es/vivienda/propiedad-en-las-cortes-4/",
+    "price": 425,
+    "rooms": null,
+    "kind": "piso",
+    "title": "Propiedad en Les Corts",
+    "img": "https://barnapiso.com/wp-content/uploads/2024/11/1231744428-scaled.jpg",
+    "text": "Propiedad en Les Corts Precio Alquiler: 425 € de San Ramón Nonato m2 construidos habitaciones baños",
+    "agency": "BarnaPiso",
+    "rent_url": "https://barnapiso.com/es/propiedades-disponibles-barcelona/"
+  },
+  {
     "url": "https://inmobiliaria.calvetpremium.com/es/alquiler-pisos-pisos/en-barcelona-barcelona//ref-4172",
     "price": 459,
     "rooms": null,
@@ -75,6 +86,17 @@
     "rent_url": "https://www.guinotprunera.com/es/alquiler"
   },
   {
+    "url": "https://www.pisos.com/alquilar/piso-sant_andreu_barrio08030-12553407539_501025/",
+    "price": 765,
+    "rooms": 2,
+    "kind": "piso",
+    "title": "Piso en Carrer de Castellbell",
+    "img": "https://fotos.imghs.net/mm-wp/501025/12553407539.501025/501025_12553407539_13_20210312100331025.jpg",
+    "text": "1 /20 TOP 765 € /mes Piso en Carrer de Castellbell Sant Andreu (Distrito Sant Andreu. Barcelona Capital) 2 habs. 1 baño 48 m² Principal Informacion importante: para visitar esta vi",
+    "agency": "pisos.com",
+    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
+  },
+  {
     "url": "https://inmobiliaria.calvetpremium.com/es/alquiler-pisos-pisos/en-barcelona-barcelona//ref-4177",
     "price": 800,
     "rooms": null,
@@ -96,6 +118,17 @@
     "rent_url": "https://shbarcelona.es/es/alquiler-pisos/larga-estancia"
   },
   {
+    "url": "https://www.pisos.com/alquilar/piso-el_poble_sec08004-68398200063_531896/",
+    "price": 880,
+    "rooms": 2,
+    "kind": "piso",
+    "title": "Piso en El Poble-Sec",
+    "img": "https://fotos.imghs.net/mm-wp/531896/68398200063.531896/531896_68398200063_25027b12-d2b4-4c44-9de9-c0bac23243a9.jpg",
+    "text": "1 /9 Nuevo PREMIUM 880 € /mes Piso en El Poble-Sec El Poble-sec (Distrito Sants-Montjuïc. Barcelona Capital) 2 habs. 1 baño 47 m² 1ª planta Antes de poder agendar una visita al inm",
+    "agency": "pisos.com",
+    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
+  },
+  {
     "url": "https://shbarcelona.es/es/l/la-costa-manacor--2072",
     "price": 884,
     "rooms": 2,
@@ -107,6 +140,72 @@
     "rent_url": "https://shbarcelona.es/es/alquiler-pisos/larga-estancia"
   },
   {
+    "url": "https://www.pisos.com/alquilar/piso-barcelona_capital-68372571310_109200/",
+    "price": 900,
+    "rooms": null,
+    "kind": "piso",
+    "title": "Piso en Barcelona Capital",
+    "img": "https://fotos.imghs.net/mm-wp/1092/3230323631303232/46f618fc-ba85-4984-bb48-3a3cc6fe38b9.jpg",
+    "text": "1 /10 PREMIUM 900 € /mes Piso en Barcelona Capital Barcelona Capital 20 m² Se alquila estudio privado con cocina y baño totalmente equipada y amueblada aire acondicionado llave pri",
+    "agency": "pisos.com",
+    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
+  },
+  {
+    "url": "https://www.pisos.com/alquilar/piso-barcelona_capital-68432910809_109200/",
+    "price": 900,
+    "rooms": null,
+    "kind": "piso",
+    "title": "Piso en Barcelona Capital",
+    "img": "https://fotos.imghs.net/mm-wp/1092/3230323631303232/728e7e7e-7397-46cf-a917-134af3221330.jpg",
+    "text": "1 /8 PREMIUM 900 € /mes Piso en Barcelona Capital Barcelona Capital 23 m² Se alquila estudio privado con cocina y baño totalmente equipada y amueblada aire acondicionado llave priv",
+    "agency": "pisos.com",
+    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
+  },
+  {
+    "url": "https://www.pisos.com/alquilar/piso-el_raval08001-69239589326_109200/",
+    "price": 900,
+    "rooms": null,
+    "kind": "piso",
+    "title": "Piso en El Raval",
+    "img": "https://fotos.imghs.net/mm-wp/1092/3230323631313032/5c79fbde-d2f3-4655-af25-bb34f1057c66.jpg",
+    "text": "1 /10 Nuevo PREMIUM 900 € /mes Piso en El Raval El Raval (Distrito Ciutat Vella. Barcelona Capital) 25 m² Studio apartment in barcelona center good for 1 person or a couple Contact",
+    "agency": "pisos.com",
+    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
+  },
+  {
+    "url": "https://www.pisos.com/alquilar/apartamento-barcelona_capital-69262848124_105600/",
+    "price": 950,
+    "rooms": 2,
+    "kind": "piso",
+    "title": "Apartamento en Barcelona Capital",
+    "img": "https://fotos.imghs.net/mm-wp/1056/3230323631313035/ec664600-87ee-46ce-8da1-6e65408e0b4e.jpg",
+    "text": "1 /8 Nuevo PREMIUM 950 € /mes Apartamento en Barcelona Capital Barcelona Capital 2 habs. 1 baño Piso amueblado en alquiler en les corts, barcelona, con encanto y vigas de madera vi",
+    "agency": "pisos.com",
+    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
+  },
+  {
+    "url": "https://www.pisos.com/alquilar/piso-sants_montjuic_la_bordeta08014-68426801583_109200/",
+    "price": 950,
+    "rooms": null,
+    "kind": "piso",
+    "title": "Piso en La Bordeta",
+    "img": "https://fotos.imghs.net/mm-wp/1092/3230323631313034/a870f03c-3738-48b7-8942-810b0bb86fa5.jpg",
+    "text": "1 /10 PREMIUM 950 € /mes Piso en La Bordeta La Bordeta (Distrito Sants-Montjuïc. Barcelona Capital) 30 m² Se alquila estudio privado con cocina y baño totalmente equipada y amuebla",
+    "agency": "pisos.com",
+    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
+  },
+  {
+    "url": "https://www.pisos.com/alquilar/estudio-el_raval-69190455902_109200/",
+    "price": 959,
+    "rooms": 1,
+    "kind": "piso",
+    "title": "Estudio en Ciutat Vella",
+    "img": "https://fotos.imghs.net/mm-wp/1092/3230323631313033/366e5165-3264-4dc8-b518-b91f8a4a2534.jpg",
+    "text": "1 /15 Nuevo PREMIUM 959 € /mes Estudio en Ciutat Vella El Raval (Distrito Ciutat Vella. Barcelona Capital) 1 hab. 1 baño 55 m² Piso de 60 m² en zona céntrica al lado de calle pelay",
+    "agency": "pisos.com",
+    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
+  },
+  {
     "url": "https://inmobiliaria.calvetpremium.com/es/alquiler-pisos-pisos/en-barcelona-barcelona//ref-4178",
     "price": 960,
     "rooms": 3,
@@ -115,6 +214,17 @@
     "img": "https://media.mobiliagestion.es/Portals/inmocalvet/Images/4178/29180052-large.jpg",
     "text": " Padilla - Roselló | Ref: 4178 PDCookieConsent.config({ \"brand\": { \"dev\" : false, \"name\": \"\", \"url\" : \"\" }, \"cookiePolicyLink\": \"\", \"passList\" : [], \"showBadges\" : true, \"styles\": ",
     "agency": "Calvet"
+  },
+  {
+    "url": "https://www.pisos.com/alquilar/piso-el_parc_la_llacuna_del_poblenou08018-67560404516_531896/",
+    "price": 980,
+    "rooms": 3,
+    "kind": "piso",
+    "title": "Piso en Carrer de Pujades",
+    "img": "https://fotos.imghs.net/mm-wp/531896/67560404516.531896/531896_67560404516_34f34ec3-e48e-4fd8-8336-e8fd391860c4.jpg",
+    "text": "1 /10 PREMIUM 980 € /mes Piso en Carrer de Pujades El Parc-La Llacuna del Poblenou (Distrito Sant Martí. Barcelona Capital) 3 habs. 1 baño 62 m² 2ª planta El piso se encuentra en m",
+    "agency": "pisos.com",
+    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
   {
     "url": "https://serviguest.com/inmuebles/doctor-santpoc-sant-andreu/",
@@ -128,6 +238,28 @@
     "rent_url": "https://serviguest.com/alquiler-de-pisos-para-empresas/madrid/"
   },
   {
+    "url": "https://barnapiso.com/es/vivienda/propiedad-en-sants-montjuic/",
+    "price": 1000,
+    "rooms": null,
+    "kind": "piso",
+    "title": "Propiedad en Sants-Montjuïc",
+    "img": "https://barnapiso.com/wp-content/uploads/2024/11/989391816.jpg",
+    "text": "Propiedad en Sants-Montjuïc Precio Alquiler: 1000 € de Sugranyes m2 construidos habitaciones baños",
+    "agency": "BarnaPiso",
+    "rent_url": "https://barnapiso.com/es/propiedades-disponibles-barcelona/"
+  },
+  {
+    "url": "https://www.pisos.com/alquilar/piso-sant_pere_santa_caterina_la_ribera08003-68432064852_109200/",
+    "price": 1000,
+    "rooms": null,
+    "kind": "piso",
+    "title": "Piso en Sant Pere-Santa Caterina-La Ribera",
+    "img": "https://fotos.imghs.net/mm-wp/1092/3230323631313034/8445a7a4-e62a-45c3-8281-f8b6c15796e6.jpg",
+    "text": "1 /10 Nuevo PREMIUM 1.000 € /mes Piso en Sant Pere-Santa Caterina-La Ribera Sant Pere-Santa Caterina-La Ribera (Distrito Ciutat Vella. Barcelona Capital) 25 m² 🌟 super central cozy",
+    "agency": "pisos.com",
+    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
+  },
+  {
     "url": "https://inmobiliaria.calvetpremium.com/es/alquiler-pisos-pisos/en-barcelona-barcelona//ref-4168",
     "price": 1000,
     "rooms": null,
@@ -138,6 +270,17 @@
     "agency": "Calvet"
   },
   {
+    "url": "https://www.pisos.com/alquilar/piso-antiga_esquerra_de_eixample-69225364663_109200/",
+    "price": 1004,
+    "rooms": 1,
+    "kind": "piso",
+    "title": "Piso en Eixample",
+    "img": "https://fotos.imghs.net/mm-wp/1092/3230323631313034/60d6b4e5-71be-4925-8ae0-bab43164f2f0.jpg",
+    "text": "1 /12 Nuevo PREMIUM 1.004 € /mes Piso en Eixample L'Antiga Esquerra de l'Eixample (Distrito Eixample. Barcelona Capital) 1 hab. 1 baño 64 m² 1ª planta Piso enfrente del hospital cl",
+    "agency": "pisos.com",
+    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
+  },
+  {
     "url": "https://inmobiliaria.calvetpremium.com/es/alquiler-pisos-pisos/en-barcelona-barcelona//ref-4173",
     "price": 1019,
     "rooms": 2,
@@ -146,6 +289,28 @@
     "img": "https://media.mobiliagestion.es/Portals/inmocalvet/Images/4173/29113203-large.jpg",
     "text": " Consell de Cent - Passeig Sant Joan | Ref: 4173 PDCookieConsent.config({ \"brand\": { \"dev\" : false, \"name\": \"\", \"url\" : \"\" }, \"cookiePolicyLink\": \"\", \"passList\" : [], \"showBadges\" ",
     "agency": "Calvet"
+  },
+  {
+    "url": "https://www.pisos.com/alquilar/piso-la_vila_de_gracia08006-69175493021_109200/",
+    "price": 1030,
+    "rooms": null,
+    "kind": "piso",
+    "title": "Piso en La Vila de Gràcia",
+    "img": "https://fotos.imghs.net/mm-wp/1092/3230323631313034/99ad7e98-d24f-4528-8287-50a764740aa3.jpg",
+    "text": "1 /10 Nuevo PREMIUM 1.030 € /mes Piso en La Vila de Gràcia La Vila de Gràcia (Distrito Gràcia. Barcelona Capital) 25 m² 🌟 small studio in prime location in barcelona! 🌟 Welcome to ",
+    "agency": "pisos.com",
+    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
+  },
+  {
+    "url": "https://www.pisos.com/alquilar/piso-el_raval08001-68421953326_109200/",
+    "price": 1050,
+    "rooms": null,
+    "kind": "piso",
+    "title": "Piso en El Raval",
+    "img": "https://fotos.imghs.net/mm-wp/1092/3230323631303330/8b7f1279-ece0-4ac6-9d80-634c7085f31f.jpg",
+    "text": "1 /10 PREMIUM 1.050 € /mes Piso en El Raval El Raval (Distrito Ciutat Vella. Barcelona Capital) 27 m² ✨🏡 modern apartment in barcelona! This is a studio loft with a kitchen and bat",
+    "agency": "pisos.com",
+    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
   {
     "url": "https://www.locabarcelona.com/en/property/wonderful-studio-fully-renovated/",
@@ -159,6 +324,17 @@
     "rent_url": "https://www.locabarcelona.com/en/property-feature/features/furnished/"
   },
   {
+    "url": "https://www.pisos.com/alquilar/casa-el_besos_el_maresme08019-55847835456_109200/",
+    "price": 1085,
+    "rooms": null,
+    "kind": "piso",
+    "title": "Casa en El Besòs-El Maresme",
+    "img": "https://fotos.imghs.net/mm-wp/1092/3230323631303036/dbeb8ed4-be0b-4ecb-a2fa-e144c3874896.jpg",
+    "text": "1 /10 PREMIUM 1.085 € /mes Casa en El Besòs-El Maresme El Besòs-El Maresme (Distrito Sant Martí. Barcelona Capital) 🎓 student residence in barcelona with pool and gym!! 🏋️‍♂️🏊‍♀️ U",
+    "agency": "pisos.com",
+    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
+  },
+  {
     "url": "https://toysanfinques.com/es/inmuebles/piso-en-alquiler-en-calle-de-deu-i-mata/",
     "price": 1100,
     "rooms": 1,
@@ -168,5 +344,16 @@
     "text": "alquiler 1.100 €/mes Piso en alquiler en calle Déu i Mata Barcelona · Les Corts 60 m 2 1 hab. 1 baño",
     "agency": "Toysan Finques",
     "rent_url": "https://toysanfinques.com/es/inmuebles/?transaction_type=lloguer&property__type=property"
+  },
+  {
+    "url": "https://www.pisos.com/alquilar/piso-el_raval08001-68431085211_109200/",
+    "price": 1100,
+    "rooms": 1,
+    "kind": "piso",
+    "title": "Piso en El Raval",
+    "img": "https://fotos.imghs.net/mm-wp/1092/3230323631303232/ef23e540-ce51-4f4f-93c4-5668fb58036b.jpg",
+    "text": "1 /10 DESTACADO 1.100 € /mes Piso en El Raval El Raval (Distrito Ciutat Vella. Barcelona Capital) 37 m² Ideal para estudiantes: Apartamento de 1 dormitorio totalmente equipado y cé",
+    "agency": "pisos.com",
+    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   }
 ]
