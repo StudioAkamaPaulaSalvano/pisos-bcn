@@ -1,12 +1,11 @@
 {
-  "sites_read": 108,
+  "sites_read": 112,
   "sites_total": 128,
   "slow": [
     "Fincador",
     "GUMPER",
     "Fincas San Andrés",
-    "Finques Vives",
-    "Punto Habitat",
-    "Loca Barcelona"
+    "Loca Barcelona",
+    "Punto Habitat"
   ]
 }
