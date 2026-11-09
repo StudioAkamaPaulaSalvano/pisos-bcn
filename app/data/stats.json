@@ -1,12 +1,13 @@
 {
-  "sites_read": 111,
+  "sites_read": 109,
   "sites_total": 128,
   "slow": [
     "Fincador",
     "GUMPER",
+    "Finques Hosta",
     "Fincas San Andrés",
     "Loca Barcelona",
-    "Fincas García",
-    "Montehu Finques"
+    "Montehu Finques",
+    "BarnaPiso"
   ]
 }
