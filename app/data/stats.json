@@ -1,14 +1,16 @@
 {
-  "sites_read": 110,
+  "sites_read": 114,
   "sites_total": 128,
   "slow": [
     "Fincador",
+    "inmho Barcelona",
     "GUMPER",
     "Fincas San Andrés",
+    "Finques Hosta",
     "Loca Barcelona",
+    "Fincas García",
     "Fincas Layes",
-    "DonCasa",
-    "Inmobiliaria Diagonal Mar",
-    "Montehu Finques"
+    "Ferrim Habitat",
+    "BarnaPiso"
   ]
 }
