@@ -1,10 +1,13 @@
 {
-  "sites_read": 112,
+  "sites_read": 109,
   "sites_total": 128,
   "slow": [
+    "Finques Martell",
+    "Finques Bou",
+    "Vivendex",
     "Fincador",
     "GUMPER",
-    "Punto Habitat",
+    "Fincas San Andrés",
     "Loca Barcelona"
   ]
 }
