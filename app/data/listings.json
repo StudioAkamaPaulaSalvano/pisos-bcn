@@ -64,17 +64,6 @@
     "rent_url": "https://shbarcelona.es/es/alquiler-pisos/larga-estancia"
   },
   {
-    "url": "https://www.pisos.com/alquilar/piso-sant_andreu_barrio08030-12553407539_501025/",
-    "price": 765,
-    "rooms": 2,
-    "kind": "piso",
-    "title": "Piso en Carrer de Castellbell",
-    "img": "https://fotos.imghs.net/mm-wp/501025/12553407539.501025/501025_12553407539_13_20210312100331025.jpg",
-    "text": "1 /20 Nuevo TOP Exclusivo 765 € /mes Piso en Carrer de Castellbell Sant Andreu (Distrito Sant Andreu. Barcelona Capital) 2 habs. 1 baño 48 m² Principal Informacion importante: para",
-    "agency": "pisos.com",
-    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
-  },
-  {
     "url": "https://www.pisos.com/alquilar/piso-antiga_esquerra_de_eixample08036-69188566930_109800/",
     "price": 850,
     "rooms": 2,
@@ -141,28 +130,6 @@
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
   {
-    "url": "https://www.pisos.com/alquilar/apartamento-barcelona_capital-69262848124_105600/",
-    "price": 950,
-    "rooms": 2,
-    "kind": "piso",
-    "title": "Apartamento en Barcelona Capital",
-    "img": "https://fotos.imghs.net/mm-wp/1056/3230323631313035/ec664600-87ee-46ce-8da1-6e65408e0b4e.jpg",
-    "text": "1 /8 Nuevo DESTACADO 950 € /mes Apartamento en Barcelona Capital Barcelona Capital 2 habs. 1 baño Piso amueblado en alquiler en les corts, barcelona, con encanto y vigas de madera ",
-    "agency": "pisos.com",
-    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
-  },
-  {
-    "url": "https://www.pisos.com/alquilar/piso-sants_montjuic_la_bordeta08014-68426801583_109200/",
-    "price": 950,
-    "rooms": null,
-    "kind": "piso",
-    "title": "Piso en La Bordeta",
-    "img": "https://fotos.imghs.net/mm-wp/1092/3230323631313034/a870f03c-3738-48b7-8942-810b0bb86fa5.jpg",
-    "text": "1 /10 DESTACADO 950 € /mes Piso en La Bordeta La Bordeta (Distrito Sants-Montjuïc. Barcelona Capital) 30 m² Se alquila estudio privado con cocina y baño totalmente equipada y amueb",
-    "agency": "pisos.com",
-    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
-  },
-  {
     "url": "https://www.pisos.com/alquilar/piso-sants_montjuic_la_bordeta08014-68424205485_109200/",
     "price": 950,
     "rooms": null,
@@ -207,17 +174,6 @@
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
   {
-    "url": "https://www.pisos.com/alquilar/piso-la_vila_de_gracia08006-69175493021_109200/",
-    "price": 1030,
-    "rooms": null,
-    "kind": "piso",
-    "title": "Piso en La Vila de Gràcia",
-    "img": "https://fotos.imghs.net/mm-wp/1092/3230323631313034/99ad7e98-d24f-4528-8287-50a764740aa3.jpg",
-    "text": "1 /10 Nuevo DESTACADO 1.030 € /mes Piso en La Vila de Gràcia La Vila de Gràcia (Distrito Gràcia. Barcelona Capital) 25 m² 🌟 small studio in prime location in barcelona! 🌟 Welcome t",
-    "agency": "pisos.com",
-    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
-  },
-  {
     "url": "https://www.pisos.com/alquilar/piso-el_raval08001-68421953326_109200/",
     "price": 1050,
     "rooms": null,
@@ -238,17 +194,6 @@
     "text": "Alquiler JOVELLANOS BARCELONA-Alquiler-000595/1 El Raval 30 m 2 1 hab. 1 baños 1.063€",
     "agency": "Finques Martell",
     "rent_url": "https://finquesmartell.com/inmuebles"
-  },
-  {
-    "url": "https://www.locabarcelona.com/en/property/wonderful-studio-fully-renovated/",
-    "price": 1074,
-    "rooms": 1,
-    "kind": "piso",
-    "title": "Available now 1.074€ Wonderful loft fully renovated Poble Nou                       . C. de Pere IV - Metro Poblenou Pro",
-    "img": "https://www.locabarcelona.com/wp-content/uploads/2022/03/f78052e1-5f5b-4718-8cfe-fbbaec65d32c-488x326.jpg",
-    "text": "View Property View Property View Property View Property View Property View Property View Property View Property View Property View Property View Property View Property View Propert",
-    "agency": "Loca Barcelona",
-    "rent_url": "https://www.locabarcelona.com/en/property-feature/features/furnished/"
   },
   {
     "url": "https://www.pisos.com/alquilar/casa-el_besos_el_maresme08019-55847835456_109200/",
