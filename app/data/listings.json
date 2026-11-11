@@ -80,7 +80,7 @@
     "kind": "piso",
     "title": "Piso en Carrer de Castellbell",
     "img": "https://fotos.imghs.net/mm-wp/501025/12553407539.501025/501025_12553407539_13_20210312100331025.jpg",
-    "text": "1 /20 TOP Exclusivo 765 € /mes Piso en Carrer de Castellbell Sant Andreu (Distrito Sant Andreu. Barcelona Capital) 2 habs. 1 baño 48 m² Principal Informacion importante: para visit",
+    "text": "1 /20 Nuevo TOP Exclusivo 765 € /mes Piso en Carrer de Castellbell Sant Andreu (Distrito Sant Andreu. Barcelona Capital) 2 habs. 1 baño 48 m² Principal Informacion importante: para",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
@@ -139,6 +139,17 @@
     "rent_url": "https://shbarcelona.es/es/alquiler-pisos/larga-estancia"
   },
   {
+    "url": "https://masifill.com/property/pisos-la-dreta-de-leixample/",
+    "price": 889,
+    "rooms": null,
+    "kind": "piso",
+    "title": "Pisos – Sarrià",
+    "img": "https://masifill.com/wp-content/uploads/propiedad-5886-18-385x258.jpg",
+    "text": "Llogar 889€ Llogar Pisos – Sarrià Sarrià 08021, Barcelona Habitacions: 2 Bath: 1 : 48 Pisos 8 hores ago 889€ Detalls Habitacions: 2 Bath: 1 : 48 Pisos Detalls 8 hores ago Comprar 4",
+    "agency": "Masifill (Mas i Fill)",
+    "rent_url": "https://masifill.com/property/lloguer-placa-daparcament-per-cotxe-petit-a-leixample-dreta-barcelona/"
+  },
+  {
     "url": "https://www.pisos.com/alquilar/piso-barcelona_capital-68372571310_109200/",
     "price": 900,
     "rooms": null,
@@ -161,6 +172,17 @@
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
   {
+    "url": "https://www.pisos.com/alquilar/apartamento-barcelona_capital-69262848124_105600/",
+    "price": 950,
+    "rooms": 2,
+    "kind": "piso",
+    "title": "Apartamento en Barcelona Capital",
+    "img": "https://fotos.imghs.net/mm-wp/1056/3230323631313035/ec664600-87ee-46ce-8da1-6e65408e0b4e.jpg",
+    "text": "1 /8 Nuevo DESTACADO 950 € /mes Apartamento en Barcelona Capital Barcelona Capital 2 habs. 1 baño Piso amueblado en alquiler en les corts, barcelona, con encanto y vigas de madera ",
+    "agency": "pisos.com",
+    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
+  },
+  {
     "url": "https://www.pisos.com/alquilar/piso-sants_montjuic_la_bordeta08014-68426801583_109200/",
     "price": 950,
     "rooms": null,
@@ -168,17 +190,6 @@
     "title": "Piso en La Bordeta",
     "img": "https://fotos.imghs.net/mm-wp/1092/3230323631313034/a870f03c-3738-48b7-8942-810b0bb86fa5.jpg",
     "text": "1 /10 DESTACADO 950 € /mes Piso en La Bordeta La Bordeta (Distrito Sants-Montjuïc. Barcelona Capital) 30 m² Se alquila estudio privado con cocina y baño totalmente equipada y amueb",
-    "agency": "pisos.com",
-    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
-  },
-  {
-    "url": "https://www.pisos.com/alquilar/apartamento-barcelona_capital-69262848124_105600/",
-    "price": 950,
-    "rooms": 2,
-    "kind": "piso",
-    "title": "Apartamento en Barcelona Capital",
-    "img": "https://fotos.imghs.net/mm-wp/1056/3230323631313035/ec664600-87ee-46ce-8da1-6e65408e0b4e.jpg",
-    "text": "1 /8 Nuevo PREMIUM 950 € /mes Apartamento en Barcelona Capital Barcelona Capital 2 habs. 1 baño Piso amueblado en alquiler en les corts, barcelona, con encanto y vigas de madera vi",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
@@ -232,7 +243,7 @@
     "kind": "piso",
     "title": "Piso en Sant Pere-Santa Caterina-La Ribera",
     "img": "https://fotos.imghs.net/mm-wp/1092/3230323631313034/8445a7a4-e62a-45c3-8281-f8b6c15796e6.jpg",
-    "text": "1 /10 Nuevo PREMIUM 1.000 € /mes Piso en Sant Pere-Santa Caterina-La Ribera Sant Pere-Santa Caterina-La Ribera (Distrito Ciutat Vella. Barcelona Capital) 25 m² 🌟 super central cozy",
+    "text": "1 /10 PREMIUM 1.000 € /mes Piso en Sant Pere-Santa Caterina-La Ribera Sant Pere-Santa Caterina-La Ribera (Distrito Ciutat Vella. Barcelona Capital) 25 m² 🌟 super central cozy studi",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
@@ -311,6 +322,17 @@
     "text": "alquiler 1.100 €/mes Piso en alquiler en calle Déu i Mata Barcelona · Les Corts 60 m 2 1 hab. 1 baño",
     "agency": "Toysan Finques",
     "rent_url": "https://toysanfinques.com/es/inmuebles/?transaction_type=lloguer&property__type=property"
+  },
+  {
+    "url": "https://www.pisos.com/alquilar/piso-sant_pere_santa_caterina_la_ribera08003-69233238991_109200/",
+    "price": 1100,
+    "rooms": null,
+    "kind": "piso",
+    "title": "Piso en Sant Pere-Santa Caterina-La Ribera",
+    "img": "https://fotos.imghs.net/mm-wp/1092/3230323631313131/d0bdca09-0d5a-4c08-a60b-7a2b1993dc28.jpg",
+    "text": "1 /10 Nuevo PREMIUM 1.100 € /mes Piso en Sant Pere-Santa Caterina-La Ribera Sant Pere-Santa Caterina-La Ribera (Distrito Ciutat Vella. Barcelona Capital) 22 m² Furnished one-bedroo",
+    "agency": "pisos.com",
+    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
   {
     "url": "https://www.pisos.com/alquilar/piso-el_raval08001-68431085211_109200/",
