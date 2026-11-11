@@ -52,17 +52,6 @@
     "agency": "Calvet"
   },
   {
-    "url": "https://www.finquesmarba.com/ca/nova-llei-habitatge-espana/",
-    "price": 720,
-    "rooms": null,
-    "kind": "piso",
-    "title": "Llista de propietats",
-    "img": "https://www.finquesmarba.com/wp-content/uploads/2026/02/10544133_8-1-600x400.jpg",
-    "text": "Llista de propietats Les Tres Torres, Barcelona € 720 41.3962748 2.12730042 https://www.finquesmarba.com/wp-content/uploads/2026/02/10544133_8-1-150x100.jpg https://www.finquesmarb",
-    "agency": "Finques Marbá",
-    "rent_url": "https://www.finquesmarba.com/ca/lloguer"
-  },
-  {
     "url": "https://shbarcelona.es/es/l/tres-senyores-torrent-de-les-flor-precio-iva--19812",
     "price": 750,
     "rooms": null,
@@ -246,16 +235,6 @@
     "text": "1 /10 PREMIUM 1.000 € /mes Piso en Sant Pere-Santa Caterina-La Ribera Sant Pere-Santa Caterina-La Ribera (Distrito Ciutat Vella. Barcelona Capital) 25 m² 🌟 super central cozy studi",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
-  },
-  {
-    "url": "https://inmobiliaria.calvetpremium.com/es/alquiler-pisos-pisos/en-barcelona-barcelona//ref-4168",
-    "price": 1000,
-    "rooms": null,
-    "kind": "piso",
-    "title": "Santa Creu - Constitució | Ref: 4168",
-    "img": "https://media.mobiliagestion.es/Portals/inmocalvet/Images/4168/28897421-large.jpg",
-    "text": " Santa Creu - Constitució | Ref: 4168 PDCookieConsent.config({ \"brand\": { \"dev\" : false, \"name\": \"\", \"url\" : \"\" }, \"cookiePolicyLink\": \"\", \"passList\" : [], \"showBadges\" : true, \"st",
-    "agency": "Calvet"
   },
   {
     "url": "https://www.pisos.com/alquilar/piso-la_vila_de_gracia08006-69175493021_109200/",
