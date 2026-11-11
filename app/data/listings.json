@@ -74,17 +74,6 @@
     "rent_url": "https://shbarcelona.es/es/alquiler-pisos/larga-estancia"
   },
   {
-    "url": "https://www.pisos.com/alquilar/piso-sant_andreu_barrio08030-12553407539_501025/",
-    "price": 765,
-    "rooms": 2,
-    "kind": "piso",
-    "title": "Piso en Carrer de Castellbell",
-    "img": "https://fotos.imghs.net/mm-wp/501025/12553407539.501025/501025_12553407539_13_20210312100331025.jpg",
-    "text": "1 /20 Nuevo TOP Exclusivo 765 € /mes Piso en Carrer de Castellbell Sant Andreu (Distrito Sant Andreu. Barcelona Capital) 2 habs. 1 baño 48 m² Principal Informacion importante: para",
-    "agency": "pisos.com",
-    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
-  },
-  {
     "url": "https://inmobiliaria.calvetpremium.com/es/alquiler-pisos-pisos/en-barcelona-barcelona//ref-4177",
     "price": 800,
     "rooms": null,
@@ -161,28 +150,6 @@
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
   {
-    "url": "https://www.pisos.com/alquilar/apartamento-barcelona_capital-69262848124_105600/",
-    "price": 950,
-    "rooms": 2,
-    "kind": "piso",
-    "title": "Apartamento en Barcelona Capital",
-    "img": "https://fotos.imghs.net/mm-wp/1056/3230323631313035/ec664600-87ee-46ce-8da1-6e65408e0b4e.jpg",
-    "text": "1 /8 Nuevo DESTACADO 950 € /mes Apartamento en Barcelona Capital Barcelona Capital 2 habs. 1 baño Piso amueblado en alquiler en les corts, barcelona, con encanto y vigas de madera ",
-    "agency": "pisos.com",
-    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
-  },
-  {
-    "url": "https://www.pisos.com/alquilar/piso-sants_montjuic_la_bordeta08014-68426801583_109200/",
-    "price": 950,
-    "rooms": null,
-    "kind": "piso",
-    "title": "Piso en La Bordeta",
-    "img": "https://fotos.imghs.net/mm-wp/1092/3230323631313034/a870f03c-3738-48b7-8942-810b0bb86fa5.jpg",
-    "text": "1 /10 DESTACADO 950 € /mes Piso en La Bordeta La Bordeta (Distrito Sants-Montjuïc. Barcelona Capital) 30 m² Se alquila estudio privado con cocina y baño totalmente equipada y amueb",
-    "agency": "pisos.com",
-    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
-  },
-  {
     "url": "https://www.pisos.com/alquilar/piso-sants_montjuic_la_bordeta08014-68424205485_109200/",
     "price": 950,
     "rooms": null,
@@ -237,17 +204,6 @@
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
   {
-    "url": "https://www.pisos.com/alquilar/piso-la_vila_de_gracia08006-69175493021_109200/",
-    "price": 1030,
-    "rooms": null,
-    "kind": "piso",
-    "title": "Piso en La Vila de Gràcia",
-    "img": "https://fotos.imghs.net/mm-wp/1092/3230323631313034/99ad7e98-d24f-4528-8287-50a764740aa3.jpg",
-    "text": "1 /10 Nuevo DESTACADO 1.030 € /mes Piso en La Vila de Gràcia La Vila de Gràcia (Distrito Gràcia. Barcelona Capital) 25 m² 🌟 small studio in prime location in barcelona! 🌟 Welcome t",
-    "agency": "pisos.com",
-    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
-  },
-  {
     "url": "https://www.pisos.com/alquilar/piso-el_raval08001-68421953326_109200/",
     "price": 1050,
     "rooms": null,
@@ -290,6 +246,17 @@
     "text": "Alquiler de Larga Estancia Disponible a partir de: 05/12/2026 Av. República Argentina - Pg Sant Gervasi Sarrià-Sant Gervasi | Barcelona | REF 231P762RAR54 55m² · 2 Habitaciones · 1",
     "agency": "ShBarcelona",
     "rent_url": "https://shbarcelona.es/es/alquiler-pisos/larga-estancia"
+  },
+  {
+    "url": "https://www.locabarcelona.com/en/property/apartment-raval-barcelona-ta32rie807/",
+    "price": 1095,
+    "rooms": 1,
+    "kind": "piso",
+    "title": "Available now 1.095€ Cozy furnished apartment in the heart of Raval, Barcelona Raval                       . Carrer de l",
+    "img": "https://www.locabarcelona.com/wp-content/uploads/2025/08/1080b2dd-066f-4356-8734-9c76c9430015-3-488x326.jpg",
+    "text": "View Property View Property View Property View Property View Property View Property View Property View Property View Property View Property View Property View Property View Propert",
+    "agency": "Loca Barcelona",
+    "rent_url": "https://www.locabarcelona.com/en/property-feature/features/furnished/"
   },
   {
     "url": "https://toysanfinques.com/es/inmuebles/piso-en-alquiler-en-calle-de-deu-i-mata/",
