@@ -139,17 +139,6 @@
     "rent_url": "https://shbarcelona.es/es/alquiler-pisos/larga-estancia"
   },
   {
-    "url": "https://masifill.com/property/aparcamientos-eixample-dreta/",
-    "price": 889,
-    "rooms": null,
-    "kind": "piso",
-    "title": "Pisos – Sarrià",
-    "img": "https://masifill.com/wp-content/uploads/propiedad-5886-18-385x258.jpg",
-    "text": "Llogar 889€ Llogar Pisos – Sarrià Sarrià 08021, Barcelona Habitacions: 2 Bath: 1 : 48 Pisos 12 hores ago 889€ Detalls Habitacions: 2 Bath: 1 : 48 Pisos Detalls 12 hores ago Comprar",
-    "agency": "Masifill (Mas i Fill)",
-    "rent_url": "https://masifill.com/alquiler"
-  },
-  {
     "url": "https://www.pisos.com/alquilar/piso-barcelona_capital-68372571310_109200/",
     "price": 900,
     "rooms": null,
@@ -301,6 +290,17 @@
     "text": "Alquiler de Larga Estancia Disponible a partir de: 05/12/2026 Av. República Argentina - Pg Sant Gervasi Sarrià-Sant Gervasi | Barcelona | REF 231P762RAR54 55m² · 2 Habitaciones · 1",
     "agency": "ShBarcelona",
     "rent_url": "https://shbarcelona.es/es/alquiler-pisos/larga-estancia"
+  },
+  {
+    "url": "https://www.locabarcelona.com/en/property/apartment-raval-barcelona-ta32rie807/",
+    "price": 1095,
+    "rooms": 1,
+    "kind": "piso",
+    "title": "Available now 1.095€ Cozy furnished apartment in the heart of Raval, Barcelona Raval                       . Carrer de l",
+    "img": "https://www.locabarcelona.com/wp-content/uploads/2025/08/1080b2dd-066f-4356-8734-9c76c9430015-3-488x326.jpg",
+    "text": "View Property View Property View Property View Property View Property View Property View Property View Property View Property View Property View Property View Property View Propert",
+    "agency": "Loca Barcelona",
+    "rent_url": "https://www.locabarcelona.com/en/property-feature/features/furnished/"
   },
   {
     "url": "https://toysanfinques.com/es/inmuebles/piso-en-alquiler-en-calle-de-deu-i-mata/",
