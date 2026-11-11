@@ -11,17 +11,6 @@
     "rent_url": "https://barnapiso.com/es/propiedades-disponibles-barcelona/"
   },
   {
-    "url": "https://masifill.com/property/pisos-el-raval/",
-    "price": 427,
-    "rooms": null,
-    "kind": "piso",
-    "title": "Pisos – Sarrià",
-    "img": "https://masifill.com/wp-content/uploads/propiedad-5920-2-385x258.jpg",
-    "text": "Llogar 1,427€ Llogar Pisos – Sarrià Sarrià 08022, Barcelona Habitacions: 2 Banys: 2 : 75 Pisos 8 hores ago 1,427€ Detalls Habitacions: 2 Banys: 2 : 75 Pisos Detalls 8 hores ago Com",
-    "agency": "Masifill (Mas i Fill)",
-    "rent_url": "https://masifill.com/lloguer"
-  },
-  {
     "url": "https://inmobiliaria.calvetpremium.com/es/alquiler-pisos-pisos/en-barcelona-barcelona//ref-4184",
     "price": 459,
     "rooms": null,
@@ -161,17 +150,6 @@
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
   {
-    "url": "https://www.pisos.com/alquilar/piso-barcelona_capital-68432910809_109200/",
-    "price": 900,
-    "rooms": null,
-    "kind": "piso",
-    "title": "Piso en Barcelona Capital",
-    "img": "https://fotos.imghs.net/mm-wp/1092/3230323631303232/728e7e7e-7397-46cf-a917-134af3221330.jpg",
-    "text": "1 /8 PREMIUM 900 € /mes Piso en Barcelona Capital Barcelona Capital 23 m² Se alquila estudio privado con cocina y baño totalmente equipada y amueblada aire acondicionado llave priv",
-    "agency": "pisos.com",
-    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
-  },
-  {
     "url": "https://www.pisos.com/alquilar/piso-el_raval08001-69239589326_109200/",
     "price": 900,
     "rooms": null,
@@ -183,6 +161,17 @@
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
   {
+    "url": "https://www.pisos.com/alquilar/piso-sants_montjuic_la_bordeta08014-68426801583_109200/",
+    "price": 950,
+    "rooms": null,
+    "kind": "piso",
+    "title": "Piso en La Bordeta",
+    "img": "https://fotos.imghs.net/mm-wp/1092/3230323631313034/a870f03c-3738-48b7-8942-810b0bb86fa5.jpg",
+    "text": "1 /10 DESTACADO 950 € /mes Piso en La Bordeta La Bordeta (Distrito Sants-Montjuïc. Barcelona Capital) 30 m² Se alquila estudio privado con cocina y baño totalmente equipada y amueb",
+    "agency": "pisos.com",
+    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
+  },
+  {
     "url": "https://www.pisos.com/alquilar/apartamento-barcelona_capital-69262848124_105600/",
     "price": 950,
     "rooms": 2,
@@ -190,17 +179,6 @@
     "title": "Apartamento en Barcelona Capital",
     "img": "https://fotos.imghs.net/mm-wp/1056/3230323631313035/ec664600-87ee-46ce-8da1-6e65408e0b4e.jpg",
     "text": "1 /8 Nuevo PREMIUM 950 € /mes Apartamento en Barcelona Capital Barcelona Capital 2 habs. 1 baño Piso amueblado en alquiler en les corts, barcelona, con encanto y vigas de madera vi",
-    "agency": "pisos.com",
-    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
-  },
-  {
-    "url": "https://www.pisos.com/alquilar/piso-sants_montjuic_la_bordeta08014-68426801583_109200/",
-    "price": 950,
-    "rooms": null,
-    "kind": "piso",
-    "title": "Piso en La Bordeta",
-    "img": "https://fotos.imghs.net/mm-wp/1092/3230323631313034/a870f03c-3738-48b7-8942-810b0bb86fa5.jpg",
-    "text": "1 /10 PREMIUM 950 € /mes Piso en La Bordeta La Bordeta (Distrito Sants-Montjuïc. Barcelona Capital) 30 m² Se alquila estudio privado con cocina y baño totalmente equipada y amuebla",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
@@ -275,7 +253,7 @@
     "kind": "piso",
     "title": "Piso en La Vila de Gràcia",
     "img": "https://fotos.imghs.net/mm-wp/1092/3230323631313034/99ad7e98-d24f-4528-8287-50a764740aa3.jpg",
-    "text": "1 /10 Nuevo PREMIUM 1.030 € /mes Piso en La Vila de Gràcia La Vila de Gràcia (Distrito Gràcia. Barcelona Capital) 25 m² 🌟 small studio in prime location in barcelona! 🌟 Welcome to ",
+    "text": "1 /10 Nuevo DESTACADO 1.030 € /mes Piso en La Vila de Gràcia La Vila de Gràcia (Distrito Gràcia. Barcelona Capital) 25 m² 🌟 small studio in prime location in barcelona! 🌟 Welcome t",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
