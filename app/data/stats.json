@@ -1,16 +1,10 @@
 {
-  "sites_read": 112,
+  "sites_read": 113,
   "sites_total": 128,
   "slow": [
     "Fincador",
-    "inmho Barcelona",
-    "Orfinca",
     "GUMPER",
     "Fincas San Andrés",
-    "Finques TEBÉ",
-    "Loca Barcelona",
-    "Fincas Layes",
-    "Carbonell (Admón. Fincas)",
-    "Ferrim Habitat"
+    "Loca Barcelona"
   ]
 }
