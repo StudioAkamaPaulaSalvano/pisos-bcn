@@ -11,6 +11,17 @@
     "rent_url": "https://barnapiso.com/es/propiedades-disponibles-barcelona/"
   },
   {
+    "url": "https://masifill.com/property/pis-reformat-per-a-entrar-a-viure-gran-via-cantabria/",
+    "price": 427,
+    "rooms": null,
+    "kind": "piso",
+    "title": "Pisos – Sarrià",
+    "img": "https://masifill.com/wp-content/uploads/propiedad-5920-2-385x258.jpg",
+    "text": "Llogar 1,427€ Llogar Pisos – Sarrià Sarrià 08022, Barcelona Habitacions: 2 Banys: 2 : 75 Pisos 19 hores ago 1,427€ Detalls Habitacions: 2 Banys: 2 : 75 Pisos Detalls 19 hores ago C",
+    "agency": "Masifill (Mas i Fill)",
+    "rent_url": "https://masifill.com/lloguer"
+  },
+  {
     "url": "https://inmobiliaria.calvetpremium.com/es/alquiler-pisos-pisos/en-barcelona-barcelona//ref-4184",
     "price": 459,
     "rooms": null,
@@ -146,17 +157,6 @@
     "title": "Estudio en Carrer de Casanova",
     "img": "https://fotos.imghs.net/mm-wp/530867/63382254620.530867/530867_63382254620_9c9ce48c-0b49-47ef-8643-0ed44fab3256.jpg",
     "text": "1 /4 PREMIUM 820 € /mes Estudio en Carrer de Casanova Sant Antoni (Distrito Eixample. Barcelona Capital) 1 baño 33 m² Ubicado en la calle casanova, en el barrio de l’antiga esquerr",
-    "agency": "pisos.com",
-    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
-  },
-  {
-    "url": "https://www.pisos.com/alquilar/piso-sant_genis_dels_agudells08035-69178195005_417500/",
-    "price": 850,
-    "rooms": 2,
-    "kind": "piso",
-    "title": "Piso en Carrer de Sidó",
-    "img": "https://fotos.imghs.net/mm-wp/4175/69178195005.417500/4175_69178195005_defb6fcc-2178-4dcc-a4a1-dca7663cf502.jpg",
-    "text": "1 /16 Nuevo PREMIUM 850 € /mes Piso en Carrer de Sidó Sant Genís dels Agudells (Distrito Horta-Guinardó. Barcelona Capital) 2 habs. 1 baño 65 m² Subsótano A-dins 1964 servicios inm",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
