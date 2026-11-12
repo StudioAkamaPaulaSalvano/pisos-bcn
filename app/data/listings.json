@@ -11,6 +11,17 @@
     "rent_url": "https://barnapiso.com/es/propiedades-disponibles-barcelona/"
   },
   {
+    "url": "https://masifill.com/es/property/pisos-el-raval/",
+    "price": 427,
+    "rooms": 2,
+    "kind": "piso",
+    "title": "Pisos – Sarrià",
+    "img": "https://masifill.com/wp-content/uploads/propiedad-5920-2-150x110.jpg",
+    "text": "Pisos – Sarrià 1,427€ 2 Habitaciones • 2 Baños • 75 Pisos Pisos – Sarrià 889€ 2 Habitaciones • 1 bañera • 48 Pisos Pisos – Sarrià 395,000€ 2 Habitaciones • 1 bañera • 61 Pisos Piso",
+    "agency": "Masifill (Mas i Fill)",
+    "rent_url": "https://masifill.com/es/alquiler"
+  },
+  {
     "url": "https://inmobiliaria.calvetpremium.com/es/alquiler-pisos-pisos/en-barcelona-barcelona//ref-4184",
     "price": 459,
     "rooms": null,
