@@ -1,16 +1,12 @@
 {
-  "sites_read": 112,
+  "sites_read": 113,
   "sites_total": 128,
   "slow": [
     "Fincador",
-    "inmho Barcelona",
     "GUMPER",
     "Fincas San Andrés",
-    "Fincas Layes",
     "Loca Barcelona",
-    "Finques Giramon",
     "Carbonell (Admón. Fincas)",
-    "VM3 Fincas",
-    "Ferrim Habitat"
+    "VM3 Fincas"
   ]
 }
