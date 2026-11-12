@@ -1,13 +1,11 @@
 {
-  "sites_read": 111,
+  "sites_read": 112,
   "sites_total": 128,
   "slow": [
     "Fincador",
-    "Orfinca",
+    "Guinot Prunera",
     "GUMPER",
     "Fincas San Andrés",
-    "Finques El Pallars",
-    "Loca Barcelona",
-    "VM3 Fincas"
+    "Loca Barcelona"
   ]
 }
