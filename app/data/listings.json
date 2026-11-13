@@ -11,17 +11,6 @@
     "rent_url": "https://barnapiso.com/es/propiedades-disponibles-barcelona/"
   },
   {
-    "url": "https://masifill.com/property/pis-reformat-per-a-entrar-a-viure-gran-via-cantabria/",
-    "price": 427,
-    "rooms": null,
-    "kind": "piso",
-    "title": "Pisos – Sarrià",
-    "img": "https://masifill.com/wp-content/uploads/propiedad-5920-2-385x258.jpg",
-    "text": "Llogar 1,427€ Llogar Pisos – Sarrià Sarrià 08022, Barcelona Habitacions: 2 Banys: 2 : 75 Pisos 7 hores ago 1,427€ Detalls Habitacions: 2 Banys: 2 : 75 Pisos Detalls 7 hores ago Com",
-    "agency": "Masifill (Mas i Fill)",
-    "rent_url": "https://masifill.com/lloguer"
-  },
-  {
     "url": "https://inmobiliaria.calvetpremium.com/es/alquiler-pisos-pisos/en-barcelona-barcelona//ref-4184",
     "price": 459,
     "rooms": null,
@@ -170,6 +159,17 @@
     "text": "1 /9 PREMIUM 880 € /mes Piso en El Poble-Sec El Poble-sec (Distrito Sants-Montjuïc. Barcelona Capital) 2 habs. 1 baño 47 m² 1ª planta Antes de poder agendar una visita al inmueble,",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
+  },
+  {
+    "url": "https://masifill.com/property/pis-reformat-per-a-entrar-a-viure-gran-via-cantabria/",
+    "price": 889,
+    "rooms": null,
+    "kind": "piso",
+    "title": "Pisos – Sarrià",
+    "img": "https://masifill.com/wp-content/uploads/propiedad-5886-18-385x258.jpg",
+    "text": "Llogar 889€ Llogar Pisos – Sarrià Sarrià 08021, Barcelona Habitacions: 2 Bath: 1 : 48 Pisos 7 hores ago 889€ Detalls Habitacions: 2 Bath: 1 : 48 Pisos Detalls 7 hores ago Comprar 3",
+    "agency": "Masifill (Mas i Fill)",
+    "rent_url": "https://masifill.com/alquiler"
   },
   {
     "url": "https://www.pisos.com/alquilar/piso-el_fort_pienc-69226151863_106500/",
