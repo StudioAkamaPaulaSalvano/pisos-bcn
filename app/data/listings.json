@@ -11,17 +11,6 @@
     "rent_url": "https://barnapiso.com/es/propiedades-disponibles-barcelona/"
   },
   {
-    "url": "https://masifill.com/property/pis-reformat-per-a-entrar-a-viure-gran-via-cantabria/",
-    "price": 427,
-    "rooms": null,
-    "kind": "piso",
-    "title": "Pisos – Sarrià",
-    "img": "https://masifill.com/wp-content/uploads/propiedad-5920-2-385x258.jpg",
-    "text": "Llogar 1,427€ Llogar Pisos – Sarrià Sarrià 08022, Barcelona Habitacions: 2 Banys: 2 : 75 Pisos 20 hores ago 1,427€ Detalls Habitacions: 2 Banys: 2 : 75 Pisos Detalls 20 hores ago C",
-    "agency": "Masifill (Mas i Fill)",
-    "rent_url": "https://masifill.com/alquiler"
-  },
-  {
     "url": "https://inmobiliaria.calvetpremium.com/es/alquiler-pisos-pisos/en-barcelona-barcelona//ref-4184",
     "price": 459,
     "rooms": null,
@@ -357,17 +346,6 @@
     "text": "Alquiler de Larga Estancia Disponible a partir de: 05/12/2026 Av. República Argentina - Pg Sant Gervasi Sarrià-Sant Gervasi | Barcelona | REF 231P762RAR54 55m² · 2 Habitaciones · 1",
     "agency": "ShBarcelona",
     "rent_url": "https://shbarcelona.es/es/alquiler-pisos/larga-estancia"
-  },
-  {
-    "url": "https://toysanfinques.com/es/inmuebles/piso-en-alquiler-en-calle-de-deu-i-mata/",
-    "price": 1100,
-    "rooms": 1,
-    "kind": "piso",
-    "title": "+ info",
-    "img": "https://toysanfinques.com/wp-content/uploads/2023/12/4.jpg",
-    "text": "alquiler 1.100 €/mes Piso en alquiler en calle Déu i Mata Barcelona · Les Corts 60 m 2 1 hab. 1 baño",
-    "agency": "Toysan Finques",
-    "rent_url": "https://toysanfinques.com/es/inmuebles/?transaction_type=lloguer&property__type=property"
   },
   {
     "url": "https://www.pisos.com/alquilar/atico-el_raval08001-64249106130_530867/",
