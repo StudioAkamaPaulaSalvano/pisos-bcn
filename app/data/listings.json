@@ -11,17 +11,6 @@
     "rent_url": "https://barnapiso.com/es/propiedades-disponibles-barcelona/"
   },
   {
-    "url": "https://masifill.com/property/pisos-el-raval/",
-    "price": 427,
-    "rooms": null,
-    "kind": "piso",
-    "title": "Pisos – Sarrià",
-    "img": "https://masifill.com/wp-content/uploads/propiedad-5920-2-385x258.jpg",
-    "text": "Llogar 1,427€ Llogar Pisos – Sarrià Sarrià 08022, Barcelona Habitacions: 2 Banys: 2 : 75 Pisos 22 hores ago 1,427€ Detalls Habitacions: 2 Banys: 2 : 75 Pisos Detalls 22 hores ago C",
-    "agency": "Masifill (Mas i Fill)",
-    "rent_url": "https://masifill.com/alquiler"
-  },
-  {
     "url": "https://inmobiliaria.calvetpremium.com/es/alquiler-pisos-pisos/en-barcelona-barcelona//ref-4184",
     "price": 459,
     "rooms": null,
@@ -103,7 +92,7 @@
     "kind": "piso",
     "title": "Piso en Carrer de Castellbell",
     "img": "https://fotos.imghs.net/mm-wp/501025/12553407539.501025/501025_12553407539_13_20210312100331025.jpg",
-    "text": "1 /20 TOP Exclusivo 765 € /mes Piso en Carrer de Castellbell Sant Andreu (Distrito Sant Andreu. Barcelona Capital) 2 habs. 1 baño 48 m² 1ª planta Informacion importante: para visit",
+    "text": "1 /20 Nuevo TOP Exclusivo 765 € /mes Piso en Carrer de Castellbell Sant Andreu (Distrito Sant Andreu. Barcelona Capital) 2 habs. 1 baño 48 m² 1ª planta Informacion importante: para",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
@@ -193,6 +182,17 @@
     "text": "Alquiler de Larga Estancia Disponible a partir de: 01/12/2026 La Costa - Manacor Sarrià-Sant Gervasi | Barcelona | REF 232P95CL41 60m² · 2 Habitaciones · 1 Baños · Ascensor 884 € /",
     "agency": "ShBarcelona",
     "rent_url": "https://shbarcelona.es/es/alquiler-pisos/larga-estancia"
+  },
+  {
+    "url": "https://masifill.com/property/pis-reformat-per-a-entrar-a-viure-gran-via-cantabria/",
+    "price": 889,
+    "rooms": null,
+    "kind": "piso",
+    "title": "Pisos – Sarrià",
+    "img": "https://masifill.com/wp-content/uploads/propiedad-5886-18-385x258.jpg",
+    "text": "Llogar 889€ Llogar Pisos – Sarrià Sarrià 08021, Barcelona Habitacions: 2 Bath: 1 : 48 Pisos 22 hores ago 889€ Detalls Habitacions: 2 Bath: 1 : 48 Pisos Detalls 22 hores ago Comprar",
+    "agency": "Masifill (Mas i Fill)",
+    "rent_url": "https://masifill.com/lloguer"
   },
   {
     "url": "https://www.pisos.com/alquilar/piso-el_fort_pienc-69226151863_106500/",
@@ -324,6 +324,17 @@
     "text": "Alquiler JOVELLANOS BARCELONA-Alquiler-000595/1 El Raval 30 m 2 1 hab. 1 baños 1.063€",
     "agency": "Finques Martell",
     "rent_url": "https://finquesmartell.com/inmuebles"
+  },
+  {
+    "url": "https://www.locabarcelona.com/en/property/wonderful-studio-fully-renovated/",
+    "price": 1074,
+    "rooms": 1,
+    "kind": "piso",
+    "title": "Available now 1.074€ Wonderful loft fully renovated Poble Nou                       . C. de Pere IV - Metro Poblenou Pro",
+    "img": "https://www.locabarcelona.com/wp-content/uploads/2022/03/f78052e1-5f5b-4718-8cfe-fbbaec65d32c-488x326.jpg",
+    "text": "View Property View Property View Property View Property View Property View Property View Property View Property View Property View Property View Property View Property View Propert",
+    "agency": "Loca Barcelona",
+    "rent_url": "https://www.locabarcelona.com/en/property-feature/features/furnished/"
   },
   {
     "url": "https://www.pisos.com/alquilar/casa-el_besos_el_maresme08019-55847835456_109200/",
