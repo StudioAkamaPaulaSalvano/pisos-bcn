@@ -1,12 +1,23 @@
 {
-  "sites_read": 112,
+  "sites_read": 100,
   "sites_total": 128,
   "slow": [
-    "Vivendex",
     "Fincador",
+    "Vivendex",
+    "Finor BCN",
+    "Chester Estate",
     "GUMPER",
+    "Gaudí House",
+    "Finor BCN (Les Corts)",
     "Fincas San Andrés",
+    "Fincas Cumbre",
     "Loca Barcelona",
-    "Carbonell (Admón. Fincas)"
+    "Finques Perramon",
+    "Gala Finques",
+    "Finques Giramon",
+    "Ollé Bertran",
+    "Finques Querol",
+    "Tu Piso Nou Barris",
+    "Rentmar"
   ]
 }
