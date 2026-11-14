@@ -162,17 +162,6 @@
     "rent_url": "https://shbarcelona.es/es/alquiler-pisos/larga-estancia"
   },
   {
-    "url": "https://masifill.com/property/pisos-la-dreta-de-leixample/",
-    "price": 889,
-    "rooms": null,
-    "kind": "piso",
-    "title": "Pisos – Sarrià",
-    "img": "https://masifill.com/wp-content/uploads/propiedad-5886-18-385x258.jpg",
-    "text": "Llogar 889€ Llogar Pisos – Sarrià Sarrià 08021, Barcelona Habitacions: 2 Bath: 1 : 48 Pisos 5 hores ago 889€ Detalls Habitacions: 2 Bath: 1 : 48 Pisos Detalls 5 hores ago Comprar 4",
-    "agency": "Masifill (Mas i Fill)",
-    "rent_url": "https://masifill.com/ca/lloguer"
-  },
-  {
     "url": "https://www.pisos.com/alquilar/piso-el_fort_pienc-69226151863_106500/",
     "price": 900,
     "rooms": 1,
@@ -291,17 +280,6 @@
     "text": "1 /10 PREMIUM 1.050 € /mes Piso en El Raval El Raval (Distrito Ciutat Vella. Barcelona Capital) 27 m² ✨🏡 modern apartment in barcelona! This is a studio loft with a kitchen and bat",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
-  },
-  {
-    "url": "https://finquesmartell.com/immoble/jovellanos-barcelona-alquiler-000595-1/",
-    "price": 1063,
-    "rooms": 1,
-    "kind": "piso",
-    "title": "JOVELLANOS BARCELONA-Alquiler-000595/1",
-    "img": "https://finquesmartell.com/wp-content/uploads/2026/11/martell-595-46-1.jpg",
-    "text": "Alquiler JOVELLANOS BARCELONA-Alquiler-000595/1 El Raval 30 m 2 1 hab. 1 baños 1.063€",
-    "agency": "Finques Martell",
-    "rent_url": "https://finquesmartell.com/inmuebles"
   },
   {
     "url": "https://www.pisos.com/alquilar/casa-el_besos_el_maresme08019-55847835456_109200/",
