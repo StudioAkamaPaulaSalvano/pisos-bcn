@@ -1,11 +1,14 @@
 {
-  "sites_read": 111,
+  "sites_read": 115,
   "sites_total": 128,
   "slow": [
-    "Fincador",
     "Vivendex",
+    "Fincador",
     "GUMPER",
     "Fincas San Andrés",
-    "Loca Barcelona"
+    "Loca Barcelona",
+    "Fincas García",
+    "Carbonell (Admón. Fincas)",
+    "Fincas Azcoitia"
   ]
 }
