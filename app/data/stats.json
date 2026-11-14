@@ -1,11 +1,15 @@
 {
-  "sites_read": 112,
+  "sites_read": 111,
   "sites_total": 128,
   "slow": [
     "Fincador",
     "Vivendex",
+    "inmho Barcelona",
+    "Orfinca",
     "GUMPER",
     "Fincas San Andrés",
-    "Loca Barcelona"
+    "Loca Barcelona",
+    "Fincas Layes",
+    "Ferrim Habitat"
   ]
 }
