@@ -326,17 +326,6 @@
     "rent_url": "https://shbarcelona.es/es/alquiler-pisos/larga-estancia"
   },
   {
-    "url": "https://www.locabarcelona.com/en/property/wonderful-studio-fully-renovated/",
-    "price": 1074,
-    "rooms": 1,
-    "kind": "piso",
-    "title": "Available now 1.074€ Wonderful loft fully renovated Poble Nou                       . C. de Pere IV - Metro Poblenou Pro",
-    "img": "https://www.locabarcelona.com/wp-content/uploads/2022/03/f78052e1-5f5b-4718-8cfe-fbbaec65d32c-488x326.jpg",
-    "text": "View Property View Property View Property View Property View Property View Property View Property View Property View Property View Property View Property View Property View Propert",
-    "agency": "Loca Barcelona",
-    "rent_url": "https://www.locabarcelona.com/en/property-feature/features/furnished/"
-  },
-  {
     "url": "https://www.pisos.com/alquilar/casa-el_besos_el_maresme08019-55847835456_109200/",
     "price": 1085,
     "rooms": null,
@@ -357,6 +346,17 @@
     "text": "Alquiler de Larga Estancia Disponible a partir de: 05/12/2026 Av. República Argentina - Pg Sant Gervasi Sarrià-Sant Gervasi | Barcelona | REF 231P762RAR54 55m² · 2 Habitaciones · 1",
     "agency": "ShBarcelona",
     "rent_url": "https://shbarcelona.es/es/alquiler-pisos/larga-estancia"
+  },
+  {
+    "url": "https://www.locabarcelona.com/en/property/apartment-raval-barcelona-ta32rie807/",
+    "price": 1095,
+    "rooms": 1,
+    "kind": "piso",
+    "title": "Available now 1.095€ Cozy furnished apartment in the heart of Raval, Barcelona Raval                       . Carrer de l",
+    "img": "https://www.locabarcelona.com/wp-content/uploads/2025/08/1080b2dd-066f-4356-8734-9c76c9430015-3-488x326.jpg",
+    "text": "View Property View Property View Property View Property View Property View Property View Property View Property View Property View Property View Property View Property View Propert",
+    "agency": "Loca Barcelona",
+    "rent_url": "https://www.locabarcelona.com/en/property-feature/features/furnished/"
   },
   {
     "url": "https://toysanfinques.com/es/inmuebles/piso-en-alquiler-en-calle-de-deu-i-mata/",
