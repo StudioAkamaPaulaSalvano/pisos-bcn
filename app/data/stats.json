@@ -1,16 +1,11 @@
 {
-  "sites_read": 113,
+  "sites_read": 111,
   "sites_total": 128,
   "slow": [
+    "Gil Amargós",
     "Fincador",
-    "inmho Barcelona",
+    "Selekta Properties",
     "GUMPER",
-    "Fincas San Andrés",
-    "Finques TEBÉ",
-    "Loca Barcelona",
-    "Fincas Layes",
-    "Fincas García",
-    "Carbonell (Admón. Fincas)",
-    "Ferrim Habitat"
+    "Loca Barcelona"
   ]
 }
