@@ -1,17 +1,9 @@
 {
-  "sites_read": 112,
+  "sites_read": 116,
   "sites_total": 128,
   "slow": [
-    "Gil Amargós",
-    "Selekta Properties",
     "Fincador",
-    "ImmoBarceló",
-    "Immobiliària Sant Martí",
-    "GUMPER",
     "Fincas San Andrés",
-    "Loca Barcelona",
-    "Finques Gassiot",
-    "BCN Living",
-    "InmoGràcia"
+    "Loca Barcelona"
   ]
 }
