@@ -11,6 +11,17 @@
     "rent_url": "https://barnapiso.com/es/propiedades-disponibles-barcelona/"
   },
   {
+    "url": "https://masifill.com/property/pisos-el-raval/",
+    "price": 427,
+    "rooms": null,
+    "kind": "piso",
+    "title": "Pisos – Sarrià",
+    "img": "https://masifill.com/wp-content/uploads/propiedad-5920-2-385x258.jpg",
+    "text": "Llogar 1,427€ Llogar Pisos – Sarrià Sarrià 08022, Barcelona Habitacions: 2 Banys: 2 : 75 Pisos 16 hores ago 1,427€ Detalls Habitacions: 2 Banys: 2 : 75 Pisos Detalls 16 hores ago C",
+    "agency": "Masifill (Mas i Fill)",
+    "rent_url": "https://masifill.com/lloguer"
+  },
+  {
     "url": "https://inmobiliaria.calvetpremium.com/es/alquiler-pisos-pisos/en-barcelona-barcelona//ref-4184",
     "price": 459,
     "rooms": null,
@@ -159,7 +170,7 @@
     "img": "https://masifill.com/wp-content/uploads/propiedad-5886-18-150x110.jpg",
     "text": "Pisos – Sarrià 889€ 2 Habitacions • 1 bath • 48 Pisos Pisos – Sarrià 1,427€ 2 Habitacions • 2 Banys • 75 Pisos Pis reformat per a entrar a viure (Gran Via/Cantàbria). 305,000€ 3 Ha",
     "agency": "Masifill (Mas i Fill)",
-    "rent_url": "https://masifill.com/alquiler"
+    "rent_url": "https://masifill.com/lloguer"
   },
   {
     "url": "https://www.pisos.com/alquilar/piso-el_fort_pienc-69226151863_106500/",
