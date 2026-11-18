@@ -1,14 +1,13 @@
 {
-  "sites_read": 110,
+  "sites_read": 111,
   "sites_total": 128,
   "slow": [
     "Fincador",
+    "Kasa Inmobiliaria",
     "GUMPER",
     "Fincas San Andrés",
-    "Urbefinques",
     "Loca Barcelona",
-    "Atemporal Barcelona",
-    "VM3 Fincas",
-    "aProperties"
+    "Finques Catalonia",
+    "VM3 Fincas"
   ]
 }
