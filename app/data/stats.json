@@ -1,5 +1,5 @@
 {
-  "sites_read": 110,
+  "sites_read": 113,
   "sites_total": 128,
   "slow": [
     "Fincas Ubiergo",
@@ -7,7 +7,11 @@
     "GUMPER",
     "Fincas Gilser",
     "Fincas San Andrés",
+    "Urbefinques",
     "Loca Barcelona",
-    "Masifill (Mas i Fill)"
+    "Atemporal Barcelona",
+    "Carbonell (Admón. Fincas)",
+    "VM3 Fincas",
+    "aProperties"
   ]
 }
