@@ -11,17 +11,6 @@
     "rent_url": "https://barnapiso.com/es/propiedades-disponibles-barcelona/"
   },
   {
-    "url": "https://masifill.com/property/pis-reformat-per-a-entrar-a-viure-gran-via-cantabria/",
-    "price": 427,
-    "rooms": null,
-    "kind": "piso",
-    "title": "Pisos – Sarrià",
-    "img": "https://masifill.com/wp-content/uploads/propiedad-5920-2-385x258.jpg",
-    "text": "Llogar 1,427€ Llogar Pisos – Sarrià Sarrià 08022, Barcelona Habitacions: 2 Banys: 2 : 75 Pisos 15 hores ago 1,427€ Detalls Habitacions: 2 Banys: 2 : 75 Pisos Detalls 15 hores ago C",
-    "agency": "Masifill (Mas i Fill)",
-    "rent_url": "https://masifill.com/ca/lloguer"
-  },
-  {
     "url": "https://inmobiliaria.calvetpremium.com/es/alquiler-pisos-pisos/en-barcelona-barcelona//ref-4184",
     "price": 459,
     "rooms": null,
@@ -184,17 +173,6 @@
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
   {
-    "url": "https://www.pisos.com/alquilar/piso-barcelona_capital-68432910809_109200/",
-    "price": 900,
-    "rooms": null,
-    "kind": "piso",
-    "title": "Piso en Barcelona Capital",
-    "img": "https://fotos.imghs.net/mm-wp/1092/3230323631303232/728e7e7e-7397-46cf-a917-134af3221330.jpg",
-    "text": "1 /8 PREMIUM 900 € /mes Piso en Barcelona Capital Barcelona Capital 23 m² Se alquila estudio privado con cocina y baño totalmente equipada y amueblada aire acondicionado llave priv",
-    "agency": "pisos.com",
-    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
-  },
-  {
     "url": "https://www.pisos.com/alquilar/piso-el_raval08001-69239589326_109200/",
     "price": 900,
     "rooms": null,
@@ -261,13 +239,13 @@
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
   {
-    "url": "https://www.pisos.com/alquilar/piso-sants_montjuic_la_bordeta08014-68426801583_109200/",
-    "price": 950,
-    "rooms": null,
+    "url": "https://www.pisos.com/alquilar/piso-el_raval-69265739915_101300/",
+    "price": 972,
+    "rooms": 2,
     "kind": "piso",
-    "title": "Piso en La Bordeta",
-    "img": "https://fotos.imghs.net/mm-wp/1092/3230323631303232/5e8ae1f7-3b2d-4398-a9e4-883735dd3cfb.jpg",
-    "text": "1 /10 PREMIUM 950 € /mes Piso en La Bordeta La Bordeta (Distrito Sants-Montjuïc. Barcelona Capital) 30 m² Se alquila estudio privado con cocina y baño totalmente equipada y amuebla",
+    "title": "Piso en Rambla Rambla",
+    "img": "https://fotos.imghs.net/mm-wp/1013/3230323631313133/27531f99-5768-40ed-bd5d-6194e2f3a33e.jpg",
+    "text": "1 /19 Nuevo PREMIUM 972 € /mes Piso en Rambla Rambla El Raval (Distrito Ciutat Vella. Barcelona Capital) 2 habs. 1 baño 50 m² ¡Descubre tu nuevo hogar en el corazón de barcelona! E",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
@@ -290,17 +268,6 @@
     "title": "Piso en Carrer de Pujades",
     "img": "https://fotos.imghs.net/mm-wp/531896/67560404516.531896/531896_67560404516_34f34ec3-e48e-4fd8-8336-e8fd391860c4.jpg",
     "text": "1 /10 PREMIUM 980 € /mes Piso en Carrer de Pujades El Parc-La Llacuna del Poblenou (Distrito Sant Martí. Barcelona Capital) 3 habs. 1 baño 62 m² 2ª planta El piso se encuentra en m",
-    "agency": "pisos.com",
-    "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
-  },
-  {
-    "url": "https://www.pisos.com/alquilar/estudio-sant_pere_santa_caterina_la_ribera08003-69190678270_104700/",
-    "price": 990,
-    "rooms": 1,
-    "kind": "piso",
-    "title": "Estudio en Carrer dels Cotoners, 14",
-    "img": "https://fotos.imghs.net/mm-wp/1047/3230323631313033/eb75e3bf-c395-4118-b02d-6f213706bcde.jpg",
-    "text": "1 /14 PREMIUM 990 € /mes Estudio en Carrer dels Cotoners, 14 Sant Pere-Santa Caterina-La Ribera (Distrito Ciutat Vella. Barcelona Capital) 1 hab. 1 baño 32 m² Id: 123050 Alquiler t",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
