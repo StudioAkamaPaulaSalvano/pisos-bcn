@@ -1,12 +1,12 @@
 {
-  "sites_read": 118,
+  "sites_read": 110,
   "sites_total": 128,
   "slow": [
     "Fincador",
+    "Casc Antic BCN",
+    "GUMPER",
     "Fincas San Andrés",
-    "Forcadell",
     "Loca Barcelona",
-    "Finques TEBÉ",
     "Finques Catalonia"
   ]
 }
