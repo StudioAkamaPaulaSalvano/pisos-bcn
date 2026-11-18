@@ -1,13 +1,12 @@
 {
-  "sites_read": 110,
+  "sites_read": 111,
   "sites_total": 128,
   "slow": [
     "Fincas Ubiergo",
     "Fincador",
-    "Orfinca",
     "GUMPER",
-    "Fincas San Andrés",
     "Fincas Gilser",
+    "Fincas San Andrés",
     "Loca Barcelona"
   ]
 }
