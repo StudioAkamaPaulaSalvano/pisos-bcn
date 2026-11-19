@@ -183,6 +183,28 @@
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
   },
   {
+    "url": "https://www.guinotprunera.com/ca/lloguer/ref-33797",
+    "price": 910,
+    "rooms": null,
+    "kind": "piso",
+    "title": "Camp d'En Grassot i Gràcia Nova",
+    "img": "https://media.mobiliagestion.es/Portals/inmoguinotprunera/Images/33797/30385530.jpg",
+    "text": "20261119 33797 Pis Camp d'En Grassot i Gràcia Nova 910 €/mes 47 1 1 Pis d'un dormitori exterior al carrer, amb ampli saló-menjador i cuina americana integrada. Disposa de bany comp",
+    "agency": "Guinot Prunera",
+    "rent_url": "https://www.guinotprunera.com/ca/lloguer"
+  },
+  {
+    "url": "https://www.guinotprunera.com/ca/lloguer/ref-33530",
+    "price": 910,
+    "rooms": 1,
+    "kind": "piso",
+    "title": "Ref 33530",
+    "img": "https://media.mobiliagestion.es/Portals/inmoguinotprunera/Images/33797/30385530.jpg",
+    "text": "20261119 33797 Pis Camp d'En Grassot i Gràcia Nova 910 €/mes 47 1 1 Pis d'un dormitori exterior al carrer, amb ampli saló-menjador i cuina americana integrada. Disposa de bany comp",
+    "agency": "Guinot Prunera",
+    "rent_url": "https://www.guinotprunera.com/ca/lloguer"
+  },
+  {
     "url": "https://www.pisos.com/alquilar/piso-la_dreta_de_eixample08009-69214924357_109800/",
     "price": 925,
     "rooms": 2,
