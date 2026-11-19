@@ -1,5 +1,16 @@
 [
   {
+    "url": "https://barnapiso.com/es/vivienda/propiedad-en-las-cortes-4/",
+    "price": 425,
+    "rooms": null,
+    "kind": "piso",
+    "title": "Propiedad en Les Corts",
+    "img": "https://barnapiso.com/wp-content/uploads/2024/11/1231744428-scaled.jpg",
+    "text": "Propiedad en Les Corts Precio Alquiler: 425 € de San Ramón Nonato m2 construidos habitaciones baños",
+    "agency": "BarnaPiso",
+    "rent_url": "https://barnapiso.com/es/propiedades-disponibles-barcelona/"
+  },
+  {
     "url": "https://inmobiliaria.calvetpremium.com/es/alquiler-pisos-pisos/en-barcelona-barcelona//ref-4184",
     "price": 459,
     "rooms": null,
@@ -62,6 +73,17 @@
     "text": "1 /6 PREMIUM 750 € /mes Piso en Carrer de Pelai El Raval (Distrito Ciutat Vella. Barcelona Capital) 1 hab. 1 baño 42 m² 7ª planta Ubicado en finca con ascensor y situado en la 7ª p",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
+  },
+  {
+    "url": "https://serviguest.com/inmuebles/estudio-en-pleno-barrio-gotico-1170/",
+    "price": 757,
+    "rooms": 1,
+    "kind": "piso",
+    "title": "Argenter/ Estudio en Gótico",
+    "img": "https://serviguest.com/wp-content/uploads/2024/08/foto1-1-1024x680.jpg",
+    "text": "Disponible a partir de 15-12-2026 Argenter/ Estudio en Gótico 757 € / mes Sant Pere i Santa Caterina · Barcelona 1 hab · 30 m2",
+    "agency": "Serviguest",
+    "rent_url": "https://serviguest.com/alquiler-temporal-barcelona-2/"
   },
   {
     "url": "https://www.pisos.com/alquilar/piso-el_barri_gotic08002-63431472689_530867/",
@@ -148,7 +170,7 @@
     "img": "https://masifill.com/wp-content/uploads/propiedad-5886-18-385x258.jpg",
     "text": "Llogar 889€ Llogar Pisos – Sarrià Sarrià 08021, Barcelona Habitacions: 2 Bath: 1 : 48 Pisos 17 hores ago 889€ Detalls Habitacions: 2 Bath: 1 : 48 Pisos Detalls 17 hores ago Comprar",
     "agency": "Masifill (Mas i Fill)",
-    "rent_url": "https://masifill.com/alquiler"
+    "rent_url": "https://masifill.com/ca/lloguer"
   },
   {
     "url": "https://www.pisos.com/alquilar/piso-barcelona_capital-68372571310_109200/",
@@ -204,6 +226,17 @@
     "text": "1 /10 PREMIUM 980 € /mes Piso en Carrer de Pujades El Parc-La Llacuna del Poblenou (Distrito Sant Martí. Barcelona Capital) 3 habs. 1 baño 62 m² 2ª planta El piso se encuentra en m",
     "agency": "pisos.com",
     "rent_url": "https://www.pisos.com/alquiler/pisos-barcelona_capital/hasta-1200-euros/"
+  },
+  {
+    "url": "https://barnapiso.com/es/vivienda/propiedad-en-sants-montjuic/",
+    "price": 1000,
+    "rooms": null,
+    "kind": "piso",
+    "title": "Propiedad en Sants-Montjuïc",
+    "img": "https://barnapiso.com/wp-content/uploads/2024/11/989391816.jpg",
+    "text": "Propiedad en Sants-Montjuïc Precio Alquiler: 1000 € de Sugranyes m2 construidos habitaciones baños",
+    "agency": "BarnaPiso",
+    "rent_url": "https://barnapiso.com/es/propiedades-disponibles-barcelona/"
   },
   {
     "url": "https://inmobiliaria.calvetpremium.com/es/alquiler-pisos-pisos/en-barcelona-barcelona//ref-4168",
